@@ -48,6 +48,7 @@ pip install -r requirements.txt
 # Copy and edit the environment file
 cp env.example .env
 # Add your DeepSeek API key to .env
+# The system will automatically load API keys from .env
 ```
 
 ### **3. Build Vector Database** (if needed)
@@ -55,74 +56,88 @@ cp env.example .env
 python simple_vector_db.py --csv_file data/safety_datasets.csv --save
 ```
 
-### **4. Ask Questions!**
+### **4. Run Predefined Query Evaluation**
 
 #### **Interactive Mode:**
 ```bash
-python query_interface.py --api_key YOUR_DEEPSEEK_KEY
+python query_interface.py
 ```
 
-#### **Single Question:**
+#### **Evaluate Specific Query by ID:**
 ```bash
-python query_interface.py --question "What datasets evaluate AI bias?" --api_key YOUR_KEY
+python query_interface.py --query_id 1
 ```
 
-#### **Retrieval Only (no LLM):**
+#### **Evaluate All Predefined Queries:**
 ```bash
-python query_interface.py --question "What datasets evaluate AI safety?" --no-llm
+python query_interface.py --all
 ```
+
+**Note:** The system uses predefined queries from `data/predefined_queries.json` with ground truth answers for automated evaluation. API keys are automatically loaded from `.env` file.
 
 ---
 
-## 💬 **Sample Questions & Expected Outputs**
+## 💬 **Predefined Queries with Ground Truth Evaluation**
 
-### **Example 1: AI Bias Evaluation**
+The system includes predefined queries with known ground truth answers for automated evaluation. Queries are stored in `data/predefined_queries.json`.
+
+### **Example 1: Query by ID**
 ```bash
-python query_interface.py --question "What datasets are available for evaluating AI bias and fairness in decision-making systems?" --api_key YOUR_KEY
+python query_interface.py --query_id 1
 ```
 
 **Expected Output:**
 ```
-🎯 Question: What datasets are available for evaluating AI bias and fairness in decision-making systems?
+================================================================================
+Query ID: 1
 ================================================================================
 
-📊 Found 5 relevant datasets:
-----------------------------------------
-1. DeMET (Score: 0.277)
-   Purpose: Demographic bias evaluation
-   Publication: EMNLP 2024 (Findings)
+📝 Query: Who is the admin work lead of AIPolicyBench teams?
+--------------------------------------------------------------------------------
 
-2. GenMO (Score: 0.207)  
-   Purpose: Gender bias assessment
-   Publication: EMNLP 2024 (Findings)
+💬 Model Response:
+Isabella
 
-💬 Answer:
-----------------------------------------
-Based on the safety evaluation datasets I found, there are several excellent options for evaluating AI bias and fairness in decision-making systems:
+✓ Ground Truth: Isabella
 
-The **DeMET dataset** (EMNLP 2024) is particularly valuable for assessing demographic bias in AI systems. This dataset can help identify how AI models perpetuate or challenge biases in decision-making scenarios across different demographic groups.
-
-The **GenMO dataset** provides comprehensive gender bias testing capabilities, offering a robust framework for evaluating fairness in AI decision-making algorithms, especially in high-stakes applications like hiring, lending, or healthcare.
-
-For implementation, I recommend starting with DeMET for general demographic bias testing, then incorporating GenMO for gender-specific assessments. These datasets provide the foundation for building trustworthy AI decision-making systems that comply with fairness regulations.
-
-✅ Generated using DeepSeek LLM with 5 datasets
+✅ Evaluation: CORRECT
+📊 Method: Rule-based
+📚 Retrieved Datasets: 5
 ================================================================================
 ```
 
-### **Example 2: Healthcare AI Safety**
+### **Example 2: Evaluate All Queries**
 ```bash
-python query_interface.py --question "What datasets evaluate AI safety in healthcare applications?" --api_key YOUR_KEY
+python query_interface.py --all
 ```
 
-### **Example 3: Multilingual Safety**
-```bash
-python query_interface.py --question "Which datasets assess AI safety in Chinese language models?" --api_key YOUR_KEY
+**Expected Output:**
+```
+================================================================================
+🎯 AIPOLICYBENCH EVALUATION RESULTS
+================================================================================
+[Individual query results displayed here]
+
+================================================================================
+📊 OVERALL STATISTICS
+================================================================================
+Total Queries: 3
+Correct: 3
+Incorrect: 0
+Accuracy: 100.00%
+Evaluation Method: Rule-based
+================================================================================
 ```
 
-### **Example 4: Policy Compliance**
+### **Example 3: Interactive Mode**
 ```bash
-python query_interface.py --question "What datasets help evaluate AI compliance with government regulations?" --api_key YOUR_KEY
+python query_interface.py
+
+# Commands:
+#   1-3: Evaluate specific query
+#   all: Evaluate all queries
+#   list: Show all queries
+#   quit/exit: Exit
 ```
 
 ---
@@ -131,14 +146,16 @@ python query_interface.py --question "What datasets help evaluate AI compliance 
 
 ```
 AIPolicyAgentBench/
-├── 🎯 query_interface.py          # Main interface (natural language responses)
+├── 🎯 query_interface.py          # Predefined query evaluation interface
 ├── 🧠 safety_datasets_rag.py      # Core RAG pipeline (Steps 1-4)
 ├── 🔍 simple_vector_db.py         # TF-IDF vector database
+├── 📊 evaluation.py               # Rule-based evaluation system
 ├── 📊 data/
-│   └── safety_datasets.csv        # 149 safety evaluation datasets
+│   ├── safety_datasets.csv        # 149 safety evaluation datasets
+│   └── predefined_queries.json    # Predefined queries with ground truth
 ├── 💾 vector_db/
 │   └── safety_datasets_tfidf_db.pkl  # Serialized vector database
-├── ⚙️ env.example                 # Environment variables template
+├── ⚙️ .env                        # Environment variables (API keys)
 ├── 📋 requirements.txt            # Python dependencies
 └── 📖 README.md                   # This file
 ```
@@ -152,46 +169,52 @@ AIPolicyAgentBench/
 - **Retrieval:** Semantic search finds relevant datasets
 - **Augmentation:** Rich context preparation with metadata
 - **Interface:** Clean CLI and interactive modes
+- **Evaluation:** Rule-based evaluation with ground truth answers
 - **Error Handling:** Graceful fallbacks and logging
+- **API Integration:** Automatic API key loading from .env
 
-### **⚠️ Current Issue:**
-- **LLM Generation:** DeepSeek API authentication failing (401 errors)
-- **Workaround:** Use `--no-llm` flag for retrieval-only mode
-
-### **🎯 Natural Language Responses Include:**
-- Direct answers to policy questions
-- Specific dataset recommendations with scores
-- Implementation guidance and best practices
-- Key considerations and limitations
-- Relevant resources and publication links
-- Actionable next steps for policy makers
+### **🎯 Evaluation System Features:**
+- Predefined queries with ground truth answers
+- Rule-based evaluation (exact match, substring, set matching)
+- Batch evaluation with accuracy statistics
+- Individual query evaluation
+- Interactive query selection
+- Detailed evaluation metrics and reporting
 
 ---
 
 ## 🛠️ **Advanced Usage**
 
 ### **Interactive Mode Commands:**
-- `help` - Show example questions
-- `status` - Check system status
-- `no-llm` - Toggle LLM generation on/off
-- `quit` - Exit the system
+- `1-N` - Evaluate specific query by ID
+- `all` - Evaluate all predefined queries
+- `list` - Show all available queries with ground truth
+- `quit/exit` - Exit the system
 
 ### **Command Line Options:**
 ```bash
 python query_interface.py [OPTIONS]
 
 Options:
-  --api_key TEXT        DeepSeek API key for LLM generation
-  --question TEXT       Single question (non-interactive mode)
+  --queries_file TEXT   Path to predefined queries JSON file (default: data/predefined_queries.json)
+  --vector_db TEXT      Path to vector database file (default: ./vector_db/safety_datasets_tfidf_db.pkl)
+  --query_id INTEGER    Evaluate specific query by ID
+  --all                 Evaluate all queries
   --top_k INTEGER       Number of datasets to retrieve (default: 5)
-  --no-llm             Disable LLM generation (retrieval only)
-  --vector_db TEXT      Path to vector database file
 ```
 
-### **System Status Check:**
-```bash
-python query_interface.py
-# Then type: status
+### **Adding Custom Queries:**
+Edit `data/predefined_queries.json` to add new queries:
+```json
+{
+  "queries": [
+    {
+      "id": 1,
+      "query": "Your question here?",
+      "ground_truth": "Expected answer"
+    }
+  ]
+}
 ```
 
 ---
@@ -205,10 +228,11 @@ python query_interface.py
 - **Storage:** Pickle serialization for fast loading
 
 ### **LLM Integration:**
-- **Provider:** DeepSeek (OpenAI-compatible API)
-- **Model:** `deepseek-chat`
+- **Provider:** DeepSeek via OpenRouter (OpenAI-compatible API)
+- **Model:** `deepseek/deepseek-chat` (OpenRouter) or `deepseek-chat` (Direct)
 - **Context:** Up to 1500 tokens
-- **Temperature:** 0.7 for balanced creativity/accuracy
+- **Temperature:** 0.3 for focused, accurate responses
+- **API Key:** Automatically loaded from `.env` file (DEEPSEEK_API_KEY)
 
 ### **Data Processing:**
 - **Source:** 149 safety evaluation datasets
@@ -220,12 +244,23 @@ python query_interface.py
 ## 🚨 **Troubleshooting**
 
 ### **API Key Issues:**
+1. Ensure `.env` file exists with valid `DEEPSEEK_API_KEY`
+2. For OpenRouter keys (starting with `sk-or-`), the system auto-detects and uses OpenRouter endpoint
+3. Test your API key:
 ```bash
-# Test your API key directly
-curl -X POST "https://api.deepseek.com/chat/completions" \
-  -H "Authorization: Bearer YOUR_API_KEY" \
+# For OpenRouter
+curl -X POST "https://openrouter.ai/api/v1/chat/completions" \
+  -H "Authorization: Bearer sk-or-YOUR_KEY" \
   -H "Content-Type: application/json" \
-  -d '{"model": "deepseek-chat", "messages": [{"role": "user", "content": "Hello"}]}'
+  -d '{"model": "deepseek/deepseek-chat", "messages": [{"role": "user", "content": "Hello"}]}'
+```
+
+### **Predefined Queries Not Found:**
+```bash
+# Ensure predefined_queries.json is in the data directory
+ls data/predefined_queries.json
+
+# If missing, create it with your queries
 ```
 
 ### **Vector Database Missing:**
@@ -262,9 +297,10 @@ This project is for research and educational purposes. Please ensure compliance 
 ## 🆘 **Support**
 
 If you encounter issues:
-1. Check the API key is valid and has credits
-2. Verify all dependencies are installed
-3. Ensure the vector database exists
-4. Try retrieval-only mode with `--no-llm`
+1. Check the API key is valid in `.env` file (DEEPSEEK_API_KEY)
+2. Verify all dependencies are installed (`pip install -r requirements.txt`)
+3. Ensure the vector database exists at `./vector_db/safety_datasets_tfidf_db.pkl`
+4. Verify predefined queries file exists at `data/predefined_queries.json`
+5. Check API key has sufficient credits
 
-**For API key issues:** Get a fresh DeepSeek key from OpenRouter or DeepSeek Platform.
+**For API key issues:** Get a fresh DeepSeek key from [OpenRouter](https://openrouter.ai/) or [DeepSeek Platform](https://platform.deepseek.com)
