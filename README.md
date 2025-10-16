@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🎯 AI Policy Agent Benchmark - Safety Datasets RAG System
 
 A complete **Retrieval-Augmented Generation (RAG)** system for AI policy research, built to answer questions about safety evaluation datasets using natural language responses.
@@ -269,7 +268,3 @@ If you encounter issues:
 4. Try retrieval-only mode with `--no-llm`
 
 **For API key issues:** Get a fresh DeepSeek key from OpenRouter or DeepSeek Platform.
-=======
-# AIPolicyBench
-Complete RAG system for AI policy research with safety datasets
->>>>>>> d22caee0f3038c151f68cd8b5bcdfd5910bc2650
