@@ -1,0 +1,19 @@
+{
+  "queries": [
+    {
+      "id": 1,
+      "query": "Who is the admin work lead of AIPolicyBench teams?",
+      "ground_truth": "Isabella"
+    },
+    {
+      "id": 2,
+      "query": "How many members in the AIPolicyBench teams?",
+      "ground_truth": "4"
+    },
+    {
+      "id": 3,
+      "query": "Who is AIPolicyBench teams evaluation part leader?",
+      "ground_truth": "Charles"
+    }
+  ]
+}

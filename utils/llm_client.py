@@ -84,28 +84,41 @@ class OpenAIClient(BaseLLMClient):
 
 
 class DeepSeekClient(BaseLLMClient):
-    """DeepSeek LLM client."""
-    
+    """DeepSeek LLM client (supports both direct DeepSeek API and OpenRouter)."""
+
     def __init__(self, api_key: Optional[str] = None, model: str = "deepseek-chat"):
         """
         Initialize DeepSeek client.
-        
+
         Args:
-            api_key: DeepSeek API key
+            api_key: DeepSeek API key (or OpenRouter API key starting with sk-or-)
             model: Model to use
         """
         self.api_key = api_key or os.getenv('DEEPSEEK_API_KEY')
         self.model = model
-        
+
         if not self.api_key:
             raise ValueError("DeepSeek API key is required")
-        
+
         # Use OpenAI-compatible API for DeepSeek
         from openai import AsyncOpenAI
-        self.client = AsyncOpenAI(
-            api_key=self.api_key,
-            base_url="https://api.deepseek.com"
-        )
+
+        # Check if using OpenRouter (API key starts with sk-or-)
+        if self.api_key.startswith("sk-or-"):
+            self.client = AsyncOpenAI(
+                api_key=self.api_key,
+                base_url="https://openrouter.ai/api/v1"
+            )
+            # Update model name for OpenRouter if needed
+            if self.model == "deepseek-chat":
+                self.model = "deepseek/deepseek-r1-0528:free"
+            logger.info(f"Using OpenRouter with model: {self.model}")
+        else:
+            self.client = AsyncOpenAI(
+                api_key=self.api_key,
+                base_url="https://api.deepseek.com"
+            )
+            logger.info(f"Using direct DeepSeek API with model: {self.model}")
     
     async def generate_response(self, prompt: str, **kwargs) -> str:
         """Generate a response using DeepSeek."""

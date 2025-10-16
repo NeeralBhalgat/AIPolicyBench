@@ -54,11 +54,23 @@ class SafetyDatasetsRAG:
         """Initialize the DeepSeek LLM client."""
         try:
             from openai import AsyncOpenAI
-            self.llm_client = AsyncOpenAI(
-                api_key=self.api_key,
-                base_url="https://api.deepseek.com"
-            )
-            logger.info(f"Initialized DeepSeek LLM client with model: {self.model}")
+            # Check if using OpenRouter (API key starts with sk-or-)
+            if self.api_key and self.api_key.startswith("sk-or-"):
+                self.llm_client = AsyncOpenAI(
+                    api_key=self.api_key,
+                    base_url="https://openrouter.ai/api/v1"
+                )
+                # Update model name for OpenRouter if needed
+                if self.model == "deepseek-chat":
+                    self.model = "deepseek/deepseek-chat"
+                logger.info(f"Initialized OpenRouter LLM client with model: {self.model}")
+            else:
+                # Direct DeepSeek API
+                self.llm_client = AsyncOpenAI(
+                    api_key=self.api_key,
+                    base_url="https://api.deepseek.com"
+                )
+                logger.info(f"Initialized DeepSeek LLM client with model: {self.model}")
         except Exception as e:
             logger.error(f"Failed to initialize LLM client: {e}")
             self.llm_client = None
@@ -101,31 +113,25 @@ class SafetyDatasetsRAG:
     def augment(self, results: List[Dict[str, Any]]) -> str:
         """
         Step 2: AUGMENTATION - Prepare context for LLM.
-        
+
         Args:
             results: Retrieved datasets
-            
+
         Returns:
             Formatted context string
         """
         if not results:
             return "No relevant datasets found."
-        
-        context_parts = ["Based on the following safety evaluation datasets:\n"]
-        
+
+        context_parts = ["Based on the following documents:\n"]
+
         for i, result in enumerate(results, 1):
             metadata = result['metadata']
-            context_parts.append(f"{i}. {metadata.get('dataset_name', 'Unknown Dataset')}")
-            context_parts.append(f"   Purpose: {metadata.get('purpose_stated', 'N/A')}")
-            context_parts.append(f"   Type: {metadata.get('purpose_type', 'N/A')}")
-            context_parts.append(f"   Languages: {metadata.get('entries_languages', 'N/A')}")
-            context_parts.append(f"   Entries: {metadata.get('entries_n', 'N/A')}")
-            context_parts.append(f"   Publication: {metadata.get('publication_name', 'N/A')}")
-            context_parts.append(f"   Venue: {metadata.get('publication_venue', 'N/A')}")
-            context_parts.append(f"   URL: {metadata.get('publication_url', 'N/A')}")
-            context_parts.append(f"   License: {metadata.get('access_license', 'N/A')}")
+            # Include the FULL TEXT content for the LLM
+            context_parts.append(f"\n--- Document {i}: {metadata.get('dataset_name', 'Unknown Dataset')} ---")
+            context_parts.append(result.get('text', 'No text available'))
             context_parts.append("")
-        
+
         return "\n".join(context_parts)
     
     async def generate(self, context: str, question: str) -> str:
@@ -147,25 +153,18 @@ class SafetyDatasetsRAG:
 
 Question: {question}
 
-Please provide a comprehensive, natural language answer based on the above safety evaluation datasets. Your response should:
-
-1. Directly answer the question in a conversational tone
-2. Reference specific datasets by name when relevant
-3. Provide practical implementation guidance
-4. Include key considerations and limitations
-5. Mention relevant resources and links
-6. Be informative but accessible
+Please provide a direct, concise answer to the question based ONLY on the information provided in the documents above. Extract the specific answer from the text and state it clearly.
 
 Answer:"""
-            
+
             response = await self.llm_client.chat.completions.create(
                 model=self.model,
                 messages=[
-                    {"role": "system", "content": "You are an AI policy expert. Provide clear, comprehensive answers based on the provided context."},
+                    {"role": "system", "content": "You are a helpful assistant. Answer questions directly and concisely based on the provided document content. Extract specific information from the text."},
                     {"role": "user", "content": prompt}
                 ],
-                max_tokens=1500,
-                temperature=0.7
+                max_tokens=500,
+                temperature=0.3
             )
             
             return response.choices[0].message.content.strip()
