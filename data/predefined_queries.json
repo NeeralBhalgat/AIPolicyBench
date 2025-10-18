@@ -2,18 +2,38 @@
   "queries": [
     {
       "id": 1,
-      "query": "Who is the admin work lead of AIPolicyBench teams?",
-      "ground_truth": "Isabella"
+      "query": "What are the three main pillars of America's AI Action Plan, and how do they collectively aim to help the United States secure global dominance in artificial intelligence?",
+      "ground_truth": "To speed up AI innovation, build strong American AI infrastructure, and lead the world in AI diplomacy and security."
     },
     {
       "id": 2,
-      "query": "How many members in the AIPolicyBench teams?",
-      "ground_truth": "4"
+      "query": "How does the American AI Action Plan propose to balance deregulation and innovation while ensuring that AI systems reflect free-speech principles and “American values”?",
+      "ground_truth": "It should be built with free speech in mind, free from ideological bias, and no AI-related federal funding will go to states with burdensome AI regulations and also not interfere with states' rights to pass prudent laws that are not unduly restrictive to innovation."
     },
     {
       "id": 3,
-      "query": "Who is AIPolicyBench teams evaluation part leader?",
-      "ground_truth": "Charles"
+      "query": "What national-security and economic measures does the American AI Action Plan proposed under Pillar III to counter foreign AI competition, particularly from China?",
+      "ground_truth": "By exporting U.S. full AI technology stack with its allies, blocking China's influence in International Governance Bodies, and strengthen U.S. chip exports."
+    },
+    {
+      "id": 4,
+      "query": "What is the main goal of the NIST AI Risk Management Framework?",
+      "ground_truth": "To offer a resource to the organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems."
+    },
+    {
+      "id": 5,
+      "query": "What are the four core functions of theNIST AI Risk Management Framework?",
+      "ground_truth": "Govern, Map, Measure, and Manage."
+    },
+    {
+      "id": 6,
+      "query": "What are the characteristics of “trustworthy AI” in NIST AI Risk Management Framework?",
+      "ground_truth": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed."
+    },
+    {
+      "id": 7,
+      "query": "What is the overall purpose of Memorandum M-25-21, and how does it build upon Executive Order 14179 “Removing Barriers to American Leadership in Artificial Intelligence”? Include direct evidence from the introduction.",
+      "ground_truth": ""
     }
   ]
 }

@@ -110,8 +110,7 @@ class DeepSeekClient(BaseLLMClient):
                 base_url="https://openrouter.ai/api/v1"
             )
             # Update model name for OpenRouter if needed
-            if self.model == "deepseek-chat":
-                self.model = "deepseek/deepseek-r1-0528:free"
+            self.model = "deepseek/deepseek-chat"
             logger.info(f"Using OpenRouter with model: {self.model}")
         else:
             self.client = AsyncOpenAI(
@@ -147,8 +146,9 @@ class DeepSeekClient(BaseLLMClient):
             raise
 
 
+class AnthropicClient(BaseLLMClient):
     """Anthropic LLM client."""
-    
+
     def __init__(self, api_key: Optional[str] = None, model: str = "claude-3-sonnet-20240229"):
         """
         Initialize Anthropic client.
