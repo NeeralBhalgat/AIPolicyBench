@@ -2,38 +2,1403 @@
   "queries": [
     {
       "id": 1,
-      "query": "What are the three main pillars of America's AI Action Plan, and how do they collectively aim to help the United States secure global dominance in artificial intelligence?",
-      "ground_truth": "To speed up AI innovation, build strong American AI infrastructure, and lead the world in AI diplomacy and security."
+      "query": "What are the three pillars of America’s AI Action Plan?",
+      "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+      "keyword": "three pillars",
+      "quote": "“America’s AI Action Plan has three pillars: innovation, infrastructure, and international diplomacy and security.”"
     },
     {
       "id": 2,
-      "query": "How does the American AI Action Plan propose to balance deregulation and innovation while ensuring that AI systems reflect free-speech principles and “American values”?",
-      "ground_truth": "It should be built with free speech in mind, free from ideological bias, and no AI-related federal funding will go to states with burdensome AI regulations and also not interfere with states' rights to pass prudent laws that are not unduly restrictive to innovation."
+      "query": "Why must the U.S. win the global AI race?",
+      "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+      "keyword": "win the race",
+      "quote": "“Whoever has the largest AI ecosystem will set global AI standards and reap broad economic and military benefits.”"
     },
     {
       "id": 3,
-      "query": "What national-security and economic measures does the American AI Action Plan proposed under Pillar III to counter foreign AI competition, particularly from China?",
-      "ground_truth": "By exporting U.S. full AI technology stack with its allies, blocking China's influence in International Governance Bodies, and strengthen U.S. chip exports."
+      "query": "What immediate deregulatory step did President Trump take on AI?",
+      "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+      "keyword": "rescinded EO 14110",
+      "quote": "“President Trump has already taken multiple steps… including rescinding Biden Executive Order 14110 on AI that foreshadowed an onerous regulatory regime.”"
     },
     {
       "id": 4,
-      "query": "What is the main goal of the NIST AI Risk Management Framework?",
-      "ground_truth": "To offer a resource to the organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems."
+      "query": "How will procurement address ideological bias in AI?",
+      "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+      "keyword": "ideological bias",
+      "quote": "“Update Federal procurement guidelines to ensure that the government only contracts with frontier large language model (LLM) developers who ensure that their systems are objective and free from top-down ideological bias.”"
     },
     {
       "id": 5,
-      "query": "What are the four core functions of theNIST AI Risk Management Framework?",
-      "ground_truth": "Govern, Map, Measure, and Manage."
+      "query": "What is the plan’s stance on open-source/open-weight models?",
+      "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+      "keyword": "open-source/open-weight",
+      "quote": "“Open-source and open-weight AI models… have unique value for innovation… the Federal government should create a supportive environment for open models.”"
     },
     {
       "id": 6,
-      "query": "What are the characteristics of “trustworthy AI” in NIST AI Risk Management Framework?",
-      "ground_truth": "valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed."
+      "query": "What workforce objective is emphasized?",
+      "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+      "keyword": "worker-first",
+      "quote": "“The Trump Administration supports a worker-first AI agenda… expand AI literacy and skills development… fund rapid retraining for individuals impacted by AI-related job displacement.”"
     },
     {
       "id": 7,
-      "query": "What is the overall purpose of Memorandum M-25-21, and how does it build upon Executive Order 14179 “Removing Barriers to American Leadership in Artificial Intelligence”? Include direct evidence from the introduction.",
-      "ground_truth": ""
+      "query": "What permitting changes are proposed for AI infrastructure?",
+      "ground_truth": "New NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects.",
+      "keyword": "streamlined permitting",
+      "quote": "“Establish new Categorical Exclusions under NEPA… Expand the use of the FAST-41 process to cover all data center and data center energy projects…”"
+    },
+    {
+      "id": 8,
+      "query": "How will advanced AI compute export controls be enforced?",
+      "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+      "keyword": "export controls (compute)",
+      "quote": "“Explore leveraging new and existing location verification features on advanced AI compute… [and] enhanced monitoring… where chips are being diverted.”"
+    },
+    {
+      "id": 9,
+      "query": "What research priorities will make AI safer for high-stakes use?",
+      "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+      "keyword": "interpretability/control/robustness",
+      "quote": "“Advance AI interpretability, AI control systems, and adversarial robustness.”"
+    },
+    {
+      "id": 10,
+      "query": "What legal risk from AI does the plan target and how?",
+      "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+      "keyword": "deepfakes (legal)",
+      "quote": "“AI-generated media may present novel challenges to the legal system… consider developing NIST’s… deepfake evaluation program into a formal guideline… [and] issue guidance… adopting a deepfake standard.”"
+    },
+    {
+      "id": 11,
+      "query": "What three priorities must agencies focus on to accelerate Federal AI use?",
+      "ground_truth": "Innovation, governance, and public trust.",
+      "keyword": "three priorities",
+      "quote": "“Agencies are directed to accelerate the Federal use of AI by focusing on three key priorities: innovation, governance, and public trust.”"
+    },
+    {
+      "id": 12,
+      "query": "Which prior OMB memo does M-25-21 replace?",
+      "ground_truth": "OMB Memorandum M-24-10.",
+      "keyword": "rescinds M-24-10",
+      "quote": "“This memorandum rescinds and replaces Office of Management and Budget (0MB) Memorandum M-24-10, Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence.”"
+    },
+    {
+      "id": 13,
+      "query": "Who is covered by this memorandum?",
+      "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+      "keyword": "scope",
+      "quote": "“This memorandum is directed to the heads of all Executive Branch departments and agencies, including independent regulatory agencies.”"
+    },
+    {
+      "id": 14,
+      "query": "What leadership role must every agency designate, and by when?",
+      "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+      "keyword": "CAIO 60 days",
+      "quote": "“Within 60 days of the issuance of this memorandum, the head of each agency must retain or designate a Chief AI Officer (CAIO).”"
+    },
+    {
+      "id": 15,
+      "query": "By when must CFO Act agencies publish an AI Strategy?",
+      "ground_truth": "Within 180 days of issuance.",
+      "keyword": "AI Strategy 180 days",
+      "quote": "“Within 180 days of the issuance of this memorandum, each CFO Act agency must develop an AI Strategy… and make their AI Strategies publicly available on the agency’s website.”"
+    },
+    {
+      "id": 16,
+      "query": "What governance bodies are required to coordinate AI across government?",
+      "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+      "keyword": "governance bodies",
+      "quote": "“Within 90 days… each CFO Act agency must convene its relevant agency officials…” / “Within 90 days… the Director of 0MB… shall convene and chair an interagency council…”"
+    },
+    {
+      "id": 17,
+      "query": "What must agencies do regarding generative AI policy, and by when?",
+      "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+      "keyword": "generative AI policy",
+      "quote": "“Within 270 days of the issuance of this memorandum, agencies should develop a policy that sets the terms for acceptable use of generative AI… and establishes adequate safeguards and oversight mechanisms…”"
+    },
+    {
+      "id": 18,
+      "query": "How does the memo define “high-impact AI”?",
+      "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+      "keyword": "high-impact AI definition",
+      "quote": "“High-Impact AI: AI with an output that serves as a principal basis for decisions or actions with legal, material, binding, or significant effect on…”"
+    },
+    {
+      "id": 19,
+      "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+      "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+      "keyword": "risk management 365 days",
+      "quote": "“Within 365 days… agencies must document implementation of the minimum practices… If a particular high-impact use case is not compliant… the agency must safely discontinue use of the AI functionality.”"
+    },
+    {
+      "id": 20,
+      "query": "What sharing and inventory requirements promote reuse and transparency?",
+      "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+      "keyword": "share & inventory",
+      "quote": "“Agencies must proactively share across the Federal Government their custom-developed code—including models and model weights…” / “Each agency… must inventory its AI use cases at least annually, submit the inventory to 0MB, and post a public version on the agency’s website.”"
+    },
+    {
+      "id": 21,
+      "query": "What is the core purpose of this order?",
+      "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+      "keyword": "purpose (bias-free)",
+      "quote": "“we must develop AI systems that are free from ideological bias or engineered social agendas.”"
+    },
+    {
+      "id": 22,
+      "query": "What policy goal does the order set for the United States?",
+      "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+      "keyword": "policy goal",
+      "quote": "“to sustain and enhance America’s global AI dominance in order to promote human flourishing, economic competitiveness, and national security.”"
+    },
+    {
+      "id": 23,
+      "query": "How does the order clear the way for rapid AI action?",
+      "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+      "keyword": "revokes barriers",
+      "quote": "“This order revokes certain existing AI policies and directives that act as barriers to American AI innovation…”"
+    },
+    {
+      "id": 24,
+      "query": "What legal definition of AI does the order adopt?",
+      "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+      "keyword": "definition",
+      "quote": "“‘artificial intelligence’ or ‘AI’ has the meaning set forth in 15 U.S.C. 9401(3).”"
+    },
+    {
+      "id": 25,
+      "query": "Who must produce an AI Action Plan and by when?",
+      "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+      "keyword": "action plan 180 days",
+      "quote": "“shall develop and submit to the President an action plan… Within 180 days of this order…”"
+    },
+    {
+      "id": 26,
+      "query": "What must be reviewed and potentially undone from EO 14110?",
+      "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+      "keyword": "EO 14110 rollback",
+      "quote": "“identify any actions… inconsistent with… section 2… heads of agencies shall… suspend, revise, or rescind such actions…”"
+    },
+    {
+      "id": 27,
+      "query": "What interim relief is directed if rollback can’t be finalized immediately?",
+      "ground_truth": "Provide all available exemptions until final action.",
+      "keyword": "interim exemptions",
+      "quote": "“shall promptly take steps to provide all available exemptions… until such action can be finalized.”"
+    },
+    {
+      "id": 28,
+      "query": "What must OMB do to align guidance, and by when?",
+      "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+      "keyword": "OMB 60 days",
+      "quote": "“Within 60 days… the OMB Director… shall revise OMB Memoranda M-24-10 and M-24-18…”"
+    },
+    {
+      "id": 29,
+      "query": "How does the order limit its legal effect on agencies’ authorities?",
+      "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+      "keyword": "general provisions",
+      "quote": "“Nothing in this order shall be construed to impair… the authority… of an executive department or agency… [or] the functions of the Director of the Office of Management and Budget…”"
+    },
+    {
+      "id": 30,
+      "query": "Does the order create enforceable rights?",
+      "ground_truth": "No—no substantive or procedural right or benefit is created.",
+      "keyword": "no private right",
+      "quote": "“This order is not intended to, and does not, create any right or benefit, substantive or procedural, enforceable at law or in equity…”"
+    },
+    {
+      "id": 31,
+      "query": "What’s USDA’s core AI vision for FY25–26?",
+      "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+      "keyword": "vision",
+      "quote": "“safely integrate AI… and more effectively distribute benefits and services internally and across the nation.”"
+    },
+    {
+      "id": 32,
+      "query": "What are the 5 headline goals?",
+      "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+      "keyword": "goals",
+      "quote": "“Vision, Goals, and Objectives… 1–5.”"
+    },
+    {
+      "id": 33,
+      "query": "Which governance bodies lead AI?",
+      "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+      "keyword": "governance",
+      "quote": "“appointing a Chief AI Officer… AI Council… GAIRB… establish ACAIO.”"
+    },
+    {
+      "id": 34,
+      "query": "How will oversight balance innovation vs risk?",
+      "ground_truth": "Risk-based evaluation of use cases/tools across lifecycle; clear review tiers; public AI inventory; standard contract safeguards.",
+      "keyword": "risk-based",
+      "quote": "“Determine the appropriate level of oversight… encourage experimentation.”"
+    },
+    {
+      "id": 35,
+      "query": "What’s the workforce plan?",
+      "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+      "keyword": "talent",
+      "quote": "“AI will not replace our workforce… expand AI learning opportunities for all employees.”"
+    },
+    {
+      "id": 36,
+      "query": "What infrastructure & tools will USDA stand up?",
+      "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+      "keyword": "AI Lab / EDAPT",
+      "quote": "“Deploy a hub-and-spoke model… USDA AI Lab… Enhance EDAPT.”"
+    },
+    {
+      "id": 37,
+      "query": "How is data readied for AI?",
+      "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+      "keyword": "data readiness",
+      "quote": "“Invest in data management… make our data more accessible… maintain data protection standards.”"
+    },
+    {
+      "id": 38,
+      "query": "What ethical/risk frameworks guide AI?",
+      "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+      "keyword": "NIST RMF",
+      "quote": "“Integrate the NIST AI Risk Management Framework… mitigate potential bias.”"
+    },
+    {
+      "id": 39,
+      "query": "How will vendors and procurement be handled?",
+      "ground_truth": "Standard contract language on data rights/usage/privacy; disclose GenAI in products; monitor for “shadow AI”; prefer secure, compliant tools.",
+      "keyword": "procurement",
+      "quote": "“Standardize required contract language… proactively disclose… Generative AI in commercial software.”"
+    },
+    {
+      "id": 40,
+      "query": "What near-term enablers & wins exist?",
+      "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+      "keyword": "FY24 wins",
+      "quote": "“Key FY24 Accomplishments… launched USDA AI Lab… expanded Data Science Training Program… 40+ active use cases.”"
+    },
+    {
+      "id": 41,
+      "query": "What is the main purpose of the NIST AI Risk Management Framework (AI RMF)?",
+      "ground_truth": "To help organizations manage AI risks and promote trustworthy, responsible AI development and use.",
+      "keyword": "Risk management, trustworthy AI.",
+      "quote": "“The goal of the AI RMF is to offer a resource to organizations designing, developing, deploying, or using AI systems to help manage the many risks of AI and promote trustworthy and responsible development and use of AI systems.”"
+    },
+    {
+      "id": 42,
+      "query": "What are the four core functions of the AI RMF?",
+      "ground_truth": "Govern, Map, Measure, and Manage.",
+      "keyword": "Core functions.",
+      "quote": "“The Core is composed of four functions: GOVERN, MAP, MEASURE, and MANAGE.”"
+    },
+    {
+      "id": 43,
+      "query": "What does the AI RMF identify as the key characteristics of trustworthy AI?",
+      "ground_truth": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+      "keyword": "Trustworthy AI characteristics.",
+      "quote": "“Characteristics of trustworthy AI systems include: valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.”"
+    },
+    {
+      "id": 44,
+      "query": "How does the framework define risk in the context of AI?",
+      "ground_truth": "Risk is a measure combining the probability of an event and the magnitude of its consequences.",
+      "keyword": "Risk definition.",
+      "quote": "“Risk refers to the composite measure of an event’s probability of occurring and the magnitude or degree of the consequences of the corresponding event.”"
+    },
+    {
+      "id": 45,
+      "query": "What challenge does the AI RMF highlight about measuring AI risk?",
+      "ground_truth": "AI risks are difficult to measure because they are not well-defined, may emerge unexpectedly, and depend on complex real-world conditions.",
+      "keyword": "Risk measurement challenge.",
+      "quote": "“AI risks or failures that are not well-defined or adequately understood are difficult to measure quantitatively or qualitatively.”"
+    },
+    {
+      "id": 46,
+      "query": "What is the main focus of the Govern function in the AI RMF?",
+      "ground_truth": "To build a culture of risk management, accountability, and transparency throughout the organization.",
+      "keyword": "Govern function.",
+      "quote": "“The GOVERN function cultivates and implements a culture of risk management within organizations designing, developing, deploying, evaluating, or acquiring AI systems.”"
+    },
+    {
+      "id": 47,
+      "query": "What does the Map function help organizations do?",
+      "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+      "keyword": "Map function.",
+      "quote": "“The MAP function establishes the context to frame risks related to an AI system… intended to enhance an organization’s ability to identify risks and broader contributing factors.”"
+    },
+    {
+      "id": 48,
+      "query": "What is the purpose of the Measure function?",
+      "ground_truth": "To assess and monitor AI risks using quantitative, qualitative, or mixed methods to evaluate system trustworthiness.",
+      "keyword": "Measure function.",
+      "quote": "“The MEASURE function employs quantitative, qualitative, or mixed-method tools, techniques, and methodologies to analyze, assess, benchmark, and monitor AI risk and related impacts.”"
+    },
+    {
+      "id": 49,
+      "query": "How does the Manage function contribute to AI risk management?",
+      "ground_truth": "It allocates resources and plans responses to identified risks, focusing on continuous monitoring and improvement.",
+      "keyword": "Manage function.",
+      "quote": "“The MANAGE function entails allocating risk resources to mapped and measured risks on a regular basis… with mechanisms for continual improvement.”"
+    },
+    {
+      "id": 50,
+      "query": "Why does NIST describe the AI RMF as a living document?",
+      "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+      "keyword": "Living document.",
+      "quote": "“The Artificial Intelligence Risk Management Framework (AI RMF) is intended to be a living document. NIST will review the content and usefulness of the Framework regularly to determine if an update is appropriate.”"
+    },
+    {
+      "id": 51,
+      "query": "What is the main purpose of the DoD Data, Analytics, and Artificial Intelligence Adoption Strategy?",
+      "ground_truth": "To guide the Department in adopting data, analytics, and AI to strengthen decision-making and gain enduring decision advantage.",
+      "keyword": "Purpose, decision advantage.",
+      "quote": "“This Strategy serves as a guide for how we will strengthen the organizational environment in which DoD deploys data, analytics, and AI capabilities for enduring decision advantage.”"
+    },
+    {
+      "id": 52,
+      "query": "What does the strategy mean by “decision advantage”?",
+      "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+      "keyword": "Decision advantage.",
+      "quote": "“Decision advantage is a competitive condition characterized by battlespace awareness, adaptive planning, resilient operations, and efficient enterprise business processes.”"
+    },
+    {
+      "id": 53,
+      "query": "What are the five key strategic goals outlined in the strategy?",
+      "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+      "keyword": "Strategic goals.",
+      "quote": "“The Department will focus strategic efforts on several interdependent goals that support the DoD AI Hierarchy of Needs.”"
+    },
+    {
+      "id": 54,
+      "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+      "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+      "keyword": "AI Hierarchy of Needs, data quality.",
+      "quote": "“The AI Hierarchy of Needs is a pyramid with quality data as its foundation since all analytic and AI capabilities require trusted, high-quality data.”"
+    },
+    {
+      "id": 55,
+      "query": "How does the DoD plan to treat data to improve sharing and quality?",
+      "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+      "keyword": "Data as a product.",
+      "quote": "“Data domain owners and data product teams will be responsible for managing the data products they own and produce.”"
+    },
+    {
+      "id": 56,
+      "query": "What approach does the DoD take to accelerate AI and analytics adoption?",
+      "ground_truth": "An agile, iterative approach that emphasizes speed, feedback, and continuous learning.",
+      "keyword": "Agile adoption.",
+      "quote": "“Practicing agility and learning by doing will accelerate deployment speed—measured in hours or days, not months or years.”"
+    },
+    {
+      "id": 57,
+      "query": "How will the DoD strengthen governance while removing policy barriers?",
+      "ground_truth": "By creating risk-adjusted, collaborative governance that supports responsible, fast, and lawful AI adoption.",
+      "keyword": "Governance, policy barriers.",
+      "quote": "“Data, analytics, and AI governance will be risk-adjusted, streamlined, and data-driven, and focused on collaborative learning.”"
+    },
+    {
+      "id": 58,
+      "query": "What is the DoD’s plan for infrastructure supporting AI and analytics?",
+      "ground_truth": "To invest in interoperable, federated infrastructure that balances shared services with specialized systems.",
+      "keyword": "Federated infrastructure.",
+      "quote": "“The Department will invest in abundant, flexible, secure, and jointly interoperable infrastructure that is scalable for the needs of users.”"
+    },
+    {
+      "id": 59,
+      "query": "How does the DoD plan to collaborate with external partners on AI?",
+      "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+      "keyword": "Collaboration, partnerships.",
+      "quote": "“The Department will advance progress toward a robust national and international ecosystem that facilitates improved collaboration on data, analytics, and AI technology.”"
+    },
+    {
+      "id": 60,
+      "query": "What does the strategy emphasize about the DoD workforce and talent?",
+      "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+      "keyword": "Digital talent management.",
+      "quote": "“The Department will ensure it is identifying and employing the talent it already possesses, then focus resources on initiatives that attract, recruit, train, and retain a truly innovative workforce.”"
+    },
+    {
+      "id": 61,
+      "query": "Who are the designated Chief Artificial Intelligence Officer (CAIO) and Responsible AI Official (RAIO) for the Department of Energy?",
+      "ground_truth": "Helena Fu serves as Acting CAIO and Bridget Carper serves as RAIO.",
+      "keyword": "Leadership roles.",
+      "quote": "“Helena Fu serves as Director of DOE’s Office of Critical and Emerging Technologies (CET) and is also the Department’s Acting CAIO… Bridget Carper serves as DOE’s Deputy Chief Information Officer… and is also the Department’s RAIO.”"
+    },
+    {
+      "id": 62,
+      "query": "What is the purpose of the DOE AI Advancement Council (AIAC)?",
+      "ground_truth": "To coordinate and oversee AI activities across the DOE and provide strategic direction on AI use.",
+      "keyword": "AI Advancement Council.",
+      "quote": "“The AI Advancement Council (AIAC) is the principal forum for collaboration and coordination of AI-related activities… providing oversight and strategic direction for DOE’s use of AI.”"
+    },
+    {
+      "id": 63,
+      "query": "What new AI guidance did the DOE release in June 2024?",
+      "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+      "keyword": "GenAI Reference Guide.",
+      "quote": "“DOE published Version 2 of the Generative AI (GenAI) Reference Guide in June 2024… reflecting the latest guidance including EO 14110 and OMB M-24-10.”"
+    },
+    {
+      "id": 64,
+      "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+      "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+      "keyword": "AI use case inventory.",
+      "quote": "“DOE will be conducting an annual inventory of AI use cases across the Department’s program offices, 17 National Labs, Power Marketing Administrations, and field sites.”"
+    },
+    {
+      "id": 65,
+      "query": "What barriers does DOE face in adopting AI technologies?",
+      "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+      "keyword": "AI adoption barriers.",
+      "quote": "“DOE is challenged with providing tools and maintaining compliance with evolving cybersecurity standards… ensuring access to high-quality and well-curated data for AI training remains a work in progress.”"
+    },
+    {
+      "id": 66,
+      "query": "How is DOE addressing AI talent development?",
+      "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+      "keyword": "AI workforce.",
+      "quote": "“DOE and the National Science Foundation (NSF) have established a pilot program to train 500 new researchers by 2025 to meet the rising demand for AI talent.”"
+    },
+    {
+      "id": 67,
+      "query": "What is DOE’s PolicyAI tool used for?",
+      "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+      "keyword": "PolicyAI tool.",
+      "quote": "“DOE developed a generative AI tool, PolicyAI, for searching and summarizing historical National Environmental Policy Act (NEPA) documents and assisting in drafting new Environmental Impact Studies.”"
+    },
+    {
+      "id": 68,
+      "query": "How does DOE promote sharing of AI-related software and code?",
+      "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+      "keyword": "DOE CODE.",
+      "quote": "“OSTI developed DOE CODE, a public software services platform and search tool for software and code resulting from DOE-funded research that provides functionality for collaboration, archiving, and discovery.”"
+    },
+    {
+      "id": 69,
+      "query": "What group is responsible for identifying AI systems that impact rights and safety?",
+      "ground_truth": "The Rights- and Safety-Impacting AI Working Group.",
+      "keyword": "Safety and rights.",
+      "quote": "“DOE created the Rights- and Safety-Impacting AI Working Group… to support efforts to identify rights and safety impacting AI use cases.”"
+    },
+    {
+      "id": 70,
+      "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+      "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+      "keyword": "Risk management enforcement.",
+      "quote": "“If the use case owner is unable to implement the risk management practices, then the Acting CAIO will determine if a waiver is appropriate, or if use case termination may be required.”"
+    },
+    {
+      "id": 71,
+      "query": "What is the main purpose of the HHS AI Strategic Plan?",
+      "ground_truth": "To make HHS a global leader in responsible AI use for improving health and well-being in the U.S.",
+      "keyword": "Purpose.",
+      "quote": "“HHS’s vision is to be a global leader in innovating and adopting responsible AI to achieve unparalleled advances in the health and well-being of all Americans.”"
+    },
+    {
+      "id": 72,
+      "query": "How does the Strategic Plan define Artificial Intelligence?",
+      "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+      "keyword": "AI Definition.",
+      "quote": "“AI… is a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.”"
+    },
+    {
+      "id": 73,
+      "query": "What are the four key goals of HHS’s AI Strategic Plan?",
+      "ground_truth": "1. Catalyze health AI innovation and adoption; 2. Promote trustworthy, ethical, and responsible use; 3. Democratize AI technologies and resources; 4. Cultivate AI-empowered workforces and cultures.",
+      "keyword": "Four Goals.",
+      "quote": "“HHS will accomplish this objective by focusing on four key goals: 1. Catalyzing health AI innovation and adoption… 2. Promoting trustworthy AI… 3. Democratizing AI… 4. Cultivating AI-empowered workforces and organization cultures.”"
+    },
+    {
+      "id": 74,
+      "query": "What are the primary domains covered in the HHS Strategic Plan?",
+      "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+      "keyword": "Primary Domains.",
+      "quote": "“Primary domains represent specific parts of the HHS value chain… Medical Research and Discovery… Medical Product Development, Safety, and Effectiveness… Healthcare Delivery… Human Services Delivery… Public Health.”"
+    },
+    {
+      "id": 75,
+      "query": "What additional domains support implementation of the Strategic Plan?",
+      "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+      "keyword": "Additional Domains.",
+      "quote": "“Additional domains are functional areas that span primary domains… Cybersecurity and Critical Infrastructure Protection… Internal Operations.”"
+    },
+    {
+      "id": 76,
+      "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+      "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+      "keyword": "AI Opportunities.",
+      "quote": "“AI has the potential to… accelerate scientific breakthroughs… improve clinical outcomes… enhance equity… and forecast risks to predict and respond to public health threats.”"
+    },
+    {
+      "id": 77,
+      "query": "What framework does HHS use to guide trustworthy AI development?",
+      "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+      "keyword": "FAVES Principles.",
+      "quote": "“The HTI-1 Final Rule… is informed by the FAVES principles (fair, appropriate, valid, effective, and safe).”"
+    },
+    {
+      "id": 78,
+      "query": "What are some key risks identified in AI for health and human services?",
+      "ground_truth": "Bias, inaccurate outputs, privacy breaches, misuse of data, inequity, and over-reliance without human oversight.",
+      "keyword": "AI Risks.",
+      "quote": "“AI… can produce outputs that are incorrect or incomplete… introduce and propagate bias… and lead to inequitable access or misuse of resources.”"
+    },
+    {
+      "id": 79,
+      "query": "What role does the HHS Chief AI Officer (CAIO) play?",
+      "ground_truth": "The CAIO coordinates implementation of the Strategic Plan, oversees AI governance, and aligns division efforts.",
+      "keyword": "CAIO Role.",
+      "quote": "“The primary functions of the CAIO are to drive implementation of the Strategic Plan, oversee the HHS AI governance structure, coordinate HHS’s response to federal AI mandates, and foster AI-related collaboration.”"
+    },
+    {
+      "id": 80,
+      "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+      "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+      "keyword": "STLT Support.",
+      "quote": "“HHS will maintain a flexible approach that supports innovation while ensuring safe and responsible development and use… and will help STLTs develop their own AI policies and practices.”"
+    },
+    {
+      "id": 81,
+      "query": "What is the main purpose of DHS Directive 139-08?",
+      "ground_truth": "To set Department-wide policy for the use and acquisition of Artificial Intelligence that promotes innovation while managing risks to safety and individual rights.",
+      "keyword": "Purpose.",
+      "quote": "“This Directive establishes Department of Homeland Security (DHS) policy for the use and acquisition of Artificial Intelligence (AI)… to advance AI innovation and governance while managing risks from the use of AI, particularly those affecting the safety or rights of individuals.”"
+    },
+    {
+      "id": 82,
+      "query": "Who leads and coordinates AI use across DHS?",
+      "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+      "keyword": "CAIO leadership.",
+      "quote": "“The DHS Chief AI Officer (DHS CAIO) leads and coordinates, on behalf of the Secretary of Homeland Security, the use of AI at DHS, risk management from that use, and promotion of AI innovation across the Department.”"
+    },
+    {
+      "id": 83,
+      "query": "What principles guide DHS’s use of AI?",
+      "ground_truth": "AI use must be lawful, mission-appropriate, mission-enhancing, safe, secure, responsible, trustworthy, and human-centered.",
+      "keyword": "Guiding principles.",
+      "quote": "“Use of AI at DHS is, first and foremost, lawful, mission-appropriate, and mission-enhancing. Use of AI at DHS also is safe, secure, responsible, trustworthy, and human-centered.”"
+    },
+    {
+      "id": 84,
+      "query": "What kinds of AI uses are prohibited under this Directive?",
+      "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+      "keyword": "Prohibited uses.",
+      "quote": "“Prohibited uses include relying on outputs of AI as the sole basis for law enforcement or civil actions, using AI to make decisions based on unlawful considerations such as race or gender, or using AI for unlawful systemic or large-scale surveillance.”"
+    },
+    {
+      "id": 85,
+      "query": "What is required for AI systems that are safety- or rights-impacting?",
+      "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+      "keyword": "Safety oversight.",
+      "quote": "“DHS requires use of AI to have human oversight when the use is safety-impacting or rights-impacting… Through rigorous testing and evaluation, DHS confirms use of AI avoids improper biases and meets established performance metrics.”"
+    },
+    {
+      "id": 86,
+      "query": "What is the role of the DHS AI Governance Board?",
+      "ground_truth": "To coordinate, oversee, and govern AI use across DHS, removing barriers and managing risks.",
+      "keyword": "AI Governance Board.",
+      "quote": "“The DHS AI Governance Board is responsible for coordinating and governing issues related to the use of AI within DHS, including removing barriers to the use of AI and managing its associated risks.”"
+    },
+    {
+      "id": 87,
+      "query": "What functions does the DHS AI Council perform?",
+      "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+      "keyword": "AI Council.",
+      "quote": "“The DHS AI Council supports the AI Governance Board and the DHS CAIO… and maintains a comprehensive set of policy requirements governing the safe, secure, responsible, trustworthy, and human-centered use of AI at DHS.”"
+    },
+    {
+      "id": 88,
+      "query": "How does DHS ensure transparency and accountability in its AI use?",
+      "ground_truth": "By making AI use explainable, auditable, and publicly disclosed in plain language whenever possible.",
+      "keyword": "Transparency.",
+      "quote": "“Use of AI at DHS is transparent and explainable… publicly disclosed in plain language along with any opt-out mechanisms, to the maximum extent possible.”"
+    },
+    {
+      "id": 89,
+      "query": "How does DHS handle AI incident reporting?",
+      "ground_truth": "By maintaining coordinated procedures for reporting and responding to AI-related incidents that cause harm, civil rights impacts, or data breaches.",
+      "keyword": "Incident reporting.",
+      "quote": "“DHS creates and maintains reporting requirements and response procedures for incidents involving the use of AI at DHS, including incidents that may have resulted in harm to an individual or diminished civil rights or liberties.”"
+    },
+    {
+      "id": 90,
+      "query": "What standards apply when DHS acquires AI systems?",
+      "ground_truth": "Acquisitions must address testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency.",
+      "keyword": "AI acquisition.",
+      "quote": "“Specifications for technical requirements must address testing and evaluation requirements and risk management… and ensure transparency, performance evaluation, data ownership management, and environmental efficiency.”"
+    },
+    {
+      "id": 91,
+      "query": "What is the main purpose of DHS Policy Statement 139-06?",
+      "ground_truth": "To guide all DHS Components on the responsible acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technologies.",
+      "keyword": "Purpose.",
+      "quote": "“This Policy Statement guides Department of Homeland Security (DHS) Operational and Support Components (hereafter referred to as \"Components\") and directs actions that all Components shall undertake to establish policy and practices governing the acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technology within the Department.”"
+    },
+    {
+      "id": 92,
+      "query": "What principles govern DHS’s use of AI according to Policy 139-06?",
+      "ground_truth": "DHS must ensure AI use is lawful, effective, unbiased, transparent, and protective of privacy, civil rights, and civil liberties.",
+      "keyword": "Core Principles.",
+      "quote": "“We must also ensure that our use of AI is responsible and trustworthy, that it is rigorously tested to be effective, that it safeguards privacy, civil rights, and civil liberties while avoiding inappropriate biases, and to the extent possible, that it is transparent and explainable to those whom we serve.”"
+    },
+    {
+      "id": 93,
+      "query": "Which Executive Order must DHS systems using AI comply with?",
+      "ground_truth": "Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.",
+      "keyword": "Executive Order 13960.",
+      "quote": "“DHS systems, programs, and activities using AI will conform to the requirements of Executive Order 13960… and adhere to the Principles for Use of AI in Government.”"
+    },
+    {
+      "id": 94,
+      "query": "What types of data use are explicitly prohibited by DHS in AI systems?",
+      "ground_truth": "DHS may not use AI or data to make or support decisions based on race, ethnicity, gender, religion, or other protected traits.",
+      "keyword": "Data prohibitions.",
+      "quote": "“DHS will not collect, use, or disseminate data used in AI activities… or establish AI-enabled systems that make or support decisions based on… race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, nationality, medical condition, or disability.”"
+    },
+    {
+      "id": 95,
+      "query": "How will DHS prevent discriminatory effects in AI systems?",
+      "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+      "keyword": "Anti-discrimination.",
+      "quote": "“DHS… will test and validate AI employed in use cases where discriminatory activity or effects may be possible… and use civil rights evaluation methods, including disparate impact analysis, where appropriate.”"
+    },
+    {
+      "id": 96,
+      "query": "What does DHS’s AI Risk Management Framework aim to do?",
+      "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+      "keyword": "AI Risk Management.",
+      "quote": "“The DHS AI Risk Management Framework will be applied to evaluate all use cases early in their life cycle to assess risk… and to assist the implementers in the mitigation of the identified risks.”"
+    },
+    {
+      "id": 97,
+      "query": "What safeguards will DHS apply to AI systems to ensure cybersecurity?",
+      "ground_truth": "DHS will follow federal and private-sector best practices and develop additional standards to protect AI from cyberattacks.",
+      "keyword": "Cybersecurity.",
+      "quote": "“DHS will protect AI technologies from cyber-attacks… with adherence to Federal and DHS security standards… developing new methods of addressing the evolving threat.”"
+    },
+    {
+      "id": 98,
+      "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+      "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+      "keyword": "Leadership oversight.",
+      "quote": "“Senior leaders at all levels of DHS… are responsible for ensuring the adoption of effective and trustworthy AI at DHS.”"
+    },
+    {
+      "id": 99,
+      "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+      "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+      "keyword": "AIPWG.",
+      "quote": "“The Chief Information Officer and the Under Secretary for Science and Technology… will establish an AI Policy Working Group (AIPWG)… to assess the need for Components to update or revise their existing policies, procedures and processes for the responsible, ethical, and authorized acquisition and use of AI/ML technologies.”"
+    },
+    {
+      "id": 100,
+      "query": "When must DHS complete its formal AI Directive and Instruction?",
+      "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+      "keyword": "Implementation timeline.",
+      "quote": "“The formal Directive and Instructions on AI/ML will be complete no later than 12 months after the publication of this Policy Statement (139-06).”"
+    },
+    {
+      "id": 101,
+      "query": "What is the purpose of the DOT Compliance Plan for OMB M-24-10?",
+      "ground_truth": "To explain how DOT will align with OMB M-24-10 by strengthening AI governance, enabling responsible innovation, and managing AI risks.",
+      "keyword": "Purpose",
+      "quote": "“This Compliance Plan conveys DOT’s approach to achieving consistency with OMB Memorandum M-24-10… aligning with its three main pillars of Strengthening AI Governance, Advancing Responsible AI Innovation, and Managing Risks from AI.”"
+    },
+    {
+      "id": 102,
+      "query": "Who serves as DOT’s AI Governance Board?",
+      "ground_truth": "The NETT Council, led by senior DOT officials including the Secretary and Deputy Secretary.",
+      "keyword": "Governance Board",
+      "quote": "“DOT’s Non-Traditional and Emerging Transportation Technology (NETT) Council serves as the Department’s AI Governance Board.”"
+    },
+    {
+      "id": 103,
+      "query": "What is one role of the NETT Council as the AI Governance Board?",
+      "ground_truth": "To review and approve all AI governance structures, policies, and guidance.",
+      "keyword": "Approval authority",
+      "quote": "“Review and approve all AI governance structures, processes, policies, and guidance.”"
+    },
+    {
+      "id": 104,
+      "query": "What does the SR2 Committee do?",
+      "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+      "keyword": "SR2",
+      "quote": "“The SR2 Committee… assists the CAIO in reviewing and approving the operational deployment of all safety-impacting and rights-impacting AI use cases.”"
+    },
+    {
+      "id": 105,
+      "query": "What tool does DOT use to track AI use cases?",
+      "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+      "keyword": "TrUCKR",
+      "quote": "“TrUCKR is the CAIO platform for tracking the Department’s AI use case development, maturity, assessments… from conception through retirement.”"
+    },
+    {
+      "id": 106,
+      "query": "What is the ART Network used for?",
+      "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+      "keyword": "ART Network",
+      "quote": "“The ART Network… allows for rapid AI innovation, exploration, and sharing with external research partners.”"
+    },
+    {
+      "id": 107,
+      "query": "What is OPSLAB used for?",
+      "ground_truth": "Experimenting, developing, and assessing operational AI use cases.",
+      "keyword": "OPSLAB",
+      "quote": "“OPSLAB… provides AI Developers with access to all OCIO-cleared AI functionality for use case experimentation, development, and initial risk management.”"
+    },
+    {
+      "id": 108,
+      "query": "What is TrAIN?",
+      "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+      "keyword": "TrAIN",
+      "quote": "“The TrAIN supports the rapid deployment of AI solutions by aggregating all DOT AI-enabled development, testing, and production environments.”"
+    },
+    {
+      "id": 109,
+      "query": "What is the purpose of the AISCC?",
+      "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+      "keyword": "AISCC",
+      "quote": "“The AISCC… accelerates safe, secure, transformative, and innovative AI solutions… through employee education, collaboration, and governance.”"
+    },
+    {
+      "id": 110,
+      "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+      "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+      "keyword": "Exclusion",
+      "quote": "“The CAIO applies the following exclusion criteria… classified or sensitive… embedded in standard commercial products… or basic/applied research.”"
+    },
+    {
+      "id": 111,
+      "query": "What is DOT’s approach to removing barriers to responsible AI use?",
+      "ground_truth": "Using the AI Accelerator Roadmap and AISCC to reduce friction while managing safety, privacy, and civil rights risks.",
+      "keyword": "Removing barriers",
+      "quote": "“The AI Accelerator Roadmap and AISCC provide… tools, systems, best practices… to responsibly, safely, and securely enable AI innovation.”"
+    },
+    {
+      "id": 112,
+      "query": "How does DOT ensure AI training data are trustworthy?",
+      "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+      "keyword": "Data quality",
+      "quote": "“Assessing all AI-related datasets for quality, accuracy, functionality, representativeness, and bias.”"
+    },
+    {
+      "id": 113,
+      "query": "How does DOT protect AI systems from cybersecurity risks?",
+      "ground_truth": "By using segregated research and operational environments and continuous ATO monitoring.",
+      "keyword": "Cybersecurity",
+      "quote": "“Cybersecurity… is further enhanced by segregating ART Network and OPSLAB environments from the Department’s operational IT infrastructure.”"
+    },
+    {
+      "id": 114,
+      "query": "What is DOT’s strategy for AI workforce development?",
+      "ground_truth": "Building a trained workforce through internal AI training, learning sessions, and recruitment initiatives.",
+      "keyword": "Workforce",
+      "quote": "“The precursor to accelerated… AI adoption is… a well-educated and trained workforce.”"
+    },
+    {
+      "id": 115,
+      "query": "How does DOT handle sharing AI models and code with the public?",
+      "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+      "keyword": "Public sharing",
+      "quote": "“Data, custom code, and models that clear the SR2 Committee’s security review… are shared with the public through established OPEN Data workflows.”"
+    },
+    {
+      "id": 116,
+      "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+      "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+      "keyword": "Determination",
+      "quote": "“The CAIO will assess whether the AI… would serve as a principal basis for a decision… that impacts safety or rights.”"
+    },
+    {
+      "id": 117,
+      "query": "How often must DOT re-evaluate AI risk determinations?",
+      "ground_truth": "At least annually or when significant modifications occur.",
+      "keyword": "Reevaluation",
+      "quote": "“Reassessment determinations are conducted at least annually or when significant use case changes are made.”"
+    },
+    {
+      "id": 118,
+      "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+      "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+      "keyword": "Non-compliance",
+      "quote": "“Use cases out of compliance… will suspend operations and revert to the non-AI process until compliance is reinstituted.”"
+    },
+    {
+      "id": 119,
+      "query": "What is required before an AI system can be deployed into production?",
+      "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+      "keyword": "Deployment approval",
+      "quote": "“CAIO and SR2 Committee clearance is required prior to use case advancement into production.”"
+    },
+    {
+      "id": 120,
+      "query": "What does TrUCKR track regarding risk management?",
+      "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+      "keyword": "Risk documentation",
+      "quote": "“TrUCKR maintains… evaluation, reevaluation, determination, reassessment, certification, and reporting documentation for each use case.”"
+    },
+    {
+      "id": 121,
+      "query": "Who oversees all internal and external IRS reporting on AI?",
+      "ground_truth": "The CDAO acting as the RAIO.",
+      "keyword": "Oversight",
+      "quote": "“The CDAO, as RAIO, will oversee all internal and external reporting.”"
+    },
+    {
+      "id": 122,
+      "query": "What triggers the need to update an AI use case inventory entry?",
+      "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+      "keyword": "Update trigger",
+      "quote": "“Project teams must update the inventory record when a change… meaningfully affects the accuracy of the current record.”"
+    },
+    {
+      "id": 123,
+      "query": "How often must AI use case inventory entries be reviewed?",
+      "ground_truth": "At least annually or when directed by the CDAO team.",
+      "keyword": "Annual review",
+      "quote": "“Project teams must… review and validate or update the inventory record at least annually.”"
+    },
+    {
+      "id": 124,
+      "query": "Who reviews AI use case inventory entries for clarity and detail?",
+      "ground_truth": "The CDAO team.",
+      "keyword": "Review",
+      "quote": "“The CDAO team will review inventory entries and support project teams.”"
+    },
+    {
+      "id": 125,
+      "query": "What is required before beginning operational use of an AI use case?",
+      "ground_truth": "Completed Model Card and Datasheet artifacts.",
+      "keyword": "Prerequisite",
+      "quote": "“Project teams must complete and submit these artifacts prior to beginning operational use.”"
+    },
+    {
+      "id": 126,
+      "query": "What happens to AI use cases initiated during the interim period?",
+      "ground_truth": "They may undergo post-hoc review once new policies are issued.",
+      "keyword": "Post-hoc",
+      "quote": "“Use cases… will be subject to any additional requirements in future policy updates… including post-hoc review.”"
+    },
+    {
+      "id": 127,
+      "query": "What constitutes a change requiring updates to AI artifacts?",
+      "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+      "keyword": "Artifact update",
+      "quote": "“Examples… include changing the context, scope… updating or retraining the model… incorporating new data elements.”"
+    },
+    {
+      "id": 128,
+      "query": "What law protects taxpayer information that AI systems must follow?",
+      "ground_truth": "Internal Revenue Code 6103.",
+      "keyword": "IRC 6103",
+      "quote": "“Employees… must comply with… IRC 6103 and the Privacy Act.”"
+    },
+    {
+      "id": 129,
+      "query": "What publication explains taxpayer rights that AI must not violate?",
+      "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+      "keyword": "Pub 1",
+      "quote": "“See… Publication 1, Your Rights as a Taxpayer.”"
+    },
+    {
+      "id": 130,
+      "query": "Which IRM subsection requires Privacy and Civil Liberties Impact Assessments?",
+      "ground_truth": "IRM 10.5.2.2.",
+      "keyword": "PCLIA",
+      "quote": "“Business units… must follow the policies in IRM 10.5.2.2… Privacy and Civil Liberties Impact Assessment.”"
+    },
+    {
+      "id": 131,
+      "query": "What is excluded from “operational use”?",
+      "ground_truth": "Exploratory or research-only AI activity.",
+      "keyword": "Exclusion",
+      "quote": "“It does not include… exploratory or research-only contexts that do not affect IRS business operations.”"
+    },
+    {
+      "id": 132,
+      "query": "What must project teams do when retraining a model?",
+      "ground_truth": "Update the Model Card and Datasheet.",
+      "keyword": "Retraining",
+      "quote": "“Updating or retraining the underlying AI model(s)” requires updating artifacts."
+    },
+    {
+      "id": 133,
+      "query": "What is the IRS definition of an AI use case?",
+      "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+      "keyword": "Use case",
+      "quote": "“An AI use case is a specific business use… to solve a problem or increase operational efficiency.”"
+    },
+    {
+      "id": 134,
+      "query": "What federal guidance remains in effect for AI during the interim period?",
+      "ground_truth": "EO 13859 and EO 13960.",
+      "keyword": "Effective EOs",
+      "quote": "“EO 13960 remains in effect… EO 13859… Maintaining American Leadership in Artificial Intelligence.”"
+    },
+    {
+      "id": 135,
+      "query": "What are project teams required to provide in the AI inventory?",
+      "ground_truth": "Clear, detailed responses to all required inventory questions.",
+      "keyword": "Detail",
+      "quote": "“Project teams must answer all required inventory questions… with the clarity and detail necessary.”"
+    },
+    {
+      "id": 136,
+      "query": "What role do IRS executives have in AI governance?",
+      "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+      "keyword": "Executives",
+      "quote": "“Senior executives… are responsible for conducting and managing AI use… in compliance with this IRM.”"
+    },
+    {
+      "id": 137,
+      "query": "Who can IRS units contact for AI-related guidance?",
+      "ground_truth": "The CDAO team.",
+      "keyword": "Contact",
+      "quote": "“Any IRS business unit… may contact the CDAO team… for information… related to the use of AI.”"
+    },
+    {
+      "id": 138,
+      "query": "What federal policy defines AI for IRS purposes?",
+      "ground_truth": "Section 238(g) of the 2019 NDAA.",
+      "keyword": "Definition",
+      "quote": "“The term ‘artificial intelligence’… has the meaning provided in Section 238(g) of the… NDAA.”"
+    },
+    {
+      "id": 139,
+      "query": "What must AI systems be “regularly monitored and tested” for?",
+      "ground_truth": "Alignment with the EO 13960 AI principles.",
+      "keyword": "Monitoring",
+      "quote": "“AI must be regularly monitored and tested against these principles.”"
+    },
+    {
+      "id": 140,
+      "query": "Where are related IRS privacy and security requirements found?",
+      "ground_truth": "IRM 10.5 and IRM 10.8.",
+      "keyword": "Security",
+      "quote": "“AI use cases must follow all relevant IRS privacy and security policies… IRM 10.5… and IRM 10.8.”"
+    },
+    {
+      "id": 141,
+      "query": "What internal group defines topics for NASA’s AI governance board?",
+      "ground_truth": "The AISWG forms discussion topics for the AISB.",
+      "keyword": "AISWG topics",
+      "quote": "“Forming topics of discussion for the AISB regarding implications of AI within the Agency.”"
+    },
+    {
+      "id": 142,
+      "query": "What responsibility does AISWG have regarding AI policy creation?",
+      "ground_truth": "Supporting AI governance creation within NASA.",
+      "keyword": "Governance support",
+      "quote": "“Supporting AI Governance creation within the Agency.”"
+    },
+    {
+      "id": 143,
+      "query": "Who provides recommendations to the CAIO?",
+      "ground_truth": "The AISWG.",
+      "keyword": "Recommendations",
+      "quote": "“Providing recommendations to the CAIO in relevant matters.”"
+    },
+    {
+      "id": 144,
+      "query": "How does AISWG coordinate AI activity across NASA?",
+      "ground_truth": "By working with practitioners to understand AI work in the agency.",
+      "keyword": "Coordination",
+      "quote": "“Coordinating with practitioners to understand AI work at NASA.”"
+    },
+    {
+      "id": 145,
+      "query": "What is AISWG’s role in advancing strategic objectives?",
+      "ground_truth": "Defining and advancing AI strategic objectives.",
+      "keyword": "Strategic objectives",
+      "quote": "“Defining and advancing strategic objectives.”"
+    },
+    {
+      "id": 146,
+      "query": "What process will AISWG develop for AI lifecycle management?",
+      "ground_truth": "An inventory and annual registration process.",
+      "keyword": "AI lifecycle",
+      "quote": "“Developing an inventory… including the annual process for registering AI use cases.”"
+    },
+    {
+      "id": 147,
+      "query": "What role does AISWG have in risk management?",
+      "ground_truth": "Reviewing and approving safety/rights-impacting assessments and waivers.",
+      "keyword": "Risk review",
+      "quote": "“Creating a process for reviewing and approving safety and rights impacting assessment and waiver procedures.”"
+    },
+    {
+      "id": 148,
+      "query": "How will NASA update the AI inventory structure?",
+      "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+      "keyword": "Inventory update",
+      "quote": "“Updating prior inventory data structures, collection mechanisms, and query / visualization capabilities.”"
+    },
+    {
+      "id": 149,
+      "query": "What must use case owners do for prior entries?",
+      "ground_truth": "Update their entries in the new AI registry.",
+      "keyword": "Update entries",
+      "quote": "“Use case points of contact will be required to update their entries.”"
+    },
+    {
+      "id": 150,
+      "query": "How will NASA handle expired use cases?",
+      "ground_truth": "They will be archived.",
+      "keyword": "Archive",
+      "quote": "“If use cases have expired, they will be archived instead of deleted.”"
+    },
+    {
+      "id": 151,
+      "query": "What does NASA’s registry enable beyond federal reporting?",
+      "ground_truth": "Continuous tracking of all AI use cases internally.",
+      "keyword": "Continuous tracking",
+      "quote": "“Provide a continuous and enduring process to capture AI use and track it through its lifecycle.”"
+    },
+    {
+      "id": 152,
+      "query": "When will NASA re-evaluate non-reportable use cases?",
+      "ground_truth": "Annually, aligned with federal deadlines.",
+      "keyword": "Annual review",
+      "quote": "“Aligned with yearly Federal inventory deadlines.”"
+    },
+    {
+      "id": 153,
+      "query": "When will NASA publish its AI Strategy?",
+      "ground_truth": "By March 2025.",
+      "keyword": "Strategy Deadline",
+      "quote": "“NASA will publish an AI strategy… by March 2025.”"
+    },
+    {
+      "id": 154,
+      "query": "What AI barrier relates to tools?",
+      "ground_truth": "Lack of access to AI tools and platforms.",
+      "keyword": "Tools barrier",
+      "quote": "“Barriers include access to AI tools and platforms.”"
+    },
+    {
+      "id": 155,
+      "query": "What is NASA doing to improve access to AI tools?",
+      "ground_truth": "Making multiple cloud-hosted AI capabilities available in FY25.",
+      "keyword": "Cloud-hosted",
+      "quote": "“Make multiple cloud-hosted AI capabilities available in FY25.”"
+    },
+    {
+      "id": 156,
+      "query": "What barrier relates to data?",
+      "ground_truth": "Need to make data more AI-ready.",
+      "keyword": "AI-ready data",
+      "quote": "“Identify data enhancements required to fuel transformation with data and AI.”"
+    },
+    {
+      "id": 157,
+      "query": "What barrier relates to generative AI outputs?",
+      "ground_truth": "Quality control issues.",
+      "keyword": "Quality control",
+      "quote": "“Quality control issues with generative AI outputs.”"
+    },
+    {
+      "id": 158,
+      "query": "How is NASA addressing generative AI risks?",
+      "ground_truth": "By emphasizing human verification, validation, and benchmarks.",
+      "keyword": "Verification",
+      "quote": "“Human verification and validation… especially with generative AI.”"
+    },
+    {
+      "id": 159,
+      "query": "When did NASA issue its first generative AI guidance?",
+      "ground_truth": "May 2023.",
+      "keyword": "Initial guidance",
+      "quote": "“Issued initial guidance for use of generative AI in May 2023.”"
+    },
+    {
+      "id": 160,
+      "query": "How many learners participated in NASA’s “Summer of AI”?",
+      "ground_truth": "Nearly 4,000.",
+      "keyword": "4,000",
+      "quote": "“Reaching nearly 4,000 unique learners over a 90-day period.”"
+    },
+    {
+      "id": 161,
+      "query": "What mechanisms does NASA use to acquire AI talent?",
+      "ground_truth": "Direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+      "keyword": "Talent acquisition",
+      "quote": "“Direct hires… research contractors… university grants… industry partnerships… internships, fellowships.”"
+    },
+    {
+      "id": 162,
+      "query": "What does the NRC identify as the main driver for creating the AI Strategic Plan?",
+      "ground_truth": "The growing interest and expected near-term deployment of AI by the nuclear industry.",
+      "keyword": "Industry demand",
+      "quote": "“The nuclear industry could start deploying AI technologies in the near future and has already begun investigating… how such technologies can be used.”"
+    },
+    {
+      "id": 163,
+      "query": "What is the NRC’s stated vision for AI?",
+      "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+      "keyword": "Vision",
+      "quote": "“The NRC’s vision is to continue to keep pace with technological innovations to allow for the safe and secure use of AI…”"
+    },
+    {
+      "id": 164,
+      "query": "Why does the NRC place emphasis on data science as a foundation?",
+      "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+      "keyword": "Data science foundation",
+      "quote": "“Data science… is a foundational discipline… the NRC recognizes the establishment of a foundation in data science as a fundamental requirement.”"
+    },
+    {
+      "id": 165,
+      "query": "What role will public workshops and stakeholder engagement play?",
+      "ground_truth": "They will help the NRC gather input, share updates, and maintain transparency about AI regulatory readiness.",
+      "keyword": "Stakeholder engagement",
+      "quote": "“The development of the AI framework will be communicated with agency stakeholders and the public to maintain transparency…”"
+    },
+    {
+      "id": 166,
+      "query": "What major internal committees or groups will support AI governance?",
+      "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+      "keyword": "Governance groups",
+      "quote": "“The NRC will establish an internal Artificial Intelligence Steering Committee… The NRC will need to establish an internal AI Community of Practice.”"
+    },
+    {
+      "id": 167,
+      "query": "What kind of regulatory updates might be required for AI oversight?",
+      "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+      "keyword": "Regulatory updates",
+      "quote": "“Assess whether any regulatory guidance… or inspection procedures need to be updated or created… long-range changes… may require rulemaking.”"
+    },
+    {
+      "id": 168,
+      "query": "What are examples of AI sub-specialties covered in the plan?",
+      "ground_truth": "Natural language processing, machine learning, and deep learning.",
+      "keyword": "AI sub-fields",
+      "quote": "“A broad spectrum of AI sub-specialties (e.g., natural language processing, machine learning, deep learning…).”"
+    },
+    {
+      "id": 169,
+      "query": "How does the NRC define machine learning?",
+      "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+      "keyword": "ML definition",
+      "quote": "“Machine learning means an application of AI… to automatically learn and improve on the basis of data or experience.”"
+    },
+    {
+      "id": 170,
+      "query": "What does the NRC note about AI’s potential operational benefits?",
+      "ground_truth": "AI can enhance safety, improve processes, and support decision-making across nuclear operations.",
+      "keyword": "Operational benefits",
+      "quote": "“AI… has the potential to enhance decision-making processes… improve operational performance and mitigate operational risk.”"
+    },
+    {
+      "id": 171,
+      "query": "What regulatory principle guides the NRC’s approach to AI readiness?",
+      "ground_truth": "The agency’s Principles of Good Regulation.",
+      "keyword": "Good regulation",
+      "quote": "“Guided by the agency’s Principles of Good Regulation, the NRC will continue to be effective and efficient…”"
+    },
+    {
+      "id": 172,
+      "query": "What will the NRC evaluate when reviewing AI applications?",
+      "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+      "keyword": "Evaluation criteria",
+      "quote": "“Table 2: Potential AI Technical Considerations… Explainability… Bias… Robustness… Security… Model Maintenance…”"
+    },
+    {
+      "id": 173,
+      "query": "Why is workforce training emphasized?",
+      "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+      "keyword": "Training",
+      "quote": "“The NRC will cultivate the talent of its existing… workforce by investing in comprehensive training… tailored to the needs of the agency.”"
+    },
+    {
+      "id": 174,
+      "query": "What role will partnerships with international regulators play?",
+      "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+      "keyword": "International partnerships",
+      "quote": "“The NRC will continue to engage with international counterparts… to share information… and influence the development of international standards.”"
+    },
+    {
+      "id": 175,
+      "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+      "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+      "keyword": "Autonomy challenge",
+      "quote": "“Higher autonomy levels… may require greater regulatory scrutiny of the AI system.”"
+    },
+    {
+      "id": 176,
+      "query": "How does the NRC frame the difference between automation and autonomy?",
+      "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+      "keyword": "Automation vs autonomy",
+      "quote": "“Automation… according to pre-defined rules… In an autonomous system… the action… is the result of training an algorithm.”"
+    },
+    {
+      "id": 177,
+      "query": "What will use cases help the NRC achieve?",
+      "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+      "keyword": "Use case purpose",
+      "quote": "“Use cases… will help the staff gain AI expertise that could be used in performing regulatory reviews.”"
+    },
+    {
+      "id": 178,
+      "query": "What internal improvements might AI support in NRC processes?",
+      "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+      "keyword": "Internal improvements",
+      "quote": "“AI tools may be used to enhance internal NRC activities… improve efficiency… and support decision-making.”"
+    },
+    {
+      "id": 179,
+      "query": "What federal acts guide the NRC’s approach to AI?",
+      "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+      "keyword": "Federal acts",
+      "quote": "“Supports the provisions of the… Evidence-Based Policymaking Act… National Artificial Intelligence Initiative Act…”"
+    },
+    {
+      "id": 180,
+      "query": "What is meant by “AI tools” in the glossary?",
+      "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+      "keyword": "AI tools",
+      "quote": "“AI tools represent the computer software, code… and service provider utilities… used to facilitate AI applications.”"
+    },
+    {
+      "id": 181,
+      "query": "What is a use case as defined by the NRC?",
+      "ground_truth": "A specific situation in which an AI product or service could be applied.",
+      "keyword": "Use case definition",
+      "quote": "“A use case is a specific situation in which a product or service could potentially be used.”"
+    },
+    {
+      "id": 182,
+      "query": "What is the purpose of the GSA AI directive?",
+      "ground_truth": "To establish governing policies for controlled access and responsible use of AI across GSA.",
+      "keyword": "Purpose",
+      "quote": "“This directive establishes the governing policies regarding the controlled access and responsible use of artificial intelligence…”"
+    },
+    {
+      "id": 183,
+      "query": "What do federal laws and executive orders require agencies to ensure about AI systems?",
+      "ground_truth": "They must comply with federal law while advancing equity, safety, and privacy.",
+      "keyword": "Compliance",
+      "quote": "“Ensure that all AI and automated systems comply with applicable Federal law in a manner that advances equity, safety, and privacy.”"
+    },
+    {
+      "id": 184,
+      "query": "What must agencies do regarding AI risk management?",
+      "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+      "keyword": "Risk monitoring",
+      "quote": "“Establish or update processes to measure, monitor, evaluate, and report on AI activities…”"
+    },
+    {
+      "id": 185,
+      "query": "Who does the directive apply to?",
+      "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+      "keyword": "Applicability",
+      "quote": "“This order applies to… all GSA employees and contractors… IT systems… GSA or Federal data…”"
+    },
+    {
+      "id": 186,
+      "query": "What previous policy does this directive cancel?",
+      "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+      "keyword": "Cancellation",
+      "quote": "“This directive cancels the Security Policy for Generative Artificial Intelligence… (Number: CIO IL-23-01).”"
+    },
+    {
+      "id": 187,
+      "query": "What is one major duty of the Chief AI Officer (CAIO)?",
+      "ground_truth": "Maintain awareness of all AI activities and how systems work within GSA.",
+      "keyword": "CAIO role",
+      "quote": "“Maintain awareness of AI activities within GSA, including how the systems work…”"
+    },
+    {
+      "id": 188,
+      "query": "What is the primary function of the AI Governance Board?",
+      "ground_truth": "To oversee AI adoption and risk management across GSA.",
+      "keyword": "AI Governance Board",
+      "quote": "“Responsible for key enablers of AI adoption and risk management…”"
+    },
+    {
+      "id": 189,
+      "query": "What is the AI Safety Team responsible for?",
+      "ground_truth": "Adjudicating use cases, drafting guidance, enforcing security and privacy requirements.",
+      "keyword": "AI Safety Team",
+      "quote": "“Responsible for adjudicating use cases… developing draft guidance… enforcing security and privacy policies.”"
+    },
+    {
+      "id": 190,
+      "query": "What must system owners do with AI use cases?",
+      "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+      "keyword": "System owner duty",
+      "quote": "“Shall be responsible for reporting all AI use cases… and providing updates if significant modifications occur.”"
+    },
+    {
+      "id": 191,
+      "query": "What must all authorized AI users avoid?",
+      "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+      "keyword": "Data restriction",
+      "quote": "“Federal nonpublic information… shall not be used as inputs… without prior authorization.”"
+    },
+    {
+      "id": 192,
+      "query": "What labeling requirement applies to AI-generated work?",
+      "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+      "keyword": "Labeling",
+      "quote": "“Work product outputs… must be labeled or watermarked…”"
+    },
+    {
+      "id": 193,
+      "query": "What must public-facing AI systems include?",
+      "ground_truth": "Plain-language notices and human alternatives where practicable.",
+      "keyword": "Public-facing requirements",
+      "quote": "“Must include… notice and explanation… and human alternatives or fallback options.”"
+    },
+    {
+      "id": 194,
+      "query": "What are the four categories of GSA AI use cases?",
+      "ground_truth": "Familiarization, Pre-acquisition, Research & Development, Production / Production-intent.",
+      "keyword": "Use case categories",
+      "quote": "“AI use cases… categorized as: 1. Familiarization… 2. Pre-acquisition… 3. Research and Development… 4. Production…”"
+    },
+    {
+      "id": 195,
+      "query": "What must all new AI use case submissions include?",
+      "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+      "keyword": "New use case requirements",
+      "quote": "“All applicants must include… intended purpose… metrics… risks… what data will be used…”"
+    },
+    {
+      "id": 196,
+      "query": "How often must existing AI use cases be re-registered?",
+      "ground_truth": "Annually, except for familiarization use cases.",
+      "keyword": "Annual resubmission",
+      "quote": "“Every year, all existing use cases… are required to re-register… with the exception of familiarization use cases.”"
+    },
+    {
+      "id": 197,
+      "query": "What is required for AI code developed internally?",
+      "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+      "keyword": "Open source",
+      "quote": "“All custom-developed code… shall be shared internally… and open-sourced to the public.”"
+    },
+    {
+      "id": 198,
+      "query": "What restrictions apply to internal GSA data?",
+      "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+      "keyword": "Data restrictions",
+      "quote": "“No internal data assets may be used as input for public AI systems…”"
+    },
+    {
+      "id": 199,
+      "query": "What must all AI-generated data products include?",
+      "ground_truth": "Metadata labeling indicating they were AI-generated.",
+      "keyword": "AI metadata",
+      "quote": "“All AI-generated data outputs… must be labeled as such in its metadata…”"
+    },
+    {
+      "id": 200,
+      "query": "What is required before procuring AI through acquisition?",
+      "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+      "keyword": "Procurement",
+      "quote": "“Acquisition plans… must be coordinated and approved by the CAIO… submitted to the AI Safety Team.”"
     }
   ]
 }
