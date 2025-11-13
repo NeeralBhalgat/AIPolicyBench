@@ -10,6 +10,10 @@ import logging
 import asyncio
 from typing import List, Dict, Any, Optional
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add project root to path
 sys.path.append(str(Path(__file__).parent))
@@ -61,8 +65,7 @@ class SafetyDatasetsRAG:
                     base_url="https://openrouter.ai/api/v1"
                 )
                 # Update model name for OpenRouter if needed
-                if self.model == "deepseek-chat":
-                    self.model = "deepseek/deepseek-chat"
+                self.model = "mistralai/mistral-7b-instruct"
                 logger.info(f"Initialized OpenRouter LLM client with model: {self.model}")
             else:
                 # Direct DeepSeek API

@@ -11,12 +11,16 @@ import logging
 import asyncio
 from typing import List, Dict, Any
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Add project root to path
 sys.path.append(str(Path(__file__).parent))
 
 from safety_datasets_rag import SafetyDatasetsRAG
-from green_agent.evaluation import RuleBasedEvaluator
+from evaluation import RuleBasedEvaluator
 
 # Configure logging
 logging.basicConfig(
@@ -32,7 +36,9 @@ class PredefinedQueryInterface:
     def __init__(
         self,
         queries_file: str = "data/predefined_queries.json",
-        vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl"
+        vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl",
+        use_llm_judge: bool = False,
+        llm_provider: str = "deepseek"
     ):
         """
         Initialize the predefined query interface.
@@ -40,11 +46,21 @@ class PredefinedQueryInterface:
         Args:
             queries_file: Path to JSON file with predefined queries
             vector_db_path: Path to the saved vector database
+            use_llm_judge: Whether to use LLM-as-a-judge evaluation (default: False)
+            llm_provider: LLM provider for judge evaluation (default: "deepseek")
         """
         self.queries_file = queries_file
         self.predefined_queries = []
         self.rag_system = SafetyDatasetsRAG(vector_db_path)
-        self.evaluator = RuleBasedEvaluator(case_sensitive=False)
+        self.use_llm_judge = use_llm_judge
+
+        # Initialize evaluator based on mode
+        if use_llm_judge:
+            self.evaluator = LLMJudgeEvaluator(provider=llm_provider, temperature=0.0)
+            logger.info(f"Using LLM-as-a-judge evaluation with {llm_provider}")
+        else:
+            self.evaluator = RuleBasedEvaluator(case_sensitive=False)
+            logger.info("Using rule-based evaluation")
 
         # Load predefined queries
         self._load_queries()
@@ -112,9 +128,20 @@ class PredefinedQueryInterface:
             }
 
         response = rag_result.get("generated_response", "")
+        context = rag_result.get("context", "")
 
         # Evaluate response
-        eval_result = self.evaluator.evaluate(response, ground_truth)
+        if self.use_llm_judge:
+            # LLM-as-a-judge requires question and context
+            eval_result = await self.evaluator.evaluate(
+                response=response,
+                ground_truth=ground_truth,
+                question=query,
+                context=context
+            )
+        else:
+            # Rule-based evaluation
+            eval_result = self.evaluator.evaluate(response, ground_truth)
 
         return {
             "query_id": query_id,
@@ -187,10 +214,20 @@ class PredefinedQueryInterface:
             eval_result = result.get('evaluation_result', 'unknown')
             if eval_result == "correct":
                 print(f"\n✅ Evaluation: CORRECT")
+            elif eval_result == "miss":
+                print(f"\n⚠️  Evaluation: MISS (expressed uncertainty)")
+            elif eval_result == "hallucination":
+                print(f"\n❌ Evaluation: HALLUCINATION (incorrect)")
             else:
-                print(f"\n❌ Evaluation: INCORRECT")
+                print(f"\n❓ Evaluation: {eval_result.upper()}")
 
             print(f"📊 Method: {result.get('evaluation_method', 'Rule-based')}")
+
+            # Show confidence and reasoning for LLM judge
+            if 'confidence' in result:
+                print(f"🎯 Confidence: {result['confidence']:.2f}")
+            if 'reasoning' in result:
+                print(f"💭 Reasoning: {result['reasoning']}")
 
             # Show retrieved datasets count
             datasets = result.get('retrieved_datasets', [])
@@ -219,9 +256,17 @@ class PredefinedQueryInterface:
         print("=" * 80)
         print(f"Total Queries: {stats.get('total', 0)}")
         print(f"Correct: {stats.get('correct', 0)}")
-        print(f"Incorrect: {stats.get('incorrect', 0)}")
-        print(f"Accuracy: {stats.get('accuracy', 0.0):.2f}%")
+        print(f"Hallucination: {stats.get('hallucination', 0)}")
+        print(f"Miss: {stats.get('miss', 0)}")
+        print(f"")
+        print(f"Correct Rate: {stats.get('correct_rate', 0.0):.2f}%")
+        print(f"Hallucination Rate: {stats.get('hallucination_rate', 0.0):.2f}%")
+        print(f"Miss Rate: {stats.get('miss_rate', 0.0):.2f}%")
+        print(f"Factuality Rate: {stats.get('factuality_rate', 0.0):.2f}%")
+        print(f"")
         print(f"Evaluation Method: {batch_result.get('method', 'Rule-based')}")
+        if 'provider' in batch_result:
+            print(f"LLM Provider: {batch_result['provider']}")
         print("=" * 80)
 
     def interactive_mode(self):
@@ -315,6 +360,11 @@ def main():
                         help="Evaluate all queries")
     parser.add_argument("--top_k", type=int, default=5,
                         help="Number of datasets to retrieve")
+    parser.add_argument("--use_llm_judge", action="store_true",
+                        help="Use LLM-as-a-judge evaluation instead of rule-based")
+    parser.add_argument("--llm_provider", default="deepseek",
+                        choices=["deepseek", "openai", "anthropic"],
+                        help="LLM provider for judge evaluation (default: deepseek)")
 
     args = parser.parse_args()
 
@@ -322,7 +372,9 @@ def main():
         # Initialize interface
         interface = PredefinedQueryInterface(
             queries_file=args.queries_file,
-            vector_db_path=args.vector_db
+            vector_db_path=args.vector_db,
+            use_llm_judge=args.use_llm_judge,
+            llm_provider=args.llm_provider
         )
 
         if not interface.initialize():
