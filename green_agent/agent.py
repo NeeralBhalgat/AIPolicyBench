@@ -20,7 +20,7 @@ load_dotenv()
 sys.path.append(str(Path(__file__).parent))
 
 from safety_datasets_rag import SafetyDatasetsRAG
-from evaluation import RuleBasedEvaluator
+from green_agent.evaluation import RuleBasedEvaluator
 
 # Configure logging
 logging.basicConfig(
