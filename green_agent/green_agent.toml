@@ -1,0 +1,32 @@
+name = "aipolicybench_green_agent"
+description = "Assessment manager for evaluating RAG agents on AI safety and policy questions."
+version = "1.0.0"
+
+defaultInputModes = ["text"]
+defaultOutputModes = ["text"]
+
+[capabilities]
+streaming = false
+
+[[skills]]
+id = "rag_assessment"
+name = "RAG Agent Assessment"
+description = """
+Evaluates RAG agents using predefined queries with ground truth answers.
+Tests the agent's ability to correctly answer questions about AI safety and policy datasets.
+Provides detailed evaluation metrics including correctness, hallucination rate, and factuality.
+"""
+tags = ["green agent", "assessment", "evaluation", "rag", "benchmarking"]
+examples = ["""
+Your task is to evaluate the RAG agent located at:
+<white_agent_url>
+http://localhost:9002/
+</white_agent_url>
+Use the following configuration:
+<queries_file>
+data/predefined_queries.json
+</queries_file>
+<use_llm_judge>
+false
+</use_llm_judge>
+"""]
