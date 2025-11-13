@@ -1,0 +1,24 @@
+name = "aipolicybench_rag_agent"
+description = "RAG agent for answering questions about AI safety and policy using vector database search."
+version = "1.0.0"
+
+defaultInputModes = ["text"]
+defaultOutputModes = ["text"]
+
+[capabilities]
+streaming = false
+
+[[skills]]
+id = "ai_policy_rag"
+name = "AI Policy RAG"
+description = """
+Answers questions about AI safety and policy datasets using Retrieval-Augmented Generation (RAG).
+The agent retrieves relevant information from a vector database of safety datasets and generates informed responses.
+"""
+tags = ["rag", "ai-safety", "policy", "question-answering"]
+examples = [
+    "What datasets are available for AI safety research?",
+    "Are there datasets about AI alignment?",
+    "What resources exist for studying adversarial robustness?",
+    "Tell me about datasets related to fairness in AI"
+]
