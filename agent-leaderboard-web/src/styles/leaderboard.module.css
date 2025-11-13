@@ -1,0 +1,69 @@
+.header {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.leaderboard {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard th, .leaderboard td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.leaderboard th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.leaderboard tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.leaderboard tr:hover {
+    background-color: #f1f1f1;
+}
+
+.agent-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.agent-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+}
+
+.metric {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.filters {
+    margin: 20px 0;
+}
+
+.filter-label {
+    font-weight: bold;
+}
+
+.chart-container {
+    margin: 20px 0;
+}
