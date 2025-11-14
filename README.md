@@ -1,10 +1,12 @@
 # AIPolicyBench — README
 
 ## Project Structure
+```bash
 src/
 ├── green_agent/    # Assessment manager agent (evaluation logic — maps to evaluation.py)
 ├── white_agent/    # Target agent drivers (generation logic)
 └── launcher.py     # Evaluation coordinator / CLI wrapper (launches full runs)
+```
 
 Other important files
 - evaluation.py         — main CLI for generate / evaluate / test modes
