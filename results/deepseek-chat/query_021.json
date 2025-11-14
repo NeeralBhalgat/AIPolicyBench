@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "The core purpose of the order is to achieve the policy set forth in section 2 of the order, as stated in Document 2 and Document 5. Specifically, the order aims to:\n\n1. Remove barriers to American leadership in artificial intelligence (Document 2).\n2. Develop and submit an action plan to achieve the policy set forth in section 2 (Document 5).\n\nThe exact wording from Document 2 is: \"The APST, the Special Advisor for AI and Crypto, and the APNSA shall immediately review, in coordination with the heads of all agencies as they deem relevant, all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 of October 30, 2023 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence).\" (Document 5)\n\nThe policy in section 2 is not explicitly stated in the provided documents, but the overarching goal is to advance American leadership in AI by removing obstacles and implementing a coordinated action plan.",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:24.658602",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides details about the order's purpose but does not accurately reflect the core goal of maintaining U.S. AI leadership free from bias, as stated in the ground truth answer. Instead, it focuses on procedural aspects and lacks the essential ideological context.",
+  "provider": "deepseek"
+}

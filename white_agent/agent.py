@@ -29,12 +29,13 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def prepare_white_agent_card(url: str) -> AgentCard:
+def prepare_white_agent_card(url: str, model: str = "deepseek-chat") -> AgentCard:
     """
     Prepare the agent card for the white agent.
 
     Args:
         url: The URL where the white agent will be hosted
+        model: The LLM model used by the white agent
 
     Returns:
         AgentCard with agent metadata
@@ -42,8 +43,8 @@ def prepare_white_agent_card(url: str) -> AgentCard:
     skill = AgentSkill(
         id="ai_policy_rag",
         name="AI Policy RAG",
-        description="Answers questions about AI safety and policy using RAG over safety datasets",
-        tags=["rag", "ai-safety", "policy"],
+        description=f"Answers questions about AI safety and policy using RAG over safety datasets (Model: {model})",
+        tags=["rag", "ai-safety", "policy", f"model:{model}"],
         examples=[
             "What datasets are available for AI safety research?",
             "Are there datasets about AI alignment?",
@@ -52,7 +53,7 @@ def prepare_white_agent_card(url: str) -> AgentCard:
     )
     card = AgentCard(
         name="aipolicybench_rag_agent",
-        description="RAG agent for AI safety and policy questions",
+        description=f"RAG agent for AI safety and policy questions using {model}",
         url=url,
         version="1.0.0",
         default_input_modes=["text/plain"],
@@ -66,14 +67,17 @@ def prepare_white_agent_card(url: str) -> AgentCard:
 class AIPolityRAGAgentExecutor(AgentExecutor):
     """Executor that handles RAG queries for AI policy questions."""
 
-    def __init__(self, vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl"):
+    def __init__(self, vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl",
+                 model: str = "deepseek-chat"):
         """
         Initialize the RAG agent executor.
 
         Args:
             vector_db_path: Path to the vector database
+            model: The LLM model to use for generation
         """
-        self.rag_system = SafetyDatasetsRAG(vector_db_path)
+        self.model = model
+        self.rag_system = SafetyDatasetsRAG(vector_db_path, model=model)
         self.initialized = False
 
     def _ensure_initialized(self):
@@ -141,6 +145,7 @@ class AIPolityRAGAgentExecutor(AgentExecutor):
 
 def start_white_agent(
     vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl",
+    model: str = "deepseek-chat",
     host: str = "localhost",
     port: int = 9002
 ):
@@ -149,15 +154,16 @@ def start_white_agent(
 
     Args:
         vector_db_path: Path to the vector database
+        model: The LLM model to use for generation
         host: Host to bind to
         port: Port to bind to
     """
-    logger.info("Starting white agent...")
+    logger.info(f"Starting white agent with model: {model}")
     url = f"http://{host}:{port}"
-    card = prepare_white_agent_card(url)
+    card = prepare_white_agent_card(url, model=model)
 
     request_handler = DefaultRequestHandler(
-        agent_executor=AIPolityRAGAgentExecutor(vector_db_path),
+        agent_executor=AIPolityRAGAgentExecutor(vector_db_path, model=model),
         task_store=InMemoryTaskStore(),
     )
 

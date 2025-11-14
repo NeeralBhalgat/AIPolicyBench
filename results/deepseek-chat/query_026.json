@@ -1,0 +1,12 @@
+{
+  "query_id": 26,
+  "query": "What must be reviewed and potentially undone from EO 14110?",
+  "response": "According to Document 5, all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110 must be reviewed.",
+  "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:41.682765",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that all policies and actions must be reviewed without specifying that actions inconsistent with the new policy must be suspended, revised, or rescinded, which is the key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

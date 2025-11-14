@@ -1,0 +1,12 @@
+{
+  "query_id": 17,
+  "query": "What must agencies do regarding generative AI policy, and by when?",
+  "response": "Agencies must develop a policy that sets the terms for acceptable use of generative AI for their missions and establishes adequate safeguards and oversight mechanisms that allow generative AI to be used in the agency without posing undue risk. This must be done within 270 days of the issuance of the memorandum (Document 1).",
+  "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:06.214342",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for agencies to develop a policy regarding generative AI use and mentions the 270-day timeline, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

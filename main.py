@@ -33,11 +33,15 @@ def white(
     vector_db: str = typer.Option(
         "./vector_db/safety_datasets_tfidf_db.pkl",
         help="Path to vector database"
+    ),
+    model: str = typer.Option(
+        "deepseek-chat",
+        help="LLM model to use (e.g., deepseek-chat, mistralai/mistral-7b-instruct, openai/gpt-4o-mini)"
     )
 ):
     """Start the white agent (RAG system being tested)."""
-    typer.echo("⚪ Starting white agent (RAG system)...")
-    start_white_agent(vector_db_path=vector_db, host=host, port=port)
+    typer.echo(f"⚪ Starting white agent (RAG system) with model: {model}...")
+    start_white_agent(vector_db_path=vector_db, model=model, host=host, port=port)
 
 
 @app.command()
@@ -50,10 +54,14 @@ def launch(
         "./vector_db/safety_datasets_tfidf_db.pkl",
         help="Path to vector database"
     ),
+    white_model: str = typer.Option(
+        "deepseek-chat",
+        help="LLM model for white agent (e.g., deepseek-chat, mistralai/mistral-7b-instruct, openai/gpt-4o-mini)"
+    ),
     use_llm_judge: bool = typer.Option(
         False,
         "--llm-judge",
-        help="Use LLM-as-a-judge evaluation"
+        help="Use LLM-as-a-judge evaluation (fixed: gpt-4o-mini)"
     ),
     green_host: str = typer.Option("localhost", help="Green agent host"),
     green_port: int = typer.Option(9001, help="Green agent port"),
@@ -61,10 +69,14 @@ def launch(
     white_port: int = typer.Option(9002, help="White agent port"),
 ):
     """Launch the complete A2A evaluation workflow (green + white agents)."""
-    typer.echo("🚀 Launching complete A2A evaluation...")
+    typer.echo(f"🚀 Launching complete A2A evaluation...")
+    typer.echo(f"   White Agent Model: {white_model}")
+    if use_llm_judge:
+        typer.echo(f"   LLM Judge Model: gpt-4o-mini (fixed)")
     asyncio.run(launch_evaluation(
         queries_file=queries_file,
         vector_db_path=vector_db,
+        white_model=white_model,
         use_llm_judge=use_llm_judge,
         green_host=green_host,
         green_port=green_port,

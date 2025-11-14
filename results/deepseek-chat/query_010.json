@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The documents provided do not explicitly state a specific legal risk from AI that the plan targets. However, Document 1 mentions the importance of AI risk management to address potential risks, and Document 3 mentions the need for robust AI governance programs to address risks in the criminal justice system. Document 2 discusses challenges in risk measurement, particularly with third-party data or systems. Document 5 mentions the need for agencies to develop AI strategies to identify and remove barriers to their responsible use of AI, but it does not specify a particular legal risk.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:21:44.037621",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific legal risk targeted by the plan, stating that the documents do not explicitly mention it. This aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "deepseek"
+}

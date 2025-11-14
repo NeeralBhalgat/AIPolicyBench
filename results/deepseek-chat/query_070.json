@@ -1,0 +1,12 @@
+{
+  "query_id": 70,
+  "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+  "response": "If an AI use case fails to meet DOE's risk management practices, the Acting Chief AI Officer (CAIO) will determine if a waiver is appropriate, or if use case termination may be required. (Document 1)",
+  "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:25:43.986615",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the actions the Acting CAIO may take if an AI use case fails to meet DOE risk management practices.",
+  "provider": "deepseek"
+}

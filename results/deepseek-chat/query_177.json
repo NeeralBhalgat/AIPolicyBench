@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "Use cases will help the NRC build technical expertise for reviewing the use of AI in NRC-regulated activities (Document 1, 4.5 Strategic Goal 5) and inform the development of the AI framework (Document 3).",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:32:28.767864",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the purpose of use cases in helping the NRC build technical expertise and inform the development of an AI framework, aligning with the ground truth answer regarding practical experience with AI.",
+  "provider": "deepseek"
+}
