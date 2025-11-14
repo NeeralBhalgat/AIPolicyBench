@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "The documents do not provide specific information about how often DOT must re-evaluate AI risk determinations. However, it is mentioned that CAIOs may revisit any determinations made within their agency to conclude that an AI use case is considered \"high-impact\" and must be subject to the minimum risk management practices at any time.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:28:41.340581",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the frequency of re-evaluation, stating that the documents do not provide specific information. This reflects a lack of knowledge regarding the requirement for annual re-evaluation or when significant modifications occur.",
+  "provider": "deepseek"
+}

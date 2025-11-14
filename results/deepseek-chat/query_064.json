@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "The DOE AI Use Case Inventory aims to ensure comprehensive, complete, and accurate reporting of AI use cases across the Department, adhering to OMB guidance. It leverages a Data Call Application (DCA) tool for quality control, error checking, and an approval hierarchy to enhance reporting accuracy. The inventory process involves annual data calls, verification, and validation by OCIO and CET, and includes reporting on human rights- and safety-impacting use cases. (Documents 1, 3, 5)",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:25:26.577620",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOE AI Use Case Inventory, emphasizing the cataloging and reporting of AI use cases, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

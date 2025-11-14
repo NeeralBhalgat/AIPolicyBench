@@ -77,19 +77,32 @@ async def evaluate_white_agent(
     """
     logger.info(f"Starting evaluation of white agent at {white_agent_url}")
 
-    # Extract white agent name from URL for results directory
-    white_agent_name = white_agent_url.replace("http://", "").replace("https://", "").replace("/", "_").replace(":", "_")
+    # Get white agent card to extract model name
+    white_agent_model = "unknown"
+    try:
+        white_agent_card = await a2a_client.get_agent_card(white_agent_url)
+        if white_agent_card and white_agent_card.skills:
+            # Extract model from tags (format: "model:deepseek-chat")
+            for skill in white_agent_card.skills:
+                for tag in skill.tags:
+                    if tag.startswith("model:"):
+                        white_agent_model = tag.replace("model:", "")
+                        break
+                if white_agent_model != "unknown":
+                    break
+    except Exception as e:
+        logger.warning(f"Could not get white agent model name: {e}")
 
-    # Create results directory
-    agent_results_dir = Path(results_dir) / white_agent_name
-    agent_results_dir.mkdir(parents=True, exist_ok=True)
+    logger.info(f"White agent model: {white_agent_model}")
 
-    # Create timestamp for this evaluation
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    eval_session_dir = agent_results_dir / timestamp
+    # Create results directory based on model name (no timestamp in path)
+    eval_session_dir = Path(results_dir) / white_agent_model
     eval_session_dir.mkdir(parents=True, exist_ok=True)
 
     logger.info(f"Results will be saved to: {eval_session_dir}")
+
+    # Keep timestamp for metadata
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # Load predefined queries
     try:
@@ -299,6 +312,7 @@ async def evaluate_white_agent(
         },
         "method": "LLM-as-a-judge" if use_llm_judge else "Rule-based",
         "white_agent_url": white_agent_url,
+        "white_agent_model": white_agent_model,
         "queries_file": queries_file,
         "timestamp": timestamp,
         "results_dir": str(eval_session_dir)
@@ -306,8 +320,8 @@ async def evaluate_white_agent(
 
     # Add provider info for LLM judge
     if use_llm_judge:
-        result_dict["provider"] = "openai/gpt-4o-mini"
-        result_dict["model"] = "openai/gpt-4o-mini"
+        result_dict["llm_judge_provider"] = "openai/gpt-4o-mini"
+        result_dict["llm_judge_model"] = "openai/gpt-4o-mini"
 
     # Save summary results
     summary_file = eval_session_dir / "summary.json"
@@ -321,9 +335,10 @@ async def evaluate_white_agent(
         f.write(f"AIPolicyBench Evaluation Results\n")
         f.write(f"{'='*80}\n\n")
         f.write(f"White Agent: {white_agent_url}\n")
+        f.write(f"White Agent Model: {white_agent_model}\n")
         f.write(f"Evaluation Method: {result_dict['method']}\n")
         if use_llm_judge:
-            f.write(f"Model: {result_dict['model']}\n")
+            f.write(f"LLM Judge Model: {result_dict['llm_judge_model']}\n")
         f.write(f"Timestamp: {timestamp}\n")
         f.write(f"\n{'='*80}\n")
         f.write(f"Statistics:\n")

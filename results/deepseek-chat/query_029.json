@@ -1,0 +1,12 @@
+{
+  "query_id": 29,
+  "query": "How does the order limit its legal effect on agencies’ authorities?",
+  "response": "The order does not supersede, modify, or direct an interpretation of any existing statute, regulation, policy, or international instrument. It does not constitute binding guidance for the public or federal agencies and therefore does not require compliance with the principles described therein (Document 1, Document 3, Document 4). Agencies retain their existing authorities and responsibilities established in other laws and policies (Document 2).",
+  "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:51.126661",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects that the order does not alter existing legal authorities and does not impose binding guidance, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

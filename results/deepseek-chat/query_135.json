@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to provide the following in the AI inventory:\n\n1. Model Card: Provides details about an AI model, including its purpose, intended use, risks, and risk control measures.\n2. Datasheet: Provides detailed documentation about the data used by an AI use case, such as its source, size, provenance, sensitivity, intended use, transformation pipelines, and known quality issues.\n3. Use Case Information: Includes the name, purpose, lifecycle status, risks, and benefits of each AI use case.\n\nThese details should be provided with clarity and detail, and project teams must maintain the accuracy and currency of their use case's information over time. Updates to the inventory are required when a change occurs to the use case that meaningfully affects the accuracy of the current record.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:29:44.236031",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the required components for the AI inventory, including the Model Card, Datasheet, and Use Case Information, which align with the ground truth answer of providing clear and detailed responses to inventory questions.",
+  "provider": "deepseek"
+}

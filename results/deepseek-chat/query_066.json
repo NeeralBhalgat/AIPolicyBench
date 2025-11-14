@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "DOE is addressing AI talent development by establishing a pilot program to train 500 new researchers by 2025, working across the Department to align AI positions, updating position descriptions, assigning AI work roles from the Department of Defense Cyber Workforce Framework, providing resources and training to develop AI talent, and achieving AI literacy for non-practitioners. The Office of Human Capital (HC) is designated as the Agency AI Talent Lead for DOE.",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:25:33.217418",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DOE's initiatives for AI talent development, including the pilot program to train 500 researchers by 2025 and the involvement of the Office of Human Capital as the Agency AI Talent Lead. It aligns well with the ground truth answer.",
+  "provider": "deepseek"
+}

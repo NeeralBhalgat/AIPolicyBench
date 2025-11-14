@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "The five key strategic goals outlined in the strategy are:\n\n1. AI Strategic Goal 1: Continue to keep pace with technological innovations to allow for the safe and secure use of AI in NRC-regulated activities, when appropriate, through existing or new regulatory guidance, rules, inspection procedures, or oversight activities.\n2. AI Strategic Goal 2: Establish an organizational framework to review AI applications.\n3. AI Strategic Goal 4: Build the necessary AI foundation to pursue use cases across the NRC.\n4. (Not explicitly numbered in the provided documents) Gain knowledge and expertise in a wide range of skills and capabilities such as artificial intelligence and data literacy.\n5. (Not explicitly numbered in the provided documents) Integrate AI technology into agency internal processes and work products.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:24:39.967711",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists strategic goals that do not match the ground truth answer, which outlines different goals related to foundational data management and governance. The response contains fabricated or incorrect information regarding the strategic goals.",
+  "provider": "deepseek"
+}
