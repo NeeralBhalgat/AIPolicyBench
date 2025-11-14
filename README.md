@@ -50,7 +50,6 @@ uv run python main.py launch
 Run white agents (generate responses)
 - Generate responses for all predefined queries with a chosen LLM (white agent):
 ```bash
-cd /Users/isabelle/Desktop/AIPolicyBench
 python evaluation.py --mode generate --all --llm_provider openai --out results/white_openai_all.json
 ```
 - Generate for a single query:
