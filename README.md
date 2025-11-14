@@ -42,7 +42,7 @@ First, configure .env with OPENAI_API_KEY=...
 
 Launch full evaluation: 
 ```bash
-uv run python main.py launch
+python main.py launch
 ```
 This command will run white agents to complete the task and green agent to evaluate the white agents all at once.
 (Note: `main.py` / `launcher.py` is the coordinator that runs white-agent generation, calls green-agent evaluation, and writes results/leaderboard.json. If missing, run the evaluation CLI directly as shown below.)
@@ -57,4 +57,3 @@ cd agent-leaderboard-web
 npm run dev
 # Open http://localhost:5173
 ```
-
