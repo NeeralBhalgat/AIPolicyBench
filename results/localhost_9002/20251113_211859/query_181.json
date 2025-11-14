@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "A use case, as defined by the NRC, refers to the development and pursuit of internal AI applications to build technical expertise for reviewing the use of AI in NRC-regulated activities. This involves creating an ecosystem that supports data science, assessment and integration of emerging AI tools, and hands-on talent development. The NRC will undertake research to develop use cases with data from various sources and in multiple forms to better understand how AI algorithms, models, and claims are validated and tested (Document 5).",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:05.864986",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed explanation of the NRC's activities related to AI but does not accurately define a 'use case' as a specific situation for applying an AI product or service, which is the ground truth definition.",
+  "provider": "deepseek"
+}

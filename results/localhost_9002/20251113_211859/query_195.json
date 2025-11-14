@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "All new AI use case submissions must include the need for the use case, its intended purpose, and high-level requirements, as well as approval from a manager or executive and a commitment of resources (e.g., funds or employee time) (Document 3).",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:59.125340",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists some elements that could be relevant to an AI use case submission, but it does not accurately reflect the required components as stated in the ground truth answer, which includes specific elements like expected benefit, creator, environment, metrics, risks, and required data.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "The MAP function helps organizations establish and understand the context of AI systems, identify known and foreseeable negative impacts, anticipate risks beyond intended use, and inform initial go/no-go decisions about designing, developing, or deploying AI systems. It also assists in improving internal competency for analyzing context, identifying limitations, exploring real-world impacts, and evaluating decision-making processes throughout the AI lifecycle. [s]",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:22:49.828983",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the MAP function's role in helping organizations understand AI risks and impacts, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

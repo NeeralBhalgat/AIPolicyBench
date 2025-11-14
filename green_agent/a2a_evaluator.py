@@ -4,8 +4,11 @@ import uvicorn
 import sys
 import json
 import logging
+import os
 from pathlib import Path
+from datetime import datetime
 from dotenv import load_dotenv
+from tqdm import tqdm
 
 # Handle tomllib for different Python versions
 try:
@@ -57,7 +60,8 @@ def load_agent_card_toml(agent_name: str):
 async def evaluate_white_agent(
     white_agent_url: str,
     queries_file: str = "data/predefined_queries.json",
-    use_llm_judge: bool = False
+    use_llm_judge: bool = False,
+    results_dir: str = "./results"
 ) -> dict:
     """
     Evaluate a white agent using predefined queries.
@@ -66,11 +70,26 @@ async def evaluate_white_agent(
         white_agent_url: URL of the white agent to evaluate
         queries_file: Path to predefined queries JSON file
         use_llm_judge: Whether to use LLM-as-a-judge evaluation
+        results_dir: Directory to save evaluation results
 
     Returns:
         Dictionary containing evaluation results and statistics
     """
     logger.info(f"Starting evaluation of white agent at {white_agent_url}")
+
+    # Extract white agent name from URL for results directory
+    white_agent_name = white_agent_url.replace("http://", "").replace("https://", "").replace("/", "_").replace(":", "_")
+
+    # Create results directory
+    agent_results_dir = Path(results_dir) / white_agent_name
+    agent_results_dir.mkdir(parents=True, exist_ok=True)
+
+    # Create timestamp for this evaluation
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    eval_session_dir = agent_results_dir / timestamp
+    eval_session_dir.mkdir(parents=True, exist_ok=True)
+
+    logger.info(f"Results will be saved to: {eval_session_dir}")
 
     # Load predefined queries
     try:
@@ -88,30 +107,43 @@ async def evaluate_white_agent(
 
     # Initialize evaluator
     if use_llm_judge:
-        logger.info("Using LLM-as-a-judge evaluation with Mistral")
-        # Use Mistral with OpenRouter (cheap and reliable)
+        logger.info("Using LLM-as-a-judge evaluation with GPT-4o-mini")
+        # Use GPT-4o-mini with OpenRouter (high quality, cost-effective)
         evaluator = LLMJudgeEvaluator(
             provider="deepseek",  # Uses OpenRouter if DEEPSEEK_API_KEY starts with sk-or-
-            model="mistralai/mistral-7b-instruct",  # Mistral model on OpenRouter
+            model="openai/gpt-4o-mini",  # GPT-4o-mini model on OpenRouter
             temperature=0.0,
-            max_tokens=500  # Limit tokens to avoid credit issues
+            max_tokens=800  # Sufficient for detailed judgments
         )
     else:
         logger.info("Using rule-based evaluation")
         evaluator = RuleBasedEvaluator(case_sensitive=False)
 
-    # Evaluate each query
+    # Evaluate each query with progress bar
     results = []
     correct_count = 0
     miss_count = 0
     hallucination_count = 0
 
-    for query_data in queries:
+    logger.info(f"\n{'='*80}")
+    logger.info(f"Starting evaluation of {len(queries)} queries")
+    logger.info(f"{'='*80}\n")
+
+    # Create progress bar
+    pbar = tqdm(queries, desc="Evaluating queries", unit="query")
+
+    for query_data in pbar:
         query_id = query_data['id']
         query = query_data['query']
         ground_truth = query_data['ground_truth']
 
-        logger.info(f"Evaluating Query {query_id}: {query}")
+        # Update progress bar description
+        pbar.set_description(f"Query {query_id}/{len(queries)}")
+
+        logger.info(f"\n{'='*80}")
+        logger.info(f"[Query {query_id}] {query}")
+        logger.info(f"[Ground Truth] {ground_truth}")
+        logger.info(f"{'='*80}")
 
         try:
             # Send query to white agent
@@ -152,9 +184,11 @@ async def evaluate_white_agent(
                 continue
 
             response_text = text_parts[0]
-            logger.info(f"White agent response: {response_text[:100]}...")
+            logger.info(f"[White Agent Response]")
+            logger.info(f"{response_text}\n")
 
             # Evaluate response
+            logger.info(f"[Evaluating with {('LLM-as-a-judge' if use_llm_judge else 'Rule-based')}]")
             if use_llm_judge:
                 # LLM judge requires async call with question parameter
                 eval_result = await evaluator.evaluate(
@@ -165,6 +199,20 @@ async def evaluate_white_agent(
             else:
                 # Rule-based is synchronous
                 eval_result = evaluator.evaluate(response_text, ground_truth)
+
+            # Log evaluation result
+            result_symbol = {
+                "correct": "✅",
+                "miss": "⚠️",
+                "hallucination": "❌",
+                "error": "🔴"
+            }.get(eval_result["result"], "❓")
+
+            logger.info(f"\n[Judgment] {result_symbol} {eval_result['result'].upper()}")
+            if "confidence" in eval_result:
+                logger.info(f"[Confidence] {eval_result['confidence']:.2f}")
+            if "reasoning" in eval_result:
+                logger.info(f"[Reasoning] {eval_result['reasoning']}")
 
             # Track statistics
             if eval_result["result"] == "correct":
@@ -181,7 +229,8 @@ async def evaluate_white_agent(
                 "response": response_text,
                 "ground_truth": ground_truth,
                 "evaluation_result": eval_result["result"],
-                "evaluation_method": eval_result["method"]
+                "evaluation_method": eval_result["method"],
+                "timestamp": datetime.now().isoformat()
             }
 
             # Add LLM judge specific fields if available
@@ -194,6 +243,19 @@ async def evaluate_white_agent(
 
             results.append(result_entry)
 
+            # Save individual result to file
+            result_file = eval_session_dir / f"query_{query_id:03d}.json"
+            with open(result_file, 'w', encoding='utf-8') as f:
+                json.dump(result_entry, f, indent=2, ensure_ascii=False)
+            logger.info(f"[Saved] {result_file}")
+
+            # Update progress bar with current stats
+            pbar.set_postfix({
+                "Correct": correct_count,
+                "Miss": miss_count,
+                "Halluc": hallucination_count
+            })
+
         except Exception as e:
             logger.error(f"Error evaluating query {query_id}: {e}")
             results.append({
@@ -204,6 +266,9 @@ async def evaluate_white_agent(
                 "evaluation_result": "error"
             })
 
+    # Close progress bar
+    pbar.close()
+
     # Calculate statistics
     total = len(results)
     correct_rate = (correct_count / total * 100) if total > 0 else 0.0
@@ -211,7 +276,13 @@ async def evaluate_white_agent(
     hallucination_rate = (hallucination_count / total * 100) if total > 0 else 0.0
     factuality_rate = correct_rate + miss_rate  # Correct + Miss (not hallucinating)
 
+    logger.info(f"\n{'='*80}")
     logger.info(f"Evaluation complete: {correct_count}/{total} correct ({correct_rate:.2f}%)")
+    logger.info(f"Correct: {correct_count} ({correct_rate:.2f}%)")
+    logger.info(f"Miss: {miss_count} ({miss_rate:.2f}%)")
+    logger.info(f"Hallucination: {hallucination_count} ({hallucination_rate:.2f}%)")
+    logger.info(f"Factuality Rate: {factuality_rate:.2f}%")
+    logger.info(f"{'='*80}\n")
 
     # Build return value
     result_dict = {
@@ -226,13 +297,44 @@ async def evaluate_white_agent(
             "hallucination_rate": hallucination_rate,
             "factuality_rate": factuality_rate
         },
-        "method": "LLM-as-a-judge" if use_llm_judge else "Rule-based"
+        "method": "LLM-as-a-judge" if use_llm_judge else "Rule-based",
+        "white_agent_url": white_agent_url,
+        "queries_file": queries_file,
+        "timestamp": timestamp,
+        "results_dir": str(eval_session_dir)
     }
 
     # Add provider info for LLM judge
     if use_llm_judge:
-        result_dict["provider"] = "mistralai/mistral-7b-instruct"
-        result_dict["model"] = "mistralai/mistral-7b-instruct"
+        result_dict["provider"] = "openai/gpt-4o-mini"
+        result_dict["model"] = "openai/gpt-4o-mini"
+
+    # Save summary results
+    summary_file = eval_session_dir / "summary.json"
+    with open(summary_file, 'w', encoding='utf-8') as f:
+        json.dump(result_dict, f, indent=2, ensure_ascii=False)
+    logger.info(f"Summary saved to: {summary_file}")
+
+    # Save statistics in a separate file for easy reading
+    stats_file = eval_session_dir / "statistics.txt"
+    with open(stats_file, 'w', encoding='utf-8') as f:
+        f.write(f"AIPolicyBench Evaluation Results\n")
+        f.write(f"{'='*80}\n\n")
+        f.write(f"White Agent: {white_agent_url}\n")
+        f.write(f"Evaluation Method: {result_dict['method']}\n")
+        if use_llm_judge:
+            f.write(f"Model: {result_dict['model']}\n")
+        f.write(f"Timestamp: {timestamp}\n")
+        f.write(f"\n{'='*80}\n")
+        f.write(f"Statistics:\n")
+        f.write(f"{'='*80}\n\n")
+        f.write(f"Total Queries: {total}\n")
+        f.write(f"Correct: {correct_count} ({correct_rate:.2f}%)\n")
+        f.write(f"Miss: {miss_count} ({miss_rate:.2f}%)\n")
+        f.write(f"Hallucination: {hallucination_count} ({hallucination_rate:.2f}%)\n")
+        f.write(f"Factuality Rate: {factuality_rate:.2f}%\n")
+        f.write(f"\n{'='*80}\n")
+    logger.info(f"Statistics saved to: {stats_file}")
 
     return result_dict
 

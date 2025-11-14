@@ -1,0 +1,12 @@
+{
+  "query_id": 78,
+  "query": "What are some key risks identified in AI for health and human services?",
+  "response": "The key risks identified in AI for health and human services are that AI can produce outputs that are incorrect or incomplete, depending on the data and model quality.",
+  "ground_truth": "Bias, inaccurate outputs, privacy breaches, misuse of data, inequity, and over-reliance without human oversight.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:25:24.026493",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response identifies a risk related to incorrect or incomplete outputs, it fails to mention other significant risks such as bias, privacy breaches, and over-reliance on AI, which are critical in the context of AI for health and human services.",
+  "provider": "deepseek"
+}

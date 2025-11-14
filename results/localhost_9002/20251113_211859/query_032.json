@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "The 5 headline goals are not explicitly listed in the provided documents. However, the following goals are mentioned in different contexts:\n\n1. NRC's AI Strategic Goals (Document 1): The NRC has five AI strategic goals, but they are not listed in the provided text.\n2. USDA's AI Goals (Document 3): Empower employees and provide a robust, flexible, and transparent governance framework that fosters innovation, encourages collaboration, and promotes responsible, safe, and value-added use of AI.\n3. HHS's AI Goals (Document 5):\n   - Catalyzing health AI innovation and adoption to unlock new ways to improve people’s lives\n   - Promoting trustworthy AI development and ethical and responsible use to avoid potential harm\n   - Democratizing AI technologies and resources to promote access\n   - Cultivating AI-empowered workforces and organization cultures to effectively and safely use AI\n\nThe documents do not provide a single unified list of 5 headline goals.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:21:31.120704",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific 5 headline goals and states that they are not explicitly listed in the provided documents, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}
