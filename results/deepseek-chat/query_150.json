@@ -1,0 +1,12 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "NASA will archive expired use cases instead of deleting them. (Document 1, Document 4)",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:30:44.302447",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that NASA will archive expired use cases, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 148,
+  "query": "How will NASA update the AI inventory structure?",
+  "response": "NASA will update its AI inventory structure by updating prior inventory data structures, collection mechanisms, and query/visualization capabilities to form an AI registry. The AISB will oversee the collection of AI inventory data for FY24 and subsequent years. All prior use cases will be loaded into the new AI registry and use case points of contact will be required to update their entries.",
+  "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:30:36.003008",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the process of updating NASA's AI inventory structure by mentioning the redesign of data structures and collection mechanisms, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "The federal policy that defines AI for IRS purposes is Executive Order (EO) 13960 of December 8, 2020, titled \"Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.\" This EO directs agencies to abide by nine guiding principles for government use of AI and to collect and report an annual AI use case inventory.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:29:53.896007",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies Executive Order 13960 as the defining federal policy for AI for IRS purposes, while the correct answer is Section 238(g) of the 2019 NDAA.",
+  "provider": "deepseek"
+}

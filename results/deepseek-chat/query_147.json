@@ -1,0 +1,12 @@
+{
+  "query_id": 147,
+  "query": "What role does AISWG have in risk management?",
+  "response": "The documents provided do not mention the AISWG (Artificial Intelligence Safety Working Group) directly in relation to risk management. Therefore, there is no information to suggest a specific role for AISWG in risk management based on the provided documents.",
+  "ground_truth": "Reviewing and approving safety/rights-impacting assessments and waivers.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:30:33.793986",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the AISWG's role in risk management, which aligns with the 'miss' classification as it expresses uncertainty rather than providing a definitive answer.",
+  "provider": "deepseek"
+}

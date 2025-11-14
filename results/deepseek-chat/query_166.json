@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "The major internal committees or groups that will support AI governance include:\n- HHS AI Governance Board (Document 1)\n- AI working groups (Document 1)\n- DHS AI Governance Board (Document 3, Document 4)\n- DHS AI Council (Document 4)\n- USDA’s AI leadership and governance bodies (Document 5)",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:31:50.594628",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response lists committees and groups that are not recognized as major internal committees for AI governance, while the ground truth identifies the Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP) as the correct entities.",
+  "provider": "deepseek"
+}

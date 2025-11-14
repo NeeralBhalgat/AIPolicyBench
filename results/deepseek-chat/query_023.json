@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The order clears the way for rapid AI action by removing bureaucratic red tape and onerous regulations to unencumber America's private sector, as stated in Document 4: \"To maintain global leadership in AI, America’s private sector must be unencumbered by bureaucratic red tape.\" Additionally, it encourages the responsible sharing of AI vulnerability information and updates cybersecurity playbooks to incorporate AI systems, as mentioned in Document 2.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:32.012030",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the idea of removing bureaucratic barriers to facilitate rapid AI action, aligning with the ground truth answer regarding revoking existing policies that act as barriers.",
+  "provider": "deepseek"
+}
