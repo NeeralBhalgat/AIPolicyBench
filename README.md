@@ -1,61 +1,61 @@
-# 🎯 AI Policy Agent Benchmark - Safety Datasets RAG System
+# AIPolicyBench — README 
 
-A complete **Retrieval-Augmented Generation (RAG)** system for AI policy research, built to answer questions about safety evaluation datasets using natural language responses.
+This README documents the current project layout and the exact commands to:
+1. Run white agents (generate responses for predefined queries).
+2. Run the green agent (LLM-as-a-judge) to evaluate white agents.
+3. Run tests / example test cases that exercise the green agent evaluator.
 
-## 🚨 **IMPORTANT: API Key Issue**
+This repo contains:
+- Python evaluation & RAG code: query_interface.py, safety_datasets_rag.py, simple_vector_db.py, evaluation.py
+- Web leaderboard (React + Vite): agent-leaderboard-web/
+- Data and scripts: data/, scripts/, vector_db/
 
-**Current Status:** The DeepSeek API keys are currently showing as invalid (401 authentication errors). This appears to be a recent issue with DeepSeek's authentication system.
+Prerequisites
+- Python 3.9+ and pip
+- A valid LLM API key in `.env` (DEEPSEEK_API_KEY / OPENAI_API_KEY / ANTHROPIC_API_KEY)
+- Node.js & npm (if you want the web leaderboard)
 
-**Solution:** Please use a **new DeepSeek API key from OpenRouter** or generate a fresh key from your DeepSeek account.
-
-**To get a working API key:**
-1. Visit [OpenRouter](https://openrouter.ai/) and get a DeepSeek API key
-2. Or generate a new key from [DeepSeek Platform](https://platform.deepseek.com)
-3. Update the `env.example` file with your new key
-
----
-
-## 🏗️ **System Architecture**
-
-### **Core Components:**
-
-1. **`safety_datasets_rag.py`** - Core RAG pipeline (Steps 1-4)
-2. **`query_interface.py`** - Clean interface for natural language responses
-3. **`simple_vector_db.py`** - TF-IDF vector database implementation
-4. **`scripts/parse_pdfs_to_json.py`** - PDF parsing and chunking utility
-5. **`data/safety_datasets.json`** - Processed document chunks
-6. **`docs/`** - Source PDF documents
-7. **`vector_db/`** - Serialized vector database
-
-### **RAG Pipeline (4 Steps):**
-
-```
-📊 Step 1: RETRIEVAL    → Find relevant datasets from 149 options
-🔗 Step 2: AUGMENTATION → Prepare rich context with metadata  
-🤖 Step 3: GENERATION   → DeepSeek LLM creates natural response
-💬 Step 4: RESPONSE     → Return actionable policy guidance
-```
-
----
-
-## 🚀 **Quick Start**
-
-### **1. Install Dependencies**
+Quick setup (macOS terminal)
 ```bash
+# Python deps
+cd /Users/isabelle/Desktop/AIPolicyBench
 pip install -r requirements.txt
-```
 
-### **2. Set Up API Key**
-```bash
-# Copy and edit the environment file
+# Copy .env and add API key(s)
 cp env.example .env
-# Add your DeepSeek API key to .env
-# The system will automatically load API keys from .env
+# edit .env to include DEEPSEEK_API_KEY or other provider key
+
+# (Optional) Web UI deps
+cd agent-leaderboard-web
+npm install
 ```
 
-### **3. Parse PDF Documents and Build Vector Database**
+1) Running white agents (generate responses)
+- Purpose: run a white agent (an LLM) to answer the predefined queries (generation step).
+- Use `query_interface.py`. Choose provider with `--llm_provider` (deepseek, openai, anthropic).
 
-#### **Option A: Parse New PDFs (Recommended)**
+Examples:
+```bash
+# Run all predefined queries with DeepSeek as the white agent
+cd /Users/isabelle/Desktop/AIPolicyBench
+python query_interface.py --all --llm_provider deepseek
+
+# Run a single query (id=1) with OpenAI as the white agent
+python query_interface.py --query_id 1 --llm_provider openai
+
+# Save stdout to file (capture white-agent outputs)
+python query_interface.py --all --llm_provider deepseek > results/white_deepseek_all.txt
+```
+
+Notes:
+- The generation step uses the RAG pipeline (retrieval + augmentation) internally (safety_datasets_rag.py).
+- You can change retrieval top-k with `--top_k N` when calling `query_interface.py`.
+
+2) Running the green agent (LLM-as-a-judge) to evaluate white agents
+- Purpose: use a trusted LLM ("green agent") to semantically judge white-agent responses.
+- Two options: run the judge via `query_interface.py` (integrated flow) or use `evaluation.py` directly.
+
+Examples (integrated):
 ```bash
 # Place PDF documents in ./docs directory
 # Parse PDFs and generate JSON with intelligent chunking
@@ -547,12 +547,8 @@ The script generates `data/safety_datasets.json`:
 
 ### **Current Dataset:**
 
-- **2 PDF documents** processed
-- **183 chunks** generated
-- **Average chunk size**: 1,443 characters
-- **Documents**:
-  - Americas AI Action Plan (28 pages → 74 chunks)
-  - AI Risk Management Framework (48 pages → 109 chunks)
+- **15 PDF documents** processed
+- **200 Questions** produced with Answers and Quoted Reference
 
 ---
 
