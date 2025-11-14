@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "The DOE is engaged in aligning AI guidelines and frameworks to reduce barriers, improve compliance, and foster innovation across the Department.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:25:29.938274",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not address the specific barriers faced by the DOE in adopting AI technologies, such as cybersecurity limitations, data quality issues, and access to advanced computing resources. Instead, it focuses on aligning guidelines and frameworks, which does not accurately reflect the barriers mentioned in the ground truth.",
+  "provider": "deepseek"
+}

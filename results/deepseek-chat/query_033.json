@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "The governance bodies leading AI include:\n1. NASA's Chief AI Officer (CAIO) establishes AI governance in two tiers: senior leaders and subordinate leaders. These bodies span NASA and encourage collaboration (Document 1).\n2. HHS's Office of the Chief AI Officer (OCAIO) strengthens and formalizes governance structures, provides guidelines, and stewards AI working groups (Document 2).\n3. The Department of the Interior and the Small Business Administration (SBA) also have AI governance bodies as part of their AI compliance plans (Documents 3 and 4).",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:23:10.227022",
+  "confidence": 0.7,
+  "reasoning": "The response incorrectly identifies specific governance bodies leading AI, such as NASA's CAIO and HHS's OCAIO, which are not part of the recognized governance bodies listed in the ground truth answer. The ground truth mentions specific councils and boards that are not referenced in the White Agent's response.",
+  "provider": "deepseek"
+}

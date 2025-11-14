@@ -21,6 +21,7 @@ logger = logging.getLogger(__name__)
 async def launch_evaluation(
     queries_file: str = "data/predefined_queries.json",
     vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl",
+    white_model: str = "deepseek-chat",
     use_llm_judge: bool = False,
     green_host: str = "localhost",
     green_port: int = 9001,
@@ -33,6 +34,7 @@ async def launch_evaluation(
     Args:
         queries_file: Path to predefined queries JSON file
         vector_db_path: Path to the vector database
+        white_model: LLM model for white agent to use
         use_llm_judge: Whether to use LLM-as-a-judge evaluation
         green_host: Host for green agent
         green_port: Port for green agent
@@ -73,11 +75,11 @@ async def launch_evaluation(
     logger.info(f"✅ Green agent is ready at {green_url}")
 
     # Start white agent
-    logger.info("\n📄 Launching white agent (RAG system)...")
+    logger.info(f"\n📄 Launching white agent (RAG system) with model: {white_model}...")
     white_url = f"http://{white_host}:{white_port}"
     p_white = multiprocessing.Process(
         target=start_white_agent,
-        args=(vector_db_path, white_host, white_port)
+        args=(vector_db_path, white_model, white_host, white_port)
     )
     p_white.start()
 
@@ -169,6 +171,8 @@ def main():
                         help="Path to predefined queries JSON file")
     parser.add_argument("--vector_db", default="./vector_db/safety_datasets_tfidf_db.pkl",
                         help="Path to the vector database file")
+    parser.add_argument("--white_model", default="deepseek-chat",
+                        help="LLM model for white agent (default: deepseek-chat)")
     parser.add_argument("--use_llm_judge", action="store_true",
                         help="Use LLM-as-a-judge evaluation instead of rule-based")
     parser.add_argument("--green_host", default="localhost",
@@ -185,6 +189,7 @@ def main():
     asyncio.run(launch_evaluation(
         queries_file=args.queries_file,
         vector_db_path=args.vector_db,
+        white_model=args.white_model,
         use_llm_judge=args.use_llm_judge,
         green_host=args.green_host,
         green_port=args.green_port,

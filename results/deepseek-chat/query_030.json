@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "No, the order does not create enforceable rights. According to Document 3, the report does not supersede, modify, or direct an interpretation of any existing statute, regulation, policy, or international instrument, and it does not require compliance with the principles described therein (Document 3, Legal Disclaimer). Furthermore, the report is non-binding and does not constitute U.S. government policy (Document 3, Legal Disclaimer). Additionally, the order in Document 5 does not create enforceable rights as it only reviews, identifies, and suspends, revises, or rescinds actions taken pursuant to a previous order, but does not establish new rights (Document 5).",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:56.597280",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the order does not create enforceable rights and provides supporting details from the referenced documents.",
+  "provider": "deepseek"
+}
