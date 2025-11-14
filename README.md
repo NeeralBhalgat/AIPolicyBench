@@ -1,6 +1,6 @@
 # AIPolicyBench — README
 
-Project Structure
+## Project Structure
 src/
 ├── green_agent/    # Assessment manager agent (evaluation logic — maps to evaluation.py)
 ├── white_agent/    # Target agent drivers (generation logic)
@@ -13,7 +13,7 @@ Other important files
 - results/              — outputs (white agent responses, evaluations)
 - agent-leaderboard-web — React frontend (visualize leaderboard)
 
-Installation
+## Installation
 1. Install Python deps:
 ```bash
 pip install -r requirements.txt
@@ -36,7 +36,7 @@ npm install
 uv sync
 ```
 
-Usage
+## Usage
 First, configure .env with OPENAI_API_KEY=...
 
 Launch full evaluation (generate + evaluate + produce leaderboard JSON)
@@ -92,7 +92,7 @@ npm run dev
 # Open http://localhost:5173
 ```
 
-Recommended quick workflow
+## Recommended quick workflow
 1. Ensure `.env` has API keys.
 2. (Optional) Build vector DB:
    python simple_vector_db.py --json_file data/safety_datasets.json --save
