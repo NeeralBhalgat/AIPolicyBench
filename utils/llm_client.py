@@ -109,8 +109,10 @@ class DeepSeekClient(BaseLLMClient):
                 api_key=self.api_key,
                 base_url="https://openrouter.ai/api/v1"
             )
-            # Update model name for OpenRouter if needed
-            self.model = "deepseek/deepseek-chat"
+            # Use provided model or default to deepseek for OpenRouter
+            if model == "deepseek-chat":
+                self.model = "deepseek/deepseek-chat"
+            # else keep the provided model (e.g., "mistralai/mistral-7b-instruct")
             logger.info(f"Using OpenRouter with model: {self.model}")
         else:
             self.client = AsyncOpenAI(

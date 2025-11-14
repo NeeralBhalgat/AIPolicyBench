@@ -26,7 +26,7 @@ sys.path.append(str(Path(__file__).parent.parent))
 
 from utils.parsing import parse_tags
 from utils import a2a_client
-from green_agent.evaluation import RuleBasedEvaluator
+from green_agent.evaluation import RuleBasedEvaluator, LLMJudgeEvaluator
 
 load_dotenv()
 
@@ -88,10 +88,16 @@ async def evaluate_white_agent(
 
     # Initialize evaluator
     if use_llm_judge:
-        # TODO: Implement LLM judge evaluator integration
-        logger.warning("LLM judge not yet implemented in A2A mode, falling back to rule-based")
-        evaluator = RuleBasedEvaluator(case_sensitive=False)
+        logger.info("Using LLM-as-a-judge evaluation with Mistral")
+        # Use Mistral with OpenRouter (cheap and reliable)
+        evaluator = LLMJudgeEvaluator(
+            provider="deepseek",  # Uses OpenRouter if DEEPSEEK_API_KEY starts with sk-or-
+            model="mistralai/mistral-7b-instruct",  # Mistral model on OpenRouter
+            temperature=0.0,
+            max_tokens=500  # Limit tokens to avoid credit issues
+        )
     else:
+        logger.info("Using rule-based evaluation")
         evaluator = RuleBasedEvaluator(case_sensitive=False)
 
     # Evaluate each query
@@ -149,7 +155,16 @@ async def evaluate_white_agent(
             logger.info(f"White agent response: {response_text[:100]}...")
 
             # Evaluate response
-            eval_result = evaluator.evaluate(response_text, ground_truth)
+            if use_llm_judge:
+                # LLM judge requires async call with question parameter
+                eval_result = await evaluator.evaluate(
+                    response=response_text,
+                    ground_truth=ground_truth,
+                    question=query
+                )
+            else:
+                # Rule-based is synchronous
+                eval_result = evaluator.evaluate(response_text, ground_truth)
 
             # Track statistics
             if eval_result["result"] == "correct":
@@ -159,14 +174,25 @@ async def evaluate_white_agent(
             elif eval_result["result"] == "hallucination":
                 hallucination_count += 1
 
-            results.append({
+            # Build result entry
+            result_entry = {
                 "query_id": query_id,
                 "query": query,
                 "response": response_text,
                 "ground_truth": ground_truth,
                 "evaluation_result": eval_result["result"],
                 "evaluation_method": eval_result["method"]
-            })
+            }
+
+            # Add LLM judge specific fields if available
+            if "confidence" in eval_result:
+                result_entry["confidence"] = eval_result["confidence"]
+            if "reasoning" in eval_result:
+                result_entry["reasoning"] = eval_result["reasoning"]
+            if "provider" in eval_result:
+                result_entry["provider"] = eval_result["provider"]
+
+            results.append(result_entry)
 
         except Exception as e:
             logger.error(f"Error evaluating query {query_id}: {e}")
@@ -187,7 +213,8 @@ async def evaluate_white_agent(
 
     logger.info(f"Evaluation complete: {correct_count}/{total} correct ({correct_rate:.2f}%)")
 
-    return {
+    # Build return value
+    result_dict = {
         "results": results,
         "statistics": {
             "total": total,
@@ -199,8 +226,15 @@ async def evaluate_white_agent(
             "hallucination_rate": hallucination_rate,
             "factuality_rate": factuality_rate
         },
-        "method": "Rule-based"
+        "method": "LLM-as-a-judge" if use_llm_judge else "Rule-based"
     }
+
+    # Add provider info for LLM judge
+    if use_llm_judge:
+        result_dict["provider"] = "mistralai/mistral-7b-instruct"
+        result_dict["model"] = "mistralai/mistral-7b-instruct"
+
+    return result_dict
 
 
 class GreenAgentExecutor(AgentExecutor):
@@ -261,10 +295,13 @@ class GreenAgentExecutor(AgentExecutor):
 - Hallucination: {stats['hallucination']} ({stats['hallucination_rate']:.2f}%)
 - Factuality Rate: {stats['factuality_rate']:.2f}%
 
-Evaluation Method: {result['method']}
+Evaluation Method: {result['method']}"""
 
-Detailed results: {json.dumps(result['results'], indent=2)}
-"""
+                # Add provider info for LLM judge
+                if "provider" in result:
+                    response_text += f"\nLLM Provider: {result['provider']}"
+
+                response_text += f"\n\nDetailed results: {json.dumps(result['results'], indent=2)}\n"
 
             logger.info("Sending evaluation results")
             await event_queue.enqueue_event(new_agent_text_message(response_text))

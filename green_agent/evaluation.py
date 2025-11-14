@@ -242,7 +242,8 @@ class LLMJudgeEvaluator:
         provider: str = "deepseek",
         model: str = None,
         api_key: Optional[str] = None,
-        temperature: float = 0.0
+        temperature: float = 0.0,
+        max_tokens: int = 1000
     ):
         """
         Initialize the LLM-as-a-judge evaluator.
@@ -252,9 +253,11 @@ class LLMJudgeEvaluator:
             model: Specific model to use (provider-specific)
             api_key: API key for the LLM provider
             temperature: Temperature for LLM generation (0.0 for deterministic)
+            max_tokens: Maximum tokens for LLM response (default: 1000)
         """
         self.provider = provider
         self.temperature = temperature
+        self.max_tokens = max_tokens
 
         # Initialize LLM client
         client_kwargs = {}
@@ -264,7 +267,7 @@ class LLMJudgeEvaluator:
             client_kwargs['api_key'] = api_key
 
         self.llm_client = LLMClient(provider=provider, **client_kwargs)
-        logger.info(f"Initialized LLM Judge Evaluator (provider={provider}, model={model})")
+        logger.info(f"Initialized LLM Judge Evaluator (provider={provider}, model={model}, max_tokens={max_tokens})")
 
     def _create_judge_prompt(
         self,
@@ -303,15 +306,23 @@ Your task is to evaluate the White Agent's response and classify it into one of 
 """
 
         prompt += """
-**Output Format:**
-Provide your evaluation in the following JSON format:
-{{
-    "classification": "correct" or "miss" or "hallucination",
-    "confidence": <float between 0 and 1>,
-    "reasoning": "<brief explanation of your judgment, 1-2 sentences>"
-}}
+**Instructions:**
+Carefully evaluate the White Agent's response against the ground truth. You must classify it as one of:
+- "correct": The response contains the ground truth and is factually accurate
+- "miss": The response expresses uncertainty or admits not knowing
+- "hallucination": The response attempts an answer but is factually incorrect
 
-Provide ONLY the JSON output, no additional text or formatting."""
+**Output Format:**
+You MUST respond with ONLY a valid JSON object in this exact format (no other text before or after):
+{
+    "classification": "correct",
+    "confidence": 0.95,
+    "reasoning": "Your brief explanation here"
+}
+
+Replace the values with your evaluation. The classification must be exactly one of: "correct", "miss", or "hallucination".
+The confidence must be a number between 0.0 and 1.0.
+"""
 
         return prompt
 
@@ -372,21 +383,47 @@ Provide ONLY the JSON output, no additional text or formatting."""
 
             llm_response = await self.llm_client.generate_response(
                 judge_prompt,
-                temperature=self.temperature
+                temperature=self.temperature,
+                max_tokens=self.max_tokens
             )
 
             # Parse JSON response
             llm_response = llm_response.strip()
 
-            # Find JSON object in response
-            start_idx = llm_response.find('{')
-            end_idx = llm_response.rfind('}') + 1
+            # Try to extract JSON from response (handle markdown code blocks, extra text, etc.)
+            json_str = None
 
-            if start_idx != -1 and end_idx > start_idx:
-                json_str = llm_response[start_idx:end_idx]
+            # Method 1: Try to find JSON in markdown code block
+            if "```json" in llm_response.lower():
+                start = llm_response.lower().find("```json") + 7
+                end = llm_response.find("```", start)
+                if end > start:
+                    json_str = llm_response[start:end].strip()
+
+            # Method 2: Try to find JSON in regular code block
+            if not json_str and "```" in llm_response:
+                start = llm_response.find("```") + 3
+                end = llm_response.find("```", start)
+                if end > start:
+                    json_str = llm_response[start:end].strip()
+
+            # Method 3: Try to find raw JSON object
+            if not json_str:
+                start_idx = llm_response.find('{')
+                end_idx = llm_response.rfind('}') + 1
+                if start_idx != -1 and end_idx > start_idx:
+                    json_str = llm_response[start_idx:end_idx]
+
+            if not json_str:
+                logger.error(f"Could not find JSON in response: {llm_response[:200]}")
+                raise ValueError(f"No valid JSON found in LLM response. Response: {llm_response[:200]}")
+
+            # Parse JSON
+            try:
                 judgment = json.loads(json_str)
-            else:
-                raise ValueError("No valid JSON found in LLM response")
+            except json.JSONDecodeError as e:
+                logger.error(f"Failed to parse JSON: {json_str[:200]}")
+                raise ValueError(f"Invalid JSON in response: {str(e)}")
 
             # Extract classification
             classification = judgment.get('classification', 'hallucination').lower()
