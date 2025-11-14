@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "The research priorities that will make AI safer for high-stakes use include launching a technology development program led by the Defense Advanced Research Projects Agency (DARPA) in collaboration with CAISI at the Department of Commerce (DOC) and the National Science Foundation (NSF) to advance AI interpretability, AI control systems, and adversarial robustness (Document 2).",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:19:39.542815",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies key research priorities for making AI safer, specifically mentioning interpretability, control systems, and adversarial robustness, which align with the ground truth answer.",
+  "provider": "deepseek"
+}

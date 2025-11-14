@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "All AI-generated data products must include a label in its metadata indicating that it is AI-generated, notice of which records were modified or created, and by what system, including the AI system's version information. Additionally, they must adhere to existing data, privacy, and security policies. However, exceptions to the AI-generated content notice may include metadata, classification or tagging labels, domain association, data authored by humans or non-AI systems, and certain types of generated content that do not fundamentally challenge the authorship of the data.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:34:15.264676",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the requirement for metadata labeling indicating that the data is AI-generated, which aligns with the ground truth answer. The additional details provided do not contradict the core requirement and reflect a comprehensive understanding of the topic.",
+  "provider": "deepseek"
+}

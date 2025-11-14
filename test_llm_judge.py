@@ -70,14 +70,14 @@ async def test_evaluators():
     try:
         llm_evaluator = LLMJudgeEvaluator(
             provider="deepseek",
-            model="mistralai/mistral-7b-instruct",  # Use Mistral via OpenRouter
+            model="openai/gpt-4o-mini",  # Use GPT-4o-mini via OpenRouter
             temperature=0.0,
-            max_tokens=500  # Limit tokens to avoid credit issues
+            max_tokens=800  # Sufficient for detailed judgments
         )
 
         print("\n✅ LLM Judge initialized successfully")
         print("Note: This requires DEEPSEEK_API_KEY (OpenRouter) in .env")
-        print("Using Mistral model with max_tokens=500\n")
+        print("Using GPT-4o-mini model with max_tokens=800\n")
 
         # Test just the first case to verify it works
         test = test_cases[0]
