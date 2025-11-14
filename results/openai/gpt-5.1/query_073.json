@@ -1,0 +1,12 @@
+{
+  "query_id": 73,
+  "query": "What are the four key goals of HHS’s AI Strategic Plan?",
+  "response": "Answer: The four key goals of HHS’s AI Strategic Plan are **not stated** in the excerpts provided. The documents mention that the plan uses a unifying framework of seven domains and describe governance structures (such as the HHS AI Governance Board and AI Community of Practice), but they do **not** list or describe four key goals.",
+  "ground_truth": "1. Catalyze health AI innovation and adoption; 2. Promote trustworthy, ethical, and responsible use; 3. Democratize AI technologies and resources; 4. Cultivate AI-empowered workforces and cultures.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:52:47.665310",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the four key goals are not listed, while the ground truth clearly outlines them. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

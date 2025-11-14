@@ -1,0 +1,12 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "Expired AI use cases will be **archived instead of deleted**.",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:01:53.122952",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth that expired AI use cases will be archived, which is factually correct.",
+  "provider": "deepseek"
+}

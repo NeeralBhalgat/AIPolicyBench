@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "According to the Plan, opportunities for AI to improve people’s lives include:\n\n- **“Accelerating scientific breakthroughs that could ultimately increase the quality and length of life”** by shortening development timelines and reducing overall costs in clinical discovery and development.  \n- **“Being used as part of a medical product or to develop safe and effective medical products”** to improve their safety and effectiveness.  \n- **“Improving medical product safety and effectiveness, improving health outcomes through care delivery, increasing access to human services, and optimizing public health.”**",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:53:03.168358",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects opportunities for AI to improve people's lives as outlined in the Plan, including accelerating scientific breakthroughs and improving medical product safety and effectiveness, which align with the ground truth answer.",
+  "provider": "deepseek"
+}
