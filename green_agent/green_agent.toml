@@ -15,9 +15,11 @@ description = """
 Evaluates RAG agents using predefined queries with ground truth answers.
 Tests the agent's ability to correctly answer questions about AI safety and policy datasets.
 Provides detailed evaluation metrics including correctness, hallucination rate, and factuality.
+Supports both rule-based and LLM-as-a-judge evaluation methods.
 """
-tags = ["green agent", "assessment", "evaluation", "rag", "benchmarking"]
-examples = ["""
+tags = ["green agent", "assessment", "evaluation", "rag", "benchmarking", "llm-judge"]
+examples = [
+"""
 Your task is to evaluate the RAG agent located at:
 <white_agent_url>
 http://localhost:9002/
@@ -29,4 +31,18 @@ data/predefined_queries.json
 <use_llm_judge>
 false
 </use_llm_judge>
-"""]
+""",
+"""
+Your task is to evaluate the RAG agent using LLM-as-a-judge:
+<white_agent_url>
+http://localhost:9002/
+</white_agent_url>
+Use the following configuration:
+<queries_file>
+data/predefined_queries.json
+</queries_file>
+<use_llm_judge>
+true
+</use_llm_judge>
+"""
+]

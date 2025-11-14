@@ -103,7 +103,7 @@ class AIPolityRAGAgentExecutor(AgentExecutor):
 
             # Execute RAG query
             result = await self.rag_system.complete_rag_query(
-                query=user_query,
+                question=user_query,
                 top_k=5,
                 use_llm=True
             )
