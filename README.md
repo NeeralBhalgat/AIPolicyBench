@@ -26,13 +26,7 @@ cp env.example .env
 # edit .env and set OPENAI_API_KEY=your_key_here (or other provider keys)
 ```
 
-3. (Optional) Frontend:
-```bash
-cd agent-leaderboard-web
-npm install
-```
-
-4. Project sync step (per infra):
+3. Project sync step (per infra):
 ```bash
 uv sync
 ```
