@@ -44,10 +44,3 @@ This command will run white agents to complete the task and green agent to evalu
 ## Green Agent's Evaluation
 We will be evaluating green agent by randomly sampling a set of green agent outputs and manually check its assessment of hallucination. Since our green agent is a QA policy research agent, we have employed LLM-as-judge for our green agent. Therefore, we cannot evalute our green agent using LLM-as-judge. Therefore, we decided to manually check it.
 
-Frontend / leaderboard
-- The frontend visualizes evaluation outputs. Copy an evaluation JSON into agent-leaderboard-web/src/data/ (or point the UI to results/) and run:
-```bash
-cd agent-leaderboard-web
-npm run dev
-# Open http://localhost:5173
-```
