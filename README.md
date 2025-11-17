@@ -35,10 +35,9 @@ First, configure .env with OPENAI_API_KEY=...
 
 Launch full evaluation: 
 ```bash
-python main.py launch
+python main.py launch --llm-judge
 ```
 This command will run white agents to complete the task and green agent to evaluate the white agents all at once.
-(Note: `main.py` / `launcher.py` is the coordinator that runs white-agent generation, calls green-agent evaluation, and writes results/leaderboard.json. If missing, run the evaluation CLI directly as shown below.)
 
 ## Green Agent's Evaluation
 We will be evaluating green agent by randomly sampling a set of green agent outputs and manually check its assessment of hallucination. Since our green agent is a QA policy research agent, we have employed LLM-as-judge for our green agent. Therefore, we cannot evalute our green agent using LLM-as-judge. Therefore, we decided to manually check it.
