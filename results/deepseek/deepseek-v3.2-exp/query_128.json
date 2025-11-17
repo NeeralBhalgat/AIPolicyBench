@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "The Internal Revenue Code (IRC) protects taxpayer rights, and AI systems must follow this law.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:43:49.245217",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response correctly identifies the Internal Revenue Code (IRC) as relevant to taxpayer rights, but it does not specify the correct section (6103) that specifically protects taxpayer information, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

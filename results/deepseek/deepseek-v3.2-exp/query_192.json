@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "All AI-generated data outputs or products must be labeled as such in its metadata, and indexed and cataloged in the EDS system for internal discovery purposes.",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:48:54.972592",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly specifies the requirement for indexing and cataloging in the EDS system, which is not part of the ground truth answer. The core requirement of labeling or watermarking is mentioned, but the additional details are not accurate.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "No, the order does not create enforceable rights.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:35:07.631966",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer, stating that the order does not create enforceable rights, which aligns with the provided information.",
+  "provider": "deepseek"
+}

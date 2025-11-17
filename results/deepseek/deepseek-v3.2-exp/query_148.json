@@ -1,0 +1,12 @@
+{
+  "query_id": 148,
+  "query": "How will NASA update the AI inventory structure?",
+  "response": "NASA is updating prior inventory data structures, collection mechanisms, and query/visualization capabilities to form an AI registry.",
+  "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:45:23.908135",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that NASA is updating data structures, collection mechanisms, and visualization capabilities, which aligns with the redesigning process mentioned in the ground truth answer.",
+  "provider": "deepseek"
+}

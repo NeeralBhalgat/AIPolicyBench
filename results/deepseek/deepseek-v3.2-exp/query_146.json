@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "Based on the provided documents, there is no mention of AISWG developing a process for AI lifecycle management. The documents discuss the AI Risk Management Framework (AI RMF) and federal agency strategies, but do not reference AISWG or its processes.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:45:14.591063",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no mention of AISWG developing a process for AI lifecycle management, while the ground truth indicates that there is indeed an inventory and annual registration process associated with AISWG.",
+  "provider": "deepseek"
+}

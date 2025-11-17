@@ -1,0 +1,12 @@
+{
+  "query_id": 136,
+  "query": "What role do IRS executives have in AI governance?",
+  "response": "IRS executives in each business unit are responsible for conducting and managing AI use within their business units in compliance with this IRM and other applicable policies, including ensuring completion of a Privacy and Civil Liberties Impact Assessment (PCLIA) when required.",
+  "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:44:21.409115",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the role of IRS executives in managing AI use within their business units in compliance with applicable policies, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

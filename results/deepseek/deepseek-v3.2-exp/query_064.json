@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "The DOE AI Use Case Inventory aims to maintain a comprehensive inventory of AI use cases across the Department, ensure information is comprehensive and complete, adhere to OMB guidance, and report externally only those use cases that meet reporting criteria in M-24-10.",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:38:01.589387",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes details about maintaining a comprehensive inventory and adhering to OMB guidance, which are not part of the ground truth. The ground truth specifically states the aim is to catalog and review AI use cases annually, which is not accurately reflected in the White Agent's response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "Based on the provided documents, DOT does not specify measures for ensuring AI training data trustworthiness. The documents mention DOT's focus on AI talent acquisition, internal training, and sharing AI code and models, but do not address data trustworthiness protocols.",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:42:23.670032",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that DOT does not specify measures for ensuring AI training data trustworthiness, while the ground truth indicates that DOT assesses datasets for quality, accuracy, representativeness, and bias.",
+  "provider": "deepseek"
+}

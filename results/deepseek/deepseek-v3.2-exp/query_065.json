@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "Based on the documents provided, the DOE faces barriers related to **managing risks associated with AI** and **reducing barriers to the Department’s use of AI**.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:38:05.586927",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions barriers related to managing risks and reducing barriers to AI use, but it does not accurately reflect the specific barriers identified in the ground truth answer, such as cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "provider": "deepseek"
+}

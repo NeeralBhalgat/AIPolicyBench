@@ -1,0 +1,12 @@
+{
+  "query_id": 198,
+  "query": "What restrictions apply to internal GSA data?",
+  "response": "Internal GSA data, including non-public Federal Controlled Unclassified Information (CUI), personally identifiable information (PII), and Business Identifiable Information (BII), shall not be used as inputs to any AI system without prior authorization from the AI Governance Board.",
+  "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:49:27.290395",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the restrictions on internal GSA data, specifically mentioning that it cannot be used as inputs to AI systems without authorization, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

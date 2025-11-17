@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "Based on the provided documents, there is no information indicating that M-25-21 replaces any prior OMB memo.",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:33:28.584833",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no information indicating that M-25-21 replaces any prior OMB memo, while the ground truth specifies that it replaces OMB Memorandum M-24-10.",
+  "provider": "deepseek"
+}

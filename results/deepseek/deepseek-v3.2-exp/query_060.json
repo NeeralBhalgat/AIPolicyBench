@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "The strategy emphasizes that the DoD workforce and talent are critical for overseeing and adopting data, analytics, and AI capabilities. It focuses on identifying, upskilling, reskilling, attracting, recruiting, training, and retaining digital talent, including both technical and nontechnical personnel, to build an innovative workforce and address the Department's needs.",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:37:40.421371",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the emphasis on the DoD workforce and talent, highlighting the importance of hiring, training, and retaining skilled workers in digital and AI-related roles, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 102,
+  "query": "Who serves as DOT’s AI Governance Board?",
+  "response": "DOT’s Non-Traditional and Emerging Transportation Technology (NETT) Council serves as the Department’s AI Governance Board.",
+  "ground_truth": "The NETT Council, led by senior DOT officials including the Secretary and Deputy Secretary.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:41:45.036494",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the NETT Council as serving as the AI Governance Board for DOT, aligning with the ground truth information.",
+  "provider": "deepseek"
+}

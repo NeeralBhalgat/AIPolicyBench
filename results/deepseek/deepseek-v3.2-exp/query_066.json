@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "DOE is addressing AI talent development by:\n\n- Designating the Office of Human Capital (HC) as the Agency AI Talent Lead to align AI positions toward a common goal.\n- Completing the government-wide AI Talent and AI Enabling Talent Data Call and using it for internal workforce planning to identify and track federal AI positions and vacancies.\n- Updating position descriptions and assigning AI work roles from the Department of Defense Cyber Workforce Framework to identify required skillsets.\n- Providing resources and training to develop AI talent across its energy, environmental, and nuclear workforce and achieve AI literacy for non-practitioners.\n- Establishing a pilot program with the National Science Foundation (NSF) to train 500 new researchers by 2025.",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:38:13.343785",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the DOE's initiatives for AI talent development, including the pilot program with NSF to train researchers, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}
