@@ -12,7 +12,6 @@ Other important files
 - simple_vector_db.py   — build/load retrieval DB
 - data/                 — datasets and predefined queries
 - results/              — outputs (white agent responses, evaluations)
-- agent-leaderboard-web — React frontend (visualize leaderboard)
 
 ## Installation
 1. Install Python deps:
