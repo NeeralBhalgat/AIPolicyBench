@@ -239,7 +239,7 @@ class LLMJudgeEvaluator:
 
     def __init__(
         self,
-        provider: str = "deepseek",
+        provider : str,
         model: str = None,
         api_key: Optional[str] = None,
         temperature: float = 0.0,
@@ -256,6 +256,10 @@ class LLMJudgeEvaluator:
             max_tokens: Maximum tokens for LLM response (default: 1000)
         """
         self.provider = provider
+        if not self.provider:
+            self.provider = "deepseek"
+        else:
+            self.provider = provider.lower()
         self.temperature = temperature
         self.max_tokens = max_tokens
 

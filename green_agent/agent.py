@@ -17,7 +17,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 from safety_datasets_rag import SafetyDatasetsRAG
 from green_agent.evaluation import RuleBasedEvaluator, LLMJudgeEvaluator
