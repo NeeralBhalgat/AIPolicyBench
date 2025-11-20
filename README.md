@@ -1,4 +1,4 @@
-### AIPolicyBench – README (Concise)
+### AIPolicyBench – README
 
 What is this?
 - RAG agent answers grounded AI policy questions by retrieving relevant document chunks and synthesizing concise, source‑aligned responses.
