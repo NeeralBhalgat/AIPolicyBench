@@ -11,17 +11,12 @@ What is this?
 - White agent implements RAG (retrieve → augment → generate) over a prebuilt TF‑IDF vector database for fast, deterministic retrieval.
 - It exposes an A2A HTTP endpoint and uses the selected LLM (`--model`) to generate concise, document‑grounded answers.
 
-<<<<<<< HEAD
 Other important files
-- simple_vector_db.py   — build/load retrieval DB
-- data/                 — datasets and predefined queries
-- results/              — outputs (white agent responses, evaluations)
+- `simple_vector_db.py` — build/load retrieval DB
+- `data/` — datasets and predefined queries
+- `results/` — outputs (white agent responses, evaluations)
 
-## Installation
-1. Install Python deps:
-=======
 Setup
->>>>>>> 6f103c31 (docs: consolidate misc into 5 concise guides; add ARCHITECTURE, LLM_JUDGE, BENCHMARK_NOTES; update QUICK_COMMANDS and index; refresh README usage and AgentBeats notes)
 ```bash
 pip install -r requirements.txt
 cp env.example .env   # add API keys if using LLMs (e.g., DEEPSEEK_API_KEY or OPENAI_API_KEY)
@@ -41,15 +36,9 @@ python main.py white --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --mode
 
 Run green agent (evaluate a white agent)
 ```bash
-<<<<<<< HEAD
-python main.py launch --llm-judge
-```
-This command will run white agents to complete the task and green agent to evaluate the white agents all at once.
-=======
 python main.py green
 # options: --host 0.0.0.0 --port 9001
 ```
->>>>>>> 6f103c31 (docs: consolidate misc into 5 concise guides; add ARCHITECTURE, LLM_JUDGE, BENCHMARK_NOTES; update QUICK_COMMANDS and index; refresh README usage and AgentBeats notes)
 
 One‑shot evaluation (starts green + white and runs benchmark)
 ```bash
