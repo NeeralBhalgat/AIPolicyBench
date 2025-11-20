@@ -199,7 +199,7 @@ class RuleBasedEvaluator:
         miss_rate = (miss_count / total * 100) if total > 0 else 0.0
 
         # Calculate factuality rate: Correct - Hallucination + c * Miss
-        factuality_rate = correct_rate - hallucination_rate + (miss_weight * miss_rate)
+        factuality_rate = correct_rate - hallucination_rate + miss_rate
 
         logger.info(
             f"Batch evaluation complete: "
@@ -239,7 +239,7 @@ class LLMJudgeEvaluator:
 
     def __init__(
         self,
-        provider: str = "deepseek",
+        provider: str,
         model: str = None,
         api_key: Optional[str] = None,
         temperature: float = 0.0,
@@ -256,6 +256,12 @@ class LLMJudgeEvaluator:
             max_tokens: Maximum tokens for LLM response (default: 1000)
         """
         self.provider = provider
+
+        if not self.provider:
+            self.provider = "deepseek"
+        else:
+            self.provider = provider.lower()
+        
         self.temperature = temperature
         self.max_tokens = max_tokens
 
@@ -543,7 +549,7 @@ The confidence must be a number between 0.0 and 1.0.
         error_rate = (error_count / total * 100) if total > 0 else 0.0
 
         # Calculate factuality rate: Correct - Hallucination + c * Miss
-        factuality_rate = correct_rate - hallucination_rate + miss_weight
+        factuality_rate = correct_rate - hallucination_rate + miss_rate
 
         logger.info(
             f"Batch LLM evaluation complete: "
