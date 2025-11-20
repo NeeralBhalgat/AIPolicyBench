@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "The documents do not explicitly address how procurement will handle ideological bias in AI. However, they emphasize the importance of managing bias in AI systems, including human-cognitive biases, and the need for coordination and approval by the Chief AI Officer (CAIO) and the AI Safety Team in procurement processes. The AI Risk Management Framework (AI RMF) also highlights the evaluation of AI systems for bias, fairness, and transparency (Document 2). Additionally, procurement policies require compliance with federal acquisition standards and alignment with GSA guidelines (Document 3). While these measures may indirectly address ideological bias, the documents do not provide specific steps for handling it.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:19:18.792987",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the management of bias in AI systems and mentions the roles of the CAIO and AI Safety Team, but it does not align with the ground truth answer, which specifies a clear directive to contract only with developers whose systems are free from ideological bias. The response implies a lack of specific steps for addressing ideological bias, which contradicts the definitive stance in the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Public-facing AI systems must include explainable and interpretable features to help users understand the system's functionality, purposes, and potential impact. This includes describing how the AI system functions and providing explanations for its predictions or recommendations, tailored to the user's role, knowledge, and skill level (Document 5).",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:52.725351",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on explainability and interpretability, which are important aspects of AI systems, but it does not address the specific requirement of including plain-language notices and human alternatives as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

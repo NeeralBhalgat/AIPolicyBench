@@ -1,0 +1,12 @@
+{
+  "query_id": 111,
+  "query": "What is DOT’s approach to removing barriers to responsible AI use?",
+  "response": "Answer: The documents provided do not describe the Department of Transportation’s (DOT’s) approach to removing barriers to responsible AI use. The only specific information on this topic is for the Small Business Administration (SBA), which notes barriers such as access to authoritative data sources for training, testing, and validation of AI models, and ensuring those data sources are documented regarding how they are cleaned and refined to support model audits.",
+  "ground_truth": "Using the AI Accelerator Roadmap and AISCC to reduce friction while managing safety, privacy, and civil rights risks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:57:07.212085",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding DOT's approach, which aligns with the 'miss' classification as it expresses uncertainty about the topic.",
+  "provider": "deepseek"
+}

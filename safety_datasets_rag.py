@@ -65,7 +65,11 @@ class SafetyDatasetsRAG:
                     base_url="https://openrouter.ai/api/v1"
                 )
                 # Update model name for OpenRouter if needed
+<<<<<<< HEAD
                 self.model = "mistralai/mistral-7b-instruct"
+=======
+                self.model = "openai/gpt-5.1"
+>>>>>>> 66d7a65b6abc8b3d7ea63a4821ddc611bc7508f2
                 logger.info(f"Initialized OpenRouter LLM client with model: {self.model}")
             else:
                 # Direct DeepSeek API

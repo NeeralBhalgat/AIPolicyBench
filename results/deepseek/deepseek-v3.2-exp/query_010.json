@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The plan targets legal risks from AI by requiring agencies to develop AI Strategies to identify and remove barriers to responsible AI use and improve AI application maturity, specifically addressing AI used in enforcement actions where the AI tool is employed to assess a target, not when the AI itself is the target of enforcement.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:33:13.953458",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses AI strategies and enforcement actions but does not address the specific legal risk of malicious deepfakes or the development of NIST guidelines, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "Answer: It “removes barriers to American leadership in artificial intelligence,” clearing the way for rapid AI action.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:45:39.817482",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth, as it does not specify that existing AI policies and directives are being revoked, which is essential to understanding how barriers are removed for rapid AI action.",
+  "provider": "deepseek"
+}

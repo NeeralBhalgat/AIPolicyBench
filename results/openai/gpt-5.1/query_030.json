@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "Based on the provided text, there is **no statement that the order creates enforceable rights**.  \n\nThe only explicit language on legal effect is about the *report* in Document 3, which says it is **“non",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:46:26.089907",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the order does not create enforceable rights, aligning with the provided information.",
+  "provider": "deepseek"
+}

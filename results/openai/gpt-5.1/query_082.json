@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "The **DHS Chief AI Officer (DHS CAIO)** leads and coordinates the use of AI across DHS.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:53:40.624776",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the DHS Chief AI Officer (DHS CAIO) as the leader and coordinator of AI use across DHS, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

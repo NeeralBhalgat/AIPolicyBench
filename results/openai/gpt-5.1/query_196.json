@@ -1,0 +1,12 @@
+{
+  "query_id": 196,
+  "query": "How often must existing AI use cases be re-registered?",
+  "response": "Existing AI use cases must be re-registered **every year**.",
+  "ground_truth": "Annually, except for familiarization use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:07:54.041786",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response states that existing AI use cases must be re-registered every year, which is incorrect as the ground truth specifies that this is the case except for familiarization use cases.",
+  "provider": "deepseek"
+}

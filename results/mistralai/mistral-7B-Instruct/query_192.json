@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "AI-generated data outputs or products must be labeled as such in its metadata, and indexed and cataloged in the EDS system for internal discovery purposes. This includes any generated modification to existing data products. Datasets that have undergone augmentation from an AI system, such as data imputation or field creation and population, must include notice in the metadata holdings as to which records were modified or created, and by what system, including the AI systems version information. (Document 1, Document 3)",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:49.509926",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the requirement for labeling AI-generated or modified outputs, aligning with the ground truth that all such outputs must be labeled or watermarked. The details about metadata and indexing further support the correctness of the response.",
+  "provider": "deepseek"
+}

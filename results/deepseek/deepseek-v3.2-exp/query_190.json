@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "System owners must assess the potential risks and benefits of AI use cases, document stakeholders impacted, evaluate data quality, and ensure benefits meaningfully outweigh risks before use.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:48:42.516220",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses assessing risks and benefits, which is relevant but does not align with the ground truth requirement of reporting all use cases to the AI Safety Team and updating them after major changes.",
+  "provider": "deepseek"
+}

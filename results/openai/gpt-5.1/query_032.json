@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "The five headline goals are not listed anywhere in the text excerpts provided, so they cannot be determined from these documents.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:46:40.649871",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the five headline goals, stating they cannot be determined from the provided documents. This reflects a lack of knowledge rather than an attempt to provide incorrect information.",
+  "provider": "deepseek"
+}

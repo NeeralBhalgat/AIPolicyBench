@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "Answer: Prioritize research to advance **AI interpretability, AI control systems, and adversarial robustness**, including launching programs to develop breakthroughs in these areas so that advanced AI can be used more safely in high‑stakes domains.",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:43:58.926867",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies key research priorities for making AI safer in high-stakes use, which align with the ground truth answer.",
+  "provider": "deepseek"
+}

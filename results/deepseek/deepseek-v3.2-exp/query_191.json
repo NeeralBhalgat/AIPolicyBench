@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "Based on the provided documents, all authorized AI users must avoid:\n\n- Using AI systems if their training is not current (from Document 2).\n- Failing to report any potential IT security incident and not adhering to GSA’s Information Technology (IT) General Rules of Behavior (from Document 5).",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:48:50.453985",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which specifically states that authorized AI users must avoid inputting any federal nonpublic information into AI systems without authorization. The points mentioned by the White Agent are not the primary concern outlined in the ground truth.",
+  "provider": "deepseek"
+}

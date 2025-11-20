@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan supports open-source and open-weight AI models, aiming to ensure America has leading open models founded on American values, encourage their development and adoption, and recognize their geostrategic value.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:32:48.230663",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the plan's support for open-source and open-weight AI models, aligning with the ground truth that emphasizes their role in driving innovation and adoption.",
+  "provider": "deepseek"
+}

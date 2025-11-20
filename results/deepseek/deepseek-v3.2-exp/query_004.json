@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "Based on the documents provided, the procurement process addresses bias in AI by requiring that acquisition plans and solicitations for AI be coordinated and approved by the CAIO and reviewed by the AI Safety Team before proceeding.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:32:40.060763",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses a procurement process involving coordination and review by specific teams, but it does not align with the ground truth answer, which emphasizes contracting only with developers whose systems are free from ideological bias. The response lacks the specific focus on ideological bias and instead describes a procedural aspect that may not directly address the question.",
+  "provider": "deepseek"
+}

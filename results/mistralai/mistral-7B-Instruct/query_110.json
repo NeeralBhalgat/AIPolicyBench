@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "The DOT excludes AI use cases from the Public Use Case Inventory if they are designated as \"mission-sensitive, safety-sensitive, confidential, or otherwise potential targets for malicious interference\" by the CAIO in collaboration with the SR2 Committee. Additionally, the CAIO, in collaboration with OAs and the SR2 Committee, will update and revalidate all AI use cases within TrUCKR when that use case is modified but no less frequently than annually. During that update and revalidation process, the OA, CAIO, and SR2 Committee will evaluate if the use case exemption to reporting in the Public Use Case Inventory continues to meet the exclusion criteria.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:28:01.517196",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the exclusion criteria used by the DOT, mentioning mission-sensitive and safety-sensitive designations, which align with the ground truth answer regarding classified and sensitive systems.",
+  "provider": "deepseek"
+}

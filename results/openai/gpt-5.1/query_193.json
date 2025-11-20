@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Answer: The provided documents do not state what public-facing AI systems must include.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:07:32.017095",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates uncertainty about the requirements for public-facing AI systems, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

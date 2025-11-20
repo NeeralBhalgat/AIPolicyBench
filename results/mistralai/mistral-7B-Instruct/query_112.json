@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "DOT ensures AI training data are trustworthy by evaluating the data to ensure it is accurate, complete, and representative of the intended deployment context. They also ensure that the data used to validate an AI system is separate from the data used to build the system to avoid misunderstandings of performance and biases (Document 3).",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:28:10.752869",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the key aspects of ensuring trustworthy AI training data, including evaluation for accuracy, completeness, and representativeness, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

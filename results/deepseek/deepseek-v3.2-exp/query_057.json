@@ -1,0 +1,12 @@
+{
+  "query_id": 57,
+  "query": "How will the DoD strengthen governance while removing policy barriers?",
+  "response": "The DoD will strengthen governance by providing data as an enterprise resource through more sharing and collaboration, guided by an agile strategic approach that promotes decentralized action, inspires campaigns of learning, and leverages people, processes, and technologies.",
+  "ground_truth": "By creating risk-adjusted, collaborative governance that supports responsible, fast, and lawful AI adoption.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:37:28.970544",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses governance and collaboration but does not accurately reflect the specific focus on risk-adjusted, collaborative governance for AI adoption as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

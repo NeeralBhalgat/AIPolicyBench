@@ -1,0 +1,11 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:01:24.843597",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

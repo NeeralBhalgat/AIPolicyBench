@@ -21,3 +21,13 @@ ENV/
 # OS
 .DS_Store
 Thumbs.db
+<<<<<<< HEAD
+=======
+# Ignore virtualenvs and large binaries
+.venv/
+.venv_*/
+.venv_run/
+.venvnew/
+.venvnew*/
+*.dylib
+>>>>>>> 66d7a65b6abc8b3d7ea63a4821ddc611bc7508f2

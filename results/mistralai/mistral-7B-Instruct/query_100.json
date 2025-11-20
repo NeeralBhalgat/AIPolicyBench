@@ -1,0 +1,12 @@
+{
+  "query_id": 100,
+  "query": "When must DHS complete its formal AI Directive and Instruction?",
+  "response": "The documents provided do not specify a completion date for the formal AI Directive and Instruction.",
+  "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:27:16.546984",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty by stating that the documents do not specify a completion date, which aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "deepseek"
+}

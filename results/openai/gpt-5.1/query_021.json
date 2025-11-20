@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "Answer: The purpose of this directive is to **“establish the governing policies regarding the controlled access and responsible use of artificial intelligence (AI) technologies and platforms.”**",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:45:31.132882",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not align with the ground truth answer, which emphasizes keeping U.S. AI leadership free from bias or agendas, rather than focusing solely on governing policies for access and use.",
+  "provider": "deepseek"
+}

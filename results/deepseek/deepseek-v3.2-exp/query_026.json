@@ -1,0 +1,12 @@
+{
+  "query_id": 26,
+  "query": "What must be reviewed and potentially undone from EO 14110?",
+  "response": "EO 14179 of January 23, 2025, directs a review of \"all policies, directives, regulations, orders, and other actions taken pursuant to the revoked Executive Order 14110\" to identify any that are inconsistent with or present obstacles to the new policy of sustaining and enhancing America's global AI dominance.",
+  "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:34:40.943293",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly references EO 14179 instead of accurately addressing EO 14110. It also does not clearly state that actions inconsistent with the new policy must be suspended, revised, or rescinded, which is the essence of the ground truth answer.",
+  "provider": "deepseek"
+}

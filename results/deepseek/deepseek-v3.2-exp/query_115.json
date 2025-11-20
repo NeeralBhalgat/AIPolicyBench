@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "DOT shares AI models and code with the public by ensuring that TrAIN-related data, custom code, and models that pass the SR2 Committee’s security review are publicly shared. The CAIO maintains use case security review justification, documentation, and sharing methodologies in TrUCKR.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:42:39.705844",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response includes specific terms like 'TrAIN' and 'TrUCKR' which do not align with the ground truth answer regarding the sharing of AI models and code through OPEN Data workflows and Code.gov. This indicates a misunderstanding or fabrication of the actual process.",
+  "provider": "deepseek"
+}

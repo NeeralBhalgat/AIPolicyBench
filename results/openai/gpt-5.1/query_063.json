@@ -1,0 +1,12 @@
+{
+  "query_id": 63,
+  "query": "What new AI guidance did the DOE release in June 2024?",
+  "response": "Answer: In June 2024, DOE published Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:51:41.293567",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth information regarding the DOE's release of Version 2 of the Generative AI Reference Guide in June 2024.",
+  "provider": "deepseek"
+}
