@@ -1,12 +1,11 @@
 {
   "query_id": 11,
   "query": "What three priorities must agencies focus on to accelerate Federal AI use?",
-  "response": "Agencies must focus on three key priorities to accelerate Federal AI use: innovation, governance, and public trust.",
+  "response": "I encountered an error while generating the response: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
   "ground_truth": "Innovation, governance, and public trust.",
-  "evaluation_result": "correct",
+  "evaluation_result": "error",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-13T22:21:47.098255",
-  "confidence": 0.95,
-  "reasoning": "The White Agent's response accurately reflects the ground truth answer, listing the same three priorities: innovation, governance, and public trust.",
+  "timestamp": "2025-11-20T12:28:55.373729",
+  "confidence": 0.0,
   "provider": "deepseek"
 }

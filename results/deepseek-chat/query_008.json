@@ -1,12 +1,11 @@
 {
   "query_id": 8,
   "query": "How will advanced AI compute export controls be enforced?",
-  "response": "Advanced AI compute export controls will be enforced by leveraging new and existing location verification features on advanced AI compute, and by establishing a new effort led by the Department of Commerce to collaborate with intelligence community officials on global chip export control enforcement.",
+  "response": "I encountered an error while generating the response: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
   "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
-  "evaluation_result": "correct",
+  "evaluation_result": "error",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-13T22:21:37.240155",
-  "confidence": 0.9,
-  "reasoning": "The White Agent's response accurately describes the enforcement of advanced AI compute export controls by mentioning location verification and collaboration with the Department of Commerce and intelligence community, which aligns with the ground truth answer.",
+  "timestamp": "2025-11-20T12:28:54.687145",
+  "confidence": 0.0,
   "provider": "deepseek"
 }

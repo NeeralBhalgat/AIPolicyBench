@@ -1,12 +1,11 @@
 {
   "query_id": 12,
   "query": "Which prior OMB memo does M-25-21 replace?",
-  "response": "M-25-21 does not replace any prior OMB memo. The documents state that \"This memorandum does not supersede, and should be considered in concert with, other more general Federal policies\" (Document 1).",
+  "response": "I encountered an error while generating the response: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
   "ground_truth": "OMB Memorandum M-24-10.",
-  "evaluation_result": "hallucination",
+  "evaluation_result": "error",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-13T22:21:50.434186",
-  "confidence": 0.9,
-  "reasoning": "The White Agent incorrectly states that M-25-21 does not replace any prior OMB memo, while the ground truth indicates that it actually replaces OMB Memorandum M-24-10.",
+  "timestamp": "2025-11-20T12:28:55.595027",
+  "confidence": 0.0,
   "provider": "deepseek"
 }
