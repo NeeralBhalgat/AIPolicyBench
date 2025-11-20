@@ -61,6 +61,7 @@ async def evaluate_white_agent(
     white_agent_url: str,
     queries_file: str = "data/predefined_queries.json",
     use_llm_judge: bool = False,
+    max_queries: int = None,
     results_dir: str = "./results"
 ) -> dict:
     """
@@ -70,6 +71,7 @@ async def evaluate_white_agent(
         white_agent_url: URL of the white agent to evaluate
         queries_file: Path to predefined queries JSON file
         use_llm_judge: Whether to use LLM-as-a-judge evaluation
+        max_queries: Maximum number of queries to evaluate (None for all)
         results_dir: Directory to save evaluation results
 
     Returns:
@@ -115,6 +117,12 @@ async def evaluate_white_agent(
 
     if not queries:
         return {"error": "No queries loaded"}
+
+    # Limit queries if max_queries is specified
+    total_queries_available = len(queries)
+    if max_queries is not None and max_queries > 0:
+        queries = queries[:max_queries]
+        logger.info(f"Limiting to first {max_queries} queries out of {total_queries_available} total")
 
     logger.info(f"Loaded {len(queries)} queries for evaluation")
 
@@ -380,6 +388,10 @@ class GreenAgentExecutor(AgentExecutor):
         queries_file = tags.get("queries_file", "data/predefined_queries.json")
         use_llm_judge = tags.get("use_llm_judge", "false").lower() == "true"
 
+        # Parse max_queries (can be 'all' or a number)
+        max_queries_str = tags.get("max_queries", "all")
+        max_queries = None if max_queries_str == "all" else int(max_queries_str)
+
         if not white_agent_url:
             error_msg = "Error: white_agent_url not provided in task"
             logger.error(error_msg)
@@ -389,13 +401,15 @@ class GreenAgentExecutor(AgentExecutor):
         logger.info(f"Evaluating white agent at: {white_agent_url}")
         logger.info(f"Using queries file: {queries_file}")
         logger.info(f"LLM judge: {use_llm_judge}")
+        logger.info(f"Max queries: {max_queries if max_queries is not None else 'all'}")
 
         # Run evaluation
         try:
             result = await evaluate_white_agent(
                 white_agent_url=white_agent_url,
                 queries_file=queries_file,
-                use_llm_judge=use_llm_judge
+                use_llm_judge=use_llm_judge,
+                max_queries=max_queries
             )
 
             # Format response

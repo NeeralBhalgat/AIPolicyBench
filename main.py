@@ -64,6 +64,10 @@ def launch(
         "--llm-judge",
         help="Use LLM-as-a-judge evaluation (fixed: gpt-4o-mini)"
     ),
+    max_queries: Optional[int] = typer.Option(
+        None,
+        help="Maximum number of queries to evaluate (default: all queries)"
+    ),
     green_host: str = typer.Option("localhost", help="Green agent host"),
     green_port: int = typer.Option(9001, help="Green agent port"),
     white_host: str = typer.Option("localhost", help="White agent host"),
@@ -74,11 +78,14 @@ def launch(
     typer.echo(f"   White Agent Model: {white_model}")
     if use_llm_judge:
         typer.echo(f"   LLM Judge Model: gpt-4o-mini (fixed)")
+    if max_queries:
+        typer.echo(f"   Max Queries: {max_queries}")
     asyncio.run(launch_evaluation(
         queries_file=queries_file,
         vector_db_path=vector_db,
         white_model=white_model,
         use_llm_judge=use_llm_judge,
+        max_queries=max_queries,
         green_host=green_host,
         green_port=green_port,
         white_host=white_host,

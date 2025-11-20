@@ -1,12 +1,12 @@
 {
   "query_id": 33,
   "query": "Which governance bodies lead AI?",
-  "response": "The governance bodies leading AI include:\n1. NASA's Chief AI Officer (CAIO) establishes AI governance in two tiers: senior leaders and subordinate leaders. These bodies span NASA and encourage collaboration (Document 1).\n2. HHS's Office of the Chief AI Officer (OCAIO) strengthens and formalizes governance structures, provides guidelines, and stewards AI working groups (Document 2).\n3. The Department of the Interior and the Small Business Administration (SBA) also have AI governance bodies as part of their AI compliance plans (Documents 3 and 4).",
+  "response": "The governance bodies leading AI include:\n1. NASA's Chief AI Officer (CAIO) establishing AI governance in two tiers: senior leaders and subordinate leaders (Document 1).\n2. NASA’s Autonomous Systems System Capability Leadership Team (AS-SLCT) (Document 1).\n3. HHS OCAIO (Office of the Chief AI Officer) (Document 2).\n4. HHS AI Governance Board (Document 2).\n5. The AI governance bodies mentioned in the Department of the Interior (Document 3) and SBA (Document 4), though specific names are not provided in the given text.",
   "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
   "evaluation_result": "hallucination",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-13T22:23:10.227022",
-  "confidence": 0.7,
-  "reasoning": "The response incorrectly identifies specific governance bodies leading AI, such as NASA's CAIO and HHS's OCAIO, which are not part of the recognized governance bodies listed in the ground truth answer. The ground truth mentions specific councils and boards that are not referenced in the White Agent's response.",
+  "timestamp": "2025-11-20T12:34:11.456985",
+  "confidence": 0.8,
+  "reasoning": "The response includes specific governance bodies related to AI, but they do not align with the ground truth answer, which lists different organizations and roles. The mention of NASA and HHS governance bodies appears to be incorrect or irrelevant to the question about leading AI governance bodies.",
   "provider": "deepseek"
 }

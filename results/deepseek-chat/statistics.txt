@@ -5,16 +5,16 @@ White Agent: http://localhost:9002
 White Agent Model: deepseek-chat
 Evaluation Method: LLM-as-a-judge
 LLM Judge Model: openai/gpt-4o-mini
-Timestamp: 20251113_222107
+Timestamp: 20251120_123559
 
 ================================================================================
 Statistics:
 ================================================================================
 
-Total Queries: 200
-Correct: 112 (56.00%)
-Miss: 21 (10.50%)
-Hallucination: 67 (33.50%)
-Factuality Rate: 66.50%
+Total Queries: 5
+Correct: 2 (40.00%)
+Miss: 1 (20.00%)
+Hallucination: 2 (40.00%)
+Factuality Rate: 20.00%
 
 ================================================================================

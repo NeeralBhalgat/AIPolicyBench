@@ -5,8 +5,8 @@
   "ground_truth": "Within 180 days of issuance.",
   "evaluation_result": "correct",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-13T22:21:59.311194",
+  "timestamp": "2025-11-20T12:32:40.026461",
   "confidence": 0.95,
-  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the timeline for CFO Act agencies to publish an AI Strategy, stating it must be done within 180 days of issuance.",
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the timeline for CFO Act agencies to publish an AI Strategy.",
   "provider": "deepseek"
 }

@@ -23,6 +23,7 @@ async def launch_evaluation(
     vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl",
     white_model: str = "deepseek-chat",
     use_llm_judge: bool = False,
+    max_queries: int = None,
     green_host: str = "localhost",
     green_port: int = 9001,
     white_host: str = "localhost",
@@ -36,6 +37,7 @@ async def launch_evaluation(
         vector_db_path: Path to the vector database (ignored by new Web RAG)
         white_model: LLM model for white agent to use
         use_llm_judge: Whether to use LLM-as-a-judge evaluation
+        max_queries: Maximum number of queries to evaluate (None for all)
         green_host: Host for green agent
         green_port: Port for green agent
         white_host: Host for white agent
@@ -105,6 +107,9 @@ Use the following configuration:
 <use_llm_judge>
 {str(use_llm_judge).lower()}
 </use_llm_judge>
+<max_queries>
+{max_queries if max_queries is not None else 'all'}
+</max_queries>
 
 Please evaluate all queries and provide a detailed report.
 """
@@ -172,6 +177,8 @@ def main():
                         help="LLM model for white agent (default: deepseek-chat)")
     parser.add_argument("--use_llm_judge", action="store_true",
                         help="Use LLM-as-a-judge evaluation instead of rule-based")
+    parser.add_argument("--max_queries", type=int, default=None,
+                        help="Maximum number of queries to evaluate (default: all)")
     parser.add_argument("--green_host", default="localhost",
                         help="Host for green agent (default: localhost)")
     parser.add_argument("--green_port", type=int, default=9001,
@@ -188,6 +195,7 @@ def main():
         vector_db_path=args.vector_db,
         white_model=args.white_model,
         use_llm_judge=args.use_llm_judge,
+        max_queries=args.max_queries,
         green_host=args.green_host,
         green_port=args.green_port,
         white_host=args.white_host,

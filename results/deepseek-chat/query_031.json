@@ -1,12 +1,12 @@
 {
   "query_id": 31,
   "query": "What’s USDA’s core AI vision for FY25–26?",
-  "response": "USDA's core AI vision for FY25–26 is to strategically integrate AI into their federated operating environment, supporting their existing culture of innovation and data-informed decision-making, and to be a leader in the federal space in growing and supporting their data and AI workforce. The goals and objectives in this vision address the findings of their current state assessment and provide a clear path to responsible and effective AI adoption, building on several objectives in the FY24–26 USDA Data Strategy related to artificial intelligence, machine learning, and automated systems.",
+  "response": "USDA’s core AI vision for FY25–26 is to empower employees and provide a robust, flexible, and transparent governance framework that fosters innovation, encourages collaboration, and promotes responsible, safe, and value-added use of AI. This vision aims to gain operational and mission delivery enhancements and spearhead collaborative partnerships. (Document 1)",
   "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
   "evaluation_result": "hallucination",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-13T22:23:00.261262",
+  "timestamp": "2025-11-20T12:33:55.507212",
   "confidence": 0.7,
-  "reasoning": "The White Agent's response provides a detailed vision for USDA's AI strategy but does not accurately reflect the core elements of the ground truth answer, which emphasizes workforce readiness, governance, and tech infrastructure. The response includes additional context that is not aligned with the specific goals stated in the ground truth.",
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which emphasizes building workforce readiness, governance, and tech infrastructure specifically for the safe integration of AI. Instead, the White Agent's response focuses on empowerment and collaboration without addressing the core elements mentioned in the ground truth.",
   "provider": "deepseek"
 }
