@@ -287,7 +287,7 @@ async def evaluate_white_agent(
     correct_rate = (correct_count / total * 100) if total > 0 else 0.0
     miss_rate = (miss_count / total * 100) if total > 0 else 0.0
     hallucination_rate = (hallucination_count / total * 100) if total > 0 else 0.0
-    factuality_rate = correct_rate + miss_rate  # Correct + Miss (not hallucinating)
+    factuality_rate = correct_rate + miss_rate  - hallucination_rate  # c=1 for miss
 
     logger.info(f"\n{'='*80}")
     logger.info(f"Evaluation complete: {correct_count}/{total} correct ({correct_rate:.2f}%)")
