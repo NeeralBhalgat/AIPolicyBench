@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "The CAIO and the Autonomous Systems System Capability Leadership Team (AS-SLCT) lead AI.",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:20:09.131944",
+  "confidence": 0.8,
+  "reasoning": "The response mentions the CAIO and AS-SLCT as leading bodies, but these do not align with the recognized governance bodies listed in the ground truth answer, indicating a factual inaccuracy.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The provided text does **not specify any particular legal risk from AI**. It only describes, in general terms, how the AI RMF uses:\n\n- **Current and Target Profiles** to compare how AI risks are currently managed versus desired outcomes,  \n- **Gap analysis and action plans** to address those gaps, and  \n- **Cross-sectoral profiles** to manage risks of AI models or applications across sectors.\n\nNo specific legal risk (e.g., liability, discrimination law, regulatory non‑compliance) is identified or targeted in the excerpt.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:51:02.264984",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that no specific legal risk is identified, while the ground truth specifies 'malicious deepfakes' as a targeted legal risk. This indicates a factual inaccuracy in the White Agent's response.",
+  "provider": "openrouter"
+}

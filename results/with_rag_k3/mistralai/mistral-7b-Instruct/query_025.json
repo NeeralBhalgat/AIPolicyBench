@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "The Federal government must produce an AI Action Plan by near-term execution (implied to be soon, as the document is dated July 2025).",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:14:11.584823",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the entity responsible for producing the AI Action Plan as the Federal government, while the ground truth specifies APST, Special Advisor for AI and Crypto, and APNSA. Additionally, the timeline mentioned is not accurate as it does not align with the 180-day requirement stated in the ground truth.",
+  "provider": "openrouter"
+}

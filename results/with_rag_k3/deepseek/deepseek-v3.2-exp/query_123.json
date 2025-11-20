@@ -1,0 +1,12 @@
+{
+  "query_id": 123,
+  "query": "How often must AI use case inventory entries be reviewed?",
+  "response": "AI use case inventory entries must be reviewed and validated or updated at least annually or when directed by the CDAO team.",
+  "ground_truth": "At least annually or when directed by the CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:10:13.845396",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the frequency of reviewing AI use case inventory entries.",
+  "provider": "openrouter"
+}

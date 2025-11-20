@@ -1,0 +1,12 @@
+{
+  "query_id": 19,
+  "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+  "response": "If a particular high-impact use case is not compliant with the minimum practices, the agency must safely discontinue use of the AI functionality. (Document 1, Section 11)",
+  "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:13:49.745995",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention the specific 365-day deadline for implementing minimum practices, which is a key part of the ground truth. While it correctly states that non-compliance requires discontinuation of use, it fails to provide the complete and accurate information regarding the deadline.",
+  "provider": "openrouter"
+}

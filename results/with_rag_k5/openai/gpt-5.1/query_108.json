@@ -1,0 +1,12 @@
+{
+  "query_id": 108,
+  "query": "What is TrAIN?",
+  "response": "Answer: TrAIN (Transportation AI-enabled Network) is a DOT network that aggregates all Department AI-enabled development, testing, and production operational environments under one umbrella to support rapid deployment of AI solutions and continuous safety, security, compliance, and risk management monitoring.",
+  "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:56:50.911351",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly expands on the definition of TrAIN by introducing terms like 'Transportation AI-enabled Network' and details about 'risk management monitoring' that are not part of the ground truth answer. The core concept of TrAIN as an AI-enabled network for developing, testing, and deploying operational AI solutions is present, but the additional details are misleading.",
+  "provider": "deepseek"
+}

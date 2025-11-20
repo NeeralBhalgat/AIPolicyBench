@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "Answer: The provided documents do not mention AISWG or describe any process that AISWG will develop for AI lifecycle management.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:48:38.708773",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the documents do not mention AISWG or any process for AI lifecycle management, while the ground truth specifies that there is indeed an inventory and annual registration process associated with AISWG.",
+  "provider": "openrouter"
+}

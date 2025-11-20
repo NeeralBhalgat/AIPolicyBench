@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "OMB must align guidance by following OMB M-24-10 and M-24-18, which include relevant additional steps to identify and mitigate risks, such as when an AI solution has been deemed “rights impacting” or “safety impacting.” The document does not specify a timeline.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:19:46.657845",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that the document does not specify a timeline, while the ground truth specifies that OMB must revise the guidance within 60 days.",
+  "provider": "openrouter"
+}

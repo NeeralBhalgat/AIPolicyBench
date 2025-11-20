@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "The document does not mention any federal acts guiding the NRC's approach to AI.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:45:38.933920",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the document does not mention any federal acts guiding the NRC's approach to AI, while the ground truth identifies specific acts that do guide this approach.",
+  "provider": "openrouter"
+}

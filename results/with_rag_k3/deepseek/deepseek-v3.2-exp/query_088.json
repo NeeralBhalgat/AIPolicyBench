@@ -1,0 +1,12 @@
+{
+  "query_id": 88,
+  "query": "How does DHS ensure transparency and accountability in its AI use?",
+  "response": "DHS ensures transparency and accountability in its AI use by:\n\n1. Requiring human oversight for safety-impacting, rights-impacting, or significant/final agency decisions.\n2. Providing training for personnel on AI use and outputs.\n3. Making AI use transparent and explainable to the workforce and public, with public disclosure in plain language and opt-out mechanisms where possible.\n4. Ensuring AI outputs are understandable, traceable, and auditable against data standards.\n5. Designing and deploying AI with a human-centered approach, considering those impacted by AI outputs.",
+  "ground_truth": "By making AI use explainable, auditable, and publicly disclosed in plain language whenever possible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:07:19.943924",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the principles of transparency and accountability in AI use by DHS, including human oversight, training, public disclosure, and a human-centered approach, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

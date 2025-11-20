@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "The NRC will engage with international counterparts and multilateral organizations to collaborate in sharing information on the use of AI in NRC-regulated activities, conduct cooperative research, and influence the development of international standards and guidance (Document 1). The FDA will strengthen regulatory cooperation with international regulators (Document 5).",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:32:37.695457",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of partnerships with international regulators in terms of information sharing and collaboration on AI standards, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

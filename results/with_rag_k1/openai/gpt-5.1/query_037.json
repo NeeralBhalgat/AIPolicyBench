@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Answer: Data is readied for AI by treating it as a product—managed by data domain owners and data product teams—and ensuring it is properly managed and governed with clear accountability, quality and interface standards, and access controls.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:54:15.666648",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses data management and governance but does not accurately reflect the specific actions mentioned in the ground truth, such as strengthening data catalog metadata, securing access, and protecting against data leakage.",
+  "provider": "openrouter"
+}

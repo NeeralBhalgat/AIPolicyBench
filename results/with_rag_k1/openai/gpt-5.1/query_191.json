@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "The provided text does not state what all authorized AI users must avoid.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:11:44.566687",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not provide an answer to the question, which reflects uncertainty about what authorized AI users must avoid.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "Answer: The documents state that AI risk determinations **may be revisited “at any time”**; no specific re-evaluation interval or schedule is specified.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:57:55.206643",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that AI risk determinations may be revisited at any time without specifying a required interval, while the ground truth indicates that re-evaluations must occur at least annually or when significant modifications happen.",
+  "provider": "deepseek"
+}

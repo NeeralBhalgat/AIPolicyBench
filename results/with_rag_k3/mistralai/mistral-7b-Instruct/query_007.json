@@ -1,0 +1,12 @@
+{
+  "query_id": 7,
+  "query": "What permitting changes are proposed for AI infrastructure?",
+  "response": "The proposed permitting changes for AI infrastructure include creating streamlined permitting for data centers, semiconductor manufacturing facilities, and energy infrastructure while guaranteeing security. This is to address the challenges posed by America's environmental permitting system and other regulations that currently make it difficult to build such infrastructure quickly in the United States.",
+  "ground_truth": "New NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:13:05.339106",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions streamlined permitting for data centers and energy infrastructure, which is somewhat related, but it does not accurately reflect the specific proposed changes such as NEPA categorical exclusions and expanded FAST-41 coverage, making it factually incorrect.",
+  "provider": "openrouter"
+}

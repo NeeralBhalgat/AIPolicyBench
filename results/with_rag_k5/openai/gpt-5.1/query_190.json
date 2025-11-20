@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "System owners must:\n\n- Document the stakeholders who will be most impacted by the AI system.  \n- Assess the possible failure modes of the AI and the broader system, including risks to underserved communities.  \n- Weigh expected benefits against potential risks and not use the AI if the benefits do not meaningfully outweigh the risks.  \n- Assess the quality and appropriateness of the data used in the AI’s design, development, training, testing, and operation, or document why such data are not available and what mitigations are in place.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:07:11.542545",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a detailed list of responsibilities for system owners regarding AI use cases, but it does not align with the ground truth answer, which specifically states that system owners must report all use cases to the AI Safety Team. The response includes relevant considerations but ultimately does not address the core requirement of reporting to the AI Safety Team.",
+  "provider": "deepseek"
+}

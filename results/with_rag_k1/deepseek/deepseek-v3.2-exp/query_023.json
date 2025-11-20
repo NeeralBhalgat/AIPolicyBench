@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The order clears the way for rapid AI action by removing red tape and onerous regulation.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:33:39.231430",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response suggests that the order removes red tape and onerous regulation, which is a generalization but does not specifically address the revocation of existing AI policies and directives as stated in the ground truth. Therefore, it is factually incorrect.",
+  "provider": "openrouter"
+}

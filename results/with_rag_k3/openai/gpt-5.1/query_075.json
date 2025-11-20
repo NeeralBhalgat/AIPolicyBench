@@ -1,0 +1,12 @@
+{
+  "query_id": 75,
+  "query": "What additional domains support implementation of the Strategic Plan?",
+  "response": "Answer: The additional domains are **Cybersecurity and Critical Infrastructure Protection** and **Internal Operations**.",
+  "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:39:54.716360",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the additional domains as Cybersecurity and Critical Infrastructure Protection, and Internal Operations, which matches the ground truth answer.",
+  "provider": "openrouter"
+}

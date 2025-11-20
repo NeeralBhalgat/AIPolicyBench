@@ -1,0 +1,12 @@
+{
+  "query_id": 27,
+  "query": "What interim relief is directed if rollback can’t be finalized immediately?",
+  "response": "If such actions cannot be finalized immediately, agencies are instructed to provide all available exemptions until such action can be finalized.",
+  "ground_truth": "Provide all available exemptions until final action.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:19:38.091949",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer by stating that agencies should provide all available exemptions until final action can be taken.",
+  "provider": "openrouter"
+}

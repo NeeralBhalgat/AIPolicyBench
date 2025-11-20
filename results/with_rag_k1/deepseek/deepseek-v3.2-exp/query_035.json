@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "The workforce plan involves sharing best practices from the human services delivery ecosystem for expanding the workforce’s AI capacity.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:34:27.513476",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the specific elements of the workforce plan as outlined in the ground truth answer. While it mentions expanding the workforce's AI capacity, it lacks details about hiring practices, rotations, and AI literacy, which are critical components of the actual plan.",
+  "provider": "openrouter"
+}

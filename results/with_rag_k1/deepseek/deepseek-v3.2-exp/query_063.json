@@ -1,0 +1,12 @@
+{
+  "query_id": 63,
+  "query": "What new AI guidance did the DOE release in June 2024?",
+  "response": "The provided document does not contain information about new AI guidance released by the DOE in June 2024.",
+  "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:36:37.644056",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the new AI guidance from the DOE, which aligns with the 'miss' classification as it expresses uncertainty about the topic.",
+  "provider": "openrouter"
+}

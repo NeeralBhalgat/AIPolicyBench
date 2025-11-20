@@ -1,0 +1,12 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "Answer: The provided documents do not specify particular internal NRC process improvements that AI might support; they only state that the NRC will pursue internal AI use cases and use the resulting experience to understand their impact on the agency’s regulatory framework.",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:53:07.140485",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of specific knowledge about internal improvements that AI might support in NRC processes, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

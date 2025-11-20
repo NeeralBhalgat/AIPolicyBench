@@ -1,0 +1,12 @@
+{
+  "query_id": 160,
+  "query": "How many learners participated in NASA’s “Summer of AI”?",
+  "response": "Answer: The number of learners who participated in NASA’s “Summer of AI” is not stated in the provided documents.",
+  "ground_truth": "Nearly 4,000.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:02:56.345782",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the number of learners, which aligns with the 'miss' classification. The correct number is known, but the response does not provide it.",
+  "provider": "deepseek"
+}

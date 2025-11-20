@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "The document does not explicitly state what all authorized AI users must avoid. However, it does emphasize the importance of data visibility, accessibility, and trustworthiness, which implies that users should avoid actions that compromise these attributes, such as failing to ensure data is discoverable, retrievable, or reliable.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:30:06.245028",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which specifically states that authorized AI users must avoid inputting any federal nonpublic information into AI systems without authorization. Instead, the White Agent discusses general principles of data visibility and trustworthiness, which does not directly address the question.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 155,
+  "query": "What is NASA doing to improve access to AI tools?",
+  "response": "NASA intends, within budget limitations, to make multiple cloud-hosted AI capabilities available in FY25. It is also working to authorize AI upgrades to common, off-the-shelf software, such as office automation tools, to include streamlining technology onboarding processes.",
+  "ground_truth": "Making multiple cloud-hosted AI capabilities available in FY25.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:24:08.201568",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that NASA intends to make multiple cloud-hosted AI capabilities available in FY25, which is the key point of the question.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 161,
+  "query": "What mechanisms does NASA use to acquire AI talent?",
+  "response": "NASA uses direct hires, federally funded research and development contractors, university grants, industry partnerships, internships, fellowships, and military transition opportunities to acquire AI talent.",
+  "ground_truth": "Direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:28:24.328706",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the mechanisms NASA uses to acquire AI talent, including direct hires, industry partnerships, internships, and fellowships, which align with the ground truth answer.",
+  "provider": "openrouter"
+}

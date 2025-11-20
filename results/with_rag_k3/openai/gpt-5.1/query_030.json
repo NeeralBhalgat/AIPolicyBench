@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "Answer: The provided documents do not state that the order creates any enforceable rights.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:34:19.739026",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer, indicating that the order does not create enforceable rights.",
+  "provider": "openrouter"
+}

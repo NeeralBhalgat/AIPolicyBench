@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "Based on the provided documents, all authorized AI users must avoid using predictive policing systems if their training is not current.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:15:27.154448",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the specific action that authorized AI users must avoid. The ground truth specifies avoiding inputting federal nonpublic information into AI systems without authorization, which is not addressed in the White Agent's response.",
+  "provider": "openrouter"
+}

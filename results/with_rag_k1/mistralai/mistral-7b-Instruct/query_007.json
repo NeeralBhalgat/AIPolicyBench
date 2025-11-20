@@ -1,0 +1,12 @@
+{
+  "query_id": 7,
+  "query": "What permitting changes are proposed for AI infrastructure?",
+  "response": "The documents propose changes to streamline permitting for Data Centers, Semiconductor Manufacturing Facilities, and Energy Infrastructure, while ensuring security.",
+  "ground_truth": "New NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:18:17.355728",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions changes to streamline permitting for Data Centers, Semiconductor Manufacturing Facilities, and Energy Infrastructure, but it does not accurately reflect the specific proposed changes such as NEPA categorical exclusions and expanded FAST-41 coverage, which are key elements of the ground truth answer.",
+  "provider": "openrouter"
+}

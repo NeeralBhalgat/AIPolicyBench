@@ -1,0 +1,12 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "AI systems must be regularly monitored and tested for safety, security, resilience, understandability, responsibility and traceability, transparency, and compliance with federal requirements (Document 3). Additionally, AI systems should be monitored for risks and benefits from third-party resources, pre-trained models used for development, and incidents and errors (Document 4 and 5).",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:07.644935",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response lists various aspects for monitoring AI systems, but it does not mention alignment with the EO 13960 AI principles, which is the ground truth answer. Therefore, while the response provides relevant information, it does not accurately address the specific requirement stated in the question.",
+  "provider": "deepseek"
+}

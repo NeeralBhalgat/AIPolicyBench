@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "The DOE AI Use Case Inventory aims to achieve complete and accurate reporting of AI use cases, with an approval hierarchy to enhance this process. It involves an annual data call, verification and validation by OCIO and CET, and the establishment of an AI Use Case Inventory Working Group to ensure a consistent approach. The inventory also ensures that only use cases meeting specific criteria are reported externally, with annual validation of previously reported cases.",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:22:33.838745",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides additional details about processes and structures that are not part of the ground truth answer, which simply states the aim of cataloging and reviewing AI use cases. The focus on approval hierarchy and specific validation processes is not mentioned in the ground truth, indicating a deviation from the core objective.",
+  "provider": "openrouter"
+}

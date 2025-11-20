@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "He **rescinded the Biden Administration’s “dangerous actions” on AI on day one.**",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:50:04.603006",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the action taken by President Trump. While it mentions rescinding actions related to AI, it does not specify the correct executive order (Biden Executive Order 14110) and uses vague language that could mislead about the nature of the action.",
+  "provider": "openrouter"
+}

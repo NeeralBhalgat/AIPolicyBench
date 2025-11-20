@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "The provided document excerpt does not state how often DOT must re‑evaluate AI risk determinations.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:03:05.121215",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty by stating that the document excerpt does not provide the information, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

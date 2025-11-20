@@ -1,0 +1,11 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:47:19.652753",
+  "confidence": 1.0,
+  "provider": "openrouter"
+}

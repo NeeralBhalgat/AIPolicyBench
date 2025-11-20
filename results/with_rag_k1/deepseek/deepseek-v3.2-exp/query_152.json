@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "The document does not specify when NASA will re-evaluate non-reportable use cases.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:43:25.518780",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the timing of NASA's re-evaluation of non-reportable use cases, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

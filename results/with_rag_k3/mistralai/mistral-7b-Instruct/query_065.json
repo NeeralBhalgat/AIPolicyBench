@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "The document does not explicitly state specific barriers faced by DOE in adopting AI technologies. However, it mentions that DOE is engaged in aligning AI guidelines and frameworks to \"reduce barriers, improve compliance, and foster innovation across the Department,\" implying that there are existing barriers to AI adoption that need to be addressed.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:17:38.643351",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific barriers faced by DOE in adopting AI technologies, as it states that the document does not explicitly mention them. This reflects a lack of definitive information rather than providing a clear answer.",
+  "provider": "openrouter"
+}

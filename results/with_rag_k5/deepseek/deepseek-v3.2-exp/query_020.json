@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Agencies must proactively share custom-developed AI code, models, and data across the Federal Government and prioritize releasing AI code as open source in public repositories, except where restricted by law, security, privacy, contractual obligations, or mission risks. They should also maintain clear documentation for traceability and establish centralized hubs for promoting AI talent and sharing use cases.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:34:12.079166",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by emphasizing the importance of sharing AI code and models across the government and promoting open-source practices, while also addressing the need for documentation and centralized hubs for AI talent and use cases.",
+  "provider": "deepseek"
+}

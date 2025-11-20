@@ -1,0 +1,12 @@
+{
+  "query_id": 142,
+  "query": "What responsibility does AISWG have regarding AI policy creation?",
+  "response": "The AIPWG (AI Policy Working Group) is responsible for assessing the need for components to update or revise policies for AI/ML acquisition and use, compiling records of policy changes, developing a Directive and Instruction for formal policy updates, and making recommendations for enduring governance policies and frameworks.",
+  "ground_truth": "Supporting AI governance creation within NASA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:42:54.033763",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly refers to the AIPWG instead of the AISWG and provides details about responsibilities that do not align with the ground truth answer regarding AI governance creation within NASA.",
+  "provider": "openrouter"
+}

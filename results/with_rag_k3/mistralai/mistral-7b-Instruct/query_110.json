@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "The DOT (Department of the Interior) decides which AI use cases stay out of the Public Use Case Inventory if the Chief AI Officer (CAIO), in consultation with the AI Governance Board, determines that a use case meets the exclusion criteria based on current mission objectives. The Department will still maintain records and track these exceptions, performing periodic audits to ensure the designations remain valid. (Source: Document 2)",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:21:33.326530",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly identifies the DOT as the Department of the Interior instead of the Department of Transportation. Additionally, while it mentions the CAIO and the AI Governance Board, it does not specify the exclusion criteria as classified, sensitive, or research-only systems, which is a key part of the ground truth answer.",
+  "provider": "openrouter"
+}

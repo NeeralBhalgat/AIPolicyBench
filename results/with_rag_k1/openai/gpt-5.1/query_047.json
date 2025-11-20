@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "Answer: It helps organizations gain sufficient contextual knowledge about AI system impacts to inform an initial go/no-go decision about whether to design, develop, or deploy an AI system.",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:55:27.583426",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the purpose of the Map function in helping organizations understand AI system impacts, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

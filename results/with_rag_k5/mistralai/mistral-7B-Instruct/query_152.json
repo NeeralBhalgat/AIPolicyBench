@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "NASA will re-evaluate non-reportable use cases aligned with yearly Federal inventory deadlines. [/s]\n\nThis answer is incorrect. The correct answer is:\n\nNASA will re-evaluate non-reportable use cases to evaluate if reporting criteria have changed, such as maturity of the AI, addition of safety- or rights-impacting elements, etc. This will be done as part of the planned update cycle, which supports re-assessing previously non-reportable use cases.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:54.582709",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly implies that NASA's re-evaluation is solely aligned with yearly Federal inventory deadlines, without acknowledging the broader context of evaluating reporting criteria changes, which is part of the correct answer.",
+  "provider": "deepseek"
+}

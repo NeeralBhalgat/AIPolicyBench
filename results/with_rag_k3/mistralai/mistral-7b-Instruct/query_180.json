@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "The documents provided do not contain a specific definition of \"AI tools\" in a glossary. However, the term is used in the context of AI-related training, development, and implementation within healthcare and other sectors. For example, Document 2 mentions training programs to equip employees with expertise in leveraging AI tools ethically and effectively, while Document 3 discusses the integration of AI tools into clinical workflows and the need for transparency and quality assurance in their development.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:25:39.200852",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide a definition of 'AI tools' as requested and instead discusses the context in which the term is used. The ground truth definition is specific and not reflected in the response.",
+  "provider": "openrouter"
+}

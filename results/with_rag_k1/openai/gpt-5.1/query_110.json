@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "Answer: Certain AI use cases may be excluded from external (public) reporting in accordance with Treasury and OMB guidance.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:02:20.189460",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response indicates that certain AI use cases may be excluded based on guidance, but it does not specify the criteria used for exclusion, such as classified, sensitive, or research-only systems, which is part of the ground truth answer.",
+  "provider": "openrouter"
+}

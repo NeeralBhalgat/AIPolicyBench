@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "The document excerpt provided does not state who reviews AI use case inventory entries for clarity and detail.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:03:53.058423",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about who reviews the AI use case inventory entries, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

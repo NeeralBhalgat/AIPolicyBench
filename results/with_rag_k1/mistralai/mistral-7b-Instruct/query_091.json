@@ -1,0 +1,12 @@
+{
+  "query_id": 91,
+  "query": "What is the main purpose of DHS Policy Statement 139-06?",
+  "response": "The main purpose of DHS Policy Statement 139-06 is not explicitly stated in the provided document. The document discusses the roles and responsibilities of various DHS officials regarding AI, but it does not directly mention the purpose of Policy Statement 139-06.",
+  "ground_truth": "To guide all DHS Components on the responsible acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technologies.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:24:17.781390",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty about the main purpose of DHS Policy Statement 139-06, indicating that it is not explicitly stated in the document. This reflects a lack of definitive information rather than providing a correct answer.",
+  "provider": "openrouter"
+}

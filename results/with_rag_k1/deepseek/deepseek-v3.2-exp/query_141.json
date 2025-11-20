@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "The Artificial Intelligence Strategy Board (AISB) defines topics for NASA’s AI governance board.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:42:49.384645",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the Artificial Intelligence Strategy Board (AISB) defines topics for NASA’s AI governance board, whereas the correct information is that the AI Strategy Working Group (AISWG) forms discussion topics for the AISB.",
+  "provider": "openrouter"
+}

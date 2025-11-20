@@ -1,0 +1,12 @@
+{
+  "query_id": 19,
+  "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+  "response": "Agencies must document implementation of the minimum risk management practices for high‑impact AI within **365 days of the issuance of the memorandum**. If a particular high‑impact AI use case is **not compliant with the minimum practices, the agency must safely discontinue use of the AI functionality**.",
+  "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:45:13.927471",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth information regarding the deadline for implementing minimum risk management practices for high-impact AI and the consequences of non-compliance.",
+  "provider": "deepseek"
+}

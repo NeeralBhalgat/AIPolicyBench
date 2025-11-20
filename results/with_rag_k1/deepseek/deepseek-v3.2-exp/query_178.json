@@ -1,0 +1,12 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "Based on the document, AI might support internal improvements in NRC processes by helping to develop regulatory guidance and tools to assess AI in regulatory activities, and by leveraging experience from internal use cases to impact the agency’s regulatory framework.",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:45:36.682734",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not align with the ground truth answer, which emphasizes better data management, efficiency, and modernized decision-making. Instead, it focuses on regulatory guidance and tools, which are not mentioned in the ground truth.",
+  "provider": "openrouter"
+}

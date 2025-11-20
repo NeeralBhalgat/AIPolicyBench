@@ -1,0 +1,12 @@
+{
+  "query_id": 81,
+  "query": "What is the main purpose of DHS Directive 139-08?",
+  "response": "The main purpose of DHS Directive 139-08 is to establish Department of Homeland Security (DHS) policy for the use and acquisition of Artificial Intelligence (AI), advancing AI innovation and governance while managing risks from the use of AI, particularly those affecting the safety or rights of individuals.",
+  "ground_truth": "To set Department-wide policy for the use and acquisition of Artificial Intelligence that promotes innovation while managing risks to safety and individual rights.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:06:33.329301",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the main purpose of DHS Directive 139-08, which is to establish policy for the use and acquisition of AI while promoting innovation and managing risks to safety and individual rights.",
+  "provider": "openrouter"
+}

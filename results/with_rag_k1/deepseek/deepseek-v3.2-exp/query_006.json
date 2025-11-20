@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "Workforce Readiness for AI",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:32:22.925720",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response, 'Workforce Readiness for AI', does not accurately reflect the ground truth answer, which emphasizes a worker-first agenda focusing on AI literacy, skills development, and rapid retraining. The response is related but lacks the specific details and focus of the ground truth.",
+  "provider": "openrouter"
+}

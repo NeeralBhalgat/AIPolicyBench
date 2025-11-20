@@ -1,0 +1,12 @@
+{
+  "query_id": 123,
+  "query": "How often must AI use case inventory entries be reviewed?",
+  "response": "The provided documents do not specify how often AI use case inventory entries must be reviewed.",
+  "ground_truth": "At least annually or when directed by the CDAO team.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:20.889005",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the frequency of reviews for AI use case inventory entries, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

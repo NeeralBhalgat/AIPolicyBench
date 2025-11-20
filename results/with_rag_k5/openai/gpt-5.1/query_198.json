@@ -1,0 +1,12 @@
+{
+  "query_id": 198,
+  "query": "What restrictions apply to internal GSA data?",
+  "response": "Answer: Internal GSA data that is nonpublic — including Controlled Unclassified Information (CUI), personally identifiable information (PII), Business Identifiable Information (BII), and any pre‑decisional or internal GSA work products (emails, photos, videos, audio, conversations) —:\n\n1. **“Shall not be used as inputs (e.g. prompts or training data) to any AI system without prior authorization from the AI Governance Board.”**  \n2. For **pre‑acquisition** and similar external demonstrations “outside of GSA’s network or infrastructure,” such use cases **“can not use non-public Federal Controlled Unclassified Information (CUI) data or interface with internal GSA systems.”**",
+  "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:08:07.930737",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the restrictions on internal GSA data, including the prohibition on using nonpublic data as inputs for AI systems without authorization, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

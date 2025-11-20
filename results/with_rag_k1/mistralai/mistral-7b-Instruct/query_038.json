@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "The ethical/risk frameworks guiding AI include transparency, accountability, and inclusivity, as well as risk-based frameworks that protect human rights, health, and safety. These frameworks are part of USDA's policies to ensure proper risk management and human oversight across the AI lifecycle.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:20:36.007861",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent mentions relevant concepts like transparency, accountability, and inclusivity, it incorrectly attributes these frameworks to USDA policies without specific mention of the NIST AI Risk Management Framework or other key elements like bias mitigation and human oversight that are part of the ground truth answer.",
+  "provider": "openrouter"
+}

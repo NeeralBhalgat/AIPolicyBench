@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "The document does not specify which prior OMB memo M-25-21 replaces.",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:18:36.960274",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty by stating that the document does not specify which prior OMB memo M-25-21 replaces, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

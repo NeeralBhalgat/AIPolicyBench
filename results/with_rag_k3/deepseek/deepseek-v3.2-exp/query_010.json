@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The plan targets AI risks related to civil rights, civil liberties, privacy, and equity in the criminal justice system by establishing robust AI governance programs to address risks and capture the promise of AI use cases.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:00:23.586462",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response addresses AI risks related to civil rights and governance but does not mention the specific legal risk of malicious deepfakes or the development of NIST guidelines, which are part of the ground truth answer.",
+  "provider": "openrouter"
+}

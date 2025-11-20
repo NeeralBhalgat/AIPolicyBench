@@ -1,0 +1,12 @@
+{
+  "query_id": 145,
+  "query": "What is AISWG’s role in advancing strategic objectives?",
+  "response": "Answer: The provided documents do not mention AISWG or describe its role, so this information cannot be determined from the given text.",
+  "ground_truth": "Defining and advancing AI strategic objectives.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:48:33.929861",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the role of AISWG, stating that the information cannot be determined from the provided documents. This reflects a lack of knowledge rather than a factual error.",
+  "provider": "openrouter"
+}

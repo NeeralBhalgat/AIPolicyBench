@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "They can contact the **Chief Data and Analytics Officer (CDAO), who also serves as the IRS Responsible AI Official (RAIO)**.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:05:30.896524",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the Chief Data and Analytics Officer (CDAO) as a point of contact for AI-related guidance, which aligns with the ground truth answer that refers to the CDAO team.",
+  "provider": "openrouter"
+}

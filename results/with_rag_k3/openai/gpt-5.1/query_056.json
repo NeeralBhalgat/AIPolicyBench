@@ -1,0 +1,12 @@
+{
+  "query_id": 56,
+  "query": "What approach does the DoD take to accelerate AI and analytics adoption?",
+  "response": "Answer: The DoD uses an agile approach to adoption—emphasizing speed, agility, learning, responsibility, and a tight feedback loop through continuous iteration, innovation, and improvement.",
+  "ground_truth": "An agile, iterative approach that emphasizes speed, feedback, and continuous learning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:37:56.167231",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the DoD's approach to AI and analytics adoption by highlighting the agile, iterative nature of the process, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

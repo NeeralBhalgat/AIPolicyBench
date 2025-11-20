@@ -1,0 +1,12 @@
+{
+  "query_id": 170,
+  "query": "What does the NRC note about AI’s potential operational benefits?",
+  "response": "The NRC notes that AI technologies have the potential to improve operational performance and mitigate operational risk.",
+  "ground_truth": "AI can enhance safety, improve processes, and support decision-making across nuclear operations.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:44:42.780680",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the NRC's note about AI's potential to improve operational performance and mitigate operational risk, which aligns with the ground truth regarding enhancing safety and supporting decision-making.",
+  "provider": "openrouter"
+}

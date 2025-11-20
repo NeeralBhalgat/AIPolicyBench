@@ -1,0 +1,12 @@
+{
+  "query_id": 159,
+  "query": "When did NASA issue its first generative AI guidance?",
+  "response": "May 2023.",
+  "ground_truth": "May 2023.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:43:59.688280",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that NASA issued its first generative AI guidance in May 2023, which matches the ground truth answer.",
+  "provider": "openrouter"
+}

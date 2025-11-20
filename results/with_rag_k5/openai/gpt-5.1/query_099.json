@@ -1,0 +1,12 @@
+{
+  "query_id": 99,
+  "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+  "response": "Answer:  \n\nThe AI Policy Working Group (AIPWG) is a group established by the DHS Chief Information Officer and the Under Secretary for Science and Technology (in consultation with several other DHS leadership offices) to guide DHS’s acquisition and use of AI/ML technologies.  \n\nIt is tasked to:  \n- Assess whether DHS Components need to update or revise their policies, procedures, and processes for the responsible, ethical, and authorized",
+  "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:55:41.203581",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the AIPWG's purpose and its establishment by DHS leadership, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "Based on the documents provided, the specific headline goals mentioned are:\n\n1. Catalyzing health AI innovation and adoption to unlock new ways to improve people’s lives  \n2. Promoting trustworthy AI development and ethical and responsible use to avoid potential harm  \n3. Democratizing AI technologies and resources to promote access  \n4. Cultivating AI-empowered workforces and organization cultures to effectively and safely use AI  \n5. Building the necessary AI foundation to pursue use cases across the NRC (AI Strategic Goal 5)",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:35:21.692231",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists goals that do not match the ground truth answer, which specifies different headline goals related to governance, workforce readiness, infrastructure, data access, and ethical AI.",
+  "provider": "deepseek"
+}

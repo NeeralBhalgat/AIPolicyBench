@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "No, the order does not create enforceable rights. The report explicitly states that it is non-binding and does not constitute binding guidance for the public or federal agencies, therefore it does not require compliance with the principles described.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:14:34.720104",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the order does not create enforceable rights and is non-binding, aligning with the provided correct answer.",
+  "provider": "openrouter"
+}

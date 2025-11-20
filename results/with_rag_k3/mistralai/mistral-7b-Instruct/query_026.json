@@ -1,0 +1,12 @@
+{
+  "query_id": 26,
+  "query": "What must be reviewed and potentially undone from EO 14110?",
+  "response": "The documents do not provide specific information about what must be reviewed and potentially undone from EO 14110.",
+  "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:14:14.232993",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of specific information regarding EO 14110, which reflects uncertainty about the content rather than providing a definitive answer.",
+  "provider": "openrouter"
+}

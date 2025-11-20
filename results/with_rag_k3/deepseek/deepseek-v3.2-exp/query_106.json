@@ -1,0 +1,12 @@
+{
+  "query_id": 106,
+  "query": "What is the ART Network used for?",
+  "response": "The ART Network is used to accelerate AI Developer access to AI tools by creating a platform of established, stand-alone, IT-compliant, AI-enabled environments for research and development work.",
+  "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:08:51.357110",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the ART Network's purpose of facilitating AI research and development in a secure environment, aligning well with the ground truth answer.",
+  "provider": "openrouter"
+}

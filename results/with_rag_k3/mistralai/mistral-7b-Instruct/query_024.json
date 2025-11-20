@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The order adopts the definition of AI as provided in Section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:14:08.288623",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly cites Section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019 instead of the correct legal definition found in 15 U.S.C. 9401(3).",
+  "provider": "openrouter"
+}

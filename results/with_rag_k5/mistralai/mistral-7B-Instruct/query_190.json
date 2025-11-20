@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "System owners must implement the AI use cases, assess the quality of the data used, document the potential risks and their mitigation measures, and demonstrate the value of using AI. They should also document the stakeholders impacted by the use of the system, assess the possible failure modes of the AI and the broader system, and ensure compliance with minimum risk management practices. Annual documentation and certification of compliance with these practices is required through the AI Use Case Inventory process. If an AI use case is found to be non-compliant, the system owner must terminate the use case and develop a compliance plan to restart it.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:40.297062",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed process for system owners regarding AI use cases, but it does not align with the ground truth answer, which specifically states that all use cases must be reported to the AI Safety Team and updated after major changes. The response includes additional steps that are not mentioned in the ground truth, indicating a misunderstanding of the requirements.",
+  "provider": "deepseek"
+}

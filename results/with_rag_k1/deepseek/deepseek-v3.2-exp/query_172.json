@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "The NRC will evaluate the use of AI in NRC-regulated activities, focusing on how AI algorithms, models, and claims are validated and tested.",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:44:51.536444",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a partial answer regarding the evaluation of AI applications by the NRC but does not mention specific technical considerations such as bias, robustness, security, explainability, and model maintenance, which are crucial elements of the ground truth answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "The NRC may need to update or create regulatory guidance (e.g., regulatory guides or standard review plan sections) and inspection procedures to clarify the process and procedure for the licensing and oversight of AI in NRC-regulated activities.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:24:47.697528",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the need for regulatory updates and guidance related to AI oversight, aligning with the ground truth answer which mentions new guidance and updated procedures.",
+  "provider": "openrouter"
+}

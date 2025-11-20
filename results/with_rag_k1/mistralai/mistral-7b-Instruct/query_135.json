@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to provide Model Cards and Datasheets for each model and dataset included in the AI use case. These artifacts must include clarity and detail about the use case, sponsoring business development office, product owner, intended purpose, benefits, identified risks, and risk control measures. They must be completed before operational use and updated when the use case changes or at least annually.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:57.524439",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the requirements for project teams in the AI inventory, including the need for Model Cards and Datasheets, and details the necessary components that align with the ground truth answer.",
+  "provider": "openrouter"
+}

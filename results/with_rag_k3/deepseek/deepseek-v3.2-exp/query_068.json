@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "DOE promotes sharing of AI-related software and code by:\n\n1. Using DOE CODE, a public platform for sharing software and code from DOE-funded research, which includes a GitLab instance for internal collaboration.\n2. Launching the VIPS database to allow public searches for AI and machine learning intellectual property, including open-source code.\n3. Facilitating internal sharing through AI working groups such as the Headquarters and National Lab Subgroup, AI Community of Interest, and AI Community of Practice.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:05:41.405969",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the DOE's initiatives for sharing AI-related software and code, including the mention of DOE CODE and the VIPS database, which aligns with the ground truth information.",
+  "provider": "openrouter"
+}

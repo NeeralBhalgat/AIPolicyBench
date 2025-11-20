@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "The document does not explicitly state why the AI RMF is described as a living document. However, it mentions that the AI RMF is \"developed and regularly updated through an open, transparent process,\" which implies that it is designed to evolve over time.",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:21:39.928749",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty by stating that the document does not explicitly state the reason, which aligns with the 'miss' classification. While it does mention the document is designed to evolve, it does not provide a definitive answer to the question.",
+  "provider": "openrouter"
+}

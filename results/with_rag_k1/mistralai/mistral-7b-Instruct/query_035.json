@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "The workforce plan involves leveraging a more digital, AI-enabled workforce to enhance the capabilities of the human services workforce, focusing staff on value-added activities and participant interactions. This aims to alleviate job dissatisfaction and high turnover. HHS is considering ways to balance concerns about AI adoption, such as potential workforce displacement and overreliance on AI, while exploring its opportunities. Near-term priorities include sharing best practices from the human services delivery ecosystem to expand the workforce's AI capacity.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:20:18.446742",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses leveraging AI in the workforce and addresses concerns about AI adoption, but it does not accurately reflect the specific elements of the ground truth answer, such as the emphasis on keeping humans-in-the-loop and specific hiring strategies.",
+  "provider": "openrouter"
+}

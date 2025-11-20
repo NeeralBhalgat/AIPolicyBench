@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan emphasizes the importance of open-source and open-weight AI models, highlighting their value for innovation, commercial and government adoption, and academic research. It states that these models should be founded on American values and could become global standards, also noting their geostrategic value.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:18:10.742177",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the plan's emphasis on the importance of open-source and open-weight models for innovation and adoption, aligning with the ground truth that the government should support them.",
+  "provider": "openrouter"
+}

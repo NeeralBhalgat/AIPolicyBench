@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Data must be findable, accessible, interoperable, and reusable.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:33:30.104902",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions the FAIR principles (findable, accessible, interoperable, reusable), which are relevant to data sharing and transparency. However, it does not address the specific requirements of sharing AI code/models government-wide and publishing an annual AI use case inventory, which are part of the ground truth answer.",
+  "provider": "openrouter"
+}

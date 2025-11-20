@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "DOT is committed to the open sharing of AI custom code, models, and data with the public, prioritizing the sharing of custom-developed code, models, and model weights to the maximum extent possible, provided they clear the required security review.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:09:39.420930",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the process of sharing AI models and code by not mentioning the specific platforms (OPEN Data workflows and Code.gov) used by DOT, which are essential to the ground truth answer.",
+  "provider": "openrouter"
+}

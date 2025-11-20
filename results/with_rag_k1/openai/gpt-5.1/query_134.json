@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "Answer: The provided text does not specify which federal guidance remains in effect for AI during the interim period.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:05:11.131135",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty by stating that the provided text does not specify the federal guidance, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

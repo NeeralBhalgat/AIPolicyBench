@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "All internally developed AI code shall be shared for internal consumption and open-sourced to the public.",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:47:01.329388",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response states that all internally developed AI code shall be shared for internal consumption and open-sourced to the public, which is more absolute than the ground truth answer that allows for restrictions. Therefore, it misrepresents the requirements.",
+  "provider": "openrouter"
+}

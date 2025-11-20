@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "The documents do not list 5 headline goals explicitly. Only Document 1 mentions \"AI Strategic Goal 5\" as part of building the necessary AI foundation, but the other goals are not provided in the excerpts given.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:02:16.949623",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the existence of the 5 headline goals and does not provide the correct information, which is a clear admission of not knowing the answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "Based on the documents provided, no specific federal guidance for AI remains in effect during the interim period; the IRS is operating under an interim policy while awaiting revised guidance from OMB and Treasury per Executive Order 14179.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:11:00.120348",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that no specific federal guidance remains in effect, while the ground truth indicates that Executive Orders 13859 and 13960 are still relevant. This misrepresentation of the current guidance constitutes a factual inaccuracy.",
+  "provider": "openrouter"
+}

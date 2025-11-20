@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "All AI-generated data products must be labeled as such in their metadata, indexed and cataloged in the EDS system, and include notice in the metadata holdings as to which records were modified or created, and by what system, including the AI system's version information.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:15:59.502544",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI-generated data products to include metadata labeling indicating they were AI-generated, along with additional relevant details about indexing and versioning, which enhances the completeness of the answer.",
+  "provider": "openrouter"
+}

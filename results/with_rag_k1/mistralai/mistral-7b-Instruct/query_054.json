@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "The foundation of the DoD AI Hierarchy of Needs is Responsible AI, which is the Department’s dynamic approach to the design, development, deployment, and use of AI capabilities in accordance with the DoD AI Ethical Principles while delivering better, faster insights and improved mission outcomes.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:21:54.992018",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies 'Responsible AI' as the foundation of the DoD AI Hierarchy of Needs, while the correct foundation is 'Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).'",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Near-term enablers and wins (HHS near-term priorities) include:\n\n- Continuing to issue guidelines and establish interoperability standards for sharing data across programs, departments, levels of government, and community organizations.  \n- Identifying, with STLT and community organization input, priority areas of human services delivery with gaps in data",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:35:52.213768",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses guidelines and interoperability standards in human services, which does not align with the specific near-term enablers and wins related to AI policy and safety datasets mentioned in the ground truth answer.",
+  "provider": "openrouter"
+}

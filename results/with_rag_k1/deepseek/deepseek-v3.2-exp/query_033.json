@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "The CAIO (Chief Artificial Intelligence Officer) and the Autonomous Systems System Capability Leadership Team (AS-SLCT) lead AI governance at NASA.",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:34:19.518797",
+  "confidence": 0.8,
+  "reasoning": "The response incorrectly identifies the governance bodies leading AI at NASA, mentioning the CAIO and AS-SLCT, which are not recognized as the primary governance bodies according to the ground truth answer.",
+  "provider": "openrouter"
+}

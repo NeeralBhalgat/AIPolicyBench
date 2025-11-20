@@ -1,0 +1,12 @@
+{
+  "query_id": 92,
+  "query": "What principles govern DHS’s use of AI according to Policy 139-06?",
+  "response": "The provided document does not contain information about Policy 139-06 or its principles. It references Directive #139-08, which outlines roles and responsibilities but does not specify the governing principles for AI use.",
+  "ground_truth": "DHS must ensure AI use is lawful, effective, unbiased, transparent, and protective of privacy, civil rights, and civil liberties.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:39:11.400766",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information about Policy 139-06, which suggests uncertainty. It does not provide the principles governing DHS's use of AI, as outlined in the ground truth answer.",
+  "provider": "openrouter"
+}

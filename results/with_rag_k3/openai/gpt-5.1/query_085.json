@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "AI systems that are safety-impacting or rights-impacting are:\n\n- “Subject to the additional requirements in this section” (minimum requirements for such AI), and  \n- “Any covered AI not in compliance by December 1, 2024 shall cease operations until compliant with the following controls.”",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:41:02.365549",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response refers to compliance requirements and operational cessation, which does not accurately reflect the necessary elements of human oversight and rigorous testing for AI systems that impact safety or rights as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

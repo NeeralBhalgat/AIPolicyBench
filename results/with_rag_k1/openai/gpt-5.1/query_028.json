@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "Answer: The provided document excerpt does not state what OMB must do to align guidance or by when.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:53:10.416625",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not provide the necessary information about what OMB must do or the timeline, which aligns with the definition of expressing uncertainty.",
+  "provider": "openrouter"
+}

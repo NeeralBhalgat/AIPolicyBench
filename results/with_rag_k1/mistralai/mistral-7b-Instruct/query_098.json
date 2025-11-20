@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "The DHS CIO oversees AI and related infrastructure in support of DHS missions, ensuring compliance with cybersecurity requirements and alignment with DHS’s customer experience commitment. The Under Secretary for Management (USM) is responsible for DHS-wide governance of AI acquisition, ensuring compliance with applicable laws and policies. The Under Secretary for Strategy, Policy, and Plans leads the development of Department-wide strategies, policies, and plans for AI use and coordinates DHS's engagement in the National Security Council policy process.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:24:44.544459",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the roles of DHS leadership in overseeing AI adoption, including compliance with laws and policies, which aligns with the responsibility of ensuring AI use is trustworthy and effective as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

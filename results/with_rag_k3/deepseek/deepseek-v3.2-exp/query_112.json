@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "Based on the provided documents, DOT does not directly address ensuring AI training data trustworthiness. The documents mention training related to AI talent acquisition and internal education but do not specify measures for data trustworthiness.",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:09:19.930227",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding DOT's measures for ensuring AI training data trustworthiness, which aligns with the 'miss' classification as it expresses uncertainty rather than providing a definitive answer.",
+  "provider": "openrouter"
+}

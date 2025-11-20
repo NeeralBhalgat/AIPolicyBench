@@ -1,0 +1,12 @@
+{
+  "query_id": 162,
+  "query": "What does the NRC identify as the main driver for creating the AI Strategic Plan?",
+  "response": "Answer: The NRC identifies the need “to plan and prepare for new technologies involving AI” as the main driver for creating the AI Strategic Plan.",
+  "ground_truth": "The growing interest and expected near-term deployment of AI by the nuclear industry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:50:43.382663",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response misrepresents the main driver identified by the NRC, which is specifically related to the nuclear industry's interest and deployment of AI, rather than a general need to plan for new technologies involving AI.",
+  "provider": "openrouter"
+}

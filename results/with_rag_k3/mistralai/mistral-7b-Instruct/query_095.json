@@ -1,0 +1,12 @@
+{
+  "query_id": 95,
+  "query": "How will DHS prevent discriminatory effects in AI systems?",
+  "response": "DHS will test and validate AI in use cases where discriminatory activity or effects may be possible to ensure impermissible discrimination is not occurring and to aid in advancing equity and fundamentally fair treatment. It will also use civil rights evaluation methods, including disparate impact analysis where appropriate, to detect impermissible discriminatory treatment that may result from the use of AI in DHS processes and activities.",
+  "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:20:32.381479",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that DHS will test and validate AI use cases and apply civil rights evaluation methods, including disparate impact analysis, to prevent discriminatory effects in AI systems.",
+  "provider": "openrouter"
+}

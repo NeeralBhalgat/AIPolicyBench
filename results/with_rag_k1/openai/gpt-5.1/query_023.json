@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The provided document excerpt does not explain how the order clears the way for rapid AI action, so this information cannot be determined from the text given.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:52:29.348830",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the content of the document and does not provide an answer to the question, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Answer:\n\nThe sharing and inventory requirements that promote reuse and transparency are:\n\n- “DOT is committed to the **open sharing of AI custom code, models, and data** that promote the reuse and collaboration with the Federal Government and public to enhance innovation and transparency.”  \n- “The CAIO will prioritize the **sharing of custom-developed code, including commonly used packages and functions, models, and model weights**, which have potential for reuse by other agencies and the public…”  \n- “The CAIO will ensure **TrAIN-related data, custom code, and models** that clear the security review are **shared with the public** and will **maintain use case security review justification, documentation, and sharing methodologies in TrUCKR**.”",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:33:13.888282",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the sharing and inventory requirements that promote reuse and transparency, aligning well with the ground truth answer regarding the sharing of AI code, models, and data, as well as the emphasis on collaboration and documentation.",
+  "provider": "openrouter"
+}

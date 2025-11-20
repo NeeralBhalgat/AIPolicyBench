@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "The AI Governance Council reviews AI use case inventory entries for clarity and detail.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:22.869450",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the reviewing body as the AI Governance Council instead of the CDAO team, which is the correct entity responsible for reviewing AI use case inventory entries.",
+  "provider": "openrouter"
+}

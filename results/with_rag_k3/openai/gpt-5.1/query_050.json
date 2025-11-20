@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "Answer: NIST describes the AI RMF as a living document because it will “review the content and usefulness of the Framework regularly to determine if an update is appropriate,” including a review with formal input from the AI community no later than 2028.",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:37:14.820635",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the idea that the AI RMF is a living document due to its regular reviews and updates based on community feedback, aligning with the ground truth answer.",
+  "provider": "openrouter"
+}

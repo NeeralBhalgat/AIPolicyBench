@@ -1,0 +1,11 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:47:21.345060",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

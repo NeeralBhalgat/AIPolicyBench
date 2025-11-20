@@ -1,0 +1,12 @@
+{
+  "query_id": 189,
+  "query": "What is the AI Safety Team responsible for?",
+  "response": "Answer: The AI Safety Team is responsible for adjudicating AI use cases; developing draft guidance, policy, and standards; enforcing GSA‑authorized security, privacy, and audit policies to protect CUI and keep GSA IT systems within acceptable residual risk; independently adjudicating Familiarization, Pre‑Acquisition, and Research and Development use cases; providing disposition recommendations for Production or Production‑Intent use cases; reviewing and dispositioning AI enhancements; and identifying AI use cases with significant rights or safety implications for additional monitoring",
+  "ground_truth": "Adjudicating use cases, drafting guidance, enforcing security and privacy requirements.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:07:00.056497",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the responsibilities of the AI Safety Team, including adjudicating use cases and developing guidance, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "response": "USDA’s core AI vision for FY25–26 is to \"gain operational and mission delivery enhancements and spearhead collaborative partnerships to achieve this vision\" (Document 1).",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:21:24.416941",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect USDA's core AI vision for FY25–26 as stated in the ground truth. The response focuses on operational enhancements and partnerships, which does not align with the emphasis on workforce readiness, governance, and tech infrastructure for safe AI integration.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "All AI-generated data outputs or products must be labeled as AI-generated in their metadata, and for datasets augmented by AI, the metadata must indicate which records were modified or created and by what AI system (including the system’s version).",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:55:06.091046",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement for labeling AI-generated or AI-modified outputs, aligning with the ground truth that all such outputs must be labeled or watermarked.",
+  "provider": "openrouter"
+}

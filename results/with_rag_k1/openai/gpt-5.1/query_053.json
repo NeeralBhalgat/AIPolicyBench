@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "The five key strategic goals are not listed in the provided excerpt, so they cannot be identified based solely on the information given.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:56:13.762853",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the five key strategic goals, stating they cannot be identified based on the provided information. This reflects a lack of knowledge rather than an attempt to provide an answer.",
+  "provider": "openrouter"
+}

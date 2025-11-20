@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "Answer: The CDAO (Chief Data and Analytics Officer) reviews the AI use case inventory.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:45.707019",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response correctly identifies the CDAO as the reviewer of the AI use case inventory, which aligns with the ground truth answer that specifies the CDAO team.",
+  "provider": "deepseek"
+}

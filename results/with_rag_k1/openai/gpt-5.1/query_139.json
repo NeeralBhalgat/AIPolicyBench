@@ -1,0 +1,12 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "Answer: The provided text does not state what AI systems must be “regularly monitored and tested” for.",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:05:48.093572",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not know what AI systems must be monitored and tested for, which aligns with the 'miss' classification. It does not provide the correct information regarding alignment with the EO 13960 AI principles.",
+  "provider": "openrouter"
+}

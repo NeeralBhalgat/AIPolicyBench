@@ -1,0 +1,12 @@
+{
+  "query_id": 92,
+  "query": "What principles govern DHS’s use of AI according to Policy 139-06?",
+  "response": "Answer: The principles are:\n\n1. **Lawful and Mission-Appropriate**  \n2. **Mission-Enhancing**  \n3. **Safe, Secure, and Responsible Use**  \n4. **Trustworthy Use**  \n5. **Human-Centered Use**",
+  "ground_truth": "DHS must ensure AI use is lawful, effective, unbiased, transparent, and protective of privacy, civil rights, and civil liberties.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:41:54.038845",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response lists principles that do not align with the ground truth answer, which emphasizes lawful, effective, unbiased, transparent use, and protection of privacy and civil rights. The principles provided by the White Agent are not recognized as part of DHS Policy 139-06.",
+  "provider": "openrouter"
+}

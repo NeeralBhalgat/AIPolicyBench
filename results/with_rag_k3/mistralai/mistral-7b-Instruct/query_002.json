@@ -1,0 +1,12 @@
+{
+  "query_id": 2,
+  "query": "Why must the U.S. win the global AI race?",
+  "response": "The U.S. must win the global AI race because whoever has the largest AI ecosystem will set global AI standards and reap broad economic and military benefits. It is imperative for the U.S. and its allies to win this race, just like they won the space race, to usher in a new golden age of human flourishing, economic competitiveness, and national security. (Document 1)",
+  "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:12:47.941277",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the U.S. must win the global AI race to set global standards and gain economic and military benefits, aligning with the provided ground truth answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 198,
+  "query": "What restrictions apply to internal GSA data?",
+  "response": "Use cases outside of GSA’s network or infrastructure cannot use non-public Federal Controlled Unclassified Information (CUI) data or interface with internal GSA systems.",
+  "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:47:07.373324",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that non-public CUI data cannot be used outside of GSA's network, but it does not mention the requirement for clearance for sensitive data, which is a key part of the ground truth answer.",
+  "provider": "openrouter"
+}

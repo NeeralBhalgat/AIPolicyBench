@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "The foundation of the DoD AI Hierarchy of Needs is quality data.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:37:16.992855",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent correctly identifies quality data as foundational, it fails to include the specific attributes (VAULTIS) that define the quality data in the DoD AI Hierarchy of Needs, making the response incomplete and misleading.",
+  "provider": "deepseek"
+}

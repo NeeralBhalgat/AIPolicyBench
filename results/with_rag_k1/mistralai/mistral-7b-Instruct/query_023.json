@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The order clears the way for rapid AI action by \"Removing Red Tape and Onerous Regulation\" as mentioned in the first pillar of the AI Action Plan.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:19:16.648431",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response refers to 'removing red tape and onerous regulation' but does not accurately reflect the ground truth answer, which specifically mentions revoking existing AI policies and directives as barriers. The phrasing used by the White Agent does not align with the ground truth, indicating a misunderstanding of the specifics.",
+  "provider": "openrouter"
+}

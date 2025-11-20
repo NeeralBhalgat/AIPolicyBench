@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "The provided text does not specify a deadline or date by which CFO Act agencies must publish an AI Strategy.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:51:34.945075",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a lack of knowledge about the deadline for CFO Act agencies to publish an AI Strategy, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

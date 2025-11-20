@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Answer: Project teams must update the Model Card and Datasheet artifacts to reflect the retrained model whenever the change meaningfully affects the accuracy of the current artifacts.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:04:48.547988",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that project teams must update the Model Card and Datasheet artifacts when retraining a model, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 155,
+  "query": "What is NASA doing to improve access to AI tools?",
+  "response": "NASA has identified access to AI tools and platforms as a barrier and has begun taking action to resolve it.",
+  "ground_truth": "Making multiple cloud-hosted AI capabilities available in FY25.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:43:41.254392",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response indicates that NASA is aware of the barrier to access AI tools and is taking action, but it does not provide specific information about the planned actions or timeline, such as the availability of cloud-hosted AI capabilities in FY25.",
+  "provider": "openrouter"
+}

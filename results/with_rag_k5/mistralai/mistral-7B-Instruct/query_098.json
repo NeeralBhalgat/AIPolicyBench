@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "The DHS Chief AI Officer (DHS CAIO) leads and coordinates, on behalf of the Secretary of Homeland Security, the use of AI at DHS, risk management from that use, and promotion of AI innovation across the Department. The DHS CAIO is responsible for leading governance and oversight structures and processes, as well as setting strategic priorities for AI deployments across the Department. The DHS CAIO also collaborates with appropriate Offices, Components, and governance groups to create and maintain a comprehensive set of policies that implement this Directive and other related DHS policies, guidelines, and processes. (Document 3, Document 5)",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:27:07.338509",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the responsibilities of the DHS Chief AI Officer, which aligns with the ground truth that emphasizes the need for trustworthy and effective AI use in accordance with DHS principles.",
+  "provider": "deepseek"
+}

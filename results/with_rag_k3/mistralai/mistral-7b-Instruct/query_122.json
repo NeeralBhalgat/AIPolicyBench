@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "The need to update an AI use case inventory entry is triggered by changes to the use case's name, purpose, lifecycle status, risks, or benefits, or at least annually or when directed by the CDAO team.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:22:26.605138",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies several triggers for updating an AI use case inventory entry, which aligns with the ground truth that any change affecting the accuracy of the record necessitates an update.",
+  "provider": "openrouter"
+}

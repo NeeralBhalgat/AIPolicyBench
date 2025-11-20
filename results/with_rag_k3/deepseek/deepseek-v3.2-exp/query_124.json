@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "The CDAO team reviews AI use case inventory entries for clarity and detail.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:10:16.712963",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the CDAO team as the entity responsible for reviewing AI use case inventory entries for clarity and detail, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

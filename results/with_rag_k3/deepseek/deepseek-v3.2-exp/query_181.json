@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "Based on the documents provided, a use case is not explicitly defined. However, Document 2 mentions \"internal use cases\" in the context of the NRC gaining experience that impacts its regulatory framework.",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:14:36.333302",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the definition of a use case as per the NRC, stating that it is not explicitly defined and referencing internal use cases without providing a clear definition.",
+  "provider": "openrouter"
+}

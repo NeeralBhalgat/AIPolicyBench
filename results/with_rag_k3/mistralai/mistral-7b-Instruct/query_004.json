@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "The provided documents do not explicitly address how procurement will handle ideological bias in AI.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:12:53.001640",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding how procurement will address ideological bias, which aligns with expressing uncertainty.",
+  "provider": "openrouter"
+}

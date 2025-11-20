@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "The document does not explicitly define machine learning. It is listed as an example of an AI sub-specialty.",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:44:39.296218",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the definition of machine learning, stating that it does not explicitly define it and only mentions it as an example. This reflects a lack of knowledge rather than providing a correct answer.",
+  "provider": "openrouter"
+}

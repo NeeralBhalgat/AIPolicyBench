@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "Answer: The AI use case inventory entry must be created (or updated) once the use case has been **initiated**—that is, when the need for the use case has been expressed, its intended purpose and high‑level requirements are documented, it has managerial or executive approval, and IRS resources have been committed to it.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:03:41.722133",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly focuses on the initiation of a use case rather than any change that affects the accuracy of the record, which is the correct trigger for updating an AI use case inventory entry.",
+  "provider": "openrouter"
+}

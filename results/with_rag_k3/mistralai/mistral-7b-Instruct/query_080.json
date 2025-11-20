@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "HHS will maintain a flexible approach that supports innovation while ensuring safe and responsible development and use of AI in STLT organizations. It will also support effective data sharing that can aid in federal decision-making and enable a reliable understanding of the current state of health across various parts of the nation. Additionally, HHS published a plan in April 2024 with recommendations for STLTs on choosing, procuring, designing, governing, and managing AI in the administration of public benefits and services.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:18:46.081407",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that HHS will maintain a flexible approach that supports innovation while ensuring safe and responsible AI use in STLT organizations. The additional details about data sharing and the publication of a plan in April 2024, while not part of the ground truth, do not detract from the correctness of the main point.",
+  "provider": "openrouter"
+}

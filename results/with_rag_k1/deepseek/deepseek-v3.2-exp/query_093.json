@@ -1,0 +1,12 @@
+{
+  "query_id": 93,
+  "query": "Which Executive Order must DHS systems using AI comply with?",
+  "response": "The document does not specify which Executive Order DHS systems using AI must comply with.",
+  "ground_truth": "Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:39:14.644300",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about which Executive Order applies, which aligns with the 'miss' classification. It does not provide the correct information regarding Executive Order 13960.",
+  "provider": "openrouter"
+}

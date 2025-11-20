@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Agencies must proactively share custom-developed AI code, models, and model weights across the Federal Government and with the public, maintain traceability of datasets and metadata, and promote data interoperability and standardization to encourage reuse and transparency.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:01:20.625251",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the need for sharing AI code and models, maintaining dataset traceability, and promoting interoperability, which aligns with the ground truth answer regarding sharing and inventory requirements for reuse and transparency.",
+  "provider": "openrouter"
+}

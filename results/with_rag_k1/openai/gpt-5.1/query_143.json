@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "The documents provided do not state who provides recommendations to the CAIO.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:06:17.617346",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about who provides recommendations to the CAIO, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "DHS leadership is responsible for coordinating and governing issues related to the use of AI within DHS, including removing barriers to its use and managing associated risks, through bodies like the AI Governance Board and DHS AI Council.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:08:12.914145",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the responsibilities of DHS leadership regarding AI adoption, including governance, risk management, and coordination, which aligns with the ground truth answer about ensuring AI use is trustworthy and effective.",
+  "provider": "openrouter"
+}

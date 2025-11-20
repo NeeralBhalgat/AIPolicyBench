@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "The memorandum applies to **“all agencies defined in 44 U.S.C. § 3502(1).”**",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:32:24.109749",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response cites a specific legal reference but does not accurately encompass the broader scope of 'all Executive Branch departments and agencies, including independent regulatory agencies' as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

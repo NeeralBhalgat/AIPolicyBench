@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "The provided text does not include the glossary definition of “AI tools,” so its meaning cannot be determined from the information given.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:10:15.550613",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the definition of 'AI tools' and states that it cannot be determined from the provided text, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

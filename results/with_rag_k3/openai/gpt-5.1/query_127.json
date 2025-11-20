@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "Answer: A change requiring updates to AI artifacts includes “changing the context, scope, or intended purpose of the use case.”",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:46:24.187383",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response identifies a relevant aspect of changes that require updates to AI artifacts but does not fully encompass all elements mentioned in the ground truth answer, such as impact and data sources.",
+  "provider": "openrouter"
+}

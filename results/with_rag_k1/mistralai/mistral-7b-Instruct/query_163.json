@@ -1,0 +1,12 @@
+{
+  "query_id": 163,
+  "query": "What is the NRC’s stated vision for AI?",
+  "response": "The NRC will undertake research to develop an AI framework to determine the approach to assess technical areas such as, but not limited to, topics shown in Table 2.",
+  "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:28:31.906889",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the NRC's stated vision for AI, which focuses on ensuring safe and secure use of AI in regulated activities. Instead, it discusses a research framework without addressing the core vision.",
+  "provider": "openrouter"
+}

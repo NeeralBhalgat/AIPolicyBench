@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "Answer: The Internal Revenue Code (IRC), specifically IRC § 7803(a)(3).",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:04:20.910876",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly cites IRC § 7803(a)(3) instead of the correct section, IRC § 6103, which specifically addresses the protection of taxpayer information.",
+  "provider": "openrouter"
+}

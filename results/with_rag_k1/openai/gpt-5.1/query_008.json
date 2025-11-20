@@ -1,0 +1,12 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "Answer: By leveraging new and existing location verification features on advanced AI chips and by establishing a DOC‑led effort with IC officials to monitor emerging AI compute technology and chip diversion globally, then using this monitoring to expand and increase end-use monitoring in high‑risk countries, especially where no BIS Export Control Officer is present.",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:50:49.396507",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the enforcement of AI compute export controls by mentioning location verification and monitoring efforts, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

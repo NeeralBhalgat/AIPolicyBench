@@ -1,0 +1,12 @@
+{
+  "query_id": 101,
+  "query": "What is the purpose of the DOT Compliance Plan for OMB M-24-10?",
+  "response": "Answer: The purpose of the DOT Compliance Plan is to convey the Department of Transportation’s approach to achieving consistency with OMB Memorandum M-24-10, *Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence*.",
+  "ground_truth": "To explain how DOT will align with OMB M-24-10 by strengthening AI governance, enabling responsible innovation, and managing AI risks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:42:59.280515",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOT Compliance Plan in relation to OMB M-24-10, focusing on consistency and governance in AI use, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

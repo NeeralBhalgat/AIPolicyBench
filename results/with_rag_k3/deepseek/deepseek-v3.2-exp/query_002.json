@@ -1,0 +1,12 @@
+{
+  "query_id": 2,
+  "query": "Why must the U.S. win the global AI race?",
+  "response": "To achieve global dominance in artificial intelligence, set global AI standards, and reap broad economic and military benefits.",
+  "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:59:51.495839",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that winning the global AI race leads to setting global standards and gaining economic and military benefits.",
+  "provider": "openrouter"
+}

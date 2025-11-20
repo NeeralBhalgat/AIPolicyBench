@@ -1,0 +1,12 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "AI systems must be regularly monitored and tested for performance or outcomes that are inconsistent with their intended use or federal requirements.",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:11:20.933878",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions monitoring for performance or outcomes inconsistent with intended use or federal requirements, but it does not specifically address alignment with the EO 13960 AI principles, which is the key aspect of the ground truth answer.",
+  "provider": "openrouter"
+}

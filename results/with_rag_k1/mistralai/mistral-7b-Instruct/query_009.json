@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "The document does not explicitly state research priorities for making AI safer for high-stakes use. However, it mentions that agencies should evaluate the AI's specific output and potential risks when assessing the applicability of the high-impact definition, and address context-specific risks associated with their use of AI.",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:18:26.518501",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about specific research priorities for AI safety, as it states that the document does not explicitly mention them. This reflects a lack of definitive information rather than providing a correct answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "The provided document does not mention DOE's PolicyAI tool or its use.",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:37:08.776594",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information about DOE's PolicyAI tool, which aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 154,
+  "query": "What AI barrier relates to tools?",
+  "response": "A cited AI barrier related to tools is **“a lack of training on AI tools,” which can leave staff unprepared to use new technologies effectively and potentially reduce service quality.**",
+  "ground_truth": "Lack of access to AI tools and platforms.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:02:20.185541",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly focuses on a lack of training on AI tools rather than the lack of access to AI tools and platforms, which is the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "The document does not provide specific information about a process that the AISWG (Artificial Intelligence Security Working Group) will develop for AI lifecycle management. The text discusses the AI RMF (Artificial Intelligence Risk Management Framework) and its intended use by AI actors across the AI lifecycle, but it does not mention any process development by the AISWG.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:27:40.276931",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the AISWG does not provide specific information about a process for AI lifecycle management, while the ground truth indicates that there is indeed an inventory and annual registration process that the AISWG will develop.",
+  "provider": "openrouter"
+}

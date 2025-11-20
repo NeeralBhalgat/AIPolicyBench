@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "HHS uses the NIST AI Risk Management Framework to guide trustworthy AI development.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:25:20.704905",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the NIST AI Risk Management Framework as the guiding framework for HHS, while the correct framework is the FAVES principles.",
+  "provider": "deepseek"
+}

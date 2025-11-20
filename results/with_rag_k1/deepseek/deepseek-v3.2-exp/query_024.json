@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The order adopts a definition of AI that encompasses systems performing tasks such as reasoning, learning, perception, prediction, planning, decision making, and acting. It specifically includes machine learning, deep learning, reinforcement learning, transfer learning, and generative AI, while excluding robotic process automation or systems defined solely by human-defined rules.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:33:44.729164",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general description of AI but does not reference the specific legal definition found in 15 U.S.C. 9401(3), making it factually incorrect.",
+  "provider": "openrouter"
+}

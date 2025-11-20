@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "The provided document does not contain information about a \"DHS AI Risk Management Framework.\"",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:39:29.564769",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information about the DHS AI Risk Management Framework, which suggests uncertainty rather than providing a correct answer.",
+  "provider": "openrouter"
+}

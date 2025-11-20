@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "Answer: DOE promotes sharing of AI-related software and code by using DOE CODE—a public software services platform and search tool where all DOE National Laboratories, facilities, and contractors are required to announce their software—and by offering an internal GitLab repository through DOE CODE for controlled-access collaboration.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:39:16.047136",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes DOE CODE as a platform for sharing AI-related software and code, aligning with the ground truth information about its purpose for collaboration and discovery of DOE-funded projects.",
+  "provider": "openrouter"
+}

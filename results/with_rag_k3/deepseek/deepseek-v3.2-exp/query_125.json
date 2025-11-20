@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "Before beginning operational use of an AI use case, the AI use case must be matured for CAIO review, included in the Public Use Case Inventory, and approved for initial concept development in the AI Operations Laboratory (OPSLAB).",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:10:21.624550",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response mentions requirements for CAIO review and OPSLAB approval, which are not the standard requirements for operational use of an AI use case. The ground truth specifies the need for completed Model Card and Datasheet artifacts, which the White Agent did not include.",
+  "provider": "openrouter"
+}

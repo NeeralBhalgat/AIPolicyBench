@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "Answer: The provided documents do not state who must produce an AI Action Plan or by when.",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:45:50.401379",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates uncertainty about who must produce the AI Action Plan and by when, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

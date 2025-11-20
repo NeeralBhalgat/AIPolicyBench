@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "USDA will establish or adopt cost-effective, accessible, and flexible standards for AI infrastructure and tools, including shared AI infrastructure, sandboxes for experimentation, and tools for sharing code and best practices.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:34:35.498260",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general overview of AI infrastructure and tools but does not accurately reflect the specific details mentioned in the ground truth answer, such as the semi-federated model and the specific roles of the USDA AI Lab and Mission Area incubators.",
+  "provider": "openrouter"
+}

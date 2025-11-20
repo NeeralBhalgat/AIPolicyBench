@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "The provided document does not explicitly state the aim of DHS’s AI Risk Management Framework. The text discusses the roles of the AI Governance Board and the DHS AI Council but does not detail the specific objectives of the AI Risk Management Framework.",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:24:35.766172",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific objectives of the DHS’s AI Risk Management Framework, which aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "openrouter"
+}

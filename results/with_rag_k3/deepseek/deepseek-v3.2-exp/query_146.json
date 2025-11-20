@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "Based on the provided documents, the AISWG will develop a process for AI lifecycle management that includes test, evaluation, verification, and validation (TEVV) processes throughout the AI lifecycle.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:12:01.033693",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the AISWG's process for AI lifecycle management as involving TEVV processes, while the ground truth specifies an inventory and annual registration process.",
+  "provider": "openrouter"
+}

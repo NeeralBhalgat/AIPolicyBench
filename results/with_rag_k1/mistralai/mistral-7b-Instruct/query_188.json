@@ -1,0 +1,12 @@
+{
+  "query_id": 188,
+  "query": "What is the primary function of the AI Governance Board?",
+  "response": "The primary function of the AI Governance Board is to include representation from senior agency officials responsible for key enablers of AI adoption and risk management, including at least IT, cybersecurity, data, human capital, legal, procurement, budget, agency management, customer experience, performance evaluation, statistics, risk management, equity, privacy, civil rights and civil liberties, the Office of the Inspector General, and officials responsible for implementing AI within an agency’s program office. The AI Governance Board Charter will define the roles and responsibilities of the AI Governance Board.",
+  "ground_truth": "To oversee AI adoption and risk management across GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:29:55.440924",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed description of the composition and responsibilities of the AI Governance Board but does not accurately capture its primary function, which is to oversee AI adoption and risk management across GSA. Instead, it focuses on representation and roles rather than the overarching purpose.",
+  "provider": "openrouter"
+}

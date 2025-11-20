@@ -1,0 +1,12 @@
+{
+  "query_id": 151,
+  "query": "What does NASA’s registry enable beyond federal reporting?",
+  "response": "Answer: NASA’s AI registry enables NASA-internal collection, visibility, and tracking of AI use cases that are not reportable to the Federal level.",
+  "ground_truth": "Continuous tracking of all AI use cases internally.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:49:13.422292",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of NASA's AI registry in terms of internal collection and tracking of AI use cases, which aligns with the ground truth answer regarding continuous tracking.",
+  "provider": "openrouter"
+}

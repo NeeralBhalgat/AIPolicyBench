@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "TrUCKR tracks waiver requests and decisions, changes in AI application or component impacts on safety or rights, and compliance with minimum risk management requirements for safety-impacting and rights-impacting use cases.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:41:25.424712",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes specific elements about waiver requests and compliance that are not part of the ground truth answer, which broadly encompasses all determinations and documentation throughout the AI lifecycle.",
+  "provider": "openrouter"
+}

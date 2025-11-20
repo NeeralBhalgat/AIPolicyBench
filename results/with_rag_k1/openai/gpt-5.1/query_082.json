@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "The Under Secretary for Strategy, Policy, and Plans, in collaboration with the DHS Chief Artificial Intelligence Officer (CAIO), leads and coordinates the use of AI across DHS.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:59:17.875686",
+  "confidence": 0.8,
+  "reasoning": "The response incorrectly includes the Under Secretary for Strategy, Policy, and Plans as a leader in AI coordination, which is not supported by the ground truth that states the CAIO is the sole leader.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Data is readied for AI by treating it as a product, managed by data domain owners and data product teams, ensuring it is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS). This approach improves data quality, reduces redundancy, and promotes collaboration, enabling effective, data-driven decision-making.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:15:09.953950",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses important aspects of data management for AI, it does not accurately reflect the specific elements mentioned in the ground truth answer, such as strengthening data catalog metadata, securing access to PII, and protecting against data leakage. The response introduces concepts that are not directly aligned with the ground truth.",
+  "provider": "openrouter"
+}

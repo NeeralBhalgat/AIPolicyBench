@@ -1,0 +1,12 @@
+{
+  "query_id": 156,
+  "query": "What barrier relates to data?",
+  "response": "The availability of datasets for training and tuning is an industrywide barrier to developing higher-quality health AI, especially for smaller and under-resourced healthcare delivery and payer organizations.",
+  "ground_truth": "Need to make data more AI-ready.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:28:09.775876",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the availability of datasets as a barrier but does not directly address the need to make data more AI-ready, which is the core of the ground truth answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "The workforce objective emphasized is \"Workforce Readiness for AI,\" which focuses on developing, recruiting, and retaining a diverse workforce with AI skills and competencies to meet current and future program needs. (Document 1)",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:13:01.297145",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response emphasizes 'Workforce Readiness for AI,' which does not align with the ground truth answer of a 'worker-first agenda' focusing on AI literacy, skills development, and rapid retraining. The concepts presented are related but do not accurately reflect the specific workforce objective stated in the ground truth.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "The core purpose of this order is to ensure that all AI and automated systems comply with applicable Federal law in a manner that advances equity, safety, and privacy, and to establish or update processes to measure, monitor, evaluate, and report on AI activities, use-cases, their ongoing performance, and manage the risks of using AI through regular risk assessments as required.",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:13:57.682154",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on compliance with Federal law and risk management, which does not align with the core purpose of maintaining U.S. AI leadership free from bias as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

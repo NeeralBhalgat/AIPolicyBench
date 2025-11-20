@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "The provided text only states that:\n\n> “AI has the potential to improve people’s lives and to support HHS’s broader mission across areas.”\n\nIt does not list or describe any specific opportunities for AI to improve people’s lives.",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:58:34.090507",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not provide specific opportunities for AI to improve people's lives, which aligns with the ground truth that lists specific opportunities. However, it does not express uncertainty about the information itself, leading to a classification of 'miss' rather than 'hallucination' or 'correct'.",
+  "provider": "openrouter"
+}

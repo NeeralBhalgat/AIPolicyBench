@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "Answer: The documents state that AI is guided by risk and ethics frameworks including:\n\n- The NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0)  \n- The NIST Cybersecurity Framework  \n- The NIST Privacy Framework  \n- The NIST Risk Management Framework  \n- The Secure Software Development Framework  \n- The MITRE AI Maturity Model",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:35:31.702164",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent lists several frameworks related to AI, it does not mention key aspects of the ground truth answer, such as bias mitigation and human oversight, which are critical components of ethical AI frameworks. Additionally, the inclusion of the MITRE AI Maturity Model is not directly relevant to the question about ethical/risk frameworks guiding AI.",
+  "provider": "openrouter"
+}

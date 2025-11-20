@@ -1,0 +1,12 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "AI systems must be \"regularly monitored and tested\" for changes in the data they are trained on, which can affect their functionality and trustworthiness in ways that are hard to understand.",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:27:11.413897",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses monitoring and testing AI systems for changes in training data, which is relevant but does not address the specific requirement of alignment with the EO 13960 AI principles, making it factually incorrect.",
+  "provider": "openrouter"
+}

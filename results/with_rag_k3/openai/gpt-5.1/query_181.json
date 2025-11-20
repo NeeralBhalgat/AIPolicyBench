@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "Answer: The provided document excerpts do not include a definition of “use case” as defined by the NRC.",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:53:23.386747",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the definition of 'use case' as defined by the NRC, which reflects uncertainty rather than providing a definitive answer.",
+  "provider": "openrouter"
+}

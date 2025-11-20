@@ -1,0 +1,12 @@
+{
+  "query_id": 26,
+  "query": "What must be reviewed and potentially undone from EO 14110?",
+  "response": "Answer: The provided documents do not state that any part of Executive Order 14110 must be reviewed or potentially undone.",
+  "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:33:48.830929",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that no part of Executive Order 14110 must be reviewed or potentially undone, which contradicts the ground truth that actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 18,
+  "query": "How does the memo define “high-impact AI”?",
+  "response": "AI is considered high-impact when its output serves as a principal basis for decisions or actions that have a legal, material, binding, or significant effect on rights or safety.",
+  "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:13:46.582075",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the definition of high-impact AI as provided in the ground truth, capturing the essence of its impact on decisions or actions with significant effects.",
+  "provider": "openrouter"
+}

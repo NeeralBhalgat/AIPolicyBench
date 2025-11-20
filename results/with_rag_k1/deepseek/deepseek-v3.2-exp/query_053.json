@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "The document does not list the five key strategic goals; it only mentions AI Strategic Goal 5 and states that the goals are listed in order of priority but does not specify them.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:35:45.772495",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific five key strategic goals and does not provide the correct information, which aligns with the definition of a 'miss'.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "The DoD plans to collaborate with external partners on AI by advancing a robust national and international ecosystem that facilitates improved intergovernmental, academic, industry, and international collaboration. It will engage in domestic and international partnerships to address common challenges, promote democratic norms, and increase interoperability in tactics, institutions, and strategies related to data, analytics, and AI. The Department will also export key technologies and share data to ensure Allies and partners can rapidly employ advanced analytics and AI innovations. Additionally, it will follow an “adopt-buy-create” framework to obtain and integrate proven solutions in collaboration with industry.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:22:11.570339",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's plans for collaboration with external partners on AI, emphasizing partnerships with various sectors and the importance of sharing innovation and interoperability, which aligns with the ground truth.",
+  "provider": "openrouter"
+}

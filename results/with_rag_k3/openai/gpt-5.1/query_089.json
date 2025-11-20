@@ -1,0 +1,12 @@
+{
+  "query_id": 89,
+  "query": "How does DHS handle AI incident reporting?",
+  "response": "DHS creates and maintains reporting requirements and response procedures for incidents involving the use of AI at DHS, including incidents that may have resulted in harm to an individual, diminished civil rights or civil liberties of an individual or group, unauthorized release of PII or other sensitive information, or a cybersecurity breach. These procedures are appropriately coordinated among relevant officials and align with, and do not supersede, existing incident reporting requirements (such as privacy and cybersecurity incident reporting).",
+  "ground_truth": "By maintaining coordinated procedures for reporting and responding to AI-related incidents that cause harm, civil rights impacts, or data breaches.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:41:32.405537",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes how DHS handles AI incident reporting by outlining the creation and maintenance of reporting requirements and response procedures, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

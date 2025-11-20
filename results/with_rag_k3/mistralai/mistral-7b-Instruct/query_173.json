@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized to empower employees with AI skills, improve efficiency, and increase AI adoption. It helps develop foundational knowledge of responsible AI use, increases enterprise capacity for responsible AI innovation, and provides pathways for upskilling. (Document 3) Additionally, it is crucial for recruiting, developing, and retaining technical talent in AI roles. (Document 3) The USDA specifically prioritizes investments in AI and AI-enabling workforce training to meet current and future program needs, as identified through assessments. (Document 2) HHS also focuses on workforce training to promote the responsible use of AI in healthcare, including funding programs and sharing internal training resources. (Document 1)",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:25:10.478912",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the importance of workforce training in the context of AI skills and organizational capacity, but it does not address the specific need for the NRC to develop staff capable of evaluating advanced AI technologies and regulatory challenges, which is the core of the ground truth answer.",
+  "provider": "openrouter"
+}

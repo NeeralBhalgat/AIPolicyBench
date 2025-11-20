@@ -1,0 +1,12 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "response": "Use case owners **must document and certify their compliance with the minimum risk management practices annually through the AI Use Case Inventory process.**",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:06:51.019631",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that use case owners must document and certify compliance through the AI Use Case Inventory process, which does not align with the ground truth answer that specifies updating entries in the new AI registry.",
+  "provider": "openrouter"
+}

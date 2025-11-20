@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "All agencies defined in 44 U.S.C. § 3502(1), with some requirements applying only to CFO Act agencies and others not applying to elements of the Intelligence Community.",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:32:59.109907",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly specifies the coverage of the memorandum by referencing 44 U.S.C. § 3502(1) and CFO Act agencies, which does not align with the broader definition of all Executive Branch departments and agencies, including independent regulatory agencies.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "NASA will re-evaluate non-reportable use cases aligned with yearly Federal inventory deadlines.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:12:25.532112",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding NASA's re-evaluation of non-reportable use cases, stating that it occurs annually and aligns with federal deadlines.",
+  "provider": "openrouter"
+}

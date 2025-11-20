@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "The document does not specify which framework HHS uses.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:37:47.125758",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the framework used by HHS, which aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "openrouter"
+}

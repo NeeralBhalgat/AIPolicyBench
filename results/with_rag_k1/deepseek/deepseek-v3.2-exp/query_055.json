@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "The DoD plans to treat data as a product to improve sharing and quality.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:35:55.495942",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's approach to treating data as a product, which aligns with the ground truth. However, it lacks the detail about decentralized data teams responsible for quality and accountability.",
+  "provider": "openrouter"
+}

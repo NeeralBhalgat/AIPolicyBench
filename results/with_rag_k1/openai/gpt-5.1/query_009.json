@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "The provided document excerpt does not state any research priorities for making AI safer for high-stakes use.",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:50:53.745754",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the document does not provide information on research priorities, which suggests uncertainty about the topic rather than a definitive answer.",
+  "provider": "openrouter"
+}

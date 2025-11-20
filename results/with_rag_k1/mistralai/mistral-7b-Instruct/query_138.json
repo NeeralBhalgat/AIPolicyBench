@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "The document provided does not explicitly define a federal policy that defines AI for IRS purposes. It mentions the purpose of the program is to develop and publish governance policies to create trust in the use of AI through responsible AI practices, but it does not specify a particular federal policy that defines AI for IRS purposes.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:27:08.456910",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no explicit federal policy defining AI for IRS purposes, while the ground truth indicates that Section 238(g) of the 2019 NDAA does provide such a definition.",
+  "provider": "openrouter"
+}

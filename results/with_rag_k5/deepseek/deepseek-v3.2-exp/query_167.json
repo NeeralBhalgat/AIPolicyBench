@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "Regulatory updates may include updating or creating regulatory guides, standard review plan sections, inspection procedures, and oversight mechanisms to clarify processes for licensing and oversight of AI, tailored to varying degrees of AI and autonomy.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:46:53.810581",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the need for regulatory updates in AI oversight, mentioning the creation of guides and procedures, which aligns with the ground truth answer regarding new guidance and updated inspection procedures.",
+  "provider": "deepseek"
+}

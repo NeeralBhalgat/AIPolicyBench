@@ -1,0 +1,20 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: http://localhost:9002
+White Agent Model: mistralai/mistral-7b-Instruct
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251120_041750
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 200
+Correct: 71 (35.50%)
+Miss: 49 (24.50%)
+Hallucination: 80 (40.00%)
+Factuality Rate: 60.00%
+
+================================================================================

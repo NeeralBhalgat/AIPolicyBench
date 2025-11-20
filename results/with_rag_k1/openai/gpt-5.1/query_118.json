@@ -1,0 +1,12 @@
+{
+  "query_id": 118,
+  "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+  "response": "If the AI Governance Council determines that an AI use case is non-compliant, the AI use case owner must terminate the AI use case, and to restart it, the owner must develop a compliance plan.",
+  "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:03:10.173882",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the AI use case owner must terminate the AI use case and develop a compliance plan to restart it, whereas the ground truth indicates that operations must be suspended and reverted to a non-AI process until compliance is restored.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "Before procuring AI through acquisition, the acquisition team must ensure the requirements document (Performance Work Statement/Statement of Objective/Statement of Work) has been coordinated and approved by the CAIO.",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:47:15.217436",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies the need for coordination with the CAIO but fails to mention the review by the AI Safety Team, which is also required according to the ground truth answer.",
+  "provider": "openrouter"
+}

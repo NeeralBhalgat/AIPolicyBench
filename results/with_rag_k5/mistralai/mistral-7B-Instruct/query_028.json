@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "OMB must revise two OMB Memoranda within 60 days to make them consistent with the January 23 EO. The memoranda to be revised are OMB M-24-10 of March 28, 2024, and OMB M-24-18 of September 24, 2024. [Document 3]",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:21:13.109988",
+  "confidence": 0.8,
+  "reasoning": "The response incorrectly states the dates of the OMB memoranda, which do not align with the current timeline. The correct dates should not be in the future, as the question implies a current action.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 22,
+  "query": "What policy goal does the order set for the United States?",
+  "response": "The order sets the policy goal **“to sustain and enhance America’s global AI dominance in order to promote human flourishing, economic competitiveness, and national security.”**",
+  "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:33:26.637937",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the policy goal as stated in the ground truth, emphasizing the focus on sustaining and enhancing America's global AI dominance for human flourishing, economic competitiveness, and national security.",
+  "provider": "openrouter"
+}

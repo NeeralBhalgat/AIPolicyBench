@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "AI systems that are safety- or rights-impacting are subject to additional requirements due to the potential risks they pose, such as discrimination and other harms to people. These systems must comply with transparent governance and compliance processes established by the CAIO (Chief Artificial Intelligence Officer). System owners are responsible for enacting minimum requirements, and waivers from these practices may be requested and adjudicated by the CAIO and AI Governing Board. Non-compliant systems must cease operations by December 1, 2024, until they meet the specified controls.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:19:15.519208",
+  "confidence": 0.85,
+  "reasoning": "The response includes details about governance and compliance processes that are not standard or widely recognized in AI policy, such as the role of a CAIO and specific deadlines for compliance, which may not reflect actual requirements for safety- or rights-impacting AI systems.",
+  "provider": "openrouter"
+}

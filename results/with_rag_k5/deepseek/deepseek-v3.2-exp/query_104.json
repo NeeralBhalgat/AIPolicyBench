@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "The SR2 Committee assists the CAIO in reviewing and approving the operational deployment of all safety-impacting and rights-impacting AI use cases, performs the Security Review required by Executive Order 14110 Section 4.7(a) before AI data, custom code, and models are shared with the public, and advises the CAIO on final determinations for each use case prior to deployment.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:41:52.549846",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the role of the SR2 Committee in reviewing safety-impacting and rights-impacting AI use cases before deployment, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

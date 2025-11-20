@@ -1,0 +1,12 @@
+{
+  "query_id": 58,
+  "query": "What is the DoD’s plan for infrastructure supporting AI and analytics?",
+  "response": "The DoD plans to invest in interoperable, federated infrastructure that is abundant, flexible, secure, and scalable, adopting open standard architectures to support data, analytics, and AI adoption. It will balance centralized and decentralized services based on outcome commonality and implementation complexity, with specialized requirements or high costs justifying decentralized infrastructure, except for AI-specific infrastructure.",
+  "ground_truth": "To invest in interoperable, federated infrastructure that balances shared services with specialized systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:04:40.867043",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's plan for infrastructure supporting AI and analytics, emphasizing the investment in interoperable, federated infrastructure and the balance between centralized and decentralized services, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

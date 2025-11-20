@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "USDA adopts and adapts AI policies and risk-based frameworks that protect human rights, health, and safety, and mitigate risks through transparency, accountability, and inclusivity. These frameworks ensure proper risk management and human oversight across the AI lifecycle to evaluate and mitigate potential bias and undesirable outcomes.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:34:43.785688",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses AI policies and risk frameworks, it does not specifically mention the NIST AI Risk Management Framework or the other elements from the ground truth answer, indicating a lack of factual accuracy.",
+  "provider": "openrouter"
+}

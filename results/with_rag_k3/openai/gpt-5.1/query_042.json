@@ -1,0 +1,12 @@
+{
+  "query_id": 42,
+  "query": "What are the four core functions of the AI RMF?",
+  "response": "Answer: The four core functions of the AI RMF are **GOVERN, MAP, MEASURE, and MANAGE**.",
+  "ground_truth": "Govern, Map, Measure, and Manage.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:36:04.305110",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the four core functions of the AI RMF as Govern, Map, Measure, and Manage, which matches the ground truth answer.",
+  "provider": "openrouter"
+}

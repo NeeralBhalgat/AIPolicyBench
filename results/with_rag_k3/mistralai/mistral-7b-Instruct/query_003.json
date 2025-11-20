@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "On day one, President Trump rescinded the Biden Administration’s dangerous actions on AI.",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:12:50.560298",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately refers to the Biden Administration's actions as 'dangerous' without specifying the actual executive order that was rescinded, which is essential for a correct answer.",
+  "provider": "openrouter"
+}

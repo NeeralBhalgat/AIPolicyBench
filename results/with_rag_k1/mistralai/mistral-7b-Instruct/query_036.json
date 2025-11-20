@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "USDA will establish or adopt cost-effective, accessible, and flexible standards for AI infrastructure and tools. This includes investing in infrastructure and tools that support testing, experimentation, and the sharing of code and models to promote AI use cases beneficial to both USDA operations and mission delivery. The USDA Data & Analytics Modernization Plans, completed by every USDA Mission Area and Staff Offices, will help prioritize shared USDA-wide investments in AI infrastructure and tools.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:20:25.111184",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses general principles and plans for AI infrastructure and tools at USDA but does not accurately reflect the specific details provided in the ground truth answer, such as the semi-federated model and the specific roles of the USDA AI Lab and Mission Area incubators.",
+  "provider": "openrouter"
+}

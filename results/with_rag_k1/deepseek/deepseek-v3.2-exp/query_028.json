@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "The document does not specify what OMB must do or by when.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:33:59.359760",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of knowledge about the specific actions OMB must take and the timeline, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 163,
+  "query": "What is the NRC’s stated vision for AI?",
+  "response": "The NRC’s vision is “to continue to keep pace with technological innovations to allow for the safe and secure use of AI in NRC-regulated activities, when appropriate.”",
+  "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:03:13.700394",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the NRC's vision by emphasizing the importance of keeping pace with technological innovations while ensuring the safe and secure use of AI in regulated activities.",
+  "provider": "deepseek"
+}

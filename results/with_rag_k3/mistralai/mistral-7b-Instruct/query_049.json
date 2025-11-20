@@ -1,0 +1,12 @@
+{
+  "query_id": 49,
+  "query": "How does the Manage function contribute to AI risk management?",
+  "response": "The MANAGE function contributes to AI risk management by prioritizing, responding to, and managing AI risks based on assessments from the MAP and MEASURE functions. It includes determining if the AI system achieves its intended purposes, prioritizing risk treatment, developing responses to high-priority risks, documenting residual risks, and planning strategies to maximize benefits and minimize negative impacts. It also ensures resources are considered, mechanisms are in place to sustain system value, and procedures are followed to respond to previously unknown risks.",
+  "ground_truth": "It allocates resources and plans responses to identified risks, focusing on continuous monitoring and improvement.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:16:19.424759",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the functions of the MANAGE function in AI risk management, including prioritizing risks and planning responses, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}
