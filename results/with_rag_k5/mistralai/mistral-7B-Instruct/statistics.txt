@@ -14,6 +14,6 @@ Total Queries: 200
 Correct: 110 (55.00%)
 Miss: 19 (9.50%)
 Hallucination: 71 (35.50%)
-Factuality Rate: 29.00%
+Factuality Rate: 23.00%
 
 ================================================================================
