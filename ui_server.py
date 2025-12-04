@@ -10,7 +10,7 @@ HTML = """
 <!doctype html>
 <html>
   <body style="max-width:800px;margin:40px auto;font-family:sans-serif;">
-    <h2>AIPolicyAgentBench – Simple UI</h2>
+    <h2>AIPolicyAgentBench</h2>
     <form method="POST">
         <textarea name="question" style="width:100%;height:140px;">{{ q }}</textarea>
         <br><br>
@@ -35,6 +35,16 @@ def home():
     return render_template_string(HTML, answer=answer, q=q)
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    import sys
+    # Default port = 5000
+    port = 5000
+    if len(sys.argv) > 1:
+        try:
+            port = int(sys.argv[1])
+        except:
+            print("Invalid port, using default 5000")
+
+    app.run(host="0.0.0.0", port=port, debug=True)
+Save + exit
 
 
