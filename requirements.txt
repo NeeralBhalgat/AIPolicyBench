@@ -44,4 +44,4 @@ tomli>=2.0.0; python_version < '3.11'
 pytest>=7.4.0
 black>=23.12.0
 flake8>=6.1.0
-duckduckgo-search>=5.0.0 #Neeral change -- added for searching the web
+duckduckgo-search>=5.0.0 
