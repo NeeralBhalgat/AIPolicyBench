@@ -19,8 +19,8 @@ load_dotenv()
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from safety_datasets_rag import SafetyDatasetsRAG
-from web_rag_pipeline import WebSearchRAG
+from white_agent.safety_datasets_rag import SafetyDatasetsRAG
+from white_agent.web_rag_pipeline import WebSearchRAG
 from green_agent.evaluation import RuleBasedEvaluator, LLMJudgeEvaluator
 
 # Configure logging

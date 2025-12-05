@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 from simple_vector_db import SimpleTFIDFVectorDB
 
@@ -210,7 +210,6 @@ Answer:"""
         # Steps 3 & 4: GENERATION (if requested and available)
         if use_llm and self.llm_client:
             result["generated_response"] = await self.generate(context, question)
-            print(f"FOR NEERAL : {result['generated_response']}")
         else:
             result["generated_response"] = "LLM generation disabled or unavailable"
         

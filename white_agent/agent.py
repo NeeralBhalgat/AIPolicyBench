@@ -17,7 +17,7 @@ from a2a.utils import new_agent_text_message
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from safety_datasets_rag import SafetyDatasetsRAG
+from white_agent.safety_datasets_rag import SafetyDatasetsRAG
 
 load_dotenv()
 

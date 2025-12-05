@@ -21,7 +21,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Add project root to path
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from simple_vector_db import SimpleTFIDFVectorDB
 from utils.llm_client import LLMClient
