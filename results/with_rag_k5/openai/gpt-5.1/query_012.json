@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "Answer: The documents provided do not state which prior OMB memorandum M-25-21 replaces.",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:44:18.197559",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about which prior OMB memorandum M-25-21 replaces, which aligns with the 'miss' classification as it does not provide the correct information.",
+  "provider": "deepseek"
+}

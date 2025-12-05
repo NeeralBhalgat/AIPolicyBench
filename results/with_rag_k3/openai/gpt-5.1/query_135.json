@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Answer: Project teams must **answer all required inventory questions and provide responses with the clarity and detail necessary to understand the use case**, and they must **maintain accurate and current information in the inventory**, updating it when changes occur (e.g., to the use case’s name, purpose, lifecycle status, risks, or benefits).",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:47:26.538840",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for project teams to provide clear and detailed responses to all required inventory questions, aligning with the ground truth answer.",
+  "provider": "openrouter"
+}

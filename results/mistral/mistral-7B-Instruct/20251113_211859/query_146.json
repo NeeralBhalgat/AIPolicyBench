@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "The documents do not provide specific information about the process that AISWG (if it exists in the context of these documents) will develop for AI lifecycle management. However, they do mention that the AI Risk Management Framework (AI RMF) is intended for AI actors across the AI lifecycle and dimensions, including design, development, deployment, evaluation, and use of AI systems. The framework includes functions such as Plan and Design, Govern, Map, Measure, and Manage, which can be considered as steps in a process for AI lifecycle management. Additionally, it is mentioned that risk management efforts should ideally start with the Plan and Design function in the application context and be performed throughout the AI system lifecycle.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:32.684318",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a detailed description of the AI Risk Management Framework and its functions, but it does not accurately reflect the ground truth answer regarding the specific process of inventory and annual registration for AI lifecycle management. Instead, it focuses on broader concepts without addressing the specific process mentioned in the ground truth.",
+  "provider": "deepseek"
+}

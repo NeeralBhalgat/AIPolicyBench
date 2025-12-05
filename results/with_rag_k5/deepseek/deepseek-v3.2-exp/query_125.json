@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "Before beginning operational use of an AI use case, approval from an appropriate governing body or authorizing official for the business unit or program office is required.",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:43:26.369931",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly emphasizes the need for approval from a governing body rather than mentioning the requirement for completed Model Card and Datasheet artifacts, which is the ground truth.",
+  "provider": "deepseek"
+}

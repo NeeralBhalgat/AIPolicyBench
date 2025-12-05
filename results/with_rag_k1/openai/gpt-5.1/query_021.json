@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "Answer: The core purpose of this order is to establish governing policies for the controlled access and responsible use of artificial intelligence technologies and platforms, covering the assessment, procurement, usage, monitoring, and governance of AI systems and software within the GSA network.",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:52:19.811952",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on governance and responsible use of AI technologies, which does not align with the core purpose of maintaining U.S. AI leadership free from bias as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

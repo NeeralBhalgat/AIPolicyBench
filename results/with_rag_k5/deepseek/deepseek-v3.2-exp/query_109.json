@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "Based on the documents provided, there is no mention of \"AISCC\" or its purpose. Therefore, I cannot answer the question based on the given information.",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:42:13.142037",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the AISCC and does not provide an answer, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

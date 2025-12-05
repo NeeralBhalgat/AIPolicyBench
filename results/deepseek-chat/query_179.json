@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "The documents do not provide specific information about which federal acts guide the NRC's approach to AI. However, it is mentioned that the NRC will leverage its experience reviewing relevant historical models, which can be found at https://www.nrc.gov/about-nrc/values.html#principles, and the NRC regulations and Title 10, “Energy,” in the Code of Federal Regulations. But these are not federal acts per se.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:32:35.815429",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific federal acts guiding the NRC's approach to AI, which aligns with the 'miss' classification. It does not provide the correct information as per the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "During the interim period, the federal guidance that remains in effect for AI is the one that is directed by the executive orders that are still in effect, as mentioned in Document 5. The specific details about these executive orders are not provided in the documents, so the exact guidance cannot be specified.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:29:53.473068",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific executive orders in effect, stating that the exact guidance cannot be specified. This reflects a lack of definitive information rather than providing a clear answer.",
+  "provider": "deepseek"
+}

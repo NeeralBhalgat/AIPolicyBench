@@ -1,0 +1,12 @@
+{
+  "query_id": 154,
+  "query": "What AI barrier relates to tools?",
+  "response": "Answer: Providers with a lower adoption of EHR technology “may find AI tools less available and usable.”",
+  "ground_truth": "Lack of access to AI tools and platforms.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:49:39.208036",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which is about the lack of access to AI tools and platforms. Instead, it focuses on the adoption of EHR technology, which is not directly related to the question about AI barriers related to tools.",
+  "provider": "openrouter"
+}

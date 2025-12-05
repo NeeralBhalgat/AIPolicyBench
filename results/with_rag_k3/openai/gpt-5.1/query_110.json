@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "Answer: The Department keeps AI use cases out of the public use case inventory **only if, in consultation with the AI Governance Board, the Chief Artificial Intelligence Officer (CAIO) determines that a use case meets the requirements for exclusion.**",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:44:16.068224",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention the specific exclusion criteria such as classified, sensitive, or research-only systems, which are essential to the ground truth answer. While it correctly states that the CAIO determines exclusions in consultation with the AI Governance Board, it lacks the necessary details about the criteria for exclusion.",
+  "provider": "openrouter"
+}

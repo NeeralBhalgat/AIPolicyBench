@@ -1,0 +1,12 @@
+{
+  "query_id": 113,
+  "query": "How does DOT protect AI systems from cybersecurity risks?",
+  "response": "Answer: The provided documents do not describe how the Department of Transportation (DOT) protects AI systems from cybersecurity risks. They only mention HHS cybersecurity measures and general guidance that “privacy and cybersecurity risk management considerations and approaches are applicable in the design, development, deployment, evaluation, and use of AI systems.”",
+  "ground_truth": "By using segregated research and operational environments and continuous ATO monitoring.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:44:31.394008",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding how the DOT protects AI systems from cybersecurity risks, which aligns with the 'miss' classification as it expresses uncertainty.",
+  "provider": "openrouter"
+}

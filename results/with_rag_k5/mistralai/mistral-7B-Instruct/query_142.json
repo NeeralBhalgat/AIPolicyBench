@@ -1,0 +1,12 @@
+{
+  "query_id": 142,
+  "query": "What responsibility does AISWG have regarding AI policy creation?",
+  "response": "The AI Policy Working Group (AIPWG) is responsible for assessing the need for updates or revisions in existing policies, procedures, and processes for the responsible, ethical, and authorized acquisition and use of AI/ML technologies across the DHS enterprise. They are also tasked with developing a Directive and Instruction for Departmental clearance to drive updates that require formal policy changes to proceed, compiling a record of changes in policies and procedures regarding AI, and making recommendations for any other changes that should be considered to ensure the development of an enduring governance policy and framework for long-term, successful, responsible, and trustworthy adoption of AI at DHS.",
+  "ground_truth": "Supporting AI governance creation within NASA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:19.347010",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the responsibilities of the AI Policy Working Group (AIPWG) as related to the Department of Homeland Security (DHS), while the ground truth specifies that the AISWG is responsible for supporting AI governance creation within NASA.",
+  "provider": "deepseek"
+}

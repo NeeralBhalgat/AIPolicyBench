@@ -1,0 +1,12 @@
+{
+  "query_id": 56,
+  "query": "What approach does the DoD take to accelerate AI and analytics adoption?",
+  "response": "Answer: The DoD pursues a **systematic, agile approach** to data, analytics, and AI adoption, using tight feedback loops between developers and users in a continuous cycle of iteration, innovation, and improvement.",
+  "ground_truth": "An agile, iterative approach that emphasizes speed, feedback, and continuous learning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:50:43.686583",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the DoD's approach to AI and analytics adoption, emphasizing a systematic and agile methodology that aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

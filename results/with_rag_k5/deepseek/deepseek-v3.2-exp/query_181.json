@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "Based on the documents, a use case for the NRC is an internal application of AI tools to build staff knowledge and experience for future regulatory reviews and oversight, especially when those same tools may be used in external AI applications.",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:47:59.334501",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response misinterprets the definition of a use case by focusing on internal applications of AI tools rather than providing the general definition of a use case as a specific situation for applying an AI product or service.",
+  "provider": "deepseek"
+}

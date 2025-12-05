@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "All authorized AI users must avoid placing unnecessary burdens on individuals during the remedy process for AI-enabled decisions (Document 4).",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:44.267457",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which specifically mentions avoiding the input of federal nonpublic information into AI systems without authorization. Instead, the response focuses on avoiding unnecessary burdens during the remedy process, which is not relevant to the question.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 142,
+  "query": "What responsibility does AISWG have regarding AI policy creation?",
+  "response": "Answer: The AI Policy Working Group (AIPWG) is responsible for **developing a Directive and Instruction for Departmental clearance to drive updates that require formal policy changes to proceed.**",
+  "ground_truth": "Supporting AI governance creation within NASA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:00:52.689547",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the group as the AI Policy Working Group (AIPWG) and describes responsibilities that do not align with the ground truth, which states that the AISWG supports AI governance creation within NASA.",
+  "provider": "deepseek"
+}

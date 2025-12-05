@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "Partnerships with international regulators will play a role in strengthening regulatory cooperation, particularly in the context of AI-enabled medical products. This is mentioned in Document 5, where the FDA's role in HHS’s AI strategy includes \"strengthening regulatory cooperation with international regulators.\" Additionally, Document 1 highlights the NRC's intention to collaborate with international counterparts to share information on AI use in regulated activities and influence the development of international standards and guidance.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:32:15.145930",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of partnerships with international regulators in strengthening regulatory cooperation and facilitating information sharing, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

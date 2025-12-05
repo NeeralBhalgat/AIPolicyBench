@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "The documents do not specify a single federal policy that defines AI for IRS purposes. Instead, IRS use of AI is governed by multiple executive orders and government-wide guidance, including EO 13859 and EO 13960.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:44:30.291256",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no single federal policy defining AI for IRS purposes, while the ground truth indicates that Section 238(g) of the 2019 NDAA does provide such a definition.",
+  "provider": "deepseek"
+}

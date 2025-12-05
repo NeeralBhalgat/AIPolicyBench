@@ -1,0 +1,12 @@
+{
+  "query_id": 160,
+  "query": "How many learners participated in NASA’s “Summer of AI”?",
+  "response": "The number of learners who participated in NASA’s “Summer of AI” is **not specified in the provided text**.",
+  "ground_truth": "Nearly 4,000.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:07:55.388220",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the number of learners, which does not provide a definitive answer to the question.",
+  "provider": "openrouter"
+}

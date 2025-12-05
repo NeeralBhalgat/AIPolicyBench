@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "NASA will publish its AI Strategy **by March 2025**.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:02:08.933321",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth information regarding the publication date of NASA's AI Strategy.",
+  "provider": "deepseek"
+}

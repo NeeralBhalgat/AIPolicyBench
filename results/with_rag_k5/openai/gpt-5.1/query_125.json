@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "Answer: Before beginning operational use of an AI use case, IRS business units and program offices must receive **approval from an appropriate governing body or authorizing official for their business unit or program office**.",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:50.483947",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that approval from a governing body is required, while the ground truth specifies the need for completed Model Card and Datasheet artifacts, which is a different requirement.",
+  "provider": "deepseek"
+}

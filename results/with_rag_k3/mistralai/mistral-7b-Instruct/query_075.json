@@ -1,0 +1,12 @@
+{
+  "query_id": 75,
+  "query": "What additional domains support implementation of the Strategic Plan?",
+  "response": "The additional domains that support implementation of the Strategic Plan are:\n- Cybersecurity and Critical Infrastructure Protection\n- Internal Operations\n\nThese domains span the primary domains and are required to implement the Strategic Plan.",
+  "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:18:21.321890",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the additional domains that support the implementation of the Strategic Plan, matching the ground truth answer.",
+  "provider": "openrouter"
+}

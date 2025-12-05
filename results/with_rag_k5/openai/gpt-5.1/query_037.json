@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Data is readied",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:47:43.553233",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response is incomplete and does not provide any specific information about how data is readied for AI, indicating uncertainty or lack of detail.",
+  "provider": "deepseek"
+}

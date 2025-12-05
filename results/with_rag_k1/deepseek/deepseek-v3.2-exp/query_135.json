@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to provide Model Cards and Datasheets for each AI use case.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:42:25.968281",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response specifies Model Cards and Datasheets, which are not the required inventory questions mentioned in the ground truth answer. Therefore, it is factually incorrect.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "The provided documents do not mention AISWG or describe how it coordinates AI activity across NASA, so this information is not available in the text.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:01:04.719613",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding AISWG's coordination of AI activity across NASA, which aligns with expressing uncertainty about the topic.",
+  "provider": "deepseek"
+}

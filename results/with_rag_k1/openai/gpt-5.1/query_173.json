@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Answer: Workforce training is emphasized **“to promote the responsible use of AI in healthcare.”**",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:09:24.149040",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth, which emphasizes the need for staff capable of evaluating AI technologies and regulatory challenges, rather than solely focusing on the responsible use of AI in healthcare.",
+  "provider": "openrouter"
+}

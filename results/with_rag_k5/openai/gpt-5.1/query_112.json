@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "Answer: The provided documents do not describe any specific methods or procedures that DOT uses to ensure AI training data are trustworthy.",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:57:15.577929",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of specific knowledge about DOT's methods for ensuring trustworthy AI training data, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

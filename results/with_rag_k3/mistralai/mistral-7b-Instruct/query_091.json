@@ -1,0 +1,12 @@
+{
+  "query_id": 91,
+  "query": "What is the main purpose of DHS Policy Statement 139-06?",
+  "response": "The documents provided do not contain information about \"DHS Policy Statement 139-06.\" The documents discuss \"DHS Directive 139-08,\" which establishes DHS policy for the use and acquisition of Artificial Intelligence (AI).",
+  "ground_truth": "To guide all DHS Components on the responsible acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technologies.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:19:51.456183",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information about DHS Policy Statement 139-06, which aligns with expressing uncertainty. It does not provide a correct answer regarding the main purpose of the policy.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Data is readied for AI by ensuring it is visible, accessible, understandable, linked, trustworthy, and interoperable. This involves making data discoverable, retrievable, and understandable to consumers, linking complementary data elements, using open data standards, data catalogs, and metadata tagging, and ensuring the data is trustworthy and represents a source of truth.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:23:37.235433",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes some relevant concepts about data readiness for AI, such as accessibility and trustworthiness, but it does not accurately reflect the specific actions mentioned in the ground truth answer, such as strengthening data catalog metadata and securing access to PII. Therefore, it is factually incorrect in the context of the question.",
+  "provider": "deepseek"
+}

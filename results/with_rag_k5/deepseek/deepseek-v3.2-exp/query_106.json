@@ -1,0 +1,12 @@
+{
+  "query_id": 106,
+  "query": "What is the ART Network used for?",
+  "response": "The ART Network is used for AI research and development activities, allowing for rapid AI innovation, exploration, and sharing with external research partners.",
+  "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:42:00.423992",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the ART Network's purpose in facilitating AI research and development, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

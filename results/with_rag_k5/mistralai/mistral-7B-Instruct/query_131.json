@@ -1,0 +1,12 @@
+{
+  "query_id": 131,
+  "query": "What is excluded from “operational use”?",
+  "response": "\"Operational use\" excludes preliminary development or use in exploratory or research-only contexts that do not affect IRS business operations.",
+  "ground_truth": "Exploratory or research-only AI activity.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:29:46.003848",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies that 'operational use' excludes exploratory or research-only contexts, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

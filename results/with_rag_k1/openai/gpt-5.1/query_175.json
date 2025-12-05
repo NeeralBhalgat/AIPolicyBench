@@ -1,0 +1,12 @@
+{
+  "query_id": 175,
+  "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+  "response": "Answer: Their training data can change significantly and unexpectedly, affecting system functionality and trustworthiness in ways that are hard to understand.",
+  "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:09:39.692027",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the variability of training data affecting system functionality and trustworthiness, which is not the primary challenge in regulating high-autonomy AI systems. The ground truth emphasizes the need for greater regulatory scrutiny due to reduced human oversight, which is not addressed in the White Agent's answer.",
+  "provider": "openrouter"
+}

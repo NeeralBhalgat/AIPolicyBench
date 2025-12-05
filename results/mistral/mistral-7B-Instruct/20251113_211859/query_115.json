@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "DOT shares AI models and code with the public after they clear the SR2 Committee’s security review as required under Executive Order 14110 Section 4.7(a). The CAIO maintains use case security review justification, documentation, and sharing methodologies in TrUCKR. (Document 1)\n\nAdditionally, DOT must proactively share custom-developed code, including models and model weights, unless restricted by law, national security risks, contractual obligations, or mission risks. (Document 2)\n\nAll internally developed AI code must be open-sourced in public repositories, adhering to GSA’s Open Source Software (OSS) Policy, unless exceptions apply. (Document 3)",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:28:29.634760",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides detailed information about DOT's processes for sharing AI models and code, but it does not align with the ground truth answer, which specifies the use of OPEN Data workflows and Code.gov. The mention of the SR2 Committee and other internal processes appears to be fabricated or misrepresented, leading to a classification of hallucination.",
+  "provider": "deepseek"
+}

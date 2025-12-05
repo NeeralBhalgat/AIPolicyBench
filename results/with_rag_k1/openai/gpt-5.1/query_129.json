@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "Publication 1, *Your Rights as a Taxpayer*",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:04:24.473406",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the publication that explains taxpayer rights, matching the ground truth answer.",
+  "provider": "openrouter"
+}

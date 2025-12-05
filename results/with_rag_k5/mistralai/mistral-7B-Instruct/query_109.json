@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "The purpose of the AI Strategic Plan is to ensure the staff’s readiness to review the use of AI in NRC-regulated activities as the nuclear industry has expressed interest in deploying AI applications.",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:27:54.678833",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the purpose of the AISCC, conflating it with an AI Strategic Plan related to NRC-regulated activities, which is not accurate. The ground truth specifies that the AISCC aims to educate employees and support AI collaboration across DOT.",
+  "provider": "deepseek"
+}

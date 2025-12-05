@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "The SR2 Committee collaborates with the CAIO to exclude certain AI use cases from the Public Use Case Inventory and participates in the exclusion reevaluation process.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:40:07.922552",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the role of the SR2 Committee, focusing on collaboration with the CAIO and exclusion processes, rather than its primary function of reviewing safety-impacting and rights-impacting AI use cases before deployment.",
+  "provider": "openrouter"
+}

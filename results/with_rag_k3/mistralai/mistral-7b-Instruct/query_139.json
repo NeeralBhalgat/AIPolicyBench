@@ -1,0 +1,12 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "AI systems must be regularly monitored and tested against these principles (Document 3, point g).",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:23:18.504707",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response correctly identifies that AI systems must be monitored and tested against principles, which aligns with the ground truth regarding alignment with the EO 13960 AI principles.",
+  "provider": "openrouter"
+}

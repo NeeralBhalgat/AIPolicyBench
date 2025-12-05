@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The order adopts the following legal definition of AI: \"AI refers to a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments. AI systems are designed to operate with varying levels of autonomy; adapt their behavior and functionality through learning or evolution; and operate with some degree of autonomy from human oversight or intervention, though humans may provide oversight, intervention, or direction. AI systems may be developed in a variety of forms, including as software, as a system comprising software and hardware, or as a system embedded in hardware.\"",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:19:23.293881",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a definition of AI that is not the same as the legal definition found in 15 U.S.C. 9401(3). While it describes AI systems in detail, it does not accurately reflect the specific legal language or criteria set forth in the statute.",
+  "provider": "openrouter"
+}

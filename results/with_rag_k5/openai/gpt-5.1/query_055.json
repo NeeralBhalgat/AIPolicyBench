@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "Answer: The DoD plans to **value and treat data as a product and as an enterprise resource**, with data domain owners and data product teams responsible for the data they produce, so that “data products” are designed, built, and maintained with user needs in mind to stimulate sharing, reuse, and improved data quality.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:50:34.498640",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the DoD's approach to treating data as a product and emphasizes the responsibility of data domain owners and product teams, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

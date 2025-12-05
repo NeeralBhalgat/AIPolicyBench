@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "The documents do not explicitly define \"machine learning.\" However, they mention that the NRC's AI Strategic Plan covers a broad spectrum of AI sub-specialties, including machine learning, natural language processing, and deep learning. These are areas the NRC has not previously reviewed and evaluated.",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:32:16.436283",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the NRC's definition of machine learning, stating that the documents do not explicitly define it. This reflects a lack of knowledge rather than providing a correct answer.",
+  "provider": "deepseek"
+}

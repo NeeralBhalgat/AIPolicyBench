@@ -1,0 +1,12 @@
+{
+  "query_id": 121,
+  "query": "Who oversees all internal and external IRS reporting on AI?",
+  "response": "The Department of the Treasury oversees all external reporting on AI, as mentioned in Document 3, Section 10.24.1.3 (1). The document states: \"External reporting will be coordinated through the Department of the Treasury.\" The document does not specify who oversees internal reporting.",
+  "ground_truth": "The CDAO acting as the RAIO.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:22:23.470581",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly states that the Department of the Treasury oversees all external reporting on AI, while the ground truth indicates that the CDAO acting as the RAIO is responsible for oversight. This misattribution of oversight authority constitutes a factual inaccuracy.",
+  "provider": "openrouter"
+}

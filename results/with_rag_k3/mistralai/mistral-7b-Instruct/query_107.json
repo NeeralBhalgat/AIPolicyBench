@@ -1,0 +1,12 @@
+{
+  "query_id": 107,
+  "query": "What is OPSLAB used for?",
+  "response": "OPSLAB is used for use case experimentation, development, and initial data and model risk management identification and mitigation. Its primary purpose is to accelerate the determination of the required AI architecture, gain initial CAIO and SR2 Committee use case Authorization to Operate (ATO), and prepare for OCIO IT Spend Plan clearance and funding.",
+  "ground_truth": "Experimenting, developing, and assessing operational AI use cases.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:21:22.006993",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes OPSLAB's purpose in terms of use case experimentation and development, aligning well with the ground truth answer.",
+  "provider": "openrouter"
+}

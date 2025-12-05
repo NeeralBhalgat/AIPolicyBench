@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "Answer: DOE’s PolicyAI tool is used to support existing research and analysis tasks for NEPA reviews while keeping a human in the loop for decision-making.",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:57:41.885528",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the purpose of DOE’s PolicyAI tool, focusing on NEPA reviews rather than its actual function of assisting in the search, summarization, and drafting of environmental policy documents.",
+  "provider": "openrouter"
+}

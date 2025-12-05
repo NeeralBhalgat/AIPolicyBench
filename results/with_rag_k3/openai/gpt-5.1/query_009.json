@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "Answer: Investing in research to achieve **fundamental breakthroughs in AI interpretability, AI control systems, and adversarial robustness** will make AI safer for high‑stakes use.",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:31:54.701672",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies key research priorities—interpretability, control systems, and adversarial robustness—that align with the ground truth answer, indicating a correct understanding of the topic.",
+  "provider": "openrouter"
+}

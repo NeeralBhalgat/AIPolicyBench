@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "The publication that explains taxpayer rights that AI must not violate is \"The Taxpayer Bill of Rights,\" as further explained in IRC § 7803(a)(3); Publication 1, Your Rights as a Taxpayer; and www .irs.gov /taxpayer-bill-of-rights.",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:29:40.642351",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response correctly identifies 'Publication 1, Your Rights as a Taxpayer' as a source that explains taxpayer rights, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

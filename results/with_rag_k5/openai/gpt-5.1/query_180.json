@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "“AI tools” are the computer software, code, information technology infrastructure, and service provider utilities (e.g., Azure Cognitive Service, IBM Watson Studio) that are used to facilitate AI applications.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:05:47.203785",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes 'AI tools' as software, code, IT infrastructure, and utilities used to facilitate AI applications, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

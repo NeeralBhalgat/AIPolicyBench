@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "The related IRS privacy and security requirements are found in Exhibit 10.24.1-2.",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:27:13.870814",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly cites Exhibit 10.24.1-2 instead of the correct references, IRM 10.5 and IRM 10.8, indicating a factual inaccuracy.",
+  "provider": "openrouter"
+}

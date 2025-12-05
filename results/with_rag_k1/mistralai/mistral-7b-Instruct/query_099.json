@@ -1,0 +1,12 @@
+{
+  "query_id": 99,
+  "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+  "response": "The document does not mention an \"AI Policy Working Group (AIPWG)\".",
+  "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:24:46.883488",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information about the AIPWG, which aligns with the 'miss' classification as it does not provide a correct answer or express knowledge about the group.",
+  "provider": "openrouter"
+}

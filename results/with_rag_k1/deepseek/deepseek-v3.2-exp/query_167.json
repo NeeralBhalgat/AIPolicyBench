@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "The NRC will develop regulatory guidance and tools to prepare the staff to assess AI as part of NRC regulatory activities.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:44:33.189896",
+  "confidence": 0.7,
+  "reasoning": "The response mentions the NRC developing regulatory guidance and tools, which is not directly aligned with the ground truth answer that specifies new guidance, updated inspection procedures, or potential rulemaking. While it relates to regulatory updates, it does not accurately reflect the broader scope of what might be required for AI oversight.",
+  "provider": "openrouter"
+}

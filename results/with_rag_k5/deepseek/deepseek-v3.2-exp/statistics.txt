@@ -1,0 +1,20 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: http://localhost:9002
+White Agent Model: deepseek-chat
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251117_153222
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 200
+Correct: 112 (56.00%)
+Miss: 18 (9.00%)
+Hallucination: 70 (35.00%)
+Factuality Rate: 30.00%
+
+================================================================================

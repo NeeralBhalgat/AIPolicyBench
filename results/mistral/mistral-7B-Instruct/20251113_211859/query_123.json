@@ -1,0 +1,12 @@
+{
+  "query_id": 123,
+  "query": "How often must AI use case inventory entries be reviewed?",
+  "response": "AI use case inventory entries must be reviewed at least annually or when directed by the CDAO team, as stated in Document 3. Additionally, Document 4 mentions that the inventory will be updated annually, consistent with OMB Memo M-24-10.",
+  "ground_truth": "At least annually or when directed by the CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:29:16.787432",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the review frequency of AI use case inventory entries, stating that they must be reviewed at least annually or when directed by the CDAO team.",
+  "provider": "deepseek"
+}

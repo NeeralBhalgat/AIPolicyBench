@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "The DHS Chief Information Officer (DHS CIO) oversees AI and related infrastructure in support of DHS missions and activities.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:38:13.725679",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the role overseeing AI at DHS as the Chief Information Officer instead of the Chief Artificial Intelligence Officer, which is the correct title.",
+  "provider": "openrouter"
+}

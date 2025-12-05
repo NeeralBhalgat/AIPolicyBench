@@ -1,0 +1,11 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:49:19.579781",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "The USDA will expand a common infrastructure and toolset, including the USDA AI Lab, to enable mission-focused and high-impact AI use cases. This includes implementing a semi-federated AI infrastructure where all Mission Areas and Staff Offices will have access to centralized, high-value tools and environments to test and innovate, while also allowing for customized tools. Additionally, USDA will deploy a hub-and-spoke model to promote code sharing, pilot program development, and support research and development, with the USDA AI Lab as the \"hub\" and Mission Area Innovation Incubators as the \"spokes\".",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:21:56.529071",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the USDA's plans for a semi-federated AI infrastructure and the hub-and-spoke model involving the USDA AI Lab and Mission Area Innovation Incubators, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

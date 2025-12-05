@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "Based on the provided documents, there is no information indicating that any entity provides recommendations to the CAIO.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:45:00.039695",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no information about any entity providing recommendations to the CAIO, while the ground truth indicates that the AISWG does provide such recommendations.",
+  "provider": "deepseek"
+}

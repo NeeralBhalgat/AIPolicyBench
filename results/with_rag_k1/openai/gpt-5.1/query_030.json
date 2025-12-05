@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "Answer: The provided document excerpt does not state whether the order creates enforceable rights.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:53:26.533174",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about whether the order creates enforceable rights, which aligns with the 'miss' classification. It does not provide a definitive answer, unlike the ground truth.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "Within 180 days of the issuance of the memorandum.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:20:07.099131",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the timeline for CFO Act agencies to publish an AI Strategy, stating 'within 180 days of the issuance of the memorandum', which is consistent with the requirement.",
+  "provider": "deepseek"
+}

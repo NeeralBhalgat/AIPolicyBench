@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "AI systems that are safety- or rights-impacting must comply with additional requirements due to their potential risks, such as discrimination and other harms to people. These requirements include transparent governance and compliance processes, and system owners are responsible for enacting these minimum requirements. Any covered AI not in compliance by December 1, 2024, shall cease operations until compliant with the following controls. Waivers from minimum practices may be requested and must be made to the CAIO and AI Governing Board, who will adjudicate the request.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:25:58.637554",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses governance and compliance processes but does not mention the essential requirements of human oversight and rigorous testing for bias, effectiveness, and reliability, which are critical for safety- or rights-impacting AI systems.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "The NRC recognizes that there are differences between automation and autonomy in potential uses of AI in NRC-regulated applications. As such, the NRC will treat these differences with the appropriate level of regulatory scrutiny and consider the multiple criteria necessary to determine the appropriate regulatory involvement for each level. Automation is considered to be a system that automatically takes action on a specific task according to pre-defined, prescriptive rules.",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:29:11.634267",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies that automation involves predefined rules, but it fails to accurately describe autonomy, which involves learning and decision-making beyond preset rules. This misrepresentation leads to a factual inaccuracy.",
+  "provider": "openrouter"
+}

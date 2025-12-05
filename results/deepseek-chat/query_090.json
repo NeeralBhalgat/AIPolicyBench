@@ -1,0 +1,12 @@
+{
+  "query_id": 90,
+  "query": "What standards apply when DHS acquires AI systems?",
+  "response": "The standards that apply when DHS acquires AI systems are national and international standards, as mentioned in Document 2. Additionally, the Under Secretary for Management (USM) ensures that the acquisition of AI complies with applicable laws and government-wide and DHS policies, as stated in Document 1.",
+  "ground_truth": "Acquisitions must address testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:27:04.550575",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not provide specific standards related to the acquisition of AI systems, such as testing, risk management, and transparency, which are mentioned in the ground truth answer. Instead, it focuses on compliance with laws and policies, indicating a lack of complete information.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "The sharing and inventory requirements that promote reuse and transparency include ensuring data is findable, accessible, interoperable, and reusable, as well as standardizing the safe shareability of synthetic data, data sharing for general reuse, and multimodal data. Additionally, NIH's Toward an Ethical Framework for Artificial Intelligence in Biomedical and Behavioral Research workshop highlights the importance of these principles.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:19:05.452805",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses principles of data sharing and transparency but does not accurately reflect the specific sharing and inventory requirements mentioned in the ground truth answer, which focuses on sharing AI code/models and publishing an annual inventory.",
+  "provider": "openrouter"
+}

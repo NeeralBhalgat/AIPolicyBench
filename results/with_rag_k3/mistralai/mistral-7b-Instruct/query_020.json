@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Agencies should identify and share commonly used packages or functions that have the greatest potential for reuse by other agencies or by the public (Document 2). DOT is committed to the open sharing of AI custom code, models, and data that promote reuse and collaboration with the Federal Government and the public to enhance innovation and transparency (Document 3).",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:13:53.447950",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of sharing AI code and models for reuse and transparency, aligning with the ground truth answer regarding government-wide sharing and inventory publication.",
+  "provider": "openrouter"
+}

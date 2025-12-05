@@ -1,0 +1,12 @@
+{
+  "query_id": 71,
+  "query": "What is the main purpose of the HHS AI Strategic Plan?",
+  "response": "The provided document does not mention an \"HHS AI Strategic Plan.\" It discusses the NRC's AI Strategic Plan, whose main purpose is to ensure the staff’s readiness to effectively and efficiently review and evaluate the use of AI in NRC-regulated activities.",
+  "ground_truth": "To make HHS a global leader in responsible AI use for improving health and well-being in the U.S.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:37:25.883008",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the document does not mention an 'HHS AI Strategic Plan' and instead discusses the NRC's AI Strategic Plan, which is not relevant to the question about HHS. The main purpose of the HHS AI Strategic Plan is to make HHS a global leader in responsible AI use, which the White Agent fails to acknowledge.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "Data science is a foundational discipline that enables predictive modeling using data, which supports AI applications.",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:44:19.726525",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of data science in enabling predictive modeling, which is essential for AI applications, aligning well with the ground truth answer.",
+  "provider": "openrouter"
+}

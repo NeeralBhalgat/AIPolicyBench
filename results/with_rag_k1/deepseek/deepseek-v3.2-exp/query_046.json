@@ -1,0 +1,12 @@
+{
+  "query_id": 46,
+  "query": "What is the main focus of the Govern function in the AI RMF?",
+  "response": "The main focus of the Govern function in the AI RMF is to establish and implement policies, processes, procedures, and practices across the organization related to the mapping, measuring, and managing of AI risks.",
+  "ground_truth": "To build a culture of risk management, accountability, and transparency throughout the organization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:35:17.675787",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly emphasizes the establishment of policies and procedures related to AI risks, rather than focusing on building a culture of risk management, accountability, and transparency, which is the main focus of the Govern function in the AI RMF.",
+  "provider": "openrouter"
+}

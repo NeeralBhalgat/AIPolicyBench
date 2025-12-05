@@ -1,0 +1,12 @@
+{
+  "query_id": 91,
+  "query": "What is the main purpose of DHS Policy Statement 139-06?",
+  "response": "Answer: The documents only state that Directive 139-08 “supersedes Policy Statement 139-06 Acquisition and Use of Artificial Intelligence and Machine Learning Technologies by DHS Components” and do not describe the main purpose of Policy Statement 139-06.",
+  "ground_truth": "To guide all DHS Components on the responsible acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technologies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:54:44.459692",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the documents do not describe the main purpose of Policy Statement 139-06, while the ground truth clearly outlines that its main purpose is to guide DHS Components on the responsible acquisition and use of AI and ML technologies.",
+  "provider": "deepseek"
+}

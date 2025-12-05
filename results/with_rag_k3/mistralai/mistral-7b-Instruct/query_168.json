@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "The documents mention the following AI sub-specialties:\n1. AI Working Group (Document 2 and 3)\n2. Risk Management Working Group (Document 3)\n\nThese sub-groups are part of the broader AI governance structure within the respective departments.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:24:50.398070",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists working groups rather than specific AI sub-specialties like natural language processing, machine learning, and deep learning, which are the correct examples.",
+  "provider": "openrouter"
+}

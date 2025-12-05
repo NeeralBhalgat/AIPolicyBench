@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "Answer:\n\nA change requiring updates to AI artifacts is any change to an AI use case that “meaningfully affects the accuracy of the current artifacts,” including, for example:  \na) changing the context, scope, or intended purpose of the use case;  \nb) changing the use case’s output or impact on IRS operations;  \nc) updating or retraining the underlying AI model(s); or  \nd) incorporating new data elements or data sources.",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:59.619747",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies changes that require updates to AI artifacts, aligning with the ground truth answer regarding changes to scope, purpose, impact, models, or data sources.",
+  "provider": "deepseek"
+}

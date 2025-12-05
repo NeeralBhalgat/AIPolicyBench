@@ -1,0 +1,12 @@
+{
+  "query_id": 83,
+  "query": "What principles guide DHS’s use of AI?",
+  "response": "The principles that guide DHS’s use of AI are:\n\n1. **Lawful and Mission-Appropriate**  \n2. **Mission-Enhancing**  \n3. **Safe, Secure, and Responsible Use**  \n4. **Trustworthy Use**  \n5. **Human-Centered Use**",
+  "ground_truth": "AI use must be lawful, mission-appropriate, mission-enhancing, safe, secure, responsible, trustworthy, and human-centered.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:40:46.697666",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the principles that guide DHS's use of AI, which align with the ground truth answer provided.",
+  "provider": "openrouter"
+}

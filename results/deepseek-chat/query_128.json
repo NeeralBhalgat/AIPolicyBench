@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "The Internal Revenue Code (IRC) lists specific taxpayer rights which are further explained in The Taxpayer Bill of Rights. See IRC § 7803(a)(3); Publication 1, Your Rights as a Taxpayer; and www.irs.gov/taxpayer-bill-of-rights. IRS employees are responsible for being familiar with and acting in accordance with these rights. IRS use of AI must not violate these rights. (Document 1)",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:29:24.538435",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses taxpayer rights and the Internal Revenue Code but does not mention the specific law that protects taxpayer information, which is IRC § 6103. Instead, it focuses on taxpayer rights and the responsibilities of IRS employees, which does not directly answer the question.",
+  "provider": "deepseek"
+}

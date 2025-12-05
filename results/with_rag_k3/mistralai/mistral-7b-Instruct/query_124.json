@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "Project teams must answer all required inventory questions and provide responses with the clarity and detail necessary to understand the use case. (Document 3)",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:22:32.040766",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention the CDAO team, which is the correct entity responsible for reviewing AI use case inventory entries. Instead, it focuses on the responsibilities of project teams, which does not answer the question accurately.",
+  "provider": "openrouter"
+}

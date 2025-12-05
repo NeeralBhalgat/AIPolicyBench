@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "Answer: The document does not specify particular barriers. It only refers generally to “barriers to the Department’s use of AI” that the DOE AI Advancement Council will work to remove.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:57:23.508198",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not know the specific barriers faced by the DOE in adopting AI technologies, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

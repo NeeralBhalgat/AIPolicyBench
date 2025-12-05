@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "The AISWG (Artificial Intelligence Strategy Working Group) is not explicitly mentioned in the provided documents. However, the documents do describe the roles of the CAIO (Chief Artificial Intelligence Officer) and the AISB (Artificial Intelligence Strategy Board) in coordinating AI activity across NASA. The CAIO establishes AI governance in two tiers, while the AISB is responsible for defining the vision and strategy for AI, promoting AI adoption, and monitoring compliance with Federal guidelines. The AISB also facilitates agency-wide consensus on NASA AI policies and reviews the NASA AI use case registration process.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:23:36.756697",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides information about the roles of the CAIO and AISB, but it does not accurately reflect how the AISWG coordinates AI activity across NASA as described in the ground truth answer. The ground truth emphasizes collaboration with practitioners, which is not mentioned in the White Agent's response.",
+  "provider": "openrouter"
+}

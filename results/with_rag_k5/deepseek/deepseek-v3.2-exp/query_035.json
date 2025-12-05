@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "The workforce plan involves developing, recruiting, and retaining a diverse workforce with AI skills; upskilling and retraining workers to adapt to AI-driven changes; leveraging AI to enhance workforce capabilities and focus on high-impact activities; and using federal guidelines and authorities to support hiring, training, and workforce adaptation.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:35:39.322272",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes relevant concepts about workforce development and AI skills but does not accurately reflect the specific elements of the ground truth answer, such as 'humans-in-the-loop' and specific hiring strategies like 'Direct Hire' and 'fellowships'.",
+  "provider": "deepseek"
+}

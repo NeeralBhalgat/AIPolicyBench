@@ -1,0 +1,12 @@
+{
+  "query_id": 111,
+  "query": "What is DOT’s approach to removing barriers to responsible AI use?",
+  "response": "The documents provided do not contain information about the DOT's approach to removing barriers to responsible AI use.",
+  "ground_truth": "Using the AI Accelerator Roadmap and AISCC to reduce friction while managing safety, privacy, and civil rights risks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:09:15.444213",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the DOT's approach, which aligns with the 'miss' classification as it expresses uncertainty about the topic.",
+  "provider": "openrouter"
+}

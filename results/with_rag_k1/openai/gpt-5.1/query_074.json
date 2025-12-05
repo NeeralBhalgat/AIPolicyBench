@@ -1,0 +1,12 @@
+{
+  "query_id": 74,
+  "query": "What are the primary domains covered in the HHS Strategic Plan?",
+  "response": "The primary domains in the HHS Strategic Plan are:\n\n- Medical Research and Discovery  \n- Medical Product Development, Safety, and Effectiveness  \n- Healthcare Delivery  \n- Human Services Delivery  \n- Public Health",
+  "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:58:22.324447",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the primary domains covered in the HHS Strategic Plan, matching the ground truth answer without any discrepancies.",
+  "provider": "openrouter"
+}

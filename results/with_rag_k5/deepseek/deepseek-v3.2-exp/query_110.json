@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "The DOT excludes AI use cases from the Public Use Case Inventory if they are designated as \"research\" (basic or applied), mission-sensitive, safety-sensitive, confidential, or otherwise potential targets for malicious interference.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:42:16.209350",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the criteria for excluding AI use cases from the Public Use Case Inventory, aligning with the ground truth information regarding classified, sensitive, and research-only systems.",
+  "provider": "deepseek"
+}

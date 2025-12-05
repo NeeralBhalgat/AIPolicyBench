@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Near-term enablers & wins include:\n\n- The Plan for Responsible Use of AI in Public Benefits (HHS), which recommended enablers for effective AI adoption among STLTs, including improving data quality and access.  \n- Continuing to issue guidelines and establish interoperability standards for sharing data across programs, departments, levels of government, and community organizations.  \n- Identifying, with STLT and community organization input, priority areas of human services delivery with gaps in data quality and collection (e.g., translations for less widely spoken languages) and agreeing on a path forward for improvement.  \n- Promoting data quality standards, governance, and access to best practices in the human services ecosystem (and adjacent areas), including best practices for AI use to improve data processing and structuring.  \n- Exploring private sector collaborations to provide technical assistance to HHS, STLTs, and community organizations interested in improving data quality.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:54:40.278610",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a list of enablers and wins related to AI policy and safety, but it does not align with the ground truth answer, which mentions specific initiatives and entities like the AI Council and GAIRB. The response lacks factual accuracy regarding the specific near-term enablers and wins mentioned in the ground truth.",
+  "provider": "openrouter"
+}

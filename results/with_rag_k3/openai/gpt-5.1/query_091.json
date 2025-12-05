@@ -1,0 +1,12 @@
+{
+  "query_id": 91,
+  "query": "What is the main purpose of DHS Policy Statement 139-06?",
+  "response": "Answer: The purpose is to establish Department of Homeland Security policy for the use and acquisition of artificial intelligence, to advance AI innovation and governance while managing risks from the use of AI, particularly those affecting the safety or rights of individuals.",
+  "ground_truth": "To guide all DHS Components on the responsible acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technologies.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:41:47.692709",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the purpose of DHS Policy Statement 139-06, emphasizing the responsible use and acquisition of AI while managing risks, which aligns with the ground truth.",
+  "provider": "openrouter"
+}

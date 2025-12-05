@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The provided excerpt does **not** give the full legal definition of AI that the order adopts. It only supplies *technical context* for “the definition above,” noting that:\n\n- It **encompasses** AI subfields such as machine learning (including deep learning and supervised/unsupervised/semi‑supervised methods), reinforcement learning, transfer learning, and generative AI.  \n- It **excludes** robotic process automation and systems defined only by human‑written rules or that merely repeat an observed practice.  \n- No system is “too simple” to qualify based on technical complexity.  \n- It covers fully, partially, and non‑autonomous systems, with or without human oversight.\n\nThe actual legal definition text itself is not included in the excerpt provided.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:52:43.654166",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not provide the full legal definition of AI as per the order, which suggests uncertainty about the specific legal text. It does not directly answer the question regarding the legal definition.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "Before procuring AI through acquisition, the acquisition team must ensure the requirements document (Performance Work Statement (PWS)/Statement of Objective (SOO)/Statement of Work (SOW)) has been coordinated and approved by the Chief Artificial Intelligence Officer (CAIO). This is in accordance with GSAM 507.104(a)(6) and 511.170.",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:30:32.735815",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions the need for coordination and approval by the CAIO, which is partially correct, but it fails to include the requirement for review by the AI Safety Team as stated in the ground truth answer. This omission indicates that the response is not fully accurate.",
+  "provider": "openrouter"
+}

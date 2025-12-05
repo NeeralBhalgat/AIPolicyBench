@@ -1,0 +1,12 @@
+{
+  "query_id": 147,
+  "query": "What role does AISWG have in risk management?",
+  "response": "Answer: The role of AISWG in risk management is not described in the provided documents.",
+  "ground_truth": "Reviewing and approving safety/rights-impacting assessments and waivers.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:01:31.650922",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the role of AISWG in risk management, stating that it is not described in the provided documents. This reflects a lack of knowledge rather than providing a correct answer.",
+  "provider": "deepseek"
+}

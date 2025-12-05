@@ -1,0 +1,12 @@
+{
+  "query_id": 196,
+  "query": "How often must existing AI use cases be re-registered?",
+  "response": "Existing AI use cases must be re-registered with the AI Safety Team via the AI Request Form on an annual basis, with the exception of familiarization use cases.",
+  "ground_truth": "Annually, except for familiarization use cases.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:33:32.017220",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the re-registration of existing AI use cases, stating that it must occur annually, except for familiarization use cases.",
+  "provider": "deepseek"
+}

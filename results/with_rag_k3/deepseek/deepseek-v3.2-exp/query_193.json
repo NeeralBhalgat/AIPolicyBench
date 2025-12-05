@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Based on the provided documents, public-facing AI systems must include documentation of residual risks to inform end users about potential negative impacts.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:15:36.562179",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that public-facing AI systems must include documentation of residual risks, which does not align with the ground truth answer that specifies the need for plain-language notices and human alternatives.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 157,
+  "query": "What barrier relates to generative AI outputs?",
+  "response": "Answer: AI outputs that “lower the barrier for people to take intentional and harmful actions.”",
+  "ground_truth": "Quality control issues.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:02:37.832131",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer regarding barriers related to generative AI outputs, which is about quality control issues. Instead, it introduces a different concept related to harmful actions, which is not the correct focus.",
+  "provider": "deepseek"
+}

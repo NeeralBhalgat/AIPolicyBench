@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "TrUCKR tracks the compliance of AI applications and components with minimum risk management requirements for safety-impacting and rights-impacting use cases, including changes in AI application or component impacts on safety or rights for CAIO reassessment. It also documents final waiver decisions by the CAIO, which are reviewed by the NETT Council.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:12.355776",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides specific details about compliance tracking and waiver decisions, which are not part of the ground truth answer. The ground truth focuses on the broader scope of determinations and documentation throughout the AI lifecycle, making the White Agent's response factually incorrect.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 88,
+  "query": "How does DHS ensure transparency and accountability in its AI use?",
+  "response": "DHS ensures transparency and accountability in its AI use by requiring that the use of AI is transparent and explainable to its workforce and to those it serves. It publicly discloses AI use in plain language, along with any opt-out mechanisms, to the maximum extent possible, in accordance with applicable laws and government-wide and DHS policies. Additionally, AI outputs are made understandable, traceable, and auditable to the maximum extent possible against data standards and requirements. The design, development, deployment, and operation of AI at DHS also consider the humans using AI on behalf of DHS, using AI to interact with DHS, and those directly impacted by AI outputs, aligning with DHS’s commitment to deliver services that are transparent and responsive.",
+  "ground_truth": "By making AI use explainable, auditable, and publicly disclosed in plain language whenever possible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:19:35.762250",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by emphasizing the importance of transparency, explainability, and public disclosure in DHS's AI use, aligning well with the provided ground truth answer.",
+  "provider": "openrouter"
+}

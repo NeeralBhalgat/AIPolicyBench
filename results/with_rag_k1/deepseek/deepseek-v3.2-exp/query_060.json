@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "The provided document does not contain information about the DoD workforce and talent.",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:36:22.626497",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the DoD workforce and talent, which aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "openrouter"
+}

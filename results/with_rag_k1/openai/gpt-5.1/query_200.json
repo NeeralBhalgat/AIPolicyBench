@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "Before procuring AI through acquisition, any AI-related procurement considerations and acquisition plans must be submitted to the CAIO, coordinated and approved by the CAIO, and submitted to/reviewed by the AI Safety Team.",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:12:31.703890",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement of coordination with the CAIO and review by the AI Safety Team, aligning with the ground truth answer.",
+  "provider": "openrouter"
+}

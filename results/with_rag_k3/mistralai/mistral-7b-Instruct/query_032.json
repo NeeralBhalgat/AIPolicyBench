@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "The provided documents do not explicitly list 5 headline goals. However, the following goals are mentioned:\n\n1. **NRC AI Strategic Goal 5**: Building an AI foundation to pursue use cases across the NRC (Document 1).\n2. **USDA AI Strategy Goals**: Empowering employees, fostering innovation, encouraging collaboration, and promoting responsible, safe, and value-added use of AI (Document 3).\n\nFor a complete list of 5 headline goals, additional documents or context would be required.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:14:43.088639",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the existence of 5 headline goals and does not provide a complete list, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

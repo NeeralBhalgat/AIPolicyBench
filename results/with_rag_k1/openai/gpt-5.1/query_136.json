@@ -1,0 +1,12 @@
+{
+  "query_id": 136,
+  "query": "What role do IRS executives have in AI governance?",
+  "response": "Answer: The Chief Data and Analytics Officer (CDAO), who also serves as the IRS Responsible AI Official (RAIO), is the policy owner and program owner responsible for implementing and managing AI governance at the IRS.",
+  "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:05:26.864052",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately identifies the CDAO as the IRS Responsible AI Official and does not mention the requirement for IRS executives to manage AI use in compliance with the IRM, which is the core aspect of their role in AI governance.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 126,
+  "query": "What happens to AI use cases initiated during the interim period?",
+  "response": "AI use cases initiated during the interim period will be subject to any additional requirements in future policy updates, such as a post-hoc review and approval for continued use if they have elevated risk profiles.",
+  "ground_truth": "They may undergo post-hoc review once new policies are issued.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:41:52.366101",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that AI use cases initiated during the interim period will be subject to future policy updates, including post-hoc reviews for those with elevated risk profiles.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "Answer: The provided text does not state what the foundation of the DoD AI Hierarchy of Needs is.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:56:25.332094",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the foundation of the DoD AI Hierarchy of Needs, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 121,
+  "query": "Who oversees all internal and external IRS reporting on AI?",
+  "response": "The Chief Data and Analytics Officer (CDAO) oversees the collection and review of the AI use case inventory, which includes internal and external reporting on AI (Document 5, paragraph 3).",
+  "ground_truth": "The CDAO acting as the RAIO.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:28:55.039195",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly identifies the CDAO as the sole overseer of IRS reporting on AI, while the ground truth specifies that the CDAO acts as the RAIO, indicating a more specific role that is not captured in the White Agent's answer.",
+  "provider": "deepseek"
+}

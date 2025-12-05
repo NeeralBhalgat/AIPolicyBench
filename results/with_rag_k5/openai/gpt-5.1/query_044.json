@@ -1,0 +1,12 @@
+{
+  "query_id": 44,
+  "query": "How does the framework define risk in the context of AI?",
+  "response": "Answer: The framework defines AI risk in terms of the **“potential negative impacts of AI systems, such as threats to civil liberties and rights.”**",
+  "ground_truth": "Risk is a measure combining the probability of an event and the magnitude of its consequences.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:48:45.092290",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response misinterprets the definition of risk by focusing solely on potential negative impacts without addressing the essential components of risk, which include both the probability of an event and the magnitude of its consequences.",
+  "provider": "deepseek"
+}

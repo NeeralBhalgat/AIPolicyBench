@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "Answer: Before procuring AI through acquisition, the acquisition plan and solicitation must be coordinated with and approved by the Chief Artificial Intelligence Officer (CAIO), and all plans must be submitted to and reviewed by the AI Safety Team before proceeding.",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:57:09.370524",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement of coordination with the CAIO and review by the AI Safety Team, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

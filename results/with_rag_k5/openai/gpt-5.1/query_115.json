@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "DOT is “committed to the open sharing of AI custom code, models, and data” and:\n\n- The CAIO “will prioritize the sharing of custom-developed code, including commonly used packages and functions, models, and model weights, which have potential for reuse by other agencies and the public to the maximum extent possible in compliance with M‑24‑10 Section 4(d)(i).”  \n- For public release, “the CAIO will ensure TrAIN-related data, custom code, and models that clear the SR2 Committee’s security review as required under Executive Order 14110 Section 4.7(a) are shared with the public,” and will “maintain use case security review justification, documentation, and sharing methodologies in TrUCKR.”",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:57:44.688654",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides detailed information about DOT's commitment to sharing AI models and code, but it does not accurately reflect the ground truth answer, which emphasizes the use of OPEN Data workflows and Code.gov after security review. The response includes specific references that may not align with the actual practices, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

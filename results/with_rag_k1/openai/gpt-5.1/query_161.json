@@ -1,0 +1,12 @@
+{
+  "query_id": 161,
+  "query": "What mechanisms does NASA use to acquire AI talent?",
+  "response": "Answer: NASA uses the OPM 1560 Data Scientist Series positions and acquires AI talent through direct hires, federally funded research and development contractors, university grants, industry partnerships, internships, fellowships, and military transition opportunities.",
+  "ground_truth": "Direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:08:02.809184",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately lists several mechanisms NASA uses to acquire AI talent, including direct hires, industry partnerships, and internships, which align with the ground truth answer.",
+  "provider": "openrouter"
+}

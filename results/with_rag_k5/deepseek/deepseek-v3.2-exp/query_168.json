@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "Natural language processing, machine learning, and deep learning.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:46:57.232192",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists examples of AI sub-specialties that match the ground truth answer.",
+  "provider": "deepseek"
+}

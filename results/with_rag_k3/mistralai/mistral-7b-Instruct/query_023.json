@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The order clears the way for rapid AI action by removing red tape and onerous regulation (Document 1, Pillar I: Accelerate AI Innovation). It also encourages open-source and open-weight AI to foster innovation (Document 1, Pillar I). Additionally, it promotes the responsible sharing of AI vulnerability information to strengthen cybersecurity (Document 2, Pillar III).",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:14:04.994770",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses removing red tape and promoting open-source AI, but it does not accurately reflect the ground truth answer, which specifically mentions revoking existing AI policies and directives as the means to clear the way for rapid AI action.",
+  "provider": "openrouter"
+}

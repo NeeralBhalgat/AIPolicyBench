@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "Before an AI system can be deployed into production, it must comply with minimum risk management practices as outlined in M-24-10. If it does not, the Chief AI Officer (CAIO) will direct the suspension of deployment. Additionally, for GSA, the AI Safety Team must assess and adjudicate the use case, ensuring it is classified as \"Production or Production-Intent\" and does not involve non-public Federal Controlled Unclassified Information (CUI) data or interface with internal GSA systems.",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:22:15.227400",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirements for deploying an AI system into production, including compliance with risk management practices and the role of the Chief AI Officer, aligning with the ground truth answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "Before an AI system can be deployed into production, it must comply with the minimum risk management practices outlined in the DOJ's M-24-10 Compliance Plan. If the AI system does not comply, it may be suspended or terminated. Additionally, for all AI systems, they must be registered via GSA's AI Request Form, reviewed and dispositioned by the AI Safety Team, and meet the publication requirements outlined in the document \"15 files.pdf\".",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:28:48.981238",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes specific references to the DOJ's M-24-10 Compliance Plan and GSA's AI Request Form, which are not part of the ground truth answer. The requirement for CAIO and SR2 Committee authorization based on risk management compliance is not mentioned, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

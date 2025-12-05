@@ -1,0 +1,12 @@
+{
+  "query_id": 136,
+  "query": "What role do IRS executives have in AI governance?",
+  "response": "Executives in each IRS business unit are responsible for conducting and managing AI use within their business units in compliance with this IRM and other applicable policies, and for following the policies in the IRM related to AI.",
+  "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:00:03.836630",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the role of IRS executives in managing AI use within their business units in compliance with the IRM, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

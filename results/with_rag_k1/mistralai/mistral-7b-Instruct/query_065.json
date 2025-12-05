@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "The DOE faces barriers to the Department’s use of AI, which the DOE AI Advancement Council (AIAC) aims to remove. The specific barriers are not explicitly detailed in the provided document, but the AIAC's role includes developing governance to manage these barriers and associated risks.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:22:37.258573",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response acknowledges barriers but does not specify them, indicating uncertainty about the details. It does not provide the specific barriers mentioned in the ground truth answer.",
+  "provider": "openrouter"
+}

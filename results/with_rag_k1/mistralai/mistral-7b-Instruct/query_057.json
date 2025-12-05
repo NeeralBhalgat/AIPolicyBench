@@ -1,0 +1,12 @@
+{
+  "query_id": 57,
+  "query": "How will the DoD strengthen governance while removing policy barriers?",
+  "response": "The provided document does not contain specific information about how the DoD will strengthen governance while removing policy barriers.",
+  "ground_truth": "By creating risk-adjusted, collaborative governance that supports responsible, fast, and lawful AI adoption.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:22:04.032590",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of specific information regarding the DoD's approach, which reflects uncertainty rather than providing a definitive answer.",
+  "provider": "openrouter"
+}

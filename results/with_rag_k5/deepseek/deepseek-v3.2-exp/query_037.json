@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Data is readied for AI by making it visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS), and by treating it as a product to ensure proper management, governance, quality, and user-focused design.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:35:50.202177",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response introduces the VAULTIS framework, which is not part of the ground truth answer. While it touches on aspects of data management, it does not accurately reflect the specific measures mentioned in the ground truth, such as strengthening data catalog metadata and securing access to PII.",
+  "provider": "deepseek"
+}

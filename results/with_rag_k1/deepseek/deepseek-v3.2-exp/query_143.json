@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "The CAIO receives recommendations from OAs and OST-R.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:42:57.072582",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the sources of recommendations for the CAIO, stating OAs and OST-R instead of the correct entity, which is the AISWG.",
+  "provider": "openrouter"
+}

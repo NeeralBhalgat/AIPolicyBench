@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "According to the documents, internally developed AI code must be:\n1. Shared internally for consumption.\n2. Open-sourced to the public in public repositories, adhering to GSA’s Open Source Software (OSS) Policy (2107.1 CIO).\nExceptions apply if sharing is restricted by law, creates security or privacy risks, or due to contractual obligations. (Documents 1, 2, 4, 5)",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:34:06.542630",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI code developed internally, stating that it must be shared internally and open-sourced unless restricted, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

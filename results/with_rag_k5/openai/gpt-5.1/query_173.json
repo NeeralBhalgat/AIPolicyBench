@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Answer: Workforce training",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:04:48.551747",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response is too vague and does not provide a clear explanation for why workforce training is emphasized, lacking the necessary context about developing staff for evaluating AI technologies.",
+  "provider": "deepseek"
+}

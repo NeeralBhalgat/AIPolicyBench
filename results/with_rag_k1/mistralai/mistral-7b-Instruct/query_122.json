@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "The need to update an AI use case inventory entry is triggered once the use case has been initiated—that is, once the need for the use case has been expressed and its intended purpose and high-level requirements are documented.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:18.937548",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that the need to update an AI use case inventory entry is triggered only after the use case has been initiated, which does not align with the ground truth that any change affecting the accuracy of the record should trigger an update.",
+  "provider": "openrouter"
+}

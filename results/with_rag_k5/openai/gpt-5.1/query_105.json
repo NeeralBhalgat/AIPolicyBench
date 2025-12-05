@@ -1,0 +1,12 @@
+{
+  "query_id": 105,
+  "query": "What tool does DOT use to track AI use cases?",
+  "response": "Answer: DOT uses **TrUCKR** to track AI use cases.",
+  "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:56:25.994719",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies TrUCKR as the tool used by DOT to track AI use cases, which aligns with the ground truth information.",
+  "provider": "deepseek"
+}

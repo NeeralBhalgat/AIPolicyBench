@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "The IRS units can contact the CDAO team for information about opportunities and requirements for AI.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:00.266848",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the CDAO team as the contact for IRS units seeking AI-related guidance, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized to train the existing health AI workforce and educate the next generation of medical professionals, as well as to adapt or use internal training resources in various healthcare settings.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:29:01.223118",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on training the health AI workforce and educating medical professionals, which does not directly address the need for staff capable of evaluating advanced AI technologies and regulatory challenges as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

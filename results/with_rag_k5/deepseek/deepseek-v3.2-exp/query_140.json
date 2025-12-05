@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "IRM 10.5, Privacy and Information Protection, and IRM 10.8, Information Technology (IT) Security.",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:44:41.862522",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the relevant IRS privacy and security requirements as IRM 10.5 and IRM 10.8, which matches the ground truth answer.",
+  "provider": "deepseek"
+}

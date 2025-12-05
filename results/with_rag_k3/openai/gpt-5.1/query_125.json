@@ -1,0 +1,11 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:46:06.448868",
+  "confidence": 1.0,
+  "provider": "openrouter"
+}

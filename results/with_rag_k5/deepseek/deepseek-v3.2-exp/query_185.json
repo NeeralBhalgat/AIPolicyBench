@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "The directive applies throughout DHS and to Federal, State, Local, Tribal, and Territorial government, non-U.S. government, and international entities operated by or on behalf of DHS.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:48:18.036961",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the entities to which the directive applies, mentioning DHS and various levels of government, while the ground truth specifies GSA employees and contractors.",
+  "provider": "deepseek"
+}

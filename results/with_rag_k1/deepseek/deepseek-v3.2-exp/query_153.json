@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "The document does not specify when NASA will publish its AI Strategy.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:43:28.709485",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the publication date of NASA's AI Strategy, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

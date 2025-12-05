@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "The workforce plan involves several key initiatives:\n\n1. **HHS (Document 1)**:\n   - Expanding the AI capacity of the human services workforce by sharing best practices.\n   - Balancing concerns about workforce displacement and overreliance on AI while leveraging AI to enhance human services.\n\n2. **DOL and DOC (Document 2)**:\n   - Establishing a Workforce and Education AI Hub to analyze AI impacts and inform policy.\n   - Funding rapid retraining for workers displaced by AI and providing guidance for upskilling at-risk workers.\n   - Piloting new approaches to workforce challenges, including rapid retraining and adapting to AI-driven labor market changes.\n\n3. **USDA (Document 3)**:\n   - Developing, recruiting, and retaining a diverse workforce with AI skills.\n   - Prioritizing investments in AI and AI-enabling workforce training based on department-wide assessments.\n   - Ensuring humans remain involved in AI development, management, and use.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:15:02.427134",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed plan involving various departments and initiatives, but it does not align with the ground truth answer, which emphasizes specific strategies like keeping humans-in-the-loop and expanding hiring. The response includes initiatives that may not be accurate or relevant to the actual workforce plan described in the ground truth.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 107,
+  "query": "What is OPSLAB used for?",
+  "response": "Answer: OPSLAB is used to provide AI developers with an isolated, CAIO‑managed environment for use case experimentation, development, and maturation, including initial data and model risk management; it supports accelerated model compliance, security, and risk evaluations, data quality and bias assessments, and the determination of required AI architecture and costing for IT Spend Plan approval, operational deployment, and Authorization to Operate.",
+  "ground_truth": "Experimenting, developing, and assessing operational AI use cases.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:43:45.084363",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of OPSLAB, aligning with the ground truth answer regarding its use for experimenting, developing, and assessing operational AI use cases.",
+  "provider": "openrouter"
+}

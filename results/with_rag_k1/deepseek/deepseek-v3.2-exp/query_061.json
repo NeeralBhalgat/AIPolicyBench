@@ -1,0 +1,12 @@
+{
+  "query_id": 61,
+  "query": "Who are the designated Chief Artificial Intelligence Officer (CAIO) and Responsible AI Official (RAIO) for the Department of Energy?",
+  "response": "The designated Acting Chief AI Officer (CAIO) is Helena Fu, and the Responsible AI Official (RAIO) is Bridget Carper.",
+  "ground_truth": "Helena Fu serves as Acting CAIO and Bridget Carper serves as RAIO.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:36:26.779440",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies Helena Fu as the Acting CAIO and Bridget Carper as the RAIO, matching the ground truth information.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 156,
+  "query": "What barrier relates to data?",
+  "response": "The barrier related to data includes the availability of datasets for training and tuning, which is an industrywide challenge, especially for smaller and under-resourced healthcare delivery and payer organizations. Additionally, legacy databases and data stores were designed based on outdated requirements and do not reflect modern data management practices, making it difficult to ensure access to high-quality and well-curated data for AI training and consumption.",
+  "ground_truth": "Need to make data more AI-ready.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:31:21.734664",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses barriers related to data availability and legacy systems, which are relevant but does not directly address the ground truth answer about making data more AI-ready. The focus on industry challenges does not align with the specific need for data readiness for AI.",
+  "provider": "deepseek"
+}

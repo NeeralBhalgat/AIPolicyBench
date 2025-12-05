@@ -1,0 +1,12 @@
+{
+  "query_id": 158,
+  "query": "How is NASA addressing generative AI risks?",
+  "response": "NASA is addressing generative AI risks by emphasizing human verification and validation, science evaluation, and benchmarks for quality control. The NASA Chief Information Officer issued initial guidance for generative AI use in May 2023, and the CAIO is overseeing an update to this guidance in Fall 2024, with interim policy memorandums to address emerging concerns and mitigate risks.",
+  "ground_truth": "By emphasizing human verification, validation, and benchmarks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:43:56.495741",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects NASA's approach to addressing generative AI risks by emphasizing human verification, validation, and benchmarks, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

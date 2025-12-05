@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to provide the name, purpose, lifecycle status, risks, and benefits of their AI use cases in the AI inventory. They must also update the inventory record annually or when directed by the CDAO team, and review and validate the inventory record at least annually or when directed.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:29:55.686548",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the required elements that project teams must provide in the AI inventory, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

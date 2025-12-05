@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "All internally developed AI code must be shared internally and open-sourced to the public, unless restricted by law, national security, privacy, contractual obligations, or research and development use.",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:49:20.275995",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement that internally developed AI code must be shared internally and open-sourced unless restricted, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

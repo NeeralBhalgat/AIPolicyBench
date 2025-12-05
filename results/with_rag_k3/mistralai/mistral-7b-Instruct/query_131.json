@@ -1,0 +1,12 @@
+{
+  "query_id": 131,
+  "query": "What is excluded from “operational use”?",
+  "response": "The following are excluded from “operational use”:\n1. Preliminary development.\n2. Use in exploratory or research-only contexts that do not affect IRS business operations.\n\nThis is explicitly stated in both Document 1 and Document 2.",
+  "ground_truth": "Exploratory or research-only AI activity.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:22:53.880405",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies exploratory or research-only contexts as excluded from operational use, aligning with the ground truth answer.",
+  "provider": "openrouter"
+}

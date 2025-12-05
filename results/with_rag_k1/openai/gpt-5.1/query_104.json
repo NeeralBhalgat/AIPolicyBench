@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "The SR2 Committee collaborates with the CAIO to:\n\n- Exclude from the Public Use Case Inventory AI use cases that are mission-sensitive, safety-sensitive, confidential, or potential targets for malicious interference.  \n- Help update and revalidate all AI use cases in TrUCKR (at least annually or when modified) and evaluate whether each use case’s exemption from reporting in the Public Use Case Inventory continues to meet the exclusion criteria.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:01:39.250827",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides details about the SR2 Committee's activities but does not accurately reflect the ground truth answer, which focuses on reviewing safety-impacting and rights-impacting AI use cases before deployment. The response includes specific tasks that may not be part of the committee's primary function.",
+  "provider": "openrouter"
+}

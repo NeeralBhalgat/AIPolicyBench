@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "The ethical/risk frameworks guiding AI include the USDA's adaptation of the NIST AI Risk Management Framework (AI RMF) to meet USDA-specific needs, the NIST Cybersecurity Framework, the NIST Privacy Framework, the NIST Risk Management Framework, and the Secure Software Development Framework. Additionally, the HHS supports efforts to develop targeted guidelines on risk management and internal AI governance for health organizations based on the NIST AI Risk Management Framework and ASTP’s HTI-1 Final Rule.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:23:42.605516",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately lists relevant frameworks guiding AI, including the NIST AI Risk Management Framework and its adaptations, which aligns with the ground truth. However, it lacks mention of specific elements like bias mitigation and human oversight, which are also part of the ethical considerations.",
+  "provider": "deepseek"
+}

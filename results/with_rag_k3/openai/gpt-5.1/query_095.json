@@ -1,0 +1,12 @@
+{
+  "query_id": 95,
+  "query": "How will DHS prevent discriminatory effects in AI systems?",
+  "response": "DHS will prevent discriminatory effects in AI systems by:\n\n- Not collecting, using, or disseminating data, or establishing AI-enabled systems, “based on the inappropriate consideration of race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, nationality, medical condition, or disability,” and by continually striving “to minimize inappropriate bias utilizing standards required by law and policy.”  \n- Testing and validating AI “in use cases where discriminatory activity or effects may be possible, to ensure impermissible discrimination is not occurring and to aid in advancing equity and fundamentally fair treatment.”  \n- Using “civil rights evaluation methods, including disparate impact analysis where appropriate, to detect impermissible discriminatory treatment that may result from the use of AI in DHS processes and activities.”",
+  "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:42:21.349114",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the measures DHS will take to prevent discriminatory effects in AI systems, including testing and validating AI use cases and applying civil rights evaluation methods, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

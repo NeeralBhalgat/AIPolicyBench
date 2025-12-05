@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must adhere to risk management practices for AI systems, integrate AI risk into their Enterprise Risk Management (ERM) programs, and document and validate the implementation of these practices. They should also prioritize and manage AI risks through established protocols and ensure accountability across all levels. Additionally, they should align technical aspects of AI risk management with policies and operations, and use frameworks like the NIST AI RMF to govern, map, measure, and manage risks. [s]",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:33:18.585116",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the necessary actions agencies must take regarding AI risk management, including integrating AI risk into ERM programs and using frameworks like the NIST AI RMF, which aligns with the ground truth answer's emphasis on measuring and monitoring AI activities.",
+  "provider": "deepseek"
+}

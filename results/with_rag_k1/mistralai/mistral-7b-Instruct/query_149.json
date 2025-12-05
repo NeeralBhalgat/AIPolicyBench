@@ -1,0 +1,12 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "response": "AI Use Case owners must seek approval from the AI Governance Council before implementing any potentially rights-impacting or safety-impacting AI Use Cases.",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:27:48.135405",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that AI Use Case owners must seek approval from the AI Governance Council, while the ground truth answer specifies that they must update their entries in the new AI registry.",
+  "provider": "openrouter"
+}

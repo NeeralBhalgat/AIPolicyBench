@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "HHS will maintain a flexible approach that supports innovation while ensuring safe and responsible development and use of AI in STLT and community-based organizations (CBOs). It will also promote effective data sharing to support AI use, as seen through initiatives like TEFCA™ and USCDI+ for Public Health. Additionally, HHS has published a plan with recommendations for STLTs on choosing, procuring, designing, governing, and managing AI in public benefits administration.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:25:33.438338",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that HHS will maintain a flexible approach that supports innovation while ensuring safe and responsible AI use, which aligns with the provided ground truth answer.",
+  "provider": "deepseek"
+}

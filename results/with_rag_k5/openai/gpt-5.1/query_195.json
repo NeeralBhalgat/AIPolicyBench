@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "Answer: All new AI use case submissions must answer all required inventory questions and provide responses with the",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:07:50.564811",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not provide a complete answer to the question and lacks specific details about what must be included in new AI use case submissions.",
+  "provider": "deepseek"
+}

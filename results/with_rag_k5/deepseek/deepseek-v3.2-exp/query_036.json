@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "USDA will establish or adopt cost-effective, accessible, and flexible standards for AI infrastructure and tools, including a common infrastructure and toolset with the USDA AI Lab, a semi-federated AI infrastructure, and a hub-and-spoke model for code sharing and pilot development.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:35:44.596628",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the establishment of a semi-federated model and the hub-and-spoke approach, aligning with the ground truth information about USDA's AI infrastructure and tools.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "The NRC will evaluate technical areas such as those shown in Table 2, which may include topics like AI algorithms, models, and claims validation and testing. The evaluation will also consider the need for regulatory guidance updates, inspection procedures, and the integration of emerging AI tools. Additionally, the NRC will assess the impact of AI applications on the regulatory framework and identify potential gaps in future regulatory reviews. (Documents 2, 3, 4)",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:32:28.657695",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes some relevant topics but does not accurately reflect the specific technical considerations mentioned in the ground truth answer, such as bias, robustness, security, explainability, and model maintenance.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "Answer: OMB must revise two memoranda—OMB M‑24‑10 and OMB M‑24‑18—within 60 days to make them consistent with the January 23 Executive Order.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:46:06.369193",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer by stating that OMB must revise the specified memoranda within 60 days, which aligns with the requirements of the January 23 Executive Order.",
+  "provider": "deepseek"
+}

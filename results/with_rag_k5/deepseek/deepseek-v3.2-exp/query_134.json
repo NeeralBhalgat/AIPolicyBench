@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "Based on the documents, the federal guidance that remains in effect during the interim period includes executive orders from President Donald Trump that direct activities related to AI governance.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:44:08.977150",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly attributes the federal guidance to executive orders from President Trump without specifying the correct orders (EO 13859 and EO 13960), which are the relevant documents for AI governance during the interim period.",
+  "provider": "deepseek"
+}

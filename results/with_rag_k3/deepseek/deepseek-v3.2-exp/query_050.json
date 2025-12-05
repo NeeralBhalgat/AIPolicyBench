@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "NIST describes the AI RMF as a living document because it is intended to be regularly reviewed and updated, with a formal review expected no later than 2028, to ensure its content and usefulness remain current.",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:03:55.323865",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly specifies a formal review expected no later than 2028, which is not part of the ground truth. The essence of the living document concept is about regular updates based on new technologies and community feedback, not a specific timeline.",
+  "provider": "openrouter"
+}

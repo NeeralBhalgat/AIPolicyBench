@@ -1,0 +1,11 @@
+{
+  "query_id": 121,
+  "query": "Who oversees all internal and external IRS reporting on AI?",
+  "response": "",
+  "ground_truth": "The CDAO acting as the RAIO.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:28.334181",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

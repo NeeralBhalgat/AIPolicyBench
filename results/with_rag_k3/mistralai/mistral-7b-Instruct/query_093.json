@@ -1,0 +1,12 @@
+{
+  "query_id": 93,
+  "query": "Which Executive Order must DHS systems using AI comply with?",
+  "response": "DHS systems using AI must comply with Executive Order 14110, as mentioned in Document 3.",
+  "ground_truth": "Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:20:18.567817",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that DHS systems must comply with Executive Order 14110, while the correct order is Executive Order 13960. This is a factual error.",
+  "provider": "openrouter"
+}

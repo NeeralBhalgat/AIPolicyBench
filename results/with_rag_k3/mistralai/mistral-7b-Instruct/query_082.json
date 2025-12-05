@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "The DHS Chief Information Officer (DHS CIO) oversees AI and related infrastructure in support of DHS missions and activities. The Under Secretary for Strategy, Policy, and Plans leads, in collaboration with the DHS Chief Artificial Intelligence Officer (CAIO), the development of Department-wide strategies, policies, and plans regarding the use of AI at DHS and coordinates all aspects of the Department’s engagement in the National Security Council policy process.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:18:57.416112",
+  "confidence": 0.8,
+  "reasoning": "The response incorrectly attributes the leadership and coordination of AI use across DHS to the DHS Chief Information Officer and the Under Secretary for Strategy, Policy, and Plans, rather than correctly identifying the DHS Chief Artificial Intelligence Officer (CAIO) as the lead.",
+  "provider": "openrouter"
+}

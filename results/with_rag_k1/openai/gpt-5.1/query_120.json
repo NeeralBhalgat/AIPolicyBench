@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "Answer: TrUCKR records waiver requests and supporting justifications for minimum risk management requirements, documents CAIO final waiver decisions on those waivers, and tracks OA-reported changes in AI application or component impacts on safety or rights for risk reassessment.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:03:28.760874",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides specific details about waiver requests and decisions, which are not part of the ground truth answer. The ground truth encompasses a broader scope of all determinations and documentation throughout the AI lifecycle, which the White Agent's response does not fully capture.",
+  "provider": "openrouter"
+}

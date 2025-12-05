@@ -1,0 +1,12 @@
+{
+  "query_id": 158,
+  "query": "How is NASA addressing generative AI risks?",
+  "response": "NASA is addressing generative AI risks by emphasizing human verification and validation, science evaluation, and benchmarks; issuing and updating generative AI guidance; and establishing AI governance bodies to manage risks while advancing AI use.",
+  "ground_truth": "By emphasizing human verification, validation, and benchmarks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:12:49.847407",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects NASA's approach to addressing generative AI risks by mentioning human verification, validation, and benchmarks, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

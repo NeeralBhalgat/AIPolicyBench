@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "This directive cancels **Policy Statement 139-06, “Acquisition and Use of Artificial Intelligence and Machine Learning Technologies by DHS Components.”**",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:54:11.242799",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the canceled policy as Policy Statement 139-06, while the ground truth states it is the Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "Answer: Partnerships with international regulators will be used to share information on the use of AI in regulated activities, conduct cooperative research, and influence the development of international standards and guidance.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:52:28.571784",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the role of partnerships with international regulators in sharing information and influencing standards, aligning well with the ground truth answer.",
+  "provider": "openrouter"
+}

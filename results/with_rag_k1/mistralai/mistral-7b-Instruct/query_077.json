@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "The HHS does not use a specific framework in the provided document. However, the document mentions the \"AI Risk Management Framework (AI RMF 1.0)\" as a guideline for trustworthy AI development, which includes characteristics such as valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:23:22.296061",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the HHS uses the AI Risk Management Framework (AI RMF 1.0) for trustworthy AI development, while the ground truth indicates that the correct framework is the FAVES principles. This misrepresentation of the framework constitutes a factual inaccuracy.",
+  "provider": "openrouter"
+}

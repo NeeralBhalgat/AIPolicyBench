@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "All AI-generated data products **must be labeled as such in their metadata and be indexed and cataloged in the EDS system for internal discovery purposes.**",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:08:14.461561",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI-generated data products to be labeled in their metadata, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

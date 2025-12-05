@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "The workforce plan involves addressing workforce shortages and AI-related challenges by enhancing AI capabilities, providing rapid retraining for displaced workers, upskilling at-risk workers, and strategically developing, recruiting, and retaining a diverse AI-skilled workforce.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:02:36.349111",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes elements related to workforce planning and AI, but it does not accurately reflect the specific strategies mentioned in the ground truth answer, such as 'humans-in-the-loop' and 'advanced tracks for practitioners'.",
+  "provider": "openrouter"
+}

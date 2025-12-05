@@ -1,0 +1,11 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:35:21.202941",
+  "confidence": 1.0,
+  "provider": "openrouter"
+}

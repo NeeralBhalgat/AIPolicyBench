@@ -1,0 +1,11 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "I encountered an error while generating the response: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "error",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T12:28:54.687145",
+  "confidence": 0.0,
+  "provider": "deepseek"
+}

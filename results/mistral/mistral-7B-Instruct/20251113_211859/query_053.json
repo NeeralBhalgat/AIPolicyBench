@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "The five key strategic goals outlined in the strategy are:\n\n1. **AI Strategic Goal 1**: Continue to keep pace with technological innovations to allow for the safe and secure use of AI in NRC-regulated activities, when appropriate, through existing or new regulatory guidance, rules, inspection procedures, or oversight activities.\n2. **AI Strategic Goal 2**: Establish an organizational framework to review AI applications, including the creation of an internal Artificial Intelligence Steering Committee (AISC) for cross-office coordination and direction.\n3. **AI Strategic Goal 3**: (Not explicitly detailed in the provided documents, but implied as part of the preparatory activities supporting Goal 1).\n4. **AI Strategic Goal 4**: (Not explicitly detailed in the provided documents, but implied as part of the preparatory activities supporting Goal 1).\n5. **AI Strategic Goal 5**: Build the necessary AI foundation to pursue use cases across the NRC, fostering organizational experience that supports future regulatory reviews and oversight activities.\n\n(Note: Documents 1, 2, and 5 mention the five strategic goals but do not provide explicit details for Goals 3 and 4. The answer is based on the information available in the provided documents.)",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:23:19.790110",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists five strategic goals related to AI that do not match the ground truth answer, which outlines different strategic goals focused on foundational data management, enterprise capabilities, governance, infrastructure, and talent management.",
+  "provider": "deepseek"
+}

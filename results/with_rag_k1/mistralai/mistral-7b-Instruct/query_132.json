@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Project teams must update Model Card and Datasheet artifacts when the use case changes in a way that meaningfully affects the accuracy of the current artifacts.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:46.282214",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately states that project teams must update the Model Card and Datasheet artifacts, which aligns with the ground truth answer. The additional context about changing use cases affecting accuracy is relevant but not necessary for the core answer.",
+  "provider": "openrouter"
+}

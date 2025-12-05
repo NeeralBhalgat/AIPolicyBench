@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to **answer all required inventory questions and provide responses with the clarity and detail necessary to understand the use case**.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:59:59.463454",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for project teams to provide clear and detailed responses to all required inventory questions, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

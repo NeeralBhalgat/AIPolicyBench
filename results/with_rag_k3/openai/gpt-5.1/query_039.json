@@ -1,0 +1,12 @@
+{
+  "query_id": 39,
+  "query": "How will vendors and procurement be handled?",
+  "response": "Vendors and procurement will be handled by:\n\n- Working with vendors “to protect USDA data, especially PII, and proactively address any impacts related to ethics, integrity, and bias” and by encouraging “vendors to adopt minimum standard feature sets from NIST and USDA.”  \n- Working “with procurement and IT staff to incorporate standardized contract language in service and supply contracts to uphold USDA AI policies,” and educating “contracting officers on industry developments in AI to assist with holistic AI contract reviews and actions.”  \n- For GSA-funded procurements, using market research “to determine if AI will be offered as a solution,” and if so, requiring that acquisition plans and solicitations “must be submitted to the CAIO and reviewed by the AI Safety Team before proceeding,” with all AI acquisition",
+  "ground_truth": "Standard contract language on data rights/usage/privacy; disclose GenAI in products; monitor for “shadow AI”; prefer secure, compliant tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:35:42.396440",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides details about vendor and procurement processes but does not align with the ground truth answer, which emphasizes standard contract language on data rights and privacy, and monitoring for 'shadow AI'. The response includes additional information that is not factually correct or relevant to the ground truth.",
+  "provider": "openrouter"
+}

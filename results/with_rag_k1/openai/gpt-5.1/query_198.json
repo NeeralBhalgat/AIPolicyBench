@@ -1,0 +1,12 @@
+{
+  "query_id": 198,
+  "query": "What restrictions apply to internal GSA data?",
+  "response": "Answer: For certain AI use cases, internal GSA data and systems are restricted as follows: they **cannot use non-public Federal Controlled Unclassified Information (CUI) data or interface with internal GSA systems**, and research and development use of internal systems, processes, and data **may only take place in the Enterprise Data Solution environment or approved research environments.**",
+  "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:12:22.088325",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the restrictions on internal GSA data, including the prohibition of using non-public Federal Controlled Unclassified Information and the requirement for research to occur in approved environments, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

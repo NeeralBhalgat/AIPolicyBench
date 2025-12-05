@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized to develop and maintain a skilled workforce capable of using AI responsibly, improving efficiency, increasing AI adoption, and meeting current and future program needs.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:13:48.885530",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the importance of workforce training in a general context related to AI, but it does not accurately reflect the specific focus on developing staff to evaluate advanced AI technologies and regulatory challenges as stated in the ground truth answer.",
+  "provider": "openrouter"
+}

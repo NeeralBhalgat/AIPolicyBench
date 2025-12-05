@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "The AI Strategic Plan focuses on a broad spectrum of sub-specialties, including natural language processing, machine learning, and deep learning (Document 4).",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:32:13.263944",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists natural language processing, machine learning, and deep learning as examples of AI sub-specialties, which matches the ground truth answer.",
+  "provider": "deepseek"
+}

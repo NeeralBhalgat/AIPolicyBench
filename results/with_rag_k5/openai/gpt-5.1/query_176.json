@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "Answer:  \n\nThe NRC states that **automation** is “a system that automatically takes action on a specific task according to pre-defined, prescriptive rules,” such as reactor protection systems that actuate when parameters exceed defined limits. In contrast, **autonomy** is enabled by AI and is characterized by varying levels of independence from human intervention or oversight—“higher autonomy levels indicate less reliance on human intervention or oversight and, therefore, may require greater regulatory scrutiny.”",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:05:15.167131",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the NRC's framing of automation and autonomy, aligning well with the ground truth information provided.",
+  "provider": "deepseek"
+}

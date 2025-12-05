@@ -1,0 +1,11 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "I encountered an error while generating the response: Error code: 401 - {'error': {'message': 'User not found.', 'code': 401}}",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "error",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T12:28:55.595027",
+  "confidence": 0.0,
+  "provider": "deepseek"
+}

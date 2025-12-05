@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "The Artificial Intelligence Strategy Board (AISB) coordinates AI activity across NASA by defining the vision and strategy for AI, promoting AI adoption and innovation, establishing AI policy and procedural guardrails, identifying AI risk mitigation practices, and monitoring NASA's compliance with Federal guidelines.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:30:24.433888",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed description of the AISB's functions but does not accurately reflect the ground truth answer, which emphasizes collaboration with practitioners to understand AI work in the agency.",
+  "provider": "deepseek"
+}

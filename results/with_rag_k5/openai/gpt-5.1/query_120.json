@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "Answer: TrUCKR documents each AI use case’s adherence to minimum risk management tracking requirements throughout the AI use case lifecycle.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:21.563144",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately specifies that TrUCKR tracks adherence to minimum risk management tracking requirements, while the ground truth indicates it tracks all determinations, changes, reassessments, and documentation throughout the AI lifecycle, which is broader than just adherence to minimum requirements.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must ensure that all safety- and rights-impacting AI:\n\n- **Adheres to the risk management practices required in M‑24‑10 Section 5**, and  \n- Has its implementation of these minimum risk management practices **documented and validated**.\n\nIn addition, AI risk must be:\n\n- Treated as a **mandatory element of the Enterprise Risk Management (ERM) program** and **integrated into the risk register**,  \n- **Managed through established protocols at all appropriate levels** of the organization,  \n- **Periodically reviewed by a senior-level risk management council**, which ensures that AI risks are **known, quantified, reduced to acceptable levels, and prioritized in decision-making**.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:54:02.735163",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides specific practices and protocols related to AI risk management that are not aligned with the ground truth answer, which emphasizes measuring, monitoring, evaluating, and reporting on AI activities. The details given do not accurately reflect the core requirements stated in the ground truth.",
+  "provider": "openrouter"
+}

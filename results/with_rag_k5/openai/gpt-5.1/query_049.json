@@ -1,0 +1,12 @@
+{
+  "query_id": 49,
+  "query": "How does the Manage function contribute to AI risk management?",
+  "response": "The MANAGE function contributes to AI risk management by:\n\n- Using governance and measurement outputs “to decrease the likelihood of system failures and negative impacts.”  \n- Ensuring that “AI risks based on assessments and other analytical output from the MAP and MEASURE functions are prioritized, responded to, and managed.”  \n- Resulting in “plans for prioritizing risk and regular monitoring and improvement” so that “Framework users will have enhanced capacity to manage the risks of deployed AI systems and to allocate risk management resources based on assessed and prioritized risks.”",
+  "ground_truth": "It allocates resources and plans responses to identified risks, focusing on continuous monitoring and improvement.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:49:34.844100",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the role of the MANAGE function in AI risk management, aligning well with the ground truth answer regarding resource allocation, response planning, and continuous monitoring.",
+  "provider": "deepseek"
+}

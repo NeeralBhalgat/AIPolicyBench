@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "Answer: Developing new or updated **regulatory guidance and tools** to prepare NRC staff to **assess AI as part of NRC regulatory activities**, including AI applications in the **design and operation of nuclear facilities** that may require **regulatory approval or oversight**.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:08:44.800724",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately addresses the need for regulatory updates in the context of AI oversight, specifically mentioning the development of regulatory guidance and tools, which aligns with the ground truth answer regarding new guidance and updated procedures.",
+  "provider": "openrouter"
+}

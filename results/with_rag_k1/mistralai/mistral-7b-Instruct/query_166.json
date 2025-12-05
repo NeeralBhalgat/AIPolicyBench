@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "The major internal committees or groups that will support AI governance are the HHS AI Governance Board and the AI working groups within the Community of Practice (CoP).",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:28:43.592657",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response mentions the HHS AI Governance Board and AI working groups within the Community of Practice, which do not match the ground truth answer that specifies the Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP). This indicates a factual inaccuracy.",
+  "provider": "openrouter"
+}

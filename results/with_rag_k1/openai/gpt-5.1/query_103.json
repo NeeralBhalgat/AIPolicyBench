@@ -1,0 +1,12 @@
+{
+  "query_id": 103,
+  "query": "What is one role of the NETT Council as the AI Governance Board?",
+  "response": "One role of the NETT Council as the AI Governance Board is to **“review and approve all AI governance structures, processes, policies, and guidance.”**",
+  "ground_truth": "To review and approve all AI governance structures, policies, and guidance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:01:32.185542",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the role of the NETT Council in reviewing and approving AI governance structures, policies, and guidance.",
+  "provider": "openrouter"
+}

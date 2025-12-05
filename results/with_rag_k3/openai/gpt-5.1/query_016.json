@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "Answer: The provided documents do not identify any specific governance bodies that are required to coordinate AI across the entire government. They only describe NASA-internal AI governance bodies—the two-tier AI leadership bodies established by the CAIO (senior leaders and subordinate leaders) and NASA’s Autonomous Systems System Capability Leadership Team.",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:32:44.566142",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on NASA-specific governance bodies and fails to mention the required governance bodies like Agency AI Governance Boards and the Chief AI Officer Council, which are essential for coordinating AI across the government.",
+  "provider": "openrouter"
+}

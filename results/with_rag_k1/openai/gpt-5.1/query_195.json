@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "Answer: The provided document excerpt does not state what all new AI use case submissions must include.",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:12:05.994743",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the requirements for new AI use case submissions, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

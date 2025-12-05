@@ -1,0 +1,12 @@
+{
+  "query_id": 116,
+  "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+  "response": "An AI use case is determined to be safety-impacting or rights-impacting if its output serves as a principal basis for a decision or action used in real-world conditions, or significantly influences the outcomes of Department activities or decisions that impact safety or rights.",
+  "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:42:43.687262",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the criteria for determining whether an AI use case is safety-impacting or rights-impacting, emphasizing the significance of its influence on real-world decisions.",
+  "provider": "deepseek"
+}

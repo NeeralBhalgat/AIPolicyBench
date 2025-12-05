@@ -1,0 +1,12 @@
+{
+  "query_id": 106,
+  "query": "What is the ART Network used for?",
+  "response": "Answer: The Advanced Research and Testing (ART) Network is used to support AI research and development work by accelerating AI developer access to necessary tools through a platform of established, stand‑alone, IT‑compliant, AI‑enabled environments.",
+  "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:43:34.943840",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the ART Network's purpose in supporting AI research and development, aligning well with the ground truth answer.",
+  "provider": "openrouter"
+}

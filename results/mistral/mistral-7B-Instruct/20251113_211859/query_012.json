@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "M-25-21 does not replace any prior OMB memo. The document states: \"This memorandum does not supersede, and should be considered in concert with, other more general Federal policies.\"",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:19:55.486795",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that M-25-21 does not replace any prior OMB memo, while the ground truth indicates that it actually replaces OMB Memorandum M-24-10.",
+  "provider": "deepseek"
+}

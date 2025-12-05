@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "The AI RMF is described as a living document because it is \"regularly updated through an open, transparent process.\"",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:35:31.830911",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of why the AI RMF is considered a living document, emphasizing the importance of regular updates and an open process, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

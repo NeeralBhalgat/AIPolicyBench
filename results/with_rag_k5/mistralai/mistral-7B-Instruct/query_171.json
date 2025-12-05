@@ -1,0 +1,12 @@
+{
+  "query_id": 171,
+  "query": "What regulatory principle guides the NRC’s approach to AI readiness?",
+  "response": "The NRC’s approach to AI readiness is guided by the agency’s Principles of Good Regulation. This is explicitly mentioned in Document 3, which states, \"Guided by the agency’s Principles of Good Regulation, the NRC will continue to be effective and efficient as it conducts its safety and security mission.\"",
+  "ground_truth": "The agency’s Principles of Good Regulation.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:32:22.795231",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the NRC’s Principles of Good Regulation as the guiding principle for AI readiness, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "Based on the provided documents, there is no information about how the Department of Transportation (DOT) makes this decision. The documents only contain policies from the IRS (Department of the Treasury), the Department of the Interior (DOI), and the Department of Health and Human Services (HHS).",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:09:11.268269",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding DOT's decision-making process, which aligns with the 'miss' classification as it expresses uncertainty about the topic.",
+  "provider": "openrouter"
+}

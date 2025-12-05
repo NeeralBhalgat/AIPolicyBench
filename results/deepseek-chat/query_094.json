@@ -1,0 +1,12 @@
+{
+  "query_id": 94,
+  "query": "What types of data use are explicitly prohibited by DHS in AI systems?",
+  "response": "The prohibited types of data use in DHS AI systems include:\n1. Relying solely on AI outputs for law enforcement, civil enforcement, or denial of government benefits.\n2. Using AI to make decisions based on unlawful or improper considerations such as race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, nationality, medical condition, disability, emotional state, or future behavior predictions.\n3. Profiling, targeting, or discriminating against individuals or entities based on the aforementioned characteristics or in retaliation for exercising Constitutional rights.\n4. Using AI for unlawful or improper systemic, indiscriminate, or large-scale monitoring, surveillance, or tracking of individuals.\n5. Providing DHS data or AI outputs to third parties for prohibited uses.\n6. Any other uses of AI or associated data prohibited by applicable laws and government-wide or DHS policies.",
+  "ground_truth": "DHS may not use AI or data to make or support decisions based on race, ethnicity, gender, religion, or other protected traits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:27:21.182099",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the prohibited types of data use in DHS AI systems, particularly regarding the use of AI in decision-making based on protected characteristics, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

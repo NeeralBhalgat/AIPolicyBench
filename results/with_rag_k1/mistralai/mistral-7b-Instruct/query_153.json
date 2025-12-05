@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "The document does not specify a publication date for NASA's AI Strategy. It only mentions that the Artificial Intelligence Strategy Board (AISB) is responsible for reviewing and approving the strategy.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:27:59.920725",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the publication date of NASA's AI Strategy, which aligns with the 'miss' classification.",
+  "provider": "openrouter"
+}

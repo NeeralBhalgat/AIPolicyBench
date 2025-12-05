@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "The five strategic goals are not all explicitly listed together in the provided documents. However, the documents state that the AI Strategic Plan sets out five strategic goals, with AI Strategic Goal 1 being the ultimate outcome to allow for the safe and secure use of AI in NRC-regulated activities. AI Strategic Goals 2 through 5 support this outcome, and AI Strategic Goal 5 specifically involves building the necessary AI foundation to pursue use cases across the NRC.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:37:13.507184",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the five strategic goals are not explicitly listed and provides a vague description of the goals, which does not match the ground truth answer that clearly outlines the specific goals.",
+  "provider": "deepseek"
+}

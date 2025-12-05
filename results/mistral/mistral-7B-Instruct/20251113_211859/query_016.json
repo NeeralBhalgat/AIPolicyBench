@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "The required governance bodies to coordinate AI across government include:\n1. **Department of Commerce (DOC)** and its Economic Diplomacy Action Group, the U.S. Trade and Development Agency, the Export-Import Bank, the U.S. International Development Finance Corporation, and the Department of State (DOS) (Document 1).\n2. **NASA's AI governance bodies**:\n   - **CAIO (Chief Artificial Intelligence Officer)** with two tiers: senior leaders and subordinate leaders (Document 2).\n   - **Autonomous Systems System Capability Leadership Team (AS-SLCT)** (Document 2).\n3. **HHS (Health and Human Services) AI Governance Board** (Document 4).\n4. **Department of the Interior (DOI)** governance bodies (Document 5).\n\nThese bodies are responsible for coordinating AI policies, governance, and innovation across their respective agencies and, in some cases, with external partners.",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:20:14.335917",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response lists various governance bodies, but it does not accurately reflect the required governance bodies as stated in the ground truth answer, which specifically mentions Agency AI Governance Boards and a Chief AI Officer Council convened by OMB. The inclusion of NASA and HHS governance bodies is not aligned with the core requirements for coordinating AI across government.",
+  "provider": "deepseek"
+}

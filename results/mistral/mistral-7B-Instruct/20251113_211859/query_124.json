@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "The project teams are responsible for answering all required inventory questions and providing responses with the clarity and detail necessary to understand the use case. (Document 3)",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:29:19.655392",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly attributes the responsibility for reviewing AI use case inventory entries to project teams instead of the CDAO team, which is the correct answer.",
+  "provider": "deepseek"
+}

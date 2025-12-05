@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "Based on the documents provided, DHS leadership is responsible for:\n\n- Leading and coordinating the use of AI at DHS, managing risks from that use, and promoting AI innovation across the Department (DHS CAIO).\n- Overseeing AI and related infrastructure in support of DHS missions, ensuring compliance with cybersecurity requirements and alignment with customer experience commitments (DHS CIO).\n- Governing acquisition of AI programs and ensuring compliance with laws and policies (Under Secretary for Management).\n- Developing Department-wide strategies, policies, and plans regarding AI use (Under Secretary for Strategy, Policy, and Plans).\n- Coordinating and governing AI use issues, removing barriers, and managing risks through the AI Governance Board.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:41:14.497410",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately outlines the responsibilities of DHS leadership regarding AI adoption, including managing risks, ensuring compliance, and developing strategies, which aligns with the ground truth that emphasizes the need for trustworthy and effective AI use.",
+  "provider": "deepseek"
+}

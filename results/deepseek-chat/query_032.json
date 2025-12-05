@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "Based on the provided documents, the following are the headline goals:\n\n1. From Document 1: The NRC's AI Strategic Goals are not explicitly listed, but the goal is to build the necessary AI foundation to pursue use cases across the NRC.\n2. From Document 2: The goal for law enforcement agencies considering predictive policing tools is to assess goals with the community, engage public agencies, relevant community-based organizations, and other stakeholders, and establish consensus for the implementation process.\n3. From Document 3: The goal for the USDA is to empower employees and provide a robust, flexible, and transparent governance framework that fosters innovation, encourages collaboration, and promotes responsible, safe, and value-added use of AI.\n4. From Document 4: The goal for the DoD is to accelerate adoption of data, analytics, and AI technologies to build enduring decision advantage.\n5. From Document 5: The HHS's goals are to catalyze health AI innovation and adoption, promote trustworthy AI development and ethical and responsible use, democratize AI technologies and resources, cultivate AI-empowered workforces and organization cultures, and focus on four key goals within each primary domain.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:23:04.498235",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer regarding the 5 headline goals. Instead, it provides specific goals from various documents that do not align with the stated goals of governance, workforce readiness, infrastructure, data readiness, and ethical AI.",
+  "provider": "deepseek"
+}

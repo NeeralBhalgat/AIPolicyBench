@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Near-term enablers and wins (from the documents) include:\n\n**Enablers / Near-term priorities**\n- Continue to issue guidelines and establish interoperability standards for sharing data across programs, departments, levels of government, and community organizations.  \n- Identify, with STLT and community organization input, priority areas of human services delivery with gaps in data quality and collection and agree on a path forward for improvement.  \n- Promote data quality standards, governance, and access to best practices, including best practices for AI use to improve data processing and structuring.  \n- Explore private sector collaborations to provide technical assistance to HHS, STLTs, and community organizations on improving data quality.  \n- Establish",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:48:18.790339",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists enablers and priorities related to data quality and collaboration, which do not align with the specific near-term enablers and wins mentioned in the ground truth answer, such as the establishment of the AI Council and the launch of the Innovation Hub. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

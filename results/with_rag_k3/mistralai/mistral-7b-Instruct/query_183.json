@@ -1,0 +1,12 @@
+{
+  "query_id": 183,
+  "query": "What do federal laws and executive orders require agencies to ensure about AI systems?",
+  "response": "Federal laws and executive orders require agencies to ensure the following about AI systems:\n1. **Ongoing Monitoring and Mitigation**: Agencies must implement ongoing monitoring to detect unforeseen circumstances, changes to AI systems, or changes to the context of use or associated data. They must also implement appropriate mitigations and ensure proper system and use documentation, with traceability and transparency where possible (Document 1).\n2. **Human Training and Assessment**: Agencies must ensure sufficient and periodic training, assessment, and oversight for operators of AI to interpret and act on the AI's output and manage associated risks (Document 1).\n3. **Human Oversight, Intervention, and Accountability**: Agencies must ensure human oversight, intervention, and accountability suitable for high-impact use cases, including appropriate fail-safes to minimize the risk of significant harm (Documents 1 and 2).\n4. **Remedies or Appeals**: Agencies must ensure that individuals affected by AI-enabled decisions have access to a timely human review and a chance to appeal any negative impacts, when appropriate (Documents 1 and 2).\n5. **End User and Public Feedback**: Agencies must provide an option for end users and the public to submit feedback on the use case and incorporate such feedback into decision-making regarding the AI (Document 2).\n6. **Adherence to Guiding Principles**: Agencies must abide by nine guiding principles for government use of AI, as outlined in EO 13960, and collect and report an annual AI use case inventory (Document 3).",
+  "ground_truth": "They must comply with federal law while advancing equity, safety, and privacy.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:25:58.191159",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides detailed requirements for agencies regarding AI systems, but it does not accurately reflect the ground truth answer, which emphasizes compliance with federal law while advancing equity, safety, and privacy. The response includes specific operational details that may not be universally mandated by federal laws and executive orders.",
+  "provider": "openrouter"
+}

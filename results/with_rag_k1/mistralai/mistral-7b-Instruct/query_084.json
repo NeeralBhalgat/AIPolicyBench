@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "The Directive prohibits the following uses of AI:\na. Relying solely on AI outputs for law enforcement or civil enforcement actions, or denying government benefits.\nb. Using AI to make decisions based on unlawful or improper considerations of race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, nationality, medical condition, disability, emotional state, or future behavior predictions.\nc. Profiling, targeting, or discriminating against individuals or entities based on the aforementioned characteristics or in retaliation for exercising Constitutional rights.\nd. Using AI for unlawful or improper systemic, indiscriminate, or large-scale monitoring, surveillance, or tracking of individuals.\ne. Providing DHS data or AI outputs to third parties for prohibited uses under applicable laws and policies.\nf. Other uses prohibited by applicable laws and government-wide or DHS policies.",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:23:48.952569",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibitions outlined in the Directive, including the reliance on AI outputs for law enforcement, discriminatory uses, and unlawful surveillance, which align with the ground truth answer.",
+  "provider": "openrouter"
+}

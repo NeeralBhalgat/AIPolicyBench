@@ -1,0 +1,12 @@
+{
+  "query_id": 62,
+  "query": "What is the purpose of the DOE AI Advancement Council (AIAC)?",
+  "response": "Answer: The DOE AI Advancement Council (AIAC) serves as the principal forum for collaboration and coordination of AI-related activities across DOE and with external stakeholders, providing oversight and strategic direction for DOE’s use of AI and developing governance for DOE’s research, development, deployment, and utilization of AI technologies and tools, including methods for managing associated risks.",
+  "ground_truth": "To coordinate and oversee AI activities across the DOE and provide strategic direction on AI use.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:51:36.273135",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOE AI Advancement Council, aligning well with the ground truth answer regarding coordination, oversight, and strategic direction for AI activities within the DOE.",
+  "provider": "deepseek"
+}

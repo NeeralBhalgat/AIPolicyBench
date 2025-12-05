@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "The documents do not specify a process that AISWG will develop for AI lifecycle management.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:43:06.577695",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of knowledge about the specific process AISWG will develop, which aligns with the 'miss' classification as it expresses uncertainty.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "Answer: Because it is *consensus-driven* and is to be “**developed and regularly updated through an open, transparent process**,” in which “**all stakeholders should have the opportunity to contribute to the AI RMF’s development**.”",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:55:54.969664",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the nature of the AI RMF as a living document by emphasizing its consensus-driven approach and the importance of stakeholder contributions, which aligns with the idea of regular updates based on community feedback and evolving standards.",
+  "provider": "openrouter"
+}

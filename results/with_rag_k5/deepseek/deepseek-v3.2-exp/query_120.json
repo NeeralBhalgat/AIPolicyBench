@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "TrUCKR tracks use case adherence to minimum risk management requirements throughout the AI use case lifecycle, documents potential safety-impacting and rights-impacting risks, and records waiver requests, decisions, and mitigation plans.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:43:01.430081",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides specific details about what TrUCKR tracks, but it does not align with the ground truth answer, which is broader and encompasses all determinations and documentation throughout the AI lifecycle. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

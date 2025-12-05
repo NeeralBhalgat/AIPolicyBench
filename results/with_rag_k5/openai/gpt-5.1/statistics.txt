@@ -1,0 +1,20 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: http://localhost:9002
+White Agent Model: openai/gpt-5.1
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251114_004254
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 200
+Correct: 109 (54.50%)
+Miss: 45 (22.50%)
+Hallucination: 46 (23.00%)
+Factuality Rate: 54.00%
+
+================================================================================

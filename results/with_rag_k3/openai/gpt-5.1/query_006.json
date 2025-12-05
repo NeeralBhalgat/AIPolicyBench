@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "Answer: **“Expand our ability to recruit, empower, and retain AI-skilled practitioners by developing an AI talent management framework.”**",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:31:34.699668",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on recruiting and retaining AI-skilled practitioners, which does not align with the ground truth emphasis on a worker-first agenda that includes AI literacy, skills development, and rapid retraining.",
+  "provider": "openrouter"
+}

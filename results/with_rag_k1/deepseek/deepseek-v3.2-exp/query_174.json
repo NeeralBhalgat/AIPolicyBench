@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "The NRC will engage with international counterparts and multilateral organizations to collaborate in sharing information on the use of AI in NRC-regulated activities, conduct cooperative research, and influence the development of international standards and guidance.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:44:59.050048",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of partnerships with international regulators in terms of information sharing, collaboration, and influencing standards, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

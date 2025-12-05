@@ -1,0 +1,12 @@
+{
+  "query_id": 130,
+  "query": "Which IRM subsection requires Privacy and Civil Liberties Impact Assessments?",
+  "response": "The IRM subsection that requires Privacy and Civil Liberties Impact Assessments is IRM 10.5.2.2.",
+  "ground_truth": "IRM 10.5.2.2.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:29:28.457402",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the IRM subsection that requires Privacy and Civil Liberties Impact Assessments, matching the ground truth answer.",
+  "provider": "deepseek"
+}

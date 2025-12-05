@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "AI systems that are safety- or rights-impacting are subject to additional minimum requirements, including transparent governance and compliance processes, and must comply with specific controls by December 1, 2024, or cease operations. Waivers from these requirements may be requested from the CAIO and AI Governing Board.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:06:59.363901",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response includes specific requirements and deadlines that are not part of the ground truth answer, which focuses on human oversight and rigorous testing. Therefore, the response is factually incorrect.",
+  "provider": "openrouter"
+}

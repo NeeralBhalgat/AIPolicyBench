@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "The CAIO, in collaboration with OAs and OST-R, will ensure that all AI use cases will be tracked within TrUCKR through the AI Accelerator Roadmap from conception to retirement. (Document 1)",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:22.701913",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not mention the AISWG, which is the correct entity providing recommendations to the CAIO. Instead, it discusses the CAIO's collaboration with other groups, which is not relevant to the question asked.",
+  "provider": "deepseek"
+}

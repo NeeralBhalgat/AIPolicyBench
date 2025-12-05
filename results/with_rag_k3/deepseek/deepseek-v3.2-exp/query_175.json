@@ -1,0 +1,12 @@
+{
+  "query_id": 175,
+  "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+  "response": "Higher autonomy levels may require greater regulatory scrutiny of the AI system.",
+  "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:13:59.264081",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the need for greater regulatory scrutiny as autonomy levels increase, aligning with the ground truth that higher autonomy reduces human oversight.",
+  "provider": "openrouter"
+}

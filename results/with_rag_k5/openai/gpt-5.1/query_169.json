@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "Answer: The provided documents do not include a definition of “machine learning” by the NRC. They define “artificial intelligence (AI)” but do not specifically define the term “machine learning.”",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:04:00.647378",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that it does not have a definition of 'machine learning' from the NRC, which reflects uncertainty about the information. It does not provide a definitive answer or claim to know the definition.",
+  "provider": "deepseek"
+}

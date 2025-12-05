@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "System owners must document the stakeholders impacted by the AI system, assess potential failure modes, and ensure the benefits outweigh the risks. They must also evaluate the quality of the data used in AI design, development, training, testing, and operation. Additionally, AI Use Case owners must seek approval from the AI Governance Council before implementing potentially rights-impacting or safety-impacting AI Use Cases, implement risk management practices, and certify compliance annually through the AI Use Case Inventory process. [s]",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:26:30.254381",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides detailed steps that system owners should take regarding AI use cases, but it does not align with the ground truth answer, which specifically states that all use cases must be reported to the AI Safety Team and updated after major changes. The response includes additional information that is not part of the ground truth, indicating a misunderstanding of the core requirement.",
+  "provider": "openrouter"
+}

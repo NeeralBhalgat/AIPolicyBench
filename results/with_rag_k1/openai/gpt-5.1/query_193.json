@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "The provided document excerpt does not specify what public-facing AI systems must include.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:11:55.304299",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the document excerpt does not specify what public-facing AI systems must include, which reflects uncertainty about the content rather than providing a definitive answer.",
+  "provider": "openrouter"
+}

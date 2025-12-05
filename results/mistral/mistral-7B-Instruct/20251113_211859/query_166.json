@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "Based on the provided documents, the major internal committees or groups that will support AI governance are:\n\n1. HHS OCAIO (Health and Human Services Office of the Chief AI Officer) - as mentioned in Document 1, they will strengthen and formalize a comprehensive governance structure, provide guidelines, enrich the Community of Practice, and establish a regular cadence for reviewing AI governance structures.\n\n2. DHS AI Governance Board - as mentioned in Document 3, they provide coordinated and collaborative governance on issues related to the use of AI at DHS, and are responsible for coordinating and governing issues related to the use of AI within DHS.\n\n3. DHS AI Council - as mentioned in Document 4, they serve as a primary coordination entity among DHS officials responsible for aspects of AI adoption and risk management.\n\n4. USDA AI Governance Bodies - as mentioned in Document 5, they will oversee USDA's progress towards the AI vision mapped in their strategy.",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:32:01.981209",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists several committees that are not mentioned in the ground truth answer, which specifically identifies the Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP) as the major internal groups for AI governance. The response includes incorrect entities and does not align with the provided ground truth.",
+  "provider": "deepseek"
+}

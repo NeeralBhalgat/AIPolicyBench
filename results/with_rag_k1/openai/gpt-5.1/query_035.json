@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "Answer: HHS’s near-term workforce plan is to **“share best practices from the human services delivery ecosystem for expanding the workforce’s AI capacity.”**",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:53:58.977093",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer regarding the workforce plan. It focuses on sharing best practices rather than the specific strategies mentioned in the ground truth, such as hiring expansions and AI literacy initiatives.",
+  "provider": "openrouter"
+}

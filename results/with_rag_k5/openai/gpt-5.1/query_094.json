@@ -1,0 +1,12 @@
+{
+  "query_id": 94,
+  "query": "What types of data use are explicitly prohibited by DHS in AI systems?",
+  "response": "DHS explicitly prohibits the following uses of data and AI:\n\n- “Using data associated with the use of AI at DHS, or deploying AI, to make or support decisions based on the unlawful or improper consideration of race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, nationality, medical condition, disability, emotional state, or future behavior predictions;  \n- Improperly profiling, targeting, or discriminating against any individual or entity based on the individual characteristics identified above or in retaliation for exercising Constitutional rights;  \n- Using AI for unlawful or improper systemic, indiscriminate, or large-scale monitoring, surveillance, or tracking of individuals;  \n- Providing DHS data, or outputs from the use of AI at DHS, to third parties for uses of AI that are prohibited by applicable laws and government-wide and DHS policies, including this Directive; and  \n- Other uses of AI or associated data that are prohibited by applicable laws and government-wide and DHS policies.”",
+  "ground_truth": "DHS may not use AI or data to make or support decisions based on race, ethnicity, gender, religion, or other protected traits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:55:06.970715",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibitions set by DHS regarding the use of data and AI, including the specific characteristics that cannot be considered in decision-making processes. It aligns well with the ground truth answer.",
+  "provider": "deepseek"
+}

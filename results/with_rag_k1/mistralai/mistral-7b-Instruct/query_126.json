@@ -1,0 +1,12 @@
+{
+  "query_id": 126,
+  "query": "What happens to AI use cases initiated during the interim period?",
+  "response": "AI use cases that begin operational use in this interim period will be subject to any additional requirements in future policy updates.",
+  "ground_truth": "They may undergo post-hoc review once new policies are issued.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:30.134906",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response suggests that AI use cases will be subject to additional requirements in future policy updates, which does not align with the ground truth that specifies they may undergo post-hoc review once new policies are issued.",
+  "provider": "openrouter"
+}

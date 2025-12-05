@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "The strategy emphasizes the need to identify the talent and skills required by the DoD workforce to leverage AI at scale, implement talent development programs to meet AI workforce requirements, and drive the effective employment of AI-enabled capabilities. Additionally, it highlights the importance of attracting, recruiting, and flexibly hiring digital talent, as well as executing pilots to identify organic talent and establish a cadre of Service members and civilians to build and apply digital solutions for challenging missions.",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:17:15.216507",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the emphasis on identifying talent and skills, implementing development programs, and attracting digital talent, which aligns with the ground truth about hiring, training, and retaining skilled workers in AI-related roles.",
+  "provider": "openrouter"
+}

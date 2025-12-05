@@ -1,0 +1,12 @@
+{
+  "query_id": 116,
+  "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+  "response": "SBA has adopted the OMB definitions of safety-impacting and rights-impacting AI and plans to elaborate upon these definitions in an “AI Questions and Considerations” document that will be presented to the SBA AI Governance Council.",
+  "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:09:45.057284",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not directly address what determines whether an AI use case is safety-impacting or rights-impacting. Instead, it references the SBA's adoption of definitions without providing the criteria for classification, which leads to a misalignment with the ground truth answer.",
+  "provider": "openrouter"
+}

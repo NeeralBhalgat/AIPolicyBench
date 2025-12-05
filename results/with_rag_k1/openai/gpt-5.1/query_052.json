@@ -1,0 +1,12 @@
+{
+  "query_id": 52,
+  "query": "What does the strategy mean by “decision advantage”?",
+  "response": "Answer: The strategy defines “decision advantage” as a **competitive condition** characterized by:\n- Battlespace awareness and understanding  \n- Adaptive force planning and application  \n- Fast, precise, and resilient kill chains  \n- Resilient sustainment support  \n- Efficient enterprise business operations",
+  "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:56:07.137569",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a list of characteristics related to 'decision advantage' but does not accurately capture the essence of the term as defined in the ground truth, which emphasizes making faster, better, and more informed decisions.",
+  "provider": "openrouter"
+}

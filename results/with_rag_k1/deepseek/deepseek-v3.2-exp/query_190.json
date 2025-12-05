@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "System Owners are responsible for the acquisition, development, maintenance, implementation, and operation of GSA's IT systems, including AI use cases, and they represent the interests of the system throughout its lifecycle, with primary responsibility for managing risk.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:46:33.588398",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the responsibilities of system owners in a general sense but does not address the specific requirement to report AI use cases to the AI Safety Team, which is the key aspect of the ground truth answer.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 1,
+  "query": "What are the three pillars of America’s AI Action Plan?",
+  "response": "Based on the provided text, only one pillar is named:\n\n- **Pillar I: Accelerate AI Innovation**\n\nThe other two pillars are not shown in the excerpt, so they cannot be identified from the information provided.",
+  "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:49:54.410683",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response identifies only one pillar and admits that the other two cannot be identified from the provided information, indicating uncertainty.",
+  "provider": "openrouter"
+}

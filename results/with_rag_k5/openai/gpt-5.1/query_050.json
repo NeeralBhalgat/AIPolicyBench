@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "Answer: NIST describes the AI RMF as a living document because it “should be readily updated as technology, understanding, and approaches to AI trustworthiness and uses of AI change and as stakeholders learn from implementing AI risk management generally and this framework in particular,” and NIST will “review the content and usefulness of the Framework regularly to determine if an update is appropriate.”",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:49:40.865931",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects NIST's description of the AI RMF as a living document, emphasizing the need for regular updates based on technological advancements and stakeholder feedback, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

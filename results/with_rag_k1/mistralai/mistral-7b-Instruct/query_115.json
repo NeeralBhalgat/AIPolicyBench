@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "The CAIO will ensure TrAIN-related data, custom code, and models that clear the SR2 Committee’s security review as required under Executive Order 14110 Section 4.7(a) are shared with the public.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:25:50.445125",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions the CAIO and the SR2 Committee's security review, which is not part of the ground truth answer. The ground truth specifies the use of OPEN Data workflows and Code.gov, which the White Agent does not mention, indicating a factual inaccuracy.",
+  "provider": "openrouter"
+}

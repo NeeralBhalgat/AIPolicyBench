@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "The interim policy for AI governance remains in effect while the IRS awaits revised guidance from OMB and Treasury per EO 14179.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:26:54.067028",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly references IRS guidance and mentions EO 14179, which is not the correct federal guidance in effect for AI. The correct guidance is EO 13859 and EO 13960.",
+  "provider": "openrouter"
+}

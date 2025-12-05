@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "The near-term enablers and wins include:\n- Continuing to issue guidelines and establish interoperability standards for sharing data across programs, departments, levels of government, and community organizations.\n- Identifying priority areas of human services delivery with gaps in data quality and collection, and aligning on a path forward for improvement.\n- Promoting data quality standards, governance, and access to best practices, including best practices for AI use to improve data processing and structuring.\n- Exploring private sector collaborations to provide technical assistance for improving data quality.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:20:51.757513",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses general strategies for improving data quality and collaboration but does not align with the specific near-term enablers and wins mentioned in the ground truth answer, which includes specific initiatives and entities like the AI Council and GAIRB.",
+  "provider": "openrouter"
+}

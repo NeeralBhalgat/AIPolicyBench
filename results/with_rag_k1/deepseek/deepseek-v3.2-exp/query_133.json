@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "An AI use case is initiated once the need for the use case has been expressed and its intended purpose and high-level requirements are documented.",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:42:17.410869",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the IRS definition of an AI use case, which specifically refers to a business use of an AI technique to solve a problem or increase efficiency. The response provided is more about the process of initiating a use case rather than defining it.",
+  "provider": "openrouter"
+}

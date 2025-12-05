@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "The documents provided do not explicitly list examples of AI sub-specialties covered in the plans. However, Document 4 mentions a broad spectrum of sub-specialties such as natural language processing, machine learning, deep learning, which could encompass various algorithms and application examples.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:31:56.496046",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response correctly identifies natural language processing, machine learning, and deep learning as examples of AI sub-specialties, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

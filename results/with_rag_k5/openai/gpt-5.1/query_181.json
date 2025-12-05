@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "Answer:\n\nBased",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:06:00.690099",
+  "confidence": 0.1,
+  "reasoning": "The White Agent's response is incomplete and does not provide a definition or explanation of a use case as defined by the NRC. The word 'Based' does not relate to the question and does not convey any relevant information.",
+  "provider": "deepseek"
+}

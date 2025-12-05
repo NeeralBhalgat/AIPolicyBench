@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "The provided document does not mention the purpose of the AISCC.",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:40:29.224220",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of knowledge about the purpose of the AISCC, which aligns with the 'miss' classification as it does not provide the correct information.",
+  "provider": "openrouter"
+}

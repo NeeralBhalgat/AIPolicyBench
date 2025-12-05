@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "The document does not provide information on how data is readied for AI.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:34:38.891255",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a lack of information regarding how data is readied for AI, which aligns with the 'miss' classification as it expresses uncertainty.",
+  "provider": "openrouter"
+}

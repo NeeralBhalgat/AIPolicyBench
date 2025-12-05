@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The plan targets legal risks from AI by supporting the development of policies and practices that protect civil rights, civil liberties, privacy, and equity, and that promote democratic values in the building, deployment, and governance of automated systems. It describes academic studies, policy proposals, and advocacy positions, but does not constitute binding guidance or U.S. government policy. (Document 3)",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:19:49.577901",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses general legal risks related to civil rights and privacy but does not address the specific legal risk of malicious deepfakes mentioned in the ground truth answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

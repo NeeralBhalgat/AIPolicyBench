@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "Answer: An AI use case inventory entry must be updated when:\n\n- “a change occurs to the use case that meaningfully affects the accuracy of the current record,” such as “changes to the use case’s name, purpose, lifecycle status, risks, or benefits,” and  \n- at least annually or “when directed by the CDAO team.”",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:34.490365",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the conditions under which an AI use case inventory entry should be updated, aligning with the ground truth that any change affecting the accuracy of the record necessitates an update.",
+  "provider": "deepseek"
+}

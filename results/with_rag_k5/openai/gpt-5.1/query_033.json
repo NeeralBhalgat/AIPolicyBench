@@ -1,0 +1,11 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:46:54.718641",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

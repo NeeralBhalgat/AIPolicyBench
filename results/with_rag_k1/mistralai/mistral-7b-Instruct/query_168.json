@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "The document does not explicitly mention specific AI sub-specialties covered in the plan.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:28:47.572989",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the document does not mention specific AI sub-specialties, which reflects uncertainty about the content rather than providing a definitive answer.",
+  "provider": "openrouter"
+}

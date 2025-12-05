@@ -1,0 +1,12 @@
+{
+  "query_id": 51,
+  "query": "What is the main purpose of the DoD Data, Analytics, and Artificial Intelligence Adoption Strategy?",
+  "response": "Answer: The main purpose of the DoD Data, Analytics, and Artificial Intelligence Adoption Strategy is **“to accelerate adoption of data, analytics, and AI technologies to build enduring decision advantage.”**",
+  "ground_truth": "To guide the Department in adopting data, analytics, and AI to strengthen decision-making and gain enduring decision advantage.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:37:20.350656",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the main purpose of the DoD Data, Analytics, and Artificial Intelligence Adoption Strategy, which is to accelerate the adoption of these technologies to enhance decision-making capabilities.",
+  "provider": "openrouter"
+}

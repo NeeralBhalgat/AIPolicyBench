@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "The federal policy that defines AI for IRS purposes is EO 13859 of February 11, 2019, on Maintaining American Leadership in Artificial Intelligence.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:04.754836",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies EO 13859 as the defining federal policy for AI for IRS purposes, while the correct answer is Section 238(g) of the 2019 NDAA.",
+  "provider": "deepseek"
+}

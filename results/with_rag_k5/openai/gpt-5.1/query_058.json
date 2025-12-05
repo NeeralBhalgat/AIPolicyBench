@@ -1,0 +1,12 @@
+{
+  "query_id": 58,
+  "query": "What is the DoD’s plan for infrastructure supporting AI and analytics?",
+  "response": "Answer:\n\nThe DoD plans to **",
+  "ground_truth": "To invest in interoperable, federated infrastructure that balances shared services with specialized systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:51:04.831587",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response is incomplete and does not provide any information regarding the DoD's plan for infrastructure supporting AI and analytics, indicating uncertainty.",
+  "provider": "deepseek"
+}

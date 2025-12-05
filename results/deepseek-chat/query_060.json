@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "The strategy emphasizes the need to identify, attract, recruit, train, and retain a workforce with technical and non-technical skills to advance the responsible use and adoption of data, analytics, and AI capabilities. It focuses on upskilling and reskilling service members and civilians, as well as identifying organic talent and implementing reforms for flexible hiring. The Chief Digital and Artificial Intelligence Office (CDAO) will lead the implementation of this strategy, collaborating with components through the CDAO Council. (Documents 2, 4, and 5)",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:25:11.218234",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the emphasis on hiring, training, and retaining a skilled workforce in digital and AI-related roles, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "The documents provided do not explicitly define machine learning. However, they mention it as one of the AI sub-specialties that the Nuclear Regulatory Commission (NRC) is interested in researching and using, along with natural language processing and deep learning.",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:31:58.709454",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the NRC's definition of machine learning and does not provide a clear answer, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

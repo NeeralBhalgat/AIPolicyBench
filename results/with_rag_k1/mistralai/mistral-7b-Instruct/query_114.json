@@ -1,0 +1,12 @@
+{
+  "query_id": 114,
+  "query": "What is DOT’s strategy for AI workforce development?",
+  "response": "DOT’s strategy for AI workforce development includes increasing AI talent through all applicable hiring authorities and flexibilities, establishing a Chief Artificial Intelligence Officer position, supporting the Office of Personnel Management in defining AI for the Federal workforce, and promoting understanding of AI through learning sessions for HR and executives. The AISCC serves as a centralized hub for internal AI talent development.",
+  "ground_truth": "Building a trained workforce through internal AI training, learning sessions, and recruitment initiatives.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:25:44.529463",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects DOT's strategy for AI workforce development by mentioning key elements such as increasing AI talent, establishing a Chief AI Officer, and promoting understanding of AI through learning sessions, which aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

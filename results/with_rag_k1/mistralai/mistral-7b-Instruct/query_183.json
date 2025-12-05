@@ -1,0 +1,12 @@
+{
+  "query_id": 183,
+  "query": "What do federal laws and executive orders require agencies to ensure about AI systems?",
+  "response": "Federal laws and executive orders require agencies to ensure the following about AI systems:\n1. Ongoing monitoring to detect unforeseen circumstances, changes to the AI system, or changes to the context of use or associated data, with appropriate mitigations and proper documentation.\n2. Adequate human training, assessment, and oversight for operators to interpret and manage AI outputs and associated risks.\n3. Human oversight, intervention, and accountability for high-impact use cases, with appropriate fail-safes where practicable.\n4. Consistent remedies or appeals for individuals affected by AI-enabled decisions, including timely human review and the chance to appeal negative impacts.",
+  "ground_truth": "They must comply with federal law while advancing equity, safety, and privacy.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:29:37.006352",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides specific requirements for AI systems that are not explicitly stated in the ground truth answer. While it discusses monitoring, human oversight, and remedies, it does not address the broader requirement to comply with federal law while advancing equity, safety, and privacy, which is the essence of the ground truth.",
+  "provider": "openrouter"
+}

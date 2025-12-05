@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "Answer: Before an AI system can be deployed into production, the proposed use case must be registered via GSA’s AI Request Form and then assessed and adjudicated by the AI Safety Team, which determines its risk profile and whether it may proceed as a Production or Production‑Intent use case.",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:45:25.116716",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a process involving the GSA’s AI Request Form and the AI Safety Team, which does not align with the ground truth answer that specifies CAIO and SR2 Committee authorization based on risk management compliance. This indicates a misunderstanding of the requirements for AI deployment.",
+  "provider": "openrouter"
+}

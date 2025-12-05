@@ -1,0 +1,12 @@
+{
+  "query_id": 188,
+  "query": "What is the primary function of the AI Governance Board?",
+  "response": "The primary function of the AI Governance Board is to review and approve all AI governance structures, processes, policies, and guidance, and to approve criteria for the exclusion of AI use cases from dissemination in the Public Use Case Inventory.",
+  "ground_truth": "To oversee AI adoption and risk management across GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:33:02.946934",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the primary function of the AI Governance Board, focusing on reviewing and approving governance structures rather than overseeing AI adoption and risk management, which is the correct function.",
+  "provider": "deepseek"
+}

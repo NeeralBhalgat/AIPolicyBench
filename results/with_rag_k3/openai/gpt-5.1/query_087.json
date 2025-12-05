@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "Answer: The DHS AI Council supports the AI Governance Board and the DHS Chief AI Officer in fulfilling their responsibilities regarding the use of AI at DHS; performs any other responsibilities determined appropriate by the Secretary of Homeland Security; presents action items to the AI Governance Board on the use of AI at DHS, including elevating issues to the Board as necessary; and supports the DHS Chief AI Officer in issuing and maintaining a comprehensive set of policy requirements governing the safe, secure, responsible, trustworthy, and human-centered use of AI at DHS.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:41:20.138744",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the functions of the DHS AI Council as outlined in the ground truth answer, detailing its support for the AI Governance Board and the Chief AI Officer, as well as its role in policy requirements for AI use.",
+  "provider": "openrouter"
+}

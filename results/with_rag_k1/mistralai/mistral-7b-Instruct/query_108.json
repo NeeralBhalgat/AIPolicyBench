@@ -1,0 +1,12 @@
+{
+  "query_id": 108,
+  "query": "What is TrAIN?",
+  "response": "The TrAIN (Transportation AI-enabled Network) aggregates all Department AI-enabled development, test, and production (DTP) operational environments under one umbrella. The primary environments in TrAIN, typically one for each cloud provider of AI services, are part of the DTP service. These environments accelerate operational use case deployment, simplify safety, security, and risk monitoring, and reduce administrative friction, costs, and delays created by the need to establish new environments for each use case along with the required AI model and data compliance and risk management surveillance tools.",
+  "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:25:26.158915",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes TrAIN as the 'Transportation AI-enabled Network' and provides details that do not align with the ground truth, which states it is DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "No. Document 3 explicitly states that the report (and by extension, the principles within it) is non-binding, does not constitute U.S. government policy, does not create binding guidance, and does not require compliance.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:02:07.580117",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the order does not create enforceable rights, aligning with the non-binding nature of the document mentioned.",
+  "provider": "openrouter"
+}

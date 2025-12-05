@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The document does not explicitly mention any specific legal risks from AI that the plan targets. It focuses on AI risk management activities, comparing current and target profiles, and addressing gaps to meet AI risk management objectives, but it does not detail legal risks or how they are addressed.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:18:30.730713",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the document does not mention specific legal risks from AI, while the ground truth identifies malicious deepfakes as a legal risk targeted by the plan. Therefore, the response is factually incorrect.",
+  "provider": "openrouter"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "Based on the document, the governance bodies required to coordinate AI across government are the Economic Diplomacy Action Group, the U.S. Trade and Development Agency, the Export-Import Bank, the U.S. International Development Finance Corporation, and the Department of State (DOS), which should coordinate with DOC (Department of Commerce).",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:33:13.959379",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists governance bodies that are not recognized as the primary entities for coordinating AI across government, as indicated in the ground truth answer. The correct entities mentioned in the ground truth are Agency AI Governance Boards and a Chief AI Officer Council, which are not referenced in the White Agent's response.",
+  "provider": "openrouter"
+}

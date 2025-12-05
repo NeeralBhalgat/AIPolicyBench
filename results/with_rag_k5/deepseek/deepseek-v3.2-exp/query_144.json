@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "The documents do not mention an \"AISWG.\" The primary body responsible for coordinating AI activity across NASA is the Artificial Intelligence Strategy Board (AISB), which defines the vision and strategy for AI, promotes adoption and innovation, establishes policy, identifies risk mitigation practices, and monitors compliance.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:45:06.896700",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly identifies the coordinating body as the Artificial Intelligence Strategy Board (AISB) instead of the AISWG, which is the correct term. The response does not align with the ground truth answer regarding how AI activity is coordinated across NASA.",
+  "provider": "deepseek"
+}

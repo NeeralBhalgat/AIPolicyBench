@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "Answer: The workforce plan is to:\n\n- “strategically develop, recruit, and retain a diverse workforce with AI skills and competencies that effectively anticipate and meet current and future program needs,”  \n- “prioritize investments in our AI and AI-enabling workforce” based on AI current state and training needs assessments and workforce and training plans, including efforts in “hiring, retention, and upskilling,”  \n- and, more broadly, to “share best practices from the human services delivery ecosystem for expanding the workforce’s AI capacity” and “fund rapid retraining for individuals impacted by AI-related job displacement” and “proactively upskill workers at risk of future displacement.”",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:35:02.478079",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed plan for workforce development related to AI, but it does not align with the ground truth answer, which emphasizes specific strategies like keeping humans-in-the-loop and advanced tracks for practitioners. The response includes elements that are not mentioned in the ground truth, indicating a misinterpretation of the question.",
+  "provider": "openrouter"
+}

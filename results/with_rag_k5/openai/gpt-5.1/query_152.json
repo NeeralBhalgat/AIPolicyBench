@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "NASA will re-evaluate previously non-reportable use cases **aligned with the yearly Federal inventory deadlines**.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:02:03.660956",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth that NASA will re-evaluate non-reportable use cases annually, aligned with federal deadlines.",
+  "provider": "deepseek"
+}

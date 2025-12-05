@@ -1,0 +1,12 @@
+{
+  "query_id": 118,
+  "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+  "response": "If an AI use case becomes non-compliant with risk management requirements, it is immediately stopped and corrective steps are required:\n\n- The AI use case must be **terminated/suspended** (“Non-compliance will result in immediate suspension of the affected activity” and “the AI Use Case owner must terminate the AI Use Case”).  \n- For SBA, the non-compliant technology is **immediately removed from the network**, applicable management is **notified**, and the developer is **counseled**.  \n- To restart the use case, the owner must **develop and implement a compliance plan** or corrective action plan before it can resume.",
+  "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:58:03.352157",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the actions taken when an AI use case becomes non-compliant with risk management requirements, including suspension and the need for a compliance plan, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

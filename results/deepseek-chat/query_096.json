@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "DHS’s AI Risk Management Framework aims to evaluate all use cases early in their life cycle to assess risk across a broad range of Departmental and public equities, with DHS stakeholders assessing the risk of each use case.",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:27:27.842674",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the purpose of DHS’s AI Risk Management Framework by stating it aims to evaluate use cases early in their lifecycle and assess risks, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

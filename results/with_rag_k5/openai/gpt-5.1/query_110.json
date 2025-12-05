@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "Answer: DOT’s Chief AI Officer, in collaboration with the SR2 Committee, excludes from the Public Use Case Inventory those AI use cases that are **designated as mission-sensitive, safety-sensitive, confidential, or otherwise potential targets for malicious interference**.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:57:00.416604",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes terms like 'mission-sensitive' and 'safety-sensitive', which are not part of the ground truth. The ground truth specifies 'classified, sensitive, or research-only systems', indicating that the White Agent's response is not aligned with the factual criteria provided.",
+  "provider": "deepseek"
+}

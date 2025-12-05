@@ -1,0 +1,12 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "response": "Use case owners must update the inventory record when a change occurs to the use case that meaningfully affects the accuracy of the current record. Additionally, they must review and validate or update the inventory record at least annually or when directed by the CDAO team (Document 4).",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:30:43.956297",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses updating the inventory record and annual reviews, which does not directly address the requirement to update entries in the new AI registry as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

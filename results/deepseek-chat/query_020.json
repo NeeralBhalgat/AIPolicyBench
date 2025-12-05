@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Agencies must proactively share their custom-developed code, including models and model weights, across the Federal Government for AI applications in active use, except in restricted circumstances (e.g., national security, privacy risks, contractual obligations). They should also prioritize sharing AI code, models, and data government-wide, consistent with the OPEN Government Data Act, and release AI code as open source software in a public repository where practicable. Additionally, HHS aims to release draft guidelines on data-sharing principles, offer secure sandboxes for collaboration, and ensure data is findable, accessible, interoperable, and reusable. DOT commits to sharing custom-developed AI code, models, and data with the public and maintaining documentation for transparency.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:22:17.770382",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the need for sharing custom AI code and models government-wide, aligns with the principles of the OPEN Government Data Act, and emphasizes transparency through documentation and open-source practices, which are consistent with the ground truth answer.",
+  "provider": "deepseek"
+}

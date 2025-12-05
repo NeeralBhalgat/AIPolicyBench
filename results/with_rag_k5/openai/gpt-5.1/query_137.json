@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "Answer: IRS business units can contact the Chief Data and Analytics Officer (CDAO) team for AI-related guidance.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T01:00:08.611796",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the CDAO team as the correct contact for AI-related guidance, which matches the ground truth answer.",
+  "provider": "deepseek"
+}

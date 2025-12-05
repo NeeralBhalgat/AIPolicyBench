@@ -1,0 +1,12 @@
+{
+  "query_id": 72,
+  "query": "How does the Strategic Plan define Artificial Intelligence?",
+  "response": "The provided document excerpt does not contain a definition of Artificial Intelligence.",
+  "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:37:29.912480",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the document does not contain a definition of Artificial Intelligence, which suggests uncertainty about the content. However, it does not provide any information that aligns with the ground truth answer.",
+  "provider": "openrouter"
+}

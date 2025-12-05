@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "Answer: USDA will stand up shared, secure, and scalable AI infrastructure and tools, including a common infrastructure and toolset with the USDA AI Lab, a semi‑federated AI infrastructure providing centralized high‑value tools and sandbox environments for testing and innovation, and a hub‑and‑spoke model with the USDA AI Lab as the hub and Mission Area Innovation Incubators as the spokes to support code sharing, pilot development, and rapid prototyping.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:47:32.513541",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the USDA's planned infrastructure and tools, including the semi-federated model and the hub-and-spoke structure involving the USDA AI Lab and Mission Area Innovation Incubators, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

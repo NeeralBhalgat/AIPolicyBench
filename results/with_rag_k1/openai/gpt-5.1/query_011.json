@@ -1,0 +1,12 @@
+{
+  "query_id": 11,
+  "query": "What three priorities must agencies focus on to accelerate Federal AI use?",
+  "response": "Agencies must focus on:\n\n1. Leveraging AI trainings and resources to upskill existing staff  \n2. Promoting AI talent  \n3. Ensuring accountability",
+  "ground_truth": "Innovation, governance, and public trust.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:51:07.560527",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists priorities that do not align with the ground truth answer, which specifies 'innovation, governance, and public trust' as the correct priorities for accelerating Federal AI use.",
+  "provider": "openrouter"
+}

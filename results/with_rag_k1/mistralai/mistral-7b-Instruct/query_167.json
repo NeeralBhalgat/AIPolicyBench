@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "The regulatory updates that might be required for AI oversight, based on the information provided, would be the development of regulatory guidance and tools to prepare NRC staff to assess AI as part of NRC regulatory activities.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:28:45.804776",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not fully address the question about the types of regulatory updates needed for AI oversight and focuses on a specific aspect related to NRC staff, which may not encompass the broader range of potential updates like new guidance or rulemaking.",
+  "provider": "openrouter"
+}

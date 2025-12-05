@@ -1,0 +1,12 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "Expired use cases will be archived instead of deleted.",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:12:19.095775",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer that expired use cases will be archived, which is factually correct.",
+  "provider": "openrouter"
+}

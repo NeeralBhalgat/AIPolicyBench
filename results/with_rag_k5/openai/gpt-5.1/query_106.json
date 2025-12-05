@@ -1,0 +1,12 @@
+{
+  "query_id": 106,
+  "query": "What is the ART Network used for?",
+  "response": "Answer: The Advanced Research and Testing (ART) Network is the OST-R-controlled and funded IT environments for AI research and development activities. It allows for rapid AI innovation, exploration, and sharing with external research partners while adhering to OCIO system requirements and CAIO compliance and risk mitigation mandates.",
+  "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-14T00:56:32.547977",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response contains inaccuracies regarding the name and purpose of the ART Network, which is not accurately described as OST-R-controlled and funded IT environments. The ground truth emphasizes AI research and development in a secure environment, which is not clearly reflected in the White Agent's response.",
+  "provider": "deepseek"
+}

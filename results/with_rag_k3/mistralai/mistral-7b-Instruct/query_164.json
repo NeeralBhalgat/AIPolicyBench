@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "The NRC emphasizes data science as a foundation because it recognizes it as a fundamental requirement for evaluating AI applications. This foundation supports the necessary AI expertise to review and oversee AI usage in NRC-regulated activities.",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:24:35.731716",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of data science in evaluating AI applications, aligning with the ground truth that emphasizes the role of quality data and analytics in AI evaluation.",
+  "provider": "openrouter"
+}

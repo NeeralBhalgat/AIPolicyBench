@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "The core purpose of the order is to achieve the policy set forth in section 2 of the order, which involves reviewing, suspending, revising, or rescinding actions taken under Executive Order 14110 that may be inconsistent with or present obstacles to the new policy. (Document 2, Section 5)",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T21:20:36.097169",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on procedural aspects of an order related to Executive Order 14110, which does not align with the core purpose of maintaining U.S. AI leadership free from bias as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

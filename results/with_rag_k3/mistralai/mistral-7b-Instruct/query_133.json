@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "The IRS defines an AI use case as \"specific business uses of an AI technique\" (Document 3, Section 10.24.1.4).",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T03:22:59.487772",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the IRS definition of an AI use case, aligning closely with the ground truth answer provided.",
+  "provider": "openrouter"
+}

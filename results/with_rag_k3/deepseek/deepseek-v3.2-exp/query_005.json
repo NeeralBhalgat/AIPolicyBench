@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan supports open-source and open-weight models, stating that the Federal government should create a supportive environment for them, ensure access to computing power for startups and academics, and recognizes their value for innovation, adoption, and geostrategic interests.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:00:01.990259",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the plan's support for open-source and open-weight models, aligning with the ground truth that emphasizes their role in driving innovation and the government's supportive stance.",
+  "provider": "openrouter"
+}

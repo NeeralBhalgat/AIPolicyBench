@@ -1,0 +1,12 @@
+{
+  "query_id": 121,
+  "query": "Who oversees all internal and external IRS reporting on AI?",
+  "response": "The Chief Data and Analytics Officer (CDAO), who also serves as the IRS Responsible AI Official (RAIO), oversees all internal and external IRS reporting on AI.",
+  "ground_truth": "The CDAO acting as the RAIO.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:43:07.302625",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the Chief Data and Analytics Officer (CDAO) as the overseer of all internal and external IRS reporting on AI, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

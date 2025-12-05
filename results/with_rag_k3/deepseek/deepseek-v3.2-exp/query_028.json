@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "OMB must revise two memoranda—OMB M-24-10 and OMB M-24-18—within 60 days to make them consistent with the January 23 Executive Order (EO 14179).",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:01:58.274690",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for OMB to revise the specified memoranda within the stated timeframe, aligning with the ground truth answer.",
+  "provider": "openrouter"
+}

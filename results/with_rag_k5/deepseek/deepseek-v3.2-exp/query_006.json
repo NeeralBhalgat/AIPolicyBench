@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "USDA will strategically develop, recruit, and retain a diverse workforce with AI skills and competencies that effectively anticipate and meet current and future program needs.",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-17T15:32:53.084312",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the emphasized workforce objective of a worker-first agenda focused on AI literacy, skills development, and rapid retraining. Instead, it discusses a strategy for developing a diverse workforce with AI skills, which is not the same as the ground truth answer.",
+  "provider": "deepseek"
+}

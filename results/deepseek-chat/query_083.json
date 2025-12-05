@@ -1,0 +1,12 @@
+{
+  "query_id": 83,
+  "query": "What principles guide DHS’s use of AI?",
+  "response": "The principles guiding DHS’s use of AI are:\n\n1. **Lawful and Mission-Appropriate**: AI use complies with the Constitution, applicable laws, and government-wide and DHS policies, including those protecting privacy, civil rights, and civil liberties.\n2. **Mission-Enhancing**: AI use is purposeful and performance-driven to enhance DHS’s effectiveness in fulfilling its homeland security mission.\n3. **Safe, Secure, and Responsible Use**: AI use identifies and addresses risks and benefits, protects privacy and civil rights, and ensures AI is hardened against compromises and malicious activity. It must meet performance metrics for effectiveness, accuracy, reliability, resilience, and security, and have human oversight for safety- or rights-impacting uses.\n4. **Trustworthy Use**: AI use is transparent and explainable to the workforce and the public, with plain-language disclosures and opt-out mechanisms where possible. AI outputs must be understandable, traceable, and auditable.\n5. **Human-Centered Use**: AI design, development, deployment, and operation consider the humans using or impacted by AI, aligning with DHS’s customer experience commitment to deliver services that are simple, accessible, equitable, protective, transparent, and responsive.",
+  "ground_truth": "AI use must be lawful, mission-appropriate, mission-enhancing, safe, secure, responsible, trustworthy, and human-centered.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-13T22:26:27.821909",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately outlines the principles guiding DHS's use of AI, aligning closely with the ground truth answer provided. It includes all relevant principles and elaborates on them without introducing any inaccuracies.",
+  "provider": "deepseek"
+}

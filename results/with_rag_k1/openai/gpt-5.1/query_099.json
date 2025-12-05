@@ -1,0 +1,12 @@
+{
+  "query_id": 99,
+  "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+  "response": "The provided document excerpt does not mention an AI Policy Working Group (AIPWG). It only describes the **NETT Council AI Coordination and Activities Working Group (AICA Working Group)**, so there is no information available here about what the AIPWG is or what it does.",
+  "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T05:01:02.360138",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information about the AIPWG, which aligns with the 'miss' classification as it expresses uncertainty regarding the topic.",
+  "provider": "openrouter"
+}

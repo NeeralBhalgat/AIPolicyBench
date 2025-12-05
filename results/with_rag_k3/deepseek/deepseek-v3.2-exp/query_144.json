@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "Based on the documents provided, the AISWG is not mentioned; the documents describe the Artificial Intelligence Strategy Board (AISB) and other bodies. Therefore, no information is available on how the AISWG coordinates AI activity across NASA.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-11-20T04:11:50.409256",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the AISWG, which aligns with expressing uncertainty about the coordination of AI activity across NASA.",
+  "provider": "openrouter"
+}
