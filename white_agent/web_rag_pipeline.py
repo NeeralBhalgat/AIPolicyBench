@@ -113,23 +113,41 @@ class WebSearchRAG:
     
     def __init__(self, 
                  llm_provider: str = "deepseek", 
-                 model: str = "deepseek-chat",
+                 model: Optional[str] = None,
                  api_key: Optional[str] = None):
         """
         Initialize the Web Search RAG system.
         """
         self.llm_provider = llm_provider
-        self.model = model
-        self.api_key = api_key or os.getenv('DEEPSEEK_API_KEY')
+        
+        # Set default model based on provider if not specified
+        if model:
+            self.model = model
+        elif llm_provider == "openai":
+            self.model = "gpt-4o"
+        elif llm_provider == "anthropic":
+            self.model = "claude-3-sonnet-20240229"
+        else:
+            self.model = "deepseek-chat"
+        
+        # Select appropriate API key based on provider
+        if api_key:
+            self.api_key = api_key
+        elif llm_provider == "openai":
+            self.api_key = os.getenv('OPENAI_API_KEY')
+        elif llm_provider == "anthropic":
+            self.api_key = os.getenv('ANTHROPIC_API_KEY')
+        else:
+            self.api_key = os.getenv('DEEPSEEK_API_KEY')
         
         # Initialize LLM Client
         try:
             self.llm_client = LLMClient(
                 provider=llm_provider,
                 api_key=self.api_key,
-                model=model
+                model=self.model
             )
-            logger.info(f"Initialized LLM client with model: {model}")
+            logger.info(f"Initialized LLM client with model: {self.model}")
         except Exception as e:
             logger.error(f"Failed to initialize LLM client: {e}")
             self.llm_client = None

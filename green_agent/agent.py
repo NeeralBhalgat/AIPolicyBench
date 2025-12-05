@@ -54,6 +54,7 @@ class PredefinedQueryInterface:
         """
         self.queries_file = queries_file
         self.predefined_queries = []
+        '''
         self.rag_type = rag_type
         
         if self.rag_type == "web":
@@ -75,7 +76,7 @@ class PredefinedQueryInterface:
         if use_llm_judge:
             self.llm_judge = LLMJudgeEvaluator(provider=llm_provider, temperature=0.0)
             logger.info(f"Initialized LLM-as-a-judge with {llm_provider}")
-
+        '''
         # Load predefined queries
         self._load_queries()
 
@@ -96,11 +97,11 @@ class PredefinedQueryInterface:
             logger.error(f"Error loading queries: {e}")
             self.predefined_queries = []
 
-    def initialize(self) -> bool:
-        """Initialize the RAG system."""
-        if self.rag_type == "web":
-            return True  # Web RAG initializes per query
-        return self.rag_system.load_vector_db()
+    #def initialize(self) -> bool:
+    #    """Initialize the RAG system."""
+    #     if self.rag_type == "web":
+    #         return True  # Web RAG initializes per query
+    #     return self.rag_system.load_vector_db()
 
     async def evaluate_query(self, query_id: int, top_k: int = 5) -> Dict[str, Any]:
         """
@@ -132,6 +133,7 @@ class PredefinedQueryInterface:
         logger.info(f"Evaluating Query {query_id}: {query}")
 
         # Get RAG response
+        '''
         rewritten_query = None
         if self.rag_type == "web":
             rag_result = await self.rag_system.answer_query(query, top_k=top_k)
@@ -139,6 +141,7 @@ class PredefinedQueryInterface:
             # Use unique sources for retrieved_datasets if available, else chunks
             rag_result["retrieved_datasets"] = rag_result.get("sources", rag_result.get("retrieved_chunks", []))
             rewritten_query = rag_result.get("search_query")
+        
         else:
             rag_result = await self.rag_system.complete_rag_query(query, top_k, use_llm=True)
             response = rag_result.get("generated_response", "")
@@ -153,7 +156,7 @@ class PredefinedQueryInterface:
             }
 
         context = rag_result.get("context", "")
-
+        '''
         # 1. Always run Rule-based evaluation
         rule_result = self.evaluator.evaluate(response, ground_truth)
         
@@ -396,9 +399,9 @@ def main():
                         help="Number of datasets to retrieve")
     parser.add_argument("--use_llm_judge", action="store_true",
                         help="Use LLM-as-a-judge evaluation instead of rule-based")
-    parser.add_argument("--llm_provider", default="deepseek",
+    parser.add_argument("--llm_provider", default="openai",
                         choices=["deepseek", "openai", "anthropic"],
-                        help="LLM provider for judge evaluation (default: deepseek)")
+                        help="LLM provider for judge evaluation (default: openai)")
     parser.add_argument("--rag_type", default="original",
                         choices=["original", "web"],
                         help="RAG type to use: 'original' (PDFs) or 'web' (Search)")
