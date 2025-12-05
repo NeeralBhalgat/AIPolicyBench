@@ -448,22 +448,36 @@ async def main():
     import argparse
     parser = argparse.ArgumentParser(description="Run Web-Search RAG")
     parser.add_argument("query", help="The question to answer")
+    parser.add_argument("--provider", default="openai", help="LLM provider (openai, deepseek, anthropic)")
+    parser.add_argument("--raw", action="store_true", help="Print only the response text")
     args = parser.parse_args()
     
-    pipeline = WebSearchRAG()
-    print(f"\n🔎 Running Web-Search RAG for: '{args.query}'\n")
+    # Suppress logging if raw mode is enabled
+    if args.raw:
+        logging.getLogger().setLevel(logging.ERROR)
+    
+    pipeline = WebSearchRAG(llm_provider=args.provider)
+    
+    if not args.raw:
+        print(f"\n🔎 Running Web-Search RAG for: '{args.query}'\n")
     
     result = await pipeline.answer_query(args.query)
     
     if "error" in result:
-        print(f"❌ Error: {result['error']}")
+        if args.raw:
+            print(f"Error: {result['error']}")
+        else:
+            print(f"❌ Error: {result['error']}")
     else:
-        print(f"\n🔄 Search Query Used: {result.get('search_query')}")
-        print("\n💬 Answer:")
-        print(result['response'])
-        print("\n📚 Sources Used:")
-        for source in result['sources']:
-            print(f"- {source}")
+        if args.raw:
+            print(result['response'])
+        else:
+            print(f"\n🔄 Search Query Used: {result.get('search_query')}")
+            print("\n💬 Answer:")
+            print(result['response'])
+            print("\n📚 Sources Used:")
+            for source in result['sources']:
+                print(f"- {source}")
 
 if __name__ == "__main__":
     asyncio.run(main())
