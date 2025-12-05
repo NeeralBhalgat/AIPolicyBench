@@ -1,12 +1,12 @@
 {
   "query_id": 5,
   "query": "What is the plan’s stance on open-source/open-weight models?",
-  "response": "The plan emphasizes the importance of open-source and open-weight AI models, highlighting their value for innovation, commercial and government adoption, and academic research. It states that these models should be founded on American values and could become global standards, having geostrategic value. The Federal government is encouraged to create a supportive environment for open models, including ensuring access to large-scale computing power for startups and academics. Additionally, the plan recommends convening stakeholders to drive adoption of these models by small and medium-sized businesses.",
+  "response": "The plan supports open-source and open-weight AI models, emphasizing their value for innovation, commercial and government adoption, academic research, and geostrategic importance. It recommends creating a supportive environment for these models, ensuring access to large-scale computing power, and encouraging their adoption by small and medium-sized businesses. The plan also highlights the need for America to have leading open models founded on American values, which could become global standards.",
   "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
   "evaluation_result": "correct",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T12:36:24.279471",
+  "timestamp": "2025-11-20T13:16:13.192631",
   "confidence": 0.95,
-  "reasoning": "The White Agent's response accurately reflects the plan's emphasis on the importance of open-source and open-weight models, their role in innovation and adoption, and the government's supportive role, aligning well with the ground truth answer.",
+  "reasoning": "The White Agent's response accurately reflects the plan's support for open-source and open-weight models, emphasizing their importance for innovation and adoption, which aligns with the ground truth answer.",
   "provider": "deepseek"
 }

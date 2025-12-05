@@ -1,0 +1,21 @@
+🚀 Launching complete A2A evaluation...
+   White Agent Model: deepseek-chat
+   LLM Judge Model: gpt-4o-mini (fixed)
+   Max Queries: 5
+INFO:     127.0.0.1:45644 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49324 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45652 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49326 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49328 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49332 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50106 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50108 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50122 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50138 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60054 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60060 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60072 - "GET /.well-known/agent-card.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60076 - "POST / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45656 - "POST / HTTP/1.1" 200 OK
+Error getting agent card from http://localhost:9002: HTTP Error 503: Network communication error fetching agent card from http://localhost:9002/.well-known/agent-card.json: All connection attempts failed
+Agent card not available yet..., retrying 1/15
