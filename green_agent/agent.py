@@ -20,6 +20,7 @@ load_dotenv()
 sys.path.append(str(Path(__file__).parent.parent))
 
 from safety_datasets_rag import SafetyDatasetsRAG
+from web_rag_pipeline import WebSearchRAG
 from green_agent.evaluation import RuleBasedEvaluator, LLMJudgeEvaluator
 
 # Configure logging
@@ -38,7 +39,8 @@ class PredefinedQueryInterface:
         queries_file: str = "data/predefined_queries.json",
         vector_db_path: str = "./vector_db/safety_datasets_tfidf_db.pkl",
         use_llm_judge: bool = False,
-        llm_provider: str = "deepseek"
+        llm_provider: str = "deepseek",
+        rag_type: str = "original"
     ):
         """
         Initialize the predefined query interface.
@@ -48,19 +50,31 @@ class PredefinedQueryInterface:
             vector_db_path: Path to the saved vector database
             use_llm_judge: Whether to use LLM-as-a-judge evaluation (default: False)
             llm_provider: LLM provider for judge evaluation (default: "deepseek")
+            rag_type: Type of RAG to use ("original" or "web")
         """
         self.queries_file = queries_file
         self.predefined_queries = []
-        self.rag_system = SafetyDatasetsRAG(vector_db_path)
+        self.rag_type = rag_type
+        
+        if self.rag_type == "web":
+            logger.info("Initializing Web Search RAG")
+            # Web RAG doesn't need a vector DB path initially
+            self.rag_system = WebSearchRAG(llm_provider=llm_provider)
+        else:
+            logger.info(f"Initializing Original RAG with DB: {vector_db_path}")
+            self.rag_system = SafetyDatasetsRAG(vector_db_path)
+            
         self.use_llm_judge = use_llm_judge
 
-        # Initialize evaluator based on mode
+        # Always initialize Rule-Based Evaluator
+        self.evaluator = RuleBasedEvaluator(case_sensitive=False)
+        logger.info("Initialized Rule-based Evaluator")
+
+        # Optionally initialize LLM Judge
+        self.llm_judge = None
         if use_llm_judge:
-            self.evaluator = LLMJudgeEvaluator(provider=llm_provider, temperature=0.0)
-            logger.info(f"Using LLM-as-a-judge evaluation with {llm_provider}")
-        else:
-            self.evaluator = RuleBasedEvaluator(case_sensitive=False)
-            logger.info("Using rule-based evaluation")
+            self.llm_judge = LLMJudgeEvaluator(provider=llm_provider, temperature=0.0)
+            logger.info(f"Initialized LLM-as-a-judge with {llm_provider}")
 
         # Load predefined queries
         self._load_queries()
@@ -84,6 +98,8 @@ class PredefinedQueryInterface:
 
     def initialize(self) -> bool:
         """Initialize the RAG system."""
+        if self.rag_type == "web":
+            return True  # Web RAG initializes per query
         return self.rag_system.load_vector_db()
 
     async def evaluate_query(self, query_id: int, top_k: int = 5) -> Dict[str, Any]:
@@ -116,7 +132,16 @@ class PredefinedQueryInterface:
         logger.info(f"Evaluating Query {query_id}: {query}")
 
         # Get RAG response
-        rag_result = await self.rag_system.complete_rag_query(query, top_k, use_llm=True)
+        rewritten_query = None
+        if self.rag_type == "web":
+            rag_result = await self.rag_system.answer_query(query, top_k=top_k)
+            response = rag_result.get("response", "")
+            # Use unique sources for retrieved_datasets if available, else chunks
+            rag_result["retrieved_datasets"] = rag_result.get("sources", rag_result.get("retrieved_chunks", []))
+            rewritten_query = rag_result.get("search_query")
+        else:
+            rag_result = await self.rag_system.complete_rag_query(query, top_k, use_llm=True)
+            response = rag_result.get("generated_response", "")
 
         if "error" in rag_result:
             return {
@@ -127,32 +152,39 @@ class PredefinedQueryInterface:
                 "evaluation_result": "incorrect"
             }
 
-        response = rag_result.get("generated_response", "")
         context = rag_result.get("context", "")
 
-        # Evaluate response
-        if self.use_llm_judge:
-            # LLM-as-a-judge requires question and context
-            eval_result = await self.evaluator.evaluate(
+        # 1. Always run Rule-based evaluation
+        rule_result = self.evaluator.evaluate(response, ground_truth)
+        
+        final_result = {
+            "query_id": query_id,
+            "query": query,
+            "rewritten_query": rewritten_query,
+            "response": response,
+            "ground_truth": ground_truth,
+            "evaluation_result": rule_result["result"],  # Default to rule-based result
+            "evaluation_method": "Rule-based",
+            "rule_based_result": rule_result["result"],
+            "retrieved_datasets": rag_result.get("retrieved_datasets", []),
+            "context": rag_result.get("context", "")
+        }
+
+        # 2. Optionally run LLM-as-a-judge
+        if self.llm_judge:
+            llm_eval_result = await self.llm_judge.evaluate(
                 response=response,
                 ground_truth=ground_truth,
                 question=query,
                 context=context
             )
-        else:
-            # Rule-based evaluation
-            eval_result = self.evaluator.evaluate(response, ground_truth)
+            
+            final_result["llm_judge_result"] = llm_eval_result["result"]
+            final_result["confidence"] = llm_eval_result.get("confidence")
+            final_result["reasoning"] = llm_eval_result.get("reasoning")
+            final_result["evaluation_method"] += " + LLM-Judge"
 
-        return {
-            "query_id": query_id,
-            "query": query,
-            "response": response,
-            "ground_truth": ground_truth,
-            "evaluation_result": eval_result["result"],
-            "evaluation_method": eval_result["method"],
-            "retrieved_datasets": rag_result.get("retrieved_datasets", []),
-            "context": rag_result.get("context", "")
-        }
+        return final_result
 
     async def evaluate_all_queries(self, top_k: int = 5) -> Dict[str, Any]:
         """
@@ -202,6 +234,10 @@ class PredefinedQueryInterface:
         print("=" * 80)
 
         print(f"\n📝 Query: {result.get('query', 'N/A')}")
+        
+        if result.get('rewritten_query'):
+            print(f"🔄 Rewritten Search Query: {result.get('rewritten_query')}")
+            
         print("-" * 80)
 
         if "error" in result:
@@ -212,26 +248,24 @@ class PredefinedQueryInterface:
             print(f"\n✓ Ground Truth: {result.get('ground_truth', 'N/A')}")
 
             eval_result = result.get('evaluation_result', 'unknown')
-            if eval_result == "correct":
-                print(f"\n✅ Evaluation: CORRECT")
-            elif eval_result == "miss":
-                print(f"\n⚠️  Evaluation: MISS (expressed uncertainty)")
-            elif eval_result == "hallucination":
-                print(f"\n❌ Evaluation: HALLUCINATION (incorrect)")
-            else:
-                print(f"\n❓ Evaluation: {eval_result.upper()}")
-
-            print(f"📊 Method: {result.get('evaluation_method', 'Rule-based')}")
-
-            # Show confidence and reasoning for LLM judge
-            if 'confidence' in result:
-                print(f"🎯 Confidence: {result['confidence']:.2f}")
-            if 'reasoning' in result:
-                print(f"💭 Reasoning: {result['reasoning']}")
-
+            
+            print(f"\n📊 Evaluation Results:")
+            # Rule Based
+            rb_res = result.get('rule_based_result', eval_result).upper()
+            print(f"  🔹 Rule-Based: {rb_res}")
+            
+            # LLM Judge
+            if 'llm_judge_result' in result:
+                llm_res = result['llm_judge_result'].upper()
+                print(f"  🔸 LLM-Judge:  {llm_res}")
+                if 'confidence' in result:
+                    print(f"     Confidence: {result['confidence']:.2f}")
+                if 'reasoning' in result:
+                    print(f"     Reasoning:  {result['reasoning']}")
+            
             # Show retrieved datasets count
             datasets = result.get('retrieved_datasets', [])
-            print(f"📚 Retrieved Datasets: {len(datasets)}")
+            print(f"\n📚 Retrieved Datasets: {len(datasets)}")
 
         print("=" * 80)
 
@@ -365,6 +399,9 @@ def main():
     parser.add_argument("--llm_provider", default="deepseek",
                         choices=["deepseek", "openai", "anthropic"],
                         help="LLM provider for judge evaluation (default: deepseek)")
+    parser.add_argument("--rag_type", default="original",
+                        choices=["original", "web"],
+                        help="RAG type to use: 'original' (PDFs) or 'web' (Search)")
 
     args = parser.parse_args()
 
@@ -374,7 +411,8 @@ def main():
             queries_file=args.queries_file,
             vector_db_path=args.vector_db,
             use_llm_judge=args.use_llm_judge,
-            llm_provider=args.llm_provider
+            llm_provider=args.llm_provider,
+            rag_type=args.rag_type
         )
 
         if not interface.initialize():

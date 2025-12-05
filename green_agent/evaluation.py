@@ -295,6 +295,8 @@ class LLMJudgeEvaluator:
             Formatted prompt for the judge
         """
         prompt = f"""You are the Green Agent, an expert evaluator tasked with judging the quality and correctness of a White Agent's response to a question about AI policy and safety datasets.
+        
+Context: It is currently December 2025. Evaluate all claims based on this timeline.
 
 Your task is to evaluate the White Agent's response and classify it into one of three categories:
 1. **correct**: The response correctly answers the question and contains the ground truth information

@@ -210,6 +210,7 @@ Answer:"""
         # Steps 3 & 4: GENERATION (if requested and available)
         if use_llm and self.llm_client:
             result["generated_response"] = await self.generate(context, question)
+            print(f"FOR NEERAL : {result['generated_response']}")
         else:
             result["generated_response"] = "LLM generation disabled or unavailable"
         
