@@ -1,36 +1,19 @@
-#!/usr/bin/env python3
-"""
-Web Search RAG Pipeline
-Dynamically searches the web, builds an ephemeral vector DB, and answers questions.
-"""
 
 import os
-import sys
 import logging
 import asyncio
 import requests
 import time
-import random
 from typing import List, Dict, Any, Optional
 from urllib.parse import urlparse
 from bs4 import BeautifulSoup
 from ddgs import DDGS
-from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-
-# Add project root to path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from simple_vector_db import SimpleTFIDFVectorDB
-from utils.llm_client import LLMClient
+from src.config import config
+from src.simple_vector_db import SimpleTFIDFVectorDB
+from src.utils.llm_client import LLMClient
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
 logger = logging.getLogger(__name__)
 
 # --- Domain Configuration ---
@@ -40,70 +23,28 @@ REPUTABLE_TLDS = ['.gov', '.edu', '.mil', '.org']
 
 # High-priority domains (boost these to top)
 PRIMARY_DOMAINS = [
-    'federalregister.gov',
-    'congress.gov',
-    'whitehouse.gov',
-    'nist.gov',
-    'ai.gov',
-    'state.gov',
-    'defense.gov',
-    'energy.gov',
-    'hhs.gov',
-    'transportation.gov',
-    'justice.gov',
-    'ftc.gov',
-    'sec.gov',
-    'regulations.gov'
+    'federalregister.gov', 'congress.gov', 'whitehouse.gov', 'nist.gov', 'ai.gov',
+    'state.gov', 'defense.gov', 'energy.gov', 'hhs.gov', 'transportation.gov',
+    'justice.gov', 'ftc.gov', 'sec.gov', 'regulations.gov'
 ]
 
 THINK_TANK_DOMAINS = [
-    'cset.georgetown.edu',
-    'brookings.edu',
-    'csis.org',
-    'cnas.org',
-    'rand.org',
-    'carnegieendowment.org',
-    'stanford.edu',  # HAI
-    'mit.edu',       # CSAail
-    'berkeley.edu',  # CHAI
-    'ox.ac.uk'       # FHI
+    'cset.georgetown.edu', 'brookings.edu', 'csis.org', 'cnas.org', 'rand.org',
+    'carnegieendowment.org', 'stanford.edu', 'mit.edu', 'berkeley.edu', 'ox.ac.uk'
 ]
 
 # General reputable domains (allow but don't boost)
 GENERAL_ALLOWLIST = [
-    'reuters.com',
-    'apnews.com',
-    'bloomberg.com',
-    'npr.org',
-    'bbc.com',
-    'nytimes.com',
-    'wsj.com',
-    'washingtonpost.com',
-    'ft.com',
-    'economist.com',
-    'nature.com',
-    'science.org',
-    'ieee.org',
-    'acm.org',
-    'arxiv.org',
-    'wired.com',
-    'theverge.com',
-    'arstechnica.com',
-    'techcrunch.com'
+    'reuters.com', 'apnews.com', 'bloomberg.com', 'npr.org', 'bbc.com', 'nytimes.com',
+    'wsj.com', 'washingtonpost.com', 'ft.com', 'economist.com', 'nature.com',
+    'science.org', 'ieee.org', 'acm.org', 'arxiv.org', 'wired.com', 'theverge.com',
+    'arstechnica.com', 'techcrunch.com'
 ]
 
 # Blocklist for low-quality or aggregator sites
 BLOCKLIST_DOMAINS = [
-    'reddit.com',
-    'quora.com',
-    'medium.com',
-    'linkedin.com',
-    'facebook.com',
-    'twitter.com',
-    'youtube.com',
-    'pinterest.com',
-    'tumblr.com',
-    'instagram.com'
+    'reddit.com', 'quora.com', 'medium.com', 'linkedin.com', 'facebook.com',
+    'twitter.com', 'youtube.com', 'pinterest.com', 'tumblr.com', 'instagram.com'
 ]
 
 class WebSearchRAG:
@@ -112,7 +53,7 @@ class WebSearchRAG:
     """
     
     def __init__(self, 
-                 llm_provider: str = "deepseek", 
+                 llm_provider: str = config.DEFAULT_PROVIDER, 
                  model: Optional[str] = None,
                  api_key: Optional[str] = None):
         """
@@ -134,11 +75,11 @@ class WebSearchRAG:
         if api_key:
             self.api_key = api_key
         elif llm_provider == "openai":
-            self.api_key = os.getenv('OPENAI_API_KEY')
+            self.api_key = config.OPENAI_API_KEY
         elif llm_provider == "anthropic":
-            self.api_key = os.getenv('ANTHROPIC_API_KEY')
+            self.api_key = config.ANTHROPIC_API_KEY
         else:
-            self.api_key = os.getenv('DEEPSEEK_API_KEY')
+            self.api_key = config.DEEPSEEK_API_KEY
         
         # Initialize LLM Client
         try:
@@ -195,45 +136,37 @@ Rewritten Query:"""
             parsed = urlparse(url)
             domain = parsed.netloc.lower()
             
-            # Check Blocklist
             for blocked in BLOCKLIST_DOMAINS:
                 if blocked in domain:
                     return -1
 
-            # Check Primary
             for d in PRIMARY_DOMAINS:
                 if domain.endswith(d):
                     return 3
             
-            # Check Think Tanks
             for d in THINK_TANK_DOMAINS:
                 if domain.endswith(d):
                     return 2
             
-            # Check TLDs (catch-all for .gov/.edu)
             if domain.endswith('.gov') or domain.endswith('.mil'):
                 return 3
             if domain.endswith('.edu'):
                 return 2
                 
-            # Check General Allowlist
             for d in GENERAL_ALLOWLIST:
                 if domain.endswith(d):
                     return 1
             
-            # Default
             return 0
         except:
             return 0
 
-    def search_web(self, query: str, max_results: int = 15) -> List[Dict[str, str]]:
+    def search_web(self, query: str, max_results: int = config.MAX_SEARCH_RESULTS) -> List[Dict[str, str]]:
         """
         Search DuckDuckGo with retries, robust backend, and domain boosting.
         """
         logger.info(f"Searching web for: '{query}'")
         results = []
-        
-        # Try backends in order of reliability/strictness
         backends = ['html', 'lite', 'api']
         
         for backend in backends:
@@ -246,13 +179,12 @@ Rewritten Query:"""
                 if ddg_results:
                     logger.info(f"Got {len(ddg_results)} raw results from {backend}")
                     
-                    # Process and Score
                     scored_results = []
                     for r in ddg_results:
                         url = r.get('href', '')
                         score = self.get_domain_score(url)
                         
-                        if score > 0:  # Only keep reputable sources (score 1, 2, 3)
+                        if score > 0:
                             scored_results.append({
                                 'title': r.get('title', ''),
                                 'url': url,
@@ -260,20 +192,16 @@ Rewritten Query:"""
                                 'score': score
                             })
                     
-                    # Sort by score descending
                     scored_results.sort(key=lambda x: x['score'], reverse=True)
-                    
                     results = scored_results[:max_results]
                     
                     if results:
                         logger.info(f"Found {len(results)} reputable results after filtering.")
-                        for i, res in enumerate(results):
-                            logger.info(f"[{i+1}] Score {res['score']}: {res['url']}")
                         return results
             
             except Exception as e:
                 logger.warning(f"Search backend '{backend}' failed: {e}")
-                time.sleep(1)  # Short backoff
+                time.sleep(1)
                 continue
         
         logger.error("All search backends failed or returned no reputable results.")
@@ -291,15 +219,10 @@ Rewritten Query:"""
             response.raise_for_status()
             
             soup = BeautifulSoup(response.content, 'html.parser')
-            
-            # Remove script and style elements
             for script in soup(["script", "style", "nav", "footer", "header", "aside", "form"]):
                 script.decompose()
                 
-            # Get text
             text = soup.get_text(separator='\n')
-            
-            # Clean lines
             lines = (line.strip() for line in text.splitlines())
             chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
             text = '\n'.join(chunk for chunk in chunks if chunk)
@@ -309,7 +232,7 @@ Rewritten Query:"""
             logger.warning(f"Failed to scrape {url}: {e}")
             return ""
 
-    def chunk_text(self, text: str, chunk_size: int = 1000, overlap: int = 200) -> List[str]:
+    def chunk_text(self, text: str, chunk_size: int = config.CHUNK_SIZE, overlap: int = config.CHUNK_OVERLAP) -> List[str]:
         """
         Split text into chunks.
         """
@@ -340,12 +263,10 @@ Rewritten Query:"""
             title = res['title']
             snippet = res['snippet']
             
-            # Use snippet as fallback if scraping fails
             content = self.scrape_url(url)
-            if len(content) < 200:  # Increased threshold for useful content
+            if len(content) < 200:
                 content = snippet
                 
-            # Chunk content
             chunks = self.chunk_text(content)
             
             for j, chunk in enumerate(chunks):
@@ -362,7 +283,6 @@ Rewritten Query:"""
             logger.warning("No content could be scraped/processed.")
             return False
 
-        # Build Vector DB
         self.vector_db = SimpleTFIDFVectorDB(max_features=5000)
         self.vector_db.add_documents(documents, metadatas, ids)
         logger.info(f"Built dynamic index with {len(documents)} chunks.")
@@ -372,23 +292,18 @@ Rewritten Query:"""
         """
         End-to-end pipeline: Rewrite -> Search -> Scrape -> Index -> Retrieve -> Generate.
         """
-        # 0. Rewrite Query
         search_query = await self.rewrite_query(query)
         
-        # 1. Search
         search_results = self.search_web(search_query)
         if not search_results:
             return {"error": "No relevant reputable articles found."}
             
-        # 2. Build Index
         success = self.build_dynamic_index(search_results)
         if not success:
             return {"error": "Failed to process search results into an index."}
             
-        # 3. Retrieve (using original query for semantic matching against chunks)
         retrieved = self.vector_db.search(query, top_k=top_k)
         
-        # 4. Augment
         context_parts = ["Based on the following reputable sources:\n"]
         unique_sources = set()
         
@@ -404,7 +319,6 @@ Rewritten Query:"""
             
         context = "\n".join(context_parts)
         
-        # 5. Generate
         if not self.llm_client:
             return {
                 "response": "LLM client not available (check API keys).",
@@ -452,7 +366,6 @@ async def main():
     parser.add_argument("--raw", action="store_true", help="Print only the response text")
     args = parser.parse_args()
     
-    # Suppress logging if raw mode is enabled
     if args.raw:
         logging.getLogger().setLevel(logging.ERROR)
     

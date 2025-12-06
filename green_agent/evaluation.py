@@ -21,7 +21,7 @@ import asyncio
 import json
 import re
 from typing import Dict, Any, Optional, List
-from utils.llm_client import LLMClient
+from src.utils.llm_client import LLMClient
 
 # Configure logging
 logging.basicConfig(

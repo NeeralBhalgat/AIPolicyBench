@@ -6,7 +6,7 @@ import asyncio
 from typing import Optional
 
 from green_agent.a2a_evaluator import start_green_agent
-from white_agent.agent import start_white_agent
+from src.white_agent.agent import start_white_agent
 from launcher import launch_evaluation
 
 app = typer.Typer(
@@ -32,16 +32,17 @@ def white(
     port: int = typer.Option(9002, help="Port to bind to"),
     vector_db: str = typer.Option(
         "./vector_db/safety_datasets_tfidf_db.pkl",
-        help="Path to vector database"
+        help="Path to vector database (Legacy)"
     ),
     model: str = typer.Option(
         "deepseek-chat",
         help="LLM model to use (e.g., deepseek-chat, mistralai/mistral-7b-instruct, openai/gpt-4o-mini)"
     )
 ):
-    """Start the white agent (RAG system being tested)."""
-    typer.echo(f"⚪ Starting white agent (RAG system) with model: {model}...")
-    start_white_agent(vector_db_path=vector_db, model=model, host=host, port=port)
+    """Start the white agent (Web RAG system being tested)."""
+    typer.echo(f"⚪ Starting white agent (Web RAG system) with model: {model}...")
+    # We ignore vector_db arg as we are now using Web Search
+    start_white_agent(model=model, host=host, port=port)
 
 
 @app.command()
@@ -109,7 +110,7 @@ def info():
    • Rule-based and LLM-as-a-judge evaluation methods
    • Predefined queries with ground truth answers
    • Comprehensive metrics (correctness, hallucination rate, factuality)
-   • Vector database search over AI safety datasets
+   • Web Search RAG for real-time answers
 
 📝 Usage:
    # Start green agent only:

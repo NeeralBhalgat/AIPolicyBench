@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 
 from green_agent.a2a_evaluator import start_green_agent
-from white_agent.agent import start_white_agent
+from src.white_agent.agent import start_white_agent
 from utils import a2a_client
 
 # Configure logging
@@ -33,7 +33,7 @@ async def launch_evaluation(
 
     Args:
         queries_file: Path to predefined queries JSON file
-        vector_db_path: Path to the vector database
+        vector_db_path: Path to the vector database (ignored by new Web RAG)
         white_model: LLM model for white agent to use
         use_llm_judge: Whether to use LLM-as-a-judge evaluation
         green_host: Host for green agent
@@ -48,11 +48,6 @@ async def launch_evaluation(
     # Verify queries file exists
     if not Path(queries_file).exists():
         logger.error(f"❌ Queries file not found: {queries_file}")
-        return
-
-    # Verify vector DB exists
-    if not Path(vector_db_path).exists():
-        logger.error(f"❌ Vector database not found: {vector_db_path}")
         return
 
     # Start green agent
@@ -77,9 +72,11 @@ async def launch_evaluation(
     # Start white agent
     logger.info(f"\n📄 Launching white agent (RAG system) with model: {white_model}...")
     white_url = f"http://{white_host}:{white_port}"
+    
+    # Updated arguments for new Web Search RAG agent signature
     p_white = multiprocessing.Process(
         target=start_white_agent,
-        args=(vector_db_path, white_model, white_host, white_port)
+        args=(white_model, white_host, white_port)
     )
     p_white.start()
 

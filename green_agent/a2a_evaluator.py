@@ -27,8 +27,8 @@ from a2a.utils import new_agent_text_message, get_text_parts
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
-from utils.parsing import parse_tags
-from utils import a2a_client
+from src.utils.parsing import parse_tags
+from src.utils import a2a_client
 from green_agent.evaluation import RuleBasedEvaluator, LLMJudgeEvaluator
 
 load_dotenv()
