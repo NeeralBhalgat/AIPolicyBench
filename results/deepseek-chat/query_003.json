@@ -5,8 +5,8 @@
   "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
   "evaluation_result": "hallucination",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T13:16:03.973548",
+  "timestamp": "2025-12-05T09:13:54.203090",
   "confidence": 0.8,
-  "reasoning": "The White Agent's response does not accurately identify the specific action taken by President Trump regarding AI policy, instead referring vaguely to 'dangerous actions' without providing factual details about the rescinded executive order.",
+  "reasoning": "The White Agent's response does not accurately specify the action taken by President Trump regarding AI policy, as it fails to mention the specific executive order rescinded and instead uses vague language about 'dangerous actions'.",
   "provider": "deepseek"
 }

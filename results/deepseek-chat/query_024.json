@@ -1,12 +1,12 @@
 {
   "query_id": 24,
   "query": "What legal definition of AI does the order adopt?",
-  "response": "The order adopts the definition of AI as provided in Section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019. (Document 2)",
+  "response": "The order adopts the legal definition of AI as provided in Section 238(g) of the John S. McCain National Defense Authorization Act for Fiscal Year 2019. This definition encompasses, but is not limited to, machine learning (including deep learning as well as supervised, unsupervised, and semi-supervised approaches), reinforcement learning, transfer learning, and generative AI. It does not include robotic process automation or other systems whose behavior is defined only by human-defined rules or that learn solely by repeating an observed practice exactly as it was conducted.",
   "ground_truth": "The definition in 15 U.S.C. 9401(3).",
   "evaluation_result": "hallucination",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T12:33:23.597353",
+  "timestamp": "2025-12-05T07:49:22.045171",
   "confidence": 0.9,
-  "reasoning": "The White Agent incorrectly cites Section 238(g) of the John S. McCain National Defense Authorization Act instead of the correct legal definition found in 15 U.S.C. 9401(3).",
+  "reasoning": "The White Agent incorrectly cites the legal definition of AI as being from the John S. McCain National Defense Authorization Act for Fiscal Year 2019, while the correct definition is found in 15 U.S.C. 9401(3). This misattribution indicates a factual inaccuracy.",
   "provider": "deepseek"
 }

@@ -1,12 +1,12 @@
 {
   "query_id": 33,
   "query": "Which governance bodies lead AI?",
-  "response": "The governance bodies leading AI include:\n1. NASA's Chief AI Officer (CAIO) establishing AI governance in two tiers: senior leaders and subordinate leaders (Document 1).\n2. NASA’s Autonomous Systems System Capability Leadership Team (AS-SLCT) (Document 1).\n3. HHS OCAIO (Office of the Chief AI Officer) (Document 2).\n4. HHS AI Governance Board (Document 2).\n5. The AI governance bodies mentioned in the Department of the Interior (Document 3) and SBA (Document 4), though specific names are not provided in the given text.",
+  "response": "The governance bodies leading AI include NASA's Chief AI Officer (CAIO) and the Autonomous Systems System Capability Leadership Team (AS-SLCT) (Document 1). HHS has the HHS AI Governance Board and the Office of the Chief AI Officer (OCAIO) (Document 2). The Department of the Interior (DOI) and the Small Business Administration (SBA) also have their own AI governance bodies (Documents 3 and 4).",
   "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
   "evaluation_result": "hallucination",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T12:34:11.456985",
-  "confidence": 0.8,
-  "reasoning": "The response includes specific governance bodies related to AI, but they do not align with the ground truth answer, which lists different organizations and roles. The mention of NASA and HHS governance bodies appears to be incorrect or irrelevant to the question about leading AI governance bodies.",
+  "timestamp": "2025-12-05T07:50:13.754400",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes governance bodies that are not recognized as leading AI governance as of December 2025, such as NASA's CAIO and the AS-SLCT. The ground truth mentions specific bodies like the USDA AI Council and the Generative AI Review Board, which are not referenced in the White Agent's response.",
   "provider": "deepseek"
 }

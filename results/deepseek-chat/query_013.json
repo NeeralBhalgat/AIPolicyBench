@@ -1,12 +1,12 @@
 {
   "query_id": 13,
   "query": "Who is covered by this memorandum?",
-  "response": "The memorandum applies to all agencies defined in 44 U.S.C. § 3502(1), with some exceptions for Chief Financial Officers Act (CFO Act) agencies and elements of the Intelligence Community.",
+  "response": "This memorandum applies to all agencies defined in 44 U.S.C. § 3502(1), except as specifically noted. Some requirements apply only to Chief Financial Officers Act (CFO Act) agencies as identified in 31 U.S.C. § 901(b), and other requirements do not apply to elements of the Intelligence Community, as defined in 50 U.S.C. § 3003.",
   "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
   "evaluation_result": "hallucination",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T12:32:34.737074",
-  "confidence": 0.8,
-  "reasoning": "The White Agent's response incorrectly specifies the agencies covered by the memorandum, omitting that it includes all Executive Branch departments and independent regulatory agencies, which is part of the ground truth.",
+  "timestamp": "2025-12-05T07:48:20.091507",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly narrows the applicability of the memorandum to specific agencies and excludes independent regulatory agencies, which are included in the ground truth answer.",
   "provider": "deepseek"
 }

@@ -1,11 +1,11 @@
 {
   "query_id": 14,
   "query": "What leadership role must every agency designate, and by when?",
-  "response": "Every agency must designate a Chief AI Officer (CAIO) within 60 days of the issuance of the memorandum.",
+  "response": "Every agency must designate a Chief AI Officer (CAIO) within 60 days of the issuance of the memorandum. [REF]Document 1, Document 2, Document 4[/REF]",
   "ground_truth": "A Chief AI Officer within 60 days of issuance.",
   "evaluation_result": "correct",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T12:32:38.258624",
+  "timestamp": "2025-12-05T07:48:22.764136",
   "confidence": 0.95,
   "reasoning": "The White Agent's response accurately states that every agency must designate a Chief AI Officer within 60 days of the issuance of the memorandum, which aligns with the ground truth answer.",
   "provider": "deepseek"

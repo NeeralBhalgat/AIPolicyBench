@@ -1,0 +1,313 @@
+2025-12-05 09:13:36,343 - INFO - ================================================================================
+2025-12-05 09:13:36,343 - INFO - 🚀 Launching AIPolicyBench A2A Evaluation
+2025-12-05 09:13:36,343 - INFO - ================================================================================
+2025-12-05 09:13:36,343 - INFO - 
+📗 Launching green agent (evaluator)...
+2025-12-05 09:13:36,351 - INFO - Starting green agent...
+2025-12-05 09:13:36,355 - INFO - Green agent listening on http://localhost:9001
+INFO:     Started server process [3912550]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:9001 (Press CTRL+C to quit)
+2025-12-05 09:13:36,467 - INFO - HTTP Request: GET http://localhost:9001/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:36,468 - INFO - Successfully fetched agent card data from http://localhost:9001/.well-known/agent-card.json: {'capabilities': {'streaming': False}, 'defaultInputModes': ['text'], 'defaultOutputModes': ['text'], 'description': 'Assessment manager for evaluating RAG agents on AI safety and policy questions.', 'name': 'aipolicybench_green_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': "Evaluates RAG agents using predefined queries with ground truth answers.\nTests the agent's ability to correctly answer questions about AI safety and policy datasets.\nProvides detailed evaluation metrics including correctness, hallucination rate, and factuality.\nSupports both rule-based and LLM-as-a-judge evaluation methods.\n", 'examples': ['Your task is to evaluate the RAG agent located at:\n<white_agent_url>\nhttp://localhost:9002/\n</white_agent_url>\nUse the following configuration:\n<queries_file>\ndata/predefined_queries.json\n</queries_file>\n<use_llm_judge>\nfalse\n</use_llm_judge>\n', 'Your task is to evaluate the RAG agent using LLM-as-a-judge:\n<white_agent_url>\nhttp://localhost:9002/\n</white_agent_url>\nUse the following configuration:\n<queries_file>\ndata/predefined_queries.json\n</queries_file>\n<use_llm_judge>\ntrue\n</use_llm_judge>\n'], 'id': 'rag_assessment', 'name': 'RAG Agent Assessment', 'tags': ['green agent', 'assessment', 'evaluation', 'rag', 'benchmarking', 'llm-judge']}], 'url': 'http://localhost:9001', 'version': '1.0.0'}
+2025-12-05 09:13:36,468 - INFO - ✅ Green agent is ready at http://localhost:9001
+2025-12-05 09:13:36,468 - INFO - 
+📄 Launching white agent (RAG system) with model: deepseek-chat...
+2025-12-05 09:13:36,474 - INFO - Starting white agent with model: deepseek-chat
+2025-12-05 09:13:36,506 - INFO - Initialized OpenRouter LLM client with model: mistralai/mistral-7b-instruct
+2025-12-05 09:13:36,507 - INFO - White agent listening on http://localhost:9002
+INFO:     Started server process [3912557]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:9002 (Press CTRL+C to quit)
+2025-12-05 09:13:37,545 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:37,546 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:37,546 - INFO - ✅ White agent is ready at http://localhost:9002
+2025-12-05 09:13:37,546 - INFO - 
+📤 Sending evaluation task to green agent...
+2025-12-05 09:13:37,546 - INFO - Task description:
+2025-12-05 09:13:37,546 - INFO - Your task is to evaluate the RAG agent located at:
+<white_agent_url>
+http://localhost:9002
+</white_agent_url>
+Use the following configuration:
+<queries_file>
+data/predefined_queries.json
+</queries_file>
+<use_llm_judge>
+true
+</use_llm_judge>
+<max_queries>
+5
+</max_queries>
+
+Please evaluate all queries and provide a detailed report.
+
+2025-12-05 09:13:37,546 - INFO - 
+⏳ Running evaluation (this may take a while)...
+2025-12-05 09:13:37,575 - INFO - HTTP Request: GET http://localhost:9001/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:37,576 - INFO - Successfully fetched agent card data from http://localhost:9001/.well-known/agent-card.json: {'capabilities': {'streaming': False}, 'defaultInputModes': ['text'], 'defaultOutputModes': ['text'], 'description': 'Assessment manager for evaluating RAG agents on AI safety and policy questions.', 'name': 'aipolicybench_green_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': "Evaluates RAG agents using predefined queries with ground truth answers.\nTests the agent's ability to correctly answer questions about AI safety and policy datasets.\nProvides detailed evaluation metrics including correctness, hallucination rate, and factuality.\nSupports both rule-based and LLM-as-a-judge evaluation methods.\n", 'examples': ['Your task is to evaluate the RAG agent located at:\n<white_agent_url>\nhttp://localhost:9002/\n</white_agent_url>\nUse the following configuration:\n<queries_file>\ndata/predefined_queries.json\n</queries_file>\n<use_llm_judge>\nfalse\n</use_llm_judge>\n', 'Your task is to evaluate the RAG agent using LLM-as-a-judge:\n<white_agent_url>\nhttp://localhost:9002/\n</white_agent_url>\nUse the following configuration:\n<queries_file>\ndata/predefined_queries.json\n</queries_file>\n<use_llm_judge>\ntrue\n</use_llm_judge>\n'], 'id': 'rag_assessment', 'name': 'RAG Agent Assessment', 'tags': ['green agent', 'assessment', 'evaluation', 'rag', 'benchmarking', 'llm-judge']}], 'url': 'http://localhost:9001', 'version': '1.0.0'}
+2025-12-05 09:13:37,609 - INFO - Green agent: Received evaluation task
+2025-12-05 09:13:37,610 - INFO - Evaluating white agent at: http://localhost:9002
+2025-12-05 09:13:37,610 - INFO - Using queries file: data/predefined_queries.json
+2025-12-05 09:13:37,610 - INFO - LLM judge: True
+2025-12-05 09:13:37,610 - INFO - Max queries: 5
+2025-12-05 09:13:37,610 - INFO - Starting evaluation of white agent at http://localhost:9002
+2025-12-05 09:13:37,691 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:37,691 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:37,691 - INFO - White agent model: deepseek-chat
+2025-12-05 09:13:37,692 - INFO - Results will be saved to: results/deepseek-chat
+2025-12-05 09:13:37,693 - INFO - Limiting to first 5 queries out of 200 total
+2025-12-05 09:13:37,693 - INFO - Loaded 5 queries for evaluation
+2025-12-05 09:13:37,693 - INFO - Using LLM-as-a-judge evaluation with GPT-4o-mini
+2025-12-05 09:13:37,718 - INFO - Using OpenRouter with model: openai/gpt-4o-mini
+2025-12-05 09:13:37,718 - INFO - Initialized LLM client with provider: deepseek
+2025-12-05 09:13:37,718 - INFO - Initialized LLM Judge Evaluator (provider=deepseek, model=openai/gpt-4o-mini, max_tokens=800)
+2025-12-05 09:13:37,718 - INFO - 
+================================================================================
+2025-12-05 09:13:37,718 - INFO - Starting evaluation of 5 queries
+2025-12-05 09:13:37,718 - INFO - ================================================================================
+
+Evaluating queries:   0%|          | 0/5 [00:00<?, ?query/s]Query 1/5:   0%|          | 0/5 [00:00<?, ?query/s]         2025-12-05 09:13:37,723 - INFO - 
+================================================================================
+2025-12-05 09:13:37,723 - INFO - [Query 1] What are the three pillars of America’s AI Action Plan?
+2025-12-05 09:13:37,723 - INFO - [Ground Truth] Innovation, infrastructure, and international diplomacy and security.
+2025-12-05 09:13:37,723 - INFO - ================================================================================
+2025-12-05 09:13:37,752 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:37,753 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:37,786 - INFO - Loading TF-IDF vector database from ./vector_db/safety_datasets_tfidf_db.pkl
+2025-12-05 09:13:37,818 - INFO - Loaded TF-IDF vector database with 1796 documents
+2025-12-05 09:13:37,818 - INFO - Loaded TF-IDF vector database with 1796 documents
+2025-12-05 09:13:37,818 - INFO - White agent RAG system initialized successfully
+2025-12-05 09:13:37,818 - INFO - White agent received query: What are the three pillars of America’s AI Action Plan?
+2025-12-05 09:13:37,818 - INFO - Retrieving relevant datasets for: 'What are the three pillars of America’s AI Action Plan?'
+2025-12-05 09:13:37,834 - INFO - Retrieved 5 relevant datasets
+2025-12-05 09:13:38,332 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:42,459 - INFO - White agent responding with: The three pillars of America’s AI Action Plan are:
+1. Accelerate AI Innovation
+2. Lead in Internatio...
+2025-12-05 09:13:42,460 - INFO - HTTP Request: POST http://localhost:9002 "HTTP/1.1 200 OK"
+2025-12-05 09:13:42,461 - INFO - [White Agent Response]
+2025-12-05 09:13:42,461 - INFO - The three pillars of America’s AI Action Plan are:
+1. Accelerate AI Innovation
+2. Lead in International AI Diplomacy and Security
+3. (The third pillar is not explicitly mentioned in the provided documents, but based on the structure, it is likely implied to be a third pillar, though the exact name is not stated in the given text.)
+
+2025-12-05 09:13:42,461 - INFO - [Evaluating with LLM-as-a-judge]
+2025-12-05 09:13:42,461 - INFO - Requesting LLM judgment from Green Agent...
+2025-12-05 09:13:43,304 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:44,797 - INFO - LLM Judge result: hallucination (confidence: 0.80)
+2025-12-05 09:13:44,797 - INFO - 
+[Judgment] ❌ HALLUCINATION
+2025-12-05 09:13:44,797 - INFO - [Confidence] 0.80
+2025-12-05 09:13:44,797 - INFO - [Reasoning] The White Agent's response incorrectly states that the third pillar is not explicitly mentioned and implies uncertainty. The correct third pillar is 'infrastructure', which is a factual error in the response.
+2025-12-05 09:13:44,797 - INFO - [Saved] results/deepseek-chat/query_001.json
+Query 1/5:   0%|          | 0/5 [00:07<?, ?query/s, Correct=0, Miss=0, Halluc=1]Query 1/5:  20%|██        | 1/5 [00:07<00:28,  7.08s/query, Correct=0, Miss=0, Halluc=1]Query 2/5:  20%|██        | 1/5 [00:07<00:28,  7.08s/query, Correct=0, Miss=0, Halluc=1]2025-12-05 09:13:44,798 - INFO - 
+================================================================================
+2025-12-05 09:13:44,798 - INFO - [Query 2] Why must the U.S. win the global AI race?
+2025-12-05 09:13:44,798 - INFO - [Ground Truth] The leader will set global standards and gain broad economic and military benefits.
+2025-12-05 09:13:44,798 - INFO - ================================================================================
+2025-12-05 09:13:44,823 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:44,823 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:44,845 - INFO - White agent received query: Why must the U.S. win the global AI race?
+2025-12-05 09:13:44,845 - INFO - Retrieving relevant datasets for: 'Why must the U.S. win the global AI race?'
+2025-12-05 09:13:44,852 - INFO - Retrieved 5 relevant datasets
+2025-12-05 09:13:44,942 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:47,693 - INFO - White agent responding with: The U.S. must win the global AI race to achieve and maintain unquestioned and unchallenged global te...
+2025-12-05 09:13:47,694 - INFO - HTTP Request: POST http://localhost:9002 "HTTP/1.1 200 OK"
+2025-12-05 09:13:47,694 - INFO - [White Agent Response]
+2025-12-05 09:13:47,695 - INFO - The U.S. must win the global AI race to achieve and maintain unquestioned and unchallenged global technological dominance, as it will reshape the global balance of power, spark new industries, and revolutionize how people live and work. Winning the race will also set global AI standards and reap broad economic and military benefits, ensuring a new golden age of human flourishing, economic competitiveness, and national security for the American people. (Documents 1, 2, 3)
+
+2025-12-05 09:13:47,695 - INFO - [Evaluating with LLM-as-a-judge]
+2025-12-05 09:13:47,695 - INFO - Requesting LLM judgment from Green Agent...
+2025-12-05 09:13:48,474 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:49,932 - INFO - LLM Judge result: correct (confidence: 0.90)
+2025-12-05 09:13:49,932 - INFO - 
+[Judgment] ✅ CORRECT
+2025-12-05 09:13:49,932 - INFO - [Confidence] 0.90
+2025-12-05 09:13:49,932 - INFO - [Reasoning] The White Agent's response accurately reflects the importance of winning the global AI race in terms of setting standards and gaining economic and military benefits, aligning with the ground truth answer.
+2025-12-05 09:13:49,933 - INFO - [Saved] results/deepseek-chat/query_002.json
+Query 2/5:  20%|██        | 1/5 [00:12<00:28,  7.08s/query, Correct=1, Miss=0, Halluc=1]Query 2/5:  40%|████      | 2/5 [00:12<00:17,  5.93s/query, Correct=1, Miss=0, Halluc=1]Query 3/5:  40%|████      | 2/5 [00:12<00:17,  5.93s/query, Correct=1, Miss=0, Halluc=1]2025-12-05 09:13:49,933 - INFO - 
+================================================================================
+2025-12-05 09:13:49,933 - INFO - [Query 3] What immediate deregulatory step did President Trump take on AI?
+2025-12-05 09:13:49,933 - INFO - [Ground Truth] He rescinded Biden Executive Order 14110 on AI.
+2025-12-05 09:13:49,933 - INFO - ================================================================================
+2025-12-05 09:13:49,957 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:49,958 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:49,980 - INFO - White agent received query: What immediate deregulatory step did President Trump take on AI?
+2025-12-05 09:13:49,980 - INFO - Retrieving relevant datasets for: 'What immediate deregulatory step did President Trump take on AI?'
+2025-12-05 09:13:49,986 - INFO - Retrieved 5 relevant datasets
+2025-12-05 09:13:50,083 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:51,883 - INFO - White agent responding with: President Trump rescinded the Biden Administration’s dangerous actions on day one....
+2025-12-05 09:13:51,884 - INFO - HTTP Request: POST http://localhost:9002 "HTTP/1.1 200 OK"
+2025-12-05 09:13:51,885 - INFO - [White Agent Response]
+2025-12-05 09:13:51,885 - INFO - President Trump rescinded the Biden Administration’s dangerous actions on day one.
+
+2025-12-05 09:13:51,885 - INFO - [Evaluating with LLM-as-a-judge]
+2025-12-05 09:13:51,885 - INFO - Requesting LLM judgment from Green Agent...
+2025-12-05 09:13:52,332 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:54,202 - INFO - LLM Judge result: hallucination (confidence: 0.80)
+2025-12-05 09:13:54,203 - INFO - 
+[Judgment] ❌ HALLUCINATION
+2025-12-05 09:13:54,203 - INFO - [Confidence] 0.80
+2025-12-05 09:13:54,203 - INFO - [Reasoning] The White Agent's response does not accurately specify the action taken by President Trump regarding AI policy, as it fails to mention the specific executive order rescinded and instead uses vague language about 'dangerous actions'.
+2025-12-05 09:13:54,203 - INFO - [Saved] results/deepseek-chat/query_003.json
+Query 3/5:  40%|████      | 2/5 [00:16<00:17,  5.93s/query, Correct=1, Miss=0, Halluc=2]Query 3/5:  60%|██████    | 3/5 [00:16<00:10,  5.17s/query, Correct=1, Miss=0, Halluc=2]Query 4/5:  60%|██████    | 3/5 [00:16<00:10,  5.17s/query, Correct=1, Miss=0, Halluc=2]2025-12-05 09:13:54,203 - INFO - 
+================================================================================
+2025-12-05 09:13:54,203 - INFO - [Query 4] How will procurement address ideological bias in AI?
+2025-12-05 09:13:54,203 - INFO - [Ground Truth] Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.
+2025-12-05 09:13:54,203 - INFO - ================================================================================
+2025-12-05 09:13:54,230 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:54,230 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:54,251 - INFO - White agent received query: How will procurement address ideological bias in AI?
+2025-12-05 09:13:54,251 - INFO - Retrieving relevant datasets for: 'How will procurement address ideological bias in AI?'
+2025-12-05 09:13:54,255 - INFO - Retrieved 5 relevant datasets
+2025-12-05 09:13:54,353 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:56,093 - INFO - White agent responding with: The provided documents do not explicitly address how procurement will address ideological bias in AI...
+2025-12-05 09:13:56,094 - INFO - HTTP Request: POST http://localhost:9002 "HTTP/1.1 200 OK"
+2025-12-05 09:13:56,094 - INFO - [White Agent Response]
+2025-12-05 09:13:56,094 - INFO - The provided documents do not explicitly address how procurement will address ideological bias in AI. The documents focus on general risk management, procurement policies, and compliance with federal standards, but they do not specifically mention ideological bias or steps to mitigate it.
+
+2025-12-05 09:13:56,094 - INFO - [Evaluating with LLM-as-a-judge]
+2025-12-05 09:13:56,094 - INFO - Requesting LLM judgment from Green Agent...
+2025-12-05 09:13:56,485 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:13:57,733 - INFO - LLM Judge result: miss (confidence: 0.85)
+2025-12-05 09:13:57,733 - INFO - 
+[Judgment] ⚠️ MISS
+2025-12-05 09:13:57,733 - INFO - [Confidence] 0.85
+2025-12-05 09:13:57,733 - INFO - [Reasoning] The White Agent's response indicates that the documents do not address ideological bias, which reflects uncertainty about the specific measures for procurement. It does not provide a definitive answer or claim, thus falling into the 'miss' category.
+2025-12-05 09:13:57,734 - INFO - [Saved] results/deepseek-chat/query_004.json
+Query 4/5:  60%|██████    | 3/5 [00:20<00:10,  5.17s/query, Correct=1, Miss=1, Halluc=2]Query 4/5:  80%|████████  | 4/5 [00:20<00:04,  4.53s/query, Correct=1, Miss=1, Halluc=2]Query 5/5:  80%|████████  | 4/5 [00:20<00:04,  4.53s/query, Correct=1, Miss=1, Halluc=2]2025-12-05 09:13:57,734 - INFO - 
+================================================================================
+2025-12-05 09:13:57,734 - INFO - [Query 5] What is the plan’s stance on open-source/open-weight models?
+2025-12-05 09:13:57,735 - INFO - [Ground Truth] They uniquely drive innovation and adoption; the government should support them.
+2025-12-05 09:13:57,735 - INFO - ================================================================================
+2025-12-05 09:13:57,764 - INFO - HTTP Request: GET http://localhost:9002/.well-known/agent-card.json "HTTP/1.1 200 OK"
+2025-12-05 09:13:57,765 - INFO - Successfully fetched agent card data from http://localhost:9002/.well-known/agent-card.json: {'capabilities': {}, 'defaultInputModes': ['text/plain'], 'defaultOutputModes': ['text/plain'], 'description': 'RAG agent for AI safety and policy questions using deepseek-chat', 'name': 'aipolicybench_rag_agent', 'preferredTransport': 'JSONRPC', 'protocolVersion': '0.3.0', 'skills': [{'description': 'Answers questions about AI safety and policy using RAG over safety datasets (Model: deepseek-chat)', 'examples': ['What datasets are available for AI safety research?', 'Are there datasets about AI alignment?', 'What resources exist for studying adversarial robustness?'], 'id': 'ai_policy_rag', 'name': 'AI Policy RAG', 'tags': ['rag', 'ai-safety', 'policy', 'model:deepseek-chat']}], 'url': 'http://localhost:9002', 'version': '1.0.0'}
+2025-12-05 09:13:57,785 - INFO - White agent received query: What is the plan’s stance on open-source/open-weight models?
+2025-12-05 09:13:57,786 - INFO - Retrieving relevant datasets for: 'What is the plan’s stance on open-source/open-weight models?'
+2025-12-05 09:13:57,790 - INFO - Retrieved 5 relevant datasets
+2025-12-05 09:13:57,892 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:14:03,163 - INFO - White agent responding with: The plan emphasizes the importance of open-source and open-weight AI models, highlighting their valu...
+2025-12-05 09:14:03,164 - INFO - HTTP Request: POST http://localhost:9002 "HTTP/1.1 200 OK"
+2025-12-05 09:14:03,165 - INFO - [White Agent Response]
+2025-12-05 09:14:03,165 - INFO - The plan emphasizes the importance of open-source and open-weight AI models, highlighting their value for innovation, commercial and government adoption, and academic research. It states that these models are essential for ensuring America has leading open models founded on American values and could become global standards in business and academic research, thus having geostrategic value. The Federal government should create a supportive environment for open models, including ensuring access to large-scale computing power for startups and academics and convening stakeholders to drive adoption by small and medium-sized businesses. [s]
+
+2025-12-05 09:14:03,165 - INFO - [Evaluating with LLM-as-a-judge]
+2025-12-05 09:14:03,165 - INFO - Requesting LLM judgment from Green Agent...
+2025-12-05 09:14:03,593 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-05 09:14:04,833 - INFO - LLM Judge result: correct (confidence: 0.95)
+2025-12-05 09:14:04,833 - INFO - 
+[Judgment] ✅ CORRECT
+2025-12-05 09:14:04,833 - INFO - [Confidence] 0.95
+2025-12-05 09:14:04,833 - INFO - [Reasoning] The White Agent's response accurately reflects the ground truth by emphasizing the importance of open-source and open-weight models for innovation and government support, aligning with the stated stance that the government should support them.
+2025-12-05 09:14:04,834 - INFO - [Saved] results/deepseek-chat/query_005.json
+Query 5/5:  80%|████████  | 4/5 [00:27<00:04,  4.53s/query, Correct=2, Miss=1, Halluc=2]Query 5/5: 100%|██████████| 5/5 [00:27<00:00,  5.45s/query, Correct=2, Miss=1, Halluc=2]Query 5/5: 100%|██████████| 5/5 [00:27<00:00,  5.42s/query, Correct=2, Miss=1, Halluc=2]
+2025-12-05 09:14:04,835 - INFO - 
+================================================================================
+2025-12-05 09:14:04,835 - INFO - Evaluation complete: 2/5 correct (40.00%)
+2025-12-05 09:14:04,835 - INFO - Correct: 2 (40.00%)
+2025-12-05 09:14:04,835 - INFO - Miss: 1 (20.00%)
+2025-12-05 09:14:04,835 - INFO - Hallucination: 2 (40.00%)
+2025-12-05 09:14:04,835 - INFO - Factuality Rate: 20.00%
+2025-12-05 09:14:04,835 - INFO - ================================================================================
+
+2025-12-05 09:14:04,836 - INFO - Summary saved to: results/deepseek-chat/summary.json
+2025-12-05 09:14:04,837 - INFO - Statistics saved to: results/deepseek-chat/statistics.txt
+2025-12-05 09:14:04,837 - INFO - Sending evaluation results
+2025-12-05 09:14:04,840 - INFO - HTTP Request: POST http://localhost:9001 "HTTP/1.1 200 OK"
+2025-12-05 09:14:04,841 - INFO - 
+================================================================================
+2025-12-05 09:14:04,841 - INFO - 📊 EVALUATION RESULTS
+2025-12-05 09:14:04,841 - INFO - ================================================================================
+2025-12-05 09:14:04,841 - INFO - ✅ Evaluation Complete!
+
+📊 Results Summary:
+- Total Queries: 5
+- Correct: 2 (40.00%)
+- Miss: 1 (20.00%)
+- Hallucination: 2 (40.00%)
+- Factuality Rate: 20.00%
+
+Evaluation Method: LLM-as-a-judge
+
+Detailed results: [
+  {
+    "query_id": 1,
+    "query": "What are the three pillars of America\u2019s AI Action Plan?",
+    "response": "The three pillars of America\u2019s AI Action Plan are:\n1. Accelerate AI Innovation\n2. Lead in International AI Diplomacy and Security\n3. (The third pillar is not explicitly mentioned in the provided documents, but based on the structure, it is likely implied to be a third pillar, though the exact name is not stated in the given text.)",
+    "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+    "evaluation_result": "hallucination",
+    "evaluation_method": "LLM-as-a-judge",
+    "timestamp": "2025-12-05T09:13:44.797425",
+    "confidence": 0.8,
+    "reasoning": "The White Agent's response incorrectly states that the third pillar is not explicitly mentioned and implies uncertainty. The correct third pillar is 'infrastructure', which is a factual error in the response.",
+    "provider": "deepseek"
+  },
+  {
+    "query_id": 2,
+    "query": "Why must the U.S. win the global AI race?",
+    "response": "The U.S. must win the global AI race to achieve and maintain unquestioned and unchallenged global technological dominance, as it will reshape the global balance of power, spark new industries, and revolutionize how people live and work. Winning the race will also set global AI standards and reap broad economic and military benefits, ensuring a new golden age of human flourishing, economic competitiveness, and national security for the American people. (Documents 1, 2, 3)",
+    "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+    "evaluation_result": "correct",
+    "evaluation_method": "LLM-as-a-judge",
+    "timestamp": "2025-12-05T09:13:49.932941",
+    "confidence": 0.9,
+    "reasoning": "The White Agent's response accurately reflects the importance of winning the global AI race in terms of setting standards and gaining economic and military benefits, aligning with the ground truth answer.",
+    "provider": "deepseek"
+  },
+  {
+    "query_id": 3,
+    "query": "What immediate deregulatory step did President Trump take on AI?",
+    "response": "President Trump rescinded the Biden Administration\u2019s dangerous actions on day one.",
+    "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+    "evaluation_result": "hallucination",
+    "evaluation_method": "LLM-as-a-judge",
+    "timestamp": "2025-12-05T09:13:54.203090",
+    "confidence": 0.8,
+    "reasoning": "The White Agent's response does not accurately specify the action taken by President Trump regarding AI policy, as it fails to mention the specific executive order rescinded and instead uses vague language about 'dangerous actions'.",
+    "provider": "deepseek"
+  },
+  {
+    "query_id": 4,
+    "query": "How will procurement address ideological bias in AI?",
+    "response": "The provided documents do not explicitly address how procurement will address ideological bias in AI. The documents focus on general risk management, procurement policies, and compliance with federal standards, but they do not specifically mention ideological bias or steps to mitigate it.",
+    "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+    "evaluation_result": "miss",
+    "evaluation_method": "LLM-as-a-judge",
+    "timestamp": "2025-12-05T09:13:57.733939",
+    "confidence": 0.85,
+    "reasoning": "The White Agent's response indicates that the documents do not address ideological bias, which reflects uncertainty about the specific measures for procurement. It does not provide a definitive answer or claim, thus falling into the 'miss' category.",
+    "provider": "deepseek"
+  },
+  {
+    "query_id": 5,
+    "query": "What is the plan\u2019s stance on open-source/open-weight models?",
+    "response": "The plan emphasizes the importance of open-source and open-weight AI models, highlighting their value for innovation, commercial and government adoption, and academic research. It states that these models are essential for ensuring America has leading open models founded on American values and could become global standards in business and academic research, thus having geostrategic value. The Federal government should create a supportive environment for open models, including ensuring access to large-scale computing power for startups and academics and convening stakeholders to drive adoption by small and medium-sized businesses. [s]",
+    "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+    "evaluation_result": "correct",
+    "evaluation_method": "LLM-as-a-judge",
+    "timestamp": "2025-12-05T09:14:04.833873",
+    "confidence": 0.95,
+    "reasoning": "The White Agent's response accurately reflects the ground truth by emphasizing the importance of open-source and open-weight models for innovation and government support, aligning with the stated stance that the government should support them.",
+    "provider": "deepseek"
+  }
+]
+
+2025-12-05 09:14:04,841 - INFO - 
+🧹 Cleaning up...
+2025-12-05 09:14:04,841 - INFO - Terminating agents...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3912550]
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3912557]
+2025-12-05 09:14:05,177 - INFO - ✅ Agents terminated successfully
+2025-12-05 09:14:05,177 - INFO - 
+================================================================================
+2025-12-05 09:14:05,177 - INFO - ✅ Evaluation complete!
+2025-12-05 09:14:05,177 - INFO - ================================================================================

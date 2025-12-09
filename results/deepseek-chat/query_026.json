@@ -5,7 +5,7 @@
   "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
   "evaluation_result": "correct",
   "evaluation_method": "LLM-as-a-judge",
-  "timestamp": "2025-11-20T12:33:31.446198",
+  "timestamp": "2025-12-05T07:49:29.126745",
   "confidence": 0.9,
   "reasoning": "The White Agent's response accurately reflects the need to review and potentially undo actions taken under EO 14110, aligning with the ground truth that actions inconsistent with the new policy must be addressed.",
   "provider": "deepseek"
