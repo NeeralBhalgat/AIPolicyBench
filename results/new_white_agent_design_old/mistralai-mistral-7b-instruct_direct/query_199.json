@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "All AI-generated data products should include the following key elements to ensure transparency, accountability, and compliance with emerging regulations:\n\n1. **Disclosure of AI Use**: Clear labeling or documentation indicating that the content was generated or influenced by AI.\n2. **Source Attribution**: Information about the training data sources, including any copyrighted or proprietary materials used.\n3. **Model Information**: Details about the AI model, such as its architecture, training methodology, and any known biases or limitations.\n4. **Human Oversight**: Documentation of human review or validation processes, if applicable.\n5. **Ethical and Legal Compliance**: Statements confirming adherence to relevant laws (e.g., GDPR, AI Act) and ethical guidelines (e.g., fairness, privacy).\n6. **Usage Restrictions**: Any limitations on how the data can be used, shared, or redistributed.\n7. **Versioning and Updates**: Information on updates or changes to the AI model or data product.\n\nThese requirements align with frameworks like the EU AI Act, NIST AI Risk Management Framework, and other global AI governance initiatives. However, specific mandates may vary by jurisdiction or industry.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:47.940662",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately outlines key elements that should be included in AI-generated data products, aligning with the ground truth requirement of metadata labeling indicating AI generation. The response is comprehensive and reflects current standards in AI policy and safety.",
+  "provider": "deepseek"
+}

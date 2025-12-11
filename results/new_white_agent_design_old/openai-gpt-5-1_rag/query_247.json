@@ -1,0 +1,12 @@
+{
+  "query_id": 247,
+  "query": "How often must minors receive a reminder notification during continued chatbot interactions?",
+  "response": "Part 1: The provided context does not specify how often minors must receive a reminder notification during continued chatbot interactions.  \n\nPart 2: The excerpts describe that AI companions must disclose their non-human status and lack of professional credentials, and that there are new restrictions and crimes related to AI companions for minors. However, they do not include any detailed implementation rules such as the timing or frequency of reminder notifications. Since no explicit interval or schedule for such reminders appears in the quoted material, the required frequency cannot be determined from the information given.",
+  "ground_truth": "At least every three hours.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:24:52.916158",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies that the provided context does not specify the frequency of reminder notifications for minors, but it does not provide the ground truth answer of 'at least every three hours'. Therefore, it expresses uncertainty about the specific requirement.",
+  "provider": "deepseek"
+}

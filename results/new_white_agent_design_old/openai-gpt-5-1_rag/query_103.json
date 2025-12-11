@@ -1,0 +1,12 @@
+{
+  "query_id": 103,
+  "query": "What is one role of the NETT Council as the AI Governance Board?",
+  "response": "Part 1:  \nOne role of the NETT Council as the AI Governance Board is to streamline stakeholder engagements with USDOT and serve as a single point of contact.\n\nPart 2:  \nThe NETT Council’s cross‑modal membership allows it to coordinate across different transportation modes and offices within the Department of Transportation. By streamlining stakeholder engagements, it reduces fragmentation and confusion for external partners who need to interact with USDOT on emerging technologies like AI. Acting as a single point of contact, it centralizes inquiries, feedback, and coordination related to AI governance in transportation. This role helps clarify the federal government’s involvement and makes regulatory and policy engagement more efficient and predictable for stakeholders.",
+  "ground_truth": "To review and approve all AI governance structures, policies, and guidance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:47:46.927736",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response describes the NETT Council's role in streamlining stakeholder engagements and serving as a point of contact, which does not align with the ground truth answer that specifies the Council's role in reviewing and approving AI governance structures, policies, and guidance.",
+  "provider": "deepseek"
+}

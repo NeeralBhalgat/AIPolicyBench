@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "International regulatory cooperation can identify approaches that are at least as protective as those that would be adopted without such cooperation and can also reduce, eliminate, or prevent unnecessary differences in regulatory requirements.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:23:08.490710",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not directly address the specific roles of partnerships with international regulators, such as information sharing and collaboration on standards, and instead focuses on regulatory protection and differences, which is not the main point of the question.",
+  "provider": "deepseek"
+}

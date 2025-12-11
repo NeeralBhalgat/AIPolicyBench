@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "Part 1: The NRC's approach to AI is guided by federal actions for accelerating the use of AI in government operations, as well as a committee promoting cross-office coordination and an AI principles paper published with Canada and the United Kingdom.\n\nPart 2: The Nuclear Regulatory Commission (NRC) has been actively engaged in the development and implementation of AI technologies. This includes participating in federal actions aimed at accelerating the use of AI in government operations. Additionally, the NRC has established a committee to coordinate and provide direction for the agency's future use of AI in NRC-regulated activities. Furthermore, the NRC, in collaboration with Canada and the United Kingdom, published an AI principles paper outlining guiding principles for the safe and secure use of AI in nuclear applications. This paper was published on September 5, 2024.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:45:08.270910",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention the Evidence-Based Policymaking Act or the National AI Initiative Act, which are the actual federal acts guiding the NRC's approach to AI. Instead, it discusses a committee and an AI principles paper, which are not the primary guiding acts.",
+  "provider": "deepseek"
+}

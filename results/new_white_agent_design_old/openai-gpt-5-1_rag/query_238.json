@@ -1,0 +1,12 @@
+{
+  "query_id": 238,
+  "query": "Does AB 489 limit a licensing board’s authority to pursue other remedies?",
+  "response": "Part 1:  \nNo; AB 489 explicitly provides that it does not limit a licensing board’s authority to pursue any other remedies available under current law.  \n\nPart 2:  \nAB 489 adds restitution‑related tools to a licensing board’s enforcement options, but it clarifies that these are cumulative to existing authority. The bill explains that any restitution or related orders are in addition to, and not in lieu of, other disciplinary or enforcement measures a board may take. This means boards retain their full power to investigate, discipline, and otherwise act against licensees as already authorized. In effect, AB 489 expands available remedies without restricting or replacing any existing ones.",
+  "ground_truth": "No, it does not limit any otherwise authorized remedies.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:23:19.473787",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the provisions of AB 489, stating that it does not limit a licensing board's authority to pursue other remedies, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

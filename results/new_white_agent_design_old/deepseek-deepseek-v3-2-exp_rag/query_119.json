@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "Part 1: Before an AI system can be deployed into production, it must be developed and deployed effectively, including a description of any vulnerabilities found and fixed through its development and deployment.\n\nPart 2: The context emphasizes that the deployment of AI must not undermine workers' rights or introduce new health and safety risks. It specifically requires that lessons are learned on how to identify, develop, test, evaluate, and deploy AI capabilities effectively. This process is critical to ensuring the system is safe and secure before being put into operational use.",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:45:43.675898",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the importance of identifying vulnerabilities and ensuring safety in AI deployment, but it does not mention the specific requirement of CAIO and SR2 Committee authorization based on risk management compliance, which is essential for deployment as per the ground truth.",
+  "provider": "deepseek"
+}

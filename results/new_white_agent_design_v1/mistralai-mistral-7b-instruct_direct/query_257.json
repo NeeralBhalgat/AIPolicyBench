@@ -1,0 +1,12 @@
+{
+  "query_id": 257,
+  "query": "What types of property elements qualify as “changes” that make an image digitally altered?",
+  "response": "Changes that make an image digitally altered include modifications to the content, such as adding, removing, or altering objects, people, or elements within the image, as well as adjustments to color, lighting, or other visual properties that significantly alter the original depiction.",
+  "ground_truth": "Changes to fixtures, furniture, appliances, flooring, walls, landscaping, façade, floor plans, and external features like streetlights or views.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:06.447310",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses changes to visual properties of images, which is not aligned with the ground truth answer that specifies property elements related to physical structures and features. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

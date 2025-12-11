@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "Part 1: DHS leadership is responsible for guiding responsible AI development and deployment through federal agency leadership and regulation of industry.\n\nPart 2: The context highlights that the U.S. government is establishing a government-wide effort to ensure responsible AI development, with federal agencies like DHS playing a key role. This includes leading federal agency initiatives, regulating industry practices, and engaging with international partners to foster a secure and competitive AI ecosystem. The emphasis is on sustaining U.S. leadership in AI while addressing national security and economic competitiveness concerns.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:34:24.212478",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the responsibilities of DHS leadership regarding AI adoption, emphasizing the importance of guiding responsible AI development and addressing national security and economic competitiveness concerns, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

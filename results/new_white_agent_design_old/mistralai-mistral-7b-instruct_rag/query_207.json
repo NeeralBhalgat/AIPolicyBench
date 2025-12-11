@@ -1,0 +1,12 @@
+{
+  "query_id": 207,
+  "query": "Under §11013(c), how long must personnel and employment records be preserved?",
+  "response": "Error: No relevant reputable articles found.",
+  "ground_truth": "Four years from the date of the record or personnel action.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:49:05.199360",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the preservation period for personnel and employment records, which aligns with expressing uncertainty. It does not provide the correct answer or any relevant information.",
+  "provider": "deepseek"
+}

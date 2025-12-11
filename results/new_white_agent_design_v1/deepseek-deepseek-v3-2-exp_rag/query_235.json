@@ -1,0 +1,12 @@
+{
+  "query_id": 235,
+  "query": "Against whom are existing prohibitions on deceptive medical terms enforceable under AB 489?",
+  "response": "Under AB 489, existing prohibitions on deceptive medical terms are enforceable against an entity who develops or deploys artificial intelligence (AI) or generative artificial intelligence (GenAI) technology that uses those terms.",
+  "ground_truth": "Any person or entity that develops or deploys an AI or GenAI system using prohibited terms in advertising or functionality.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:52:11.980519",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that prohibitions are enforceable against entities that develop or deploy AI or GenAI technology using deceptive medical terms.",
+  "provider": "deepseek"
+}

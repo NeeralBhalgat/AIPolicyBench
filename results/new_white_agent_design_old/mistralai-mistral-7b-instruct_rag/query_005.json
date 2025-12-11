@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "Part 1: The plan does not impose controls on open-weight models, as the economic and social benefits of their availability currently outweigh the risks.\n\nPart 2: The U.S. government recognizes that open-weight models support beneficial activities, including research, cybersecurity defenses, and small-scale commercial applications. These models are less advanced than closed-weight models, which are closely held by developers, and their open availability allows for broader risk assessment and mitigation. However, the government will continue to monitor risks and reassess if necessary.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:20:40.605306",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the stance on open-source/open-weight models, emphasizing their economic and social benefits while acknowledging the need for ongoing risk assessment, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 210,
+  "query": "Under §11017.1(a), when are employers prohibited from inquiring into criminal history?",
+  "response": "Employers are prohibited from inquiring into criminal history until after the employer has made a conditional offer of employment to the applicant.",
+  "ground_truth": "Before a conditional offer is made, except in limited exemptions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:50:27.647610",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the prohibition on employers inquiring into criminal history until after a conditional offer of employment, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

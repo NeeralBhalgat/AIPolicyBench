@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "The DoD plans to collaborate with external partners—including industry, academia, and allied nations—through joint research and development, shared testing and evaluation, common technical standards and frameworks, and mechanisms for responsible AI governance and interoperability to accelerate safe and effective AI adoption.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:38:07.447145",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the DoD's plans for collaboration with external partners, including industry, academia, and allied nations, and aligns well with the ground truth answer regarding joint research, shared testing, and responsible AI governance.",
+  "provider": "deepseek"
+}

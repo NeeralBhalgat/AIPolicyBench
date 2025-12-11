@@ -1,0 +1,12 @@
+{
+  "query_id": 99,
+  "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+  "response": "Part 1: The AI Policy Working Group (AIPWG) is one of 10 executive branch oversight groups that have a role in federal AI use, as outlined in the context.\n\nPart 2: The context mentions that various AI-related requirements from federal laws, executive orders, and guidance have shaped federal agencies' efforts to use AI, including the AI in Government Act of 2020 and the Advancing American AI Act. The AIPWG is part of a broader framework of oversight groups established to ensure federal AI policies are implemented effectively. These groups work to coordinate AI initiatives across different agencies, ensuring compliance with federal regulations and executive directives. The context highlights the importance of structured oversight in managing AI development and deployment at the federal level.",
+  "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:34:24.435432",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the AIPWG as an executive branch oversight group focused on federal AI use, while the ground truth specifies that it is a group established to assess and update policies for ethical and authorized AI acquisition and use across DHS. This misalignment indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

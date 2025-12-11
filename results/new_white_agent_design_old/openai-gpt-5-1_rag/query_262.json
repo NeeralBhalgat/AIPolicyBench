@@ -1,0 +1,12 @@
+{
+  "query_id": 262,
+  "query": "Which platforms must detect embedded provenance data beginning January 1, 2027?",
+  "response": "**Part 1:**  \nThe provided sources do not state which platforms are required to detect embedded provenance data beginning January 1, 2027.  \n\n**Part 2:**  \nIn the excerpts you shared, the discussion centers on a proposed executive order to limit state-level AI regulation and the resulting bipartisan pushback, with a focus on federalism and states’ rights. There is no mention of provenance requirements, watermarking, or any obligation for particular platforms to detect embedded provenance data. Because the specific platforms and the January 1, 2027 compliance date are not described in the given context, they cannot be identified from this information alone. Any attempt to name particular platforms would therefore be speculative rather than grounded in the text.",
+  "ground_truth": "Large online platforms.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:28:58.039855",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies that the provided sources do not specify which platforms are required to detect embedded provenance data. However, it does not acknowledge the ground truth answer that large online platforms are the ones expected to comply, which indicates a lack of completeness in the response.",
+  "provider": "deepseek"
+}

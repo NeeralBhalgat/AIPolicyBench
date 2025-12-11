@@ -1,0 +1,12 @@
+{
+  "query_id": 154,
+  "query": "What AI barrier relates to tools?",
+  "response": "The barrier relates to the lack of an \"online shared repository of resources and tools to assist with AI procurement.\"",
+  "ground_truth": "Lack of access to AI tools and platforms.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:46:07.753553",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly specifies the barrier as the lack of an 'online shared repository of resources and tools,' which does not directly align with the ground truth answer regarding the lack of access to AI tools and platforms. The phrasing suggests a specific type of repository rather than the broader issue of access.",
+  "provider": "deepseek"
+}

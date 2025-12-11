@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "<s> [OUT] Part 1: President Trump directed the creation of an AI Action Plan in the early days of his second term in office.\n\nPart 2: The AI Action Plan was mandated by President Trump as part of his administration's strategy to ensure U.S. leadership in artificial intelligence. The plan outlines three key pillars: accelerating innovation, building AI infrastructure, and leading in international diplomacy and security. This initiative aims to position America as a global leader in AI, addressing economic competitiveness, national security, and technological advancement. [/OUT]",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:54.559937",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly attributes the creation of the AI Action Plan to President Trump and does not mention the specific entities responsible for producing the plan or the timeline of 180 days, which is part of the ground truth.",
+  "provider": "deepseek"
+}

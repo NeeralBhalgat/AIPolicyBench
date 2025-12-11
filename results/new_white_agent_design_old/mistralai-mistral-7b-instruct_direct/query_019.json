@@ -1,0 +1,12 @@
+{
+  "query_id": 19,
+  "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+  "response": "The question you've asked pertains to AI regulation, which varies significantly across different jurisdictions. As of now, there isn't a universally accepted minimum risk practice deadline for high-impact AI at the global level. However, there are initiatives and proposals that aim to establish such standards.\n\nFor instance, the European Union's Artificial Intelligence Act (AIA) proposes a phased implementation timeline for AI regulations, with high-risk AI systems expected to comply by 2024. The AIA defines high-risk AI as systems that could cause physical injury or loss of life, large-scale damage to property, significant economic or social disruption, or substantial violation of privacy rights.\n\nIf an AI system is non-compliant with the regulations, penalties may include fines, suspension or revocation of licenses, and even criminal charges in severe cases. It's important to note that the specific penalties can vary greatly depending on the jurisdiction and the nature of the non-compliance.\n\nIn the absence of a global standard, it's crucial for AI developers and users to adhere to ethical principles and best practices for AI safety and transparency, such as those outlined by organizations like the Partnership on AI and the European Commission's High-Level Expert Group on Artificial Intelligence.\n\nThis response is based on the information available up to October 2022. Regulations and proposals are subject to change, and it's always a good idea to consult the latest official sources for the most accurate information.",
+  "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:30.150205",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately states that there is no universally accepted minimum risk practice deadline for high-impact AI, while the ground truth specifies a 365-day deadline. Additionally, the response does not mention the requirement to discontinue use if non-compliant, which is a critical aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

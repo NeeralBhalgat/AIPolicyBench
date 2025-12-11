@@ -1,0 +1,12 @@
+{
+  "query_id": 7,
+  "query": "What permitting changes are proposed for AI infrastructure?",
+  "response": "**Part 1:**  \nThe executive order directs the federal government to “facilitate the rapid and efficient buildout” of AI data centers and related infrastructure “by easing Federal” permitting processes for Data Center Projects and the energy, semiconductor, networking, and storage components they depend on.  \n\n**Part 2:**  \nAI data centers and the infrastructure that powers them are explicitly treated as critical national assets, including transmission lines, natural gas pipelines, substations, baseload power equipment, semiconductors, networking gear, and data storage systems. The order instructs federal agencies to prioritize, streamline, and speed up permitting and related federal reviews for these projects. This is meant to remove federal bottlenecks that could slow or block the construction and expansion of large-scale AI computing facilities. In doing so, the administration aims to support national security, economic growth, and U.S. leadership in advanced technologies.",
+  "ground_truth": "New NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:25:19.766035",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the easing of federal permitting processes for AI data centers and related infrastructure, it does not mention the specific new NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects, which are key elements of the ground truth answer.",
+  "provider": "deepseek"
+}

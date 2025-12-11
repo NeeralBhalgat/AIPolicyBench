@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "Part 1: SB 361 adds the requirement that a business must delete a consumer's personal information it collected or received in connection with the denied request.\n\nPart 2: The bill specifically amends the law to require that if a business denies a consumer's request to know, correct, or delete their personal information, the business must still delete the personal information it collected or received in connection with that specific denied request. This is an enhanced deletion obligation that applies even when the underlying request itself is not fully granted. The requirement ensures that data collected purely for the purpose of processing a consumer's rights request is not retained after the request has been resolved.",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:21:42.097709",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly describes the enhanced deletion requirement of SB 361. The ground truth states that a denied deletion request must be processed as an opt-out of sale or sharing within 45 days, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

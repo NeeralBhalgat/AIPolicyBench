@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "**Part 1:**  \nAll AI-generated data products must include content authentication and watermarking that clearly label the content as AI-generated.\n\n**Part 2:**  \nThe policy directs the Department of Commerce to develop guidance specifically for “content authentication and watermarking to clearly label AI-generated content.” This means that any data product produced by AI should carry built‑in signals or markers that verify its origin and indicate it is machine‑generated. Such measures are intended to help detect AI-generated content and authenticate official content, reducing risks of fraud and deception. By embedding these labels directly into AI outputs, both government and private actors can make it easier for the public to identify and trust what they are seeing.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:13:00.620952",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI-generated data products to include content authentication and watermarking, which aligns with the ground truth of metadata labeling indicating AI generation. The response provides a detailed explanation of the purpose and implications of these measures, supporting its correctness.",
+  "provider": "deepseek"
+}

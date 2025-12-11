@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "Based on my training data, every U.S. federal agency must designate a Chief Artificial Intelligence Officer, as required by the White House's Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence, issued in October 2023.",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:01.834051",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that every U.S. federal agency must designate a Chief Artificial Intelligence Officer as required by the Executive Order issued in October 2023. The response aligns with the ground truth that this designation must occur within 60 days of the order's issuance.",
+  "provider": "deepseek"
+}

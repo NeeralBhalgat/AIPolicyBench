@@ -1,0 +1,12 @@
+{
+  "query_id": 22,
+  "query": "What policy goal does the order set for the United States?",
+  "response": "The order sets the goal of promoting \"the safe, secure, and trustworthy development and use of Artificial Intelligence.\"",
+  "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:15.162957",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately reflects the policy goal, which is to sustain and enhance global AI dominance, rather than just promoting safe and trustworthy AI development.",
+  "provider": "deepseek"
+}

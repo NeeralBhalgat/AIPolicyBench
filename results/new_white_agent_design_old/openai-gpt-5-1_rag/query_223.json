@@ -1,0 +1,12 @@
+{
+  "query_id": 223,
+  "query": "Which parties are subject to the prohibition on asserting an AI-autonomy defense under AB 316?",
+  "response": "**Part 1:**  \nUnder AB 316, the prohibition on asserting an AI‑autonomy defense applies to any person or entity responsible for a covered autonomous system, including those who design, develop, deploy, own, or operate the autonomous vehicle/AI system (such as manufacturers, technology developers, vehicle owners, and human operators).\n\n**Part 2:**  \nAB 316 is structured to ensure that responsibility for harms involving autonomous systems cannot be shifted onto the AI itself. To do this, it bars all the key actors in the AI/vehicle chain—those who create the system (designers and developers), bring it to market or put it into service (deployers and manufacturers), and control or use it in practice (owners and operators)—from arguing that the AI’s independent or unforeseen actions relieve them of liability. In other words, anyone with control over or a commercial role in the autonomous system remains legally accountable and cannot claim “the AI decided on its own” as a defense. This keeps accountability with human and corporate actors rather than the technology.",
+  "ground_truth": "Defendants who developed, modified, or used artificial intelligence alleged to have caused harm.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:19:03.429195",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the parties subject to the prohibition on asserting an AI-autonomy defense under AB 316, aligning with the ground truth that includes defendants who developed, modified, or used the AI. The response provides a comprehensive explanation of the accountability framework established by the law.",
+  "provider": "deepseek"
+}

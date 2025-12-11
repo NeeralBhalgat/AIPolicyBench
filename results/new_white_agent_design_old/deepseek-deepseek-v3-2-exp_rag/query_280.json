@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "Part 1: Employees, contractors, subcontractors, grantees, sub-grantees, and personal service contractors are protected from retaliation for making a protected disclosure.\n\nPart 2: These individuals are protected from being discharged, demoted, or otherwise discriminated against for reporting wrongdoing. The protection applies when they have a reasonable belief of issues such as gross mismanagement, abuse of authority, violations of law, waste, fraud, or a substantial danger to public health or safety. This coverage is explicitly stated for federal employees under statutes like the Whistleblower Protection Act and is extended to individuals working under federal contracts and grants through separate provisions.",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:52.734049",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response accurately describes the protections for various individuals under whistleblower provisions, it does not specifically mention the coverage for employees reporting catastrophic-risk dangers or violations of the TFAIA, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

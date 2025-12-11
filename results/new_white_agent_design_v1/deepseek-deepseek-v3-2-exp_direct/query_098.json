@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:59:19.905054",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the responsibility of DHS leadership regarding AI adoption.",
+  "provider": "deepseek"
+}

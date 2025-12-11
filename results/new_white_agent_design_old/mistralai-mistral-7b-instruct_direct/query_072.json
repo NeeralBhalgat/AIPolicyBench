@@ -1,0 +1,12 @@
+{
+  "query_id": 72,
+  "query": "How does the Strategic Plan define Artificial Intelligence?",
+  "response": "The Strategic Plan I'm referring to is likely the European Union's AI Strategy, as it's one of the most comprehensive AI strategies at a global level. In the EU's AI Strategy, Artificial Intelligence (AI) is defined as \"systems designed by humans that, given a complex goal, act in the physical or digital dimension by perceiving their environment through data acquisition, interpreting the collected structured or unstructured data, reasoning on the knowledge, learning individual competencies, and deciding and taking actions to achieve their goal.\" This definition emphasizes the autonomous decision-making and learning capabilities of AI systems. However, it's important to note that definitions can vary depending on the context, and different organizations or documents may use slightly different definitions.",
+  "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:44.058537",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a definition of AI that is overly complex and does not align with the ground truth answer, which is more concise and focused on the predictive and decision-making aspects of AI systems. The definition given by the White Agent includes elements that are not part of the ground truth, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

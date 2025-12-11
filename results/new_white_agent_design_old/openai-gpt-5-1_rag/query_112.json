@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "**Part 1:**  \nDOT ensures AI training data are trustworthy by following the Federal directive to “promote safe release and prevent the malicious use of Federal data for AI training”—expanding public access to Federal data assets in a machine-readable format only while “taking into account security considerations,” and coordinating this work through a new DOT Cross-Modal Executive Working Group that solicits input from appropriate stakeholders.\n\n**Part 2:**  \nUnder the government-wide framework for safe, secure, and trustworthy AI, DOT must manage security risks so that data that may be harmless alone is not harmful when combined with other information, which directly affects what data can be safely used to train AI systems. The requirement to consider such security implications when releasing machine-readable Federal data is meant to keep training datasets free from sensitive or exploitable information. DOT’s Cross-Modal Executive Working Group and relevant advisory committees provide structured stakeholder input to guide how these safeguards are implemented in transportation contexts. Together, these measures aim to ensure that the data feeding DOT’s AI tools is both high-quality and responsibly governed.",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:49:57.276151",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the DOT's efforts to ensure the security and responsible governance of AI training data, but it does not address the specific aspects of assessing datasets for quality, accuracy, representativeness, and bias, which are critical components of ensuring trustworthy AI training data.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "Part 1: System owners must subject high-impact AI applications to pre-deployment testing, documented impact assessments, continuous performance monitoring, and meaningful opportunities for human intervention, or shut them down if they cannot be brought into compliance by the deadline.\n\nPart 2: This requirement applies specifically to AI systems that are classified as \"high-impact,\" which includes those whose outputs affect individuals' rights, opportunities, access to services, or safety, such as medical devices or biometric identification. Agencies are given a deadline to ensure all such systems are compliant with these risk controls. The new guidance has consolidated previous categories of sensitive AI uses into this single \"high-impact\" classification to streamline risk management.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:03:11.263124",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses pre-deployment testing and compliance for high-impact AI applications, which is not aligned with the ground truth answer that specifies reporting all use cases to the AI Safety Team. The focus on compliance and risk management does not address the requirement to report use cases, making the response factually incorrect.",
+  "provider": "deepseek"
+}

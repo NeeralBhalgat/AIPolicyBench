@@ -1,0 +1,12 @@
+{
+  "query_id": 63,
+  "query": "What new AI guidance did the DOE release in June 2024?",
+  "response": "In June 2024, the Department of Energy (DOE) released a new AI guidance titled \"AI and Energy: A Strategic Framework for Responsible Development and Deployment.\" This framework outlines the DOE's approach to the responsible development and deployment of AI in the energy sector. It emphasizes the importance of AI in advancing energy efficiency, grid resilience, and clean energy technologies, while also addressing potential risks and ethical considerations. The framework includes recommendations for research, development, and deployment of AI, as well as guidelines for ensuring transparency, accountability, and fairness in AI systems used by the DOE. It also highlights the need for collaboration with industry, academia, and other stakeholders to address the challenges and opportunities presented by AI in the energy sector.",
+  "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:32.060084",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the new AI guidance released by the DOE in June 2024. The correct guidance was Version 2 of the Generative AI (GenAI) Reference Guide, not the framework described.",
+  "provider": "deepseek"
+}

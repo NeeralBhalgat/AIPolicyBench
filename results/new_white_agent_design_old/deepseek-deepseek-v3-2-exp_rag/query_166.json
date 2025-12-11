@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "Part 1: The National Artificial Intelligence Initiative, as reinforced by the \"Chips and Science Act\" of 2022, directs NIST to expand its AI capabilities and support the development of technical standards.\n\nPart 2: The \"Chips and Science Act\" of 2022 provides Congressional mandates that reinforce the National Artificial Intelligence Initiative Act's call for NIST to expand its scientific staff and research infrastructure. NIST is tasked with supporting the development of technical standards and guidelines to promote safe and trustworthy AI systems. This establishes NIST as a central internal group supporting AI governance through its measurement research and standard-setting activities.",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:56:35.920816",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the National Artificial Intelligence Initiative and NIST's role in AI governance, but it does not mention the Artificial Intelligence Steering Committee (AISC) or the AI Community of Practice (AICoP), which are the major internal committees supporting AI governance as per the ground truth.",
+  "provider": "deepseek"
+}

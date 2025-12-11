@@ -1,0 +1,23 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: https://ohio-weight-due-devon.trycloudflare.com/to_agent/7bfff74409f041759b1fc68080d75d8f
+White Agent Model: deepseek-deepseek-v3-2-exp_direct
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251210_155631
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 300
+Evaluated (excl. timeout): 300
+Timeout: 0 (0.00%) - excluded from factuality
+
+Correct: 23 (7.67%)
+Miss: 241 (80.33%)
+Hallucination: 36 (12.00%)
+Factuality Rate: 76.00%
+
+================================================================================

@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:44:48.463689",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

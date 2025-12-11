@@ -1,0 +1,12 @@
+{
+  "query_id": 229,
+  "query": "What characteristic of AI systems is explicitly noted in the definition in §1714.46(a)?",
+  "response": "Part 1: The definition in §1714.46(a) explicitly notes that AI systems must be \"safe and secure.\"\n\nPart 2: The context emphasizes that AI systems should undergo robust, reliable, repeatable, and standardized evaluations to ensure they are safe and secure. This includes addressing risks such as biotechnology, cybersecurity, and critical infrastructure threats, as well as ensuring compliance with federal laws and policies. The goal is to mitigate risks before deployment and maintain security throughout the system's lifecycle, including post-deployment monitoring.",
+  "ground_truth": "AI systems vary in their level of autonomy.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:51:35.777710",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the definition in §1714.46(a) emphasizes that AI systems must be 'safe and secure,' while the ground truth indicates that the defining characteristic is the variation in the level of autonomy of AI systems.",
+  "provider": "deepseek"
+}

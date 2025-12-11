@@ -1,0 +1,12 @@
+{
+  "query_id": 151,
+  "query": "What does NASA’s registry enable beyond federal reporting?",
+  "response": "NASA’s AI registry is designed to be more than a compliance tool for the federal AI inventory requirement. Beyond enabling NASA to meet OMB’s government‑wide AI reporting obligations, the registry is intended to:\n\n- **Give NASA-wide visibility into AI use**  \n  - Show where and how AI (including generative AI) is being used across centers, missions, and programs.  \n  - Reduce “unknown” or shadow AI systems by requiring registration.\n\n- **Support risk management and oversight**  \n  - Flag safety‑critical, mission‑",
+  "ground_truth": "Continuous tracking of all AI use cases internally.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:55:47.640220",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of NASA's AI registry, highlighting its role in providing visibility into AI use and supporting risk management, which aligns with the ground truth of continuous tracking of all AI use cases internally.",
+  "provider": "deepseek"
+}

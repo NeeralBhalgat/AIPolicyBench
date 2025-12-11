@@ -1,0 +1,12 @@
+{
+  "query_id": 221,
+  "query": "How does AB 316 define “artificial intelligence” in Civil Code §1714.46(a)?",
+  "response": "AB 316, a bill introduced in the California State Legislature, defines \"artificial intelligence\" in Civil Code §1714.46(a) as follows:\n\n\"Artificial intelligence\" means a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments. Artificial intelligence systems are designed to operate with varying levels of autonomy and adaptability that may be developed by supervised, unsupervised, or reinforcement learning, as well as other techniques, and include generative artificial intelligence systems.\n\nThis definition is part of the broader effort to regulate AI in California, particularly in the context of consumer protection and transparency. The bill aims to ensure that AI systems are used responsibly and that consumers are informed about their interactions with AI.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:54.945810",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of the definition of 'artificial intelligence' as outlined in AB 316, aligning closely with the ground truth answer. It mentions the machine-based system, varying levels of autonomy, and the ability to influence environments, which are key components of the definition.",
+  "provider": "deepseek"
+}

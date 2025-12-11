@@ -1,0 +1,12 @@
+{
+  "query_id": 244,
+  "query": "What notification must be issued if a reasonable person would believe a companion chatbot is human?",
+  "response": "In the context of AI and chatbots, it is generally considered ethical and legal to disclose that the entity one is communicating with is a machine, rather than a human. This is to prevent deception and maintain transparency. If a reasonable person might believe that a companion chatbot is human, it is advisable to issue a clear notification stating that the chatbot is an artificial intelligence.\n\nIn the United States, the Federal Trade Commission (FTC) has issued guidelines for AI and machine learning, stating that businesses should be truthful about the capabilities, limitations, and nature of their AI systems. The FTC has also warned that misrepresenting a chatbot as a human could be considered deceptive advertising.\n\nIn the European Union, the General Data Protection Regulation (GDPR) requires that AI systems, including chatbots, be transparent about their purpose and the data they collect. The GDPR also requires that users be informed if they are interacting with an automated system.\n\nIn summary, it is important to disclose that a companion chatbot is an AI system to maintain transparency and avoid deception. This can be done through clear and conspicuous notifications, such as a message that appears when the user first interacts with the chatbot or a notice in the chatbot's profile or settings.",
+  "ground_truth": "A clear and conspicuous notification stating the chatbot is artificially generated and not human.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:58.007901",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the need for a clear notification that a chatbot is an AI and not a human, aligning with ethical and legal standards. It correctly references FTC guidelines and GDPR requirements, supporting the importance of transparency.",
+  "provider": "deepseek"
+}

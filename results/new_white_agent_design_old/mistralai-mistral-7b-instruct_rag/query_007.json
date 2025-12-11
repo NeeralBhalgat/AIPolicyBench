@@ -1,0 +1,12 @@
+{
+  "query_id": 7,
+  "query": "What permitting changes are proposed for AI infrastructure?",
+  "response": "Part 1: The Permitting Council, in consultation with the White House Task Force on AI Datacenter Infrastructure, will engage small developers of AI infrastructure as part of permitting changes.\n\nPart 2: The proposed permitting changes aim to streamline the process for AI infrastructure development, particularly for smaller developers. This involves the Permitting Council working closely with the White House Task Force on AI Datacenter Infrastructure to facilitate engagement and coordination. The goal is to ensure that permitting processes support the rapid and responsible deployment of AI infrastructure, aligning with broader national objectives for technological advancement and energy efficiency.",
+  "ground_truth": "New NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:20:39.987620",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses engagement with small developers and streamlining processes but does not mention the specific NEPA categorical exclusions or FAST-41 coverage, which are key elements of the proposed permitting changes.",
+  "provider": "deepseek"
+}

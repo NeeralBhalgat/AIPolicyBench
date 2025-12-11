@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "They are set out in the Internal Revenue Manual (IRM), specifically:\n\n- **IRM 10.5 – Privacy and Information Protection**, and  \n- **IRM 10.8 – Information Technology (IT) Security**.",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:54:30.858199",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the relevant sections of the Internal Revenue Manual (IRM) that pertain to IRS privacy and security requirements, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

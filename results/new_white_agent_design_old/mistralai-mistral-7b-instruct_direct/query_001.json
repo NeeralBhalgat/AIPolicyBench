@@ -1,0 +1,12 @@
+{
+  "query_id": 1,
+  "query": "What are the three pillars of America’s AI Action Plan?",
+  "response": "The three pillars of America's AI Action Plan, as outlined by the White House Office of Science and Technology Policy, are:\n\n1. Investing in Foundational Research and Development: This pillar focuses on advancing the frontiers of AI by increasing federal investments in AI research and development, supporting AI-related education and workforce development, and fostering international collaboration.\n\n2. Ensuring Trustworthy AI: This pillar aims to establish a regulatory framework for AI that promotes trust, transparency, and accountability. It includes efforts to address issues such as bias, privacy, and security in AI systems, as well as the development of standards and guidelines for AI development and deployment.\n\n3. Advancing Industry Innovation and Economic Prosperity: This pillar seeks to support the growth of the AI industry in the United States by removing barriers to innovation, promoting the adoption of AI by businesses, and ensuring that the benefits of AI are broadly shared across the economy. This includes efforts to improve access to data, streamline regulatory processes, and support entrepreneurship and investment in AI startups.",
+  "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:01.905598",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the three pillars of America's AI Action Plan. The correct pillars are innovation, infrastructure, and international diplomacy and security, which do not match the response provided.",
+  "provider": "deepseek"
+}

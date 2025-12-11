@@ -1,0 +1,12 @@
+{
+  "query_id": 274,
+  "query": "What must a large frontier developer publish on its website?",
+  "response": "<s> [OUT] Part 1: A large frontier developer must publish \"major revisions, additions, or joint or common rules\" on its website.\n\nPart 2: According to the Document Drafting Handbook, large projects such as reorganizations, major revisions, additions, or joint/common rules require preliminary consultation and technical assistance, implying a need for public transparency. The Federal Register's role in publishing federal documents underscores the importance of making such significant changes accessible to the public. This ensures compliance with legal requirements and maintains public awareness of regulatory updates.",
+  "ground_truth": "A frontier AI framework outlining risk thresholds, mitigations, governance, cybersecurity, and update processes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:58:46.304756",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the need for public transparency and legal compliance but does not accurately reflect the specific requirements for a large frontier developer, which include publishing a framework outlining risk thresholds, mitigations, governance, cybersecurity, and update processes.",
+  "provider": "deepseek"
+}

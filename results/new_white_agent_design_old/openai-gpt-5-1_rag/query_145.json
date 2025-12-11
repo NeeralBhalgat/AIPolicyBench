@@ -1,0 +1,12 @@
+{
+  "query_id": 145,
+  "query": "What is AISWG’s role in advancing strategic objectives?",
+  "response": "**Part 1**  \nAISWG’s role is to coordinate Federal AI infrastructure policies and investments so that they advance the order’s strategic objectives of protecting United States national security, advancing United States economic competitiveness, and fostering the safety, security, and trustworthiness of artificial intelligence.\n\n**Part 2**  \nAISWG functions as an interagency working group that aligns planning and implementation of AI infrastructure with these strategic objectives. By coordinating across departments, it helps ensure that new AI infrastructure supports future national‑security missions while maintaining strong safeguards for cyber, supply‑chain, and physical security. It also works to ensure that infrastructure development strengthens the broader technology ecosystem and economic competitiveness rather than undermining it. Through its ongoing coordination, AISWG supports consistent standards, accountability, and updates as AI capabilities and associated risks evolve.",
+  "ground_truth": "Defining and advancing AI strategic objectives.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:59:11.041958",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes AISWG's role in coordinating AI infrastructure policies and investments to align with strategic objectives, which includes protecting national security and advancing economic competitiveness. This aligns well with the ground truth answer of defining and advancing AI strategic objectives.",
+  "provider": "deepseek"
+}

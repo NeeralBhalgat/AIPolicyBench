@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "Based on the most significant and recent action, the answer refers to the legal definition adopted by President Biden's Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence, issued on October 30, 2023.\n\nThe order does **not** create a single, monolithic legal definition of \"artificial intelligence.\" Instead, it adopts the definition already established in law by referencing the **National Artificial Intelligence Initiative Act of 2020** (Division E of the National Defense Authorization Act for Fiscal Year 2021).\n\nThe order states in Section 3:\n\n> *The term \"artificial intelligence\" has the meaning set forth in 15 U.S.C. 9401(3)...*\n\nLooking up that U.S. Code (15 U.S.C. 9401(3)) provides the specific, adopted definition:\n\n> **A machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.** Artificial intelligence systems are designed to operate with varying levels of autonomy.\n\nThis definition is intentionally:\n*   **Broad and technology-agnostic:** It doesn't tie the definition to specific techniques (e.g., neural networks, decision trees) to remain relevant as the technology evolves.\n*   **Functional:** It focuses on what the system *does* (makes predictions, recommendations, or decisions) rather than how it does it.\n*   **Goal-oriented:** It highlights that the system operates based on \"human-defined objectives.\"\n*   **Conscious of Autonomy:** It acknowledges that AI systems can operate with varying degrees of human oversight.\n\nIt is important to note that other U.S. laws and international frameworks (like the EU AI Act) use different definitions. However, for the purposes of implementing the over 100 directives within Biden's Executive Order, this is the legally adopted definition.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:29:23.875577",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately references the legal definition of AI as stated in 15 U.S.C. 9401(3) and correctly explains the context of its adoption in the Executive Order. The details provided align with the ground truth answer.",
+  "provider": "deepseek"
+}

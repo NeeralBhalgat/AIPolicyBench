@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "Part 1: Ethical/risk frameworks guiding AI include Microsoft's Responsible AI principles and NIST's AI Risk Management Framework, which provide comprehensive coverage of fairness, privacy, transparency, and accountability.\n\nPart 2: These frameworks offer structured approaches to integrating AI responsibly into business practices. Microsoft's Responsible AI principles and NIST's AI Risk Management Framework are widely recognized standards that help organizations address critical ethical and risk considerations. By adopting these frameworks, businesses can ensure their AI systems are fair, transparent, and accountable, while also aligning with regulatory expectations and industry best practices. These guidelines are essential for mitigating risks and fostering trust in AI technologies.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:24:16.154408",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent mentions Microsoft's Responsible AI principles and NIST's AI Risk Management Framework, it fails to include specific elements from the ground truth answer, such as the tailored application to USDA, bias mitigation strategies, and other detailed practices like human oversight and feedback loops. This indicates a lack of accuracy in the response.",
+  "provider": "deepseek"
+}

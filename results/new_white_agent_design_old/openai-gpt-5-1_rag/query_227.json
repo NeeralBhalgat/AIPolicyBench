@@ -1,0 +1,12 @@
+{
+  "query_id": 227,
+  "query": "What type of harm is addressed in §1714.46(b) regarding artificial intelligence?",
+  "response": "**Part 1:**  \n§1714.46(b) addresses harm in the form of “algorithmic discrimination” caused by high‑risk artificial intelligence systems.\n\n**Part 2:**  \nIn this context, the law focuses on developers’ duty to use reasonable care to protect consumers from known or reasonably foreseeable risks that their AI systems will produce discriminatory outcomes. “Algorithmic discrimination” generally refers to unjust or prejudicial treatment of individuals or groups through automated decision-making, such as biased decisions in lending, employment, housing, or access to services. By singling out this type of harm, §1714.46(b) treats discriminatory impacts from AI as a legally cognizable injury, not just a technical flaw. This aligns AI regulation with broader consumer protection and civil rights principles.",
+  "ground_truth": "Harm allegedly caused to a plaintiff by AI developed, modified, or used by a defendant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:19:52.284118",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on 'algorithmic discrimination' as the specific harm addressed in §1714.46(b), while the ground truth indicates that the harm pertains to any harm allegedly caused to a plaintiff by AI, which is broader than just discrimination.",
+  "provider": "deepseek"
+}

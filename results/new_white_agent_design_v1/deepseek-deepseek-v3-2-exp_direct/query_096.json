@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "The DHS AI Risk Management Framework aims to adapt and implement the NIST AI RMF to provide department-wide guidance for managing the risks of AI and to promote the trustworthy use of AI in homeland security missions.",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:59:16.289405",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the primary aim of the DHS AI Risk Management Framework. While it mentions adapting the NIST AI RMF and promoting trustworthy AI, it does not accurately reflect the focus on evaluating AI use cases early in their lifecycle and identifying risks, which is the core purpose of the framework.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 102,
+  "query": "Who serves as DOT’s AI Governance Board?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The NETT Council, led by senior DOT officials including the Secretary and Deputy Secretary.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:09:27.648250",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the classification of 'miss'. The correct information about the DOT's AI Governance Board is not provided.",
+  "provider": "deepseek"
+}

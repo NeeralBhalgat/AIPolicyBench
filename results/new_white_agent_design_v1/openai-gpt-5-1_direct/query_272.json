@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:49:49.397680",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about how SB 53 defines a 'frontier model'.",
+  "provider": "deepseek"
+}

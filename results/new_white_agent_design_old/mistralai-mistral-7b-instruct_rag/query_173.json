@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Part 1: Workforce training is emphasized to prepare Americans for high-paying skilled trade jobs of the future, addressing critical workforce needs in emerging industries.\n\nPart 2: The Trump Administration aims to modernize federal workforce programs to align with the demands of reshoring and re-industrialization, focusing on sectors like advanced manufacturing and construction where worker shortages exist. The goal is to shift away from a \"college for all\" approach, recognizing that many jobs do not require college degrees, and instead prioritize career preparation and apprenticeships. By integrating and streamlining workforce programs, the Administration seeks to ensure that training efforts meet the skills needed for emerging industries, ultimately strengthening America's economic leadership.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:35.987871",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses workforce training in the context of preparing for skilled trade jobs and modernizing federal workforce programs, which does not align with the ground truth answer that emphasizes the need for staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "provider": "deepseek"
+}

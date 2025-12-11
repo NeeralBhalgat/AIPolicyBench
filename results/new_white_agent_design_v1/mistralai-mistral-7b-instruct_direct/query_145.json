@@ -1,0 +1,12 @@
+{
+  "query_id": 145,
+  "query": "What is AISWG’s role in advancing strategic objectives?",
+  "response": "The AISWG (AI Safety Working Group) plays a role in advancing strategic objectives by providing recommendations and guidance on AI safety, ethics, and governance to ensure that AI development aligns with societal values and mitigates potential risks.",
+  "ground_truth": "Defining and advancing AI strategic objectives.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:04.295914",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the AISWG's role in providing recommendations and guidance on AI safety, ethics, and governance, which aligns with the ground truth of defining and advancing AI strategic objectives.",
+  "provider": "deepseek"
+}

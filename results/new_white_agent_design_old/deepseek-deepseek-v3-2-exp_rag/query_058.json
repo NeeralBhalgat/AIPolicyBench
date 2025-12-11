@@ -1,0 +1,12 @@
+{
+  "query_id": 58,
+  "query": "What is the DoD’s plan for infrastructure supporting AI and analytics?",
+  "response": "**Part 1:** The Department of Defense (DoD) will, in partnership with the Department of Energy, lease federal sites it owns for the private sector to build, own, and operate gigawatt-scale AI data centers and clean power facilities at private expense.\n\n**Part 2:** The DoD will select sites based on their accessibility to high-capacity transmission infrastructure and their potential to minimize adverse effects on communities and the environment. It will then hold competitive solicitations for private developers to submit proposals for leasing these sites. The developers are required to finance the entire cost of the infrastructure and bring online sufficient clean energy generation to match their data centers' full electricity needs.",
+  "ground_truth": "To invest in interoperable, federated infrastructure that balances shared services with specialized systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:33:23.439570",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response describes a specific plan involving leasing federal sites for private sector data centers, which does not align with the ground truth answer about investing in interoperable, federated infrastructure. The details provided are not supported by known DoD policy as of December 2025.",
+  "provider": "deepseek"
+}

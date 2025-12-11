@@ -1,0 +1,12 @@
+{
+  "query_id": 259,
+  "query": "What happens if a broker willfully violates these disclosure requirements?",
+  "response": "If a broker willfully violates disclosure requirements, they may face regulatory penalties, fines, or legal action, depending on the jurisdiction and the severity of the violation.",
+  "ground_truth": "It becomes a crime under the Real Estate Law.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:06.186358",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies potential consequences such as regulatory penalties and fines, but it fails to mention that willful violations become a crime under the Real Estate Law, which is a critical aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

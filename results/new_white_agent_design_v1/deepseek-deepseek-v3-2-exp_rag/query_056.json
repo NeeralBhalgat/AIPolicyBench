@@ -1,0 +1,12 @@
+{
+  "query_id": 56,
+  "query": "What approach does the DoD take to accelerate AI and analytics adoption?",
+  "response": "The DoD's approach is described as \"unifying previous strategic guidance and enabling stronger alignment and synchronization to scale advanced capabilities for use across the enterprise.\"",
+  "ground_truth": "An agile, iterative approach that emphasizes speed, feedback, and continuous learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:38:12.375990",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the agile, iterative approach emphasized by the DoD for AI and analytics adoption. Instead, it focuses on unifying strategic guidance, which is not the core of the DoD's approach.",
+  "provider": "deepseek"
+}

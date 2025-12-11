@@ -1,0 +1,12 @@
+{
+  "query_id": 240,
+  "query": "Why does AB 489 require no state reimbursement?",
+  "response": "**Part 1:** AB 489 requires no state reimbursement because the bill provides that with regard to certain mandates, no reimbursement is required by this act for a specified reason.\n\n**Part 2:** The California Constitution generally requires the state to reimburse local agencies for costs mandated by the state. However, AB 489 includes a specific provision stating that for certain mandates identified within the bill, no reimbursement is required. For any other mandates in the bill that are determined to be state-mandated costs, reimbursement would be made according to standard statutory procedures.",
+  "ground_truth": "Because the act creates or changes a crime, which does not require reimbursement.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:13:11.346317",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the specific reason for the lack of state reimbursement as stated in the ground truth. While it mentions that certain mandates do not require reimbursement, it fails to specify that the act creates or changes a crime, which is the actual reason for the exemption.",
+  "provider": "deepseek"
+}

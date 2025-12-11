@@ -29,3 +29,10 @@ Thumbs.db
 .venvnew/
 .venvnew*/
 *.dylib
+
+# Ignore vector database files
+vector_db/
+# Ignore .claude files
+.claude/
+# Ignore agentbeats logs
+.ab/

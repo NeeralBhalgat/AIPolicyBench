@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "Use cases will help the NRC:\n\n- Translate the abstract idea of “AI in nuclear regulation” into concrete, realistic scenarios (e.g., AI-supported inspections, AI in reactor monitoring, AI in probabilistic risk assessments).  \n- Systematically identify the safety, security, reliability, and ethical issues that each type of AI application could raise.  \n- Prioritize where to focus NRC resources (research, technical expertise, regulatory guidance) based on which applications are most safety‑significant or most likely to be deployed.  \n- Develop clear, consistent, and predictable regulatory positions, guidance, and review criteria grounded in real examples rather than in purely theoretical discussion.  \n- Communicate more clearly with licensees and stakeholders about what kinds of AI uses are acceptable, how they will be reviewed, and what evidence (e.g., verification/validation, data quality, human-in-the-loop controls) will be needed.\n\nIf you are referring to a specific NRC AI strategy document, the exact wording may differ,",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:41.391480",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed list of potential benefits of use cases for the NRC, but it does not align with the ground truth answer, which emphasizes practical experience with AI systems. The response includes several plausible points but ultimately diverges from the core idea of gaining practical experience.",
+  "provider": "deepseek"
+}

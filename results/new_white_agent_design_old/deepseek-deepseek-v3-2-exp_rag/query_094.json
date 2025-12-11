@@ -1,0 +1,12 @@
+{
+  "query_id": 94,
+  "query": "What types of data use are explicitly prohibited by DHS in AI systems?",
+  "response": "Part 1: DHS explicitly prohibits using AI and AI-related data to make decisions based on unlawful or improper consideration of protected characteristics, for improper profiling or discrimination, for unlawful large-scale monitoring or surveillance, and sharing DHS data or AI outputs with third parties for uses prohibited by law or policy.\n\nPart 2: The prohibitions are outlined in Directive 139-08 and specifically forbid AI from being the sole basis for law enforcement or benefits decisions. They also ban using AI to profile or target individuals based on protected characteristics or in retaliation for exercising Constitutional rights. Furthermore, the directive prohibits unlawful large-scale monitoring and the sharing of DHS data or AI outputs with third parties for any uses that are themselves illegal or against DHS policy.",
+  "ground_truth": "DHS may not use AI or data to make or support decisions based on race, ethnicity, gender, religion, or other protected traits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:40:51.414875",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibitions set by DHS regarding the use of AI and AI-related data, particularly in relation to protected characteristics and unlawful monitoring. It aligns well with the ground truth answer.",
+  "provider": "deepseek"
+}

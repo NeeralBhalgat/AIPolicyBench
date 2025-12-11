@@ -1,0 +1,12 @@
+{
+  "query_id": 187,
+  "query": "What is one major duty of the Chief AI Officer (CAIO)?",
+  "response": "One major duty of the Chief AI Officer (CAIO) is to develop and publish agency-specific AI governance and Compliance Plans, as outlined in OMB Memorandum M-24-10. [Source 3]",
+  "ground_truth": "Maintain awareness of all AI activities and how systems work within GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:00.184190",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies a major duty of the CAIO as developing agency-specific AI governance and Compliance Plans, which does not align with the ground truth answer that emphasizes maintaining awareness of AI activities and systems within GSA.",
+  "provider": "deepseek"
+}

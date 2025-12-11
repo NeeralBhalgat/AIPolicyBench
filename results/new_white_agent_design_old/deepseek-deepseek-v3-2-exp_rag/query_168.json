@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "Part 1: Examples of AI sub-specialties include software tools for automating data pipelines, labeling data, and analyzing model errors, which help AI practitioners be more effective.\n\nPart 2: These sub-specialties fall under the broader category of tools and capabilities that support the AI lifecycle. The plan emphasizes that AI development relies on good software practices and specialized tools to manage data and improve models. Specifically, tools for data pipeline automation and error analysis are highlighted as critical for practitioners to build and sustain effective AI systems. This focus on foundational support roles ensures the overall ecosystem is robust and capable of handling complex data inputs.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:56:35.026605",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses tools and practices related to AI development but does not mention any specific AI sub-specialties like natural language processing, machine learning, or deep learning, which are the correct examples. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

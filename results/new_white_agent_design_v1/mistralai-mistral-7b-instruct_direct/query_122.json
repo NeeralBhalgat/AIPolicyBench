@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "An AI use case inventory entry should be updated when there are significant changes in the AI system's functionality, deployment, or risk profile, or when new regulatory requirements or organizational policies are introduced that affect the use case.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:40.913441",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the need to update an AI use case inventory entry based on significant changes in functionality, deployment, risk profile, or regulatory requirements, which aligns with the ground truth that any meaningful change affecting the accuracy of the record should trigger an update.",
+  "provider": "deepseek"
+}

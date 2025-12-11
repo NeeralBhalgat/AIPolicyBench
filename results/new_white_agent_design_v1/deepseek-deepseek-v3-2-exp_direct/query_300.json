@@ -1,0 +1,12 @@
+{
+  "query_id": 300,
+  "query": "Which entities are considered “law enforcement agencies” under this bill?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Any state or local agency employing peace officers under Penal Code §830.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:06:44.359919",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about law enforcement agencies under the bill.",
+  "provider": "deepseek"
+}

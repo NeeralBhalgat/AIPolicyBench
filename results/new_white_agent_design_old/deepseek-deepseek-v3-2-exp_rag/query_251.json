@@ -1,0 +1,12 @@
+{
+  "query_id": 251,
+  "query": "What must a real estate broker include when using a digitally altered image in advertising?",
+  "response": "**Part 1:** A real estate broker must include a clear and conspicuous disclosure stating that the image has been digitally altered or modified.\n\n**Part 2:** The disclosure must be easy for a consumer to read and understand. It should be placed in a location that ensures it is seen by anyone viewing the image. This requirement ensures transparency and prevents potential deception in real estate advertising.",
+  "ground_truth": "A conspicuous statement disclosing the image has been altered and a link to the original unaltered image.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:15:23.608350",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies the need for a disclosure about the digital alteration of the image, but it fails to mention the requirement for a link to the original unaltered image, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

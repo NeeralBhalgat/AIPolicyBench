@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "The DoD plans to treat data as a weapon system and a strategic resource, managing it effectively at all levels to enable data-informed decisions.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:38:06.445487",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the DoD's approach to data management. While it mentions treating data as a strategic resource, it does not align with the ground truth that emphasizes decentralized data teams responsible for quality and accountability.",
+  "provider": "deepseek"
+}

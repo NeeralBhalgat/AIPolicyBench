@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "The United States Department of Agriculture (USDA) is primarily focused on agriculture, food, and related issues, and it does not have a significant role in setting up infrastructure or tools related to AI policy, safety, and regulation. However, the USDA has shown interest in leveraging AI and data analytics for various agricultural purposes, such as improving crop yields, food safety, and conservation efforts.\n\nIn 2019, the USDA launched the Agricultural Artificial Intelligence (AgAI) Initiative, which aims to explore the potential of AI in agriculture and identify opportunities for collaboration between the public and private sectors. The initiative does not involve setting up new infrastructure or tools per se, but it does encourage the development and adoption of AI technologies in agriculture.\n\nAs of now, the primary agencies responsible for AI policy, safety, and regulation in the United States are the White House Office of Science and Technology Policy (OSTP), the National Institute of Standards and Technology (NIST), and the Federal Trade Commission (FTC). These agencies are working on various initiatives to ensure the ethical, safe, and beneficial development and deployment of AI technologies.\n\nFor more specific information on AI policy, safety, and regulation, I would recommend visiting the websites of these agencies or consulting with experts in the field.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:51.471381",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately states that the USDA does not have a significant role in AI policy and infrastructure, while the ground truth indicates a specific semi-federated model involving the USDA AI Lab and Mission Area incubators, which is a clear contradiction.",
+  "provider": "deepseek"
+}

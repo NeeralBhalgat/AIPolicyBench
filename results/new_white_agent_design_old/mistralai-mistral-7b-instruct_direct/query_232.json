@@ -1,0 +1,12 @@
+{
+  "query_id": 232,
+  "query": "Which definitions of “AI” and “GenAI” does AB 489 incorporate?",
+  "response": "AB 489, a proposed bill in California, incorporates the following definitions for \"AI\" and \"GenAI\":\n\n1. **Artificial Intelligence (AI)**:\n   - The bill defines AI as \"a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.\"\n   - This definition aligns with broader conceptualizations of AI as systems designed to perform tasks that typically require human intelligence, such as learning, reasoning, and decision-making.\n\n2. **Generative AI (GenAI)**:\n   - The bill defines GenAI as \"a type of artificial intelligence that can generate text, images, audio, or other content based on input data, including but not limited to text, images, audio, or other content.\"\n   - This definition emphasizes the generative capabilities of AI systems, which can produce new content based on learned patterns from input data.\n\nThese definitions are part of AB 489's framework to regulate AI systems, particularly focusing on transparency, accountability, and risk management in AI development and deployment. The bill aims to ensure that AI systems, especially those with significant societal impact, are designed and used responsibly.\n\nFor the most accurate and up-to-date information, it is advisable to refer to the official text of AB 489 or related legislative documents.",
+  "ground_truth": "Definitions from Government Code Sections 11546.45.5 (AI) and 11549.64 (GenAI).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:13.670662",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides definitions for 'AI' and 'GenAI' that are not aligned with the actual definitions in AB 489, which are specified in Government Code Sections 11546.45.5 and 11549.64. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

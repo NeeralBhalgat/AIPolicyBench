@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "**Part 1:**  \nThe memorandum is directed to, and therefore covers, the Vice President and the heads of the listed executive departments and agencies, including the Secretaries of State, the Treasury, Defense, the Attorney General, the Secretaries of the Interior, Agriculture, Commerce, Health and Human Services, Transportation, Homeland Security, the Director of National Intelligence, the Director of the Central Intelligence Agency, and other senior national security officials.\n\n**Part 2:**  \nBecause it is a National Security Presidential Memorandum, it is formally addressed \"for\" these specified officials, who are responsible for carrying out its directives within their respective departments and agencies. The text also clarifies that nothing in it impairs the legal authority of any executive department or agency or their heads. In addition, it states that it is to be implemented consistent with applicable law and subject to available appropriations. Finally, it expressly notes that it does not create any enforceable right or benefit for any party against the United States, its departments or agencies, their officers, employees, or agents, or any other person.",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:27:01.326967",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response specifies certain officials and departments but does not encompass all Executive Branch departments and agencies, including independent regulatory agencies, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

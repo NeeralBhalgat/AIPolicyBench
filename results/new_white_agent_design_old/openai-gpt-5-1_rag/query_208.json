@@ -1,0 +1,12 @@
+{
+  "query_id": 208,
+  "query": "Under §11016(b)(1), what must pre-employment inquiries avoid identifying?",
+  "response": "Part 1:  \nUnder §11016(b)(1), pre-employment inquiries must not be used to ascertain or identify an applicant's religious creed, disability, or medical condition.  \n\nPart 2:  \nThe regulation explains that questions, including those about availability for work, cannot function as a way to determine whether an applicant has a particular religious creed, disability, or medical condition. In other words, employers may ask about scheduling or job requirements only if the questions are genuinely job-related and neutrally applied, not as a proxy to uncover protected information. This protects applicants from being screened out based on characteristics that are legally protected from discrimination. While separate provisions allow collection of certain data for statistical recordkeeping, that is distinct from using pre-employment inquiries to identify individual protected traits.",
+  "ground_truth": "Any basis enumerated in the Act unless justified by a permissible defense.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:14:51.866707",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly specifies that pre-employment inquiries must not identify an applicant's religious creed, disability, or medical condition, which does not align with the ground truth answer. The ground truth indicates that inquiries must avoid identifying any basis enumerated in the Act unless justified by a permissible defense, which is broader than the specific categories mentioned by the White Agent.",
+  "provider": "deepseek"
+}

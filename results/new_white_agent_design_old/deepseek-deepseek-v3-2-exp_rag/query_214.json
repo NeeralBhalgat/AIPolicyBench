@@ -1,0 +1,12 @@
+{
+  "query_id": 214,
+  "query": "What federal document must the California Cybersecurity Integration Center review when developing the playbook?",
+  "response": "Part 1: The California Cybersecurity Integration Center must review the statewide cybersecurity strategy, which is developed in accordance with state and federal requirements, standards, and best practices.\n\nPart 2: The Cal-CSIC is mandated to develop a statewide cybersecurity strategy. This strategy must be informed by recommendations from the California Task Force on Cybersecurity. Crucially, the development of this strategy must be done in accordance with both state and federal requirements, standards, and best practices, meaning any federal documents that fall under these categories must be reviewed.",
+  "ground_truth": "The Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:08:45.790518",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention the specific federal document, 'The Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook,' which is required for review. Instead, it discusses the statewide cybersecurity strategy in general terms, which does not directly answer the question.",
+  "provider": "deepseek"
+}

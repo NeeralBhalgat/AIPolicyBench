@@ -1,0 +1,12 @@
+{
+  "query_id": 116,
+  "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+  "response": "An AI use case is considered safety‑impacting if its failure or misuse could reasonably lead to physical harm or threats to health and safety, and rights‑impacting if it could significantly affect individuals’ fundamental rights (e.g., privacy, non‑discrimination, access to services, due process).",
+  "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:41:33.075031",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the criteria for determining safety-impacting and rights-impacting AI use cases, aligning well with the ground truth answer regarding the influence of AI outputs on real-world decisions affecting safety or rights.",
+  "provider": "deepseek"
+}

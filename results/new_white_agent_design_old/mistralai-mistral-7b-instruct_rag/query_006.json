@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "Part 1: The workforce objective emphasized is \"optimizing and targeting Federal investments in workforce development to align with the country's reindustrialization needs and equip American workers to fill the growing demand for skilled trades and other occupations.\"\n\nPart 2: The context highlights a strategic focus on aligning workforce development programs with national reindustrialization goals, ensuring that federal investments are directed toward high-need, well-paying jobs. This includes strengthening Registered Apprenticeships and streamlining fragmented programs to better support workers in securing stable, high-demand careers. The emphasis is on equipping workers with the skills needed for emerging industries and high-growth sectors, ensuring that federal workforce development efforts are both efficient and impactful.",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:20:42.096583",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on optimizing federal investments in workforce development and aligning with reindustrialization needs, which does not directly address the emphasized workforce objective of a worker-first agenda that includes AI literacy, skills development, and rapid retraining. Therefore, it misrepresents the core focus of the question.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "The Chief Artificial Intelligence Officer (CAIO) typically receives recommendations from a variety of sources, including internal AI ethics boards, technical teams, external advisory committees, and regulatory bodies. However, the specific entities providing recommendations can vary depending on the organization or government agency.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:01.211920",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a general overview of potential sources of recommendations for the CAIO but fails to mention the specific entity known as the AISWG, which is the correct answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

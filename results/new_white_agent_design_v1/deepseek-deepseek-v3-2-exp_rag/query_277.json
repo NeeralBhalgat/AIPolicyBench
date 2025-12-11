@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "Based on the sources, a “critical safety incident” includes foreseeable and material harms from AI failures or misuse, such as model-enabled CBRN threats, major cyber-attacks, or loss of model control.",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:55:16.799997",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes some relevant elements but mischaracterizes the definition of a 'critical safety incident' under SB 53. It mentions 'model-enabled CBRN threats' and 'major cyber-attacks,' which are not explicitly part of the ground truth answer. The ground truth focuses on specific harms like model-weight theft and deceptive behavior, which are not adequately captured in the White Agent's response.",
+  "provider": "deepseek"
+}

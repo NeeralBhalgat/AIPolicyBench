@@ -1,0 +1,12 @@
+{
+  "query_id": 221,
+  "query": "How does AB 316 define “artificial intelligence” in Civil Code §1714.46(a)?",
+  "response": "Based on my knowledge, the definition of \"artificial intelligence\" in California's AB 316 (Vehicle Code §38750) focuses on the technology enabling autonomous vehicles.\n\nI don't have enough information to confirm the specific definition under Civil Code §1714.46(a) as requested.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:04:04.447316",
+  "confidence": 0.85,
+  "reasoning": "The White Agent admits to not having enough information to confirm the specific definition under Civil Code §1714.46(a), which indicates uncertainty about the answer.",
+  "provider": "deepseek"
+}

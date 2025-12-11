@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "The strategy emphasizes ensuring the Federal workforce is prepared to help achieve American greatness and attracts the talent necessary to serve citizens effectively. It focuses on bringing in \"highly skilled Americans dedicated to the furtherance\" of government goals. [Sources 2, 4]",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:23.503918",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the specific emphasis on hiring, training, and retaining skilled workers in digital and AI-related roles, which is a key aspect of the ground truth answer. Instead, it provides a more general statement about attracting talent without addressing the specific needs for digital and AI skills.",
+  "provider": "deepseek"
+}

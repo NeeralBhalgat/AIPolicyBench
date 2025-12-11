@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "Part 1: This directive cancels the Biden administration's executive order that imposed apprenticeship mandates on businesses and government agencies, as well as prioritized union-driven policies and funneled federal resources into radical biotech initiatives.\n\nPart 2: The directive specifically targets policies implemented by the Biden administration, including those that mandated apprenticeship programs and imposed union-driven regulations on industries. It also revokes an executive order that directed federal resources toward biotech and biomanufacturing initiatives under environmental policy. The action is part of a broader effort to reverse policies perceived as harmful and to restore what the directive describes as common sense to the federal government. The rescission aligns with President Trump's stated goal of undoing Biden-era executive orders to promote prosperity, security, and strength.",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:12.829373",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the directive as canceling apprenticeship mandates and union-driven policies from the Biden administration, which is not relevant to the ground truth answer regarding the Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "provider": "deepseek"
+}

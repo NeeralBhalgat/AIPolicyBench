@@ -1,0 +1,12 @@
+{
+  "query_id": 148,
+  "query": "How will NASA update the AI inventory structure?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:45:30.714417",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how NASA will update the AI inventory structure, which does not provide any information related to the ground truth answer.",
+  "provider": "deepseek"
+}

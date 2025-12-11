@@ -1,0 +1,7 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "error": "HTTP Error 502: Server error '502 Bad Gateway' for url 'https://stock-observation-reduced-friendship.trycloudflare.com/to_agent/7ead9391490046ff95bd56b82f31c302'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+  "evaluation_result": "error"
+}

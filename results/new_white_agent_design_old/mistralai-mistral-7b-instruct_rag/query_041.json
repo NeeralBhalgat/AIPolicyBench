@@ -1,0 +1,12 @@
+{
+  "query_id": 41,
+  "query": "What is the main purpose of the NIST AI Risk Management Framework (AI RMF)?",
+  "response": "Part 1: The main purpose of the NIST AI Risk Management Framework (AI RMF) is to help organizations manage risks associated with artificial intelligence (AI) and promote trustworthy and responsible development and use of AI systems.\n\nPart 2: The AI RMF is designed to be a voluntary resource for organizations involved in the design, development, deployment, or use of AI systems. It aims to improve the ability to incorporate trustworthiness considerations into AI products, services, and systems. The framework was developed through a collaborative, consensus-driven process involving public input, workshops, and alignment with other AI risk management efforts. Its goal is to mitigate risks to individuals, organizations, and society while fostering innovation in AI technologies.",
+  "ground_truth": "To help organizations manage AI risks and promote trustworthy, responsible AI development and use.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:25:57.027743",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately captures the main purpose of the NIST AI Risk Management Framework, which is to help organizations manage AI risks and promote trustworthy and responsible AI development and use. The details provided align well with the ground truth answer.",
+  "provider": "deepseek"
+}

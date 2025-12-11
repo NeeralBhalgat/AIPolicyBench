@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "**Part 1:**  \nOMB must align the 2 CFR guidance with applicable statutory requirements and with its authority to “issue guidance promoting consistent and efficient use of Federal financial assistance instruments” and “provide overall direction and leadership” to Federal agencies, and it must do so by the time the final guidance takes effect.\n\n**Part 2:**  \nIn revising the Federal financial assistance guidance, OMB explains that it made policy changes or edits “for consistency with statutory requirements” and to ensure the revisions align with its legal authority over Federal financial assistance policy. This means the alignment is accomplished through the revisions themselves, rather than in a separate, later action. The effective date of the final guidance operates as the operative “by when,” because agencies will apply the aligned guidance from that date forward. After that point, Federal agencies are responsible for implementing the aligned guidance for their Federal awards.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:29:58.624691",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not specify the 60-day timeframe for revising M-24-10 and M-24-18, which is a critical detail in the ground truth answer. Instead, it discusses alignment and guidance in a more general sense, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

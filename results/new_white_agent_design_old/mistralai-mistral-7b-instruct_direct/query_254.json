@@ -1,0 +1,12 @@
+{
+  "query_id": 254,
+  "query": "How must the disclosure statement change if the broker satisfies the requirement by linking to unaltered images?",
+  "response": "If a broker satisfies the requirement by linking to unaltered images, the disclosure statement may need to be modified to clearly indicate that the images are linked and not directly hosted. The statement should specify the location of the images (e.g., \"Images are linked from the following sources: [URL 1], [URL 2], etc.\") and ensure that the linked images are easily accessible and do not require any special permissions or login credentials. Additionally, the statement should clarify that the images have not been altered in any way. However, the specific changes to the disclosure statement may depend on the regulations and guidelines of the relevant jurisdiction and industry. It's always a good idea to consult with a legal expert or regulatory body to ensure compliance with all applicable laws and standards.",
+  "ground_truth": "It must state that the unaltered images can be accessed on the linked site.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:16:37.104507",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the need to modify the disclosure statement to indicate that the images are linked and unaltered, aligning with the ground truth answer that emphasizes the accessibility of the unaltered images on the linked site.",
+  "provider": "deepseek"
+}

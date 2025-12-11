@@ -1,0 +1,12 @@
+{
+  "query_id": 241,
+  "query": "How does SB 243 define “artificial intelligence” in Section 22601(a)?",
+  "response": "According to Section 22601(a) of SB 243 (California Artificial Intelligence Act), \"Artificial intelligence\" is defined as \"the theory and development of computer systems that are able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.\" This definition is broad and encompasses a wide range of AI technologies, including machine learning, deep learning, and other forms of AI. However, it's important to note that this is a specific definition for the context of the California Artificial Intelligence Act and may not align with definitions used in other contexts or jurisdictions.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:53.154380",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response provides a definition of 'artificial intelligence' that does not match the ground truth answer from SB 243, which specifies an engineered or machine-based system with varying autonomy and the ability to infer from inputs. The response misrepresents the legal definition, making it factually incorrect.",
+  "provider": "deepseek"
+}

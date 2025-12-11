@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "DOE is addressing AI talent development by funding AI-focused research and training programs at national labs and universities, offering fellowships and internships that emphasize AI skills, and running internal upskilling initiatives to train its existing workforce in AI methods and tools.",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:38:41.392924",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the DOE's efforts in AI talent development, including funding research and training programs, which aligns with the ground truth answer regarding workforce training and partnerships. However, it does not specifically mention the pilot with NSF to train 500 researchers by 2025, which is a notable detail in the ground truth.",
+  "provider": "deepseek"
+}

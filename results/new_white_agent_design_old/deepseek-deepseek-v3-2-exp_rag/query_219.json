@@ -1,0 +1,12 @@
+{
+  "query_id": 219,
+  "query": "What is one reason the Legislature cites for limiting public access to cybersecurity information in Section 3 of AB 979?",
+  "response": "Part 1: The Legislature finds that limiting public access is necessary because \"publicly accessible cybersecurity information can be used to identify computer system vulnerabilities.\"\n\nPart 2: The Legislature is concerned that if detailed cybersecurity information is made publicly available, it could be exploited by malicious actors. This information could reveal specific weaknesses in government computer systems, creating a security risk. Therefore, limiting access is a protective measure to prevent these vulnerabilities from being discovered and used against the state's infrastructure.",
+  "ground_truth": "To prevent attackers from exploiting vulnerabilities in state information technology systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:09:34.070920",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the Legislature's reasoning for limiting public access to cybersecurity information, which is to prevent exploitation of vulnerabilities in state systems. This aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

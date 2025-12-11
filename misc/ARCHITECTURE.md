@@ -1,48 +1,123 @@
-### Architecture (Concise)
+# Architecture
 
-Purpose
-- Evaluate a RAG (white) agent with a coordinating (green) agent via A2A.
+## System Overview
 
-Components
-- White Agent (RAG): `safety_datasets_rag.py`, `white_agent/agent.py`
-- Green Agent (Evaluator): `green_agent/evaluation.py`, `green_agent/a2a_evaluator.py`
-- Launcher: `launcher.py` (starts agents, sends task to green)
-- Vector DB: `simple_vector_db.py` (TF‑IDF), `vector_db/safety_datasets_tfidf_db.pkl`
-- Utils: `utils/llm_client.py` (LLMs), `utils/a2a_client.py` (A2A HTTP)
-
-Flow
-1) Build vector DB (once) from `data/safety_datasets.json`
-2) White loads DB and answers queries
-3) Green sends queries, evaluates responses (rule‑based or LLM‑judge)
-4) Save per‑query JSON + `summary.json` + `statistics.txt`
-
-A2A Protocol
-- HTTP messages; task text includes tags:
-  - `<white_agent_url>...</white_agent_url>`
-  - `<queries_file>...</queries_file>`
-  - `<use_llm_judge>true|false</use_llm_judge>`
-
-Metrics
-- Correct% = correct/total ×100
-- Miss% = misses/total ×100
-- Hallucination% = hallucinations/total ×100
-- Factuality% = Correct% - Hallucination% + 0.5×Miss%
-
-Commands
-```bash
-# Build DB
-python simple_vector_db.py --json_file data/safety_datasets.json --save
-
-# One‑shot evaluation
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model deepseek-chat
-
-# With judge
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model deepseek-chat --llm-judge
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                      AgentBeats Platform                             │
+├─────────────────────────────────────────────────────────────────────┤
+│                                                                      │
+│   ┌──────────────────┐           ┌──────────────────────────────┐   │
+│   │   Green Agent    │           │       White Agents (6x)       │   │
+│   │   (Evaluator)    │           │                               │   │
+│   │                  │   A2A     │  ┌─────────┐ ┌─────────┐      │   │
+│   │  ┌────────────┐  │ Protocol  │  │ RAG #1  │ │ RAG #2  │ ...  │   │
+│   │  │ LLM Judge  │  │ ────────► │  │ Mistral │ │DeepSeek │      │   │
+│   │  │(GPT-4o-mini│  │           │  └─────────┘ └─────────┘      │   │
+│   │  └────────────┘  │           │  ┌─────────┐ ┌─────────┐      │   │
+│   │                  │           │  │Direct #1│ │Direct #2│ ...  │   │
+│   │  Port 8010       │           │  │ Mistral │ │DeepSeek │      │   │
+│   └──────────────────┘           │  └─────────┘ └─────────┘      │   │
+│                                  │  Ports 8011-8016              │   │
+│                                  └──────────────────────────────┘   │
+│                                                                      │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
-Key Files
-- RAG: `safety_datasets_rag.py`, `simple_vector_db.py`
-- Agents: `green_agent/a2a_evaluator.py`, `white_agent/agent.py`
-- Evaluators: `green_agent/evaluation.py`
-- Launcher: `launcher.py`
+## Components
 
+### Green Agent (Evaluator)
+- **Location**: `src/green_agent/`
+- **Port**: 8010
+- **Function**: Receives evaluation tasks, queries white agents, judges responses
+- **Key Files**:
+  - `a2a_evaluator.py` - Main A2A server and evaluation logic
+  - `evaluation.py` - LLM Judge implementation
+
+### White Agent (RAG/Direct)
+- **Location**: `src/white_agent/`
+- **Ports**: 8011-8016
+- **Function**: Answers AI policy questions
+- **Key Files**:
+  - `agent.py` - A2A server
+  - `pipeline.py` - Web Search RAG pipeline
+  - `direct_llm.py` - Direct LLM mode
+
+## Data Flow
+
+### Web RAG Mode
+```
+Query
+  ↓
+LLM Rewrite Query (optimize for search)
+  ↓
+DuckDuckGo Search (10 results)
+  ↓
+Parallel URL Scraping (aiohttp, 3s timeout)
+  ↓
+TF-IDF Index Build
+  ↓
+Top-K Retrieval
+  ↓
+LLM Generation (with context)
+  ↓
+Response
+```
+
+### Direct LLM Mode
+```
+Query → LLM Generation → Response
+```
+
+### Evaluation Flow
+```
+Green Agent receives task
+  ↓
+For each White Agent:
+  ├── Send 300 queries (batch of 4)
+  ├── Collect responses
+  ├── LLM Judge evaluates each
+  │   ├── Correct ✅
+  │   ├── Miss ⚠️
+  │   ├── Hallucination ❌
+  │   └── Timeout ⏱️
+  └── Save results
+  ↓
+Calculate Factuality Rate
+  ↓
+Save summary.json + statistics.txt
+```
+
+## Evaluation Classes
+
+| Class | Criteria | Example |
+|-------|----------|---------|
+| **Correct** | Response contains ground truth | Q: "What are the 3 pillars?" A: "Innovation, infrastructure, diplomacy" |
+| **Miss** | Response expresses uncertainty | "I don't have enough information" |
+| **Hallucination** | Response is confident but wrong | Q: "Who signed X?" A: "Biden" (when it was Trump) |
+| **Timeout** | Response exceeded 95s limit | `[TIMEOUT] Query processing exceeded time limit.` |
+
+## Metrics
+
+```python
+# Timeout responses excluded from calculation
+evaluated_total = total - timeout_count
+
+correct_rate = correct_count / evaluated_total * 100
+miss_rate = miss_count / evaluated_total * 100
+hallucination_rate = hallucination_count / evaluated_total * 100
+
+factuality_rate = correct_rate + miss_rate - hallucination_rate
+```
+
+## Key Files
+
+| File | Purpose |
+|------|---------|
+| `main.py` | CLI entry point |
+| `send_eval_task.py` | Send evaluation task to green agent |
+| `start_multi_agents_cloudflare.sh` | Deploy all agents |
+| `white_agents_config.json` | Agent URL mapping (auto-generated) |
+| `src/config.py` | Configuration (MAX_SEARCH_RESULTS, etc.) |
+| `src/utils/llm_client.py` | OpenRouter/OpenAI client |
+| `src/utils/a2a_client.py` | Agent-to-agent communication |

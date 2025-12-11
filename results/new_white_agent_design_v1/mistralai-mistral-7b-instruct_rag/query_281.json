@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "SB 361 requires data brokers to disclose whether they collect additional information, including names, dates of birth, contact details, account login credentials, government-issued IDs, mobile advertising IDs, connected TV IDs, VINs, and citizenship/immigration status. [sources 1, 3, 4]",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:23:02.388560",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists some specific data types that data brokers must disclose, but it omits key elements from the ground truth, such as biometric data, geolocation, reproductive health data, and the requirement to disclose sharing or selling data to foreign entities. This indicates that the response is factually incorrect and incomplete.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "<s> [OUT] Part 1: The Taxpayer Data Protection Act strengthens penalties for unauthorized disclosure of tax information to protect taxpayer privacy.\n\nPart 2: The legislation increases the maximum penalty for unauthorized disclosure of tax information to a fine of up to $250,000 or imprisonment of up to 10 years, or both. It also clarifies that each impacted taxpayer counts as a distinct violation, ensuring stronger protection against leaks of confidential tax data. This act was introduced in response to the leak of thousands of Americans' tax information, including President Trump's tax returns, by an IRS contractor. The bill aims to deter future theft and disclosure of private tax information by enhancing legal consequences.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:20.211456",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the Taxpayer Data Protection Act as the law protecting taxpayer information, while the correct answer is Internal Revenue Code 6103, which specifically governs the confidentiality of tax returns and taxpayer information.",
+  "provider": "deepseek"
+}

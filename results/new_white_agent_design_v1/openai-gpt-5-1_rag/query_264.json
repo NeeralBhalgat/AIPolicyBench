@@ -1,0 +1,12 @@
+{
+  "query_id": 264,
+  "query": "What are users allowed to do with system provenance data under AB 853?",
+  "response": "Under AB 853, users are allowed to use system provenance data to **assess whether image, video, or audio content was created or altered by that person’s generative artificial intelligence system.**",
+  "ground_truth": "Inspect all available system provenance data via UI, download, or linked site.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:31:48.006998",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately specifies the use of system provenance data, focusing on assessing content creation or alteration by a generative AI system, rather than the broader permissions to inspect and download the data as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

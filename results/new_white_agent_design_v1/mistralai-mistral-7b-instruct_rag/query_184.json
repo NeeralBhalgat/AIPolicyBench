@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must implement risk management practices and prioritize the use of AI that is \"safe, secure, and resilient\" (Source 4). They are also directed to responsibly experiment with generative AI, with adequate safeguards in place (Source 5).",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:17:48.496638",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions the need for risk management practices and experimentation with generative AI, it does not accurately reflect the ground truth answer, which emphasizes the importance of measuring, monitoring, evaluating, and reporting on AI activities, including regular risk assessments.",
+  "provider": "deepseek"
+}

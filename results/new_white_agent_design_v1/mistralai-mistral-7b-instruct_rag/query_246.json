@@ -1,0 +1,12 @@
+{
+  "query_id": 246,
+  "query": "What disclosure must be made to users that the operator knows are minors?",
+  "response": "The operator must provide a description of the specific types of personal information collected upon a parent's request. (§ 312.6(a)(1))",
+  "ground_truth": "The operator must disclose that the user is interacting with artificial intelligence.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:21:20.379649",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly focuses on the types of personal information collected upon a parent's request, which is not the required disclosure regarding minors interacting with AI. The ground truth specifies that the operator must disclose the interaction with artificial intelligence, which the White Agent fails to address.",
+  "provider": "deepseek"
+}

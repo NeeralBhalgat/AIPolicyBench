@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "The U.S. Department of Defense (DoD) has been actively seeking collaboration with external partners on Artificial Intelligence (AI) through various initiatives. One such initiative is the Defense Innovation Unit (DIU), which serves as a bridge between the DoD and the startup community, helping to identify and integrate commercial technology solutions into the military.\n\nAnother example is the Joint Artificial Intelligence Center (JAIC), which was established in 2018 to accelerate the delivery of AI capabilities across the DoD. The JAIC has launched the Project Maven and the AI Center of Excellence (CoE) to foster collaboration with industry partners, academia, and other government agencies.\n\nThe DoD also collaborates with international partners through the Partnership for Artificial Intelligence, Robotics, and Unmanned Systems (PARUS), which aims to address shared challenges and opportunities in AI and autonomous systems.\n\nIn addition, the DoD has established the Algorithmic Warfare Cross-Functional Team (AWCFT), also known as Project Maven, to accelerate the development and integration of AI into military operations. This team collaborates with Google, Amazon, and other tech companies to develop AI algorithms for object recognition and other tasks.\n\nIt's important to note that the DoD's collaboration with external partners on AI is guided by the DoD AI Strategy, which emphasizes the importance of ethical AI, transparency, and responsible use of AI technologies.\n\nHowever, the specific details of ongoing collaborations and future plans may change as the DoD continues to adapt its AI strategy in response to evolving technological and geopolitical developments.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:25.248470",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the DoD's initiatives for collaboration with external partners on AI, including the DIU, JAIC, and AWCFT, which align with the ground truth emphasis on partnerships for innovation and interoperability.",
+  "provider": "deepseek"
+}

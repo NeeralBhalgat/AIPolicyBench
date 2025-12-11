@@ -1,0 +1,12 @@
+{
+  "query_id": 290,
+  "query": "How does SB 361 strengthen consumer privacy rights under the CPRA?",
+  "response": "SB 361 strengthens consumer privacy rights by **expanding the Delete Act’s disclosure requirements for data brokers**, with the goal of **protecting immigrants, union members, members of the LGBTQ community, and others who are particularly vulnerable**.",
+  "ground_truth": "By expanding data broker disclosures, strengthening deletion rules, adding audits, and limiting public access to sensitive data types.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:34:31.741196",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent mentions the expansion of disclosure requirements for data brokers, it does not accurately reflect the full scope of SB 361, which includes strengthening deletion rules, adding audits, and limiting public access to sensitive data types. The focus on specific vulnerable groups is not part of the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "**Part 1 (direct answer)**  \nDuring the interim period, federal agencies must continue to follow existing AI‑related federal laws, executive orders (including EO 13960 and EO 14319), and government‑wide guidance—such as requirements to annually prepare inventories of AI use cases, adhere to standards for the use, promotion, and protection of AI, and ensure AI procurement contracts comply with unbiased AI principles.\n\n**Part 2 (brief explanation)**  \nThe report explains that, as of July 2025, there are numerous government‑wide AI requirements in effect for agencies arising from federal laws, executive orders, and guidance, and these continue to govern agency AI use. These include obligations to prepare and update AI use‑case inventories, develop and update AI policies and strategies, and follow standards for responsible AI use. Agencies are also required to ensure AI contracts and procured models comply with “unbiased AI principles” and other contract guidance by specified dates. Until new OMB and other executive‑branch guidance is fully issued and implemented, these existing statutory, executive, and guidance‑based requirements remain the operative framework for AI in the federal government.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:55:21.465529",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly cites EO 14319 as part of the federal guidance in effect for AI, while the ground truth specifies EO 13859 and EO 13960. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

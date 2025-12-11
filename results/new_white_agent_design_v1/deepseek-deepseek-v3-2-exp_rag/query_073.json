@@ -1,0 +1,12 @@
+{
+  "query_id": 73,
+  "query": "What are the four key goals of HHS’s AI Strategic Plan?",
+  "response": "The four key goals are to catalyze health AI innovation and adoption, promote trustworthy AI development and ethical and responsible use, democratize AI technologies and resources, and promote equitable access for all.",
+  "ground_truth": "1. Catalyze health AI innovation and adoption; 2. Promote trustworthy, ethical, and responsible use; 3. Democratize AI technologies and resources; 4. Cultivate AI-empowered workforces and cultures.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:39:38.118350",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies three of the four goals but incorrectly states the fourth goal. The correct fourth goal is to cultivate AI-empowered workforces and cultures, not to promote equitable access for all.",
+  "provider": "deepseek"
+}

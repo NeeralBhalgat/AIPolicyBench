@@ -1,0 +1,10 @@
+{
+  "query_id": 287,
+  "query": "When must data brokers access the deletion mechanism, and how often must they delete data after a consumer request?",
+  "response": "[TIMEOUT] Query processing exceeded time limit.",
+  "ground_truth": "At least every 45 days, and they must delete all personal information every 45 days after an initial deletion request.",
+  "evaluation_result": "timeout",
+  "evaluation_method": "auto-detect",
+  "timestamp": "2025-12-10T15:24:42.733436",
+  "reason": "White agent response timed out or was empty"
+}

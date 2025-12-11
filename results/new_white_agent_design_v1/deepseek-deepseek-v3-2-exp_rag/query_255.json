@@ -1,0 +1,12 @@
+{
+  "query_id": 255,
+  "query": "Define “digitally altered image” under AB 723.",
+  "response": "Based on the sources provided, a \"digitally altered image\" is one where you \"add, remove, or change anything that affects how the property is represented.\"",
+  "ground_truth": "An image edited using photo software or AI to add, remove, or change elements such as fixtures, furniture, landscape, or visible surroundings.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:53:31.571920",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of what constitutes a 'digitally altered image' by stating that it involves adding, removing, or changing elements that affect representation, which aligns with the ground truth definition.",
+  "provider": "deepseek"
+}

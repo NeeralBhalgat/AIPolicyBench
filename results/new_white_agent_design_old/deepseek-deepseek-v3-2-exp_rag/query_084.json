@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "Part 1: The Directive does not explicitly prohibit specific kinds of AI uses but instead mandates minimum risk-management practices for government uses of AI that impact people’s rights or safety, including practices like assessing and mitigating disparate impacts and algorithmic discrimination, providing notice, and granting human consideration and remedies for adverse decisions.\n\nPart 2: The Executive Order focuses on establishing a governance framework for safe and trustworthy AI use within the Federal Government. It requires agencies to implement specific risk-management practices for any AI application that affects rights or safety, rather than issuing outright prohibitions. This approach ensures that AI is used responsibly by mandating continuous monitoring, human review of adverse decisions, and efforts to prevent algorithmic discrimination.",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:38:16.316997",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the specific prohibitions outlined in the ground truth answer. While it discusses risk-management practices, it fails to mention the explicit prohibitions such as relying solely on AI outputs for law enforcement, using AI for biased purposes, or conducting unlawful mass surveillance.",
+  "provider": "deepseek"
+}

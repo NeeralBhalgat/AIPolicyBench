@@ -1,0 +1,12 @@
+{
+  "query_id": 263,
+  "query": "What must large online platforms disclose to users regarding provenance data?",
+  "response": "Part 1: Based on the provided context, there is no explicit requirement for large online platforms to disclose anything to users regarding provenance data.\n\nPart 2: The provided sources focus on legislative issues surrounding online platforms and a specific rule aimed at preventing countries of concern from accessing U.S. sensitive personal data. This rule discusses data transactions and access, but it does not establish any specific disclosure obligations for platforms directed at their users. The context is centered on national security risks and compliance with government regulations, not on user-facing transparency about data origins or lineage.",
+  "ground_truth": "Whether provenance data is available, the name of the GenAI system or capture device, and whether digital signatures exist.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:17:46.527405",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there are no explicit requirements for large online platforms to disclose provenance data to users. The ground truth specifies that platforms must disclose information about the availability of provenance data, the name of the GenAI system or capture device, and the existence of digital signatures, which contradicts the White Agent's claims.",
+  "provider": "deepseek"
+}

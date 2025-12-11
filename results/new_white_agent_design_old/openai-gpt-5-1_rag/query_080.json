@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "**Part 1:**  \nHHS, primarily through CDC, will support state, tribal, local, and territorial organizations by using programs, mechanisms, and relationships to communicate, educate, and work with STLT health professionals, disseminate federal guidance and knowledge through communities of practice, provide training and tailored communication support, and back a national, voluntary accreditation program that strengthens public health capacity.  \n\n**Part 2:**  \nCDC offices and centers dedicated to STLT support use multiple programs and partnerships to communicate with, educate, and collaborate with health departments on public health issues and CDC programs. During emergencies like COVID-19, federally generated guidance is translated into actionable programs, policies, and practices for STLT agencies through knowledge dissemination and communities of practice. HHS supports health departments’ capacity and performance by funding and supporting a voluntary accreditation program run by the Public Health Accreditation Board. It also offers training and tools to help partners apply tailored networking and communication strategies, identify key collaborators, and strengthen the infrastructure and workforce of STLT health departments.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:42:45.309379",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses HHS and CDC support for STLT organizations in public health contexts, but it does not address the question about AI policy and safety datasets, which is the focus of the ground truth answer.",
+  "provider": "deepseek"
+}

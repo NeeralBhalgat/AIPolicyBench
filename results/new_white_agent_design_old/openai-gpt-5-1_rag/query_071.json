@@ -1,0 +1,12 @@
+{
+  "query_id": 71,
+  "query": "What is the main purpose of the HHS AI Strategic Plan?",
+  "response": "**Part 1:**  \nThe main purpose of the HHS AI Strategic Plan is to set in motion a coordinated public‑private approach to improving the quality, safety, efficiency, accessibility, equitability, and outcomes in health and human services through responsible AI that advances the health and well-being of all Americans.\n\n**Part 2:**  \nThe plan frames HHS’s vision to be a global leader in innovating and adopting responsible AI for health and human services. By emphasizing a coordinated approach across public and private sectors, it aims to align stakeholders around common goals and standards for AI use. Its focus on quality, safety, efficiency, accessibility, and equity underscores that AI should not just be innovative, but also trustworthy and broadly beneficial. Ultimately, the strategy is designed to ensure AI tools tangibly improve outcomes and overall well-being for people across the United States.",
+  "ground_truth": "To make HHS a global leader in responsible AI use for improving health and well-being in the U.S.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:40:49.192964",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately captures the main purpose of the HHS AI Strategic Plan, emphasizing the coordinated approach to improving health and well-being through responsible AI, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

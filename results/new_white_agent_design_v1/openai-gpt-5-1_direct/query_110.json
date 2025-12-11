@@ -1,0 +1,7 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "error": "HTTP Error 502: Server error '502 Bad Gateway' for url 'https://integrity-succeed-collect-innocent.trycloudflare.com/to_agent/717b687266ef4f04a739d910da34332a'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+  "evaluation_result": "error"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 247,
+  "query": "How often must minors receive a reminder notification during continued chatbot interactions?",
+  "response": "Part 1: The sources do not specify a required frequency for reminder notifications during continued chatbot interactions, as the provided excerpts do not contain a rule or guideline addressing this specific timing.\n\nPart 2: The provided context discusses notifications in relation to educational technology and \"push notifications,\" but these mentions are about encouraging learning activities or alerting students to new assignments, not about reminder notifications for privacy purposes during a chatbot session. The documents focus on other aspects of the Children's Online Privacy Protection Rule, such as consent methods and data security requirements, but do not establish any specific timing or frequency for reminder notifications within an ongoing interaction. Therefore, based solely on the information provided, no answer regarding the frequency can be determined.",
+  "ground_truth": "At least every three hours.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:14:40.063154",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no specified frequency for reminder notifications, while the ground truth indicates that reminders must occur at least every three hours. This is a factual error.",
+  "provider": "deepseek"
+}

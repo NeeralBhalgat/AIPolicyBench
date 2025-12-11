@@ -1,0 +1,12 @@
+{
+  "query_id": 216,
+  "query": "Under AB 979, who may participate through voluntary information-sharing mechanisms?",
+  "response": "Part 1: Nonfederal entities, including state and local governments and existing entities like ISACs, may participate through voluntary information-sharing mechanisms.\n\nPart 2: The legislation permits voluntary information-sharing relationships specifically between the NCCIC and nonfederal entities, and it prohibits requiring such an agreement, making participation optional. It also requires that the procedures incorporate existing information-sharing mechanisms, such as Information Sharing and Analysis Centers (ISACs). Furthermore, the formation of and participation in such groups is intended to be completely optional and voluntary, reinforcing the voluntary nature of the sharing mechanisms.",
+  "ground_truth": "Other entities, as appropriate, beyond state contractors and vendors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:08:45.881909",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly focuses on nonfederal entities and ISACs, while the ground truth specifies 'other entities, as appropriate, beyond state contractors and vendors,' which is not addressed in the response.",
+  "provider": "deepseek"
+}

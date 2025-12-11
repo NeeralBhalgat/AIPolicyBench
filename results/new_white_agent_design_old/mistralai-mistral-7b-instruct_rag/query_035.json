@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "Part 1: The workforce plan requires agencies to hire no more than one employee for every four employees that depart, prioritizing highly skilled Americans dedicated to American ideals and reducing government size.\n\nPart 2: The plan, outlined in the Executive Order, mandates a 1:4 hiring ratio to shrink the federal workforce through attrition, exempting public safety and law enforcement roles. It emphasizes hiring individuals committed to efficiency, constitutional values, and the rule of law, while barring hiring based on race, sex, or religion. The goal is to streamline hiring processes, reduce time-to-hire, and improve candidate communication, ensuring a more effective and merit-based federal workforce.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:23:54.752628",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response describes a workforce plan focused on a 1:4 hiring ratio and specific hiring criteria, which does not align with the ground truth answer that emphasizes expanding hiring and AI literacy. The details provided are factually incorrect in the context of the current workforce plan.",
+  "provider": "deepseek"
+}

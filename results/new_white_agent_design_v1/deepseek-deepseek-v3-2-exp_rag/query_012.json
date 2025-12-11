@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "OMB Memorandum M-25-21 replaces the previous memorandum M-24-10.",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:32:48.176620",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies that OMB Memorandum M-25-21 replaces M-24-10, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

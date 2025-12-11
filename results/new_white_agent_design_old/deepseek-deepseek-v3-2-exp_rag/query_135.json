@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Part 1: Project teams are required to provide information about their AI use cases, enabling innovation, efficiency, and the management of potential rights and safety impacts.\n\nPart 2: The inventory is a repository of the Department of Justice's AI uses, and its creation involves a rigorous data collection process where components across the Department submit their use cases. This process requires involvement from both technical and non-technical leaders, including component heads, to ensure accuracy. The goal of collecting this information is to offer an unprecedented level of quality, comprehensiveness, and transparency regarding the Department's AI applications.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:09.339887",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides relevant information about the AI inventory but does not directly address the specific requirement to provide 'clear, detailed responses to all required inventory questions.' It lacks explicit mention of this requirement, indicating a partial understanding rather than a complete answer.",
+  "provider": "deepseek"
+}

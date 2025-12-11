@@ -1,0 +1,12 @@
+{
+  "query_id": 206,
+  "query": "Under §11009(b), when is an employer liable for discriminatory actions?",
+  "response": "An employer is liable for discriminatory actions of its supervisors, managers, or agents committed within the scope of their employment or relationship with the employer, or for the discriminatory actions of its employees where it is demonstrated that, as a result of any such discriminatory action, the applicant or employee has suffered a loss of or has been denied an employment benefit.",
+  "ground_truth": "When discriminatory actions occur within the scope of employment or the agent’s relationship with the employer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:19:27.769022",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the liability of employers for discriminatory actions committed by supervisors, managers, or agents within the scope of their employment, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

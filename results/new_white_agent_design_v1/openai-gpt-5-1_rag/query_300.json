@@ -1,0 +1,12 @@
+{
+  "query_id": 300,
+  "query": "Which entities are considered “law enforcement agencies” under this bill?",
+  "response": "Under this bill, a “law enforcement agency” means **an agency of the United States, a State, or a political subdivision of a State, authorized by law or by a government agency to engage in or supervise the prevention, detection, investigation, or prosecution of any violation of criminal law.**",
+  "ground_truth": "Any state or local agency employing peace officers under Penal Code §830.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:35:10.483202",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a broader definition of law enforcement agencies that includes federal, state, and local agencies, but it does not specifically mention the requirement of employing peace officers under Penal Code §830, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

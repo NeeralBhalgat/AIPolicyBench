@@ -1,98 +1,171 @@
-### AIPolicyBench – README
+# AIPolicyBench
 
-What is this?
-- RAG agent answers grounded AI policy questions by retrieving relevant document chunks and synthesizing concise, source‑aligned responses.
-- Solves factual QA over policy PDFs by combining TF‑IDF retrieval with targeted LLM generation to minimize unsupported claims.
-- Green agent defines benchmarks using LLM‑as‑a‑judge and/or rule‑based scoring to classify each answer as correct, miss, or hallucination.
-- Correct = aligns with ground truth; Hallucination = confident but wrong; Miss = expresses uncertainty (e.g., “I don’t know”).
-- Metrics: Correct% = correct/total; Miss% = misses/total; Hallucination% = hallucinations/total; Factuality% = Correct% − Hallucination% + 0.5×Miss%.
-- The judge returns classification, confidence, and brief reasoning per query; we also offer fast rule‑based evaluation.
-- We evaluate multiple LLM evaluation models; per‑model results are saved under results/<model>/ as summary.json and statistics.txt.
-- White agent implements RAG (retrieve → augment → generate) over a prebuilt TF‑IDF vector database for fast, deterministic retrieval.
-- It exposes an A2A HTTP endpoint and uses the selected LLM (`--model`) to generate concise, document‑grounded answers.
+A benchmark for evaluating RAG agents on AI policy questions. Compares Web Search RAG vs Direct LLM approaches using LLM-as-a-judge evaluation.
 
-Other important files
-- `simple_vector_db.py` — build/load retrieval DB
-- `data/` — datasets and predefined queries
-- `results/` — outputs (white agent responses, evaluations)
+## Features
 
-Setup
+- **Web Search RAG**: Real-time web search → scrape → index → retrieve → generate
+- **Direct LLM**: Query models directly without retrieval
+- **LLM-as-a-Judge**: GPT-4o-mini evaluates responses against ground truth
+- **Multi-Agent**: Deploy 6 white agents with different models/modes simultaneously
+- **4-Class Evaluation**: Correct ✅ | Miss ⚠️ | Hallucination ❌ | Timeout ⏱️
+
+## Quick Start
+
+```bash
+# Setup
+pip install -r requirements.txt
+cp env.example .env  # Add OPENROUTER_API_KEY
+
+# Deploy all agents (1 green + 6 white)
+./start_multi_agents_cloudflare.sh
+
+# Run evaluation
+python send_eval_task.py
+```
+
+## Architecture
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    AgentBeats Platform                       │
+├─────────────────────────────────────────────────────────────┤
+│                                                              │
+│   Green Agent (Evaluator)          White Agents (6x)         │
+│   ├── Port 8010                    ├── Ports 8011-8016       │
+│   ├── LLM Judge (GPT-4o-mini)      ├── Web RAG (3 agents)    │
+│   └── Sends 300 queries            └── Direct LLM (3 agents) │
+│              │                              │                │
+│              └────── A2A Protocol ──────────┘                │
+│                                                              │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### White Agent Modes
+
+| Mode | Pipeline | Use Case |
+|------|----------|----------|
+| **Web RAG** | Query → Rewrite → Search → Scrape → Index → Retrieve → Generate | Grounded answers with sources |
+| **Direct LLM** | Query → Generate | Test model's internal knowledge |
+
+### Evaluation Classes
+
+| Class | Symbol | Description | In Factuality? |
+|-------|--------|-------------|----------------|
+| Correct | ✅ | Answer matches ground truth | Yes (+) |
+| Miss | ⚠️ | Model says "I don't know" | Yes (+) |
+| Hallucination | ❌ | Confident but wrong | Yes (-) |
+| Timeout | ⏱️ | Response exceeded 95s limit | **No** |
+
+### Metrics
+
+```
+Factuality% = Correct% + Miss% − Hallucination%
+
+(Timeout responses are excluded from calculation)
+```
+
+## Configuration
+
+### White Agents (start_multi_agents_cloudflare.sh)
+
+| Agent | Port | Model | Mode |
+|-------|------|-------|------|
+| 1 | 8011 | mistralai/mistral-7b-instruct | Web RAG |
+| 2 | 8012 | deepseek/deepseek-v3.2-exp | Web RAG |
+| 3 | 8013 | openai/gpt-5.1 | Web RAG |
+| 4 | 8014 | mistralai/mistral-7b-instruct | Direct LLM |
+| 5 | 8015 | deepseek/deepseek-v3.2-exp | Direct LLM |
+| 6 | 8016 | openai/gpt-5.1 | Direct LLM |
+
+### Environment Variables
+
+```bash
+OPENROUTER_API_KEY=sk-or-...  # Required for LLM calls
+```
+
+## Project Structure
+
+```
+AIPolicyBench/
+├── main.py                          # CLI entry point
+├── send_eval_task.py                # Send evaluation to green agent
+├── start_multi_agents_cloudflare.sh # Deploy with Cloudflare tunnels
+├── white_agents_config.json         # Auto-generated agent URLs
+├── src/
+│   ├── green_agent/
+│   │   ├── a2a_evaluator.py         # Main evaluator logic
+│   │   └── evaluation.py            # LLM Judge implementation
+│   ├── white_agent/
+│   │   ├── agent.py                 # A2A agent server
+│   │   ├── pipeline.py              # Web Search RAG pipeline
+│   │   └── direct_llm.py            # Direct LLM mode
+│   ├── utils/
+│   │   ├── llm_client.py            # OpenRouter/OpenAI client
+│   │   └── a2a_client.py            # Agent-to-agent communication
+│   └── config.py                    # Configuration
+├── data/
+│   ├── predefined_queries.json      # 300 queries with ground truth
+│   └── safety_datasets.json         # Source documents
+├── white_agent_{1-6}/               # Separate workspaces per agent
+└── results/new_white_agent_design/  # Evaluation outputs
+```
+
+## Commands
+
+```bash
+# Full evaluation (all 300 queries)
+python send_eval_task.py
+
+# Quick test (10 queries)
+python send_eval_task.py --max-queries 10
+
+# Custom green agent URL
+python send_eval_task.py --green-url http://localhost:8010/to_agent/<id>
+
+# View results
+ls results/new_white_agent_design/
+cat results/new_white_agent_design/*/statistics.txt
+```
+
+## Results Format
+
+Each agent's results in `results/new_white_agent_design/<model>_<mode>/`:
+
+```
+statistics.txt          # Summary stats
+summary.json            # Machine-readable summary
+query_001.json          # Individual query result
+query_002.json
+...
+```
+
+### Example statistics.txt
+
+```
+Total Queries: 300
+Evaluated (excl. timeout): 285
+Timeout: 15 (5.00%) - excluded from factuality
+
+Correct: 85 (29.82%)
+Miss: 50 (17.54%)
+Hallucination: 150 (52.63%)
+Factuality Rate: -5.26%
+```
+
+## Performance Optimizations
+
+- **Parallel URL scraping** with aiohttp (5 concurrent)
+- **95s internal timeout** to avoid Cloudflare 524 errors
+- **Snippet fallback** when scraping fails
+- **Domain scoring** prioritizes .gov, .edu sources
+
+## Requirements
+
+- Python 3.11+
+- OpenRouter API key (or OpenAI/Anthropic)
+- cloudflared (for public deployment)
+
 ```bash
 pip install -r requirements.txt
-cp env.example .env   # add API keys if using LLMs (e.g., DEEPSEEK_API_KEY or OPENAI_API_KEY)
 ```
-
-Build the vector DB (once)
-```bash
-python simple_vector_db.py --json_file data/safety_datasets.json --save
-# creates: ./vector_db/safety_datasets_tfidf_db.pkl
-```
-
-Run white agent (serve RAG answers)
-```bash
-python main.py white --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --model deepseek-chat
-# options: --host 0.0.0.0 --port 9002
-```
-
-Run green agent (evaluate a white agent)
-```bash
-python main.py green
-# options: --host 0.0.0.0 --port 9001
-```
-
-One‑shot evaluation (starts green + white and runs benchmark)
-```bash
-python main.py launch \
-  --queries-file data/predefined_queries.json \
-  --vector-db ./vector_db/safety_datasets_tfidf_db.pkl \
-  --white-model deepseek-chat
-```
-
-Use LLM‑as‑a‑judge (optional)
-```bash
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl \
-  --white-model deepseek-chat --llm-judge
-```
-
-Test green agent’s evaluation on sample cases
-```bash
-# Rule-based demo (no API needed)
-python green_agent/evaluation.py
-
-# Predefined queries (rule‑based by default)
-python green_agent/agent.py --query_id 1
-python green_agent/agent.py --all
-
-# Smoke tests
-python test_a2a_imports.py
-python test_llm_judge.py
-```
-
-Reproduce benchmark variants
-```bash
-# DeepSeek (default)
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model deepseek-chat
-# Mistral
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model mistralai/mistral-7b-instruct
-# OpenRouter / OpenAI‑compatible
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model openai/gpt-5.1
-```
-
-Outputs
-- Results in `./results/<model>/`: `summary.json`, `statistics.txt`, per‑query JSON.
-
-AgentBeats compatibility
-- Both agents run as A2A HTTP servers (Starlette via a2a‑sdk).
-- Start with public bind when needed:
-```bash
-python main.py green --host 0.0.0.0 --port 9001
-python main.py white --host 0.0.0.0 --port 9002 --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --model deepseek-chat
-```
-- The green agent accepts a standard A2A message containing tags:
-  - `<white_agent_url>http://HOST:9002</white_agent_url>`
-  - `<queries_file>data/predefined_queries.json</queries_file>`
-  - `<use_llm_judge>true|false</use_llm_judge>`
-
-More
-- See `misc/QUICK_COMMANDS.md` for a one‑pager of all commands.
-

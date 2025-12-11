@@ -1,0 +1,12 @@
+{
+  "query_id": 198,
+  "query": "What restrictions apply to internal GSA data?",
+  "response": "Part 1: The provided materials do not describe or specify any restrictions that apply to internal GSA data.  \n\nPart 2: The excerpts focus on improving the public-facing open.gsa.gov site, enhancing engagement with GSA “data, APIs and code” that are open to the public, and posting all solutions as open source for government and community use. They describe competition objectives, judging criteria, logistics, and prize conditions, but do not address how internal (non-public) GSA data must be handled. The referenced security procedural guide excerpt contains only technical/encoding artifacts and no readable policy language about internal data restrictions. Any concrete rules governing internal GSA data would therefore have to be drawn from other, unquoted sections of GSA security or data management policies.",
+  "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:13:03.953243",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding restrictions on internal GSA data, which aligns with the ground truth that specifies certain restrictions. However, it does not explicitly acknowledge the specific restrictions mentioned in the ground truth, leading to a classification of 'miss' due to uncertainty.",
+  "provider": "deepseek"
+}

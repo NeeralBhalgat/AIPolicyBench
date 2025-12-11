@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "[OUT]\n\nPart 1: OMB must align guidance by reviewing and approving information collection requests, such as the modification to NHTSA's CAFE Reporting, and ensuring compliance with OMB control numbers.\n\nPart 2: The Office of Management and Budget (OMB) is responsible for reviewing and approving information collection requests from federal agencies, including modifications to existing collections like NHTSA's CAFE Reporting. This process ensures that the guidance aligns with regulatory requirements and that the information collected is valid and necessary. OMB's role includes setting expiration dates for approvals, typically for a period of three years, and ensuring that the collection of information complies with federal standards. By doing so, OMB helps maintain consistency and efficiency in regulatory practices across federal agencies.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:57.377195",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses OMB's role in reviewing information collection requests but does not mention the specific requirement to revise M-24-10 and M-24-18 within 60 days, which is the ground truth answer.",
+  "provider": "deepseek"
+}

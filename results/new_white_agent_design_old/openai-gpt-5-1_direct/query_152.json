@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "NASA has **not publicly committed to a single, specific calendar date** for re‑evaluating “non‑reportable” AI use cases.  \n\nIn the AI governance and generative AI guidance NASA has released so far (through late 2024), the agency generally indicates that:\n\n- The **list and criteria for non‑reportable use cases will be reviewed and updated periodically**, and  \n- This is expected to occur **at least annually** or as policy, risk assessments, or federal requirements (e.g., from OMB or the White House AI Executive Order) change.\n\nHowever, I have not seen any public document that says something like “NASA will re‑evaluate non‑reportable use cases on [specific date/month/year].”\n\nIf you are inside NASA, the precise schedule (e.g., tied to the agency’s AI Governance Board or CIO policy updates) may be documented on internal sites or memos. In that case, the most accurate source would be:\n\n- Your center’s Chief Information Office or AI governance contact, or  \n- The NASA OCIO or Chief AI Officer communications on internal SharePoint/Max.gov pages.\n\nSo: based on what is publicly available",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:55:38.604322",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects that NASA will review and update the list and criteria for non-reportable use cases at least annually, which aligns with the ground truth answer. However, the response includes some uncertainty about specific dates, which slightly lowers the confidence.",
+  "provider": "deepseek"
+}

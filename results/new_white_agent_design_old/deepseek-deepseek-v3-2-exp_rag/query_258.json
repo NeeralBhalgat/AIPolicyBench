@@ -1,0 +1,12 @@
+{
+  "query_id": 258,
+  "query": "Who does the law apply to regarding use of digitally altered images?",
+  "response": "Part 1: The law applies to persons who distribute, transmit, or otherwise make available technology with the primary purpose of unauthorized use of a person’s photograph, voice, or likeness, and it also applies to individuals who create or distribute materially deceptive media or sexually explicit images.\n\nPart 2: The laws create liability for the unauthorized creation and distribution of a person's likeness, which includes both the individuals who create the deceptive media and those who distribute the enabling technology. Specific examples include criminal penalties for creating deceptive videos to influence elections and civil remedies for victims of fabricated sexually explicit images. Furthermore, legislation holds individuals accountable for distributing or agreeing to distribute materially deceptive media, covering a range of activities from election interference to personal impersonation.",
+  "ground_truth": "Real estate brokers, salespersons, and persons acting on their behalf.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:17:07.798826",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the application of laws regarding digitally altered images but does not align with the ground truth answer, which specifies that the law applies to real estate brokers and salespersons. The response incorrectly broadens the scope to include various individuals involved in deceptive media, which is not the focus of the ground truth.",
+  "provider": "deepseek"
+}

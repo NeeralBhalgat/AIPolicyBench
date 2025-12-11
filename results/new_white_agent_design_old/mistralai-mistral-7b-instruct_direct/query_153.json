@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "NASA's AI Strategy was published on October 10, 2023. The document outlines NASA's approach to leveraging artificial intelligence (AI) and machine learning (ML) to advance its missions, while also addressing ethical, safety, and regulatory considerations. The strategy emphasizes responsible AI use, transparency, and collaboration with stakeholders to ensure AI applications align with NASA's goals and values.\n\nFor the most accurate and up-to-date information, you can refer to NASA's official website or the published AI Strategy document.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:11:41.729412",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that NASA's AI Strategy was published on October 10, 2023, while the ground truth indicates it was scheduled for publication by March 2025.",
+  "provider": "deepseek"
+}

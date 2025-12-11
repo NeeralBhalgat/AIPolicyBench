@@ -1,0 +1,12 @@
+{
+  "query_id": 105,
+  "query": "What tool does DOT use to track AI use cases?",
+  "response": "The U.S. Department of Transportation (DOT) does not have a publicly documented, dedicated tool specifically for tracking AI use cases. However, the DOT has been involved in initiatives related to AI, particularly in the context of autonomous vehicles and transportation safety.\n\nFor broader AI tracking and policy, the U.S. government has other resources, such as the National Artificial Intelligence Initiative (NAII) and the National AI Research and Development Strategic Plan, which may include tracking mechanisms. Additionally, the DOT may use general project management or data tracking tools for internal monitoring, but these are not publicly specified.\n\nIf you are looking for specific information on how the DOT tracks AI use cases, it would be best to consult official DOT reports, press releases, or contact the department directly for the most accurate and up-to-date information.",
+  "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:08:14.900827",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the DOT does not have a dedicated tool for tracking AI use cases, while the ground truth indicates that the DOT uses TrUCKR for this purpose. The response also suggests consulting official sources for information, which implies a lack of accurate knowledge about the specific tool.",
+  "provider": "deepseek"
+}

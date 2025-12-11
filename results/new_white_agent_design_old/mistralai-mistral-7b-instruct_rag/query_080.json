@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "<s> [OUT] Part 1: The U.S. Department of Health and Human Services (HHS) coordinates federal public health and medical assistance in support of state, tribal, and jurisdictional response efforts.\n\nPart 2: As the primary agency for Emergency Support Function (ESF) #8, HHS plays a central role in providing federal support to state, tribal, and local organizations. This includes coordinating public health and medical assistance to enhance preparedness and response capabilities. Additionally, HHS ensures that federal programs align with federal law, including measures to prevent fraud and ensure proper eligibility verification. The department collaborates with these organizations to improve program integrity and better support vulnerable populations.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:12.696378",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the role of HHS in coordinating public health and medical assistance, which is not relevant to the question about how HHS will support STLT organizations in the context of AI policy and safety datasets. The ground truth answer focuses on a flexible approach to AI use, which is not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "The sources indicate that the Nuclear Regulatory Commission’s approach to AI is guided by the **Atomic Energy Act (AEA)**, which the article explicitly discusses in “The AEA Applied to AI Models” as applying when AI models may communicate “restricted data” under the AEA’s Communication of Restricted Data provision.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:23:34.925419",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the Atomic Energy Act as the guiding federal act for the NRC's approach to AI, while the correct acts are the Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "provider": "deepseek"
+}

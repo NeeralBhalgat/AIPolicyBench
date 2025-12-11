@@ -1,0 +1,12 @@
+{
+  "query_id": 57,
+  "query": "How will the DoD strengthen governance while removing policy barriers?",
+  "response": "**Part 1:** The DoD will strengthen governance by submitting a plan to reform its antiquated acquisition processes, utilizing existing authorities to expedite acquisitions with an emphasis on speed, flexibility, and execution.\n\n**Part 2:** This reform is part of a policy to accelerate defense procurement and revitalize the defense industrial base to restore peace through strength. The plan will specifically incorporate a first preference for commercial solutions and a general preference for Other Transactions Authority to remove policy barriers. Additionally, the defense acquisition workforce will be modernized and incentivized to reward risk-taking and innovation, ensuring the military gains decisive advantages.",
+  "ground_truth": "By creating risk-adjusted, collaborative governance that supports responsible, fast, and lawful AI adoption.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:33:23.066976",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses reforms in acquisition processes and preferences for commercial solutions, which do not directly address the creation of risk-adjusted, collaborative governance for AI adoption as stated in the ground truth answer. Therefore, while it provides relevant information, it does not accurately reflect the specific governance approach mentioned.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 286,
+  "query": "What specific data categories are prohibited from being publicly posted by the Agency?",
+  "response": "**Part 1:**  \nThe provided context does not identify any specific data categories that the Agency is prohibited from publicly posting.\n\n**Part 2:**  \nThe excerpts describe how agencies manage rulemaking dockets, comments, and publication in the Federal Register, and they explain that comments are handled through agency dockets or Regulations.gov rather than by the Office of the Federal Register. They also address where to find dockets, how long they are retained, and how to contact agencies or inspectors general to report violations or complaints. However, none of the quoted material lists or describes any categories of information (such as particular types of data) that are barred from public posting. Because that information is not present in the provided text, the specific prohibited data categories cannot be determined from this context alone.",
+  "ground_truth": "Consumer names, DOBs, ZIP Codes, phone numbers, mobile/CTV IDs, VINs, and common data types collected.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:34:27.940267",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the provided context does not identify any specific data categories prohibited from public posting, while the ground truth clearly lists specific categories such as consumer names, DOBs, and other personal identifiers that are indeed prohibited. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

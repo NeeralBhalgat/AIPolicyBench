@@ -1,0 +1,12 @@
+{
+  "query_id": 188,
+  "query": "What is the primary function of the AI Governance Board?",
+  "response": "“AI Governance Board” isn’t a single globally defined body; many governments and companies use that name. But across those contexts, its primary function is essentially the same:\n\n**Primary function:**  \nTo provide centralized oversight and decision‑making for an organization’s use of AI—ensuring that AI systems are developed, procured, and deployed in a way that is lawful, ethical, safe, and aligned with the organization’s strategic objectives and risk tolerance.\n\nIn practice, this typically includes:\n\n- **Setting policy and standards** for AI use (e.g., responsible AI principles, risk thresholds, approval requirements).  \n- **Reviewing and approving high‑risk or sensitive AI projects** (e.g., systems affecting rights, safety, or critical infrastructure).  \n- **Ensuring compliance** with applicable laws, regulations, and internal policies (e.g., privacy, anti‑discrimination, security).  \n- **Coordinating across departments** so AI efforts aren’t fragmented, duplicative, or misaligned.  \n- **Monitoring and oversight** of AI risk management, incident handling, audits, and continuous improvement.\n\nIf you meant a specific AI Governance Board (for example, at DHS in the U.S., within a particular company, or in a national government), I can tailor this to that entity’s formal mandate.",
+  "ground_truth": "To oversee AI adoption and risk management across GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:22.444324",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a general overview of the functions of AI Governance Boards but does not accurately reflect the specific ground truth answer regarding the GSA's oversight of AI adoption and risk management. The response lacks the specificity required to be considered correct.",
+  "provider": "deepseek"
+}

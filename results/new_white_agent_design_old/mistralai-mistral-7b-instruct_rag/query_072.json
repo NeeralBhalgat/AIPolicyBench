@@ -1,0 +1,12 @@
+{
+  "query_id": 72,
+  "query": "How does the Strategic Plan define Artificial Intelligence?",
+  "response": "Part 1: The Strategic Plan does not explicitly define Artificial Intelligence, but it refers to it as a technology that requires safe, secure, and trustworthy development and use.\n\nPart 2: The Strategic Plan focuses on the advancement, innovation, and management of risks associated with AI in the Federal Government. It emphasizes the importance of AI in various sectors like healthcare, finance, education, and transportation, while also highlighting the need to protect privacy, civil liberties, and prevent discrimination or bias in AI use. The plan also mentions the need for collaboration with the private sector and various stakeholders to ensure responsible AI development and use.",
+  "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:31:17.417846",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide a definition of Artificial Intelligence as stated in the ground truth. Instead, it discusses the Strategic Plan's focus on safe and responsible AI development without accurately defining what AI is.",
+  "provider": "deepseek"
+}

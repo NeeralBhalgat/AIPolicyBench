@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "The U.S. Department of Transportation (DOT) does not have a publicly documented process for determining which AI use cases are excluded from the Public Use Case Inventory. I don't have enough information to answer this question.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:29.043096",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response admits a lack of information regarding the DOT's process for excluding AI use cases, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

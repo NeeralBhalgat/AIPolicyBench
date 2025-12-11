@@ -1,0 +1,12 @@
+{
+  "query_id": 29,
+  "query": "How does the order limit its legal effect on agencies’ authorities?",
+  "response": "Part 1: The order explicitly states that it does not impair or alter the powers and duties of federal agencies established under law, nor does it replace any legally established agency policy.\n\nPart 2: The order clarifies that it does not override existing agency policies that are legally established and consistent with its terms. Agencies must review their policies to ensure compliance, but the order does not create any new legal rights or alter the existing authorities of agencies. It also emphasizes that agencies retain the discretion to implement more protective policies if they choose, as long as they do not conflict with the order's provisions.",
+  "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:23:32.045019",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the order does not impair or alter the powers and duties of federal agencies, nor does it create new legal rights or change existing authorities. This aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

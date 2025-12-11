@@ -1,0 +1,7 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "error": "HTTP Error 502: Server error '502 Bad Gateway' for url 'https://rock-atomic-wendy-stunning.trycloudflare.com/to_agent/ca3338e95f7643a9b99cc635ed55c4f5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+  "evaluation_result": "error"
+}

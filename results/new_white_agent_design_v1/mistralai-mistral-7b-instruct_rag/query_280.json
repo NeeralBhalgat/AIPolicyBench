@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "The Whistleblower Protection Act (WPA) protects federal employees or applicants for federal employment from retaliation for making protected disclosures. It also covers employees of federal contractors, subcontractors, grantees, or subgrantees. [sources 1, 2, 3, 4, 5]",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:52.860122",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response correctly identifies that the Whistleblower Protection Act protects federal employees and certain contractors, but it does not mention the specific context of catastrophic-risk dangers or violations of the TFAIA, which is a key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

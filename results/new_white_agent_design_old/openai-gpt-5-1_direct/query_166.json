@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "Below are the major internal committees and groups most organizations use to support AI governance. Names vary, but these functions tend to recur across sectors.\n\n---\n\n### 1. Executive AI Governance Council / AI Steering Committee  \n\n**Role:** Set overall AI strategy, risk appetite, and accountability.  \n**Typical members:** C‑suite (CIO/CTO, CDO, CRO, GC, CISO, CHRO), key business leaders.  \n\n**Core responsibilities:**\n- Approve AI strategy, principles, and enterprise-wide AI policy.\n- Define which AI uses are permitted, restricted, or prohibited.\n- Approve “high‑risk” or sensitive AI use cases (e.g., impacting rights, safety, or critical operations).\n- Allocate funding and resources for AI and AI governance.\n- Oversee key AI KPIs/KRIs and escalate to board where needed.\n\n---\n\n### 2. Board-Level Technology / Risk Committee (or equivalent)\n\n**Role:** Provide independent oversight of AI risk at the board level.  \n**Typical members:** Non‑executive directors with risk/tech/regulatory expertise, plus executives as invitees.  \n\n**Core responsibilities:**\n- Approve the AI risk appetite and major AI policies (or endorse them).\n- Receive regular AI risk, compliance, and incident reports.\n- Challenge management on adequacy of AI controls and resourcing.\n- Oversee alignment with external regulation and stakeholder expectations.\n\n*(In some firms this is part of",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:57:42.440975",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides detailed descriptions of internal committees that may support AI governance, but it does not mention the specific groups identified in the ground truth answer, namely the Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP). Therefore, while the response is informative, it does not align with the ground truth and contains inaccuracies.",
+  "provider": "deepseek"
+}

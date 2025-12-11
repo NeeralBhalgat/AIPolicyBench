@@ -1,0 +1,12 @@
+{
+  "query_id": 27,
+  "query": "What interim relief is directed if rollback can’t be finalized immediately?",
+  "response": "**Part 1:** If a rollback cannot be finalized immediately, interim relief is directed by providing temporary or conditional relief and, if applicable, delaying the payment of any amounts owed while paying interest from the date of the original appellate decision until payment is made.\n\n**Part 2:** The context specifies that when an agency requests reconsideration of a decision, it must provide notification that the relief it is implementing is temporary or conditional. This notification also covers the potential delay of monetary payments, with the crucial condition that interest must be paid on any delayed amounts from the date of the original decision. This framework ensures that while the full implementation of relief is postponed, the affected party is not financially disadvantaged during the delay.",
+  "ground_truth": "Provide all available exemptions until final action.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:26:04.035244",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not align with the ground truth answer, which specifies providing all available exemptions until final action. Instead, the response focuses on temporary or conditional relief and interest payments, which is not the same as providing exemptions.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 75,
+  "query": "What additional domains support implementation of the Strategic Plan?",
+  "response": "I’m not able to identify which specific “Strategic Plan” you’re referring to (for example, it could be a national AI strategy, an AI R&D strategic plan, an agency AI safety plan, etc.), and the exact answer depends heavily on that document.\n\nIn AI policy and safety contexts, however, **the “additional domains” that support implementation of a Strategic Plan are usually the cross‑cutting or enabling areas that make the core objectives possible**. These commonly include:\n\n1. **Governance, Law, and Regulation**  \n   - Developing and updating regulatory frameworks for AI.  \n   - Establishing oversight bodies, audit",
+  "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:48:02.574514",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about the specific Strategic Plan being referenced and does not provide a definitive answer. While it discusses relevant domains in a general sense, it does not address the specific additional domains mentioned in the ground truth answer.",
+  "provider": "deepseek"
+}

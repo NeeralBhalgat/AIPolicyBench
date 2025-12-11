@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:12:16.665150",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer to the question about taxpayer rights that AI must not violate.",
+  "provider": "deepseek"
+}

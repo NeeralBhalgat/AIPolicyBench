@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Part 1: Public-facing AI systems must include measures to mitigate risks such as content security, personal data protection, data security, and intellectual property violations.\n\nPart 2: The Generative AI Measures, as outlined in the context, require providers of public-facing generative AI services to address several key risks. These include ensuring content security to prevent harmful or misleading outputs, protecting personal data to comply with privacy regulations, maintaining data security to safeguard against breaches, and respecting intellectual property rights to avoid violations. These obligations are part of a multi-tiered system designed to enhance the safety and reliability of AI services for the public.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:51.140245",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on risk mitigation measures such as content security and data protection, which are important but do not address the specific requirement of including plain-language notices and human alternatives as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

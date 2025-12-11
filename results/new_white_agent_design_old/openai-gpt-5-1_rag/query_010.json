@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "**Part 1:**  \nThe plan targets the legal risk of AI-generated synthetic media in courts by including work to “combat synthetic media in the legal system” as one of its recommended policy actions.\n\n**Part 2:**  \nWithin the action plan, NIST is assigned a range of policy tasks, one of which is explicitly to combat synthetic media in the legal system. This recognizes that AI-generated content like deepfakes can undermine evidence, confuse fact-finding, and erode trust in judicial processes. By framing “combat synthetic media in the legal system” as a policy priority, the plan signals development of standards, tools, and practices to detect and manage such media in legal contexts. In doing so, it aims to reduce the risk that AI-generated falsified or manipulated content will produce legal errors or abuses.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:26:05.446224",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the legal risk of AI-generated synthetic media, specifically mentioning deepfakes, and describes the plan's focus on developing standards and practices to address this issue, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

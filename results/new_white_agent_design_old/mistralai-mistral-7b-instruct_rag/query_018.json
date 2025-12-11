@@ -1,0 +1,12 @@
+{
+  "query_id": 18,
+  "query": "How does the memo define “high-impact AI”?",
+  "response": "Part 1: The memo does not explicitly define \"high-impact AI\" in the provided sources.\n\nPart 2: While the sources discuss various aspects of AI regulation, including executive orders and state-level laws, none of the texts explicitly define the term \"high-impact AI.\" The context mentions debates over federal versus state regulation, concerns about AI safety, and the influence of industry lobbying, but it lacks a specific definition of what constitutes \"high-impact AI.\" Further details on this term would require additional sources or context beyond what is provided.",
+  "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:00.547190",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the definition of 'high-impact AI' and acknowledges that the memo does not provide an explicit definition. This aligns with the classification of 'miss' as it does not provide the correct information but rather expresses a lack of knowledge on the specific definition.",
+  "provider": "deepseek"
+}

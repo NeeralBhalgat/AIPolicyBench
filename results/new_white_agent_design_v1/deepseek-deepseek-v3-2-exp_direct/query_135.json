@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Based on widely adopted frameworks like the NIST AI RMF, project teams are generally required to provide documentation covering the AI system's purpose, data, models, and governance processes.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:00:14.298036",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirements for project teams in the AI inventory, aligning with the ground truth that emphasizes the need for clear and detailed documentation regarding the AI system's purpose, data, models, and governance processes.",
+  "provider": "deepseek"
+}

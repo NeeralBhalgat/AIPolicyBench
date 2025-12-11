@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "Part 1:  \nDOT excludes AI use cases from the Public Use Case Inventory when they are not “non-classified and non-sensitive” or cannot be shared with the public “to the extent practicable” under Executive Order 13960.\n\nPart 2:  \nExecutive Order 13960 directs agencies to prepare an inventory of non-classified and non-sensitive AI use cases and to share those inventories publicly only as practicable. In applying this, DOT withholds AI use cases whose details are classified or otherwise sensitive, such as those that could implicate national security, law enforcement, or other protected information. Those sensitive use cases may still appear in DOT’s internal or restricted inventories, but not in the public-facing one. Thus, the key filter is whether public disclosure would expose information that is not legally or practically appropriate to share.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:50:01.366853",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the criteria used by DOT to exclude AI use cases from the Public Use Case Inventory, aligning with the ground truth that mentions classified and sensitive systems. The explanation is clear and consistent with the established policies.",
+  "provider": "deepseek"
+}

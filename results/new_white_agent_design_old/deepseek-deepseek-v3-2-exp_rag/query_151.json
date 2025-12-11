@@ -1,0 +1,12 @@
+{
+  "query_id": 151,
+  "query": "What does NASA’s registry enable beyond federal reporting?",
+  "response": "Part 1: NASA's registry enables NASA civil servants, contractors, and grantees to access the complete STI collection of NASA and non-NASA aerospace materials, referred to as registered content.\n\nPart 2: The registered content in the NASA STI Repository includes the complete collection of scientific and technical information (STI) from both NASA and non-NASA aerospace sources. This access is specifically available to members of the NASA community, which includes its civil servants, contractors, and grantees. The system, previously known as the NASA Technical Reports Server-Registered (NTRS-R), allows these authorized users to authenticate and search this extensive repository for their work.",
+  "ground_truth": "Continuous tracking of all AI use cases internally.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:52:22.488560",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses NASA's STI repository and its access for civil servants, contractors, and grantees, which is unrelated to the ground truth answer about continuous tracking of AI use cases internally.",
+  "provider": "deepseek"
+}

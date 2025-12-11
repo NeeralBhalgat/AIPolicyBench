@@ -1,0 +1,12 @@
+{
+  "query_id": 175,
+  "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+  "response": "Part 1:  \nOne expected challenge in regulating high-autonomy AI systems is the “unworkable patchwork” of differing state AI laws created by a federal vs. state showdown over who gets to do the regulating.\n\nPart 2:  \nIn the absence of a strong federal AI standard, individual states have begun passing their own AI safety and governance bills, leading to a mosaic of rules that can conflict or overlap. Industry leaders argue this patchwork makes it difficult to build and deploy advanced AI systems across the country and could “threaten innovation.” In response, federal actors are exploring measures like preemption language in major legislation and executive orders that would limit state authority and move toward a single national framework. This tug-of-war over regulatory authority is expected to be a central difficulty in effectively overseeing high-autonomy AI systems.",
+  "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:07:21.333154",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent discusses the challenge of a patchwork of state laws, it does not address the core issue of reduced human oversight in high-autonomy AI systems, which is a key aspect of the ground truth answer. The response focuses on regulatory authority rather than the implications of autonomy levels on oversight.",
+  "provider": "deepseek"
+}

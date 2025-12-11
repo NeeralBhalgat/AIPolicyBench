@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized to **prepare citizens for the high-paying skilled trade jobs of the future** and **address critical workforce needs in emerging industries**, equipping workers with the skill sets to fill jobs in critical industries, avoid displacement, and advance their careers.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:23:09.440211",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on preparing citizens for high-paying skilled trade jobs and addressing workforce needs in emerging industries, which does not align with the ground truth that emphasizes the need for staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "provider": "deepseek"
+}

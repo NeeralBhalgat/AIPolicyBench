@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "<s> [OUT]\n\nPart 1: Regulatory updates for AI oversight may include removing unnecessary bureaucratic restrictions and outdated procurement processes to accelerate federal use of AI.\n\nPart 2: The White House has emphasized the need to streamline AI adoption within federal agencies by addressing bureaucratic barriers and modernizing procurement processes. This approach aims to enhance efficiency, cost-effectiveness, and public trust in AI technologies. Additionally, the government is focused on maintaining strong protections for privacy, civil rights, and civil liberties while promoting American AI innovation and global leadership. These updates reflect a commitment to responsible and efficient use of AI in government operations.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:41:53.323021",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses streamlining processes and enhancing efficiency but does not directly address the need for new guidance, updated inspection procedures, or potential rulemaking as indicated in the ground truth answer. Therefore, it does not accurately reflect the necessary regulatory updates for AI oversight.",
+  "provider": "deepseek"
+}

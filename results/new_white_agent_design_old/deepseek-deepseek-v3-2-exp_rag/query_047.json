@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "Part 1: The Map function helps organizations identify Global Systemically Important Foreign Banking Organizations.\n\nPart 2: The regulatory framework requires the identification of specific foreign banking organizations that are globally systemically important. This identification process is a key function defined within the rules governing these financial institutions. The requirement to identify such organizations is part of a broader set of enhanced prudential standards and risk-management requirements.",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:30:59.965355",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly associates the Map function with identifying Global Systemically Important Foreign Banking Organizations, which is unrelated to the context of AI risks and impacts as described in the ground truth answer.",
+  "provider": "deepseek"
+}

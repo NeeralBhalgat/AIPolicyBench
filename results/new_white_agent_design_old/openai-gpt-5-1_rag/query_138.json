@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "**Part 1:**  \nFor IRS purposes, artificial intelligence is defined by the Office of Management and Budget’s government‑wide policy in OMB Memorandum M‑25‑21, “Accelerating Federal Use of AI through Innovation, Governance, and Public Trust.”\n\n**Part 2:**  \nThis OMB memorandum is one of the new federal policies on “Federal Agency Use of AI” issued under the President’s executive order directing removal of barriers to American leadership in AI. Because the IRS is a federal agency, it must follow OMB’s IT and AI governance policies, so the definition and scope of “AI” in M‑25‑21 apply to IRS activities. Together with the companion acquisition memo, M‑25‑22, it provides common terminology and requirements for how agencies identify, govern, and procure AI systems. Thus, when the IRS refers to “AI,” it is using the definition and framework established in this OMB policy.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:56:19.633656",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies OMB Memorandum M-25-21 as the defining policy for AI for IRS purposes, while the correct answer is Section 238(g) of the 2019 NDAA.",
+  "provider": "deepseek"
+}

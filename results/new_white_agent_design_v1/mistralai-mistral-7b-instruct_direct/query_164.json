@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "The Nuclear Regulatory Commission (NRC) emphasizes data science as a foundation to enhance the safety, efficiency, and effectiveness of nuclear regulation through advanced data analysis, predictive modeling, and risk assessment.",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:22.962925",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the NRC's emphasis on data science for enhancing safety and effectiveness in nuclear regulation, aligning with the ground truth that highlights the importance of quality data for predictive modeling and analytics.",
+  "provider": "deepseek"
+}

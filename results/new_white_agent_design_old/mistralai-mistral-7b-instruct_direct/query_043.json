@@ -1,0 +1,12 @@
+{
+  "query_id": 43,
+  "query": "What does the AI RMF identify as the key characteristics of trustworthy AI?",
+  "response": "The AI RMF (Responsible Machine Learning Framework) by the European Commission identifies the following key characteristics of trustworthy AI:\n\n1. Lawful: AI systems should respect all applicable laws and regulations.\n\n2. Ethical: AI systems should respect fundamental rights, values, and principles, and should be used for purposes that align with them.\n\n3. Transparent: AI systems should be designed and operated in a way that is understandable to stakeholders, and it should be possible to explain the system's decisions and actions.\n\n4. Fair: AI systems should treat all individuals equally, without discrimination, and should be free of bias.\n\n5. Robust and reliable: AI systems should function correctly and safely under all conditions of intended use and should be resilient to adversarial attacks.\n\n6. Accountable: Mechanisms should be in place to enable clear accountability for AI systems and their outcomes.\n\n7. Human-centric: AI systems should be designed and operated to benefit and foster well-being of human beings.\n\n8. Technically robust and secure: AI systems should be secure, resilient, and robust enough to withstand cyber-attacks, and they should be designed to maintain functionality while dealing with uncertainty.\n\n9. Socially beneficial: AI systems should contribute to well-being, autonomy, and inclusion of all individuals within our society.\n\n10. Privacy-preserving: AI systems should respect privacy and protect personal data.\n\nThese characteristics aim to ensure that AI is developed and used in a way that is safe, ethical, and beneficial for all.",
+  "ground_truth": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:04.275243",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response lists characteristics that are not aligned with the ground truth answer provided. While some concepts overlap, the specific terms and structure differ significantly, indicating a misunderstanding of the AI RMF's key characteristics.",
+  "provider": "deepseek"
+}

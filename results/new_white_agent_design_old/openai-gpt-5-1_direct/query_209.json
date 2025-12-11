@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "Automated systems that analyze tone of voice or facial expressions (“affect recognition”) pose several distinct risks:\n\n1. **Invasive emotional surveillance**  \n   - They turn moment‑to‑moment emotional cues—voice stress, micro‑expressions, gaze—into persistent data points.  \n   - This can create dossiers on a person’s mood, stress, or “engagement” over time, which is far more intrusive than ordinary identification biometrics.\n\n2. **Scientific unreliability and misclassification**  \n   - The empirical basis for inferring internal emotional states from facial expressions or tone is weak and heavily contested in the psychology literature.  \n   - Error rates are especially high across cultures, races, genders, and for neurodivergent people or people with disabilities.  \n   - When used for high‑stakes decisions (discipline, hiring, grading, law enforcement, credit, access to services), these errors can translate into concrete",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:01:28.959669",
+  "confidence": 0.85,
+  "reasoning": "While the White Agent's response identifies risks associated with automated systems analyzing tone and facial expressions, it does not address the specific risk of discrimination based on protected characteristics, which is the ground truth answer. The response focuses on emotional surveillance and scientific unreliability, which are relevant but do not encompass the core risk mentioned in the ground truth.",
+  "provider": "deepseek"
+}

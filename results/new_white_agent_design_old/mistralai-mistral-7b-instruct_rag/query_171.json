@@ -1,0 +1,12 @@
+{
+  "query_id": 171,
+  "query": "What regulatory principle guides the NRC’s approach to AI readiness?",
+  "response": "Part 1: The NRC's approach to AI readiness is guided by the principle of ensuring the safe and secure use of AI in nuclear applications.\n\nPart 2: This principle, outlined in the AI principles paper published by the NRC in collaboration with Canada and the United Kingdom on September 5, 2024, serves as a foundation for the agency's efforts to implement AI solutions in nuclear applications. The NRC aims to develop a framework to deploy AI at the agency, focusing on the 36 use cases that align with the capabilities of current AI tools, while also addressing the remaining 25 use cases using non-AI solutions when appropriate.",
+  "ground_truth": "The agency’s Principles of Good Regulation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:07.163560",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the guiding principle as related to the safe and secure use of AI in nuclear applications, rather than the correct principle, which is the agency’s Principles of Good Regulation. Additionally, the details about the AI principles paper and use cases do not align with the known regulatory framework.",
+  "provider": "deepseek"
+}

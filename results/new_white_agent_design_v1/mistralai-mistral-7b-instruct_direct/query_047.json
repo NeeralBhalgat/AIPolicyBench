@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "The Map function in AI policy and safety helps organizations identify and assess potential risks, vulnerabilities, and ethical concerns associated with their AI systems, allowing them to systematically evaluate and address these issues.",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:14.679423",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the Map function's role in identifying and assessing risks and ethical concerns in AI systems, which aligns with the ground truth answer regarding understanding AI risks and impacts before deployment.",
+  "provider": "deepseek"
+}

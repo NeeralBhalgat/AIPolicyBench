@@ -1,0 +1,12 @@
+{
+  "query_id": 170,
+  "query": "What does the NRC note about AI’s potential operational benefits?",
+  "response": "The NRC notes that AI/ML has the potential to improve the efficiency and/or effectiveness of nuclear regulatory oversight and to increase staff knowledge and experience for future regulatory reviews and oversight.",
+  "ground_truth": "AI can enhance safety, improve processes, and support decision-making across nuclear operations.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:47:13.980643",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the NRC's notes on AI's potential operational benefits in improving efficiency and effectiveness in nuclear regulatory oversight, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

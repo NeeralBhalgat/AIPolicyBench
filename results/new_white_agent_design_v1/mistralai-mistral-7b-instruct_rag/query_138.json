@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:12:40.754490",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about federal policy defining AI for IRS purposes.",
+  "provider": "deepseek"
+}

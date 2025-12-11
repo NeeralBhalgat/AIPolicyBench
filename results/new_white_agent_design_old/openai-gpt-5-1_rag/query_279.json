@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "**Part 1:**  \nA civil penalty of up to **$3,650 for each violation**, not to exceed **$4,562,282 for any related series of violations occurring within one year**, may be imposed for violating the Act.  \n\n**Part 2:**  \nThe regulations state that failure to comply may subject a party to the civil and criminal penalties provided in section 611 of the Act, codified at 42 U.S.C. 5410. That section’s implementing regulation specifies the maximum civil penalty “shall be $3,650 for each violation.” It further caps the total penalties for a related series of violations at $4,562,282 when those violations occur within one year from the date of the first violation. Thus, the civil exposure is limited per violation and also by an annual aggregate cap for related offenses.",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:32:48.811095",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the civil penalty amounts, which contradicts the ground truth answer of up to $1,000,000 per violation. The figures provided by the White Agent are not accurate according to the established regulations.",
+  "provider": "deepseek"
+}

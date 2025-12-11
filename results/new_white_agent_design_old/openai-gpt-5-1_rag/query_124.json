@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "**Part 1:**  \nComponent representatives from the Department’s Emerging Technology Board (ETB) and an AI governance working group, working with the Chief AI Officer, review and consolidate AI use case inventory entries for clarity and detail.  \n\n**Part 2:**  \nAll 42 components of the Department contribute entries, and technical and non-technical leaders, including component heads, are involved to ensure the information is accurate and well-prepared. After components submit their use cases, representatives from the Emerging Technology Board and the AI governance working group collaborate with the Chief AI Officer to review and refine those submissions. This process focuses on consolidating related entries, ensuring consistent descriptions, and improving the level of detail. The result is a clearer, more comprehensive AI use case inventory for transparency, risk management, and oversight.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:52:15.540569",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the reviewing body as the Emerging Technology Board and an AI governance working group, while the ground truth states that the CDAO team is responsible for this task.",
+  "provider": "deepseek"
+}

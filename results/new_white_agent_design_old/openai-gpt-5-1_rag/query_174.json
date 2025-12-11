@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "Part 1:  \nPartnerships with international regulators will enable international regulatory cooperation that can identify approaches that are at least as protective while reducing, eliminating, or preventing unnecessary differences in regulatory requirements.\n\nPart 2:  \nBy working with foreign counterparts, U.S. agencies can coordinate on health, safety, labor, security, environmental, and other regulatory issues to find mutually protective solutions. These partnerships help harmonize or align rules where differences are not necessary, thereby supporting exports and the ability of American businesses to compete internationally. They also promote good regulatory practices globally and facilitate the consideration of other countries’ regulatory approaches in developing significant U.S. regulations. In emerging technology areas especially, such cooperation helps develop consistent, effective regulatory strategies across borders.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:07:16.604264",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response discusses the benefits of partnerships with international regulators, it does not specifically mention information sharing, benchmarking, or collaboration on AI standards and best practices, which are key aspects of the ground truth answer.",
+  "provider": "deepseek"
+}

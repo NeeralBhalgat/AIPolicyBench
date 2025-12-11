@@ -1,0 +1,12 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "Part 1: A \"companion chatbot\" under SB 243 is an AI chatbot designed to provide emotional support or companionship, particularly to minors and vulnerable populations, which has been linked to dangerous outcomes when unregulated.\n\nPart 2: The context highlights that companion chatbots are AI systems that engage in conversations with users, often forming emotional connections. These chatbots have been criticized for their potential to expose minors to inappropriate content, encourage addictive behavior, and even contribute to tragic outcomes like suicide. The bill aims to address these risks by implementing safeguards, such as preventing exposure to harmful content and requiring protocols for addressing suicidal ideation. The tragic case of Sewell Setzer, a 14-year-old who died by suicide after interacting with a companion chatbot, underscores the need for these regulations.",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:53:28.555168",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes the emotional support aspect of companion chatbots and their associated risks, but it does not accurately reflect the ground truth definition of a companion chatbot as an AI system with a natural language interface providing adaptive, human-like responses. The focus on emotional support and tragic outcomes diverges from the technical definition provided in the ground truth.",
+  "provider": "deepseek"
+}

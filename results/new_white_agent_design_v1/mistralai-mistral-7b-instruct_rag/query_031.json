@@ -1,0 +1,12 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "response": "The FY25–26 USDA AI Strategy aims to \"inform governance and risk management practices, support innovation and use case research and development, expand transparency, and facilitate collaboration and resource sharing with internal and external partners\" (Source 1).",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:47.948223",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the USDA's core AI vision for FY25–26, which focuses on workforce readiness, governance, and tech infrastructure, rather than the broader themes mentioned in the response.",
+  "provider": "deepseek"
+}

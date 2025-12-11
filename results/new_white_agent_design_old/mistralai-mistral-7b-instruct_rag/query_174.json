@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "<s> [OUT] Part 1: Partnerships with international regulators will play a role in promoting international regulatory cooperation, as outlined in Executive Order 13609.\n\nPart 2: The context highlights that Executive Order 13609 specifically aims to promote international regulatory cooperation, indicating that partnerships with international regulators are a key component of regulatory strategies. This cooperation is intended to streamline regulatory processes and reduce burdens, as seen in the broader regulatory matters discussed. The emphasis on international collaboration suggests that such partnerships are crucial for aligning regulatory standards and ensuring consistency across borders. [/OUT]",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:36.022030",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response references Executive Order 13609, which is not relevant to the current context of AI policy and safety datasets. While it discusses international regulatory cooperation, it does not accurately reflect the specific roles of partnerships with international regulators in the context of AI standards and best practices as outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

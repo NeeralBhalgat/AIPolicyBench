@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Project teams must ensure that the retrained model adheres to the same safety and ethical guidelines as the original model, and they should document any changes made during the retraining process.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:47.293191",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response emphasizes the importance of safety and ethical guidelines, it does not mention the specific requirement to update the Model Card and Datasheet, which is a critical aspect of retraining a model.",
+  "provider": "deepseek"
+}

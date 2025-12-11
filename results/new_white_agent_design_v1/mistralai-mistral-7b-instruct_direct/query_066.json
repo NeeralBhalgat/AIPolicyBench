@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "The U.S. Department of Energy (DOE) is addressing AI talent development through initiatives like the AI for Earth Systems (AI4ES) program, which supports research and education in AI applications for energy and climate science, and by funding workforce development programs in AI and related technologies. Additionally, DOE collaborates with universities and national labs to train the next generation of AI researchers and practitioners.",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:37.053499",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions initiatives related to AI talent development, it inaccurately describes the specific programs and partnerships. The ground truth specifies a pilot with NSF to train 500 researchers by 2025, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

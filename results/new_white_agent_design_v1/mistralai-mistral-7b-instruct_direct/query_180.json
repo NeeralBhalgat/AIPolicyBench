@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "\"AI tools\" refer to software applications, platforms, or systems that utilize artificial intelligence technologies to perform specific tasks, such as data analysis, natural language processing, or automation.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:41.017765",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes AI tools as software applications and systems that utilize AI technologies, which aligns well with the ground truth definition.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 263,
+  "query": "What must large online platforms disclose to users regarding provenance data?",
+  "response": "Part 1: Large online platforms must disclose to users the provenance data of content, including the source, author, and creation date.\n\nPart 2: The final rule issued by the Justice Department requires large online platforms to provide users with detailed information about the origin of content. This includes disclosing the source, author, and creation date of the content, which helps users understand the context and reliability of the information. The rule aims to enhance transparency and accountability in online platforms, ensuring that users can make informed decisions about the content they consume.",
+  "ground_truth": "Whether provenance data is available, the name of the GenAI system or capture device, and whether digital signatures exist.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:57:01.365161",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on the source, author, and creation date of content, while the ground truth specifies the need to disclose whether provenance data is available, the name of the GenAI system or capture device, and whether digital signatures exist. This indicates a misunderstanding of the requirements for provenance data disclosure.",
+  "provider": "deepseek"
+}

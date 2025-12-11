@@ -1,0 +1,12 @@
+{
+  "query_id": 237,
+  "query": "What constitutes a separate violation under AB 489?",
+  "response": "Part 1: A separate violation occurs for each distinct act of discrimination, denial of rights, or separate and distinct denial of access to a facility.\n\nPart 2: The law specifies that each distinct discriminatory act constitutes a separate violation. This means that a single incident involving multiple distinct denials of rights or access can result in multiple violations. The focus is on the individual acts themselves, not merely the number of affected individuals or the timeframe.",
+  "ground_truth": "Each use of a prohibited term, letter, or phrase.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:13:11.436575",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes separate violations in terms of acts of discrimination and denial of rights, while the ground truth specifies that each use of a prohibited term, letter, or phrase constitutes a separate violation. This indicates a misunderstanding of the specific legal language and requirements of AB 489.",
+  "provider": "deepseek"
+}

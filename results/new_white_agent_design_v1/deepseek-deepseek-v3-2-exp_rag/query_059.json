@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "The DoD will lease its sites to the private sector for building AI data centers and collaborate with industry partners who must adhere to new standards and reporting requirements.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:38:29.363983",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the DoD's collaboration strategy by focusing on leasing sites and private sector data centers, which does not align with the ground truth that emphasizes partnerships with government, academia, industry, and international allies.",
+  "provider": "deepseek"
+}

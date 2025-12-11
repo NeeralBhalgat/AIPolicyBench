@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "Part 1: \"AI tools\" refers to \"powerful AI tools\" mentioned in the context of developing and operating advanced AI models, particularly those used for national-security missions and economic competitiveness.\n\nPart 2: The context highlights the importance of AI tools in the development and operation of AI models, emphasizing their role in national security and economic competitiveness. These tools are part of the broader AI infrastructure, which includes advanced computing clusters and energy infrastructure. The term is used in the context of ensuring U.S. leadership in AI development, suggesting that these tools are critical for training and deploying cutting-edge AI models. The focus on \"powerful AI tools\" indicates their significance in maintaining technological superiority and mitigating risks associated with AI development.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:45:05.516070",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately emphasizes the context of national security and economic competitiveness without accurately defining 'AI tools' as software, code, IT infrastructure, and utilities, which is the ground truth answer.",
+  "provider": "deepseek"
+}

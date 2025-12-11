@@ -1,0 +1,12 @@
+{
+  "query_id": 268,
+  "query": "What information must a latent disclosure from a capture device contain?",
+  "response": "Part 1: The provided material does not specify what information a latent disclosure from a capture device must contain.\n\nPart 2: The excerpts describe how documents are handled for public inspection and publication in the Federal Register, including timing, calculated dates, and legal notice, but they do not mention latent disclosures or capture devices at all. Because that terminology does not appear in the text, there is no explicit list or description of required elements for such a disclosure. To determine what information must be included in a latent disclosure from a capture device, one would need to consult the specific statute, regulation, or policy that defines that term. In the absence of that separate authority, the requirement cannot be reliably inferred from the material provided.",
+  "ground_truth": "Manufacturer name, device name and version, and time/date of creation or alteration.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:29:58.323834",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific information required for a latent disclosure from a capture device, stating that it cannot be reliably inferred from the provided material. This reflects a lack of definitive knowledge rather than an incorrect assertion.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "A transparency report before deploying a frontier model should include details about the model's capabilities, limitations, potential risks, and the measures taken to mitigate those risks, as well as information about the training data, evaluation methods, and any known biases or ethical considerations.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:20.527592",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response includes relevant aspects such as capabilities, limitations, and risks, but it does not mention key elements from the ground truth answer, such as release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

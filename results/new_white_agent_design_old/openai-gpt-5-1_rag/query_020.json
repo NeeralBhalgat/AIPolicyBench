@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "**Part 1:** Sharing data through open data portals and tools and maintaining a comprehensive data inventory that accounts for all data assets and is “open by default” promote reuse and transparency.  \n\n**Part 2:** Agencies are required to develop and maintain a comprehensive data inventory that provides a clear and comprehensive understanding of all data assets they create, collect, or control. This inventory is then managed and shared through tools like inventory.data.gov and portals such as Data.gov and HealthData.gov, which are built on values of transparency and openness by default. Strategic action plans, model inventory approaches, and dashboard tools further structure how high‑value information is identified, catalogued, and released. Together, these sharing mechanisms and inventory practices make datasets easier to discover, access, and reuse while increasing public transparency.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:27:50.661227",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses data sharing and inventory practices that promote transparency, it does not align with the ground truth answer, which specifically mentions sharing custom AI code/models and publishing an annual AI use case inventory. The focus on open data portals and comprehensive data inventories is relevant but does not directly address the requirements outlined in the ground truth.",
+  "provider": "deepseek"
+}

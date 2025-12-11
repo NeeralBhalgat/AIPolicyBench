@@ -1,0 +1,12 @@
+{
+  "query_id": 266,
+  "query": "What is the requirement beginning January 1, 2027, for GenAI system hosting platforms?",
+  "response": "Part 1: Beginning January 1, 2027, GenAI system hosting platforms must provide a detailed, public, and standardized report describing the content used to train their models, including the provenance and any licenses attached.\n\nPart 2: This requirement stems from the AI in Government Act of 2020, which mandates that the Director of the Office of Management and Budget (OMB) issue guidance for agency use of artificial intelligence. The specific requirement for hosting platforms to provide these detailed transparency reports is part of this broader federal guidance framework. The reports must be standardized to ensure consistency and publicly available to promote accountability. This measure is designed to inform agencies' policy development and address risks associated with the acquisition and use of AI technologies.",
+  "ground_truth": "They must not make available any GenAI system that does not place required disclosures.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:18:36.202772",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states the requirement for GenAI system hosting platforms beginning January 1, 2027. The ground truth specifies that they must not make available any GenAI system that does not place required disclosures, which is not reflected in the White Agent's detailed reporting requirement.",
+  "provider": "deepseek"
+}

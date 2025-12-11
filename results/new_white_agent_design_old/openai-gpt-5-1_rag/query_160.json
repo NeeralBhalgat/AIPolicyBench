@@ -1,0 +1,12 @@
+{
+  "query_id": 160,
+  "query": "How many learners participated in NASA’s “Summer of AI”?",
+  "response": "Part 1:  \nNASA’s “Summer of AI” included “a record 17 interns” participating as learners in the program.\n\nPart 2:  \nThe description of NASA Goddard Space Flight Center’s Computational and Information Sciences and Technology Office states that there were “a record 17 interns” involved. These interns were part of NASA’s “Summer of AI,” described as a season-long learning campaign. The text explains that the interns grew their knowledge and capabilities by tackling AI and other technological challenges. Since the interns are the participants in this learning-focused campaign, they are the learners being referred to, totaling 17.",
+  "ground_truth": "Nearly 4,000.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:01:50.428456",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that 17 interns participated in NASA's 'Summer of AI,' while the ground truth indicates that nearly 4,000 learners were involved. This discrepancy shows that the response is factually incorrect.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 188,
+  "query": "What is the primary function of the AI Governance Board?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "To oversee AI adoption and risk management across GSA.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:47.020756",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the primary function of the AI Governance Board.",
+  "provider": "deepseek"
+}

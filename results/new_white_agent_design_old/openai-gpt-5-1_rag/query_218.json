@@ -1,0 +1,12 @@
+{
+  "query_id": 218,
+  "query": "Under AB 979, what types of records are prohibited from public disclosure by the Office of Emergency Services?",
+  "response": "**Part 1:** Under AB 979, no records held by the Office of Emergency Services are prohibited from public disclosure, because the bill does not address or regulate Office of Emergency Services records at all.  \n\n**Part 2:** AB 979, as enacted in 2020, amends and adds provisions to the Corporations Code concerning the composition of corporate boards of directors and the representation of underrepresented communities. The text concerns requirements for publicly held corporations with principal executive offices in California, focusing on board membership, not on emergency management or records practices. There is no reference in the bill to the Office of Emergency Services or to any restrictions on disclosure of its records. Therefore, AB 979 does not impose any public-disclosure prohibitions on Office of Emergency Services records.",
+  "ground_truth": "Records privileged, protected by copyright, prohibited by law, exempt under the Public Records Act, or where nondisclosure outweighs public interest.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:17:40.110380",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly claims that AB 979 does not address records held by the Office of Emergency Services, while the ground truth specifies that certain records are indeed prohibited from public disclosure under various conditions. This indicates a misunderstanding of the law's implications regarding public records.",
+  "provider": "deepseek"
+}

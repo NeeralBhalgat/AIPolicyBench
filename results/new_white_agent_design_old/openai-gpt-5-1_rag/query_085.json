@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "**Part 1:**  \nAI systems that are safety- or rights-impacting must be categorized under the M‑24‑10 definitions and presumptions, governed through harmonized agency processes, and continuously reassessed on a rolling basis as uses and policies change.\n\n**Part 2:**  \nM‑24‑10 explicitly categorizes certain AI uses as “rights impacting” or “safety impacting,” and some enumerated use cases are presumptively treated as such. Agencies like the Department of Justice apply these presumptions and definitions to determine whether particular uses fall into these categories. To address the risks, agencies are developing department‑wide governance policies to harmonize approaches to AI use in these contexts. They are also required to reassess whether a given use case is rights‑ and/or safety‑impacting on an ongoing, rolling basis, refining definitions and trigger mechanisms as needed.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:44:39.592493",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on categorization and governance processes related to AI systems but does not address the requirement for human oversight and rigorous testing for bias, effectiveness, and reliability, which are essential for safety- or rights-impacting AI systems.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 162,
+  "query": "What does the NRC identify as the main driver for creating the AI Strategic Plan?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The growing interest and expected near-term deployment of AI by the nuclear industry.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:01:25.225157",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

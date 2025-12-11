@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "SB 361 requires businesses to provide a written notice to the consumer within 45 days of denying a request to delete personal information, explaining the reasons for the denial.",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:27.485766",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that a written notice must be provided to the consumer explaining the reasons for the denial, whereas the ground truth specifies that a denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "provider": "deepseek"
+}

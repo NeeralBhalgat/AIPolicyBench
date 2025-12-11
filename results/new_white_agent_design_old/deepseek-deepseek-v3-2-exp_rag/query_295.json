@@ -1,0 +1,12 @@
+{
+  "query_id": 295,
+  "query": "What audit trail must agencies maintain when using AI for reports?",
+  "response": "Part 1: Agencies must negotiate contractual requirements to ensure vendors provide sufficient information for agencies to evaluate vendor claims, identify and manage risk, conduct impact assessments, and fulfill requirements to notify impacted individuals and implement appeals.\n\nPart 2: The guidance instructs agencies to secure contractual terms that guarantee vendors supply the necessary information for proper oversight. This is part of managing novel AI risks and ensuring responsible acquisition. The information enables agencies to conduct required impact assessments and manage risk throughout the AI's use. Furthermore, it ensures agencies can fulfill their obligations to notify individuals affected by AI decisions and provide a mechanism for appeals.",
+  "ground_truth": "They must track who used AI and any video/audio footage used in generating the report.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:24:04.466342",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the need for agencies to secure contractual terms and manage risks associated with AI, but it does not address the specific audit trail requirement of tracking who used AI and any video/audio footage used in generating reports, which is the ground truth answer.",
+  "provider": "deepseek"
+}

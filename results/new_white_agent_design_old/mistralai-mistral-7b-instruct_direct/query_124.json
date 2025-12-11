@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "The review of AI use case inventory entries for clarity and detail is typically conducted by a designated team or committee within an organization or regulatory body responsible for AI governance. This team may include experts in AI, policy, ethics, and risk management. The specific process and reviewers can vary depending on the organization or regulatory framework in place. For example, in the context of the U.S. National Institute of Standards and Technology (NIST) AI Risk Management Framework (RMF), stakeholders and subject matter experts are involved in reviewing and validating AI use cases to ensure they meet the required standards for clarity, detail, and risk assessment. If you are referring to a specific organization or regulatory body, the exact review process may differ.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:09:17.422896",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general overview of the review process for AI use case inventory entries but does not mention the specific CDAO team, which is the correct answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

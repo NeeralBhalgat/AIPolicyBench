@@ -1,0 +1,12 @@
+{
+  "query_id": 297,
+  "query": "What permitted uses may vendors access AI-processed data for?",
+  "response": "**Part 1:**  \nVendors may access AI-processed data only to use and enrich Federal Government data for the purposes of AI development and operation in support of the agency, under documented oversight and risk-mitigation requirements.\n\n**Part 2:**  \nThe procurement-related guidance in the order emphasizes “maximizing the value to agencies when relying on contractors to use and enrich Federal Government data for the purposes of AI development and operation.” This language limits vendor access to AI‑processed data to functions that are necessary to build, run, or improve the AI systems the government has procured. Their use must occur within a framework that includes independent evaluation of vendor claims, documentation and oversight of procured AI, and alignment with AI training and risk‑management principles in the order. In other words, vendors cannot freely repurpose AI‑processed data; their access is constrained to authorized, mission‑related AI development and operational needs.",
+  "ground_truth": "Troubleshooting, bias mitigation, accuracy improvement, or system refinement.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:37:54.668216",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on the constraints and oversight related to vendor access to AI-processed data but does not mention the specific permitted uses such as troubleshooting, bias mitigation, accuracy improvement, or system refinement, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

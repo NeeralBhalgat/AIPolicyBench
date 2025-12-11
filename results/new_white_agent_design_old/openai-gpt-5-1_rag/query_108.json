@@ -1,0 +1,12 @@
+{
+  "query_id": 108,
+  "query": "What is TrAIN?",
+  "response": "Part 1:  \nTrAIN is not defined or mentioned anywhere in the provided Federal Register and Executive Orders context.  \n\nPart 2:  \nThe excerpts you supplied only describe the Office of the Federal Register, its publications (like the Federal Register, Code of Federal Regulations, and Presidential Documents), and statistics or tables related to Executive Orders by various presidents. None of the text references “TrAIN” as an acronym, program, system, or term. Because of this, I cannot reliably identify what TrAIN is from the given material alone. If you can provide additional context (for example, the field it relates to or a longer excerpt), I can try to give a precise definition.",
+  "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:48:35.716265",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty about the definition of TrAIN and admits to not being able to identify it based on the provided context. While it correctly notes the lack of information in the excerpts, it does not provide the ground truth answer regarding TrAIN's definition.",
+  "provider": "deepseek"
+}

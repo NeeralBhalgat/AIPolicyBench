@@ -1,0 +1,7 @@
+{
+  "query_id": 142,
+  "query": "What responsibility does AISWG have regarding AI policy creation?",
+  "ground_truth": "Supporting AI governance creation within NASA.",
+  "error": "HTTP Error 500: Server error '500 Internal Server Error' for url 'https://rock-atomic-wendy-stunning.trycloudflare.com/to_agent/ca3338e95f7643a9b99cc635ed55c4f5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+  "evaluation_result": "error"
+}

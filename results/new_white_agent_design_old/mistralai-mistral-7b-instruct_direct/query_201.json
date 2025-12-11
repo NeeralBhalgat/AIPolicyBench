@@ -1,0 +1,12 @@
+{
+  "query_id": 201,
+  "query": "What does the term “Agent” include under §11008(b)?",
+  "response": "Under §11008(b) of the proposed AI Executive Order, the term \"Agent\" includes:\n\n1. **AI Systems**: Any machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.\n2. **Developers**: Entities that design, develop, or produce an AI system.\n3. **Deployers**: Entities that integrate, install, or operate an AI system.\n4. **Users**: Entities that use an AI system for its intended purpose.\n\nThis broad definition ensures that the regulatory framework applies to all stages of an AI system's lifecycle, from development to deployment and use.",
+  "ground_truth": "An agent includes any person acting on behalf of an employer, including when activities are conducted through an automated-decision system.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:58.855589",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly defines 'Agent' to include AI systems, developers, deployers, and users, which does not align with the ground truth that specifies an agent as a person acting on behalf of an employer, particularly in the context of automated decision systems.",
+  "provider": "deepseek"
+}

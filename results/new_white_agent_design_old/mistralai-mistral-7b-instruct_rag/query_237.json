@@ -1,0 +1,12 @@
+{
+  "query_id": 237,
+  "query": "What constitutes a separate violation under AB 489?",
+  "response": "Part 1: A separate violation under AB 489 is constituted by a separate and distinct act or omission that violates the law.\n\nPart 2: The context indicates that a separate violation occurs when there is a distinct act or failure to act that breaches the legal requirements outlined in AB 489. This means each individual instance of non-compliance is treated as a separate infraction, rather than grouping multiple violations together. The distinction is important for enforcement and penalties, ensuring accountability for each specific breach of the law.",
+  "ground_truth": "Each use of a prohibited term, letter, or phrase.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:52:42.687340",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly describes a separate violation under AB 489 as a distinct act or omission, while the ground truth specifies that it is each use of a prohibited term, letter, or phrase that constitutes a separate violation.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 29,
+  "query": "How does the order limit its legal effect on agencies’ authorities?",
+  "response": "The order limits its legal effect by stating its provisions apply \"in connection with its conduct and authorities directly related to its supervision and regulation of financial institutions.\"",
+  "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:35:53.402528",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response suggests that the order limits its legal effect by specifying its provisions, which implies a restriction on authority. However, the ground truth states that it does not impair existing legal authorities, indicating that the White Agent's interpretation is incorrect.",
+  "provider": "deepseek"
+}

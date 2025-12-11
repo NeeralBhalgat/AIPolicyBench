@@ -1,0 +1,12 @@
+{
+  "query_id": 273,
+  "query": "What is considered a “catastrophic risk” under SB 53?",
+  "response": "Under California's Senate Bill 53 (SB 53), a \"catastrophic risk\" is defined as a risk that could result in \"severe harm to the public, including but not limited to, loss of life, significant economic damage, or substantial disruption to critical infrastructure or public services.\" This definition is part of the bill's framework for regulating advanced artificial intelligence (AI) systems, particularly those that could pose significant risks to society. The bill aims to ensure that developers and deployers of such systems take appropriate measures to mitigate these risks.\n\nFor more details, you can refer to the full text of SB 53 or related legislative analyses.",
+  "ground_truth": "A foreseeable, material risk that a model could cause death to 50+ people or over $1B in damage by enabling weapons, cyberattacks, or loss of control.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:05.110237",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response misrepresents the definition of 'catastrophic risk' under SB 53. The ground truth specifies a quantifiable threshold (death of 50+ people or over $1B in damage), which is not reflected in the White Agent's answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

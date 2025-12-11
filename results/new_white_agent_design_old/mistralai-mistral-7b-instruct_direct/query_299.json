@@ -1,0 +1,12 @@
+{
+  "query_id": 299,
+  "query": "What AI systems does the definition cover in SB 524?",
+  "response": "SB 524, a proposed bill in California, defines \"general-purpose artificial intelligence systems\" (GPAI) as AI systems that can perform a wide range of tasks and are not limited to a specific function. The bill covers AI systems that meet the following criteria:\n\n1. **Broad Capabilities**: The system can perform a wide range of tasks, including reasoning, learning, and problem-solving, across multiple domains.\n2. **Adaptability**: The system can adapt to new tasks and environments without significant human intervention.\n3. **Autonomy**: The system can operate with a high degree of autonomy, making decisions and taking actions based on its own learning and reasoning.\n4. **Scalability**: The system can scale to handle large amounts of data and complex tasks.\n\nThe bill does not explicitly list specific AI systems but focuses on the characteristics that define a GPAI system. Examples of systems that could fall under this definition include large language models (LLMs) like those used in chatbots, advanced autonomous systems, and other AI models with broad, general-purpose capabilities.\n\nFor more detailed information, you can refer to the full text of SB 524 or related legislative documents.",
+  "ground_truth": "Systems that auto-draft police narratives from camera footage or from dictated officer reports enhanced by generative AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:20:26.450818",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a general definition of 'general-purpose artificial intelligence systems' but does not accurately reflect the specific systems mentioned in the ground truth answer, which focuses on systems that auto-draft police narratives. The response lacks the specificity required to be considered correct.",
+  "provider": "deepseek"
+}

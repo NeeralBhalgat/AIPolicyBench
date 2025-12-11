@@ -1,0 +1,11 @@
+{
+  "query_id": 267,
+  "query": "What must capture device manufacturers provide starting January 1, 2028?",
+  "response": "",
+  "ground_truth": "An option for users to embed latent disclosures, and embedded disclosures must be default.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:07:39.341313",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

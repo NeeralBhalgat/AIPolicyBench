@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized because AI and automation significantly change job tasks and skill requirements, so reskilling and upskilling are needed to prevent large-scale displacement and ensure workers can transition into new, higher‑value roles. It also helps organizations safely and effectively adopt AI systems while maintaining compliance, productivity, and fairness.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:44:17.390099",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the importance of workforce training in the context of AI and automation, which is relevant but does not align with the specific focus of the ground truth answer regarding the NRC's need for staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "provider": "deepseek"
+}

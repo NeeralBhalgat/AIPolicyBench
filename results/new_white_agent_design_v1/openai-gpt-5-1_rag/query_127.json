@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:18:11.268992",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

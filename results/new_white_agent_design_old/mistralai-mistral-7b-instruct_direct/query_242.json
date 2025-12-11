@@ -1,0 +1,12 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "SB 243, also known as the \"California Artificial Intelligence Act,\" is a bill introduced in the California State Senate in 2021. The bill, as of my last update, is still in the legislative process and has not been passed into law yet.\n\nThe term \"companion chatbot\" is not explicitly defined in SB 243. However, the bill does define \"artificial intelligence\" as a system designed by humans that, given a collection of data and information, reacts to or learns from such data or information, or both, without being explicitly programmed to perform a specific task.\n\nGiven this definition, a \"companion chatbot\" could be interpreted as an AI system designed to interact and communicate with humans in a friendly, conversational manner, much like a companion or friend. However, this is an interpretation and not an official definition as the bill does not specifically define \"companion chatbot.\"\n\nFor the most accurate and up-to-date information, it's best to refer to the official text of the bill or consult with a legal expert.",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:57.990137",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty regarding the definition of 'companion chatbot' under SB 243, stating that it is not explicitly defined in the bill. While it provides a reasonable interpretation, it does not provide the ground truth answer and admits to a lack of definitive information.",
+  "provider": "deepseek"
+}

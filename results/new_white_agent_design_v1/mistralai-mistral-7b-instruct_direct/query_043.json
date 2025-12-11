@@ -1,0 +1,12 @@
+{
+  "query_id": 43,
+  "query": "What does the AI RMF identify as the key characteristics of trustworthy AI?",
+  "response": "The AI RMF (Responsible Machine Learning Framework) identifies the key characteristics of trustworthy AI as being: accountable, transparent, fair, robust, and safe.",
+  "ground_truth": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:08.353621",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the framework as the AI RMF instead of the Responsible Machine Learning Framework, which is not a recognized term. Additionally, the characteristics listed do not fully align with the ground truth answer, missing key aspects such as 'valid and reliable', 'secure and resilient', and 'explainable and interpretable'.",
+  "provider": "deepseek"
+}

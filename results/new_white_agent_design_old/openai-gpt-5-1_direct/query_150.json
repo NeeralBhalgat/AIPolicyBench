@@ -1,0 +1,11 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:55:55.047138",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

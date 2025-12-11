@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "Before an AI system can be deployed into production, it must comply with all Federal laws, undergo robust technical evaluations, and receive careful oversight, engagement with affected communities, and rigorous regulation. [REF]Source 2[/REF]",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:11:41.558205",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions compliance with Federal laws and technical evaluations, which are relevant but do not specifically address the requirement for CAIO and SR2 Committee authorization based on risk management compliance, making it factually incorrect.",
+  "provider": "deepseek"
+}

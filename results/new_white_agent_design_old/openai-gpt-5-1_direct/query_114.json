@@ -1,0 +1,11 @@
+{
+  "query_id": 114,
+  "query": "What is DOT’s strategy for AI workforce development?",
+  "response": "",
+  "ground_truth": "Building a trained workforce through internal AI training, learning sessions, and recruitment initiatives.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:52:30.509413",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

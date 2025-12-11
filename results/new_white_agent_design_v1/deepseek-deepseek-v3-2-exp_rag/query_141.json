@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "The NASA Artificial Intelligence Strategy Board (AISB) is responsible for defining the vision and strategy for the use of AI and reviewing AI policy and procedural guardrails.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:45:16.669717",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the AISB as the group responsible for defining topics, while the correct group is the AISWG. This misattribution indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

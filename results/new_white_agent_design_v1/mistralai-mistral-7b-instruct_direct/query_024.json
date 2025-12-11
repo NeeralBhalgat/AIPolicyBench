@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The order does not explicitly define AI, but it refers to AI as \"automated systems that can make predictions, recommendations, or decisions influencing real or virtual environments.\"",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:43.839114",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide the legal definition of AI as specified in 15 U.S.C. 9401(3) and instead offers a vague description that does not match the legal text.",
+  "provider": "deepseek"
+}

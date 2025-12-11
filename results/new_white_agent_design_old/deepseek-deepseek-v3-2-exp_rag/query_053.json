@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "Part 1: The strategy outlines aspirational statutory goals for awarding Federal prime contracting dollars, specifically at least 23 percent to small businesses overall, at least 3 percent to Historically Underutilized Business Zone (HUBZone) small businesses, at least 5 percent to women-owned small businesses, at least 5 percent to small businesses owned by socially and economically disadvantaged individuals, and at least 3 percent to service-disabled veteran-owned small businesses.\n\nPart 2: The goals are designed to ensure a broad cross-section of American business can participate in Federal procurement, helping small businesses compete for contracts. They are described as statutory and aspirational, intended to ensure all Americans share in the jobs and opportunities created by government purchasing. The memorandum emphasizes that while progress has been made, more work is needed to consistently reach these targets and potentially exceed them where capacity allows.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:32:38.467948",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses goals related to Federal contracting and small business participation, which is unrelated to the strategic goals outlined in the ground truth answer. The response does not address the five key strategic goals of improving data management, delivering capabilities, strengthening governance, investing in infrastructure, and expanding talent management.",
+  "provider": "deepseek"
+}

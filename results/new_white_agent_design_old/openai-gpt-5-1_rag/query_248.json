@@ -1,0 +1,12 @@
+{
+  "query_id": 248,
+  "query": "What must operators prevent companion chatbots from producing for minors?",
+  "response": "Part 1: Operators must prevent AI companion chatbots from producing or providing sexually explicit content to minors.  \n\nPart 2: The described bill requires owners and operators of AI companion chatbots to bar minors from accessing sexually explicit content. This means chatbots must be designed and configured so that such material is not generated for underage users. To support this, operators are also expected to implement age verification systems. Additionally, parental consent mechanisms are required so that minors cannot use these chatbots without their parents’ approval.",
+  "ground_truth": "Visual material of sexually explicit conduct or statements directing minors to engage in it.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:24:52.598615",
+  "confidence": 0.85,
+  "reasoning": "While the White Agent correctly identifies the need to prevent sexually explicit content for minors, it inaccurately describes the requirements of the bill by focusing solely on age verification and parental consent mechanisms, which are not explicitly mentioned in the ground truth answer. The ground truth emphasizes the prohibition of visual material and statements directing minors to engage in explicit conduct, which is not fully captured in the White Agent's response.",
+  "provider": "deepseek"
+}

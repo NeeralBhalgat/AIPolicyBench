@@ -1,0 +1,12 @@
+{
+  "query_id": 52,
+  "query": "What does the strategy mean by “decision advantage”?",
+  "response": "Based on my training data, \"decision advantage\" in a U.S. Department of Defense AI strategy context refers to the goal of using AI to integrate data and systems to provide warfighters with better, faster, and more relevant insights and recommendations than adversaries.",
+  "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:58:08.384405",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of 'decision advantage' as it relates to the U.S. Department of Defense AI strategy, emphasizing the goal of providing warfighters with improved insights and recommendations, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 260,
+  "query": "Must the linked unaltered image be publicly accessible?",
+  "response": "Part 1: The image must be publicly accessible as the Federal Register requires publication of presidential proclamations and executive orders.\n\nPart 2: The context specifies that executive orders and proclamations must be published in the Federal Register, which is a publicly accessible government publication. This requirement ensures transparency and public access to official documents. The process involves routing, certification, and publication, all of which are designed to make these documents available to the public. Therefore, any linked unaltered image referenced in such documents would also need to be publicly accessible to comply with these regulations.",
+  "ground_truth": "Yes, the link must go to a publicly accessible website containing the original unaltered image.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:56:20.330822",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that the image must be publicly accessible, aligning with the requirement for transparency in presidential proclamations and executive orders published in the Federal Register.",
+  "provider": "deepseek"
+}

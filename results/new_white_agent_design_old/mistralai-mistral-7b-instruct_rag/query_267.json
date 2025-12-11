@@ -1,0 +1,12 @@
+{
+  "query_id": 267,
+  "query": "What must capture device manufacturers provide starting January 1, 2028?",
+  "response": "Part 1: Starting January 1, 2028, capture device manufacturers must provide a cybersecurity plan.\n\nPart 2: According to the Federal Register, a rule published on February 2, 2024, requires capture device manufacturers to develop and implement a cybersecurity plan by January 1, 2028. This rule is part of the Food and Drug Administration's (FDA) efforts to ensure the security of medical devices. The cybersecurity plan is intended to protect against potential cyber threats and vulnerabilities in these devices. The FDA's rule applies to devices that transmit patient-specific information electronically, such as imaging devices, patient monitors, and infusion pumps.",
+  "ground_truth": "An option for users to embed latent disclosures, and embedded disclosures must be default.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:57:25.445436",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that capture device manufacturers must provide a cybersecurity plan starting January 1, 2028, which does not align with the ground truth answer regarding embedded disclosures. The information about the FDA's rule is also not relevant to the question asked.",
+  "provider": "deepseek"
+}

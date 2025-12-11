@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "Based on publicly available strategy outlines like the Department of Defense's \"Data, Analytics, and AI Adoption Strategy,\" the plan emphasizes collaboration with a wide range of external partners. This includes allied and partner nations, academia, and the commercial technology sector to accelerate the adoption of AI and ensure interoperability and responsible use.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:58:24.681302",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's strategy of collaborating with external partners, including allied nations, academia, and the commercial sector, which aligns with the ground truth answer regarding strengthening partnerships for innovation and interoperability.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 99,
+  "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+  "response": "The AI Policy Working Group (AIPWG) is a collaborative initiative focused on developing policy recommendations and guidelines for the responsible and ethical use of artificial intelligence. It brings together stakeholders from government, industry, academia, and civil society to address challenges and opportunities in AI governance.",
+  "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:13.637210",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response describes a collaborative initiative focused on AI policy but does not accurately reflect the specific purpose of the AIPWG as established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 230,
+  "query": "According to AB 316, what type of environments can AI outputs influence?",
+  "response": "Part 1: According to AB 316, AI outputs can influence environments where individuals live, learn, work, and receive care.\n\nPart 2: The bill specifically identifies these environments as central to human well-being and development. It highlights that AI systems deployed in these areas can significantly impact an individual's life outcomes and opportunities. The legislation's focus is on ensuring that AI influences these critical life domains in a safe, fair, and equitable manner.",
+  "ground_truth": "Physical or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:11:36.763541",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately specifies the environments as 'where individuals live, learn, work, and receive care' without mentioning the broader categories of 'physical or virtual environments' as stated in the ground truth answer. This indicates a misunderstanding of the bill's scope.",
+  "provider": "deepseek"
+}

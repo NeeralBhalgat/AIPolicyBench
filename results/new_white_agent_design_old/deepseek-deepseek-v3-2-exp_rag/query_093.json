@@ -1,0 +1,12 @@
+{
+  "query_id": 93,
+  "query": "Which Executive Order must DHS systems using AI comply with?",
+  "response": "Part 1: DHS systems using AI must comply with Executive Order 14110, which is the \"Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence.\"\n\nPart 2: The executive order in question was signed by President Joseph R. Biden, Jr. on October 30, 2023, and was published in the Federal Register. It establishes a comprehensive framework for the governance of artificial intelligence. This order outlines specific requirements for federal agencies, including the use of automated systems in benefits programs, to ensure safe and equitable outcomes.",
+  "ground_truth": "Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:40:45.856766",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies Executive Order 14110 as the relevant order for DHS systems using AI, while the correct order is Executive Order 13960. This constitutes a factual inaccuracy.",
+  "provider": "deepseek"
+}

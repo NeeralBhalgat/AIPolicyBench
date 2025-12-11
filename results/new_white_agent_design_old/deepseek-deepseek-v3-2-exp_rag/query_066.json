@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "Part 1: The DOE is addressing AI talent development through a holistic strategy focused on cultivating untapped talent and developing current talent through upskilling initiatives, bolstered by strategic partnerships.\n\nPart 2: This strategy involves a comprehensive approach to building an AI-ready workforce, which includes investing in a highly skilled talent pool spanning from K-12 students to professionals. The DOE's national laboratories serve as a key research and innovation environment that attracts and develops this talent from around the world. These internal efforts are significantly strengthened by external support and collaboration with partners, such as the NSF, which co-supports educational tools and training opportunities.",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:35:05.734518",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the DOE's strategy for AI talent development, including the focus on cultivating talent and partnerships, which aligns with the ground truth. However, it lacks specific mention of the pilot program with NSF to train 500 researchers by 2025, which is a key detail in the ground truth.",
+  "provider": "deepseek"
+}

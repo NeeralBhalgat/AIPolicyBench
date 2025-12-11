@@ -1,0 +1,12 @@
+{
+  "query_id": 136,
+  "query": "What role do IRS executives have in AI governance?",
+  "response": "Part 1: IRS executives are responsible for overseeing the implementation of the Interim Policy for AI Governance.\n\nPart 2: The policy outlines the roles and responsibilities of IRS executives in ensuring the proper governance of AI systems within the organization. This includes establishing guidelines, monitoring compliance, and addressing any risks associated with AI use. Executives play a key role in maintaining the integrity and effectiveness of AI governance frameworks, as highlighted in the policy document.",
+  "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:12.519909",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of IRS executives in overseeing AI governance, aligning with the ground truth that they must manage AI use in compliance with the Interim Policy for AI Governance. The details about establishing guidelines and monitoring compliance are consistent with their responsibilities.",
+  "provider": "deepseek"
+}

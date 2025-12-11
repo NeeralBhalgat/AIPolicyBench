@@ -1,0 +1,12 @@
+{
+  "query_id": 101,
+  "query": "What is the purpose of the DOT Compliance Plan for OMB M-24-10?",
+  "response": "**Part 1:** The purpose of the DOT Compliance Plan is to ensure the responsible and trustworthy deployment and use of Artificial Intelligence (AI) in accordance with Executive Order 14110 and OMB memorandum M-24-10.\n\n**Part 2:** The plan is designed to align the Department of Transportation's internal principles, guidelines, and policies with new federal requirements. It focuses on advancing governance, innovation, and risk management for the agency's use of AI. This includes ensuring compliance with rules for AI transparency, fairness, and security across all DOT Operating Administrations and Secretarial Offices, as applicable.",
+  "ground_truth": "To explain how DOT will align with OMB M-24-10 by strengthening AI governance, enabling responsible innovation, and managing AI risks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:42:36.087288",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOT Compliance Plan in relation to OMB M-24-10, emphasizing alignment with federal requirements and the focus on governance, innovation, and risk management in AI use.",
+  "provider": "deepseek"
+}

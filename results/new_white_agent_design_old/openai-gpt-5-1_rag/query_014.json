@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "Part 1: The excerpts you provided do not state that every agency must designate any specific leadership role or a deadline for doing so.  \n\nPart 2: The quoted sections discuss definitions of “agency,” “independent regulatory agency chairman,” and “head” of an independent regulatory agency, and they amend the scope of which entities are covered by an existing executive order. They also outline policy principles for AI infrastructure and certain energy-related designations and timelines. However, nowhere in the provided text is there language requiring all agencies to designate a particular officer or leadership role, nor any date by which that must occur. Without the missing portions of the orders, I cannot reliably infer or reconstruct such a requirement.",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:27:04.636832",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly claims that there is no requirement for agencies to designate a specific leadership role or a deadline. The ground truth states that a Chief AI Officer must be designated within 60 days, which contradicts the White Agent's assertion.",
+  "provider": "deepseek"
+}

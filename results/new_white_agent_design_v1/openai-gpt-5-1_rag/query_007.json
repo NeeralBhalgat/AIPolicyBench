@@ -1,0 +1,12 @@
+{
+  "query_id": 7,
+  "query": "What permitting changes are proposed for AI infrastructure?",
+  "response": "The executive order proposes to **“fast-track federal approvals”** and establish **“streamlined review and permitting processes”** by **“easing Federal reviews and permitting”** for large-scale AI-focused data centers and related infrastructure, with the aim of **accelerating environmental permitting** and reducing project timelines and some regulatory compliance costs.",
+  "ground_truth": "New NEPA categorical exclusions and expanded FAST-41 coverage for data centers and energy projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:07:29.123525",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions fast-tracking federal approvals and streamlining review processes, but it does not accurately reflect the specific proposed changes such as new NEPA categorical exclusions and expanded FAST-41 coverage, which are critical elements of the ground truth answer.",
+  "provider": "deepseek"
+}

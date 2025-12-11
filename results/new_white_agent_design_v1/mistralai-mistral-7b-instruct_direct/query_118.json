@@ -1,0 +1,12 @@
+{
+  "query_id": 118,
+  "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+  "response": "If an AI use case becomes non-compliant with risk management requirements, it may face regulatory penalties, legal consequences, or be required to cease operations until compliance is achieved. The specific actions depend on the jurisdiction and the severity of the non-compliance.",
+  "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:36.930881",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response suggests that regulatory penalties or legal consequences may occur, which is a possibility, but it does not accurately reflect the ground truth that specifically states the requirement to suspend operations and revert to a non-AI process until compliance is restored.",
+  "provider": "deepseek"
+}

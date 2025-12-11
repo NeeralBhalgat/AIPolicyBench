@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "Part 1: The purpose of the AISCC is to oversee the development and use of artificial intelligence (AI) to ensure it is safe, secure, and trustworthy, mitigating substantial risks while harnessing its benefits.\n\nPart 2: The AISCC is tasked with addressing the dual nature of AI, which holds both promise and peril. It aims to prevent societal harms such as fraud, discrimination, and disinformation, while also safeguarding national security and promoting innovation. The committee focuses on critical and emerging technologies, including generative AI, to prioritize their secure and responsible integration into federal operations. Additionally, it evaluates AI's role in countering threats like CBRN (chemical, biological, radiological, and nuclear) weapons, ensuring robust oversight and safety measures.",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:35:42.169475",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response describes the AISCC's purpose in a way that does not align with the ground truth, which states that the AISCC's purpose is to educate employees, provide resources, and support AI collaboration across DOT. The White Agent's claims about overseeing AI development and addressing societal harms are incorrect in this context.",
+  "provider": "deepseek"
+}

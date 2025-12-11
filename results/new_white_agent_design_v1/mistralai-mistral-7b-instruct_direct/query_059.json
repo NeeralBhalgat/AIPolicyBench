@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "The U.S. Department of Defense (DoD) plans to collaborate with external partners on AI through initiatives like the Joint Artificial Intelligence Center (JAIC), which engages with industry, academia, and allies to advance AI capabilities. The DoD also participates in public-private partnerships and research collaborations to foster innovation and ensure ethical and responsible AI development.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:28.528061",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's collaboration efforts with external partners, mentioning the Joint Artificial Intelligence Center (JAIC) and public-private partnerships, which align with the ground truth answer regarding strengthening partnerships for innovation and interoperability.",
+  "provider": "deepseek"
+}

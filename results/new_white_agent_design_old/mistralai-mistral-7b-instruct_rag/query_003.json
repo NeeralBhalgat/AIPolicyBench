@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "Part 1: President Trump's draft executive order aimed to pressure states to avoid enacting burdensome AI regulations by withholding federal funding or challenging state laws in court.\n\nPart 2: The proposed order directed federal agencies to identify and target state AI regulations deemed overly restrictive, aiming to preempt these laws with a lighter-touch national framework. This move aligns with Trump's argument that state-level regulations hinder AI industry growth and allow China to compete more effectively. The order also reflects broader Republican efforts to limit state authority over AI, with House leadership discussing similar measures to block state AI regulations.",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:20:10.216080",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses a draft executive order and actions related to state regulations, which do not align with the ground truth that states President Trump rescinded Biden's Executive Order 14110 on AI. The response contains incorrect information about Trump's actions regarding AI regulation.",
+  "provider": "deepseek"
+}

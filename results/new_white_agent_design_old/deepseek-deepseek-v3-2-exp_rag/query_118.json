@@ -1,0 +1,12 @@
+{
+  "query_id": 118,
+  "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+  "response": "Part 1: The Department of Health and Human Services will establish a safety program to receive reports of—and act to remedy—harms or unsafe healthcare practices involving AI.\n\nPart 2: The Executive Order outlines specific actions for agencies to take when AI systems cause harm or operate unsafely. In the healthcare sector, this involves creating a dedicated safety program to collect reports of AI-related issues and then take corrective action. This establishes a direct mechanism to address non-compliance by remedying the identified harms, and similar accountability principles are implied for other sectors through the directive to provide clear guidance and develop best practices.",
+  "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:45:45.363793",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the establishment of a safety program and actions to remedy harms but does not address the requirement to suspend operations and revert to a non-AI process until compliance is restored, which is the ground truth answer.",
+  "provider": "deepseek"
+}

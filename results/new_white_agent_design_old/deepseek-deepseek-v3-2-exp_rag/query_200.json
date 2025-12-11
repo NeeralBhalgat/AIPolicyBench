@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "**Part 1:** Before procuring AI, agencies must establish cross-functional teams that include officials with AI expertise and personnel from other relevant fields—including acquisition, cybersecurity, privacy, and civil liberties—to inform strategic planning and acquisition of AI.\n\n**Part 2:** This requirement is designed to manage the novel risks and the rapidly evolving AI technology landscape. These collaborative teams are responsible for identifying and prioritizing AI investments that best serve the agency’s mission and developing the capacity to deploy any acquired AI. Furthermore, they are tasked with promoting the adoption of cross-functional best practices for the duration of the AI's use, ensuring a comprehensive and informed approach from the outset.",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:04:58.538345",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention the requirement for coordination with the CAIO and review by the AI Safety Team, which is the ground truth. Instead, it focuses on establishing cross-functional teams, which, while relevant, does not directly address the specific requirements for AI procurement.",
+  "provider": "deepseek"
+}

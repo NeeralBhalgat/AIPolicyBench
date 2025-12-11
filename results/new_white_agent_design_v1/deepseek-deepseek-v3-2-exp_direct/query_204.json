@@ -1,0 +1,12 @@
+{
+  "query_id": 204,
+  "query": "Under §11008.1(a)(1)(A), what tasks can Automated-Decision Systems perform?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Predictive assessments, measurement of abilities, and screening or categorizing applicants or employees.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:03:15.487825",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "IRS privacy and security requirements are found in the IRS privacy policy and Publication 1075, which outlines encryption-related security controls. [REF]Source 1, Source 2, Source 4[/REF]",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:12:42.115276",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the sources of IRS privacy and security requirements. While it mentions the IRS privacy policy and Publication 1075, the correct references are IRM 10.5 and IRM 10.8, making the response factually incorrect.",
+  "provider": "deepseek"
+}

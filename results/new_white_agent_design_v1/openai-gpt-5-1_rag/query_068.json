@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "DOE promotes sharing of software and code by providing mechanisms to **“Submit Scientific Code to DOE CODE”** and **“Announce Scientific Code to the Department of Energy through DOE CODE,”** along with specified **“Required Metadata to Submit Scientific Software to DOE CODE”** and **“Required Metadata to Announce Scientific Software to the Department of Energy through DOE CODE.”**",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:13:11.100368",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the mechanisms for sharing software and code through DOE CODE, aligning with the ground truth answer about the platform's purpose for collaboration and discovery of DOE-funded projects.",
+  "provider": "deepseek"
+}

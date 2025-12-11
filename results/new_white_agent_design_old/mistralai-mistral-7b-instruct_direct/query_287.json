@@ -1,0 +1,12 @@
+{
+  "query_id": 287,
+  "query": "When must data brokers access the deletion mechanism, and how often must they delete data after a consumer request?",
+  "response": "According to the California Consumer Privacy Act (CCPA), data brokers must provide a mechanism for consumers to request the deletion of their personal information. The deletion mechanism must be accessible to consumers at no cost and must be available at all times. Once a consumer submits a deletion request, the data broker must delete the consumer's personal information from its records within 45 days. However, if the data broker needs more time, it can extend the period by an additional 45 days, provided it notifies the consumer of the extension and the reason for the delay. The CCPA does not specify a frequency for data deletion beyond the requirement to comply with consumer requests. Data brokers must also ensure that service providers they use to process personal information comply with deletion requests.",
+  "ground_truth": "At least every 45 days, and they must delete all personal information every 45 days after an initial deletion request.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:19:01.283657",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the CCPA does not specify a frequency for data deletion beyond compliance with consumer requests. The ground truth indicates that data brokers must delete all personal information at least every 45 days after an initial deletion request, which contradicts the White Agent's claim.",
+  "provider": "deepseek"
+}

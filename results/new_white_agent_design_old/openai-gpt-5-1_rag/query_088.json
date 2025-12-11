@@ -1,0 +1,12 @@
+{
+  "query_id": 88,
+  "query": "How does DHS ensure transparency and accountability in its AI use?",
+  "response": "**Part 1:**  \nDHS ensures transparency and accountability in its AI use through a three-year plan designed to “ensure transparency and accountability to the public,” supported by a Compliance Plan focused on public trust, an inventory of unclassified and non-sensitive AI use cases, and requirements that AI be “trustworthy” by being transparent, explainable, and producing traceable, auditable outputs.\n\n**Part 2:**  \nThe Department’s AI strategy and Compliance Plan publicly describe current and planned AI use cases, its maturity goals, and how it will meet federal requirements, emphasizing transparency in AI operations and investments. DHS also maintains a public inventory of unclassified and non-sensitive AI use cases so people can see where and how AI is being used. Under its directive on AI use, systems must be transparent and explainable, with outputs that can be traced and audited, reinforcing accountability. These requirements are embedded in DHS’s AI governance, which includes documenting use cases, rigorous testing and evaluation, and ongoing monitoring throughout the AI lifecycle.",
+  "ground_truth": "By making AI use explainable, auditable, and publicly disclosed in plain language whenever possible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:44:33.442182",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes DHS's approach to ensuring transparency and accountability in AI use, aligning with the ground truth answer regarding the importance of explainability, auditability, and public disclosure.",
+  "provider": "deepseek"
+}

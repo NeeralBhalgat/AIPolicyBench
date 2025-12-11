@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "The question provided does not specify the context or the memorandum in question. To accurately answer this, I would need more information about the memorandum, such as its title, author, and the organization or jurisdiction it originates from. Without this context, it is impossible to determine who is covered by the memorandum.",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:22.075221",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty and indicates a lack of information needed to answer the question about who is covered by the memorandum. It does not provide a definitive answer or acknowledge the ground truth.",
+  "provider": "deepseek"
+}

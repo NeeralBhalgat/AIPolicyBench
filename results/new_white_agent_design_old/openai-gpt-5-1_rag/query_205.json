@@ -1,0 +1,12 @@
+{
+  "query_id": 205,
+  "query": "What is excluded from the definition of Automated-Decision Systems under §11008.1(a)(2)?",
+  "response": "**Part 1:**  \nUnder §11008.1(a)(2), the definition of “Automated-Decision Systems” excludes tools that only perform routine supporting functions—such as data collection, storage, organization, or transmission, simple word processing (e.g., transcription, translation, formatting, spelling or grammar checks), or basic mathematical calculations—that do not themselves make or serve as a controlling factor in employment-related decisions.\n\n**Part 2:**  \nThis exclusion draws a line between systems that actually generate or control employment-related decisions and low-risk tools that simply facilitate work. For example, a word processor that checks spelling or grammar, or software that just stores or routes applicant data, is not treated as an automated-decision system. Likewise, ordinary calculators or similar utilities that only perform simple arithmetic are outside the definition. The regulations focus instead on computational processes that produce scores, rankings, recommendations, or classifications that are used to make, or are a controlling factor in, employment decisions.",
+  "ground_truth": "Software like word processing, spreadsheets, navigation, or similar tools that do not make employment decisions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:15:12.936084",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the exclusions from the definition of Automated-Decision Systems under §11008.1(a)(2), aligning with the ground truth that such systems do not include tools that merely perform routine supporting functions and do not make employment decisions.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 248,
+  "query": "What must operators prevent companion chatbots from producing for minors?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Visual material of sexually explicit conduct or statements directing minors to engage in it.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:30:31.821408",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about what operators must prevent companion chatbots from producing for minors.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "Part 1: SB 361 requires data brokers to provide additional information to the California Privacy Protection Agency regarding potential sensitive and personal information.\n\nPart 2: The bill amends the existing data broker registration law by mandating that data brokers disclose more details about the types of data they collect. This specifically includes information related to potential sensitive and personal information they process. The enhanced disclosure is intended to increase transparency and oversight by providing the California Privacy Protection Agency with a clearer picture of data collection practices. This builds upon the state's efforts to give consumers stronger privacy rights and visibility into how their data is handled.",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:21:40.042383",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions that SB 361 requires data brokers to disclose additional information about sensitive and personal information, it fails to specify the numerous specific data types that must be disclosed, such as names, DOBs, government IDs, biometric data, and others. This omission indicates that the response does not fully align with the ground truth.",
+  "provider": "deepseek"
+}

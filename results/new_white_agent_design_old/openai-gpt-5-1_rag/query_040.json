@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "**Part 1:**  \nNear-term enablers and wins come from using clearly defined “clean energy” and “clean power” resources, accelerating “clean repowering” at existing fossil sites, leveraging designated “priority geothermal zone[s],” tapping “surplus interconnection service,” and upgrading existing “transmission facilities” as part of “AI infrastructure.”\n\n**Part 2:**  \nBy defining “clean energy” and “clean power” broadly (including nuclear, geothermal, solar, wind, hydro, marine, and high-capture carbon capture with permanent sequestration), the framework immediately unlocks many existing and planned projects as eligible contributors to AI infrastructure. “Clean repowering” allows rapid progress by reusing existing points of interconnection at fossil sites, avoiding some of the siting and grid-connection delays of entirely new locations. The identification of “priority geothermal zone[s]” and the use of “surplus interconnection service” provide targeted, near-term grid and resource opportunities that can be brought online faster. Finally, explicitly including “transmission facilities” within “AI infrastructure” focuses investment and permitting attention on upgrades to current lines, which can yield earlier capacity gains than entirely new builds.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:32:28.862012",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses clean energy and infrastructure related to AI but does not address the specific near-term enablers and wins mentioned in the ground truth answer, which includes the establishment of the AI Council, GAIRB, and other specific initiatives. Therefore, the response is factually incorrect in the context of the question.",
+  "provider": "deepseek"
+}

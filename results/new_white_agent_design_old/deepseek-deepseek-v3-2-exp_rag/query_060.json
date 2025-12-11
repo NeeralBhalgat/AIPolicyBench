@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "Part 1: The strategy emphasizes that the DoD workforce must be prepared for the future through systematic Strategic Workforce Planning to identify and address gaps between today's workforce and tomorrow's human capital needs.\n\nPart 2: It focuses on aligning civilian personnel management with strategic human capital planning to meet future demands. This involves developing detailed Strategic Workforce Plans at enterprise and component levels to ensure the right talent is in place. The approach includes using advisory services and following specific DOD instructions and OPM guidance to manage and retain a skilled workforce capable of supporting national security and economic objectives.",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:33:27.900652",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the importance of workforce planning and aligning personnel management with future demands, it does not specifically address the need to hire, train, and retain skilled workers in digital and AI-related roles, which is a key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

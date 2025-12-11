@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "Federal employees covered under the Whistleblower Protection Act are protected.",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:55:14.765592",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response is partially correct in stating that federal employees are protected under the Whistleblower Protection Act, but it fails to mention the specific context of reporting catastrophic-risk dangers or violations of the TFAIA, which is crucial for a complete understanding of the protections offered.",
+  "provider": "deepseek"
+}

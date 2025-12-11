@@ -1,0 +1,11 @@
+{
+  "query_id": 263,
+  "query": "What must large online platforms disclose to users regarding provenance data?",
+  "response": "",
+  "ground_truth": "Whether provenance data is available, the name of the GenAI system or capture device, and whether digital signatures exist.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:07:14.409224",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

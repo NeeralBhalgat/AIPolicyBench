@@ -1,0 +1,12 @@
+{
+  "query_id": 74,
+  "query": "What are the primary domains covered in the HHS Strategic Plan?",
+  "response": "<s> [OUT]\n\nPart 1: The HHS Strategic Plan covers five strategic goals: protecting and strengthening equitable access to health care, safeguarding health conditions, improving social well-being, advancing science and research, and enhancing strategic management.\n\nPart 2: The plan outlines these goals in detail, supported by specific objectives and strategies to achieve them. For example, one goal focuses on protecting and strengthening equitable access to high-quality and affordable health care, while another aims to safeguard and improve national and global health conditions. The plan also emphasizes restoring trust in science and research, as well as advancing strategic management to build transparency and accountability. These goals are part of a broader effort to address national problems over a four-year period.",
+  "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:31:42.263877",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists strategic goals that do not align with the primary domains covered in the HHS Strategic Plan as per the ground truth. The correct domains include medical research, healthcare delivery, and public health, which were not mentioned in the response.",
+  "provider": "deepseek"
+}

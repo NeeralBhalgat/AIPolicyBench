@@ -1,0 +1,12 @@
+{
+  "query_id": 69,
+  "query": "What group is responsible for identifying AI systems that impact rights and safety?",
+  "response": "Part 1: The agencies identified in 31 U.S.C. 901(b) are responsible for identifying AI systems that impact rights and safety.\n\nPart 2: According to the sources provided, the agencies identified in 31 U.S.C. 901(b) are required to develop AI strategies and pursue high-impact AI use cases, which includes identifying specific Federal Government uses of AI that impact rights or safety (Source 1 and Source 2). These agencies are expected to implement minimum risk-management practices for Government uses of AI that impact people’s rights or safety, which includes identifying such AI systems (Source 2). The exact list of these agencies is not specified in the provided sources, but they are likely to be the same as those identified in 31 U.S.C. 901(b).",
+  "ground_truth": "The Rights- and Safety-Impacting AI Working Group.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:31:18.960978",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly identifies the agencies in 31 U.S.C. 901(b) as responsible for identifying AI systems impacting rights and safety, while the correct group is the Rights- and Safety-Impacting AI Working Group. The response does not accurately reflect the correct entity responsible for this task.",
+  "provider": "deepseek"
+}

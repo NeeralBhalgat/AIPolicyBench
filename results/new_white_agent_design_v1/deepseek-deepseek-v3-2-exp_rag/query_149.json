@@ -1,0 +1,12 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:45:43.002544",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about what use case owners must do for prior entries.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "Part 1: The five headline goals are to allow Nvidia's H200 chip exports to China, undo state-level AI protections, recognize the Lumbee Tribe, regulate and promote the crypto industry, and make the US the global leader in AI.\n\nPart 2: The first goal involves the White House approving the sale of more powerful AI chips to China in exchange for a share of the revenue. The second goal is an executive order aimed at removing existing state-level AI protections that were passed with bipartisan support. The remaining three goals from the directives include granting federal recognition to the Lumbee Tribe, creating policy to regulate and promote the crypto industry, and a specific initiative called \"Removing Barriers to American Leadership in Artificial Intelligence\" intended to establish US dominance in AI.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:27:10.462747",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists goals that are unrelated to the actual five headline goals, which focus on governance, workforce readiness, infrastructure, data readiness, and ethical AI. The claims made about Nvidia, state-level protections, and the Lumbee Tribe are not part of the recognized goals.",
+  "provider": "deepseek"
+}

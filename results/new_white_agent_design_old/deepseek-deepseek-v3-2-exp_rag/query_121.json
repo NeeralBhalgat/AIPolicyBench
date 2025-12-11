@@ -1,0 +1,12 @@
+{
+  "query_id": 121,
+  "query": "Who oversees all internal and external IRS reporting on AI?",
+  "response": "Part 1: The U.S. Treasury Inspector General for Tax Administration (TIGTA) provides independent oversight of the IRS and its reporting, which includes matters related to Artificial Intelligence.\n\nPart 2: TIGTA's stated mission is to provide independent oversight of the IRS, promoting integrity and efficiency in the tax system. This oversight role inherently encompasses all of the IRS's activities, including any internal and external reporting on its use of Artificial Intelligence. While other federal entities like the GAO describe broader AI oversight frameworks, TIGTA is specifically tasked with IRS oversight as defined by its mandate.",
+  "ground_truth": "The CDAO acting as the RAIO.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:46:36.962737",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly identifies TIGTA as the overseer of IRS reporting on AI, while the correct answer is that the CDAO acts as the RAIO. This indicates a misunderstanding of the specific roles and responsibilities related to AI oversight within the IRS.",
+  "provider": "deepseek"
+}

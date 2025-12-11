@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must adhere to the AI risk management practices outlined in the NIST AI Risk Management Framework and comply with the requirements set forth in Executive Order 14110.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:02:20.719016",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent mentions the NIST AI Risk Management Framework and Executive Order 14110, it does not accurately reflect the specific actions agencies must take regarding AI risk management, such as measuring, monitoring, evaluating, and reporting on AI activities, which are essential components of effective risk management.",
+  "provider": "deepseek"
+}

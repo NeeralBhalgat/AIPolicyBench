@@ -1,0 +1,12 @@
+{
+  "query_id": 194,
+  "query": "What are the four categories of GSA AI use cases?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Familiarization, Pre-acquisition, Research & Development, Production / Production-intent.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:23.205068",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer to the question about the four categories of GSA AI use cases.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 105,
+  "query": "What tool does DOT use to track AI use cases?",
+  "response": "The U.S. Department of Transportation (DOT) tracks its AI use cases using the **OMB AI Use Case Inventory tool on the MAX.gov platform** (often referred to simply as the MAX.gov AI inventory tool).  \n\nThis is the government‑wide system specified by OMB (e.g., in M‑21‑06 implementing EO 13960) for agencies to record, manage, and report their non‑classified AI use cases.",
+  "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:51:22.348951",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the tool used by DOT to track AI use cases. The correct tool is TrUCKR, not the OMB AI Use Case Inventory tool on MAX.gov.",
+  "provider": "deepseek"
+}

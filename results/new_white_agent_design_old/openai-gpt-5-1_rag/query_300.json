@@ -1,0 +1,12 @@
+{
+  "query_id": 300,
+  "query": "Which entities are considered “law enforcement agencies” under this bill?",
+  "response": "Part 1:  \nUnder the bill, “law enforcement agencies” include “(I) a law enforcement agency of the United States, a State, or a political subdivision of a State; or (II) an intelligence agency of the United States.”\n\nPart 2:  \nThe bill defines the term broadly to cover traditional law enforcement bodies at every government level—federal, state, and local (including political subdivisions such as counties and municipalities). In addition, it expressly includes U.S. intelligence agencies within the definition. This means both entities with conventional policing powers and agencies focused on intelligence gathering and national security are treated as “law enforcement agencies” for the bill’s purposes. The inclusive definition affects who may receive protected disclosures and who may exercise certain authorities or responsibilities under the bill.",
+  "ground_truth": "Any state or local agency employing peace officers under Penal Code §830.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:37:43.006446",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately includes U.S. intelligence agencies as 'law enforcement agencies' under the bill, while the ground truth specifies that it refers to state or local agencies employing peace officers under Penal Code §830. This indicates a misunderstanding of the specific legal definition provided in the ground truth.",
+  "provider": "deepseek"
+}

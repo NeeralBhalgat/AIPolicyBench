@@ -1,0 +1,12 @@
+{
+  "query_id": 286,
+  "query": "What specific data categories are prohibited from being publicly posted by the Agency?",
+  "response": "Part 1: The specific data categories prohibited from being publicly posted are sensitive personal data and government-related data, which notably include human genomic data as well as epigenomic, proteomic, and transcriptomic data, all of which exclude publicly available data.\n\nPart 2: The regulations are designed to prevent access to U.S. sensitive personal data by countries of concern, focusing on categories with the greatest national security risks. Among these are several human 'omic data categories, including genomics, epigenomics, proteomics, and transcriptomics, which have significant predictive capabilities and identifiability concerns. The rules clarify that the definitions for both \"sensitive personal data\" and \"government-related data\" explicitly exclude publicly available information, meaning such protected categories cannot be placed in public forums.",
+  "ground_truth": "Consumer names, DOBs, ZIP Codes, phone numbers, mobile/CTV IDs, VINs, and common data types collected.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:22:33.923842",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the specific data categories prohibited from being publicly posted. The ground truth specifies consumer names, DOBs, ZIP Codes, phone numbers, mobile/CTV IDs, VINs, and common data types collected, which are not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

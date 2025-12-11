@@ -1,0 +1,12 @@
+{
+  "query_id": 69,
+  "query": "What group is responsible for identifying AI systems that impact rights and safety?",
+  "response": "**Part 1:**  \nThe Office of Management and Budget, through the Director of OMB, is responsible for specifying “specific Federal Government uses of AI that are presumed by default to impact rights or safety.”\n\n**Part 2:**  \nIn the Executive Order on safe, secure, and trustworthy AI, the Director of OMB is tasked with issuing government-wide guidance on managing AI risks. As part of this guidance, OMB must identify which Federal Government uses of AI are by default considered to affect people’s rights or safety. This centralizes the determination of high‑impact AI uses in one coordinating body rather than leaving it entirely to individual agencies. Agencies then must apply required risk‑management practices to these identified uses.",
+  "ground_truth": "The Rights- and Safety-Impacting AI Working Group.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:40:57.817034",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the Office of Management and Budget (OMB) as the group responsible for identifying AI systems that impact rights and safety. The correct group is the Rights- and Safety-Impacting AI Working Group, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

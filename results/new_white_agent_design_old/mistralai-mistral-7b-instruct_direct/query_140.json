@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "The IRS (Internal Revenue Service) privacy and security requirements are primarily found in the following sources:\n\n1. **IRS Publication 1075** - This is the primary document outlining the IRS's privacy and security requirements for federal tax information. It provides guidelines for protecting taxpayer data, including physical, administrative, and technical safeguards.\n\n2. **IRS Publication 4557** - This publication focuses on safeguarding taxpayer data and provides guidance on protecting sensitive information, including best practices for data security.\n\n3. **IRS Publication 5094** - This document outlines the IRS's privacy policy and provides information on how the IRS handles and protects taxpayer information.\n\n4. **IRS-1075 Training** - The IRS offers training on Publication 1075, which is mandatory for employees and contractors who handle federal tax information. This training covers the requirements for protecting taxpayer data.\n\n5. **Federal Laws and Regulations** - The IRS also adheres to federal laws and regulations related to privacy and security, such as the **Privacy Act of 1974**, the **Federal Information Security Management Act (FISMA)**, and the **E-Government Act of 2002**.\n\n6. **IRS Internal Policies and Procedures** - The IRS has internal policies and procedures that supplement the requirements outlined in the publications and federal laws.\n\nThese documents and regulations collectively form the framework for the IRS's privacy and security requirements.",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:10:35.724264",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent provides relevant information about IRS privacy and security requirements, it does not mention the specific sources identified in the ground truth answer, which are IRM 10.5 and IRM 10.8. Therefore, the response is factually incorrect regarding the specific documents that contain the required information.",
+  "provider": "deepseek"
+}

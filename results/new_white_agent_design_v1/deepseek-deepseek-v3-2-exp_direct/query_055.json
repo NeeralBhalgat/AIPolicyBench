@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "Based on my knowledge, a key initiative is the Department of Defense's \"Data, Analytics, and AI Adoption Strategy,\" which emphasizes creating a data-centric enterprise.\n\nThis involves implementing standard data formats, common interfaces, and a unified data architecture (like the Joint All-Domain Command and Control concept) to make data more accessible, interoperable, and secure across all military services.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:58:15.329359",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the DoD's initiatives related to data sharing and quality but does not accurately reflect the ground truth answer, which emphasizes treating data as a product managed by decentralized teams. The response contains elements that are not aligned with the specific approach mentioned in the ground truth.",
+  "provider": "deepseek"
+}

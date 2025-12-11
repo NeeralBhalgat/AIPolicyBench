@@ -1,0 +1,12 @@
+{
+  "query_id": 233,
+  "query": "Who has jurisdiction over violations of AB 489’s provisions?",
+  "response": "The appropriate health care profession board has jurisdiction over violations of AB 489’s provisions. [Source 5]",
+  "ground_truth": "The appropriate health care professional licensing board or enforcement agency.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:52.593117",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies that the appropriate health care profession board has jurisdiction over violations of AB 489’s provisions, which aligns with the ground truth answer that mentions the appropriate health care professional licensing board or enforcement agency.",
+  "provider": "deepseek"
+}

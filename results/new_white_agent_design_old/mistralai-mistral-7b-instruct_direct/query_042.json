@@ -1,0 +1,12 @@
+{
+  "query_id": 42,
+  "query": "What are the four core functions of the AI RMF?",
+  "response": "The AI Risk Management Framework (RMF) is a set of guidelines developed by the White House Office of Science and Technology Policy (OSTP) to help federal agencies manage the risks associated with AI systems. The four core functions of the AI RMF are:\n\n1. Identify: This function involves understanding the AI system, its purpose, and the context in which it operates. It includes identifying the potential risks and benefits associated with the AI system.\n\n2. Assess: In this function, the risks identified in the first step are evaluated to determine their likelihood and potential impact. This helps prioritize the risks and identify those that require immediate attention.\n\n3. Mitigate: Once the risks have been assessed, strategies are developed to mitigate or eliminate them. This could involve modifying the AI system, implementing safeguards, or changing the operational environment.\n\n4. Monitor: After the AI system has been deployed, it is important to continuously monitor its performance and the risks it poses. This function involves collecting and analyzing data to ensure that the AI system is operating as intended and that the risks have not changed or escalated.\n\nThese functions are iterative, meaning that they are not performed once and then forgotten. Instead, they should be revisited regularly to ensure that the AI system remains safe and effective.",
+  "ground_truth": "Govern, Map, Measure, and Manage.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:03.586416",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the four core functions of the AI RMF as Identify, Assess, Mitigate, and Monitor, whereas the correct functions are Govern, Map, Measure, and Manage.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "Part 1: Related IRS privacy and security requirements are found within the official tax guidance published by the IRS, including the Internal Revenue Code, Treasury Regulations, and other official guidance like revenue rulings and procedures.\n\nPart 2: The IRS publishes all official tax guidance, which includes the legal requirements it administers, in the Internal Revenue Bulletin. This weekly publication is the authoritative source for distributing items like the Internal Revenue Code, Treasury Regulations, revenue rulings, and revenue procedures. While the provided sources discuss the types of guidance and where to find them, they do not list specific privacy and security statutes; however, any such requirements enforced by the IRS would be contained within these categories of official guidance.",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:51.767906",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies sources of IRS guidance but fails to mention the specific IRS Manual sections (IRM 10.5 and IRM 10.8) that directly pertain to privacy and security requirements, which is the ground truth answer.",
+  "provider": "deepseek"
+}

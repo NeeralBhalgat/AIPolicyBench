@@ -1,0 +1,12 @@
+{
+  "query_id": 130,
+  "query": "Which IRM subsection requires Privacy and Civil Liberties Impact Assessments?",
+  "response": "Part 1: Section 208 of the E-Government Act of 2002 requires Privacy and Civil Liberties Impact Assessments for systems that process Personally Identifiable Information.\n\nPart 2: This requirement applies to new information systems, existing systems undergoing modification or enhancement, and electronic collections of information covered by the Paperwork Reduction Act. The legal mandate originates from the E-Government Act of 2002, and the specific guidance for conducting these assessments is provided in OMB Memorandum 03-22. The purpose of a PCLIA is to analyze how information is handled to ensure compliance with privacy requirements and to assess the risks associated with processing personally identifiable information.",
+  "ground_truth": "IRM 10.5.2.2.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:48:22.157937",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response correctly identifies the requirement for Privacy and Civil Liberties Impact Assessments but incorrectly cites the E-Government Act of 2002 instead of the specific IRM subsection (IRM 10.5.2.2) that directly addresses this requirement.",
+  "provider": "deepseek"
+}

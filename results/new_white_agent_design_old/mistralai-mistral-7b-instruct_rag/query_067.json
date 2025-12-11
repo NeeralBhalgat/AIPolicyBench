@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "[OUT]\n\nPart 1: The DOE’s PolicyAI tool is used for \"exploring design spaces, evaluating experimental outcomes, and automating workflows\" within the Genesis Mission.\n\nPart 2: The Genesis Mission, established by the White House, aims to accelerate AI-driven scientific discovery for national challenges. The PolicyAI tool falls under the broader AI modeling and analysis frameworks, which include AI agents for tasks like design exploration and workflow automation. This aligns with the DOE’s focus on integrating AI into secure, unified platforms for scientific and national security applications. The tool supports the Mission’s goals by leveraging high-performance computing and secure datasets to enhance productivity and innovation.",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:29:27.963688",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the DOE’s PolicyAI tool as being related to design spaces and experimental outcomes, while the ground truth indicates it is used for searching, summarizing, and drafting environmental policy documents.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 236,
+  "query": "What type of AI or GenAI usage is prohibited under Section 4999.9(c)?",
+  "response": "Part 1: Section 4999.9(c) prohibits the use of AI that incorporates \"diversity, equity, and inclusion\" (DEI) principles, including the suppression or distortion of factual information about race or sex, and the manipulation of racial or sexual representation in model outputs.\n\nPart 2: The prohibition is part of a broader effort to prevent ideological biases or social agendas from being built into AI models used by the federal government. The context emphasizes that such biases can distort the quality and accuracy of AI outputs, particularly when they involve concepts like critical race theory or transgender ideology. The policy aims to ensure that AI systems remain free from engineered social agendas, prioritizing factual accuracy and neutrality in their outputs.",
+  "ground_truth": "Using terms implying that care, advice, reports, or assessments are provided by a licensed natural person.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:52:05.237100",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the content of Section 4999.9(c), which actually prohibits the use of terms implying that care, advice, reports, or assessments are provided by a licensed natural person, rather than prohibiting AI that incorporates DEI principles.",
+  "provider": "deepseek"
+}

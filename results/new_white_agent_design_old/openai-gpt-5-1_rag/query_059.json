@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "Part 1:  \nThe DoD plans to mature collaboration with academia, industry, and Allies and partners by promoting best practices on data management, responsible AI, and AI readiness.\n\nPart 2:  \nIn its AI adoption efforts, the department explicitly seeks deeper, more structured collaboration with universities, private sector firms, and international allies and partners. This collaboration focuses on sharing and advancing best practices for managing data, building AI systems responsibly, and ensuring organizations are ready to field and use AI. By aligning these external partners around common technical and ethical standards, the DoD aims to accelerate the adoption of advanced AI capabilities. This, in turn, is intended to provide a sustained decision advantage for the warfighter while remaining consistent with its ethical AI principles.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:38:13.905284",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's plans for collaboration with external partners, emphasizing the importance of best practices in data management and responsible AI, which aligns with the ground truth answer regarding strengthening partnerships for innovation and interoperability.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 11,
+  "query": "What three priorities must agencies focus on to accelerate Federal AI use?",
+  "response": "1. Data Governance: Agencies should prioritize the development of robust data governance policies to ensure the availability, quality, and security of data used in AI systems. This includes addressing issues such as data privacy, data sharing, and data standardization.\n\n2. Skill Development and Workforce Training: Agencies need to invest in training their employees to understand AI technology and its applications. This includes not only technical skills but also understanding the ethical and societal implications of AI.\n\n3. Regulatory Framework: Agencies should establish a clear and consistent regulatory framework for AI. This includes setting guidelines for AI transparency, accountability, and safety, as well as addressing potential biases in AI systems. It's also important to ensure that regulations are technology-neutral and flexible enough to adapt to rapid technological changes.\n\nIn addition, it's crucial for agencies to collaborate with other government bodies, academia, and industry to leverage collective expertise and resources in AI development and deployment.",
+  "ground_truth": "Innovation, governance, and public trust.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:15.212957",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides three priorities that are relevant to AI use in federal agencies, but they do not align with the ground truth answer of 'innovation, governance, and public trust.' The priorities mentioned are more detailed and specific, which indicates a misunderstanding of the core priorities as defined in the ground truth.",
+  "provider": "deepseek"
+}

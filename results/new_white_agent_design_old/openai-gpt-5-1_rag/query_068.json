@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "Part 1:  \nThe available descriptions of DOE’s AI activities do not specify how DOE promotes sharing of AI‑related software and code.\n\nPart 2:  \nThe context provided focuses on DOE’s roles in AI governance, national strategy alignment, responsible and secure AI, and applications of AI in science, energy, and national security. It highlights strategic documents, testbeds, risk mitigation, and the use of world-class supercomputers and scientific data, but it does not mention open-source policies, code repositories, or other explicit mechanisms for sharing AI software. Without such details, we cannot infer concrete practices DOE uses to disseminate AI-related code. Any further description of code-sharing efforts would require information beyond what is given here.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:39:51.743163",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about how DOE promotes sharing of AI-related software and code, stating that the available descriptions do not specify this information. While it accurately reflects the lack of detail in the provided context, it does not acknowledge the existence of the DOE CODE platform, which is a concrete mechanism for sharing AI-related software.",
+  "provider": "deepseek"
+}

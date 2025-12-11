@@ -1,0 +1,12 @@
+{
+  "query_id": 46,
+  "query": "What is the main focus of the Govern function in the AI RMF?",
+  "response": "The main focus of the Govern function in the AI RMF is to ensure that federal agencies designate a Chief AI Officer (CAIO) within 60 days, establish an AI Governance Board within 90 days, and develop AI strategies and compliance plans within 180 days. [s]",
+  "ground_truth": "To build a culture of risk management, accountability, and transparency throughout the organization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:06:56.067309",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly focuses on specific timelines for designating a Chief AI Officer and establishing governance structures, which does not align with the main focus of the Govern function in the AI RMF, which is about fostering a culture of risk management, accountability, and transparency.",
+  "provider": "deepseek"
+}

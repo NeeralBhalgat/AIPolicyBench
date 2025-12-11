@@ -1,0 +1,11 @@
+{
+  "query_id": 268,
+  "query": "What information must a latent disclosure from a capture device contain?",
+  "response": "",
+  "ground_truth": "Manufacturer name, device name and version, and time/date of creation or alteration.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:07:37.067039",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

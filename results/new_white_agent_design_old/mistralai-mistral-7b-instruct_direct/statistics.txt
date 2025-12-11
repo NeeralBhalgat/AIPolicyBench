@@ -1,0 +1,20 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: https://stock-observation-reduced-friendship.trycloudflare.com/to_agent/7ead9391490046ff95bd56b82f31c302
+White Agent Model: mistralai-mistral-7b-instruct_direct
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251210_030257
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 300
+Correct: 51 (17.00%)
+Miss: 24 (8.00%)
+Hallucination: 224 (74.67%)
+Factuality Rate: -49.67%
+
+================================================================================

@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "For government agencies (especially in the U.S. federal system), “AI risk management” is no longer optional; it’s a mandated set of governance and technical practices. The exact requirements depend on jurisdiction, but there is a clear pattern: agencies must **systematically identify, assess, mitigate, and monitor AI risks across the lifecycle** of systems they build, buy, or use.\n\nBelow is a concise summary of what agencies are required (or strongly expected) to do, with a focus on recent U.S. federal policy (OMB M‑24‑10 implementing Executive Order 14110) and alignment with NIST’s AI Risk Management Framework (AI RMF).\n\n---\n\n### 1. Establish formal AI risk governance\n\nAgencies must:\n\n- **Designate a senior official responsible for AI risk**  \n  - U.S. federal: appoint a **Chief AI Officer (CAIO)** to oversee AI governance, risk management, and compliance with policy (OMB M‑24‑10).\n- **Create or use an AI governance body**  \n  - E.g., an **AI Governance Board** that includes legal, civil rights, privacy, cybersecurity, procurement, and mission leaders.\n- **Integrate AI risk into enterprise risk management (ERM)**  \n  - AI risks (safety, rights, legal, operational, reputational) must be treated like other strategic and operational risks, not as a one-off technical issue.\n\n---\n\n### 2. Maintain an AI inventory and classify use cases\n\nAgencies must:\n\n- **Identify and inventory all AI use cases**  \n  - Track AI systems used, developed, or procured by the",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:06.686584",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirements for AI risk management as mandated by recent U.S. federal policy, including the establishment of governance structures and the systematic approach to identifying and managing AI risks, which aligns with the ground truth answer regarding the need to measure, monitor, evaluate, and report on AI activities.",
+  "provider": "deepseek"
+}

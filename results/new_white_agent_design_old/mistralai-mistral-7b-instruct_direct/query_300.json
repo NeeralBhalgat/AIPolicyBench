@@ -1,0 +1,12 @@
+{
+  "query_id": 300,
+  "query": "Which entities are considered “law enforcement agencies” under this bill?",
+  "response": "The term \"law enforcement agency\" is defined in the bill as:\n\n> “(A) a Federal, State, or local law enforcement agency, including a police department, sheriff’s department, or other law enforcement agency of a State, territory, or political subdivision of a State or territory, or an Indian tribe (as such term is defined in section 4 of the Indian Self-Determination and Education Assistance Act (25 U.S.C. 450b)); or\n> (B) a Federal, State, or local agency or entity that is authorized by law to conduct investigations of, or to prosecute, violations of, any criminal law of the United States, a State, or a political subdivision of a State or territory, or an Indian tribe (as such term is defined in section 4 of the Indian Self-Determination and Education Assistance Act (25 U.S.C. 450b)).”\n\nThis definition includes a broad range of entities, including federal, state, and local law enforcement agencies, as well as agencies or entities authorized to investigate or prosecute criminal violations. It also explicitly includes Indian tribes as defined in the referenced statute.\n\nIf you are referring to a specific bill, please provide the exact text or citation, as definitions can vary between legislative proposals.",
+  "ground_truth": "Any state or local agency employing peace officers under Penal Code §830.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:20:27.389711",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a definition of 'law enforcement agency' that is broader than the ground truth answer, which specifically refers to state or local agencies employing peace officers under Penal Code §830. The response does not align with the specific legal definition provided in the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "The sources provide information on several research priorities to make AI safer for high-stakes use:\n\n1. Developing guidance for content authentication and watermarking to clearly label AI-generated content (Source 1).\n2. Establishing an advanced cybersecurity program to develop AI tools to find and fix vulnerabilities in critical software (Source 1).\n3. Ordering the development of a National Security Memorandum that directs further actions on AI and security (Source 1).\n4. Producing a report on AI’s potential labor-market impacts and studying options for strengthening federal support for workers facing labor disruptions (Source 3).\n5. Protecting Americans’ privacy by prioritizing federal support for accelerating the development and use of privacy-preserving techniques (Source 4).",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:03:53.397108",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response lists various research priorities related to AI safety, but these do not align with the ground truth answer, which emphasizes interpretability, control systems, and adversarial robustness. The priorities mentioned are more focused on content authentication, cybersecurity, and labor impacts, which are not directly related to making AI safer for high-stakes use.",
+  "provider": "deepseek"
+}

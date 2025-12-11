@@ -1,0 +1,12 @@
+{
+  "query_id": 29,
+  "query": "How does the order limit its legal effect on agencies’ authorities?",
+  "response": "The order states that \"Nothing in this order shall be construed to impair or otherwise affect the authority granted by law to an executive department, agency, or the head thereof\" and that it is \"not intended to, and does not, create any right or benefit, substantive or procedural, enforceable at law or in equity by any party against the United States, its departments, agencies, or entities, its officers, employees, or agents, or any other person.\"",
+  "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:46.006564",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the legal language of the order, confirming that it does not impair existing authorities or create enforceable rights, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

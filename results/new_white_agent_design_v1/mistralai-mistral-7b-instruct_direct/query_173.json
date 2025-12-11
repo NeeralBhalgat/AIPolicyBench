@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized to ensure that employees have the necessary skills to adapt to technological advancements, economic changes, and evolving job requirements, thereby enhancing productivity and competitiveness.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:36.673879",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general rationale for workforce training but does not specifically address the context of developing staff for evaluating advanced AI technologies and regulatory challenges as indicated in the ground truth answer.",
+  "provider": "deepseek"
+}

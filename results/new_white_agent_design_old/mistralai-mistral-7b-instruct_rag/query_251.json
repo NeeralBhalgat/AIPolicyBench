@@ -1,0 +1,7 @@
+{
+  "query_id": 251,
+  "query": "What must a real estate broker include when using a digitally altered image in advertising?",
+  "ground_truth": "A conspicuous statement disclosing the image has been altered and a link to the original unaltered image.",
+  "error": "HTTP Error 500: Server error '500 Internal Server Error' for url 'https://earlier-edward-reproductive-paris.trycloudflare.com/to_agent/b198a530f3384f35b5850982c3dd08ab'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+  "evaluation_result": "error"
+}

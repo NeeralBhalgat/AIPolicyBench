@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "The Department of Homeland Security (DHS) does not have a single, publicly identified leader or office that exclusively coordinates AI use across the entire department. However, the DHS Science and Technology Directorate (S&T) and the Office of Strategy, Policy, and Plans (PLAN) are involved in AI-related initiatives and policy development.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:58.531947",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no single leader for AI use at DHS, while the ground truth indicates that the DHS Chief Artificial Intelligence Officer (CAIO) is the designated leader for coordinating AI efforts across the department.",
+  "provider": "deepseek"
+}

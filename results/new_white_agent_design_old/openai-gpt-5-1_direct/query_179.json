@@ -1,0 +1,11 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:50.320574",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

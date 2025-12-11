@@ -1,0 +1,12 @@
+{
+  "query_id": 258,
+  "query": "Who does the law apply to regarding use of digitally altered images?",
+  "response": "The law applies to persons who distribute, transmit, or otherwise make available technology with the primary purpose of unauthorized use of a person’s photograph, voice, or likeness.",
+  "ground_truth": "Real estate brokers, salespersons, and persons acting on their behalf.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:53:49.004403",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the scope of the law, focusing on technology distribution rather than specifically naming the relevant parties, which are real estate brokers and salespersons as per the ground truth.",
+  "provider": "deepseek"
+}

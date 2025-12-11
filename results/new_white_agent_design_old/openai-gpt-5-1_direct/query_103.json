@@ -1,0 +1,12 @@
+{
+  "query_id": 103,
+  "query": "What is one role of the NETT Council as the AI Governance Board?",
+  "response": "One role of the NETT Council, in its function as the AI Governance Board, is to provide centralized oversight of how AI is used across the Department of Transportation—specifically by reviewing and approving department-wide AI policies, standards, and risk‑management practices for AI systems.",
+  "ground_truth": "To review and approve all AI governance structures, policies, and guidance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:51:02.999700",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of the NETT Council in providing oversight and approving AI policies, which aligns with the ground truth answer regarding governance structures and policies.",
+  "provider": "deepseek"
+}

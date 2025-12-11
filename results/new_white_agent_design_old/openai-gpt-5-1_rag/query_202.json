@@ -1,0 +1,12 @@
+{
+  "query_id": 202,
+  "query": "Under §11008(c), who is considered an “Applicant”?",
+  "response": "**Part 1:** Under §11008(c), the term “Applicant” is not defined or described anywhere in the provided context, so its specific meaning cannot be determined from these materials.  \n\n**Part 2:** The excerpts discuss Board interpretations related to branches, loan production offices, mortgage companies, and certain servicing arrangements, but they do not contain any reference to §11008(c) or a definition of “Applicant.” Because the relevant statutory or regulatory text for §11008(c) is missing, there is no grounded way to say who is considered an “Applicant” under that provision. Any attempt to specify which persons or institutions qualify as an “Applicant” would therefore be speculative. To answer accurately, one would need to review the actual language of §11008(c) in the governing statute or regulation.",
+  "ground_truth": "Individuals who file an application or indicate a desire to be considered for employment, including those deterred by discriminatory practices.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:14:05.161144",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty about the definition of 'Applicant' under §11008(c) due to the lack of provided context. While it correctly identifies the absence of information, it does not acknowledge the ground truth answer regarding who qualifies as an 'Applicant.'",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 170,
+  "query": "What does the NRC note about AI’s potential operational benefits?",
+  "response": "Error: No relevant reputable articles found.",
+  "ground_truth": "AI can enhance safety, improve processes, and support decision-making across nuclear operations.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:05.371180",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information or uncertainty about the topic, which aligns with the 'miss' classification. It does not provide any relevant content regarding AI's operational benefits as noted by the NRC.",
+  "provider": "deepseek"
+}

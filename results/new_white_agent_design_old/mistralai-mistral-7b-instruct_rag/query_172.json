@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "Part 1: The NRC will evaluate AI applications in terms of their potential impact on nuclear-regulated activities, focusing on safety, health, and environmental considerations.\n\nPart 2: Based on the provided sources, the Nuclear Regulatory Commission (NRC) has developed a strategic plan to review AI applications in NRC-regulated activities. This plan focuses on ensuring the agency's readiness to assess such uses, with a primary focus on safety, health, and environmental considerations, as these factors are crucial for the safe operation of nuclear facilities. The NRC's evaluation of AI applications will be conducted within the context of the agency's mission to facilitate nuclear power while ensuring reactor safety.",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:06.692910",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on safety, health, and environmental considerations, which are relevant but does not address the technical considerations such as bias, robustness, security, explainability, and model maintenance that are part of the ground truth answer.",
+  "provider": "deepseek"
+}

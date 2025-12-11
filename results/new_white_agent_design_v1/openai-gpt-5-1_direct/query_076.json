@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:38:58.531668",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information regarding the opportunities for AI to improve people's lives, which is a direct admission of not knowing the answer.",
+  "provider": "deepseek"
+}

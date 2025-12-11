@@ -1,0 +1,12 @@
+{
+  "query_id": 274,
+  "query": "What must a large frontier developer publish on its website?",
+  "response": "Part 1: A large frontier developer must publish on its website a report detailing its progress toward meeting the requirement to procure an appropriate share of leading-edge logic semiconductors fabricated in the United States.\n\nPart 2: The executive order requires developers operating frontier AI data centers on Federal sites to either procure a specific share of US-made semiconductors or to develop a plan for qualifying them for use. As part of this requirement, these developers must publicly report on their progress in meeting this obligation. This publication ensures transparency and accountability in the effort to onshore the supply chain for critical technology components.",
+  "ground_truth": "A frontier AI framework outlining risk thresholds, mitigations, governance, cybersecurity, and update processes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:06.007701",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on semiconductor procurement requirements, which is not the primary obligation for a large frontier developer. The ground truth specifies the need for a framework outlining risk thresholds and governance, which is not addressed in the response.",
+  "provider": "deepseek"
+}

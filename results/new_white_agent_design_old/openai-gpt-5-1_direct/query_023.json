@@ -1,0 +1,11 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:41:10.994904",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

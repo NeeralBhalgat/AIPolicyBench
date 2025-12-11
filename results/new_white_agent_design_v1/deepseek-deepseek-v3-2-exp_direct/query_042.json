@@ -1,0 +1,12 @@
+{
+  "query_id": 42,
+  "query": "What are the four core functions of the AI RMF?",
+  "response": "Based on my knowledge, the four core functions of the AI Risk Management Framework (AI RMF) are Govern, Map, Measure, and Manage. These functions provide a structured and flexible process for organizations to address risks associated with AI systems.",
+  "ground_truth": "Govern, Map, Measure, and Manage.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:54.540431",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the four core functions of the AI RMF as Govern, Map, Measure, and Manage, which matches the ground truth answer.",
+  "provider": "deepseek"
+}

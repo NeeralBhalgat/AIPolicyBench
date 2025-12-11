@@ -1,0 +1,12 @@
+{
+  "query_id": 145,
+  "query": "What is AISWG’s role in advancing strategic objectives?",
+  "response": "Part 1: The AISWG will advance strategic objectives by enabling the use of AI for future national-security missions, including those outlined in National Security Memorandum 25.\n\nPart 2: The AISWG's role involves leveraging AI to support national security, as specified in NSM-25, which focuses on advancing U.S. leadership in AI, harnessing AI for security objectives, and ensuring the safety and trustworthiness of AI. This includes developing safeguards to protect AI infrastructure and managing risks associated with frontier AI capabilities. The group also aims to foster economic competitiveness by promoting a vibrant technology ecosystem, including new jobs and industries created by AI advancements. Additionally, the AISWG will work to ensure high labor standards and minimize impacts on electricity and water costs for other ratepayers and consumers.",
+  "ground_truth": "Defining and advancing AI strategic objectives.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:39:27.703901",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the AISWG's role in advancing strategic objectives related to national security and AI, aligning with the ground truth answer of defining and advancing AI strategic objectives.",
+  "provider": "deepseek"
+}

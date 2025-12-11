@@ -1,0 +1,12 @@
+{
+  "query_id": 93,
+  "query": "Which Executive Order must DHS systems using AI comply with?",
+  "response": "Part 1:  \nDHS systems using AI must comply with President Biden’s landmark Executive Order on the safe, secure, and trustworthy development and use of artificial intelligence.\n\nPart 2:  \nThis Executive Order directs a federal government-wide approach to governing AI so that it is developed and used safely, securely, and responsibly. It specifically calls for protecting privacy, civil rights, and civil liberties while advancing equity in AI use. DHS is assigned a critical role in implementing these requirements in its own AI systems and in AI used across the homeland security enterprise. Consequently, any DHS AI system must align with the principles and safeguards set out in this Executive Order.",
+  "ground_truth": "Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:45:59.169481",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly refers to a general Executive Order on AI without specifying the correct one, which is Executive Order 13960. The response does not accurately identify the specific Executive Order that DHS systems must comply with.",
+  "provider": "deepseek"
+}

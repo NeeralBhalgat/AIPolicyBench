@@ -1,0 +1,12 @@
+{
+  "query_id": 160,
+  "query": "How many learners participated in NASA’s “Summer of AI”?",
+  "response": "NASA’s “Summer of AI” program, which was part of the NASA Internships program, involved a cohort of learners. However, the exact number of participants is not publicly specified in the available sources. The program aimed to engage students in AI-related projects and research, but precise enrollment figures are not detailed in the information provided.\n\nIf you need the exact number, I recommend checking NASA's official reports or contacting their education and outreach departments directly.",
+  "ground_truth": "Nearly 4,000.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:11:53.427008",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the exact number of participants in NASA's 'Summer of AI' program, which aligns with the classification of 'miss'. While it correctly notes that the number is not specified, it fails to provide the ground truth figure of nearly 4,000.",
+  "provider": "deepseek"
+}

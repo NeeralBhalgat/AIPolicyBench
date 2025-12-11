@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The plan targets legal risks from AI by mandating that AI systems, especially those acquired by the federal government, be \"objective and free from top-down ideological bias\" and instructs NIST to revise its AI Risk Management Framework to remove references to \"misinformation,\" \"Diversity, Equity, and Inclusion,\" and \"climate change.\"",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:03:55.701896",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on ideological bias and the removal of certain terms from the NIST framework, which does not align with the ground truth answer that specifically addresses malicious deepfakes and the development of evidentiary standards.",
+  "provider": "deepseek"
+}

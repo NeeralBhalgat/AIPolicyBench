@@ -1,0 +1,11 @@
+{
+  "query_id": 89,
+  "query": "How does DHS handle AI incident reporting?",
+  "response": "",
+  "ground_truth": "By maintaining coordinated procedures for reporting and responding to AI-related incidents that cause harm, civil rights impacts, or data breaches.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:49:51.889641",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

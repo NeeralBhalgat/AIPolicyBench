@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "The civil penalty for violating the act may be imposed for \"knowing and willful failure to file, report required information on, or falsification of a public financial disclosure report\" under 5 U.S.C. 13106(a)(1).",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:50.821790",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response correctly identifies a violation related to financial disclosure but fails to mention the specific civil penalty amount of up to $1,000,000, which is crucial for a complete and accurate answer.",
+  "provider": "deepseek"
+}

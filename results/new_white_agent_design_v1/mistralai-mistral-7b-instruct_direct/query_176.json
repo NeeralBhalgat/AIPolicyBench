@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "The NRC (National Research Council) distinguishes automation as the use of technology to perform tasks without human intervention, while autonomy involves systems that can make decisions and act independently, often with some level of self-governance.",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:37.333914",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes automation and autonomy. While it correctly identifies that automation involves technology performing tasks without human intervention, it fails to capture the essence of autonomy, which is about decision-making and self-governance based on learned data, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

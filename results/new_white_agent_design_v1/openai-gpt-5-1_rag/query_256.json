@@ -1,0 +1,12 @@
+{
+  "query_id": 256,
+  "query": "Does adjusting lighting or color correction make an image a “digitally altered image”?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "No, these common adjustments do not change the representation of the property and are excluded.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:31:08.824544",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which is a clear indication of a lack of knowledge regarding the topic.",
+  "provider": "deepseek"
+}

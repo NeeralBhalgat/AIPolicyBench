@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "Part 1: A change requiring updates to AI artifacts is triggered by new federal agency requirements in law, executive orders, and guidance, as well as by the need to address potential harms and maintain protections for privacy, civil rights, and civil liberties.\n\nPart 2: The federal government establishes requirements through laws, executive orders, and official guidance that directly govern AI use, necessitating updates to ensure compliance. Furthermore, the emergence of documented risks, such as AI-related psychological harms and safety incidents, creates a need for updates to mitigate these dangers. Finally, the imperative to maintain strong protections for Americans' privacy, civil rights, and civil liberties while adopting AI serves as a foundational principle driving continuous review and improvement of AI systems.",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:47:26.769028",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses relevant factors that may necessitate updates to AI artifacts, it does not directly address the specific changes to scope, purpose, impact, models, or data sources as outlined in the ground truth answer. Instead, it focuses on regulatory and ethical considerations, which, while important, do not encompass the full range of changes that would require updates.",
+  "provider": "deepseek"
+}

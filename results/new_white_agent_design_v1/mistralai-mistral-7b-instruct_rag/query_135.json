@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to provide information about AI use cases, including risk mitigation strategies, as part of the AI inventory. [Source 3]",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:12:27.166768",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response specifies that project teams must provide information about AI use cases and risk mitigation strategies, which is not aligned with the ground truth answer that emphasizes the need for clear, detailed responses to all required inventory questions. The response is partially correct but does not encompass the full requirement as stated in the ground truth.",
+  "provider": "deepseek"
+}

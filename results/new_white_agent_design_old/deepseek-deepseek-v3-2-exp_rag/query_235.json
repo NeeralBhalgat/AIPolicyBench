@@ -1,0 +1,12 @@
+{
+  "query_id": 235,
+  "query": "Against whom are existing prohibitions on deceptive medical terms enforceable under AB 489?",
+  "response": "Part 1: Existing prohibitions on deceptive medical terms are enforceable against any person or entity that is not a licensee of the applicable healing arts board.\n\nPart 2: The law clarifies that these prohibitions are not limited to licensees of the specific board. They apply broadly to any individual or organization that is not licensed by the relevant healing arts board, thereby preventing unlicensed persons or entities from using deceptive terms that imply they are licensed professionals. This ensures the scope of enforcement extends beyond just the licensees regulated by a particular board to encompass all unlicensed actors in the healthcare field.",
+  "ground_truth": "Any person or entity that develops or deploys an AI or GenAI system using prohibited terms in advertising or functionality.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:12:32.768315",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that the prohibitions are enforceable against any person or entity that is not a licensee of the applicable healing arts board, while the ground truth specifies that it applies to those developing or deploying AI or GenAI systems using prohibited terms. This indicates a misunderstanding of the specific context of the law.",
+  "provider": "deepseek"
+}

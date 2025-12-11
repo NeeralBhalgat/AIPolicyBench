@@ -1,0 +1,7 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "error": "HTTP Error 502: Server error '502 Bad Gateway' for url 'https://earlier-edward-reproductive-paris.trycloudflare.com/to_agent/b198a530f3384f35b5850982c3dd08ab'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+  "evaluation_result": "error"
+}

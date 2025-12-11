@@ -1,0 +1,12 @@
+{
+  "query_id": 274,
+  "query": "What must a large frontier developer publish on its website?",
+  "response": "**Part 1:**  \nA large frontier developer must publicly publish on its website a framework describing how the company has incorporated national standards, international standards, and industry‑consensus best practices into its frontier AI framework.\n\n**Part 2:**  \nThis means the company must clearly lay out, in a public document on its site, which recognized standards and best practices it follows and how those are integrated into the way it builds and manages frontier AI models. The framework is intended to improve transparency about the company’s internal safety, governance, and risk‑management processes. In addition, when releasing new frontier models in California, developers must also publish information about those models, including their intended uses, supported languages and modalities, and terms of service. Large developers further have to explain how each release complies with their published framework, including any catastrophic risk assessments and the role of third‑party evaluators.",
+  "ground_truth": "A frontier AI framework outlining risk thresholds, mitigations, governance, cybersecurity, and update processes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:31:54.603452",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the need for a framework and transparency in safety and governance, it does not accurately reflect the specific requirements outlined in the ground truth answer, which emphasizes risk thresholds, mitigations, governance, cybersecurity, and update processes. The details provided by the White Agent diverge from the essential elements of the required publication.",
+  "provider": "deepseek"
+}

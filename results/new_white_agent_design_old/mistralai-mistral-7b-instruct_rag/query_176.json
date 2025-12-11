@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "Part 1: The NRC does not explicitly frame the difference between automation and autonomy in the provided context.\n\nPart 2: The context discusses the NRC's reforms, including reorganizing its structure, revising regulations, and adopting new technologies, but it does not define or distinguish between automation and autonomy. The focus is on accelerating the deployment of nuclear technologies and streamlining regulatory processes, with no specific mention of the distinctions between automated and autonomous systems. The text emphasizes efficiency, innovation, and safety but does not address the conceptual or operational differences between automation and autonomy.",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:35.195494",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the NRC does not provide a distinction between automation and autonomy, which suggests uncertainty about the information. While it accurately reflects the lack of explicit definitions in the context provided, it does not address the ground truth answer regarding the differences between the two concepts.",
+  "provider": "deepseek"
+}

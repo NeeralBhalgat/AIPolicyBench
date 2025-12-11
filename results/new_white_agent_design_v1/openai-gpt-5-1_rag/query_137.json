@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:19:30.140383",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide the correct information about who IRS units can contact for AI-related guidance.",
+  "provider": "deepseek"
+}

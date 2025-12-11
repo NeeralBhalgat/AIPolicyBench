@@ -1,0 +1,12 @@
+{
+  "query_id": 224,
+  "query": "Does AB 316 prevent a defendant from presenting affirmative defenses unrelated to AI autonomy?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "No, defendants may still present other affirmative defenses.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:19.677209",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which is classified as a 'miss'.",
+  "provider": "deepseek"
+}

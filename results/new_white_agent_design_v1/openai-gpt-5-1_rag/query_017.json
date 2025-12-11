@@ -1,0 +1,12 @@
+{
+  "query_id": 17,
+  "query": "What must agencies do regarding generative AI policy, and by when?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:08:35.029638",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about generative AI policy and the timeline for agencies, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

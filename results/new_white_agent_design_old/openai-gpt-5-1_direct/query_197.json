@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "For internally developed AI code, there are **no single global “musts”** that apply everywhere, but there is a clear emerging standard of what *ought* to be in place to be compliant, safe, and defensible under current laws and guidance.\n\nBelow is a practical checklist of what is generally required or strongly expected, broken down by area. Where there are concrete regulatory hooks (EU, US, etc.), I flag them.\n\n---\n\n## 1. Governance and Accountability\n\n**a. Clear ownership and approval**\n- A named **product owner** and **technical lead** responsible for:\n  - the model’s purpose and use cases,\n  - risk assessment,\n  - approving releases and major changes.\n- For higher‑risk applications, a cross‑functional review (legal, compliance, security, privacy, domain experts).\n\n**b. Documented purpose & scope**\n- Written description of:\n  - What the system is intended to do (and not do),\n  - Who the users are,\n  - Context of use (internal tool, customer-facing, decision-support vs. automation).\n- Many frameworks (e.g., **NIST AI RMF**, **EU AI Act**) treat this as foundational.\n\n---\n\n## 2. Data Protection & Privacy Compliance\n\nIf **personal data** is involved, the system must comply with applicable data protection laws (e.g., **GDPR**, **CCPA/CPRA**, LGPD, etc.) even if it is only used internally.\n\nTypical requirements:\n\n- **Lawful basis** for processing personal data (e.g., contract, legitimate interests, consent).\n- **Data minimization**: use only what’s necessary; avoid sensitive attributes unless strictly needed.\n- **Purpose limitation**: training and usage purposes must be compatible with how the data was collected.\n- **Data Protection Impact",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:00:26.399702",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a detailed overview of governance, accountability, and data protection requirements for internally developed AI code, but it does not align with the ground truth answer, which states that the code must be shared internally and open-sourced unless restricted. The response does not mention open-sourcing or internal sharing, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

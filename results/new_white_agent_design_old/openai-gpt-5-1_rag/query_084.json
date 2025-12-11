@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "Part 1:  \nThe Directive does not expressly prohibit particular categories of AI use; instead, it identifies “specific Federal Government uses of AI that are presumed by default to impact rights or safety” and subjects them to required minimum risk‑management practices such as assessing and mitigating disparate impacts and algorithmic discrimination, providing notice of the use of AI, continuously monitoring and evaluating deployed AI, and granting human consideration and remedies for adverse decisions made using AI.  \n\nPart 2:  \nUnder this framework, the federal government’s approach is cautious and oversight‑focused rather than built on outright bans. AI systems that affect people’s rights or safety must follow stringent safeguards, including public consultation, data‑quality assessments, disparate‑impact mitigation, ongoing monitoring, and human review and redress. Agencies are directed to develop AI strategies and high‑impact use cases while also reducing barriers to responsible use, such as infrastructure and workforce limitations. In practice, this means that AI uses are restricted or effectively disallowed when agencies cannot meet these minimum risk‑management and rights‑protecting requirements, rather than being categorically prohibited by type.",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:43:45.863469",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the specific prohibitions outlined in the ground truth answer. While it discusses risk management practices and oversight, it fails to mention the explicit prohibitions such as using AI for biased purposes or unlawful mass surveillance, which are critical to understanding the Directive's restrictions.",
+  "provider": "deepseek"
+}

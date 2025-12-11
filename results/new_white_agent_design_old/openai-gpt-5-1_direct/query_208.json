@@ -1,0 +1,12 @@
+{
+  "query_id": 208,
+  "query": "Under §11016(b)(1), what must pre-employment inquiries avoid identifying?",
+  "response": "Under §11016(b)(1), pre-employment inquiries must **not be phrased in a way that identifies whether an applicant has a disability or medical condition** (i.e., they cannot be framed so as to reveal a physical or mental disability or medical condition).",
+  "ground_truth": "Any basis enumerated in the Act unless justified by a permissible defense.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:01:08.540477",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses solely on disabilities or medical conditions, while the ground truth specifies that pre-employment inquiries must avoid identifying any basis enumerated in the Act unless justified by a permissible defense. This indicates a broader scope than just disabilities.",
+  "provider": "deepseek"
+}

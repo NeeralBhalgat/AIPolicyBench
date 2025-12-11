@@ -1,0 +1,12 @@
+{
+  "query_id": 221,
+  "query": "How does AB 316 define “artificial intelligence” in Civil Code §1714.46(a)?",
+  "response": "Error: No relevant reputable articles found.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:10:09.157633",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates a lack of information regarding the definition of 'artificial intelligence' as per AB 316, which aligns with the classification of expressing uncertainty.",
+  "provider": "deepseek"
+}

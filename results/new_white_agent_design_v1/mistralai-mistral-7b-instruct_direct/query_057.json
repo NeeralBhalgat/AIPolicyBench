@@ -1,0 +1,12 @@
+{
+  "query_id": 57,
+  "query": "How will the DoD strengthen governance while removing policy barriers?",
+  "response": "The Department of Defense (DoD) aims to strengthen governance by implementing robust oversight mechanisms, such as the establishment of the Chief Digital and Artificial Intelligence Office (CDAO) and the Joint Artificial Intelligence Center (JAIC), to ensure responsible AI development and deployment. Additionally, the DoD is working to remove policy barriers by streamlining acquisition processes, fostering collaboration with industry and academia, and updating regulations to support innovation while maintaining security and ethical standards.",
+  "ground_truth": "By creating risk-adjusted, collaborative governance that supports responsible, fast, and lawful AI adoption.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:29.117046",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the DoD's efforts to strengthen governance through oversight mechanisms and the removal of policy barriers, aligning with the ground truth's emphasis on collaborative governance and responsible AI adoption.",
+  "provider": "deepseek"
+}

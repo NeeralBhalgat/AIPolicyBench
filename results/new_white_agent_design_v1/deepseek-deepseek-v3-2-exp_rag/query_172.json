@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "The NRC will evaluate AI applications to ensure they align with human-defined objectives and can safely make predictions, recommendations, or decisions influencing real or virtual environments.",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:47:09.517475",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on alignment with human-defined objectives and safety in predictions, which is somewhat relevant but does not address the specific technical considerations like bias, robustness, security, explainability, and model maintenance that the NRC will evaluate.",
+  "provider": "deepseek"
+}

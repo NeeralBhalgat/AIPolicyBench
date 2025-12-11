@@ -1,0 +1,12 @@
+{
+  "query_id": 237,
+  "query": "What constitutes a separate violation under AB 489?",
+  "response": "AB 489, a California bill related to automated decision systems (ADS), outlines specific requirements for transparency and accountability in the use of automated decision systems by state agencies. A \"separate violation\" under AB 489 would typically occur when a state agency fails to comply with any of the bill's requirements in a distinct or independent manner. Here are some key provisions that could constitute separate violations:\n\n1. **Failure to Publish an Inventory of ADS**: AB 489 requires state agencies to publish an inventory of all automated decision systems they use. Each failure to publish or update this inventory could be considered a separate violation.\n\n2. **Inadequate Impact Assessments**: The bill mandates that agencies conduct impact assessments for high-risk ADS. If an agency fails to conduct an assessment for a specific ADS or if the assessment is deemed inadequate, this could be a separate violation.\n\n3. **Non-Compliance with Public Disclosure Requirements**: Agencies must make certain information about ADS publicly available, including the purpose, data sources, and potential impacts. Each instance of non-compliance with these disclosure requirements could be a separate violation.\n\n4. **Failure to Provide Notice and Opportunity for Review**: For decisions that significantly affect individuals, agencies must provide notice and an opportunity for review. Each failure to do so for a specific decision could be a separate violation.\n\n5. **Non-Compliance with Record-Keeping Requirements**: Agencies must maintain records of their ADS use and assessments. Failure to keep these records could be a separate violation.\n\nEach of these violations would be evaluated based on the specific circumstances and the agency's actions or inactions. The bill also provides for enforcement mechanisms, including audits and penalties, to ensure compliance.",
+  "ground_truth": "Each use of a prohibited term, letter, or phrase.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:48.260619",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response provides a detailed explanation of potential violations under AB 489, but it does not align with the ground truth answer, which specifies that a separate violation is defined as each use of a prohibited term, letter, or phrase. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

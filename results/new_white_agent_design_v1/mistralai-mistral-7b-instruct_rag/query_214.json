@@ -1,0 +1,12 @@
+{
+  "query_id": 214,
+  "query": "What federal document must the California Cybersecurity Integration Center review when developing the playbook?",
+  "response": "The California Cybersecurity Integration Center must review \"federal requirements, standards, and industry best practices\" when developing the playbook. [REF]Sources 4 and 5[/REF]",
+  "ground_truth": "The Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:19:51.948452",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention the specific federal document, 'The Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook,' which is the correct answer. Instead, it provides a vague reference to reviewing 'federal requirements, standards, and industry best practices,' which does not accurately address the question.",
+  "provider": "deepseek"
+}

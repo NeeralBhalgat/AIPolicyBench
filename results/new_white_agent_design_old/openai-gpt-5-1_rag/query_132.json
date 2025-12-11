@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Part 1: The provided context does not state any explicit requirement for what project teams must do when retraining a model.  \n\nPart 2: The excerpts you provided focus on establishing responsible AI standards, governance structures, and “ethical by design” practices, but they do not mention retraining or model updates at all. Because of this, there is no ground‑truth sentence in the text that specifies what project teams must do when retraining a model. Based on the general principles in the context, a reasonable inference (not explicitly stated) is that retraining should fall under existing governance: teams would be expected to revisit risk assessments, bias testing, and documentation, and subject significant changes to the same oversight processes as the original model. However, that inference goes beyond what is actually written in the provided material.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:54:25.350726",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no explicit requirement for what project teams must do when retraining a model, while the ground truth answer specifies that updating the Model Card and Datasheet is necessary. The inference made by the White Agent about governance processes does not align with the specific requirement mentioned in the ground truth.",
+  "provider": "deepseek"
+}

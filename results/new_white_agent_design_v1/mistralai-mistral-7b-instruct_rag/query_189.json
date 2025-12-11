@@ -1,0 +1,12 @@
+{
+  "query_id": 189,
+  "query": "What is the AI Safety Team responsible for?",
+  "response": "The AI Safety Team is responsible for applying standards to critical infrastructure sectors and establishing the AI Safety and Security Board. [s]",
+  "ground_truth": "Adjudicating use cases, drafting guidance, enforcing security and privacy requirements.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:12.869548",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the responsibilities of the AI Safety Team. While it mentions applying standards and establishing a board, it does not align with the ground truth, which focuses on adjudicating use cases, drafting guidance, and enforcing security and privacy requirements.",
+  "provider": "deepseek"
+}

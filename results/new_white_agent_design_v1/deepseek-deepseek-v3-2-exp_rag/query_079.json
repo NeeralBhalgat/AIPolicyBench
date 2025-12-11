@@ -1,0 +1,12 @@
+{
+  "query_id": 79,
+  "query": "What role does the HHS Chief AI Officer (CAIO) play?",
+  "response": "Based on the provided sources, the HHS Chief AI Officer (CAIO) leads the development and implementation of the department's AI strategy to integrate AI across operations and research in a responsible, mission-driven manner.",
+  "ground_truth": "The CAIO coordinates implementation of the Strategic Plan, oversees AI governance, and aligns division efforts.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:40:01.498457",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of the HHS Chief AI Officer in leading the AI strategy and integrating AI across operations and research, which aligns with the ground truth answer regarding the coordination of the Strategic Plan and oversight of AI governance.",
+  "provider": "deepseek"
+}

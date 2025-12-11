@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "Part 1: Before beginning operational use of an AI use case, agencies must complete an AI impact assessment and provide notice to the public.\n\nPart 2: These requirements are established to ensure responsible deployment and maintain public trust. The impact assessment is designed to evaluate potential effects on rights, safety, and equity. Public notification is mandated to foster transparency and allow for public awareness and feedback on the government's use of AI.",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:47:27.458091",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions an AI impact assessment and public notice, which are not the required artifacts (Model Card and Datasheet) specified in the ground truth answer. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

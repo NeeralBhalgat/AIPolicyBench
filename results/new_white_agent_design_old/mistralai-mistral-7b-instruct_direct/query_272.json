@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "According to California Senate Bill 53 (SB 53), a \"frontier model\" is defined as an advanced artificial intelligence model that meets the following criteria:\n\n1. **Training Compute Threshold**: The model is trained using a compute power equivalent to at least 10^26 floating-point operations (FLOPs) or more. This is a significant amount of computational resources, typically associated with the most advanced AI models.\n\n2. **Capability Threshold**: The model exhibits capabilities that are comparable to or exceed those of the most advanced models as of the date of the bill's enactment. This means the model is at the cutting edge of AI development in terms of its performance, versatility, or other key metrics.\n\n3. **Risk Threshold**: The model poses risks that are comparable to or exceed those posed by the most advanced models as of the date of the bill's enactment. This includes risks related to safety, security, societal impact, or other critical factors.\n\nThe bill aims to regulate these frontier models due to their potential for significant societal impact, both positive and negative. The definition is designed to capture the most advanced and potentially impactful AI systems, ensuring that they are subject to appropriate oversight and regulation.\n\nFor the most accurate and up-to-date information, it is always best to refer to the official text of the bill or consult legal experts.",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:17:46.483891",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly defines a 'frontier model' by including criteria related to capability and risk thresholds, which are not part of the official definition. The ground truth specifies only the compute operations threshold and mentions fine-tuning, which the White Agent's response omits.",
+  "provider": "deepseek"
+}

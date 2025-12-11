@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "**Part 1:**  \nBefore procuring AI through acquisition, agencies are required to ensure that agency privacy officials and programs have early, ongoing involvement in AI acquisition processes.\n\n**Part 2:**  \nThe guidance makes clear that privacy experts must be brought in at the outset of any AI procurement, not just after a solution has been selected or deployed. Their role is to identify and manage privacy risks and to ensure compliance with applicable laws and policies. Early involvement allows them to influence requirements, contract terms, and evaluation criteria so that risk and performance are addressed up front. This is especially important for AI that is rights‑impacting or safety‑impacting, where additional risk management requirements apply.",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:12:51.426341",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on the involvement of privacy officials in the AI acquisition process, which is not the same as the required coordination with the CAIO and review by the AI Safety Team as stated in the ground truth answer. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

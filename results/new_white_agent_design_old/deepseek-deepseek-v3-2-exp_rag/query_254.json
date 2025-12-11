@@ -1,0 +1,12 @@
+{
+  "query_id": 254,
+  "query": "How must the disclosure statement change if the broker satisfies the requirement by linking to unaltered images?",
+  "response": "Part 1: The disclosure statement must include a clear and conspicuous statement that the broker is not FDIC-insured and that the linked images are provided by the FDIC and are unaltered.\n\nPart 2: The requirement addresses the risk of consumer confusion when non-banks use FDIC-associated terms or images. To mitigate this, the rule mandates a specific disclosure clarifying the entity's uninsured status. This disclosure must be prominent and directly state that the broker is not FDIC-insured, even while using the official, unaltered images provided by the FDIC.",
+  "ground_truth": "It must state that the unaltered images can be accessed on the linked site.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:16:20.111469",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that the disclosure must include a statement about the broker's uninsured status and the unaltered images being provided by the FDIC. The ground truth specifies that the disclosure must state that the unaltered images can be accessed on the linked site, which is not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

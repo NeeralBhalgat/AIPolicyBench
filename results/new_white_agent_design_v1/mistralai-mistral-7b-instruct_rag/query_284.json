@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "SB 361 requires data brokers to treat unverifiable deletion requests as opt-out of sale or sharing requests under the CCPA, with a 45-day deadline for processing such requests. [1][3]",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:23:02.825160",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement of SB 361 regarding the treatment of denied deletion requests as opt-out requests, including the 45-day processing deadline, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

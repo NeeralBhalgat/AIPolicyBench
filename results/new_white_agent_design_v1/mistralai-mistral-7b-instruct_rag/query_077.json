@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "HHS uses a framework with five core pillars: Governance and Risk Management, Infrastructure and Platform Design, Cataloguing AI Use Cases and \"OneHHS\" Sharing, Workforce and Culture, and Public Engagement and Transparency. This framework ensures robust oversight, modern AI platforms, efficient sharing, workforce readiness, and public trust. [s]",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:08:12.616988",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes a framework with five core pillars, which does not align with the ground truth answer that specifies the FAVES principles as the guiding framework for trustworthy AI development by HHS.",
+  "provider": "deepseek"
+}

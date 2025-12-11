@@ -1,0 +1,12 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "AI systems must be \"regularly monitored and tested\" for several critical aspects to ensure their safety, reliability, and ethical use. These include:\n\n1. **Bias and Fairness**: To detect and mitigate biases that could lead to discriminatory outcomes, ensuring the system treats all users fairly.\n2. **Accuracy and Performance**: To verify that the AI system performs as intended and meets its specified accuracy and reliability standards.\n3. **Security Vulnerabilities**: To identify and address potential security flaws that could be exploited by malicious actors.\n4. **Adverse Impacts**: To assess unintended consequences or harmful effects on individuals or society, such as privacy violations or misuse.\n5. **Compliance with Regulations**: To ensure the system adheres to relevant laws and regulatory requirements, such as data protection or industry-specific standards.\n6. **Robustness and Safety**: To test how the system responds to edge cases, adversarial inputs, or unexpected scenarios to prevent failures or unsafe behavior.\n7. **Transparency and Explainability**: To evaluate whether the system's decision-making processes can be understood and explained, particularly in high-stakes applications.\n\nRegular monitoring and testing are essential to maintain the integrity and trustworthiness of AI systems throughout their lifecycle.",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:10:34.339491",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides a comprehensive list of aspects for monitoring and testing AI systems, it does not align with the specific ground truth answer regarding alignment with the EO 13960 AI principles, which is a key aspect of AI policy and safety.",
+  "provider": "deepseek"
+}

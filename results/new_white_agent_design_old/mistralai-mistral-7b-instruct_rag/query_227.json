@@ -1,0 +1,12 @@
+{
+  "query_id": 227,
+  "query": "What type of harm is addressed in §1714.46(b) regarding artificial intelligence?",
+  "response": "§1714.46(b) addresses the harm of \"unfair or deceptive acts or practices\" in the context of artificial intelligence.\n\nThe regulation specifically targets AI systems that engage in activities deemed unfair or deceptive, which could mislead or harm consumers. This provision aims to ensure that AI applications operate transparently and ethically, preventing harm through misleading or manipulative practices. The focus is on protecting individuals from AI-driven actions that could be considered unethical or harmful under existing legal standards.",
+  "ground_truth": "Harm allegedly caused to a plaintiff by AI developed, modified, or used by a defendant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:51:14.888841",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly interprets §1714.46(b) as addressing 'unfair or deceptive acts or practices' rather than the actual focus on harm caused to a plaintiff by AI. This misinterpretation indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

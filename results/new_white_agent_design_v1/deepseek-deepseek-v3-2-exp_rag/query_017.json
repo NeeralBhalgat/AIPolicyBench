@@ -1,0 +1,12 @@
+{
+  "query_id": 17,
+  "query": "What must agencies do regarding generative AI policy, and by when?",
+  "response": "Agencies must develop a generative AI policy within 270 days.",
+  "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:34:24.860310",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately states that agencies must develop a generative AI policy within 270 days, which aligns with the ground truth answer regarding the establishment of acceptable use and safeguards.",
+  "provider": "deepseek"
+}

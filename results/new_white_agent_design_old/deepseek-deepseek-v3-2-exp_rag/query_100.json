@@ -1,0 +1,12 @@
+{
+  "query_id": 100,
+  "query": "When must DHS complete its formal AI Directive and Instruction?",
+  "response": "Part 1: The Department of Homeland Security must complete its formal AI Directive and Instruction by December 1, 2025.\n\nPart 2: The requirement for DHS to complete its AI Directive and Instruction is mandated by a memorandum from the Executive Office of the President. This memorandum sets a government-wide deadline for all federal agencies to finalize their specific AI policies. The directive is part of a broader initiative to accelerate the use of artificial intelligence while ensuring proper governance and public trust. Therefore, DHS is required to comply with this established deadline.",
+  "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:41:38.278795",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the DHS must complete its formal AI Directive and Instruction by December 1, 2025, while the ground truth specifies that it must be completed within 12 months after the publication of Policy Statement 139-06, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

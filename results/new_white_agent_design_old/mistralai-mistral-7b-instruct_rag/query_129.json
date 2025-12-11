@@ -1,0 +1,11 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:39.723457",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

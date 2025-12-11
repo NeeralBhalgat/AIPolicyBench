@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "Part 1: The USDA will develop and maintain the USDA Directives system, an online repository for Departmental Regulations, Notices, Manuals, and Secretary Memoranda.\n\nPart 2: This system ensures compliance with federal laws, executive orders, and policies by housing all relevant regulations and directives. The USDA Directives system serves as a centralized platform for accessing and managing regulatory documents, supporting the department's mission to enforce and implement agricultural and food-related policies. This infrastructure is critical for maintaining transparency and consistency in USDA operations.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:23:55.091864",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the USDA Directives system, which is not relevant to the question about the infrastructure and tools the USDA will stand up. The ground truth answer mentions a semi-federated model and specific initiatives related to AI, which are not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

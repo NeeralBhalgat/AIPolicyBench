@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Part 1: When retraining a model, project teams must evaluate the model's capabilities to present Chemical, Biological, Radiological, and Nuclear (CBRN) threats and assess the risks of model misuse, including the risks associated with actors fine-tuning dual-use foundation models or removing those models’ safeguards.\n\nPart 2: The executive order specifically directs an evaluation of AI model capabilities to present CBRN threats for the sole purpose of guarding against them. It also highlights the need to minimize the risks of AI model misuse that could generate or exacerbate these threats. This includes soliciting input on the risks associated with actors fine-tuning dual-use foundation models with widely available weights or removing their safeguards. Therefore, retraining efforts must be conducted with these safety and security evaluations in mind.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:48:22.848409",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on evaluating risks related to CBRN threats and model misuse, which is not the primary requirement when retraining a model. The ground truth answer emphasizes the need to update the Model Card and Datasheet, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

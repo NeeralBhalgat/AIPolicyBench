@@ -1,0 +1,12 @@
+{
+  "query_id": 255,
+  "query": "Define “digitally altered image” under AB 723.",
+  "response": "**Part 1:** The provided context does not clearly set out AB 723’s definition of “digitally altered image,” so I cannot state the bill’s definition with confidence.  \n\n**Part 2:** The Senate analysis text for AB 723 that is available here is heavily corrupted, and the specific definitional subsection that would normally contain the term “digitally altered image” is unreadable. Because of this, I cannot reliably reconstruct or quote the statutory language used in the bill. In similar legislation, “digitally altered image” usually refers to an image that has been created or modified using digital technology to falsely depict a person (often in a sexual context), but applying that general pattern to AB 723 would be speculative. To avoid misrepresenting the law, I can only say that AB 723 does define the term, but its exact wording is not accessible from the materials provided.",
+  "ground_truth": "An image edited using photo software or AI to add, remove, or change elements such as fixtures, furniture, landscape, or visible surroundings.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:27:18.427034",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about the definition of 'digitally altered image' under AB 723, indicating that the specific language is not accessible. While it provides a general idea of what the term usually refers to, it does not provide a definitive answer, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 296,
+  "query": "What restrictions apply to contracted vendors processing law enforcement data?",
+  "response": "Contracted vendors that handle law enforcement Criminal Justice Information must comply with the FBI CJIS Security Policy, which “establishes minimum security requirements for organizations that handle CJI” and imposes “strict requirements around access, encryption, monitoring, and reporting” for this data.",
+  "ground_truth": "Vendors cannot share or sell the data except for the agency’s purposes or by court order.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:34:51.347176",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent correctly references the FBI CJIS Security Policy and its requirements, it fails to mention the specific restriction that vendors cannot share or sell the data except for the agency’s purposes or by court order, which is a critical aspect of the restrictions on processing law enforcement data.",
+  "provider": "deepseek"
+}

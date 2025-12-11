@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "Based on the provided sources, the research priorities to make AI safer for high-stakes use include accelerating the development of privacy-preserving techniques and establishing an advanced cybersecurity program to develop AI tools to find and fix vulnerabilities in critical software.",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:33:37.312939",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on privacy-preserving techniques and cybersecurity, which are important but do not align with the ground truth answer that emphasizes interpretability, control systems, and adversarial robustness as key research priorities for AI safety in high-stakes use.",
+  "provider": "deepseek"
+}

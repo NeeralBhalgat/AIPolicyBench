@@ -1,0 +1,12 @@
+{
+  "query_id": 2,
+  "query": "Why must the U.S. win the global AI race?",
+  "response": "Part 1: The U.S. must win the global AI race to \"dominate\" the center of the global economy and ensure U.S. companies, rather than competitors like China, capture the expanding market for AI services and infrastructure.\n\nPart 2: The AI Action Plan emphasizes that the nation leading in AI will shape the global economy, making it a strategic imperative for the U.S. to maintain dominance. The plan outlines over 100 recommendations to strengthen U.S. leadership, including building AI infrastructure and diffusing U.S. technology globally. By securing this position, the U.S. can protect national security and economic competitiveness, while preventing competitors from gaining control of critical AI markets. The plan acknowledges that other nations will develop AI regardless, so the focus is on ensuring U.S. companies lead the industry.",
+  "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:20:10.508637",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the strategic importance of the U.S. winning the global AI race, emphasizing economic dominance and national security, which aligns with the ground truth answer regarding setting global standards and gaining benefits.",
+  "provider": "deepseek"
+}

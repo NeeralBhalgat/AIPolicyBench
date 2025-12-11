@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "Part 1: AI-generated data products must include safety and transparency measures, as mandated by state-level laws like California's AI safety and transparency bill SB 53.\n\nPart 2: The push for these requirements comes from states that have enacted their own AI rules due to a lack of federal consumer protections and a desire to guard against potential harms. For example, California's SB 53 specifically focuses on safety and transparency for AI systems. This state-level action is occurring despite a concurrent political effort to establish a single federal rule that would preempt such state laws.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:04:59.737297",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses safety and transparency measures and references California's SB 53, but it does not mention the requirement for metadata labeling indicating that data products were AI-generated, which is the ground truth answer.",
+  "provider": "deepseek"
+}

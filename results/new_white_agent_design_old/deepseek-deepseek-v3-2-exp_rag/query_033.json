@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "Part 1: The primary governance bodies leading AI are the federal government, as directed by executive orders and actions from the White House and agencies like NIST, which is named in a large number of recommended policy actions.\n\nPart 2: The federal government is asserting its leadership role through executive action aimed at preempting state-level AI regulations to avoid a patchwork of laws. This is evidenced by a proposed executive order to block state AI laws, despite pushback from state leaders who argue it constitutes federal overreach. Furthermore, federal agencies, particularly NIST, are centrally tasked with implementing a wide range of AI policy actions to ensure national standards and American competitiveness.",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:28:10.002460",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on the federal government's role and mentions NIST, but it fails to include the specific governance bodies listed in the ground truth answer, such as CAIO and the USDA AI Council. This indicates a lack of accuracy in identifying the leading governance bodies in AI.",
+  "provider": "deepseek"
+}

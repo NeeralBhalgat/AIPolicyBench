@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "HHS uses the **NIST AI Risk Management Framework (AI RMF)** as its primary framework to guide the development and use of *trustworthy* AI.\n\nHHS AI policy and guidance documents explicitly align their principles for trustworthy AI (e.g., fairness, transparency, accountability, robustness, privacy) with the **NIST AI RMF**, and implement it as the standard approach for managing AI risk across HHS programs and systems.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:48:17.319521",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that HHS uses the NIST AI Risk Management Framework as its primary framework for trustworthy AI development, while the ground truth indicates that HHS follows the FAVES principles. This discrepancy suggests a misunderstanding of HHS's actual framework for AI policy.",
+  "provider": "deepseek"
+}

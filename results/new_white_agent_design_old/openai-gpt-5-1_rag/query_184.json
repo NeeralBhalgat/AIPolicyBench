@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Part 1:  \nAgencies must conduct AI governance and risk management activities in accordance with guidance developed for them, ensuring these efforts are guided by the principles set out in the NIST AI Risk Management Framework and related national standards strategies.\n\nPart 2:  \nThe Executive Order directs the Office of Management and Budget to create an interagency council and to develop specific guidance on AI governance and risk management activities for federal agencies. Agencies are then expected to align their AI practices with this guidance. The Order further specifies that these efforts must be informed by the NIST AI Risk Management Framework, embedding its principles, guidelines, and best practices into agency operations. This is meant to ensure AI use by agencies is safe, secure, trustworthy, and consistent with national standards.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:09:42.560757",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirements for agencies regarding AI governance and risk management, aligning with the principles of the NIST AI Risk Management Framework and the directives from the Executive Order. It emphasizes the need for agencies to conduct risk management activities, which is consistent with the ground truth answer about measuring, monitoring, evaluating, and reporting on AI activities.",
+  "provider": "deepseek"
+}

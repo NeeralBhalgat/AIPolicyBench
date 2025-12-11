@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "Part 1: A use case, as defined by the NRC, is a specific category of license authorizing the possession, use, and/or installation of materials like source material for shielding, or the receipt and storage of spent fuel at an independent spent fuel storage installation (ISFSI).\n\nPart 2: The NRC establishes distinct regulatory and fee categories for different types of licenses based on the material involved and the authorized activity. These categories, such as licenses for broad-scope possession of byproduct material or licenses only for source material used in shielding, represent specific use cases. The applicable requirements and fees are then determined according to these defined license categories.",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:01:20.672372",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response defines a use case in the context of NRC licensing, which is unrelated to the ground truth definition of a use case as a specific situation for applying an AI product or service.",
+  "provider": "deepseek"
+}

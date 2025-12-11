@@ -1,0 +1,12 @@
+{
+  "query_id": 116,
+  "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+  "response": "Part 1: An AI use case is determined to be safety-impacting or rights-impacting based on its specific use case, with certain applications, such as those controlling hazardous materials or monitoring tenants in public housing, being explicitly presumed to fall into these categories.\n\nPart 2: The guidance defines safety-impacting AI systems as those with uses that have a significant impact on people’s safety, while rights-impacting systems are those significantly impacting people's rights. To provide clarity, the guidance identifies specific examples that are presumed to be in these categories. For instance, systems controlling the transport of hazardous chemicals are presumed safety-impacting, and those used for monitoring tenants in public housing or pre-employment screening are presumed rights-impacting. This approach ensures attention is directed toward use cases with serious potential consequences.",
+  "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:45:03.654830",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the criteria for determining whether an AI use case is safety-impacting or rights-impacting, aligning with the ground truth that focuses on the significant influence of AI outputs on real-world decisions affecting safety or rights.",
+  "provider": "deepseek"
+}

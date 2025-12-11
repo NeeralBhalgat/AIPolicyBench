@@ -1,0 +1,12 @@
+{
+  "query_id": 287,
+  "query": "When must data brokers access the deletion mechanism, and how often must they delete data after a consumer request?",
+  "response": "Part 1: Data brokers must access the \"accessible deletion mechanism\" at least once every 45 days beginning August 1, 2026, and process consumer deletion requests.\n\nPart 2: The mechanism is the Delete Request and Opt-Out Platform (DROP), which allows a consumer to make a single verifiable request for deletion from every registered data broker. The requirement to access the platform every 45 days and process the requests is a specific legal mandate starting on that date. However, data brokers registering in January 2026 are not required to begin processing these consumer deletion lists until August 2026.",
+  "ground_truth": "At least every 45 days, and they must delete all personal information every 45 days after an initial deletion request.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:22:25.566464",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly states that data brokers must access the deletion mechanism starting August 1, 2026, which is a future date. The requirement to delete data after a consumer request is also misrepresented, as it should be every 45 days after the initial request, not starting from a future date.",
+  "provider": "deepseek"
+}

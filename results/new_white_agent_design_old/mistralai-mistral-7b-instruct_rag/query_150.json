@@ -1,0 +1,12 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "Part 1: NASA invites the general public and other Federal agencies to comment on proposed and/or continuing information collections, as required by the Paperwork Reduction Act of 1995 (PRA).\n\nPart 2: The context indicates that NASA regularly engages in processes to reduce paperwork and respondent burden, including soliciting public and agency feedback on information collections. This aligns with the Paperwork Reduction Act of 1995, which mandates such reviews to ensure efficiency and compliance. By inviting comments, NASA can assess the relevance and necessity of existing or proposed information collections, including those that may have expired or become outdated. This process helps in updating or retiring expired use cases as part of their administrative procedures.",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:39:56.286558",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses NASA's processes related to the Paperwork Reduction Act and public feedback but does not accurately address how expired use cases are specifically handled. The ground truth states that expired use cases will be archived, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

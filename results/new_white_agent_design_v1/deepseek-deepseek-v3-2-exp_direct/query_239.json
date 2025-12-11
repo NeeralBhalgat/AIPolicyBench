@@ -1,0 +1,12 @@
+{
+  "query_id": 239,
+  "query": "What must an AI or GenAI system avoid implying in its advertising or functionality?",
+  "response": "An AI system must avoid implying that it possesses human-like consciousness, emotions, or experiences.",
+  "ground_truth": "That its outputs come from a licensed natural health care professional.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:04:40.193550",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly focuses on the implications of human-like consciousness in AI, which is not the ground truth answer. The correct implication to avoid is that outputs come from a licensed natural health care professional, which the White Agent did not address.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 247,
+  "query": "How often must minors receive a reminder notification during continued chatbot interactions?",
+  "response": "The frequency of reminder notifications for minors during chatbot interactions depends on the specific regulations and guidelines set by the platform or jurisdiction. For example, in the European Union, under the General Data Protection Regulation (GDPR) and the Digital Services Act (DSA), there are requirements for age-appropriate design and transparency, which may include periodic reminders for minors. However, the exact frequency is not universally standardized and can vary.\n\nIn the U.S., the Children's Online Privacy Protection Act (COPPA) requires platforms to obtain verifiable parental consent for collecting personal information from children under 13, but it does not specify the frequency of reminder notifications during interactions.\n\nFor the most accurate and up-to-date information, it is advisable to consult the specific policies of the platform or the relevant regulatory authorities in the jurisdiction where the chatbot is being used.",
+  "ground_truth": "At least every three hours.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:16:03.247967",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide a specific frequency for reminder notifications for minors, which is required by the ground truth answer. Instead, it discusses regulations without giving a definitive answer, indicating uncertainty.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "Based on the provided sources, there is no clear, direct evidence specifying who IRS units can contact for AI-related guidance.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:44:53.235927",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about who IRS units can contact for AI-related guidance, which aligns with the 'miss' classification. The ground truth specifies the CDAO team as the contact, which the White Agent does not acknowledge.",
+  "provider": "deepseek"
+}

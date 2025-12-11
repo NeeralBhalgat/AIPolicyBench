@@ -1,0 +1,12 @@
+{
+  "query_id": 253,
+  "query": "What additional requirement applies if the advertisement is posted on a website controlled by the broker?",
+  "response": "If the advertisement is posted on a website controlled by the broker, the broker must include a statement that the broker is a licensed real estate broker in the state where the property is located.",
+  "ground_truth": "The unaltered version of the images must also be included in the posting or via a link.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:02.315130",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the broker must include a statement of licensure, while the ground truth specifies that the unaltered version of the images must be included in the posting or via a link.",
+  "provider": "deepseek"
+}

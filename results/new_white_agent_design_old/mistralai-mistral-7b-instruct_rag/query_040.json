@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Error: No relevant reputable articles found.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:24:13.004303",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a lack of information or uncertainty by stating that no relevant reputable articles were found, which does not address the question about near-term enablers and wins.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "<s> [OUT] Part 1: Ten executive branch oversight groups have a role in federal AI use.\n\nPart 2: Federal efforts to coordinate AI are guided by various laws, executive orders, and guidance, including the AI in Government Act of 2020 and the Advancing American AI Act. These frameworks establish the need for oversight groups to ensure consistent and effective AI implementation. The coordination involves multiple bodies to manage data governance, policy enforcement, and project monitoring, ensuring alignment with federal priorities and standards. [/OUT]",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:21:35.297357",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions oversight groups and federal efforts but does not accurately identify the specific governance bodies required to coordinate AI across government, such as the Agency AI Governance Boards and the Chief AI Officer Council. Therefore, it contains incorrect information.",
+  "provider": "deepseek"
+}

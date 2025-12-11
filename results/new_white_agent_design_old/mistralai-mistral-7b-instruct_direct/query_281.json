@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "SB 361, also known as the \"Data Broker Registration Act,\" imposes several new disclosure requirements on data brokers when registering with the California Attorney General. These requirements include:\n\n1. **Business Information**: Data brokers must disclose their legal name, any fictitious business names, physical address, email address, and phone number.\n2. **Data Collection and Sale Practices**: They must provide detailed information about the types of personal information they collect, the sources of that information, and the categories of third parties to whom the data is sold or shared.\n3. **Data Retention Policies**: Brokers must disclose their data retention policies, including how long they retain personal information and the criteria used to determine retention periods.\n4. **Opt-Out Mechanisms**: They must describe any mechanisms they provide for consumers to opt out of the sale or sharing of their personal information.\n5. **Security Measures**: Brokers must disclose the security measures they have in place to protect personal information from unauthorized access, use, or disclosure.\n6. **Compliance with Laws**: They must attest to their compliance with applicable federal, state, and local laws related to data privacy and security.\n\nThese disclosures are intended to increase transparency and accountability in the data broker industry, allowing consumers and regulators to better understand how personal information is being collected, used, and shared.",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:51.509747",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed list of disclosure requirements but fails to mention specific data types that must be disclosed, such as names, DOBs, government IDs, and other sensitive information, which are critical components of SB 361's requirements.",
+  "provider": "deepseek"
+}

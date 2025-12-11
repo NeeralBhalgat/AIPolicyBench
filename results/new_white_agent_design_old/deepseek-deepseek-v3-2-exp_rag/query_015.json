@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "**Part 1:** Nineteen of the 24 CFO Act agencies completed and publicly posted their Compliance Plans by the deadline.\n\n**Part 2:** The analysis is based on data from October 2024 and assesses compliance with mandates from the OMB M-Memo. While the specific calendar date is not provided, the text confirms that a majority of CFO Act agencies met the original deadline, with the remaining agencies completing their plans within several weeks after it. This indicates that the requirement to publish these strategic AI plans had a firm deadline which most agencies adhered to.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:23:37.369542",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide the specific deadline for CFO Act agencies to publish their AI Strategy, which is within 180 days of issuance. Instead, it discusses compliance without addressing the exact timeline, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

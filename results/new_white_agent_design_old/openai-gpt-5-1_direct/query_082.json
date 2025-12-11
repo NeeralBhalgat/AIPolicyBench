@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "Within the Department of Homeland Security (DHS), the **Chief Artificial Intelligence Officer (Chief AI Officer)** is responsible for leading and coordinating AI use across the department.\n\nAs of late 2023 and into 2024, that role is held by **Eric Hysen**, who also serves as the **DHS Chief Information Officer (CIO)**. In this capacity, he is tasked with:\n\n- Overseeing and coordinating AI use across DHS components  \n- Ensuring AI is used responsibly, safely, and in line with federal directives (including Executive Order 14110 on AI)  \n- Promoting innovation and the secure adoption of AI within DHS operations  \n\nSo the direct answer: **AI use across DHS is led and coordinated by the DHS Chief AI Officer (currently Eric Hysen).**",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:48:31.636505",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the role of the Chief Artificial Intelligence Officer (CAIO) in leading and coordinating AI use across DHS, and correctly names Eric Hysen as the current holder of that position as of late 2023 and into 2024.",
+  "provider": "deepseek"
+}

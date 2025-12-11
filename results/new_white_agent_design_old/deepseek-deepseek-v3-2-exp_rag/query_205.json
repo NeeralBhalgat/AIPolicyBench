@@ -1,0 +1,12 @@
+{
+  "query_id": 205,
+  "query": "What is excluded from the definition of Automated-Decision Systems under §11008.1(a)(2)?",
+  "response": "**Part 1:** The definition of Automated-Decision Systems excludes \"systems that are used to support human decision-making, but do not make the final decision.\"\n\n**Part 2:** The exclusion applies to tools that function as aids for human judgment rather than as autonomous decision-makers. These systems provide analysis, recommendations, or data that a human uses to inform their final determination. Consequently, if a human retains ultimate authority and responsibility for the final outcome, the supporting system falls outside the formal definition.",
+  "ground_truth": "Software like word processing, spreadsheets, navigation, or similar tools that do not make employment decisions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:07:01.597998",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies that systems aiding human decision-making are excluded from the definition of Automated-Decision Systems. However, it fails to mention specific examples like word processing or spreadsheets, which are part of the ground truth answer, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

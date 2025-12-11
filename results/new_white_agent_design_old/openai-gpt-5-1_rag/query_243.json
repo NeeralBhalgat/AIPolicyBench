@@ -1,0 +1,12 @@
+{
+  "query_id": 243,
+  "query": "Name one type of system explicitly excluded from the definition of “companion chatbot.”",
+  "response": "Part 1: Based on the provided excerpts, I cannot identify any specific type of system that is explicitly excluded from the definition of “companion chatbot.”  \n\nPart 2: The text supplied is largely composed of corrupted PDF encoding and image/XObject data, and does not include the readable definitional sections where “companion chatbot” is described. Because the key statutory or initiative language is missing or unreadable, there is no clear passage listing what kinds of systems are excluded from that definition. Without that definitional text, I would be guessing if I named any particular system (such as search engines, customer-service bots, or others) as being excluded. To avoid giving an unsupported or inaccurate answer, I must conclude that the exclusions cannot be determined from the context provided.",
+  "ground_truth": "A bot used only for customer service.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:24:20.644750",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about the exclusions from the definition of 'companion chatbot' and admits that it cannot identify any specific type of system due to the lack of readable definitional text. This indicates a lack of knowledge rather than an attempt to provide a factual answer.",
+  "provider": "deepseek"
+}

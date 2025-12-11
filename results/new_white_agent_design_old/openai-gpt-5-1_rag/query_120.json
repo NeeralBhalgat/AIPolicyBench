@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "**Part 1:**  \nTrUCKR tracks the designation and periodic evaluation of “critical infrastructure sectors and subsectors of such sectors” and the associated “Sector Risk Management Agency” designations.  \n\n**Part 2:**  \nUnder the cited provisions, the Secretary must regularly “evaluate the current list of designated critical infrastructure sectors and subsectors of such sectors and the appropriateness of Sector Risk Management Agency designations,” and the President must review and, as appropriate, revise those designations. TrUCKR is focused on monitoring these statutory review and revision processes as they relate to sector risk management. This includes tracking changes to the list of critical infrastructure sectors and subsectors, as well as any revisions to which Federal departments or agencies serve as the Sector Risk Management Agency for each. In doing so, it provides a structured way to follow the legal and policy evolution of risk management responsibilities across critical infrastructure.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:51:32.350439",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses tracking critical infrastructure sectors and Sector Risk Management Agency designations, which is not aligned with the ground truth answer that focuses on all determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 225,
+  "query": "Can a defendant still present evidence related to causation or foreseeability under AB 316?",
+  "response": "Yes, a defendant can still present evidence related to causation or foreseeability. The measure preserves other defenses, including evidence relevant to causation or foreseeability.",
+  "ground_truth": "Yes, such evidence remains permissible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:51:38.507866",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that a defendant can present evidence related to causation or foreseeability under AB 316, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

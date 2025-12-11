@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "Part 1: DHS leadership has a broad role in advancing the responsible use of AI, promoting the adoption of AI safety standards globally, and ensuring the safe, secure, and responsible use and development of AI.\n\nPart 2: This responsibility stems from a presidential Executive Order directing DHS to protect U.S. networks and critical infrastructure. To execute this, CISA's roadmap outlines strategic efforts, which include promoting secure AI development, protecting infrastructure from malicious AI use, and fostering collaboration with government and international partners. A key initiative is the establishment of JCDC.AI to specifically address threats and vulnerabilities related to AI systems.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:41:37.944974",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the responsibilities of DHS leadership regarding AI adoption, emphasizing the importance of responsible use, safety standards, and collaboration, which aligns with the ground truth answer about ensuring AI use is trustworthy and effective.",
+  "provider": "deepseek"
+}

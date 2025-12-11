@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "**Part 1:**  \nA protected “whistleblower” is defined as any individual, or two or more individuals acting jointly, who take any of the actions described in §1992.102(b).  \n\n**Part 2:**  \nThese provisions protect individuals (including groups of two or more acting together) who lawfully provide information or otherwise engage in the activities listed in 31 U.S.C. 5323(a)(5) and (g)(1), as incorporated in §1992.102(b). Protection applies when they, for example, report potential violations of specified anti–money laundering and related statutes or assist in investigations about such violations. An employer may not directly or indirectly discharge, demote, suspend, threaten, blacklist, harass, or otherwise discriminate against these whistleblowers in the terms and conditions of employment or post‑employment because of those lawful acts. Thus, anyone who meets this definition and engages in the specified protected activity is covered by the anti‑retaliation protections.",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:32:53.059187",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses whistleblower protections related to anti-money laundering statutes, which does not align with the ground truth answer that specifies coverage for employees reporting catastrophic-risk dangers or violations of the TFAIA. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

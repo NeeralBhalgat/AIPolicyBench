@@ -1,0 +1,12 @@
+{
+  "query_id": 215,
+  "query": "What mandatory mechanisms must be included in the California AI Cybersecurity Collaboration Playbook?",
+  "response": "The California AI Cybersecurity Collaboration Playbook must include \"mandating reporting of threats by state AI contractors\" (Source 4) and \"imposes mandatory information sharing with AI service providers\" (Source 5).",
+  "ground_truth": "Mandatory mechanisms for information sharing on threats and vulnerabilities known to state contractors and AI vendors.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:19:49.636743",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the mandatory mechanisms outlined in the ground truth answer, specifically regarding the reporting of threats and information sharing by state AI contractors and service providers.",
+  "provider": "deepseek"
+}

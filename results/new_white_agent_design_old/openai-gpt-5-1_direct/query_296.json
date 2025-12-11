@@ -1,0 +1,12 @@
+{
+  "query_id": 296,
+  "query": "What restrictions apply to contracted vendors processing law enforcement data?",
+  "response": "Restrictions on vendors handling law-enforcement data are unusually strict because the data are both highly sensitive and often exempt from ordinary public access. The details vary by jurisdiction and contract, but there are clear common patterns and some hard legal requirements.\n\nBelow is a structured overview.\n\n---\n\n## 1. Common baseline restrictions (globally)\n\nMost democracies treat law‑enforcement data as a special category, even beyond normal “personal data.” Typical contractual and legal restrictions on vendors include:\n\n1. **Purpose limitation**\n   - Vendor may only use data for the **specific purposes** set out in the contract (e.g., running a case‑management system, analytics for investigations).\n   - Explicit prohibitions on:\n     - Using data to train unrelated AI models or products.\n     - Using data for marketing, advertising, product improvement, or benchmarking unless expressly and narrowly agreed and often with de‑identification.\n   - No “secondary use” or re‑purposing without written authorization and, often, a legal basis.\n\n2. **Role as “processor",
+  "ground_truth": "Vendors cannot share or sell the data except for the agency’s purposes or by court order.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:11:29.237521",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the restrictions on vendors processing law enforcement data, including purpose limitation and prohibitions on secondary use, which align with the ground truth that vendors cannot share or sell the data except for specific purposes or by court order.",
+  "provider": "deepseek"
+}

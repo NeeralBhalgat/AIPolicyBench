@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The order does **not create a new definition of AI**. It adopts by reference the existing statutory definition in the National Artificial Intelligence Initiative Act of 2020.\n\nIn Section 3 of the Executive Order on Safe, Secure, and Trustworthy AI (EO 14110), it states:\n\n> “The term ‘artificial intelligence’ or ‘AI’ has the meaning set forth in 15 U.S.C. 9401(3).”\n\nThat statute, 15 U.S.C. § 9401(3), defines AI as:\n\n> “a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments. Artificial intelligence systems use machine- and human-based inputs to  \n> (A) perceive real and virtual environments;  \n> (B) abstract such perceptions into models through analysis in an automated manner; and  \n> (C) use model inference to formulate options for information or action.”\n\nSo legally, the order’s definition of AI is exactly this National AI Initiative Act definition, incorporated by reference.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:41:03.553410",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that the order adopts the existing statutory definition of AI from the National Artificial Intelligence Initiative Act of 2020, and correctly cites the relevant statute and its definition.",
+  "provider": "deepseek"
+}

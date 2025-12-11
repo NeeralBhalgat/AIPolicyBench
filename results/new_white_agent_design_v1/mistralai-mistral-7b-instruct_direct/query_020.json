@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Sharing and inventory requirements that promote reuse and transparency include standardized data formats, open-access repositories, and clear documentation of data sources and methodologies. These practices ensure that data and resources are easily accessible, understandable, and reusable by others.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:39.754726",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides relevant information about sharing and inventory requirements, it does not directly address the specific ground truth answer regarding sharing custom AI code/models government-wide and publishing an annual AI use case inventory.",
+  "provider": "deepseek"
+}

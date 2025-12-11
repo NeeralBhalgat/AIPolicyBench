@@ -1,0 +1,12 @@
+{
+  "query_id": 201,
+  "query": "What does the term “Agent” include under §11008(b)?",
+  "response": "Under §11008(b), the term “Agent” includes any artificial intelligence system that performs tasks or makes decisions with a degree of autonomy, including but not limited to autonomous systems, AI-driven software, and other intelligent agents.",
+  "ground_truth": "An agent includes any person acting on behalf of an employer, including when activities are conducted through an automated-decision system.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:04.318985",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly defines 'Agent' as an AI system, while the ground truth specifies that it refers to a person acting on behalf of an employer, including automated systems. This misinterpretation leads to a factual inaccuracy.",
+  "provider": "deepseek"
+}

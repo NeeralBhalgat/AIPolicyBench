@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "Sharing and inventory requirements that promote reuse and transparency have a few recurring features across AI policy, open science, and sectoral regulation. They focus on: (1) comprehensive inventories/registries, (2) standardized documentation, and (3) structured, tiered sharing rules.\n\nBelow is a structured answer, with concrete practices and some real-world examples.\n\n---\n\n## 1. Comprehensive AI and data inventories\n\n**a. System-level inventories (what AI is used where)**  \nRequirements that help:\n\n- **Enterprise-wide AI system registry**\n  - Every AI/ML system, including third‑party tools, must be:\n    - Registered before deployment and updated",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:40:34.205912",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies key features that promote reuse and transparency in AI policy, such as comprehensive inventories and standardized documentation. These align with the ground truth answer, which emphasizes the importance of sharing AI use case inventories and registering AI systems. The response is factually accurate and relevant to the question.",
+  "provider": "deepseek"
+}

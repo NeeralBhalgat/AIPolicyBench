@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "**Part 1:**  \nHHS uses its Trustworthy AI framework—articulated in the HHS Trustworthy AI Playbook and expressed through HHS’s trustworthy AI principles—to guide trustworthy AI development.\n\n**Part 2:**  \nThis framework sets out principles for ensuring that AI is developed and used in ways that advance health and well-being while maintaining public trust. It emphasizes that AI should augment human activities, be reliable and safe, and be governed responsibly and transparently. HHS applies these trustworthy AI principles across areas like patient-centered outcomes research and regulatory activities. Together, they provide a consistent, department-wide approach for designing, evaluating, and deploying AI systems.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:42:34.895549",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response describes a Trustworthy AI framework and principles but does not mention the FAVES principles (Fair, Appropriate, Valid, Effective, and Safe), which are the correct guiding principles for HHS. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

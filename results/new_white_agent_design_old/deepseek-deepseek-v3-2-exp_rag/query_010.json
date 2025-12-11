@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "Part 1: The plan targets the legal risk from AI related to trustworthiness, verification, and assurance of AI systems, as well as AI risk management, by establishing a plan for global engagement to drive the development and implementation of AI-related consensus standards.\n\nPart 2: The executive order directs the Secretary of Commerce to create a plan for global engagement on AI standards, with specific lines of effort. These efforts explicitly include addressing the trustworthiness, verification, and assurance of AI systems, which are core legal risks concerning reliability and accountability. Additionally, the plan targets AI risk management itself, aiming to establish standards and best practices to mitigate these overarching risks. This approach uses international cooperation and consensus standards to provide a framework for managing and reducing these legal exposures.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:22:53.335326",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses legal risks related to trustworthiness and verification of AI systems, which is not aligned with the ground truth answer that specifically mentions malicious deepfakes and the development of NIST guidelines. The focus on general AI risk management and international standards does not address the specific legal risk identified in the ground truth.",
+  "provider": "deepseek"
+}

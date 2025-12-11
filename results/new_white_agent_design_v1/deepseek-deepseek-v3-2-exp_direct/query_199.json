@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "Based on my knowledge, there is no single, universally mandated requirement for all AI-generated data products. Regulations and guidelines are still developing and vary by jurisdiction and context.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:02:59.892412",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response acknowledges the lack of a universal requirement for AI-generated data products, which indicates uncertainty. However, it does not address the specific requirement of metadata labeling that is part of the ground truth answer.",
+  "provider": "deepseek"
+}

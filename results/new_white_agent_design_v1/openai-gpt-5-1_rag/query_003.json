@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "He signed an Executive Order that **revokes the Biden AI Executive Order**, eliminating what his administration called harmful Biden Administration AI policies that hampered private sector innovation.",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:07:04.228595",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the action taken by President Trump in revoking the Biden AI Executive Order, aligning with the ground truth that he rescinded Executive Order 14110 on AI.",
+  "provider": "deepseek"
+}

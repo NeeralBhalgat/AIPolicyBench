@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "Based on the sources provided, a clear and conspicuous disclosure is required on AI-generated content. This applies specifically to image, video, audio, or multimedia content produced by a generative AI system using interstate or foreign commerce.",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:48:50.509260",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response specifies a requirement for 'clear and conspicuous disclosure' but does not accurately reflect the ground truth that all AI-generated or AI-modified outputs must be labeled or watermarked. The focus on 'interstate or foreign commerce' is also misleading and not part of the general labeling requirement.",
+  "provider": "deepseek"
+}

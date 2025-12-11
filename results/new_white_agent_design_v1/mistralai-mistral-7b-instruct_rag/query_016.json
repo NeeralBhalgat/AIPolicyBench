@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "The sources mention that \"Agency Chief AI Officer roles are redefined to serve as change agents and AI advocates, rather than overseeing layers of bureaucracy.\" These Chief AI Officers are tasked with promoting AI innovation and adoption, mitigating risks, and advising on AI investments.",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:03.665079",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the role of Chief AI Officers but does not mention the required governance bodies, specifically the Agency AI Governance Boards and the Chief AI Officer Council, which are essential for coordinating AI across government.",
+  "provider": "deepseek"
+}

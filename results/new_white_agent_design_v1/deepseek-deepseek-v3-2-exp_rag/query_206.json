@@ -1,0 +1,12 @@
+{
+  "query_id": 206,
+  "query": "Under §11009(b), when is an employer liable for discriminatory actions?",
+  "response": "Based on the provided sources, an employer or other covered entity is liable for the discriminatory actions of its agents under the common law theory of *respondeat superior* and its codification in California Civil Code section 2338.\n\n**Source:** Source 1: CIVIL RIGHTS COUNCIL PROPOSED MODIFICATIONS TO EMPLOYMENT ...",
+  "ground_truth": "When discriminatory actions occur within the scope of employment or the agent’s relationship with the employer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:50:10.759002",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the principle of *respondeat superior*, indicating that an employer is liable for discriminatory actions of its agents when those actions occur within the scope of employment, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

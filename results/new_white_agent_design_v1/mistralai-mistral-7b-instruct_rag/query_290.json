@@ -1,0 +1,12 @@
+{
+  "query_id": 290,
+  "query": "How does SB 361 strengthen consumer privacy rights under the CPRA?",
+  "response": "SB 361 strengthens consumer privacy rights by requiring data brokers to disclose additional categories of personal data collected, including sensitive information like biometric data and immigration status, and mandating stricter deletion obligations within 45 days. [s]",
+  "ground_truth": "By expanding data broker disclosures, strengthening deletion rules, adding audits, and limiting public access to sensitive data types.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:24:52.552288",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects key aspects of SB 361, including the requirement for data brokers to disclose additional categories of personal data and the stricter deletion obligations. However, it does not mention audits and limiting public access to sensitive data types, which are also part of the ground truth answer.",
+  "provider": "deepseek"
+}

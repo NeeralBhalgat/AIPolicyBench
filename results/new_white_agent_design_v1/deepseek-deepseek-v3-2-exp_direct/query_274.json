@@ -1,0 +1,12 @@
+{
+  "query_id": 274,
+  "query": "What must a large frontier developer publish on its website?",
+  "response": "Based on my training data, a large frontier developer must publish a Frontier AI Safety Policy on its website.",
+  "ground_truth": "A frontier AI framework outlining risk thresholds, mitigations, governance, cybersecurity, and update processes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:06:01.441645",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions a 'Frontier AI Safety Policy,' which is not the same as the required comprehensive framework that includes risk thresholds, mitigations, governance, cybersecurity, and update processes. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

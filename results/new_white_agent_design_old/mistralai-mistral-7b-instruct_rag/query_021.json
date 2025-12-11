@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "Part 1: The core purpose of the order is to \"detect individuals with terrorist ties and stopping them from entering the United States\" through the visa-issuance process.\n\nPart 2: The executive order focuses on enhancing national security by strengthening the visa-issuance process to identify and prevent individuals with potential terrorist connections from entering the country. It emphasizes the role of this process in safeguarding the United States from threats. The order also delegates specific authorities to relevant agencies, such as the Secretary of the Treasury, to implement and enforce these measures, ensuring compliance with the outlined sanctions and regulations. This approach aligns with broader efforts to address national security concerns through targeted immigration and sanctions policies.",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:30.001115",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses an executive order related to national security and immigration, which does not align with the ground truth answer about U.S. AI leadership and ideological bias. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

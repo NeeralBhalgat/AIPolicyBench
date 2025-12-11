@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "Part 1:  \nFederal AI procurement will require contracts for LLMs to include terms ensuring compliance with the Unbiased AI Principles—especially ideological neutrality, under which models must be neutral, nonpartisan tools that do not manipulate responses in favor of ideological dogmas like DEI.\n\nPart 2:  \nThe executive order directs the Office of Management and Budget, in consultation with other federal leaders, to issue guidance so agencies apply these Unbiased AI Principles when buying AI systems. This means vendors must design LLMs that are truth‑seeking and ideologically neutral, and be transparent about any ideological judgments accessible to users. Federal contracts must embed enforceable clauses requiring such neutrality and accuracy, and can hold vendors financially accountable if noncompliance leads to contract termination. In practice, procurement becomes the main lever to keep federal AI systems from exhibiting or prioritizing specific ideological biases.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:24:42.370410",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response includes specific terms and processes that do not align with the ground truth, which emphasizes contracting only with developers of objective LLMs. The response suggests a broader framework and enforcement mechanisms that may not exist as described, indicating a misrepresentation of the actual procurement policies.",
+  "provider": "deepseek"
+}

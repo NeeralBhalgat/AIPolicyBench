@@ -1,0 +1,12 @@
+{
+  "query_id": 246,
+  "query": "What disclosure must be made to users that the operator knows are minors?",
+  "response": "The direct notice to parents must include a description of how the operator intends to use the child's personal information and a description of whether the operator discloses it to third parties, including their identities or specific categories and the purposes for such disclosure.",
+  "ground_truth": "The operator must disclose that the user is interacting with artificial intelligence.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:52:55.531711",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not address the requirement to disclose that the user is interacting with artificial intelligence, which is the key aspect of the ground truth answer. Instead, it focuses on parental notice regarding personal information, which is not the primary disclosure required for minors in this context.",
+  "provider": "deepseek"
+}

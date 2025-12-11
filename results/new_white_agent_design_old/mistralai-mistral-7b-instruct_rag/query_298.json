@@ -1,0 +1,12 @@
+{
+  "query_id": 298,
+  "query": "How does SB 524 define “first draft”?",
+  "response": "Part 1: SB 524 defines \"first draft\" as a document that has not been reviewed or revised by any other party.\n\nPart 2: In the context of Senate Bill 524, a \"first draft\" refers to a document that is initially created by an author or a group of authors without any input or changes from other parties. This means that the document has not been reviewed, edited, or revised by anyone else before being submitted for consideration. This definition is significant in the context of the bill, as it helps to establish the original authorship and intent of the document.",
+  "ground_truth": "The initial document produced solely by artificial intelligence.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:56.184556",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly defines 'first draft' as a document that has not been reviewed or revised by any other party, whereas the ground truth specifies that it is the initial document produced solely by artificial intelligence.",
+  "provider": "deepseek"
+}

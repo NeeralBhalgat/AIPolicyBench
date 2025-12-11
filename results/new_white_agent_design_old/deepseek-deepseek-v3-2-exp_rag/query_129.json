@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "Part 1: The original Taxpayer Bill of Rights (TBOR1) and the second Taxpayer Bill of Rights (TBOR2) are publications that explain taxpayer rights.\n\nPart 2: These publications were passed by Congress to establish and expand specific protections for taxpayers. The original Taxpayer Bill of Rights was enacted in 1988, and its safeguards were further expanded by the Taxpayer Bill of Rights 2 in 1996. The purpose of these acts was to elevate the issue of taxpayer rights and put legislative protections in place.",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:48:20.302293",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions the Taxpayer Bill of Rights (TBOR1 and TBOR2) but does not correctly identify the specific publication that explains taxpayer rights, which is 'Publication 1, Your Rights as a Taxpayer.' The response contains factual inaccuracies regarding the nature of the publications and their legislative context.",
+  "provider": "deepseek"
+}

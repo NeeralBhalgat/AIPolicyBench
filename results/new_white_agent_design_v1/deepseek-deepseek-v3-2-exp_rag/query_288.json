@@ -1,0 +1,12 @@
+{
+  "query_id": 288,
+  "query": "What ongoing restrictions apply after a consumer submits a deletion request?",
+  "response": "The business must maintain a confidential record of the deletion request to prevent the consumer's personal information from being sold, and must notify third parties, service providers, and contractors to delete the consumer's personal information.",
+  "ground_truth": "Data brokers cannot sell or share new personal information unless the consumer permits or exceptions apply.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:55:48.813991",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the obligations of businesses after a deletion request. While it mentions maintaining a record and notifying third parties, it does not accurately reflect the ground truth that data brokers cannot sell or share new personal information unless permitted or exceptions apply.",
+  "provider": "deepseek"
+}

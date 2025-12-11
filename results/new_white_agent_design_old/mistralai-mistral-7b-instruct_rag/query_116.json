@@ -1,0 +1,12 @@
+{
+  "query_id": 116,
+  "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+  "response": "Part 1: The determination of whether an AI use case is safety- or rights-impacting is based on the presumptions and definitions outlined in M-24-10, which are applied and reassessed as uses and policies evolve.\n\nPart 2: M-24-10 categorizes certain AI uses as presumptively rights- or safety-impacting, and these determinations are made by applying the definitions and presumptions from the policy. The Department of Justice and other agencies continuously evaluate these use cases to ensure compliance with risk management practices, which may include conducting independent evaluations, mitigating emerging risks, and completing AI impact assessments. These evaluations are ongoing and adapt as policies and use cases change, ensuring that the classification of a use case as rights- or safety-impacting remains accurate over time.",
+  "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:36:12.452586",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response references M-24-10 and discusses the evaluation process for AI use cases, but it does not directly address the core aspect of what determines whether an AI use case is safety-impacting or rights-impacting, which is the significant influence on real-world decisions affecting safety or rights. Therefore, while it provides some relevant context, it ultimately does not align with the ground truth answer.",
+  "provider": "deepseek"
+}

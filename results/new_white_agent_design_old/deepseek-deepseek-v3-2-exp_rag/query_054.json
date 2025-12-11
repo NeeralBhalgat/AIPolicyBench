@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "Part 1: The foundation of the DoD AI Hierarchy of Needs is expounded upon by the Pathway to AI Readiness resource, which enables the effective adoption of data, analytics, and AI.\n\nPart 2: The Pathway to AI Readiness resource is built upon the DoD AI Hierarchy of Needs, breaking it down into specific dimensions and key questions. This foundational framework is designed to support DoD organizations at all levels by providing them with the necessary knowledge, materials, and tools. The ultimate goal is to enable the effective and responsible adoption of data, analytics, and AI capabilities across the department.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:32:39.506449",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately identify the foundation of the DoD AI Hierarchy of Needs, which is specifically quality data characterized by the VAULTIS criteria. Instead, it focuses on the Pathway to AI Readiness, which is not the foundational element itself.",
+  "provider": "deepseek"
+}

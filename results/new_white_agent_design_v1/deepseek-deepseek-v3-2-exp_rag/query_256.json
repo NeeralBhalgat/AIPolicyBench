@@ -1,0 +1,12 @@
+{
+  "query_id": 256,
+  "query": "Does adjusting lighting or color correction make an image a “digitally altered image”?",
+  "response": "Based on the provided sources, adjusting lighting or color correction does make an image a \"digitally altered image.\" Source 1 states that \"most if not all images in advertising have been modified on a computer and therefore 'digitally altered' in the strictest sense of the term,\" which includes such modifications.",
+  "ground_truth": "No, these common adjustments do not change the representation of the property and are excluded.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:53:35.443777",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that adjusting lighting or color correction qualifies an image as 'digitally altered.' The ground truth clarifies that these common adjustments do not change the representation of the property and are excluded from being classified as digitally altered.",
+  "provider": "deepseek"
+}

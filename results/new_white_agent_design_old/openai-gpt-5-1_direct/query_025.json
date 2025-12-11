@@ -1,0 +1,11 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:41:38.661589",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

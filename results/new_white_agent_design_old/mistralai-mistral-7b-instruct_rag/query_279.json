@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "<s> Part 1: A civil penalty of not more than $14,308 may be imposed for violating the act, as specified in the amended regulations.\n\nPart 2: The context outlines that the maximum civil penalty for violations, such as submitting false claims or statements, is set at $14,308. This amount is adjusted annually for inflation, as required by laws like the Federal Civil Penalties Inflation Adjustment Act. The penalty applies to individuals or entities who knowingly or recklessly engage in prohibited conduct, with the specific amount determined by the relevant agency. The regulations also mention that first-time offenders may face a lower penalty, while repeat offenders could be subject to higher penalties within the specified range.",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:59:41.258819",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the civil penalty for violating the act is $14,308, while the ground truth indicates that it can be up to $1,000,000 per violation. This discrepancy indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

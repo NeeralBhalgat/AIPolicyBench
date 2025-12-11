@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "In June 2019, President Trump signed an executive order on artificial intelligence (AI), but it did not involve immediate deregulation. Instead, the order established the American AI Initiative, which aimed to ensure that the United States maintains its leadership in AI and addresses the technology's opportunities and challenges. The order directed federal agencies to prioritize AI investments in research and development, workforce development, and data access and management. It also called for the development of a long-term strategy for AI, but it did not specifically mention deregulation. However, it did emphasize the importance of minimizing the regulatory burdens that could hinder the advancement of AI. It's important to note that the executive order did not directly deregulate AI, but it set the stage for potential future deregulatory actions.",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:02.300103",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that President Trump did not take immediate deregulatory action on AI, while the ground truth indicates that he rescinded a specific executive order related to AI, which is a clear deregulatory step.",
+  "provider": "deepseek"
+}

@@ -1,47 +1,68 @@
-### TL;DR: Essential Commands (Concise)
+# Quick Commands
 
-- Run white agent (serve RAG answers)
+## Deploy & Evaluate
+
 ```bash
-cd /Users/BerkeleyClasses/Junior/CS194/AIPolicyBench-1
-source .venv/bin/activate
-python main.py white --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --model deepseek-chat
+# Start all agents with Cloudflare tunnels
+./start_multi_agents_cloudflare.sh
+
+# Run full evaluation (300 queries × 6 agents)
+python send_eval_task.py
+
+# Quick test (10 queries)
+python send_eval_task.py --max-queries 10
 ```
 
-- One-shot evaluation (starts green + white)
+## View Results
+
 ```bash
-python main.py launch \
-  --queries-file data/predefined_queries.json \
-  --vector-db ./vector_db/safety_datasets_tfidf_db.pkl \
-  --white-model deepseek-chat
+# List all results
+ls results/new_white_agent_design/
+
+# View statistics for all agents
+cat results/new_white_agent_design/*/statistics.txt
+
+# View specific agent
+cat results/new_white_agent_design/openai-gpt-5-1_rag/statistics.txt
 ```
 
-- Quick tests
+## Manual Agent Control
+
 ```bash
-python green_agent/evaluation.py                # Rule-based demo
-python green_agent/agent.py --query_id 1        # Single query
-python green_agent/agent.py --all               # All queries
-python test_a2a_imports.py                      # A2A imports
-python test_llm_judge.py                        # Judge prompts
+# Green agent (evaluator)
+python main.py green --host 0.0.0.0 --port 9001
+
+# White agent (RAG)
+python main.py white --host 0.0.0.0 --port 9002 --model deepseek-chat
+
+# White agent (Direct LLM)
+python main.py white --host 0.0.0.0 --port 9002 --model deepseek-chat --direct-llm
 ```
 
-- Build/update vector DB
+## Logs
+
 ```bash
-python simple_vector_db.py --json_file data/safety_datasets.json --save
-# Output: ./vector_db/safety_datasets_tfidf_db.pkl
+# Green agent
+tail -f /tmp/green_agent.log
+
+# White agents
+tail -f /tmp/white_agent_8011.log  # Mistral RAG
+tail -f /tmp/white_agent_8012.log  # DeepSeek RAG
+tail -f /tmp/white_agent_8013.log  # GPT-5.1 RAG
+tail -f /tmp/white_agent_8014.log  # Mistral Direct
+tail -f /tmp/white_agent_8015.log  # DeepSeek Direct
+tail -f /tmp/white_agent_8016.log  # GPT-5.1 Direct
 ```
 
-- Reproduce results (variants)
+## Troubleshooting
+
 ```bash
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model deepseek-chat
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model mistralai/mistral-7b-instruct
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model openai/gpt-5.1
+# Check agent URLs
+cat white_agents_config.json
+
+# Test white agent
+curl https://<cloudflare-url>/to_agent/<id>/.well-known/agent-card.json
+
+# Check for errors
+grep -i error /tmp/white_agent_8011.log | tail -10
 ```
-
-- Optional: LLM-as-a-judge
-```bash
-python main.py launch --vector-db ./vector_db/safety_datasets_tfidf_db.pkl --white-model deepseek-chat --llm-judge
-```
-
-- Outputs
-- results/<model>/: summary.json, statistics.txt, per‑query JSON
-

@@ -1,0 +1,12 @@
+{
+  "query_id": 147,
+  "query": "What role does AISWG have in risk management?",
+  "response": "**Part 1:**  \nThe role of AISWG in risk management is not specified in the provided materials, which instead assign AI risk‑management responsibilities broadly to agencies, NIST, and OMB guided by the NIST AI Risk Management Framework.\n\n**Part 2:**  \nIn the excerpts, risk management of AI is framed around requirements such as using the NIST AI Risk Management Framework, establishing internal AI governance boards, and implementing minimum risk‑management practices for government AI systems that affect people’s rights or safety. Specific tasks are given to NIST (to develop guidelines, tools, and practices), to OMB (to create methods for agencies to track and assess AI risk management), and to agencies themselves (to adopt and follow these practices). AISWG is not mentioned in these passages, so no explicit role is assigned to it here. If AISWG has a defined risk‑management role, that description would have to come from other sections or documents not included in the provided context.",
+  "ground_truth": "Reviewing and approving safety/rights-impacting assessments and waivers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:58:55.161347",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that AISWG's role in risk management is not specified and does not mention its actual role of reviewing and approving safety/rights-impacting assessments and waivers, which is the ground truth. This indicates a misunderstanding of AISWG's responsibilities.",
+  "provider": "deepseek"
+}

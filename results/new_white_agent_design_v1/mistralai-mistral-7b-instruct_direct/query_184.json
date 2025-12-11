@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must identify, assess, and mitigate risks associated with AI systems, ensuring compliance with relevant regulations and guidelines. They should also establish clear governance frameworks and monitoring mechanisms to address potential harms.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:43.441422",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the necessary actions agencies must take regarding AI risk management, including identifying, assessing, and mitigating risks, which aligns with the ground truth answer's emphasis on measuring and monitoring AI activities.",
+  "provider": "deepseek"
+}

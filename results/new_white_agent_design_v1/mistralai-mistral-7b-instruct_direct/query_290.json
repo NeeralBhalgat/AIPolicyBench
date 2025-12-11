@@ -1,0 +1,12 @@
+{
+  "query_id": 290,
+  "query": "How does SB 361 strengthen consumer privacy rights under the CPRA?",
+  "response": "SB 361 strengthens consumer privacy rights under the California Privacy Rights Act (CPRA) by expanding the definition of \"sensitive personal information\" to include precise geolocation, genetic data, and biometric information, and by requiring businesses to obtain explicit consent before processing such data.",
+  "ground_truth": "By expanding data broker disclosures, strengthening deletion rules, adding audits, and limiting public access to sensitive data types.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:35.620724",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly attributes the expansion of the definition of 'sensitive personal information' to SB 361, while the ground truth indicates that SB 361 focuses on data broker disclosures, deletion rules, audits, and limiting access to sensitive data types.",
+  "provider": "deepseek"
+}

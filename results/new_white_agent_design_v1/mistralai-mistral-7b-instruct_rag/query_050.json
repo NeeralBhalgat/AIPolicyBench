@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "NIST describes the AI RMF as a living document because it is developed through an \"open, transparent, and collaborative process\" that includes public comments, workshops, and other opportunities for input, as well as ongoing updates like the \"Generative Artificial Intelligence Profile\" released in 2024.",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:02.517297",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the nature of the AI RMF as a living document, emphasizing the importance of public input and ongoing updates, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

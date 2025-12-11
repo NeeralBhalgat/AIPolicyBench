@@ -1,0 +1,12 @@
+{
+  "query_id": 145,
+  "query": "What is AISWG’s role in advancing strategic objectives?",
+  "response": "Part 1: The AISWG's role is to develop guidelines, tools, and practices to support the implementation of minimum risk-management practices for AI.\n\nPart 2: This group operates in coordination with the Director of the Office of Management and Budget (OMB) and the Director of the Office of Science and Technology Policy (OSTP). Their work provides the foundational guidance that other government actions are built upon, such as ensuring federal agency contracts for AI systems align with these risk-management standards. This function is a key part of the coordinated, government-wide approach to governing AI safely and responsibly.",
+  "ground_truth": "Defining and advancing AI strategic objectives.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:51:26.238047",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the AISWG's role in developing guidelines and coordinating with other government offices, it does not directly address the specific role of defining and advancing AI strategic objectives as stated in the ground truth answer. Therefore, it misrepresents the primary focus of the AISWG.",
+  "provider": "deepseek"
+}

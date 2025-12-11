@@ -1,0 +1,12 @@
+{
+  "query_id": 202,
+  "query": "Under §11008(c), who is considered an “Applicant”?",
+  "response": "An “Applicant” is any individual who files a written application or, if no application form is provided, otherwise indicates a specific desire to an employer or other covered entity to be considered for employment, and also includes an individual who can prove they were deterred from applying for a job by an alleged discriminatory practice, but does not include anyone who, without coercion or intimidation, willingly withdraws their application before being interviewed, tested, or hired.",
+  "ground_truth": "Individuals who file an application or indicate a desire to be considered for employment, including those deterred by discriminatory practices.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:25:35.705083",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the definition of an 'Applicant' as per §11008(c), including the aspects of filing an application and being deterred by discriminatory practices. The only minor addition is the detail about withdrawing applications, which does not detract from the correctness of the main definition.",
+  "provider": "deepseek"
+}

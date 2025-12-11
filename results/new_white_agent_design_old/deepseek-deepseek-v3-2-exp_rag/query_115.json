@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "Part 1: The DOT is committed to the open sharing of AI custom code and models with the Federal Government and public to promote reuse and collaboration, enhance innovation and transparency, while maintaining public rights, safety, and security.\n\nPart 2: This commitment to sharing is part of the department's overall approach to AI, which includes developing shared public datasets and environments for AI training and testing. The DOT's various operating administrations are actively developing and implementing AI for a range of transportation activities. The intent behind this open sharing is to foster innovation and transparency across the government and with the public.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:45:00.791401",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the DOT's commitment to sharing AI models and code, it does not mention the specific mechanisms of OPEN Data workflows and Code.gov, which are crucial to the ground truth answer. Therefore, the response lacks accuracy regarding the actual processes in place.",
+  "provider": "deepseek"
+}

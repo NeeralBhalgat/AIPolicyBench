@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "Error: Query processing exceeded 95.0s timeout",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:43:15.176186",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a processing error and does not provide any information about AI governance committees, which reflects uncertainty in answering the question.",
+  "provider": "deepseek"
+}

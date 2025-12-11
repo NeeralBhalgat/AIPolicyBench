@@ -1,0 +1,12 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "**Part 1:** Advanced AI compute export controls are enforced through updated licensing policies and expanded chip restrictions issued by the Bureau of Industry and Security (BIS) that restrict U.S. companies from exporting these technologies.\n\n**Part 2:** The Bureau of Industry and Security has expanded its export controls on advanced computing and semiconductor manufacturing equipment, which includes analyzing and restricting over 100 relevant chips. These measures are reinforced by bipartisan legislation aimed at preventing companies like Nvidia from selling top AI chips to China. The controls are part of a broader policy to secure U.S. technological dominance by limiting China's access to critical AI computing resources.",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:21:59.654569",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses export controls and licensing policies, it does not mention the use of location verification and enhanced monitoring as part of enforcement, which is a key aspect of the ground truth answer. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,20 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: https://angel-brought-therapy-denver.trycloudflare.com/to_agent/a6dca8e40c0f46e2a7195dbb4777ebbb
+White Agent Model: deepseek-deepseek-v3-2-exp_direct
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251210_042454
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 300
+Correct: 82 (27.33%)
+Miss: 8 (2.67%)
+Hallucination: 208 (69.33%)
+Factuality Rate: -39.33%
+
+================================================================================

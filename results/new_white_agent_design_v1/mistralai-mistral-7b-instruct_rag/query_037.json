@@ -1,0 +1,10 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "[TIMEOUT] Query processing exceeded time limit.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "timeout",
+  "evaluation_method": "auto-detect",
+  "timestamp": "2025-12-10T15:06:35.880544",
+  "reason": "White agent response timed out or was empty"
+}

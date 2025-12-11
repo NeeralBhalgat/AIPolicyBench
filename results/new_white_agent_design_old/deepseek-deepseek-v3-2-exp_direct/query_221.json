@@ -1,0 +1,12 @@
+{
+  "query_id": 221,
+  "query": "How does AB 316 define “artificial intelligence” in Civil Code §1714.46(a)?",
+  "response": "Based on my training data and knowledge of the legislation, the specific definition you are asking about appears to be based on a misattribution.\n\n**AB 316** is a California bill from 2023 that pertains to heavy-duty autonomous vehicles and requires a human safety operator. It amended the California Vehicle Code, not the Civil Code. It does **not** contain a definition of \"artificial intelligence\" in Civil Code §1714.46(a).\n\nThe California law that **does** define \"artificial intelligence\" is a different bill: **AB 302** (passed in 2023).\n\nHere is the factual answer based on **AB 302** (which added Chapter 7 (commencing with Section 1714.46) to Part 6 of Division 3 of the Civil Code):\n\nAs defined in **Civil Code § 1714.46(a)**, \"artificial intelligence\" means **“a machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.”**\n\nFurthermore, the definition specifies that an AI system **“uses machine and human-based inputs to perceive real and virtual environments; abstract such perceptions into models through automation; and uses model inference to formulate options for information or action.”**\n\nIn short, the California Civil Code defines AI as a machine-based system designed to achieve human-defined goals by making predictions or decisions, based on its ability to perceive environments, create models, and infer outcomes.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:08:41.515753",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the definition of 'artificial intelligence' as per Civil Code §1714.46(a) and correctly attributes it to AB 302, while clarifying that AB 316 does not pertain to this definition. The provided definition aligns closely with the ground truth answer.",
+  "provider": "deepseek"
+}

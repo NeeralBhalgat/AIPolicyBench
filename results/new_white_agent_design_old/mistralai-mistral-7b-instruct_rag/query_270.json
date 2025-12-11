@@ -1,0 +1,12 @@
+{
+  "query_id": 270,
+  "query": "How is the number of violations counted for ongoing noncompliance?",
+  "response": "Part 1: The number of violations for ongoing noncompliance is not explicitly counted, as no one knows how many separate criminal offenses exist in the Code of Federal Regulations, with estimates suggesting hundreds of thousands.\n\nPart 2: The context highlights that the vastness of federal regulations—over 48,000 sections and 175,000 pages—makes it impossible for individuals to fully comprehend, let alone track ongoing violations. The lack of a clear count of criminal offenses exacerbates this issue, as agencies and enforcement bodies struggle to quantify the exact number of regulatory crimes. The executive order aims to address this by requiring agencies to publicly list enforceable criminal offenses, but the current system does not provide a precise mechanism for counting ongoing noncompliance.",
+  "ground_truth": "Each day in violation is treated as a separate violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:58:07.961661",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the number of violations is not explicitly counted and suggests that the vastness of regulations makes it impossible to track ongoing violations. However, the ground truth indicates that each day in violation is treated as a separate violation, which contradicts the White Agent's claims.",
+  "provider": "deepseek"
+}

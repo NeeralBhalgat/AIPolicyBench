@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "The AISWG coordinates AI activity across NASA by serving as one of the 10 executive branch oversight groups with a role in federal AI use, as outlined in the AI in Government Act of 2020 and the Advancing American AI Act.\n\nThe AISWG (Artificial Intelligence Steering Working Group) is part of the broader federal framework for AI governance, which includes multiple oversight bodies. These groups ensure that AI initiatives align with federal laws, executive orders, and guidance, such as the AI in Government Act of 2020 and the Advancing American AI Act. By coordinating AI efforts, the AISWG helps NASA integrate AI technologies in a way that promotes innovation while protecting privacy, civil rights, and public trust. This coordination is further supported by policies like OMB Memorandum M-25-21, which emphasizes innovation, governance, and public trust in AI adoption.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:39:02.104116",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the AISWG's role by stating it serves as one of the executive branch oversight groups, which is not aligned with the ground truth. The ground truth indicates that the AISWG coordinates AI activity by working directly with practitioners, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

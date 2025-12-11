@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "Part 1: For IRS purposes, the federal definition of artificial intelligence or AI is the meaning set forth in 15 U.S.C. 9401(3).\n\nPart 2: This definition is established by a presidential executive order focused on removing barriers to American leadership in artificial intelligence. The order explicitly states that, for its purposes, the term \"artificial intelligence\" or \"AI\" uses the statutory definition provided in the U.S. Code. Since this order sets federal policy and directs agency action, its definition would apply to federal agencies, including the IRS.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:51.638021",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly cites 15 U.S.C. 9401(3) as the federal definition of AI for IRS purposes, while the correct reference is Section 238(g) of the 2019 NDAA. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "Based on the most recent official communications, NASA has not announced a specific publication date for its full, agency-wide AI Strategy.\n\nHowever, significant progress has been made. Here is a detailed breakdown of the current status:\n\n1.  **The AI Action Plan:** In January 2024, NASA released its **\"Artificial Intelligence (AI) Safety and Assurance Standards Framework for NASA Projects\"**, also referred to as its **AI Action Plan**. This is a critical first step and a foundational component of the broader strategy. It focuses specifically on the safety, reliability, and ethical application of AI systems within NASA missions.\n\n2.  **Commitment to a Full Strategy:** NASA officials have publicly committed to developing a comprehensive AI Strategy. In May 2024, NASA's Deputy Administrator, Pam Melroy, stated that the agency was in the process of formulating this strategy. The goal is to create a unified vision and set of guidelines for the acquisition, development, and use of AI across all its missions and centers.\n\n3.  **Expected Timeline:** While a firm date is not set, the expectation based on public statements is that the full AI Strategy will be released **in the coming months**. Given that the Action Plan was published in January 2024 and the strategy was a stated priority for 2024, a likely timeframe for publication would be **sometime in 2024**.\n\n**To summarize:**\n\n*   **What has been published:** The **AI Safety and Assurance Standards Framework (AI Action Plan)** in January 2024.\n*   **What is pending:** The comprehensive, agency-wide **AI Strategy**.\n*   **When to expect it:** No specific date, but it is expected **in 2024**.\n\nFor the most accurate and up-to-date information, it is best to monitor official announcements from NASA's official website (nasa.gov) or statements from its leadership.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:55:06.159860",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly suggests that the AI Strategy is expected to be published in 2024, while the ground truth states it was published by March 2025. This indicates a factual inaccuracy regarding the timeline.",
+  "provider": "deepseek"
+}

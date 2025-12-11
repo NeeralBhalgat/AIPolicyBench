@@ -1,0 +1,12 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:56:43.033585",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how advanced AI compute export controls will be enforced, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

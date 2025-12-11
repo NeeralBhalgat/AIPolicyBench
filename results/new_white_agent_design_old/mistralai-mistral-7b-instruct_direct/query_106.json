@@ -1,0 +1,12 @@
+{
+  "query_id": 106,
+  "query": "What is the ART Network used for?",
+  "response": "The ART Network (AI Risk and Trust Network) is a collaborative initiative focused on advancing the understanding and management of risks associated with artificial intelligence (AI) systems. Its primary goals include:\n\n1. **Risk Assessment and Mitigation**: Developing frameworks and methodologies to identify, assess, and mitigate potential risks posed by AI systems, including safety, security, and ethical concerns.\n\n2. **Trust and Transparency**: Promoting transparency in AI systems to build public trust, ensuring that AI decisions are explainable, fair, and accountable.\n\n3. **Policy and Regulation**: Informing policy and regulatory efforts by providing evidence-based insights and recommendations to governments and organizations.\n\n4. **Collaboration and Standardization**: Facilitating collaboration among researchers, industry stakeholders, and policymakers to establish best practices and standards for AI safety and trustworthiness.\n\nThe ART Network often involves interdisciplinary efforts, combining insights from computer science, ethics, law, and social sciences to address the complex challenges of AI governance.",
+  "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:08:15.338828",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response describes the ART Network as focused on AI risk and trust, which does not align with the ground truth answer that specifies it is about AI research and development in a secure environment with rapid access to tools.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 223,
+  "query": "Which parties are subject to the prohibition on asserting an AI-autonomy defense under AB 316?",
+  "response": "Based on the text of California AB 316 as enrolled, the prohibition on using an AI system as a defense for violating traffic laws applies to manufacturers, developers, distributors, and any entity involved in the operation of an automated vehicle or automated driving system.",
+  "ground_truth": "Defendants who developed, modified, or used artificial intelligence alleged to have caused harm.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:04:05.934181",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly specifies the parties subject to the prohibition. The ground truth indicates that the prohibition applies specifically to defendants who developed, modified, or used AI that allegedly caused harm, rather than broadly to manufacturers, developers, distributors, and operators of automated vehicles.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "Part 1: Agencies identified in 31 U.S.C. 901(b) must create internal Artificial Intelligence Governance Boards within 60 days of guidance issuance to coordinate and govern AI issues.\n\nPart 2: The Executive Order mandates that specific federal agencies, as listed in 31 U.S.C. 901(b), establish internal AI Governance Boards or similar mechanisms to oversee AI development and use. These boards must be formed within 60 days of receiving guidance and should involve senior leaders across the agency to ensure proper coordination. The requirement aims to ensure that AI systems are developed and deployed responsibly, with a focus on managing risks and protecting rights and safety. This aligns with broader federal efforts to standardize AI governance practices across government agencies.",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:48:14.182040",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the establishment of AI Governance Boards and their responsibilities, which is not aligned with the ground truth answer that specifies the requirement for AI code to be shared internally and open-sourced unless restricted. The focus on governance boards does not address the core requirement for AI code itself.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "Part 1: The initial means for AI procurement will address protection of civil rights and ensure appropriate use to prevent ideological bias.\n\nPart 2: The responsible procurement policy is being developed to ensure AI systems protect civil rights and liberties, which inherently includes guarding against bias. This is a requirement under the AI Act, which mandates that procurement policies address these protections. Furthermore, the policy aims to secure algorithms and training data against misuse and unauthorized alteration, which are potential vectors for introducing bias. The overall goal is to ensure the appropriate use of AI and the protection of people's rights.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:21:16.547425",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the importance of protecting civil rights and preventing ideological bias in AI procurement, but it does not directly address the specific requirement to contract only with developers whose systems are objective and free from bias, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

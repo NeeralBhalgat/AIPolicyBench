@@ -1,0 +1,12 @@
+{
+  "query_id": 204,
+  "query": "Under §11008.1(a)(1)(A), what tasks can Automated-Decision Systems perform?",
+  "response": "Automated-Decision Systems can perform tasks such as using computer-based assessments or tests to make predictive assessments about an applicant or employee; measure skills, dexterity, reaction-time, abilities, characteristics, personality traits, aptitude, attitude, or cultural fit; and screen, evaluate, categorize, or recommend applicants or employees.",
+  "ground_truth": "Predictive assessments, measurement of abilities, and screening or categorizing applicants or employees.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:49:49.848382",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the tasks that Automated-Decision Systems can perform, including predictive assessments and screening or categorizing applicants or employees, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

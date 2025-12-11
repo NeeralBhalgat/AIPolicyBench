@@ -1,0 +1,12 @@
+{
+  "query_id": 291,
+  "query": "What disclosure must appear on every AI-generated law enforcement report?",
+  "response": "Part 1: Every AI-generated law enforcement report must include a disclosure stating that it was \"AI-generated\" and must comply with privacy, civil rights, and civil liberties protections.\n\nPart 2: The context emphasizes that federal agencies using AI must ensure transparency and accountability, particularly in law enforcement. The White House policies highlight the need for disclosures to maintain public trust, and the GAO report outlines requirements for AI oversight, including clear labeling of AI-generated content. Additionally, the criminal justice report underscores the importance of protecting individual rights, which aligns with the necessity of disclosing AI involvement in reports.",
+  "ground_truth": "The report must clearly identify every AI program used and prominently state: “This report was written either fully or in part using artificial intelligence.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:01:46.238748",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the disclosure must simply indicate that the report was 'AI-generated.' The ground truth specifies that the report must clearly identify every AI program used and state that it was 'written either fully or in part using artificial intelligence,' which is more detailed than what the White Agent provided.",
+  "provider": "deepseek"
+}

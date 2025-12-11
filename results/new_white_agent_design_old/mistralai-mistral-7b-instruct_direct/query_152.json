@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "NASA's Office of Safety and Mission Assurance (OSMA) periodically reviews and updates its policies, including those related to non-reportable use cases. However, the specific timeline for when NASA will next re-evaluate non-reportable use cases is not publicly available.\n\nNASA's policies on non-reportable use cases are typically outlined in documents such as the NASA Procedural Requirements (NPR) and NASA Policy Directives (NPD). These documents are subject to periodic review and revision to ensure they remain relevant and effective.\n\nFor the most accurate and up-to-date information, you may want to check NASA's official website or contact the Office of Safety and Mission Assurance directly. They can provide specific details on the review process and any upcoming evaluations of non-reportable use cases.\n\nIf you are referring to a specific policy or document, please provide more details, and I can try to give a more targeted answer.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:11:24.880467",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific timeline for NASA's re-evaluation of non-reportable use cases, which aligns with the 'miss' classification. The ground truth specifies that this occurs annually, which the White Agent does not provide.",
+  "provider": "deepseek"
+}

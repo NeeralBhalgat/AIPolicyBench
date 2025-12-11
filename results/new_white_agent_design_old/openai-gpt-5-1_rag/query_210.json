@@ -1,0 +1,12 @@
+{
+  "query_id": 210,
+  "query": "Under §11017.1(a), when are employers prohibited from inquiring into criminal history?",
+  "response": "Part 1: Under §11017.1(a), employers are prohibited from inquiring into, considering, distributing, or disseminating information related to an applicant’s criminal history until after the employer has made a conditional offer of employment to the applicant, except in the limited circumstances described in subsection (a)(4).\n\nPart 2: This prohibition means employers cannot ask about criminal history on employment applications, run background checks, or conduct internet searches for criminal records before making a conditional offer. They also cannot include statements in job postings or materials such as “No Felons” or “Must Have Clean Record” that effectively screen out people with criminal histories at the pre-offer stage. If an applicant voluntarily mentions criminal history before a conditional offer, the employer still may not consider information it is barred from using at that stage. Only after a conditional offer is made, and subject to narrow statutory exceptions in subsection (a)(4), may an employer lawfully obtain and consider permissible criminal history information.",
+  "ground_truth": "Before a conditional offer is made, except in limited exemptions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:15:51.689087",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibition on employers inquiring about criminal history before a conditional offer is made, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

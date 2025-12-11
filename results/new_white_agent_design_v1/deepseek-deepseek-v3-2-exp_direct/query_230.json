@@ -1,0 +1,12 @@
+{
+  "query_id": 230,
+  "query": "According to AB 316, what type of environments can AI outputs influence?",
+  "response": "Based on my knowledge, AB 316 specifically addresses the deployment of automated vehicles on public roads in California. Therefore, the relevant environment influenced by AI outputs according to this bill is **public roads**.",
+  "ground_truth": "Physical or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:04:24.988538",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly narrows the influence of AI outputs to only public roads, while the ground truth indicates that AI outputs can influence both physical and virtual environments, which is broader than just public roads.",
+  "provider": "deepseek"
+}

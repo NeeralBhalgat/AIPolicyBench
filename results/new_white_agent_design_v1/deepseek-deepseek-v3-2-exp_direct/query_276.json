@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:05:55.220154",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information regarding the requirements for a transparency report before deploying a frontier model.",
+  "provider": "deepseek"
+}

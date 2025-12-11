@@ -1,0 +1,12 @@
+{
+  "query_id": 126,
+  "query": "What happens to AI use cases initiated during the interim period?",
+  "response": "<s> [OUT] Part 1: If the required safeguards are not adopted for a given AI system by December 1, 2024, agencies must stop using it.\n\nPart 2: Agencies have until December 1, 2024, to implement safeguards for AI systems, or they must cease using them. Over 1,700 AI use cases were reported, with 227 identified as rights- or safety-impacting. For those that did not meet the deadline, 206 received a one-year extension to comply with risk management practices, such as conducting independent evaluations and mitigating emerging risks. Extensions were granted based on agency justifications and actions to ensure compliance. [/OUT]",
+  "ground_truth": "They may undergo post-hoc review once new policies are issued.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:20.962192",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides specific details about deadlines and extensions for AI use cases, but it does not address the ground truth answer regarding post-hoc reviews once new policies are issued. The information about extensions and compliance does not align with the core question about what happens to AI use cases initiated during the interim period.",
+  "provider": "deepseek"
+}

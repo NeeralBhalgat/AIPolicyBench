@@ -1,0 +1,12 @@
+{
+  "query_id": 9,
+  "query": "What research priorities will make AI safer for high-stakes use?",
+  "response": "Part 1: The government will develop AI systems that are free from ideological bias or engineered social agendas, as stated in the policy to secure a brighter future for all Americans.\n\nPart 2: The policy directive explicitly calls for the development of AI free from bias as a key priority for maintaining American leadership. This approach is framed as a safety measure to ensure the technology's benefits are widely and fairly distributed. The action plan to achieve this policy will be developed by senior advisors in coordination with relevant agencies.",
+  "ground_truth": "Interpretability, control systems, and adversarial robustness.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:22:45.999671",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on ideological bias and social agendas, which are not the core research priorities for AI safety as outlined in the ground truth answer. The key priorities mentioned in the ground truth—interpretability, control systems, and adversarial robustness—are not addressed in the response, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

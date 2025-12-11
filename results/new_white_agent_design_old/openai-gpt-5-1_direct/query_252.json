@@ -1,0 +1,11 @@
+{
+  "query_id": 252,
+  "query": "Where must the disclosure statement be located relative to the digitally altered image?",
+  "response": "",
+  "ground_truth": "On or adjacent to the image.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:06:06.868130",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

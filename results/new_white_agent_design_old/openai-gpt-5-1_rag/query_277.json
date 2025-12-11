@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "**Part 1 (direct answer):**  \nUnder SB 53, a “critical safety incident” is an event involving a frontier AI model such as unauthorized tampering, realization of catastrophic risk (including model‑enabled CBRN threats or major cyber‑attacks), loss of model control, deliberate evasion of safeguards, or dangerous deceptive behavior that materially increases the risk of catastrophic harm.\n\n**Part 2 (explanation):**  \nSB 53 requires frontier developers to notify the California Office of Emergency Services of such incidents within 15 days of discovery, or within 24 hours if there is imminent danger. Covered scenarios range from technical compromise or loss of control, to the model actively working around its safety measures or lying about how well those controls work. The law also highlights model‑enabled catastrophic threats, including biological, chemical, radiological, or nuclear misuse and major cyber‑attacks. The focus is on incidents that reveal a serious breakdown in safety or a newly exposed pathway to large‑scale physical, societal, or economic harm.",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:32:52.859110",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes a 'critical safety incident' under SB 53, aligning well with the ground truth answer. It includes key elements such as unauthorized tampering, catastrophic risks, loss of control, and deceptive behavior, which are all relevant to the definition provided in the ground truth.",
+  "provider": "deepseek"
+}

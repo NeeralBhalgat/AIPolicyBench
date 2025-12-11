@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "Part 1: The DHS AI Task Force, established by Secretary Mayorkas, leads and coordinates AI use across the Department.\n\nPart 2: The DHS AI Task Force, created in April 2023, is responsible for driving specific applications of AI to advance critical homeland security missions. It includes a Responsible Use Group, led by the Officer for Civil Rights and Civil Liberties, which focuses on protecting individual rights in AI projects. Additionally, an AI Policy Working Group coordinates policy changes and oversight for all DHS AI activities, ensuring responsible and ethical use.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:34.655786",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the DHS AI Task Force as the entity leading and coordinating AI use across DHS, while the ground truth states that the DHS Chief Artificial Intelligence Officer (CAIO) holds that responsibility.",
+  "provider": "deepseek"
+}

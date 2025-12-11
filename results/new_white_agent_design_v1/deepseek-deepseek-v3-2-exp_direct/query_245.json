@@ -1,0 +1,12 @@
+{
+  "query_id": 245,
+  "query": "What protocol must an operator maintain before allowing a companion chatbot to engage with users?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "A protocol preventing production of suicidal ideation, suicide, or self-harm content, including crisis referral notifications.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:04:54.949687",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'. The ground truth information is not addressed.",
+  "provider": "deepseek"
+}

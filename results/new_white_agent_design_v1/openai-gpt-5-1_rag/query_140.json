@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "Related IRS privacy and security requirements are found in **Publication 1075, Tax Information Security Guidelines for Federal, State and Local Agencies and Entities**.",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:19:33.626792",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response cites Publication 1075, which is related to IRS privacy and security guidelines, but the ground truth specifies IRM 10.5 and IRM 10.8 as the correct references for IRS privacy and security requirements. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

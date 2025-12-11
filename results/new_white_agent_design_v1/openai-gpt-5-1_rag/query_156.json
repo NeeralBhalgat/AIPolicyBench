@@ -1,0 +1,12 @@
+{
+  "query_id": 156,
+  "query": "What barrier relates to data?",
+  "response": "The barrier is \"agency guidance that serves as a barrier to the inter- or intra-agency sharing of unclassified information specified in subsection (a) of this section.\"",
+  "ground_truth": "Need to make data more AI-ready.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:20:53.611909",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response refers to agency guidance as a barrier to information sharing, which does not align with the ground truth answer about making data more AI-ready. The response does not address the actual barrier related to data as specified in the ground truth.",
+  "provider": "deepseek"
+}

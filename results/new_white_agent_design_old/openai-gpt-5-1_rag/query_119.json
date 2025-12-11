@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "**Part 1:**  \nBefore an AI system can be deployed into production, it must undergo external testing—such as AI red‑teaming for generative AI—as part of the required minimum risk‑management practices for Government uses of AI that impact people's rights or safety.\n\n**Part 2:**  \nThe order directs that agencies adopt minimum risk‑management practices for AI systems used in ways that affect rights or safety, which include controls like public consultation, assessment of data quality, and mitigation of disparate impacts and algorithmic discrimination. It also calls for recommendations on external testing of AI, explicitly including AI red‑teaming for generative AI, to probe vulnerabilities and misuse risks before systems are relied upon. In addition, agencies are expected to provide notice of AI use, ensure continuous monitoring and evaluation of deployed systems, and guarantee human consideration and remedies for adverse AI‑driven decisions. Together, these measures form the gatekeeping and oversight conditions for moving AI systems into operational use.",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:51:35.317538",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses important aspects of AI deployment, such as external testing and risk management practices, it does not mention the specific requirement of CAIO and SR2 Committee authorization based on risk management compliance, which is the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:46.991354",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information regarding the ethical/risk frameworks that guide AI, which is a clear admission of not knowing the answer.",
+  "provider": "deepseek"
+}

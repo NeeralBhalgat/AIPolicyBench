@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "Key frameworks include the OECD AI Principles, EU Ethics Guidelines for Trustworthy AI, UNESCO Recommendation on the Ethics of AI, IEEE Ethically Aligned Design, the NIST AI Risk Management Framework, and ISO/IEC 23894 on AI risk management. These are often complemented by human-rights-based approaches (e.g., ICCPR, GDPR principles) and sector- or company-specific AI ethics guidelines.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:37:19.109518",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent lists several relevant ethical frameworks, it does not mention the specific tailoring of the NIST AI Risk Management Framework to the USDA or the concepts of bias mitigation, human oversight, red teaming, feedback loops, and 'bias bounties' as highlighted in the ground truth answer. This indicates a lack of accuracy in the response.",
+  "provider": "deepseek"
+}

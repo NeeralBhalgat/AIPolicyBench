@@ -1,0 +1,12 @@
+{
+  "query_id": 215,
+  "query": "What mandatory mechanisms must be included in the California AI Cybersecurity Collaboration Playbook?",
+  "response": "Part 1: The California AI Cybersecurity Collaboration Playbook does not include any mandatory mechanisms, as the playbook \"does not create policies, impose requirements, mandate actions, or override existing legal or regulatory obligations\" and all actions taken under it are voluntary.\n\nPart 2: The playbook is explicitly designed as a voluntary guidance document for sharing AI-related cybersecurity information. It aims to facilitate collaboration and outlines how partners can voluntarily share information, but it does not impose any mandatory requirements. This voluntary nature is clearly stated, confirming that the playbook's guidance does not override any existing laws or create new mandatory obligations for organizations.",
+  "ground_truth": "Mandatory mechanisms for information sharing on threats and vulnerabilities known to state contractors and AI vendors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:08:44.920829",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the playbook does not include any mandatory mechanisms, while the ground truth specifies that it does include mandatory mechanisms for information sharing on threats and vulnerabilities known to state contractors and AI vendors.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 95,
+  "query": "How will DHS prevent discriminatory effects in AI systems?",
+  "response": "Part 1: DHS ensures AI systems undergo rigorous testing and evaluation throughout their lifecycle to validate performance, reliability, and bias mitigation.\n\nPart 2: DHS requires that AI use must comply with enterprise risk management practices, including documenting AI use cases, categorizing and classifying risks, and ongoing monitoring. Testing and evaluation are critical components to validate performance, reliability, and mitigate bias, ensuring that AI systems do not produce discriminatory effects. Additionally, DHS personnel receive periodic training on AI to improve literacy and understanding of the benefits and risks, further supporting responsible AI use.",
+  "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:33:55.397934",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the measures DHS takes to prevent discriminatory effects in AI systems, including rigorous testing, evaluation, and ongoing monitoring, which align with the ground truth answer regarding validation and bias mitigation.",
+  "provider": "deepseek"
+}

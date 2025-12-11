@@ -1,0 +1,12 @@
+{
+  "query_id": 258,
+  "query": "Who does the law apply to regarding use of digitally altered images?",
+  "response": "Part 1:  \nThe law applies to anyone involved in the unauthorized creation and distribution of a person’s photograph, voice, or likeness, including persons who distribute, transmit, or otherwise make available technology with the primary purpose of unauthorized use of a person’s photograph, voice, or likeness.\n\nPart 2:  \nThese laws target individuals and entities who make or share “digitizations,” meaning realistically altered images or audio created using another person’s image, voice, or computer-generated media (commonly called deepfakes). They impose civil liability for activities related to the unauthorized creation and distribution of someone’s likeness. They also extend liability to those who provide or make available technology whose primary purpose is to facilitate such unauthorized uses. In some states, there are additional criminal penalties for the wrongful dissemination of these altered images or audio.",
+  "ground_truth": "Real estate brokers, salespersons, and persons acting on their behalf.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:28:09.742468",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the legal implications of unauthorized use of images and deepfakes, but it does not address the specific ground truth answer regarding real estate brokers and salespersons. Therefore, it is factually incorrect in the context of the question.",
+  "provider": "deepseek"
+}

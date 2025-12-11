@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "<s> [OUT]\n\nPart 1: Employees, contractors, subcontractors, and grantees are protected from retaliation for making a \"protected disclosure.\"\n\nPart 2: The whistleblower protections apply to federal employees, as well as individuals working under contracts, subcontracts, or grants with the government. A disclosure is considered protected if it is based on a reasonable belief of wrongdoing and is made to an authorized entity. These protections ensure that individuals can report fraud, waste, abuse, or other misconduct without fear of retaliation. The Office of Personnel Management (OPM) and the Office of Special Counsel (OSC) provide mechanisms for reporting and addressing whistleblower retaliation.",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:59:38.204486",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general overview of whistleblower protections but does not specifically mention the coverage of employees reporting catastrophic-risk dangers or violations of the TFAIA, which is the ground truth answer. Therefore, it is factually incorrect in the context of the specific question asked.",
+  "provider": "deepseek"
+}

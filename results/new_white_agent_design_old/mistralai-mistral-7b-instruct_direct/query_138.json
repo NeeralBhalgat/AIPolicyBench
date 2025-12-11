@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "As of my last update in October 2023, there is no specific federal policy or regulation that explicitly defines \"AI\" for IRS (Internal Revenue Service) purposes. The IRS primarily focuses on tax-related definitions and guidelines, and it has not issued a comprehensive definition of artificial intelligence in its tax codes or regulations.\n\nHowever, the IRS has shown interest in AI and its implications for tax administration. For example, the IRS has explored the use of AI and machine learning for fraud detection, compliance, and other administrative tasks. Additionally, the IRS has issued guidance on the tax treatment of digital assets, which may indirectly relate to AI technologies.\n\nFor the most accurate and up-to-date information, it is advisable to consult the IRS website or relevant tax legislation, as policies and definitions can evolve. If you are looking for a specific definition or guidance, you may need to refer to broader federal policies on AI, such as those issued by the White House Office of Science and Technology Policy or the National Institute of Standards and Technology (NIST), which provide general frameworks for AI.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:10:33.166255",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that there is no specific federal policy defining AI for IRS purposes, while the ground truth indicates that Section 238(g) of the 2019 NDAA does provide such a definition. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

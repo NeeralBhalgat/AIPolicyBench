@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "The Map function helps organizations understand and clearly define the context, purpose, and use of an AI system so they can identify, categorize, and frame its associated risks and impacts.",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:37:40.956955",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the purpose of the Map function in helping organizations understand the context and risks associated with AI systems, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

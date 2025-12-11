@@ -1,0 +1,12 @@
+{
+  "query_id": 70,
+  "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+  "response": "If an AI use case at the U.S. Department of Energy (DOE) does **not** meet DOE risk management practices, the main consequences are:\n\n1. **It generally cannot proceed to production or operational use.**  \n   - Under DOE’s alignment with the NIST AI Risk Management Framework and the White House OMB Memo M",
+  "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:47:25.821343",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly states that an AI use case cannot proceed to production if it does not meet DOE risk management practices, while the ground truth indicates that the Acting CAIO may issue a waiver or require termination, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

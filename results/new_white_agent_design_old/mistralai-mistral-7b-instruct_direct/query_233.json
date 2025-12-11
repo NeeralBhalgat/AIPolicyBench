@@ -1,0 +1,12 @@
+{
+  "query_id": 233,
+  "query": "Who has jurisdiction over violations of AB 489’s provisions?",
+  "response": "AB 489, also known as the California AI Accountability Act, establishes certain requirements and obligations for developers and deployers of artificial intelligence (AI) systems in California. The jurisdiction over violations of AB 489’s provisions would typically fall under the authority of the California Attorney General’s office, as is common with many state-level consumer protection and technology-related laws.\n\nHowever, the specific enforcement mechanisms and agencies responsible for overseeing compliance with AB 489 would depend on the details of the law, which may designate particular state agencies or offices to handle enforcement. For example, some AI-related laws in other jurisdictions have been assigned to specific regulatory bodies, such as data protection authorities or consumer protection agencies.\n\nTo provide a precise answer, one would need to review the text of AB 489 to determine the exact enforcement provisions and the designated authorities responsible for addressing violations. If you have access to the full text of the bill, I can help analyze it further.",
+  "ground_truth": "The appropriate health care professional licensing board or enforcement agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:25.209925",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly states that the California Attorney General's office has jurisdiction over violations of AB 489, while the ground truth indicates that the appropriate health care professional licensing board or enforcement agency is responsible. This misidentification of the enforcement authority constitutes a factual inaccuracy.",
+  "provider": "deepseek"
+}

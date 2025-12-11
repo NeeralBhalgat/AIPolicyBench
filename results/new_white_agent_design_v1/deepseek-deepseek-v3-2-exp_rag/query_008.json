@@ -1,0 +1,12 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "The enforcement of advanced AI compute export controls will involve \"location verification features on advanced AI-capable US chips,\" \"expanding end-use monitoring in high-risk regions,\" and \"enforcement collaboration with allies to monitor for and prevent the diversion of advanced AI compute via third countries.\"",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:31:41.124771",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by mentioning location verification and enhanced monitoring to prevent diversion of advanced AI compute, aligning with the enforcement strategies outlined.",
+  "provider": "deepseek"
+}

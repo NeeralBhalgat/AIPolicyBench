@@ -1,0 +1,12 @@
+{
+  "query_id": 293,
+  "query": "How long must the first AI-generated draft of a report be retained?",
+  "response": "Part 1: The provided sources do not specify a retention period for the first AI-generated draft of a report.\n\nPart 2: The sources focus on establishing guidelines and strategies for the safe, secure, and trustworthy development and use of AI, but they do not provide specific details about the retention of AI-generated drafts. The sources discuss topics such as AI safety, cybersecurity, fraud prevention, and ethical use of AI in various sectors, but they do not mention the retention of AI-generated drafts of reports.",
+  "ground_truth": "For as long as the official report is retained.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:16.617763",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the retention period for the first AI-generated draft, stating that the sources do not specify this information. However, the ground truth specifies that the draft should be retained for as long as the official report is retained, which the White Agent does not acknowledge.",
+  "provider": "deepseek"
+}

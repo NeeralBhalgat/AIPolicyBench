@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "Automated systems analyzing tone or facial expressions may discriminate against individuals based on race, national origin, gender, disability, or other protected characteristics. (Source 2, Source 3)",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:19:40.705949",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the risk posed by automated systems analyzing tone or facial expressions, specifically that they may discriminate against individuals based on protected characteristics, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 48,
+  "query": "What is the purpose of the Measure function?",
+  "response": "Part 1: The purpose of the Measure function is to \"focus the executive branch’s limited enforcement resources on regulations squarely authorized by constitutional Federal statutes, and to commence the deconstruction of the overbearing and burdensome administrative state.\"\n\nPart 2: This function is central to the administration's policy of ending federal overreach and restoring the constitutional separation of powers. It directs agency heads to prioritize enforcement only on those regulations that are explicitly authorized by law. The ultimate goal is to systematically dismantle what is termed the \"overbearing and burdensome administrative state.\"",
+  "ground_truth": "To assess and monitor AI risks using quantitative, qualitative, or mixed methods to evaluate system trustworthiness.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:31:00.146611",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response describes a political function related to regulatory enforcement rather than the Measure function's purpose in assessing and monitoring AI risks, which is the correct context.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan's stance on open-source/open-weight models can vary greatly depending on the specific plan or policy being referred to. However, many AI policies and strategies emphasize the importance of open-source models for several reasons.\n\nOpen-source models promote collaboration, innovation, and transparency in AI development. By making models and algorithms publicly available, researchers and developers can build upon each other's work, leading to faster advancements in the field. Transparency is also crucial for building trust in AI systems, as it allows for scrutiny and understanding of how these systems work.\n\nThat being said, there are also concerns about the potential risks associated with open-source models, such as the potential for malicious use or the unintended consequences of widespread adoption. To address these concerns, some policies may call for responsible sharing practices, such as licensing agreements that prevent misuse, or guidelines for model transparency and explainability.\n\nFor example, the European Union's AI Act proposes a requirement for high-risk AI systems to be made available for review by competent authorities, which could potentially include open-source models. Similarly, the White House's Executive Order on Promoting Competition in the American Economy emphasizes the importance of open standards and data sharing in AI, while also acknowledging the need for protections against misuse.\n\nIn summary, while there is a general recognition of the benefits of open-source models, there is also a need for careful consideration of the potential risks and the development of responsible sharing practices.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:08.883007",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a nuanced view of the stance on open-source/open-weight models but does not directly affirm the ground truth statement that the government should support them. Instead, it discusses the benefits and risks without a definitive stance.",
+  "provider": "deepseek"
+}

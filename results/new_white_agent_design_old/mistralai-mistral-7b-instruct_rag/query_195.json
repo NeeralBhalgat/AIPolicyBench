@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "<s> [OUT] Part 1: All new AI use case submissions must include compliance with the nine principles outlined in the executive order for designing, developing, acquiring, and using AI in the federal government.\n\nPart 2: The executive order specifies nine principles that federal agencies must follow when implementing AI, ensuring alignment with privacy, civil rights, and civil liberties protections. These principles guide the responsible and ethical use of AI within government operations. The policies emphasize maintaining public trust while leveraging AI for innovation and efficiency. Agencies must demonstrate adherence to these principles in their AI use case submissions to ensure compliance and accountability.",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:51.874176",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on compliance with nine principles from an executive order, which is not the correct answer to what must be included in new AI use case submissions. The ground truth specifies specific elements that must be included, which the White Agent does not address.",
+  "provider": "deepseek"
+}

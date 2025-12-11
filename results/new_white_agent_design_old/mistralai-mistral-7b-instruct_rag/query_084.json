@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "Part 1: The directive does not explicitly prohibit any AI uses, but emphasizes maintaining \"strong protections for Americans’ privacy, civil rights, and civil liberties\" while promoting AI innovation.\n\nPart 2: The policies focus on encouraging federal agencies to adopt AI while ensuring compliance with existing legal and ethical standards. The memos highlight the need to balance innovation with safeguards for privacy, civil rights, and civil liberties, but do not list specific prohibited uses. Instead, they emphasize responsible AI adoption and procurement, suggesting that any restrictions would align with broader legal and ethical frameworks rather than new prohibitions.",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:34.761336",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the directive does not explicitly prohibit any AI uses, while the ground truth specifies clear prohibitions such as using AI for biased purposes or unlawful surveillance. This indicates a misunderstanding of the directive's content.",
+  "provider": "deepseek"
+}

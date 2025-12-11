@@ -1,0 +1,12 @@
+{
+  "query_id": 43,
+  "query": "What does the AI RMF identify as the key characteristics of trustworthy AI?",
+  "response": "**Part 1:**  \nThe AI RMF identifies trustworthy AI as being *valid and reliable, secure and resilient, accountable and transparent, explainable and interpretable, privacy‑enhanced, and fair with harmful bias managed*.\n\n**Part 2:**  \nIn the AI RMF, “valid and reliable” is treated as a necessary foundation on which all other trustworthiness characteristics rest. “Accountable and transparent” is described as cutting across and relating to all the other characteristics, emphasizing the importance of governance, documentation, and oversight. “Secure and resilient” focuses on robustness against failures, attacks, and disruptions, while “explainable and interpretable” addresses the need for humans to understand model behavior and outputs. “Privacy‑enhanced” and “fair with harmful bias managed” highlight protection of individuals’ data and rights, as well as the mitigation of inequitable or discriminatory outcomes.",
+  "ground_truth": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:33:28.686844",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly lists 'valid and reliable' as a characteristic instead of 'safe', which is part of the ground truth answer. This misrepresentation indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

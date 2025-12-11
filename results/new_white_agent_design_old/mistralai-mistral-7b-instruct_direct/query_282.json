@@ -1,0 +1,12 @@
+{
+  "query_id": 282,
+  "query": "Does SB 361 require data brokers to report whether they shared or sold data to GenAI developers?",
+  "response": "Yes, California's Senate Bill 361 (SB 361), also known as the \"Data Broker Registration Act,\" includes provisions that require data brokers to report certain information about their data-sharing practices. Specifically, the bill mandates that data brokers disclose whether they have shared or sold personal information to developers of generative artificial intelligence (GenAI) systems.\n\nUnder SB 361, data brokers must register with the California Attorney General's office and provide detailed information about their data collection, use, and sharing practices. This includes disclosing whether they have sold or shared personal information with entities that use it to train or develop GenAI models. The goal is to enhance transparency and accountability in the data brokerage industry, particularly in light of the growing concerns about the use of personal data in AI development.\n\nFor the most accurate and up-to-date information, it is advisable to review the full text of SB 361 or consult official sources such as the California Legislative Information website.",
+  "ground_truth": "Yes, data brokers must disclose if they shared or sold consumer data to GenAI system developers in the past year.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:47.934744",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirements of SB 361, stating that data brokers must disclose whether they have shared or sold data to GenAI developers, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "The SR2 Committee, or the \"AI Safety and Responsibility Committee,\" is a group focused on addressing the safety, ethics, and responsible development of artificial intelligence. While the exact details of the SR2 Committee can vary depending on the organization or context, generally, such committees are tasked with the following responsibilities:\n\n1. **Safety Assessments**: Evaluating the potential risks associated with AI systems, including biases, unintended consequences, and security vulnerabilities.\n2. **Ethical Guidelines**: Developing and promoting ethical frameworks for AI development and deployment, ensuring that AI systems align with human values and societal norms.\n3. **Policy Recommendations**: Providing guidance to policymakers, industry stakeholders, and the public on best practices for AI safety and responsibility.\n4. **Research and Collaboration**: Supporting research initiatives and fostering collaboration among academics, industry experts, and government agencies to advance AI safety.\n5. **Public Awareness**: Educating the public and stakeholders about the importance of AI safety and the potential risks associated with unregulated AI development.\n\nIf you are referring to a specific SR2 Committee (e.g., one associated with a particular organization or government body), please provide more context for a more precise answer.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:08:02.687410",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general overview of the responsibilities of committees focused on AI safety and ethics, but it does not accurately reflect the specific function of the SR2 Committee as described in the ground truth, which is to review safety-impacting and rights-impacting AI use cases before deployment.",
+  "provider": "deepseek"
+}

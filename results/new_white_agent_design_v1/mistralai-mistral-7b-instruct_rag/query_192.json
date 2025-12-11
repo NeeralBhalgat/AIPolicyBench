@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "The AI Labeling Act of 2023 requires disclosures for AI-generated content, ensuring consumers can determine when content is generated using AI. [REF]Source 1[/REF]",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:09.399122",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement of the AI Labeling Act of 2023, which mandates disclosures for AI-generated content, aligning with the ground truth that all AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "provider": "deepseek"
+}

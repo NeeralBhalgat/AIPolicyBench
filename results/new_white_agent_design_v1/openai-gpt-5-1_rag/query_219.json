@@ -1,0 +1,12 @@
+{
+  "query_id": 219,
+  "query": "What is one reason the Legislature cites for limiting public access to cybersecurity information in Section 3 of AB 979?",
+  "response": "The Legislature argues that limiting public access to certain cybersecurity information is justified because protecting vulnerabilities and IT system integrity serves essential public interests.",
+  "ground_truth": "To prevent attackers from exploiting vulnerabilities in state information technology systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:27:00.226249",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the rationale behind limiting public access to cybersecurity information, emphasizing the protection of vulnerabilities and IT system integrity, which aligns with the ground truth regarding preventing exploitation by attackers.",
+  "provider": "deepseek"
+}

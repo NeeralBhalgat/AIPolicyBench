@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "Part 1: The provided sources do not explicitly define machine learning.\n\nPart 2: Machine learning is not specifically defined in the provided sources. However, the sources do mention that AI, which can be considered a broader term encompassing machine learning, describes various activities that range from data collection and analyses to support human decision-making to fully autonomous systems. Machine learning is a subset of AI that involves training algorithms to learn patterns and make decisions based on data without being explicitly programmed.",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:44:06.032158",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes machine learning as a subset of AI that learns from data without explicit programming, aligning with the ground truth definition.",
+  "provider": "deepseek"
+}

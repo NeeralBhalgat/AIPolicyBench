@@ -1,0 +1,12 @@
+{
+  "query_id": 22,
+  "query": "What policy goal does the order set for the United States?",
+  "response": "The order sets the policy goal of ensuring that AI is developed and used in a manner that promotes innovation, protects civil liberties, and advances the national and economic security of the United States.",
+  "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:42.909060",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which emphasizes global AI dominance and human flourishing, while the White Agent focuses on civil liberties and innovation without mentioning the broader context of competitiveness and global standing.",
+  "provider": "deepseek"
+}

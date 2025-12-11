@@ -1,0 +1,12 @@
+{
+  "query_id": 234,
+  "query": "What enforcement power may a health care licensing board use under Section 4999.9(a)(2)?",
+  "response": "Part 1: Under Section 4999.9(a)(2), a health care licensing board may use the enforcement power to issue a citation containing an order of abatement.\n\nPart 2: This power is part of the laws governing health care professionals, which are contained in the Business and Professions Code. The citation and order of abatement is a specific enforcement tool available to the board. This action allows the board to formally demand that a licensee correct a violation of the law.",
+  "ground_truth": "They may pursue an injunction or restraining order.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:12:31.519183",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that a health care licensing board may issue a citation containing an order of abatement under Section 4999.9(a)(2), while the ground truth indicates that the board may pursue an injunction or restraining order instead.",
+  "provider": "deepseek"
+}

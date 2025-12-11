@@ -1,0 +1,12 @@
+{
+  "query_id": 233,
+  "query": "Who has jurisdiction over violations of AB 489’s provisions?",
+  "response": "Part 1: The Attorney General, district attorneys, and city attorneys have jurisdiction to prosecute violations of AB 489.\n\nPart 2: The bill grants concurrent authority to these specific public prosecutors to bring actions for violations of its provisions. This means that any of these offices—the state Attorney General, a county district attorney, or a city attorney—can independently initiate legal proceedings against violators. This structure ensures enforcement can occur at multiple levels of government, from the state level down to the local municipal level.",
+  "ground_truth": "The appropriate health care professional licensing board or enforcement agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:12:31.987761",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the Attorney General, district attorneys, and city attorneys as having jurisdiction over violations of AB 489, while the ground truth specifies that the appropriate health care professional licensing board or enforcement agency has jurisdiction.",
+  "provider": "deepseek"
+}

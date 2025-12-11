@@ -1,0 +1,12 @@
+{
+  "query_id": 136,
+  "query": "What role do IRS executives have in AI governance?",
+  "response": "IRS executives do **not** play a central, economy‑wide AI regulatory role in the United States. Their role in AI governance is largely:\n\n1. **Internal (governing IRS use of AI)**\n2. **Implementation-focused (complying with cross‑government AI rules and standards)**\n3. **Limited/indirect externally (via tax administration, not AI safety policy)**\n\nBelow is how that breaks down, based on current U.S. federal policy structures.\n\n---\n\n## 1. They are not primary AI regulators for the private sector\n\n- The IRS (Internal Revenue Service) is primarily a **tax administration agency**.\n-",
+  "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:54:17.285877",
+  "confidence": 0.9,
+  "reasoning": "The White Agent accurately describes the IRS's role in AI governance as primarily internal and implementation-focused, aligning with the ground truth that they must manage AI use in compliance with their internal regulations. The response correctly identifies that the IRS is not a primary regulator for the private sector, which is consistent with the current understanding of their responsibilities.",
+  "provider": "deepseek"
+}

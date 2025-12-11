@@ -1,0 +1,12 @@
+{
+  "query_id": 105,
+  "query": "What tool does DOT use to track AI use cases?",
+  "response": "The Department of Transportation uses a dataset on its Open Data Portal to track AI use cases.",
+  "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:42:53.962962",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the Department of Transportation uses a dataset on its Open Data Portal to track AI use cases, while the correct tool is TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "provider": "deepseek"
+}

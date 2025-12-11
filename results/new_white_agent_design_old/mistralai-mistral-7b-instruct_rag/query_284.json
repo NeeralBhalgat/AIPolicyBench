@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "Part 1: SB 361 adds a requirement for agencies to retain denied requests for a minimum of 2 years.\n\nPart 2: In the context of the provided sources, SB 361 (California Senate Bill 361) requires state agencies to retain denied requests for a minimum of 2 years. This enhanced deletion requirement is aimed at increasing transparency and accountability in the decision-making process of these agencies. The bill also mandates that agencies maintain a record of the reasons for denying a request, further emphasizing the importance of transparency and the public's right to know.",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:00:12.373001",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that SB 361 requires agencies to retain denied requests for a minimum of 2 years, while the ground truth specifies that a denied deletion request must be processed as an opt-out of sale or sharing within 45 days. This indicates a misunderstanding of the bill's requirements.",
+  "provider": "deepseek"
+}

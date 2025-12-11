@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "**Part 1 (1 sentence)**  \nDOE is addressing AI talent development by investing in AI research and tools for science—such as funding work to develop foundation models for science and privacy‑preserving AI technologies—under the broader framework of Executive Order 14110 on the safe, secure, and trustworthy development and use of AI.\n\n**Part 2 (3–4 sentences)**  \nBy providing $68 million in funding for artificial intelligence for scientific discovery, including hardware and software tools, DOE is creating opportunities for researchers, scientists, and engineers to build advanced AI skills in real-world energy and science applications. These efforts support the development and deployment of AI across domains such as grid planning, operations, resilience, and climate-related sectors like transportation and buildings, giving practitioners hands-on experience with cutting‑edge methods. DOE’s work to make scientific AI more trustworthy, more energy efficient, and privacy preserving encourages the development of expertise in responsible AI practices. In parallel, DOE’s risk assessments and best‑practice guidance for AI in critical energy infrastructure help train current and future professionals in how to deploy AI safely, securely, and effectively.",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:40:04.972422",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses funding and initiatives related to AI in science and energy but does not mention the specific workforce training, partnerships, and hiring initiatives, including the pilot with NSF to train 500 researchers by 2025, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 201,
+  "query": "What does the term “Agent” include under §11008(b)?",
+  "response": "**Part 1:**  \nUnder §11008(b), the term “Agent” includes acting as the “medium or agent” by **actively participating in bringing nonbanking interests and dealers together for the purpose of making loans on securities, arranging such loans, or serving in a representative capacity in such loan transactions**.\n\n**Part 2:**  \nIn interpreting “medium or agent,” the Board explained that this language is meant to preclude banks from *actively participating* in bringing nonbanking corporations and securities dealers together, arranging loans on stocks or bonds, or otherwise representing either party in such securities-loan transactions. Those kinds of activities fall within the concept of acting as an agent under the statute. By contrast, a bank that merely provides information about possible borrowers of excess funds, when requested, without contacting the parties, arranging the loan, or joining negotiations, is not considered to be acting as an agent. Thus, “Agent” under §11008(b) is tied to substantive, representative involvement in arranging or facilitating the loans, not to the passive furnishing of information.",
+  "ground_truth": "An agent includes any person acting on behalf of an employer, including when activities are conducted through an automated-decision system.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:14:17.302527",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response misinterprets the definition of 'Agent' under §11008(b) by focusing on the activities related to loan transactions and does not include the broader definition that encompasses any person acting on behalf of an employer, including through automated systems.",
+  "provider": "deepseek"
+}

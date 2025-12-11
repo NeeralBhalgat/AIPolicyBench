@@ -1,0 +1,10 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "[TIMEOUT] Query processing exceeded time limit.",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "timeout",
+  "evaluation_method": "auto-detect",
+  "timestamp": "2025-12-10T15:15:35.975924",
+  "reason": "White agent response timed out or was empty"
+}

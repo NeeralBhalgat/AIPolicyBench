@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "Part 1: The DOE AI Use Case Inventory aims to compile a comprehensive list of artificial intelligence use cases within the Department of Energy.\n\nPart 2: This inventory is a collection of AI applications, models, and partnerships developed by the DOE, as outlined in the Office of Management and Budget Memorandum M-24-10. The inventory serves to promote transparency, innovation, and the management of potential risks and safety impacts associated with AI use within the department. The inventory is updated annually, with the 2024 version being the most recent one available for download.",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:27:55.190442",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOE AI Use Case Inventory as compiling AI use cases within the Department of Energy, promoting transparency, innovation, and risk management. It aligns well with the ground truth answer, although it includes additional details that do not detract from its correctness.",
+  "provider": "deepseek"
+}

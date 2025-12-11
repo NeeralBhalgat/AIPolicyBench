@@ -1,0 +1,12 @@
+{
+  "query_id": 211,
+  "query": "What deadline does AB 979 set for the California Cybersecurity Integration Center to develop the California AI Cybersecurity Collaboration Playbook?",
+  "response": "AB 979, a bill introduced in the California State Legislature, requires the California Cybersecurity Integration Center (Cal-CSIC) to develop the California AI Cybersecurity Collaboration Playbook. The bill sets a deadline of **January 1, 2025**, for the completion of this playbook. This deadline is specified in the text of the bill, which mandates that the playbook be developed in collaboration with relevant stakeholders, including industry experts, academia, and government agencies, to address cybersecurity risks associated with artificial intelligence systems.\n\nIf you need further details or updates on the bill's status, I recommend checking the latest legislative updates from the California State Legislature or official government sources.",
+  "ground_truth": "The playbook must be developed on or before January 1, 2027.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:19.481854",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the deadline for the California AI Cybersecurity Collaboration Playbook is January 1, 2025, while the correct deadline is January 1, 2027.",
+  "provider": "deepseek"
+}

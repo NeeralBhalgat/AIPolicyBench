@@ -1,0 +1,12 @@
+{
+  "query_id": 232,
+  "query": "Which definitions of “AI” and “GenAI” does AB 489 incorporate?",
+  "response": "AB 489 incorporates the existing **Government Code definitions of “artificial intelligence (AI)” and “generative artificial intelligence (GenAI)”** by reference.",
+  "ground_truth": "Definitions from Government Code Sections 11546.45.5 (AI) and 11549.64 (GenAI).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:28:02.166541",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately states that AB 489 incorporates the definitions of AI and GenAI by reference from the Government Code, aligning with the ground truth information provided.",
+  "provider": "deepseek"
+}

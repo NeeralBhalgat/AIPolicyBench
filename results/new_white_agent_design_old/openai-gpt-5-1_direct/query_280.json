@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "“Whistleblower provisions” isn’t one single law; who is protected depends heavily on the jurisdiction and the specific statute or policy. But there are clear common patterns, and some major reference points.\n\nBelow is a structured overview.\n\n---\n\n## 1. General pattern across most modern whistleblower regimes\n\nMost comprehensive whistleblower protections (US, EU, UK, etc.) protect **people who report, in good faith and with a reasonable belief, information about certain kinds of wrongdoing** (e.g., illegality, fraud, safety risks, human rights violations) and then suffer or risk retaliation.\n\nTypical protected categories include:\n\n- **Current employees**\n- **Former employees**\n- **Job applicants** (in some regimes)\n- **Contractors, subcontractors, consultants**\n- **Agency workers / temporary workers**\n- **Volunteers and trainees** (in EU and some national laws)\n- **People connected to the whistleblower** (colleagues, relatives) where they may face retaliation\n- **Facilitators** (e.g., trade union reps, NGOs, lawyers) who assist the whistleblower\n\nProtection usually applies if:\n\n1. The disclosure relates to a type of wrongdoing covered by the law.\n2. The whistleblower **reasonably believes** the information is true at the time.\n3. They use channels allowed by the law (internal, regulator, sometimes public",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:09:13.485345",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a general overview of whistleblower protections but does not specifically address the ground truth answer regarding the protection of employees reporting catastrophic-risk dangers or violations of the TFAIA. It expresses uncertainty by discussing variations in jurisdiction and does not confirm the specific protections mentioned in the ground truth.",
+  "provider": "deepseek"
+}

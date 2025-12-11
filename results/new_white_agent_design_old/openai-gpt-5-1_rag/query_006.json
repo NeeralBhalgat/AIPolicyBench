@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "Part 1: The emphasized workforce objective is to bring to the Federal workforce only highly skilled Americans while shrinking and optimizing the size of government.\n\nPart 2: The policies aim to remake the federal workforce through a hiring plan that focuses on recruiting “only highly skilled Americans” dedicated to serving the Nation. Executive actions direct agencies to coordinate with the Department of Government Efficiency to shrink the size of the federal workforce and limit hiring to essential positions. Parallel efforts modernize workforce training programs to prepare citizens for high‑paying skilled trade jobs and critical roles in emerging industries driven by reshoring and the AI revolution. Together, these measures seek a smaller, more efficient, and more productive workforce aligned with national economic and administrative priorities.",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:25:15.537323",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on a workforce objective of hiring highly skilled Americans and optimizing the federal workforce, which does not align with the ground truth answer emphasizing a worker-first agenda centered on AI literacy, skills development, and rapid retraining.",
+  "provider": "deepseek"
+}

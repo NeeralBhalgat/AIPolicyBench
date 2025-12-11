@@ -1,0 +1,12 @@
+{
+  "query_id": 221,
+  "query": "How does AB 316 define “artificial intelligence” in Civil Code §1714.46(a)?",
+  "response": "Part 1: AB 316 defines “artificial intelligence” in Civil Code §1714.46(a) as a “machine-based system that can, for a given set of human-defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments.”\n\nPart 2: The definition emphasizes that AI systems are machine-based and operate within human-defined objectives, focusing on their ability to generate predictions, recommendations, or decisions. This aligns with broader legal and technical understandings of AI as a tool designed to assist or augment human decision-making. The inclusion of “real or virtual environments” highlights the broad applicability of AI across various contexts, ensuring the definition is comprehensive and adaptable to emerging technologies.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:50:50.740554",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately captures the definition of 'artificial intelligence' as per AB 316. While it mentions machine-based systems and human-defined objectives, it does not align with the ground truth, which specifies that the system varies in autonomy and can infer from inputs to generate outputs. This discrepancy indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

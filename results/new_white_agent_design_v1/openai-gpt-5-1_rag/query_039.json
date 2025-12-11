@@ -1,0 +1,12 @@
+{
+  "query_id": 39,
+  "query": "How will vendors and procurement be handled?",
+  "response": "Vendors and procurement will be handled under government-wide procurement policies directed by the Office of Federal Procurement Policy and, for Federal awards, in accordance with the procurement standards in 2 CFR 200.317–200.327, including maintaining and using \"documented procedures for procurement transactions,\" avoiding \"the acquisition of unnecessary or duplicative items,\" and, when appropriate, using \"procurement arrangements using strategic sourcing\" such as intergovernmental or inter-entity agreements.",
+  "ground_truth": "Standard contract language on data rights/usage/privacy; disclose GenAI in products; monitor for “shadow AI”; prefer secure, compliant tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:10:31.322010",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on government procurement policies and standards, which do not align with the ground truth answer that emphasizes data rights, GenAI disclosure, and monitoring for 'shadow AI'. The response does not address the specific aspects of AI policy and safety mentioned in the ground truth.",
+  "provider": "deepseek"
+}

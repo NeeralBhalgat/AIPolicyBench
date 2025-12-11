@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:58:18.688145",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information regarding the DoD workforce and talent strategy, which is a clear admission of not knowing the answer.",
+  "provider": "deepseek"
+}

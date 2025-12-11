@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Part 1: Near-term enablers and wins include the executive branch's renewed deregulatory ambitions, which are being implemented through significant policy changes such as new, delayed, and repealed rules, and the establishment of a system that imposes a total incremental cost allowance on agencies to control new regulations.\n\nPart 2: The administration is actively implementing deregulation by using executive actions to repeal, delay, or introduce new rules across various policy areas. A key enabler is a new executive order that establishes a budgetary control on regulation by setting a \"total incremental cost allowance\" for each agency, limiting the costs their new regulations can impose each fiscal year. This system, managed by a Director who must approve any exceptions, provides a mechanism to systematically reduce regulatory burdens. These coordinated actions represent concrete, near-term wins for the administration's deregulatory agenda.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:29:19.573086",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses deregulation and executive actions, which are not relevant to the specific near-term enablers and wins related to AI policy and safety datasets as outlined in the ground truth answer. The response does not mention any of the key elements such as the AI Council, GAIRB, or the Innovation Hub, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

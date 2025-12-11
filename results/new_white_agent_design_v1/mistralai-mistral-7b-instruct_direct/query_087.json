@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "The DHS AI Council, established in 2021, is responsible for coordinating the Department of Homeland Security's (DHS) use of artificial intelligence (AI) and ensuring that AI is used in a safe, secure, and ethical manner. It also provides guidance on AI-related policies and best practices across the department.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:02.658593",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response accurately describes the DHS AI Council's role in coordinating AI use and ensuring safety and ethics, it fails to mention specific functions such as supporting the AI Governance Board and maintaining policy requirements, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

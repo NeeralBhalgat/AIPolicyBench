@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "Part 1:  \nThe directive does not specify or identify any previous policy that it cancels.\n\nPart 2:  \nThe provided text excerpts deal with matters such as life insurance protection for servicemembers and export control policy but do not mention any directive superseding or cancelling earlier policies. There is no clause stating that a prior directive, order, or policy is rescinded or replaced. Without explicit language of cancellation, one cannot infer that any specific earlier policy is cancelled. Therefore, based on the given material, no previous policy cancellation can be identified.",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:10:25.179557",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that no previous policy can be identified as being cancelled, while the ground truth specifies that the directive cancels the Security Policy for Generative AI LLMs CIO IL-23-01. This indicates a factual inaccuracy in the White Agent's assessment.",
+  "provider": "deepseek"
+}

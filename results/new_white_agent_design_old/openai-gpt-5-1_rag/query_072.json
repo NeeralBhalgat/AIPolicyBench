@@ -1,0 +1,12 @@
+{
+  "query_id": 72,
+  "query": "How does the Strategic Plan define Artificial Intelligence?",
+  "response": "Part 1:  \nThe Strategic Plan defines Artificial Intelligence as computerized systems that exhibit behavior that is commonly thought of as requiring intelligence, such as learning, reasoning, problem solving, perception, and language use.\n\nPart 2:  \nIn the context of the Strategic Plan, AI is not limited to any single technique (like machine learning) but encompasses a broad range of computational methods that can perform tasks associated with intelligent behavior. The emphasis is on systems whose actions appear intelligent to humans, because they can adapt, make decisions, or interpret complex information. By framing AI this way, the Plan can cover both current technologies and future approaches that achieve intelligent behavior by different means. This definition underpins the Plan’s goals for Federally funded AI research, ensuring it supports advances across this full spectrum of intelligent capabilities.",
+  "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:40:54.422750",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a broad definition of AI that includes behaviors associated with intelligence, but it does not align with the ground truth answer, which specifically defines AI as a machine-based system that makes predictions, recommendations, or decisions. The response misrepresents the focus of the Strategic Plan's definition.",
+  "provider": "deepseek"
+}

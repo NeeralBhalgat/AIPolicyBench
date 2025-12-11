@@ -1,0 +1,11 @@
+{
+  "query_id": 271,
+  "query": "What is the Transparency in Frontier Artificial Intelligence Act (TFAIA)?",
+  "response": "",
+  "ground_truth": "A law requiring large frontier developers to publish safety frameworks, report catastrophic risks, and follow transparency and whistleblower rules.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:08:05.150748",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

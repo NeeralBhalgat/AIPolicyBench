@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "Part 1: The DOE's PolicyAI tool is used to help users find and understand DOE directives, which are the primary means of establishing policies, requirements, and responsibilities for Departmental elements and contractors.\n\nPart 2: The tool assists in navigating the Department of Energy's official directives, which set policies and assign responsibilities across the department. This function is critical because directives are legally significant documents used to transfer authorities and ensure compliance. By helping users find and interpret these documents, PolicyAI supports the consistent application of DOE policies and requirements.",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:35:04.031369",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the DOE's PolicyAI tool as focused on DOE directives and compliance, while the ground truth indicates that it is used for searching, summarizing, and drafting environmental policy documents like Environmental Impact Studies.",
+  "provider": "deepseek"
+}

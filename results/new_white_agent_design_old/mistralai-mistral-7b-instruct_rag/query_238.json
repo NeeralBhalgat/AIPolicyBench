@@ -1,0 +1,12 @@
+{
+  "query_id": 238,
+  "query": "Does AB 489 limit a licensing board’s authority to pursue other remedies?",
+  "response": "Part 1: AB 489 limits a licensing board’s authority to pursue other remedies by prohibiting them from taking disciplinary action against a licensee based on a conviction that has been expunged, sealed, or dismissed.\n\nPart 2: The bill specifically restricts licensing boards from using certain convictions as grounds for disciplinary action, ensuring that individuals with expunged, sealed, or dismissed records are not penalized. This limitation is intended to promote fairness and reintegration for individuals who have had their records cleared. The context suggests that the bill aims to prevent licensing boards from pursuing other remedies that would otherwise be available if the conviction were still valid. This provision is part of broader efforts to reduce the long-term consequences of past convictions.",
+  "ground_truth": "No, it does not limit any otherwise authorized remedies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:52:45.127212",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that AB 489 limits a licensing board's authority to pursue other remedies, while the ground truth indicates that it does not impose such limitations. This misinterpretation of the bill's provisions constitutes a factual inaccuracy.",
+  "provider": "deepseek"
+}

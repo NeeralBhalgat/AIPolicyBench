@@ -1,0 +1,12 @@
+{
+  "query_id": 274,
+  "query": "What must a large frontier developer publish on its website?",
+  "response": "A large frontier developer must publish on its website a framework for mitigating catastrophic risks resulting from the use of their technology and an annual transparency report.",
+  "ground_truth": "A frontier AI framework outlining risk thresholds, mitigations, governance, cybersecurity, and update processes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:55:05.362724",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions a framework for mitigating catastrophic risks and an annual transparency report, but it does not accurately reflect the specific requirements outlined in the ground truth answer, which includes details about risk thresholds, governance, and cybersecurity. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

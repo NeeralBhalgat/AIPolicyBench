@@ -1,0 +1,12 @@
+{
+  "query_id": 103,
+  "query": "What is one role of the NETT Council as the AI Governance Board?",
+  "response": "Part 1: The NETT Council identifies and resolves jurisdictional, regulatory, and program gaps or inconsistencies associated with emerging transportation technologies.\n\nPart 2: The NETT Council is specifically tasked with addressing challenges related to nontraditional and emerging transportation technologies, modes, or projects. This includes ensuring that regulatory frameworks and programs are consistent and aligned with the needs of these evolving technologies. By resolving gaps and inconsistencies, the council aims to facilitate the smooth integration and operation of new transportation solutions, which is crucial for advancing AI infrastructure and other innovative technologies.",
+  "ground_truth": "To review and approve all AI governance structures, policies, and guidance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:34:54.095207",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response describes the NETT Council's role in addressing regulatory gaps for transportation technologies, which is not aligned with the ground truth answer that specifies the council's role in reviewing and approving AI governance structures, policies, and guidance.",
+  "provider": "deepseek"
+}

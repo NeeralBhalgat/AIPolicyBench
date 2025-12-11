@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "There is **no single, global labeling rule** for all AI‑generated work yet.  \nRequirements depend on **jurisdiction**,",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:41.527751",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no single, global labeling rule for AI-generated work, while the ground truth indicates that all AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "provider": "deepseek"
+}

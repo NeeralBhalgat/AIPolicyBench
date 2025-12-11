@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "Part 1: The strategy emphasizes reestablishing strategic stability with Russia, managing European relations with Russia, ending NATO enlargement, cultivating civilization erasure, and prioritizing global and regional balances of power.\n\nPart 2: The strategy significantly downplays the threat posed by Russia, calling for efforts to \"reestablish ... strategic stability\" and focusing on \"civilization erasure\" in Europe. It also hints at weakening U.S. commitment to Europe's defense and ending NATO enlargement, which aligns with Kremlin interests. Additionally, the strategy shifts away from strategic competition, advocating for \"global and regional balances of power\" instead of global domination. This approach marks a departure from previous U.S. foreign policy priorities.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:27:08.119641",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response does not align with the ground truth answer regarding the five key strategic goals. Instead, it discusses geopolitical strategies related to Russia and NATO, which are not part of the specified goals related to AI policy and safety datasets.",
+  "provider": "deepseek"
+}

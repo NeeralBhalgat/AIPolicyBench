@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "The Department of Defense (DoD) plans to improve data sharing and quality by implementing a data strategy that includes standardizing data formats, enhancing data governance, and leveraging advanced analytics and artificial intelligence to ensure data is accurate, accessible, and secure. This approach aims to create a more interconnected and reliable data ecosystem across the DoD.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:21.979521",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth, which emphasizes treating data as a product managed by decentralized teams. Instead, it focuses on standardization and governance, which, while relevant, do not capture the core strategy outlined in the ground truth.",
+  "provider": "deepseek"
+}

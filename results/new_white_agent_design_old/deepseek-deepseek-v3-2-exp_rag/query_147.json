@@ -1,0 +1,12 @@
+{
+  "query_id": 147,
+  "query": "What role does AISWG have in risk management?",
+  "response": "Part 1: The AISWG is an interagency council established by the Office of Management and Budget to coordinate AI use by federal agencies and develop guidance on AI governance and risk management activities.\n\nPart 2: The Executive Order requires the AISWG to develop guidance for agencies on AI governance and risk management. This guidance includes establishing minimum risk-management practices for government uses of AI that impact rights or safety, which are derived from established frameworks like the NIST AI Risk Management Framework. The AISWG's role is therefore central to creating the foundational policies and coordination structures that federal agencies will use to manage AI risks.",
+  "ground_truth": "Reviewing and approving safety/rights-impacting assessments and waivers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:51:26.275326",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides a detailed description of the AISWG's role in AI governance and risk management, it does not accurately reflect the specific ground truth answer regarding the review and approval of safety/rights-impacting assessments and waivers. The focus on developing guidance and establishing practices does not encompass the specific responsibilities mentioned in the ground truth.",
+  "provider": "deepseek"
+}

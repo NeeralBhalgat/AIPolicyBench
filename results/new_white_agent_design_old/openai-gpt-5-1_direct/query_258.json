@@ -1,0 +1,12 @@
+{
+  "query_id": 258,
+  "query": "Who does the law apply to regarding use of digitally altered images?",
+  "response": "Laws on digitally altered images don’t target “AI people” or “artists” as a special class; they generally apply to anyone who *creates, distributes, or uses* such images in ways that fall under existing legal categories (fraud, defamation, privacy, advertising, election law, etc.). The exact rules depend heavily on jurisdiction, but the “who” is relatively consistent.\n\nBelow is a structured summary of who is typically covered, with examples of the kinds of laws that apply.\n\n---\n\n## 1. Individual creators and sharers\n\n**Who:**  \nAny private person who makes, edits, or shares manipulated or AI-generated images (including deepfakes, Photoshopped pictures, face swaps, etc.).\n\n**Examples of when the law applies to them:**\n\n- **Defamation / False light**  \n  - You can be liable if you create or share an altered image that falsely portrays someone in a damaging way (e.g., fabricating them committing a crime, using drugs, being unfaithful).\n- **Harassment, stalking, NCP (non‑consensual pornography)**  \n  - Many countries criminalize creating or sharing sexually explicit fake images of a real person without consent (even if “it’s obviously fake”).  \n  - Some jurisdictions explicitly cover AI/deepfake sexual images.\n- **Child sexual abuse material (CSAM)**  \n  - In many countries (including the U.S. and EU states), even *synthetic* or “photoshopped”",
+  "ground_truth": "Real estate brokers, salespersons, and persons acting on their behalf.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:06:50.223783",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the application of laws regarding digitally altered images but does not address the specific ground truth answer, which pertains to real estate brokers and related parties. The response is factually incorrect in the context of the question asked.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 83,
+  "query": "What principles guide DHS’s use of AI?",
+  "response": "The DHS has adopted three principles for its use of AI: (1) lawful and respectful of all individuals’ rights, (2) responsible and accountable, and (3) transparent.",
+  "ground_truth": "AI use must be lawful, mission-appropriate, mission-enhancing, safe, secure, responsible, trustworthy, and human-centered.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:58:59.003180",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response lists three principles that are not fully aligned with the comprehensive set of principles outlined in the ground truth answer, which includes additional aspects such as 'mission-appropriate', 'mission-enhancing', 'safe', 'secure', 'trustworthy', and 'human-centered'. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

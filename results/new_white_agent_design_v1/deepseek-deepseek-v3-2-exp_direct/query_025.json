@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "Based on my knowledge of current AI policy, the requirement to produce an AI Action Plan is stipulated by the European Union's AI Act for certain public entities.\n\nSpecifically, under Article 19, public bodies and providers of public services that are classified as \"high-risk AI systems\" users must produce an AI Action Plan. This plan outlines how they will comply with the regulation's requirements for fundamental rights impact assessments. The deadline for producing this plan is before putting the high-risk AI system into use.",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:24.895843",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the entities responsible for producing the AI Action Plan and does not mention the specific deadline of 180 days, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

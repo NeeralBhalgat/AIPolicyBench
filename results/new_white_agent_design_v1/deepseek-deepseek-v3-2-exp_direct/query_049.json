@@ -1,0 +1,12 @@
+{
+  "query_id": 49,
+  "query": "How does the Manage function contribute to AI risk management?",
+  "response": "Based on established AI risk management frameworks, the Manage function establishes governance, policies, and procedures to systematically address risks identified throughout the AI lifecycle. It ensures accountability, allocates resources, and oversees the continuous monitoring and adjustment of risk controls.",
+  "ground_truth": "It allocates resources and plans responses to identified risks, focusing on continuous monitoring and improvement.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:58:06.804517",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the Manage function's role in establishing governance, policies, and procedures for AI risk management, which aligns with the ground truth answer regarding resource allocation and continuous monitoring.",
+  "provider": "deepseek"
+}

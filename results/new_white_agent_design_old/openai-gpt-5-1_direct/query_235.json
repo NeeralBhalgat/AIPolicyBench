@@ -1,0 +1,11 @@
+{
+  "query_id": 235,
+  "query": "Against whom are existing prohibitions on deceptive medical terms enforceable under AB 489?",
+  "response": "",
+  "ground_truth": "Any person or entity that develops or deploys an AI or GenAI system using prohibited terms in advertising or functionality.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:04:00.666625",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

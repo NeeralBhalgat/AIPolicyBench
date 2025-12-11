@@ -1,0 +1,12 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "Part 1: AI supports internal improvements at the NRC by strengthening its ability to meet its mission and comply with legislative requirements for the accelerated use of efficiency-enhancing AI capabilities.\n\nPart 2: The NRC is focused on responsibly integrating AI to enhance its operational efficiency and fulfill its regulatory duties. This involves using AI to improve internal processes, uphold its core values, and adhere to new legislative mandates that promote the adoption of AI for increasing effectiveness. The agency has conducted a framework gap assessment to evaluate its regulations and guidance for integrating AI use cases and managing associated risks.",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:00:22.342169",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the NRC's focus on integrating AI to enhance operational efficiency and comply with legislative requirements, which aligns with the ground truth answer regarding better data management, efficiency, and modernized decision-making.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 250,
+  "query": "What relief may a person injured by a violation of this chapter seek in a civil action?",
+  "response": "**Part 1:** The person injured may seek redress in an action at law, suit in equity, or other proper proceeding for redress, and the Attorney General may, in a civil action, obtain appropriate equitable and declaratory relief to eliminate a pattern or practice.\n\n**Part 2:** The statute explicitly states that the injured party shall be liable to the party injured in an action at law, suit in equity, or other proper proceeding for redress. This means the law provides for monetary damages and other court-ordered remedies. Furthermore, the Attorney General is authorized to bring a civil action on behalf of the United States to obtain equitable and declaratory relief when there is a pattern or practice of violations. Declaratory relief establishes the rights of the parties, while equitable relief typically includes injunctions to stop ongoing violations.",
+  "ground_truth": "Injunctive relief, damages of at least $1,000 per violation, and reasonable attorney’s fees and costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:15:29.712887",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately states that the injured party shall be liable to the party injured, which is incorrect. The ground truth specifies that the injured party may seek damages and relief, but the White Agent's claim about liability is misleading and does not align with the provided ground truth answer.",
+  "provider": "deepseek"
+}

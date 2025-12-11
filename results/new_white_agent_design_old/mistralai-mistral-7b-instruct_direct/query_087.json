@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "The Department of Homeland Security (DHS) AI Council, established in 2021, performs several key functions related to the responsible use of artificial intelligence (AI) within the department. Its primary roles include:\n\n1. **Coordination and Oversight**: The council ensures that AI initiatives across DHS components are aligned with the department's mission, values, and ethical principles. It oversees the implementation of AI policies and guidelines.\n\n2. **Policy Development**: The council develops and recommends policies, procedures, and best practices for the ethical, secure, and effective use of AI within DHS. This includes addressing issues like bias, transparency, and accountability.\n\n3. **Stakeholder Engagement**: The council facilitates collaboration and communication among DHS components, other federal agencies, industry partners, academia, and civil society to share insights and best practices on AI.\n\n4. **Risk Management**: The council assesses and mitigates risks associated with AI use, including potential harms to privacy, civil liberties, and national security.\n\n5. **Education and Training**: The council promotes AI literacy and provides training to DHS personnel to ensure they understand the implications and best practices of AI technologies.\n\n6. **Innovation and Research**: The council supports research and development of AI technologies that can enhance DHS's capabilities while adhering to ethical standards.\n\nThe council is part of DHS's broader efforts to integrate AI responsibly into its operations, as outlined in the department's AI Strategy and other related directives.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:05:34.887298",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides detailed functions of the DHS AI Council but does not accurately reflect the specific roles mentioned in the ground truth answer, such as supporting the AI Governance Board and maintaining comprehensive policy requirements.",
+  "provider": "deepseek"
+}

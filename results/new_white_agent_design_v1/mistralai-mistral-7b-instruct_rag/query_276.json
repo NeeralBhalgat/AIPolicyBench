@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "A transparency report before deploying a frontier model must include a mechanism for individuals to communicate directly with the frontier developer, the release date of the frontier model, the modalities of outputs the frontier model supports, intended uses of the frontier model, and any restrictions or conditions on those uses. Additionally, a large frontier developer’s transparency report must also provide a summary of assessments of catastrophic risks from the model.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:41.797467",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the necessary components of a transparency report for deploying a frontier model, including the release date, modalities, intended uses, restrictions, and assessments of catastrophic risks, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 158,
+  "query": "How is NASA addressing generative AI risks?",
+  "response": "NASA is addressing generative AI risks primarily by issuing internal guidance that restricts how staff may use external generative AI tools (e.g., prohibiting entry of sensitive or mission‑critical data) and by requiring compliance with federal cybersecurity, privacy, and AI risk‑management frameworks. It is also aligning its AI practices with broader U.S. government directives on safe, secure, and trustworthy AI use in federal agencies.",
+  "ground_truth": "By emphasizing human verification, validation, and benchmarks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:43:39.537203",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides information about NASA's internal guidance and compliance with frameworks, but it does not mention the emphasis on human verification, validation, and benchmarks, which is part of the ground truth answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

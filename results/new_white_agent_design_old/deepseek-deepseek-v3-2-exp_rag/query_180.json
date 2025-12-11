@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "Part 1: \"AI tools\" refers to AI-enabled tools that develop personalized immune-response profiles for patients, models that streamline permitting and environmental reviews, tools to evaluate AI capabilities to generate outputs representing nuclear or biological risks, and automated or algorithmic tools used for decisions in housing and underwriting.\n\nPart 2: The term encompasses a wide range of applications, including those in healthcare for creating personalized patient profiles and improving clinical care data. In the energy and climate sectors, these tools are used for planning, streamlining reviews, and developing foundation models for science. They also include critical security tools for evaluating dangerous AI-generated outputs and automated systems used in financial and housing sectors for tasks like underwriting and tenant screening.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:00:21.925845",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides specific examples of AI tools but does not align with the ground truth definition, which is broader and focuses on software, code, IT infrastructure, and utilities. The examples given are too narrow and do not encompass the full scope of what 'AI tools' means.",
+  "provider": "deepseek"
+}

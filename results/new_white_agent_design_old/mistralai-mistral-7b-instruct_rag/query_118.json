@@ -1,0 +1,12 @@
+{
+  "query_id": 118,
+  "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+  "response": "<s> [OUT] Part 1: If an AI use case becomes non-compliant with risk management requirements, it may need to be scaled, refined, or retired based on business impact.\n\nPart 2: The AI Risk Management Framework (AI RMF) is designed to help organizations identify and mitigate risks associated with AI systems. If an AI use case fails to meet compliance standards, organizations can use the framework to assess the situation and decide whether to adjust the system (refine), expand its use (scale), or discontinue it (retire). This decision is based on the business impact and the level of risk involved, ensuring that AI systems remain trustworthy and aligned with organizational goals. The framework provides a structured approach to managing these risks, supporting continuous improvement and responsible AI deployment.",
+  "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:36:36.957937",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response suggests that an AI use case can be scaled, refined, or retired based on business impact, which does not align with the ground truth that states operations must be suspended and reverted to a non-AI process until compliance is restored. This indicates a misunderstanding of the compliance requirements.",
+  "provider": "deepseek"
+}

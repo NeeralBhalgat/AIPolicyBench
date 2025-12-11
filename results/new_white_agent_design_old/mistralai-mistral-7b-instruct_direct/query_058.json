@@ -1,0 +1,12 @@
+{
+  "query_id": 58,
+  "query": "What is the DoD’s plan for infrastructure supporting AI and analytics?",
+  "response": "The Department of Defense (DoD) has outlined a comprehensive plan for infrastructure supporting AI and analytics through the Joint Artificial Intelligence Center (JAIC). The JAIC was established in 2018 to accelerate the delivery of AI capabilities to the military.\n\nTheir plan, known as the Joint AI Center Strategy, focuses on four key areas:\n\n1. Building a foundation for AI adoption: This includes establishing a common AI architecture, data standards, and security frameworks to ensure interoperability and security across the DoD.\n\n2. Developing AI capabilities: The JAIC aims to develop and deliver AI capabilities that address specific mission needs, such as autonomous systems, decision support, and cybersecurity.\n\n3. Scaling AI across the DoD: The JAIC plans to scale AI capabilities across the department by providing training, best practices, and resources to military services and combatant commands.\n\n4. Cultivating an AI workforce: The JAIC is working to cultivate a skilled AI workforce within the DoD by offering training, education, and career development opportunities.\n\nIn addition to the JAIC, the DoD has also established the Algorithmic Warfare Cross-Functional Team (AWCFT), also known as Project Maven, to accelerate the integration of AI into the military's operations and decision-making processes.\n\nThe DoD's plan for AI and analytics infrastructure is a multi-year effort that aims to transform the department's capabilities and maintain a technological edge in the face of evolving threats. However, it's important to note that the specific details and timelines of the plan may change as the department continues to adapt to new challenges and opportunities in AI technology.",
+  "ground_truth": "To invest in interoperable, federated infrastructure that balances shared services with specialized systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:25.351184",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides detailed information about the JAIC and its initiatives, but it does not align with the ground truth answer regarding the DoD's plan for infrastructure, which emphasizes a focus on interoperable, federated infrastructure rather than the specific initiatives mentioned.",
+  "provider": "deepseek"
+}

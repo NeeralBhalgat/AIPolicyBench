@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "Part 1: Under SB 53, a \"critical safety incident\" includes model-enabled CBRN threats, major cyber-attacks, or loss of model control.\n\nPart 2: The law mandates that developers report such incidents to the Governor’s Office of Emergency Services within 15 days. It also introduces a world-first requirement for disclosing safety incidents involving dangerous deceptive behavior by autonomous AI systems, such as an AI system lying about the effectiveness of its safety controls against constructing a bioweapon. These requirements are designed to increase accountability by ensuring that events with a materially increased risk of catastrophic harm are made known.",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:54.649019",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes elements that are not part of the ground truth, such as specific references to 'model-enabled CBRN threats' and 'major cyber-attacks,' which are not mentioned in the ground truth. Additionally, the description of deceptive behavior is overly specific and does not align with the broader categories outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

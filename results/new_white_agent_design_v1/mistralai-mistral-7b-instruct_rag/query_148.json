@@ -1,0 +1,12 @@
+{
+  "query_id": 148,
+  "query": "How will NASA update the AI inventory structure?",
+  "response": "NASA will update the AI inventory structure by soliciting input from the Community of Practice of NASA researchers, using a newly deployed web tool. [s]",
+  "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:13:00.457082",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response suggests that NASA will update the AI inventory structure by soliciting input and using a web tool, which does not align with the ground truth answer that specifies redesigning data structures, collection mechanisms, and visualization tools.",
+  "provider": "deepseek"
+}

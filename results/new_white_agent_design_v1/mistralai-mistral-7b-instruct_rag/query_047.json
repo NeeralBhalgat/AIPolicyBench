@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:06:55.679265",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

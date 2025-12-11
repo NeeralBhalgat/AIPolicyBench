@@ -1,0 +1,12 @@
+{
+  "query_id": 163,
+  "query": "What is the NRC’s stated vision for AI?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:01:24.227982",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the classification of 'miss'. The ground truth answer is not provided in the response.",
+  "provider": "deepseek"
+}

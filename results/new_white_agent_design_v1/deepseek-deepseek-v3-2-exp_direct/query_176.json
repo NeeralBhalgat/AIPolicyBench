@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:01:59.221706",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

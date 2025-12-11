@@ -1,0 +1,12 @@
+{
+  "query_id": 271,
+  "query": "What is the Transparency in Frontier Artificial Intelligence Act (TFAIA)?",
+  "response": "The Transparency in Frontier Artificial Intelligence Act (TFAIA) is a proposed U.S. legislation aimed at regulating the development and deployment of advanced AI systems, particularly those deemed \"frontier\" models, by requiring transparency and reporting from developers. It focuses on ensuring that high-risk AI systems are developed and used responsibly.",
+  "ground_truth": "A law requiring large frontier developers to publish safety frameworks, report catastrophic risks, and follow transparency and whistleblower rules.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:17.537994",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the TFAIA as a proposed legislation focused on regulating advanced AI systems and emphasizes the importance of transparency and responsible development, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

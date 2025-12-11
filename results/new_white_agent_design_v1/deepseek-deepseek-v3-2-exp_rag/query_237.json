@@ -1,0 +1,12 @@
+{
+  "query_id": 237,
+  "query": "What constitutes a separate violation under AB 489?",
+  "response": "Each use of a prohibited term, letter, or phrase constitutes a separate violation under AB 489.",
+  "ground_truth": "Each use of a prohibited term, letter, or phrase.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:52:22.436916",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding what constitutes a separate violation under AB 489, confirming that each use of a prohibited term, letter, or phrase is indeed a separate violation.",
+  "provider": "deepseek"
+}

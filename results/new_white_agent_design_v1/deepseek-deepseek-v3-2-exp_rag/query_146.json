@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:45:30.529160",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the AISWG's process for AI lifecycle management.",
+  "provider": "deepseek"
+}

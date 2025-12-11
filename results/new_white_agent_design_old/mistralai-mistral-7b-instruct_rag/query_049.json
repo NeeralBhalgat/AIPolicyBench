@@ -1,0 +1,12 @@
+{
+  "query_id": 49,
+  "query": "How does the Manage function contribute to AI risk management?",
+  "response": "Part 1: The Manage function contributes to AI risk management by ensuring continuous monitoring and evaluation of deployed AI systems, as outlined in the NIST AI Risk Management Framework.\n\nPart 2: The context emphasizes the importance of ongoing oversight to mitigate risks associated with AI. Specifically, it mandates practices derived from the NIST AI Risk Management Framework, including continuous monitoring and evaluation of AI systems. This proactive approach helps identify and address potential issues before they escalate, ensuring that AI systems remain safe, secure, and trustworthy. Additionally, the framework integrates principles from the OSTP’s Blueprint for an AI Bill of Rights, reinforcing the need for human consideration and remedies in AI-driven decisions.",
+  "ground_truth": "It allocates resources and plans responses to identified risks, focusing on continuous monitoring and improvement.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:26:48.405082",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of the Manage function in AI risk management, emphasizing continuous monitoring and evaluation as outlined in the NIST AI Risk Management Framework. It aligns well with the ground truth answer, which also highlights the importance of ongoing oversight and resource allocation to address identified risks.",
+  "provider": "deepseek"
+}

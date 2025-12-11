@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Part 1:  \nWorkforce training is emphasized because it boosts students’ economic self-sufficiency and employability, increases business productivity, and leads to in-demand jobs that foster economic prosperity for workers, employers, and the greater community.  \n\nPart 2:  \nWorkforce training programs are designed as short-term, affordable pathways that help people upgrade their skills and gain credentials for high-demand occupations. By aligning closely with industry and business partners, these programs ensure training matches real labor market needs, improving productivity and competitiveness. This focus on in-demand skills helps individuals secure better-paying, more stable jobs, which in turn supports their quality of life. Collectively, these outcomes strengthen regional economies and support broader economic prosperity.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:07:19.021990",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the benefits of workforce training in general terms, focusing on economic self-sufficiency and employability. However, it does not address the specific context of the NRC developing staff for evaluating advanced AI technologies and regulatory challenges, which is the ground truth answer.",
+  "provider": "deepseek"
+}

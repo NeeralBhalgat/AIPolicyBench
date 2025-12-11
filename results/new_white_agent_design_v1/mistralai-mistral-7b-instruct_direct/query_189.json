@@ -1,0 +1,12 @@
+{
+  "query_id": 189,
+  "query": "What is the AI Safety Team responsible for?",
+  "response": "The AI Safety Team is responsible for ensuring that AI systems are developed and deployed in a way that minimizes risks and harms, including addressing issues like bias, fairness, transparency, and robustness.",
+  "ground_truth": "Adjudicating use cases, drafting guidance, enforcing security and privacy requirements.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:51.106098",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes responsibilities related to AI safety but does not accurately reflect the specific duties of the AI Safety Team as outlined in the ground truth answer, which includes adjudicating use cases and enforcing security and privacy requirements.",
+  "provider": "deepseek"
+}

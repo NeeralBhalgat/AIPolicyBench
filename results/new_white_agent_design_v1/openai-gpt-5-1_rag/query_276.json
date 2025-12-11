@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "A transparency report must include: the internet website of the frontier developer; a mechanism that enables a natural person to communicate with the frontier developer; the release date of the frontier model; the languages supported by the frontier model; the modalities of output supported by the frontier model; the intended uses of the frontier model; and any generally applicable restrictions or conditions on uses of the frontier model.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:32:48.170938",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response includes some relevant elements but omits the requirement for summaries of catastrophic-risk assessments, which is a critical component of the transparency report. Additionally, the inclusion of the internet website and communication mechanism is not standard in transparency reports for frontier models.",
+  "provider": "deepseek"
+}

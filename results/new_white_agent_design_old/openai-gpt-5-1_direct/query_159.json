@@ -1,0 +1,12 @@
+{
+  "query_id": 159,
+  "query": "When did NASA issue its first generative AI guidance?",
+  "response": "NASA’s first *agency‑wide* guidance specifically about generative AI appears to have been issued in **September 2023**, in the form of an internal interim-use memo from the Office of the Chief Information Officer (OCIO) that set rules and cautions for staff using tools like ChatGPT and other large language models (e.g., no sensitive info in public models, requirement to treat outputs as non‑authoritative, etc.).\n\nI do **not** have a reliable source for the exact calendar day of issuance, and there may have been earlier center‑level or program‑specific instructions. But based on publicly referenced documents available up to my October 2024 knowledge cutoff, **September 2023** is the",
+  "ground_truth": "May 2023.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:56:37.824370",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that NASA's first agency-wide guidance on generative AI was issued in September 2023, while the ground truth indicates it was actually issued in May 2023.",
+  "provider": "deepseek"
+}

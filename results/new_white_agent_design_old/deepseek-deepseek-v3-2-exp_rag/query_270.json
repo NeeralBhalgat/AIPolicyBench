@@ -1,0 +1,12 @@
+{
+  "query_id": 270,
+  "query": "How is the number of violations counted for ongoing noncompliance?",
+  "response": "Part 1: The number of violations is counted based on the implementing agency's final determination of noncompliance, considering factors such as the severity and areas of noncompliance.\n\nPart 2: The implementing agency determines the compliance status through inspections and evaluation of records, which are maintained to monitor the regulated community over time. A final determination triggers specific remedies, and for operator retraining, the count of violations relates to the specific areas found to be out of compliance. The agency has discretion to waive retraining requirements based on the circumstances of the noncompliance, such as whether the owner was unaware of the problem or had scheduled a timely repair.",
+  "ground_truth": "Each day in violation is treated as a separate violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:19:21.500003",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention that each day in violation is treated as a separate violation, which is the ground truth. Instead, it discusses factors considered by the implementing agency without addressing the specific counting method for violations.",
+  "provider": "deepseek"
+}

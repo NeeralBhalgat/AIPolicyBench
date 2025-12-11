@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "**Part 1:** President Trump directed that the Federal government produce an AI Action Plan in the early days of his second term in office.  \n\n**Part 2:** The text explains that America is in a race for global dominance in AI and that “President Trump directed the creation of an AI Action Plan in the early days of his second term in office.” This means the responsibility for producing the plan falls on the Federal government under his direction. The timing is explicitly tied to the early period of his second presidential term. The plan then serves as the roadmap structured around accelerating innovation, building AI infrastructure, and leading in international diplomacy and security.",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:29:31.832917",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly attributes the directive for the AI Action Plan to President Trump and his second term, which is not aligned with the ground truth information that specifies the APST and APNSA as responsible parties within a specific timeframe of 180 days.",
+  "provider": "deepseek"
+}

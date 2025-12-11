@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "DOE promotes sharing of AI-related software and code primarily through its open science and public access policies, which encourage (and in many cases require) DOE-funded researchers to release software under open-source licenses and host it in public repositories when it is safe and feasible to do so. This is implemented through lab-level software release policies, data management plans, and use of platforms like GitHub and DOE-affiliated repositories for distributing research code.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:38:41.377274",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the promotion of sharing AI-related software and code through open science policies and public repositories, it does not mention DOE CODE, which is a specific platform for collaboration and archiving of DOE-funded projects. This omission indicates that the response lacks completeness and accuracy regarding the specific mechanisms in place.",
+  "provider": "deepseek"
+}

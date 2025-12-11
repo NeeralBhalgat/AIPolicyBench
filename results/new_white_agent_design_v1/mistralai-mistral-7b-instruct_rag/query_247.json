@@ -1,0 +1,12 @@
+{
+  "query_id": 247,
+  "query": "How often must minors receive a reminder notification during continued chatbot interactions?",
+  "response": "The GUARD Act would mandate that AI companions disclose their nonhuman status and lack of professional credentials for all users at regular intervals. [Source 3]",
+  "ground_truth": "At least every three hours.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:21:20.125953",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response does not address the specific question about the frequency of reminder notifications for minors during chatbot interactions. Instead, it discusses the GUARD Act's requirements for AI companions, which is not relevant to the question asked.",
+  "provider": "deepseek"
+}

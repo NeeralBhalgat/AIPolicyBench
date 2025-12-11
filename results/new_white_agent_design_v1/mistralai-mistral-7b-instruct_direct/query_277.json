@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:22.606767",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

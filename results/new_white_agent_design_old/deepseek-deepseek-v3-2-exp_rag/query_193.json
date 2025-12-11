@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Part 1: Public-facing AI systems must include appropriate human review of AI decisions, be designed to enhance trust and safety, and align with privacy-related laws and regulations.\n\nPart 2: The requirement is specified in the context of an \"AI toolkit\" for education leaders, which serves as a model for responsible deployment. This toolkit is based on recommendations from the Department of Education's AI report, emphasizing safe and nondiscriminatory uses. The guidance highlights the need for systems to be resilient against misuse and to function as intended, with specific guardrails for the educational context that logically extend to public-facing systems more broadly.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:04:05.924800",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses important aspects of AI systems, such as human review and alignment with laws, it does not mention the specific requirement for plain-language notices and human alternatives, which is the ground truth answer. Therefore, it misrepresents the essential elements that public-facing AI systems must include.",
+  "provider": "deepseek"
+}

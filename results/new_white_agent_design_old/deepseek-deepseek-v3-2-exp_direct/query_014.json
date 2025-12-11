@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "Based on my knowledge of relevant U.S. federal policy, the answer is as follows:\n\nEvery federal agency must designate a **Senior Official for Artificial Intelligence**.\n\nThis requirement is mandated by **Section 10(b) of Executive Order 14110, \"Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence,\"** which was signed on October 30, 2023.\n\nThe deadline for this designation was **within 60 days of the date of the order**. Given that the order was signed on October 30, 2023, the deadline for agencies to designate their Senior AI Official was **December 29, 2023**.\n\n### Key Responsibilities of the Senior AI Official:\n\nThe Executive Order specifies that this designated official will be responsible for coordinating the agency's use of AI, promoting AI innovation, managing risks from the use of AI, and ensuring the agency's compliance with the specific directives outlined in the order.\n\n**Disclaimer:** This information is based on the specific EO 14110. Requirements for other jurisdictions or for private sector entities would differ. The implementation status for every agency should be verified through official government sources.",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:27:40.356145",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly refers to the designated role as a 'Senior Official for Artificial Intelligence' instead of the correct term 'Chief AI Officer.' Additionally, the Executive Order mentioned does not exist as described, leading to factual inaccuracies.",
+  "provider": "deepseek"
+}

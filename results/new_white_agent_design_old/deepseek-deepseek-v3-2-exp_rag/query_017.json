@@ -1,0 +1,12 @@
+{
+  "query_id": 17,
+  "query": "What must agencies do regarding generative AI policy, and by when?",
+  "response": "Part 1: Federal agencies must enforce existing laws, rely on reinterpretations of their existing authorities to regulate industry use of AI, and manage their own internal use of AI, with no specific deadline provided in the context.\n\nPart 2: The sources indicate that agencies are constrained to use their existing legal authorities to regulate AI, as there are no new comprehensive laws granting them specific powers. They are also responsible for implementing internal AI use policies, though compliance has been inconsistent and often slow-walked, especially by agencies not prioritizing it. While Congress has reaffirmed requirements from acts like the AI in Government Act of 2020, the path forward remains hazy with no firm universal timeline, leaving agencies to act with a degree of freedom amid shifting political winds.",
+  "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:24:27.359613",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not mention the specific requirement for agencies to develop an agency policy within 270 days, which is a critical part of the ground truth answer. Instead, it discusses existing laws and the lack of a firm timeline, which is factually incorrect in the context of the specific deadline provided.",
+  "provider": "deepseek"
+}

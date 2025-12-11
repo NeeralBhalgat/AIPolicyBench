@@ -1,0 +1,12 @@
+{
+  "query_id": 27,
+  "query": "What interim relief is directed if rollback can’t be finalized immediately?",
+  "response": "\"The OMB Director is authorized to exempt any rule that he deems necessary to address emergency situations or other urgent circumstances, including rules subject to statutory or judicial deadlines that require prompt action.\" (Source 5)",
+  "ground_truth": "Provide all available exemptions until final action.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:38.137658",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the authority of the OMB Director to exempt rules in emergency situations, but it does not directly address the interim relief that should be provided until a rollback can be finalized. The ground truth specifies providing all available exemptions, which is not captured in the White Agent's response.",
+  "provider": "deepseek"
+}

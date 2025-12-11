@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "The DoD (Department of Defense) AI Hierarchy of Needs is a framework proposed by the U.S. Department of Defense to guide the development and deployment of artificial intelligence (AI) systems. The framework is based on Maslow's Hierarchy of Needs, a psychological concept that prioritizes human needs into five categories: physiological, safety, love/belonging, esteem, and self-actualization.\n\nIn the DoD AI Hierarchy of Needs, the foundation is built upon the following five levels:\n\n1. Survive: Ensuring the AI system can operate in a degraded or contested environment, withstand cyber attacks, and maintain basic functionality.\n2. Operate: Enabling the AI system to perform its intended mission effectively and efficiently, including data collection, processing, and decision-making.\n3. Adapt: Allowing the AI system to learn and adapt to new situations, environments, and threats, as well as to improve its performance over time.\n4. Advise: Empowering the AI system to provide valuable insights, recommendations, and predictions to human operators, helping them make informed decisions.\n5. Team: Facilitating collaboration between AI systems and human teams, fostering trust, and enabling the AI system to work seamlessly with humans in complex, dynamic environments.\n\nThis framework emphasizes the importance of ensuring that AI systems can operate effectively and safely in military contexts, while also prioritizing human-AI collaboration and trust.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:20.034153",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the foundation of the DoD AI Hierarchy of Needs as a framework based on Maslow's Hierarchy of Needs, while the actual foundation is based on the principles of quality data, specifically the VAULTIS criteria.",
+  "provider": "deepseek"
+}

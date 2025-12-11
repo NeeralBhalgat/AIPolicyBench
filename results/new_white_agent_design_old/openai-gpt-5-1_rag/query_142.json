@@ -1,0 +1,12 @@
+{
+  "query_id": 142,
+  "query": "What responsibility does AISWG have regarding AI policy creation?",
+  "response": "Part 1:  \nThe provided context does not describe any responsibility that AISWG has regarding AI policy creation.\n\nPart 2:  \nThe excerpts focus on federal AI policy continuity, OMB guidance, and the forthcoming AI Action Plan, but they do not mention AISWG at all. They describe responsibilities for OMB, federal agencies, and the White House in developing and implementing AI policy and governance frameworks. Because AISWG is never referenced, no specific duties, roles, or obligations for AISWG in AI policy creation can be reliably inferred from this text. Any statement assigning such a responsibility would therefore be speculative and not grounded in the provided material.",
+  "ground_truth": "Supporting AI governance creation within NASA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:57:27.215451",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that AISWG has no responsibilities regarding AI policy creation, while the ground truth indicates that AISWG supports AI governance creation within NASA. This is a factual error, as it contradicts the established role of AISWG.",
+  "provider": "deepseek"
+}

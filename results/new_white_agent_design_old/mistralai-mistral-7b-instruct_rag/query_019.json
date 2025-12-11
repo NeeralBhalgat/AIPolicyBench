@@ -1,0 +1,12 @@
+{
+  "query_id": 19,
+  "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+  "response": "Part 1: GSA requires completing an AI Impact Statement and submitting a test plan before employing high-impact AI, and non-compliant systems face termination through a defined process involving the EDGE Board and OCIO.\n\nPart 2: For high-impact AI, GSA mandates minimum requirements such as an AI Impact Statement and a test plan before deployment to ensure compliance. If an AI system is found non-compliant, it undergoes termination, including revoking access, ceasing operations, and securing or destroying data, coordinated by an incident response team. The process also includes a post-termination review to assess impact and prevent future issues, with communications about the termination and corrective actions.",
+  "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:00.166773",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention the specific 365-day deadline for implementing minimum practices, which is a critical part of the ground truth. While it provides details about the requirements and consequences of non-compliance, it fails to accurately reflect the timeline aspect, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

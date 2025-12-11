@@ -1,0 +1,12 @@
+{
+  "query_id": 89,
+  "query": "How does DHS handle AI incident reporting?",
+  "response": "Part 1: DHS handles AI incident reporting by requiring that incidents be reported to the Office of the Chief Information Officer and the Office for Civil Rights and Civil Liberties (DHS CRCL).\n\nPart 2: This reporting requirement is part of DHS's broader governance and risk management framework for AI, as established by Directive 139-08. The directive mandates that all AI use at DHS must comply with enterprise risk management practices, which include ongoing monitoring and documentation. Reporting incidents to these specific offices ensures oversight and accountability, aligning with the department's commitment to safe, secure, and rights-protecting AI use.",
+  "ground_truth": "By maintaining coordinated procedures for reporting and responding to AI-related incidents that cause harm, civil rights impacts, or data breaches.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:39:53.385257",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the reporting process for AI incidents at DHS, mentioning the relevant offices and the governance framework, which aligns with the ground truth about maintaining coordinated procedures for reporting incidents.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "The NRC places emphasis on data science because data informs the agency's operational and regulatory decision-making and is leveraged as a strategic asset.",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:46:43.217026",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not directly address the specific reason for the NRC's emphasis on data science as outlined in the ground truth, which highlights the importance of quality data for AI and predictive modeling. While it mentions the strategic use of data, it lacks the specific connection to AI and evaluation.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "Part 1: The DoD plans to treat data as a weapon system to improve sharing and quality, aligning with its vision to become a data-centric enterprise that uses data at speed and scale for operational advantage.\n\nPart 2: This approach is central to the Department's Data Strategy, which aims to transform it into a data-centric organization. By managing data as a critical strategic asset, the DoD intends to promote data visibility and enable secure sharing across different security domains. The ultimate goal is to use data for operational effect and to advance the objectives of the National Defense Strategy.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:32:38.803092",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the DoD's approach by stating that data will be treated as a weapon system, which is not aligned with the ground truth that emphasizes treating data as a product managed by decentralized teams. This mischaracterization indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

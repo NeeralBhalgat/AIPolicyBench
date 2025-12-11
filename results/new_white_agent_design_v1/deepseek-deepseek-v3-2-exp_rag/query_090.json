@@ -1,0 +1,12 @@
+{
+  "query_id": 90,
+  "query": "What standards apply when DHS acquires AI systems?",
+  "response": "Based on the provided sources, I don't have enough information to answer this question.",
+  "ground_truth": "Acquisitions must address testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:41:38.860861",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a lack of information to answer the question, which aligns with the classification of 'miss' as it does not provide any factual content related to the standards for DHS acquiring AI systems.",
+  "provider": "deepseek"
+}

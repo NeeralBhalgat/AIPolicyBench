@@ -1,0 +1,12 @@
+{
+  "query_id": 246,
+  "query": "What disclosure must be made to users that the operator knows are minors?",
+  "response": "Operators must disclose to users that they know are minors that they are interacting with an artificial intelligence system, as required by the EU AI Act.",
+  "ground_truth": "The operator must disclose that the user is interacting with artificial intelligence.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:56.041208",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for operators to disclose to minors that they are interacting with an AI system, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

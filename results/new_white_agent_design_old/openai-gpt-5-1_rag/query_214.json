@@ -1,0 +1,12 @@
+{
+  "query_id": 214,
+  "query": "What federal document must the California Cybersecurity Integration Center review when developing the playbook?",
+  "response": "**Part 1:**  \nThe California Cybersecurity Integration Center must review the federal *National Cyber Incident Response Plan* when developing the playbook.  \n\n**Part 2:**  \nIn its role as the central organizing hub for state government cybersecurity activities, the California Cybersecurity Integration Center is directed to align its procedures and guidance with established federal frameworks. When creating its cyber incident response playbook, it must therefore review the National Cyber Incident Response Plan to ensure consistency with national-level doctrine and coordination mechanisms. This review helps California integrate effectively with federal partners during multi-jurisdictional cyber incidents. It also ensures that state practices reflect current federal standards and best practices for cyber incident management.",
+  "ground_truth": "The Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:16:41.921496",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the document that the California Cybersecurity Integration Center must review. The correct document is the Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook, not the National Cyber Incident Response Plan.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 182,
+  "query": "What is the purpose of the GSA AI directive?",
+  "response": "The “GSA AI directive” refers to the U.S. General Services Administration’s internal policy that governs how the agency adopts and uses artificial intelligence.  \n\nIn substance, its purpose is to:\n\n1. **Implement federal AI requirements inside GSA**  \n   - Translate the Biden Administration’s AI Executive Order (EO 14110) and OMB’s AI guidance (e.g., M‑24‑10) into concrete, agency‑level rules.  \n   - Make sure any AI use at GSA complies with existing law and federal policy on privacy, civil rights, cybersecurity, information quality, and procurement.\n\n2. **Establish AI governance and accountability**  \n   - Define who is responsible for AI within GSA (e.g., Chief AI Officer / CIO, program managers, data/IT/security/privacy officials).  \n   - Require that AI projects follow a formal review and approval process, rather than being deployed informally or ad hoc.  \n   - Set up structures such as an AI governance board, review committees, or similar mechanisms to oversee AI systems throughout",
+  "ground_truth": "To establish governing policies for controlled access and responsible use of AI across GSA.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:03.852420",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of the GSA AI directive, which is to implement federal AI requirements and establish governance and accountability for AI use within the agency. This aligns with the ground truth answer regarding responsible use and controlled access to AI.",
+  "provider": "deepseek"
+}

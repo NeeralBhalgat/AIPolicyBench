@@ -1,0 +1,12 @@
+{
+  "query_id": 262,
+  "query": "Which platforms must detect embedded provenance data beginning January 1, 2027?",
+  "response": "Part 1: Social media platforms including LinkedIn and Meta products must detect embedded provenance data beginning January 1, 2027.\n\nPart 2: The C2PA specification is being adopted across diverse domains, and the text explicitly lists \"social media platforms including LinkedIn and Meta products\" as part of this growing engagement. These platforms are mentioned in the context of the C2PA standard's expanding implementation. The requirement for these specific platforms to detect provenance data starting on that date is stated directly within the provided information.",
+  "ground_truth": "Large online platforms.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:17:45.805287",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly specifies that only social media platforms like LinkedIn and Meta products must detect embedded provenance data, while the ground truth indicates that the requirement applies to large online platforms in general, which may include more than just social media.",
+  "provider": "deepseek"
+}

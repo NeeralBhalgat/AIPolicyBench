@@ -1,0 +1,12 @@
+{
+  "query_id": 57,
+  "query": "How will the DoD strengthen governance while removing policy barriers?",
+  "response": "The DoD will strengthen governance by ensuring that for each new regulation issued, at least 10 prior regulations are identified for elimination, responsibly managing and controlling the cost of planned regulations through a rigorous regulatory budgeting process.",
+  "ground_truth": "By creating risk-adjusted, collaborative governance that supports responsible, fast, and lawful AI adoption.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:23.184835",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response suggests a specific regulatory process involving the elimination of prior regulations, which does not align with the ground truth answer that emphasizes collaborative governance and responsible AI adoption. The focus on regulatory budgeting is not mentioned in the ground truth, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

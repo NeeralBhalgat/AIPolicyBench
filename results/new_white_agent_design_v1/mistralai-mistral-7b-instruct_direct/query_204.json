@@ -1,0 +1,12 @@
+{
+  "query_id": 204,
+  "query": "Under §11008.1(a)(1)(A), what tasks can Automated-Decision Systems perform?",
+  "response": "Under §11008.1(a)(1)(A), Automated-Decision Systems can perform tasks such as making decisions, recommendations, or predictions that significantly impact individuals' rights, opportunities, or access to essential services.",
+  "ground_truth": "Predictive assessments, measurement of abilities, and screening or categorizing applicants or employees.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:04.095319",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the tasks of Automated-Decision Systems under §11008.1(a)(1)(A). While it mentions making decisions, recommendations, or predictions, it fails to include the specific tasks outlined in the ground truth, such as predictive assessments and screening or categorizing applicants or employees.",
+  "provider": "deepseek"
+}

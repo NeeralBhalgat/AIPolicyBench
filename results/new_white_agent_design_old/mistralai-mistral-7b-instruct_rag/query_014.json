@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "<s> [OUT] Part 1: Every agency must designate a \"head\" by the date of the order.\n\nPart 2: The context specifies that the term \"head\" refers to those appointed to supervise independent regulatory agencies, encompassing the chairman, director, or other presiding officer. This designation is necessary to ensure accountability and align with the principles of good administration. The order reinstates prior policies, including the requirement for such appointments, to restore accountability within the federal workforce. [/OUT]",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:21:35.427340",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly refers to a 'head' of the agency rather than the specific requirement for a Chief AI Officer within 60 days, which is the correct answer. The response does not align with the ground truth.",
+  "provider": "deepseek"
+}

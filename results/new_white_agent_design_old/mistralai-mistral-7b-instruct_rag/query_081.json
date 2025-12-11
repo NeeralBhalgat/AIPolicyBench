@@ -1,0 +1,12 @@
+{
+  "query_id": 81,
+  "query": "What is the main purpose of DHS Directive 139-08?",
+  "response": "Part 1: DHS Directive 139-08 provides uniform procedures for carrying out DHS policies, programs, or activities.\n\nPart 2: The directive is part of a broader framework of DHS Management Directives, which are issued to implement or supplement existing policies. These directives ensure consistent procedures and specific plans for executing DHS missions, programs, or activities. They are authorized by statute and cover a wide range of topics, from administrative management to homeland security. The directive's purpose is to standardize operations and assign responsibilities to maintain efficiency and effectiveness in DHS functions.",
+  "ground_truth": "To set Department-wide policy for the use and acquisition of Artificial Intelligence that promotes innovation while managing risks to safety and individual rights.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:34.925238",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the main purpose of DHS Directive 139-08, which is specifically focused on setting policy for the use and acquisition of Artificial Intelligence. Instead, the response discusses general procedures and management directives without addressing the directive's specific focus on AI and its associated risks.",
+  "provider": "deepseek"
+}

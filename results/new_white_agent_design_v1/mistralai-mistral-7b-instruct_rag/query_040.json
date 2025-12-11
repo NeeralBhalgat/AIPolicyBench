@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "The immediate need to develop advanced mechanisms for decentralised biomass management equipment at the village level, and the use of biomass aggregators and supply chain management companies through standardised contracts to take care of the biomass value chain.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:05:11.352060",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses biomass management, which is unrelated to the AI policy and safety datasets mentioned in the ground truth answer. The claims made do not align with the established context of AI initiatives and developments.",
+  "provider": "deepseek"
+}

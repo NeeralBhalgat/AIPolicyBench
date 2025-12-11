@@ -1,0 +1,12 @@
+{
+  "query_id": 39,
+  "query": "How will vendors and procurement be handled?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Standard contract language on data rights/usage/privacy; disclose GenAI in products; monitor for “shadow AI”; prefer secure, compliant tools.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:37:14.110819",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how vendors and procurement will be handled, which does not provide any information related to the question.",
+  "provider": "deepseek"
+}

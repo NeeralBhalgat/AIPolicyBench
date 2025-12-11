@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "Part 1: The order removes onerous Federal regulations that hinder AI development and deployment, and seeks private sector input on rules to remove.\n\nPart 2: The executive order directs the Office of Management and Budget (OMB) to revise existing memoranda (M-24-10 and M-24-18) to align with the policy of accelerating AI innovation. This involves streamlining bureaucratic processes and reducing regulatory barriers that slow down AI progress. Additionally, the plan emphasizes expediting permits for data centers and semiconductor fabs, which are critical for AI infrastructure. By removing these obstacles, the order aims to enable faster innovation and adoption of AI technologies.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:30.841510",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes how the order aims to remove regulatory barriers and streamline processes to facilitate rapid AI action, aligning with the ground truth answer about revoking existing policies that act as barriers.",
+  "provider": "deepseek"
+}

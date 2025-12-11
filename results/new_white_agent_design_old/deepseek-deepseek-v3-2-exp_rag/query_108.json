@@ -1,0 +1,12 @@
+{
+  "query_id": 108,
+  "query": "What is TrAIN?",
+  "response": "Part 1: TrAIN is a proposed federal AI regulation, referred to as the \"Transparent & Accountable Intelligence Networks Act,\" which would preempt state-level AI laws.\n\nPart 2: The executive order would establish a single, federal rule for artificial intelligence, effectively blocking states from creating their own AI regulations. This move has been met with significant bipartisan pushback, including from over 35 state attorneys general and more than 200 state lawmakers who argue it would overturn important local protections. Opponents, including prominent Republicans like Ron DeSantis and Marco Rubio, warn that this federal preemption constitutes government overreach and prevents states from self-governing on critical AI safety issues.",
+  "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:43:23.460156",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes TrAIN as a proposed federal AI regulation, while the ground truth identifies it as DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "provider": "deepseek"
+}

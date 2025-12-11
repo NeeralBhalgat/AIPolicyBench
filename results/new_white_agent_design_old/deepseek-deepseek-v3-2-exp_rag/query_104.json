@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "Part 1: The SR2 Committee's functions are defined in the rules of procedure for the Federal Open Market Committee, which govern its meetings and actions.\n\nPart 2: The rules of procedure for the Federal Open Market Committee, specifically under sections 272.2 through 272.4, define the functions of the Committee, how it conducts its meetings, and the types of actions it takes. These rules provide the operational framework for the Committee's activities. The context indicates that \"SR2 Committee\" refers to this established committee within the Federal Reserve System.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:42:24.628464",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly associates the SR2 Committee with the Federal Open Market Committee, while the ground truth indicates that the SR2 Committee reviews safety-impacting and rights-impacting AI use cases before deployment, which is unrelated to the Federal Reserve's functions.",
+  "provider": "deepseek"
+}

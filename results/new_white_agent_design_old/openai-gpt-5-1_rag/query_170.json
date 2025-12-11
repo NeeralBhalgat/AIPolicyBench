@@ -1,0 +1,12 @@
+{
+  "query_id": 170,
+  "query": "What does the NRC note about AI’s potential operational benefits?",
+  "response": "Error: Query processing exceeded 95.0s timeout",
+  "ground_truth": "AI can enhance safety, improve processes, and support decision-making across nuclear operations.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:06:13.998374",
+  "confidence": 0.0,
+  "reasoning": "The White Agent's response does not provide any information regarding AI's potential operational benefits and instead indicates a processing error.",
+  "provider": "deepseek"
+}

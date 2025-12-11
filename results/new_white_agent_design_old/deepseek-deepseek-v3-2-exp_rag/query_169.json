@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "Part 1: The NRC defines machine learning as a subset of artificial intelligence, as detailed in its Artificial Intelligence Strategic Plan.\n\nPart 2: The NRC's Artificial Intelligence Strategic Plan provides the framework for its approach to AI and its subsets. Within this strategic context, machine learning is explicitly identified as one of these key technological subsets. This definition establishes machine learning as a distinct and important component of the NRC's broader regulatory considerations for artificial intelligence.",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:58:03.650202",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not provide the specific definition of machine learning as an AI application that learns from data without being explicitly programmed, which is the ground truth. Instead, it focuses on the NRC's strategic context without accurately defining machine learning itself.",
+  "provider": "deepseek"
+}

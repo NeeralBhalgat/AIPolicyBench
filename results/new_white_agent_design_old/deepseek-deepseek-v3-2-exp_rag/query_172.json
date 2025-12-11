@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "Part 1: The NRC will evaluate whether the AI technologies are trustworthy and reliable, and whether the reviewed NRC regulations and guidance are flexible and adequate for AI.\n\nPart 2: The NRC's review will assess if the AI technologies are trustworthy and reliable in accordance with its regulatory framework. This examination includes determining if existing regulations and guidance are flexible enough to allow for the potential use of AI. Furthermore, the evaluation will check if these regulations are adequate to govern the implementation of AI technologies.",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:58:04.183794",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on the trustworthiness and flexibility of regulations regarding AI technologies, but it does not address the specific technical considerations such as bias, robustness, security, explainability, and model maintenance that the NRC is expected to evaluate.",
+  "provider": "deepseek"
+}

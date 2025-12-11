@@ -1,0 +1,12 @@
+{
+  "query_id": 215,
+  "query": "What mandatory mechanisms must be included in the California AI Cybersecurity Collaboration Playbook?",
+  "response": "**Part 1:**  \nThe California AI Cybersecurity Collaboration Playbook must include mechanisms to review federal requirements, standards, and industry best practices and to establish guidelines around confidentiality of information related to cyber threat indicators in order to facilitate information sharing among artificial intelligence users in state government.\n\n**Part 2:**  \nBy statute, the Playbook is to be developed by the California Cybersecurity Integration Center in coordination with the Office of Information Security and the Government Operations Agency. In doing so, it must systematically review applicable federal cybersecurity requirements and standards, plus industry best practices, and incorporate them into state AI cybersecurity practices. It is also required to define clear guidelines on how confidential information related to cyber threat indicators is protected. These guidelines are specifically intended to enable and structure secure information sharing among AI users across California state government entities.",
+  "ground_truth": "Mandatory mechanisms for information sharing on threats and vulnerabilities known to state contractors and AI vendors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:16:41.364181",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses mechanisms for reviewing federal requirements and establishing guidelines for confidentiality, but it does not mention the mandatory mechanisms for information sharing on threats and vulnerabilities known to state contractors and AI vendors, which is the ground truth answer.",
+  "provider": "deepseek"
+}

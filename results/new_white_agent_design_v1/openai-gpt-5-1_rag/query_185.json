@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "The directive applies to **every US federal department and agency**.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:24:13.405885",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the directive applies to every US federal department and agency, while the ground truth specifies that it applies specifically to GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "provider": "deepseek"
+}

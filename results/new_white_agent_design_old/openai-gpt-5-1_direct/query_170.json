@@ -1,0 +1,12 @@
+{
+  "query_id": 170,
+  "query": "What does the NRC note about AI’s potential operational benefits?",
+  "response": "The U.S. Nuclear Regulatory Commission (NRC) has noted that AI could provide **significant operational benefits**, including in particular:\n\n- **Improved efficiency and reliability of plant operations** – e.g., optimizing processes and use of equipment.  \n- **Predictive and condition‑based maintenance** – earlier detection of equipment degradation or anomalies, reducing unplanned outages and downtime.  \n- **Enhanced monitoring and diagnostics** – better use of large volumes of sensor and operational data to support operator situational awareness and decision‑making.  \n- **More efficient regulatory and analytical work** – automating parts of analysis and review, improving consistency",
+  "ground_truth": "AI can enhance safety, improve processes, and support decision-making across nuclear operations.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:03.705526",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the NRC's notes on AI's operational benefits, aligning well with the ground truth answer regarding enhancements in safety, efficiency, and decision-making in nuclear operations.",
+  "provider": "deepseek"
+}

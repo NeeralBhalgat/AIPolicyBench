@@ -1,0 +1,12 @@
+{
+  "query_id": 42,
+  "query": "What are the four core functions of the AI RMF?",
+  "response": "Part 1:  \nThe four core functions of the AI RMF are Govern, Map, Measure, and Manage.  \n\nPart 2:  \n\"Govern\" sets the organizational policies, structures, and processes to oversee AI risk and promote trustworthy and responsible AI. \"Map\" focuses on understanding the AI system, its context, and its potential impacts, including risks to individuals and society. \"Measure\" involves assessing, analyzing, and tracking AI risks and system performance using qualitative and quantitative methods. \"Manage\" is about prioritizing, responding to, and monitoring risks over the AI system lifecycle so they remain within acceptable levels.",
+  "ground_truth": "Govern, Map, Measure, and Manage.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:33:22.994502",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the four core functions of the AI RMF as Govern, Map, Measure, and Manage, and provides correct explanations for each function.",
+  "provider": "deepseek"
+}

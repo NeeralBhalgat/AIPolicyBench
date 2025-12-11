@@ -1,0 +1,12 @@
+{
+  "query_id": 123,
+  "query": "How often must AI use case inventory entries be reviewed?",
+  "response": "Part 1: AI use case inventory entries must be reviewed annually, as required by the Executive Order for agencies to conduct an annual inventory of their AI use cases.\n\nPart 2: The requirement stems from Executive Order 14110, which mandates federal agencies to report on their use of Artificial Intelligence through this annual process. This was further clarified by subsequent guidance from the Office of Management and Budget. The purpose of this recurring annual review is to enable innovation and efficiency while managing potential rights and safety impacts. The Department of Justice inventory, for example, shows a significant year-over-year increase, demonstrating the implementation of this annual requirement.",
+  "ground_truth": "At least annually or when directed by the CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:46:36.326048",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent correctly states that AI use case inventory entries must be reviewed annually, it inaccurately attributes this requirement solely to Executive Order 14110 without acknowledging that reviews can also occur when directed by the CDAO team, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

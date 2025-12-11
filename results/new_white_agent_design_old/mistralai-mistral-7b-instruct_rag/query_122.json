@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "Part 1: The need to update an AI use case inventory entry is triggered by the introduction of new technologies or the retirement of existing ones.\n\nPart 2: The context emphasizes that an AI inventory is an ongoing process, as new technologies are continuously sought and others are phased out. The Department of Justice, for example, highlights that additional reporting and data calls are underway to capture emerging use cases, ensuring the inventory remains current. This dynamic approach reflects the evolving nature of AI applications and the need for continuous monitoring to maintain accuracy and comprehensiveness. Regular updates are essential to reflect the latest advancements and retire outdated or obsolete technologies.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:04.832107",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies that the need to update an AI use case inventory entry is triggered by changes in technology, which aligns with the ground truth that any change affecting the accuracy of the record necessitates an update. The emphasis on continuous monitoring and the dynamic nature of AI applications supports the correctness of the response.",
+  "provider": "deepseek"
+}

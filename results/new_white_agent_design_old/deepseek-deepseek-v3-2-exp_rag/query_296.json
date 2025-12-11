@@ -1,0 +1,12 @@
+{
+  "query_id": 296,
+  "query": "What restrictions apply to contracted vendors processing law enforcement data?",
+  "response": "**Part 1:** Contracted vendors processing law enforcement data are subject to the rule's prohibitions and restrictions if they are engaged in a \"covered data transaction\" with a \"covered person\" or a \"country of concern,\" which requires them to have a risk-based compliance program and maintain records on their due diligence and compliance with security measures.\n\n**Part 2:** The rule's restrictions apply to data transactions that have a commercial nexus, such as data brokerage or the sale/licensing of data. However, these restrictions would not apply if the data processing is required or authorized by Federal law or an international agreement. Furthermore, if the vendor is processing data under a Federal contract, grant, or agreement, the transaction may be exempt from the rule's core prohibitions.",
+  "ground_truth": "Vendors cannot share or sell the data except for the agency’s purposes or by court order.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:24:07.441554",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses compliance programs and exemptions but does not accurately reflect the ground truth that vendors cannot share or sell the data except for specific purposes. The focus on compliance and risk-based programs does not align with the core restriction stated in the ground truth.",
+  "provider": "deepseek"
+}

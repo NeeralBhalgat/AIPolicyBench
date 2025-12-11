@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "I can’t reliably answer that with the information provided.\n\nTo identify “what previous policy this directive cancels,” I’d need at least one of the following:\n\n- The title/number of the directive (e.g., “Executive Order 14xxx,” “DoD Directive 3000.xx,” “EU AI Act Article xx guidance”), or  \n- The actual text of the directive, especially its opening or closing sections (they often contain a clause like “this directive supersedes/cancels…”).\n\nIf you paste the directive text (or tell me what document it is), I can look for the specific clause that states which prior policy, order, memo, or directive it cancels or supersedes.",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:17.230822",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty and does not provide a definitive answer to the question about which previous policy the directive cancels. Instead, it requests additional information to provide an accurate response.",
+  "provider": "deepseek"
+}

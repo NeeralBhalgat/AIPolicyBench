@@ -1,0 +1,12 @@
+{
+  "query_id": 290,
+  "query": "How does SB 361 strengthen consumer privacy rights under the CPRA?",
+  "response": "Part 1:  \nSB 361 strengthens consumer privacy rights under the CPRA by clarifying and expanding consumers’ opt‑out rights so that businesses must honor a consumer’s choice—expressed through an opt‑out preference signal or other clear direction—to stop the sale and sharing of their personal information, including for cross‑context behavioral advertising.  \n\nPart 2:  \nBy requiring that a valid opt‑out preference signal be treated as a binding request, SB 361 makes it easier for consumers to exercise their right to say “do not sell or share my personal information” across multiple businesses at once. It tightens the rules so companies cannot use confusing or manipulative interfaces to undermine or ignore these choices. The bill also extends these protections specifically to data used for cross‑context behavioral advertising, closing loopholes around “sharing” that existed under earlier law. Together, these changes give consumers more practical control over how their data is monetized and reduce the burden of managing privacy settings business by business.",
+  "ground_truth": "By expanding data broker disclosures, strengthening deletion rules, adding audits, and limiting public access to sensitive data types.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:35:37.338825",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on opt-out rights and consumer control over personal information, which is not the ground truth answer. The ground truth mentions specific measures like data broker disclosures and deletion rules, which are not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

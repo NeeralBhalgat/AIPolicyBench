@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "The plan targets the legal risks of **unlawful discrimination and abuse** and **infringements on privacy** from AI by directing the Federal Government to **“enforce existing consumer protection laws and principles and enact appropriate safeguards”** and to **“ensure that the collection, use, and retention of data is lawful [and] is secure.”**",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:07:54.812570",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response addresses legal risks related to unlawful discrimination and privacy infringements, which are not aligned with the ground truth answer that specifically mentions malicious deepfakes and the development of NIST guidelines. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

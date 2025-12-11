@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "The primary risk is that these systems are often inaccurate and biased, potentially leading to erroneous and harmful assessments of an individual's emotional or mental state.",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:03:25.357970",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response identifies risks related to inaccuracies and biases in automated systems, but it fails to mention the specific risk of discrimination based on protected characteristics, which is the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 100,
+  "query": "When must DHS complete its formal AI Directive and Instruction?",
+  "response": "Part 1:  \nDHS must complete its formal AI Directive and Instruction by December 31, 2024.  \n\nPart 2:  \nThis deadline is set out in DHS’s compliance planning for implementing the federal requirements on AI governance and risk management. The Department has already issued and begun using Directive 139-08 as a governing policy framework for AI use and acquisition. However, the compliance plan specifies that fully formalized, comprehensive directive and instruction documents must be completed by the end of 2024. Meeting this date helps ensure that all DHS AI activities are consistently safe, secure, responsible, trustworthy, and human-centered.",
+  "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:47:10.472443",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that DHS must complete its formal AI Directive and Instruction by December 31, 2024, while the ground truth specifies that this must occur within 12 months after the publication of Policy Statement 139-06, which is a different timeline.",
+  "provider": "deepseek"
+}

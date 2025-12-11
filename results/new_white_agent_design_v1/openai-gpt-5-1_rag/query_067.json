@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "DOE’s PolicyAI tool is used to “improve public access to and understanding of NRC NEPA documents with the SearchNEPA platform and its associated GenAI features.”",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:13:02.702049",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the purpose of DOE’s PolicyAI tool, focusing on NRC NEPA documents and the SearchNEPA platform, which does not align with the ground truth that emphasizes its role in searching, summarizing, and drafting environmental policy documents.",
+  "provider": "deepseek"
+}

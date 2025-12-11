@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "<s> [OUT] Part 1: AI-generated data products must include transparency and accountability requirements, such as impact assessments, third-party audits, and labels or disclosures (e.g., digital watermarking) for AI-generated content.\n\nPart 2: The context specifies that federal proposals for AI regulation include mandatory transparency and accountability measures. These measures involve conducting impact assessments of AI models, subjecting AI tools to third-party audits, and implementing labels or disclosures, such as digital watermarking, to identify AI-generated content. These requirements aim to ensure that AI systems are developed and used responsibly, with clear accountability for their outputs. Additionally, the context highlights the importance of long-term safety monitoring, equity principles, and human oversight in AI-enabled technologies, particularly in sectors like healthcare.",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:48:13.350771",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses transparency and accountability measures, it does not directly address the requirement for metadata labeling indicating that data products are AI-generated, which is the ground truth answer.",
+  "provider": "deepseek"
+}

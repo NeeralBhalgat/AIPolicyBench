@@ -1,0 +1,12 @@
+{
+  "query_id": 237,
+  "query": "What constitutes a separate violation under AB 489?",
+  "response": "Part 1:  \nUnder AB 489, each day that a person or entity remains out of compliance with the bill’s requirements constitutes a separate violation.\n\nPart 2:  \nAB 489 specifies that noncompliance is not treated as a one-time offense but instead accrues daily. This means that if a covered individual or business fails to meet the statutory obligations—such as mandated procedures, disclosures, or safeguards—each day that failure continues is counted as its own violation. This structure significantly increases potential penalties over time and creates a strong incentive for prompt compliance. It also gives enforcement agencies clearer grounds to pursue repeated or ongoing violations.",
+  "ground_truth": "Each use of a prohibited term, letter, or phrase.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:23:20.325963",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly interprets AB 489's violation structure, stating that each day of noncompliance constitutes a separate violation, while the ground truth specifies that each use of a prohibited term, letter, or phrase constitutes a separate violation.",
+  "provider": "deepseek"
+}

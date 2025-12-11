@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "SB 361 imposes new disclosure requirements on data brokers, including the obligation to provide detailed information about their data collection, processing, and sharing practices.\n\nThe legislation mandates that data brokers must disclose specific details about the types of personal information they collect, how they use and share this data, and the purposes behind such activities. Additionally, brokers are required to explain their data retention policies and any third parties with whom they share consumer data. These requirements aim to enhance transparency and accountability in data broker operations, ensuring consumers have clearer insights into how their information is handled.",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:00:15.346895",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions the need for data brokers to disclose their data collection and sharing practices, it lacks specific details about the types of personal information that must be disclosed, such as names, DOBs, government IDs, and other specific categories outlined in the ground truth. Therefore, it does not accurately reflect the requirements of SB 361.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Based on the provided sources, the near-term enablers and wins are the **over 90 policy commitments, each tied to clear agency responsibilities and near-term milestones** detailed in the White House's AI Action Plan.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:36:55.893424",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions 'over 90 policy commitments' which is not supported by the ground truth answer. The ground truth lists specific initiatives and actions that are not referenced in the White Agent's response, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

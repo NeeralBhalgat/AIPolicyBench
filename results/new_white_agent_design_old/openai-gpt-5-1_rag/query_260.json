@@ -1,0 +1,12 @@
+{
+  "query_id": 260,
+  "query": "Must the linked unaltered image be publicly accessible?",
+  "response": "**Part 1:**  \nNo; the policies only say that “you use materials found in our holdings at your own risk” and must assess rights and restrictions yourself, and they do not require that any linked unaltered image be publicly accessible.  \n\n**Part 2:**  \nThe guidance from these institutions focuses on copyright, privacy/publicity rights, and user responsibility for obtaining any needed permissions and clearances. They explicitly note that they cannot confirm copyright status and that users must assess the risk of using an image. While they encourage proper credit lines and checking whether an image is in the public domain, they do not impose a rule that a linked, unaltered version must be publicly viewable. Public accessibility is therefore a separate question from the legal rights and restrictions that govern use.",
+  "ground_truth": "Yes, the link must go to a publicly accessible website containing the original unaltered image.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:28:15.448603",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no requirement for the linked unaltered image to be publicly accessible, while the ground truth clearly states that it must be. This indicates a misunderstanding of the policy regarding image accessibility.",
+  "provider": "deepseek"
+}

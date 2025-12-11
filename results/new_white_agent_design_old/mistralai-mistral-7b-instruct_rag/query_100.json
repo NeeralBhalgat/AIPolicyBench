@@ -1,0 +1,12 @@
+{
+  "query_id": 100,
+  "query": "When must DHS complete its formal AI Directive and Instruction?",
+  "response": "Part 1: DHS completed its formal AI Directive (Directive 139-08) and Instruction (Directive 026-11) in September 2023.\n\nPart 2: The context explicitly mentions that Directive 026-11 was issued in September 2023, which aligns with the broader AI governance framework established by DHS. Directive 139-08, which sets requirements for AI use and acquisition, is also referenced in the same context, indicating its completion around the same time. These directives were part of DHS's efforts to ensure responsible and rights-protecting use of AI, as outlined in their 2024 AI Roadmap and Compliance Plan.",
+  "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:34:25.201923",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that DHS completed its formal AI Directive and Instruction in September 2023, while the ground truth specifies that these must be completed within 12 months after the publication of Policy Statement 139-06. The response does not align with the required timeline.",
+  "provider": "deepseek"
+}

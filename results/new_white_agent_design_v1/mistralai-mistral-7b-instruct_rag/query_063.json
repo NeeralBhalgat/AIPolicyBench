@@ -1,0 +1,12 @@
+{
+  "query_id": 63,
+  "query": "What new AI guidance did the DOE release in June 2024?",
+  "response": "The Department of Energy (DOE) released a 61-page Generative AI (GenAI) Reference Guide in June 2024, providing best practices and guidance for employees and contractors on the responsible use of generative AI tools, including ChatGPT.",
+  "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:34.217341",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the release of a Generative AI Reference Guide by the DOE in June 2024, which aligns with the ground truth information regarding the guidance provided. However, it does not specify that it is Version 2, which slightly affects the confidence level.",
+  "provider": "deepseek"
+}

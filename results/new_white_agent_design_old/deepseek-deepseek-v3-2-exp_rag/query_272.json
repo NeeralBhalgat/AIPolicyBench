@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "Part 1: SB 53 defines a “frontier model” as one trained using more than 10²⁶ FLOPS, a metric that encompasses pretraining as well as subsequent fine-tuning and reinforcement learning.\n\nPart 2: This computational threshold is designed to target the most compute-intensive and potentially powerful AI systems. The law specifically uses this FLOPS measurement to focus on models most likely to pose catastrophic risks. It also acknowledges that future algorithmic improvements could create capable models below this threshold, so it requires an annual review to consider updating this definition.",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:19:21.377630",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately defines a 'frontier model' as one trained using more than 10²⁶ FLOPS, which aligns with the ground truth. It also correctly contextualizes the significance of this definition in relation to AI safety and the potential risks associated with powerful AI systems.",
+  "provider": "deepseek"
+}

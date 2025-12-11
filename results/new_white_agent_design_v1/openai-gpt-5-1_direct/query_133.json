@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:42:23.907649",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the IRS definition of an AI use case.",
+  "provider": "deepseek"
+}

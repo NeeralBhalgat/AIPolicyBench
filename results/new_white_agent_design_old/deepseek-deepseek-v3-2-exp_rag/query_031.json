@@ -1,0 +1,7 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "error": "HTTP Error 502: Server error '502 Bad Gateway' for url 'https://rock-atomic-wendy-stunning.trycloudflare.com/to_agent/ca3338e95f7643a9b99cc635ed55c4f5'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502",
+  "evaluation_result": "error"
+}

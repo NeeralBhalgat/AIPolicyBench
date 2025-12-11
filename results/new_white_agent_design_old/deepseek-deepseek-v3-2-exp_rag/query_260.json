@@ -1,0 +1,12 @@
+{
+  "query_id": 260,
+  "query": "Must the linked unaltered image be publicly accessible?",
+  "response": "Part 1: Text, images, and logos on federal websites may be subject to copyright or other restrictions, which implies they are not necessarily publicly accessible in an unaltered, reusable form.\n\nPart 2: The context states that materials found on federal government websites, including images, can be protected by copyright or other legal restrictions. This means that while you can view them, there are rules governing their use and republication. Therefore, a linked, unaltered image is not automatically publicly accessible for unrestricted use without first understanding and complying with these rules.",
+  "ground_truth": "Yes, the link must go to a publicly accessible website containing the original unaltered image.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:17:05.622127",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly implies that the linked unaltered image does not need to be publicly accessible for unrestricted use, which contradicts the ground truth answer that states it must be publicly accessible.",
+  "provider": "deepseek"
+}

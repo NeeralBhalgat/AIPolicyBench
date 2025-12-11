@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "<s> [OUT]\n\nPart 1: Before operational use, an AI use case must complete an AI Impact Statement, submit a test plan, and undergo an independent evaluation.\n\nPart 2: The AI Impact Statement assesses potential risks and benefits, while the test plan demonstrates real-world context testing and contestability. An independent evaluation by the Chief AI Officer (CAIO) or designee ensures compliance with requirements. Ongoing monitoring and human review protocols are also established to mitigate emergent risks and validate system outputs.",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:22.496794",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the requirements for operational use of an AI use case, stating the need for an AI Impact Statement and independent evaluation, which are not the ground truth requirements of completed Model Card and Datasheet artifacts.",
+  "provider": "deepseek"
+}

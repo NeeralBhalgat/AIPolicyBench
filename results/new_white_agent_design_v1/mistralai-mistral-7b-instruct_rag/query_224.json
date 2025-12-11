@@ -1,0 +1,12 @@
+{
+  "query_id": 224,
+  "query": "Does AB 316 prevent a defendant from presenting affirmative defenses unrelated to AI autonomy?",
+  "response": "The sources state that AB 316 \"preserves other defenses, including evidence relevant to causation or foreseeability and evidence of comparative fault by other persons or entities\" (Source 5). It also allows \"other affirmative defenses and evidence related to causation, foreseeability, and comparative fault\" (Source 4). Thus, the bill does not prevent defendants from presenting affirmative defenses unrelated to AI autonomy.",
+  "ground_truth": "No, defendants may still present other affirmative defenses.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:17.018190",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that AB 316 allows for the presentation of affirmative defenses unrelated to AI autonomy, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

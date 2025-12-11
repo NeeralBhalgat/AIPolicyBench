@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "HHS will support STLT organizations through funding, technical assistance, and capacity-building initiatives to enhance their ability to respond to public health emergencies and improve overall health outcomes.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:51.325315",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses support for STLT organizations in terms of funding and technical assistance, which is relevant to public health. However, it does not align with the ground truth answer, which focuses on a flexible approach to AI use, indicating a misunderstanding of the question's context.",
+  "provider": "deepseek"
+}

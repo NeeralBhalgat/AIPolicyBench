@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "The memorandum covers “Peter Koski and all members, partners, and employees of Covington & Burling LLP who assisted former Special Counsel Jack Smith during his time as Special Counsel.”",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:08:11.679137",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the covered individuals as specific members of a law firm rather than the correct scope of all Executive Branch departments and agencies.",
+  "provider": "deepseek"
+}

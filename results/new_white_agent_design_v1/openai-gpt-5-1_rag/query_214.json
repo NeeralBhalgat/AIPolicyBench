@@ -1,0 +1,12 @@
+{
+  "query_id": 214,
+  "query": "What federal document must the California Cybersecurity Integration Center review when developing the playbook?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:26:45.754227",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide the correct federal document, which is the Joint Cyber Defense Collaborative AI Cybersecurity Collaboration Playbook.",
+  "provider": "deepseek"
+}

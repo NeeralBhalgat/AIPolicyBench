@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "**Part 1:** The internal group that defines topics for NASA’s AI governance board is the Responsible AI Working Group (RAIWG).  \n\n**Part 2:** Within NASA’s AI governance structure, the Responsible AI Working Group is tasked with identifying, shaping, and prioritizing the issues and topics that need review or decision by the NASA AI governance board. This group scans AI activities, challenges, and risks across the agency and turns them into agenda items for governance consideration. By doing so, it ensures that the board focuses on the most relevant and pressing AI governance needs. The working group also supports follow‑through on the board’s decisions, helping integrate responsible AI practices across NASA.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:57:29.184769",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the Responsible AI Working Group (RAIWG) as the group defining topics for NASA’s AI governance board, while the ground truth states that the AI Strategy Working Group (AISWG) is responsible for this task.",
+  "provider": "deepseek"
+}

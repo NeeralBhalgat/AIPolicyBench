@@ -1,0 +1,12 @@
+{
+  "query_id": 93,
+  "query": "Which Executive Order must DHS systems using AI comply with?",
+  "response": "DHS systems using AI must comply with Executive Order (EO) 13960, \"Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.\" This EO, issued on December 8, 2020, establishes guidelines for the use of AI in fe",
+  "ground_truth": "Executive Order 13960, Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:07:38.338201",
+  "confidence": 0.95,
+  "reasoning": "The White Agent correctly identifies Executive Order 13960 as the relevant order for DHS systems using AI, and accurately states its purpose and issuance date.",
+  "provider": "deepseek"
+}

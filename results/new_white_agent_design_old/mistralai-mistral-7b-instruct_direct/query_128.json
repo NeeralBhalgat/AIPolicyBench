@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "In the United States, the primary law that protects taxpayer information and imposes requirements on how AI systems (or any systems handling such data) must handle this information is the **Internal Revenue Code (IRC) Section 6103**. This section governs the confidentiality and disclosure of tax return information by the Internal Revenue Service (IRS) and other federal agencies.\n\nKey points related to AI systems and taxpayer information under Section 6103 include:\n1. **Confidentiality**: The IRS and its contractors (which may include AI systems or entities using AI) are prohibited from disclosing taxpayer information except as explicitly permitted by law.\n2. **Use of AI**: If AI systems are used to process, analyze, or store taxpayer data, they must comply with the same confidentiality requirements as human handlers. This includes ensuring that the AI does not inadvertently disclose or misuse the data.\n3. **Contractor Rules**: The IRS has strict rules for contractors (including those using AI) that handle taxpayer information, often requiring them to implement safeguards to protect the data.\n\nAdditionally, the **Privacy Act of 1974** and the **Federal Information Security Management Act (FISMA)** may also apply, depending on the context, as they govern the handling of personal data (including taxpayer information) by federal agencies and their systems.\n\nIf you are referring to a specific AI system or context (e.g., a state-level law or a particular AI application), the answer may vary, but Section 6103 is the foundational federal law for taxpayer information protection.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:09:34.856505",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies Internal Revenue Code Section 6103 as the primary law protecting taxpayer information, and provides relevant details about its implications for AI systems handling such data.",
+  "provider": "deepseek"
+}

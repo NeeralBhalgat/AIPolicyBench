@@ -1,0 +1,12 @@
+{
+  "query_id": 300,
+  "query": "Which entities are considered “law enforcement agencies” under this bill?",
+  "response": "Part 1: The Commission on the Advancement of Federal Law Enforcement was created to address issues affecting federal law enforcement agencies.\n\nPart 2: The Commission on the Advancement of Federal Law Enforcement was established by the Anti-Terrorism and Effective Death Penalty Act of 1996 (Pub. L. 104-132) to review and ascertain, evaluate, report, and recommend actions to Congress on a broad spectrum of issues affecting federal law enforcement priorities for the Twenty-First Century. This commission was terminated in February 2000. The focus of the commission was on federal law enforcement agencies, implying that these are the entities it was created to regulate or improve.",
+  "ground_truth": "Any state or local agency employing peace officers under Penal Code §830.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:57.342012",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the Commission on the Advancement of Federal Law Enforcement and its historical context, but it does not address the specific entities considered 'law enforcement agencies' under the bill, which are defined as any state or local agency employing peace officers under Penal Code §830. Therefore, the response is factually incorrect regarding the question asked.",
+  "provider": "deepseek"
+}

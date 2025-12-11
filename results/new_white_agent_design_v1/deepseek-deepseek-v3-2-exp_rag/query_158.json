@@ -1,0 +1,12 @@
+{
+  "query_id": 158,
+  "query": "How is NASA addressing generative AI risks?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "By emphasizing human verification, validation, and benchmarks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:46:22.910165",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how NASA is addressing generative AI risks, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

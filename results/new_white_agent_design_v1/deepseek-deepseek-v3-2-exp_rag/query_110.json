@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "Based on the sources provided, DOT decides which AI use cases stay out of the Public Use Case Inventory by evaluating if a use case \"continues to meet the exclusion criteria\" during an update and revalidation process.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:43:08.691586",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the process by which DOT evaluates AI use cases for exclusion from the Public Use Case Inventory, aligning with the ground truth that mentions the application of exclusion criteria.",
+  "provider": "deepseek"
+}

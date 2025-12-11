@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "**Part 1:**  \nThe excerpts from the Executive Order you provided do not state any requirements for what must be included in a transparency report before deploying a frontier model.  \n\n**Part 2:**  \nThe quoted sections focus on definitions (such as “frontier AI data center” and “frontier AI infrastructure”) and on issues like energy generation, transmission, labor standards, and related technical assistance. None of the text you shared mentions “transparency reports” or specifies pre-deployment disclosure obligations for “frontier models.” It is possible that such requirements appear elsewhere in the full Executive Order, but they are not present in the excerpts you supplied. Without that missing language, it is not possible to reliably list what must be included in a transparency report.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:31:55.605454",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the contents of the transparency report, stating that the requirements are not present in the provided excerpts and suggesting that they may exist elsewhere. This reflects a lack of definitive knowledge regarding the specific requirements for a transparency report before deploying a frontier model.",
+  "provider": "deepseek"
+}

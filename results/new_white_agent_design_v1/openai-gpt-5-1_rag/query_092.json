@@ -1,0 +1,12 @@
+{
+  "query_id": 92,
+  "query": "What principles govern DHS’s use of AI according to Policy 139-06?",
+  "response": "According to Policy Statement 139-06, DHS’s use of AI is governed by principles that DHS systems, programs, and activities using AI will conform to the requirements of Executive Order 13960; DHS will only acquire and use AI in a manner consistent with the Constitution and all other applicable laws and policies; and DHS will not collect, use, or disseminate data used in AI activities, or establish AI‑enabled systems that make or support decisions, based on the inappropriate consideration of characteristics such as race, ethnicity, gender, national origin, religion, sexual orientation, gender identity, age, or nationality.",
+  "ground_truth": "DHS must ensure AI use is lawful, effective, unbiased, transparent, and protective of privacy, civil rights, and civil liberties.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:15:09.591264",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the principles governing DHS's use of AI as outlined in Policy 139-06, including adherence to laws, avoidance of bias, and respect for civil rights. It aligns well with the ground truth answer, although it could be more concise in summarizing the principles.",
+  "provider": "deepseek"
+}

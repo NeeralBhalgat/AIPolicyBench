@@ -1,0 +1,12 @@
+{
+  "query_id": 263,
+  "query": "What must large online platforms disclose to users regarding provenance data?",
+  "response": "**Part 1:**  \nLarge online platforms must disclose standardized documentation and, at minimum, aggregate statistics about the provenance of the data they use or display, giving users transparency into how and from where that data was sourced.\n\n**Part 2:**  \nThe paper emphasizes that regulators should impose transparency obligations, similar to those in the Digital Services Act for social media platforms, that require standardized documentation of data used by AI systems. Where full disclosure is limited by business confidentiality, organizations are expected at least to publish aggregate statistics about data provenance. This approach lets users understand the general sources and characteristics of the data underlying the content and services they receive. Such disclosures are framed as essential for building user trust and enabling informed, responsible use of AI-powered platforms.",
+  "ground_truth": "Whether provenance data is available, the name of the GenAI system or capture device, and whether digital signatures exist.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:28:58.237004",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the need for standardized documentation and aggregate statistics about data provenance, but it does not mention the specific requirements outlined in the ground truth answer, such as the name of the GenAI system or capture device, and whether digital signatures exist. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 212,
+  "query": "Which entities must be consulted in developing the California AI Cybersecurity Collaboration Playbook?",
+  "response": "Part 1: The California AI Cybersecurity Collaboration Playbook must be developed through active collaboration among government, industry, and international partners.\n\nPart 2: The playbook is designed to facilitate collaboration between federal agencies, private industry, international partners, and other stakeholders. It specifically aims to guide partners on sharing information and will evolve through active collaboration among these groups. While the playbook is voluntary and does not impose requirements, its development and updates rely on this broad, multi-sector engagement.",
+  "ground_truth": "The Office of Information Security and the Government Operations Agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:08:04.515501",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions collaboration among various entities but does not specifically identify the Office of Information Security and the Government Operations Agency, which are the correct entities to be consulted in developing the playbook.",
+  "provider": "deepseek"
+}

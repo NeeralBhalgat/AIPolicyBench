@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "Part 1: The Office of Science and Technology Policy (OSTP), on behalf of the Networking and Information Technology Research and Development (NITRD) National Coordination Office (NCO), must produce an Artificial Intelligence (AI) Action Plan, as directed by a Presidential Executive Order on January 23, 2025.\n\nPart 2: The development of the plan was initiated by a Presidential Executive Order. A Request for Information (RFI) was subsequently issued to gather public input for the plan, with a comment deadline of March 15, 2025. The plan's purpose is to define priority policy actions to sustain America's AI dominance and ensure private sector innovation is not hampered.",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:26:05.056668",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly attributes the responsibility for producing the AI Action Plan to the OSTP and NITRD NCO, while the ground truth specifies that it is the APST and APNSA who must produce it within 180 days. Additionally, the date mentioned in the response (January 23, 2025) does not align with the requirement for the plan to be produced by the specified parties.",
+  "provider": "deepseek"
+}

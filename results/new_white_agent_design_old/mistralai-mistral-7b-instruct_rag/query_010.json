@@ -1,0 +1,12 @@
+{
+  "query_id": 10,
+  "query": "What legal risk from AI does the plan target and how?",
+  "response": "Part 1: The plan targets the risk of losing control of AI and its potential Orwellian uses by centering American workers and avoiding ideological bias in AI systems.\n\nPart 2: The AI Action Plan aims to mitigate the legal and ethical risks associated with AI by ensuring that AI systems are objective and free from top-down ideological bias, as emphasized by the White House. It also prioritizes protecting American workers and families from potential misuse of AI, aligning with the broader goal of maintaining U.S. dominance in the technology. The plan emphasizes the need for safeguards and responsible development to prevent scenarios where AI could be misused or lose control, reflecting concerns about the technology's capabilities and potential risks.",
+  "ground_truth": "Malicious deepfakes; develop NIST guidelines and support evidentiary standards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:21:10.007087",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the risks of losing control of AI and ideological bias, but it does not address the specific legal risk of malicious deepfakes or the development of NIST guidelines and evidentiary standards, which are the key points in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:52.053857",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the classification of 'miss'. It does not provide any information about companion chatbots under SB 243.",
+  "provider": "deepseek"
+}

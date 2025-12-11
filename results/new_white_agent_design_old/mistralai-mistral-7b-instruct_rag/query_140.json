@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "<s>",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:36.770812",
+  "confidence": 0.0,
+  "reasoning": "The White Agent's response is empty and does not provide any information regarding IRS privacy and security requirements.",
+  "provider": "deepseek"
+}

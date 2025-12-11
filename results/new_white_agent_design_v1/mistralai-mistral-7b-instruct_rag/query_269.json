@@ -1,0 +1,12 @@
+{
+  "query_id": 269,
+  "query": "What is the civil penalty for violating this chapter?",
+  "response": "A person that knowingly violates this chapter or a regulation prescribed or order issued under this chapter is liable to the United States Government for a civil penalty of at least $250 but not more than $25,000 for each violation.",
+  "ground_truth": "$5,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:28.574313",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the civil penalty range as $250 to $25,000, while the ground truth specifies a penalty of $5,000 per violation, making the response factually incorrect.",
+  "provider": "deepseek"
+}

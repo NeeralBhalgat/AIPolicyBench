@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "The AI Act prohibits certain AI uses, including AI systems that deploy subliminal techniques, exploit vulnerabilities of specific groups, or use social scoring by governments for social control. It also bans AI for real-time remote biometric identification in publicly accessible spaces for law enforcement, except in narrowly defined cases.",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:56.672475",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes some accurate points about prohibited AI uses, such as the ban on real-time remote biometric identification for law enforcement. However, it inaccurately emphasizes subliminal techniques and social scoring, which are not explicitly mentioned in the ground truth answer. The ground truth focuses on the prohibition of using AI for biased purposes and unlawful mass surveillance, which the White Agent does not address adequately.",
+  "provider": "deepseek"
+}

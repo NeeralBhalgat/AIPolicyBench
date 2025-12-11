@@ -1,0 +1,12 @@
+{
+  "query_id": 205,
+  "query": "What is excluded from the definition of Automated-Decision Systems under §11008.1(a)(2)?",
+  "response": "Part 1: The definition of Automated-Decision Systems excludes \"a decision-making tool or process that is not a significant factor in the decision to hire, promote, retain, or terminate an employee.\"\n\nPart 2: According to §11008.1(a)(2), an Automated-Decision System (ADS) is explicitly defined to exclude decision-making tools or processes that do not play a significant role in employment decisions. This means that if a tool or process is used but does not substantially influence hiring, promotions, retention, or termination, it falls outside the ADS definition. The exclusion ensures that only systems with meaningful impact on employment outcomes are regulated under this chapter. This distinction helps focus regulatory efforts on tools that have a direct and significant effect on employees' careers.",
+  "ground_truth": "Software like word processing, spreadsheets, navigation, or similar tools that do not make employment decisions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:49:09.663494",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly interprets the exclusion criteria for Automated-Decision Systems. While it mentions that tools not significantly influencing employment decisions are excluded, it fails to specify the types of software explicitly mentioned in the ground truth, such as word processing and spreadsheets, which are examples of tools that do not make employment decisions.",
+  "provider": "deepseek"
+}

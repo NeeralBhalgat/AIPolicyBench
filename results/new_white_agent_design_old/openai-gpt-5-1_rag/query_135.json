@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "**Part 1:**  \nProject teams are required to provide an AI use case inventory that lists their unclassified and nonsensitive current and planned uses of AI, including the required information about each AI use case so the data align with federal guidance.\n\n**Part 2:**  \nFederal orders and guidance direct agencies to prepare and maintain inventories of their AI use cases, specifically covering unclassified and nonsensitive current and planned uses of AI. These entries must supply all required data fields for each use, such as information needed to support transparency, innovation, and the management of potential rights and safety impacts. Oversight reviews have emphasized that agencies must ensure their entries are complete, accurate, and consistent with the government-wide inventory requirements. The Department of Justice, for example, collects this information across all its components to build a comprehensive repository of AI uses.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:55:14.819615",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the requirements for project teams to provide an AI use case inventory, aligning with the ground truth that emphasizes the need for clear and detailed responses to all required inventory questions.",
+  "provider": "deepseek"
+}

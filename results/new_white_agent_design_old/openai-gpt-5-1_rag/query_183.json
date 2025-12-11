@@ -1,0 +1,12 @@
+{
+  "query_id": 183,
+  "query": "What do federal laws and executive orders require agencies to ensure about AI systems?",
+  "response": "Part 1:  \nFederal laws and executive orders require agencies to ensure that AI systems are safe and secure, rigorously evaluated and monitored, ethically and responsibly developed and deployed, and compliant with all applicable Federal laws, policies, and civil rights and nondiscrimination protections.\n\nPart 2:  \nThese requirements direct agencies to use robust, reliable, repeatable, and standardized evaluations before and after deployment so that AI systems function as intended and are resilient against misuse or dangerous modifications. Agencies must also address the most pressing security risks, including those related to critical infrastructure, cybersecurity, biotechnology, and other national security concerns. In addition, federal directives emphasize preventing AI from reproducing or intensifying inequities or causing unlawful discrimination, especially in high‑impact contexts such as justice, education, and services to underserved communities. Together, these mandates guide agencies to adopt AI only in ways that enhance government operations while protecting safety, rights, and equity.",
+  "ground_truth": "They must comply with federal law while advancing equity, safety, and privacy.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:09:44.447107",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirements set forth by federal laws and executive orders regarding AI systems, emphasizing safety, security, ethical development, and compliance with civil rights protections, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

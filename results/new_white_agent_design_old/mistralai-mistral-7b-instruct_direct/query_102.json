@@ -1,0 +1,12 @@
+{
+  "query_id": 102,
+  "query": "Who serves as DOT’s AI Governance Board?",
+  "response": "The U.S. Department of Transportation (DOT) has established an AI Governance Board to oversee the implementation of AI systems within the department. As of the latest available information, the board is chaired by the DOT's Chief Data Officer and includes representatives from various DOT agencies and offices, such as the Federal Aviation Administration (FAA), Federal Highway Administration (FHWA), and the Office of the Secretary. The specific members and their roles may evolve, so for the most current details, it is advisable to check the DOT's official website or recent announcements.",
+  "ground_truth": "The NETT Council, led by senior DOT officials including the Secretary and Deputy Secretary.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:07:59.856614",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the leadership and structure of the DOT's AI Governance Board, stating it is chaired by the Chief Data Officer and includes representatives from various agencies, while the ground truth indicates that the NETT Council, led by senior DOT officials including the Secretary and Deputy Secretary, is responsible for AI governance.",
+  "provider": "deepseek"
+}

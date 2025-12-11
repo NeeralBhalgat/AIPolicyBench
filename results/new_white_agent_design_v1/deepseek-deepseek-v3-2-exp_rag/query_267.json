@@ -1,0 +1,12 @@
+{
+  "query_id": 267,
+  "query": "What must capture device manufacturers provide starting January 1, 2028?",
+  "response": "Based on the provided sources, there is no information about requirements for device manufacturers starting January 1, 2028.\n\nI don't have enough information to answer this question.",
+  "ground_truth": "An option for users to embed latent disclosures, and embedded disclosures must be default.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:54:22.676860",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits a lack of information regarding the requirements for device manufacturers starting January 1, 2028, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 207,
+  "query": "Under §11013(c), how long must personnel and employment records be preserved?",
+  "response": "Part 1: Under §11013(c), personnel and employment records must be preserved for one year from the date of the making of the record or the personnel action involved, whichever occurs later.\n\nPart 2: The requirement specifies a one-year retention period, which begins from the later of two possible dates: when the record was created or when the relevant personnel action took place. This ensures records are kept long enough to address potential employment disputes or evaluations. The rule applies broadly to all personnel or employment records maintained by the employer.",
+  "ground_truth": "Four years from the date of the record or personnel action.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:07:09.638320",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that personnel and employment records must be preserved for one year, while the ground truth specifies a retention period of four years. This is a factual error.",
+  "provider": "deepseek"
+}

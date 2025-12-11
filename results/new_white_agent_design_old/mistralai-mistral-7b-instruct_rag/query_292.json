@@ -1,0 +1,12 @@
+{
+  "query_id": 292,
+  "query": "What signature requirement applies to AI-generated official reports?",
+  "response": "<s> [OUT] Part 1: The revised policies require AI-generated official reports to be signed by a human official to ensure accountability and public trust.\n\nPart 2: The White House's updated guidelines emphasize the need for federal agencies to adopt AI while maintaining strong protections for privacy, civil rights, and civil liberties. This includes ensuring that AI-generated reports are reviewed and signed by a human official to uphold transparency and responsibility. The policies aim to modernize government technology while addressing bureaucratic barriers, and this signature requirement is part of the broader effort to build public trust in AI use. [/OUT]",
+  "ground_truth": "The officer must sign (physically or electronically) verifying they reviewed the report and that its contents are true and correct.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:01:44.878540",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI-generated official reports to be signed by a human official, aligning with the ground truth that emphasizes the need for human verification of the report's contents.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 102,
+  "query": "Who serves as DOT’s AI Governance Board?",
+  "response": "Part 1: The Department of Transportation's AI Governance Board is the Council, whose membership and charter were updated to reflect this additional role.\n\nPart 2: In April 2024, the DOT initiated updates to an existing Council to give it the additional responsibility of serving as the Department's AI Governance Board. This board is tasked with governing the use of AI, removing barriers to its implementation, and managing the inherent risks associated with the technology. This action is part of the DOT's broader compliance efforts and strategy to foster innovation while ensuring safety and public trust in AI applications.",
+  "ground_truth": "The NETT Council, led by senior DOT officials including the Secretary and Deputy Secretary.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:42:24.729774",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly identifies the AI Governance Board as the Council without specifying that it is the NETT Council, which is the correct name. Additionally, the response does not mention the leadership structure, which includes senior DOT officials like the Secretary and Deputy Secretary.",
+  "provider": "deepseek"
+}

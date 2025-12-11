@@ -1,0 +1,12 @@
+{
+  "query_id": 94,
+  "query": "What types of data use are explicitly prohibited by DHS in AI systems?",
+  "response": "**Part 1:**  \nDHS explicitly prohibits using AI and AI-related data to rely on AI outputs as the sole basis for law enforcement or civil enforcement actions or denial of government benefits, to make or support decisions based on unlawful or improper consideration of characteristics protected by federal non-discrimination laws, to improperly profile, target, or discriminate against individuals or entities or retaliate for exercising Constitutional rights, to conduct unlawful or improper large-scale monitoring, surveillance, or tracking of individuals, and to share DHS data or AI outputs with third parties for uses that are prohibited by law or DHS policy.  \n\n**Part 2:**  \nThese prohibitions focus on preventing AI-driven decisions that would unfairly affect people’s rights, access to benefits, or treatment under the law. DHS bars discriminatory uses of AI that hinge on protected characteristics or retaliate against individuals for exercising Constitutional rights, and it blocks AI-enabled mass surveillance or tracking when such monitoring would be unlawful or improper. The rules also prevent AI from being the only basis for serious government actions like arrests, searches, fines, or benefit denials, requiring human and legal safeguards. Finally, DHS restricts sharing its data or AI outputs with third parties if those parties would use them in ways that violate law or DHS policy.",
+  "ground_truth": "DHS may not use AI or data to make or support decisions based on race, ethnicity, gender, religion, or other protected traits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:46:00.393884",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibitions set by DHS regarding the use of AI in law enforcement and civil enforcement actions, particularly concerning discrimination based on protected characteristics. It aligns with the ground truth answer by emphasizing the prohibition of decisions based on race, ethnicity, gender, and other protected traits.",
+  "provider": "deepseek"
+}

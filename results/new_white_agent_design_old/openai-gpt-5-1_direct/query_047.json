@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "The **Map** function (in the NIST AI Risk Management Framework) helps organizations:\n\n- **Establish the context** for an AI system and **frame the associated risks**.  \n- Understand **what the system is for**, how and where it will be used, and **who is affected** (users, impacted communities, regulators, etc.).  \n- Identify **intended benefits** and **potential harms** (e.g., safety, bias, privacy, security, legal and reputational risks).  \n- Align the AI use case with **organizational goals, legal requirements, and societal norms/values**.\n\nIn NIST’s own words, the MAP function “**establishes the context to frame risks related to an AI system**.”",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:43:59.935218",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the purpose of the Map function in the NIST AI Risk Management Framework, aligning well with the ground truth answer regarding understanding AI risks and identifying impacts before deployment.",
+  "provider": "deepseek"
+}

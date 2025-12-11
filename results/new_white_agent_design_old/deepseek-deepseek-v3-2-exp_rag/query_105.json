@@ -1,0 +1,12 @@
+{
+  "query_id": 105,
+  "query": "What tool does DOT use to track AI use cases?",
+  "response": "Part 1: The DOT uses a dataset list of AI use cases, created in accordance with EO 13960, as its mechanism and inventory for tracking.\n\nPart 2: The tracking is done through an official dataset titled \"Department of Transportation Inventory of Artificial Intelligence Use Cases.\" This inventory is maintained to satisfy the requirements of Executive Order 13960, which mandates federal agencies to create inaugural AI use case inventories. The dataset serves as the formal record and mechanism for the DOT to catalog and share its AI initiatives.",
+  "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:43:23.857038",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the tool used by the DOT to track AI use cases as a dataset list created in accordance with EO 13960, while the correct tool is TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "provider": "deepseek"
+}

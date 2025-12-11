@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:08:32.766581",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the functions of the DHS AI Council, which does not provide any information relevant to the question.",
+  "provider": "deepseek"
+}

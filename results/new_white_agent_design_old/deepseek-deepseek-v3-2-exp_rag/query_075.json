@@ -1,0 +1,12 @@
+{
+  "query_id": 75,
+  "query": "What additional domains support implementation of the Strategic Plan?",
+  "response": "Part 1: The additional domains supporting implementation of the Strategic Plan are state-level AI regulations, which include important protections for individuals, children, and families, as well as local safeguards concerning data centers' drain on power and water resources.\n\nPart 2: The context describes how state-level AI laws provide crucial safeguards that the proposed federal executive order would override. These state regulations are designed to protect individuals, children, and families from potential AI harms. Furthermore, states are also addressing concerns about data centers' environmental impacts, such as their drain on power and water resources, highlighting another domain of local oversight and protection.",
+  "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:36:37.652681",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses state-level AI regulations and their implications, which do not align with the ground truth answer that specifies 'Cybersecurity and Critical Infrastructure Protection, and Internal Operations' as the additional domains supporting the Strategic Plan.",
+  "provider": "deepseek"
+}

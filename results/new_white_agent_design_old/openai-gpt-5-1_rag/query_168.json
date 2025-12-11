@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "**Part 1:**  \nThe plan does not enumerate specific AI sub-specialties, instead referring broadly to “frontier AI infrastructure,” “frontier AI training work,” and “trusted AI infrastructure” rather than named technical domains like computer vision or natural language processing.\n\n**Part 2:**  \nIn the excerpts provided, the focus is on building and governing “frontier AI infrastructure” and planning for “frontier AI training work” at specified sites, along with international collaboration on “trusted AI infrastructure.” The text emphasizes timelines, financing, construction standards, decommissioning plans, and the clean energy and supply-chain systems needed to support such infrastructure. It also discusses federal oversight and the broader national security, economic, and community impacts of AI, but not distinct technical sub-fields. Because of this, no concrete AI sub-specialties (such as robotics or NLP) are named in the plan sections you provided.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:04:20.884286",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the plan does not enumerate specific AI sub-specialties, while the ground truth lists examples such as natural language processing, machine learning, and deep learning, which are indeed recognized sub-specialties in AI.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "All AI-generated data products must include \"content authentication and watermarking to clearly label AI-generated content.\" [Source 3]",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:40.951514",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions 'content authentication and watermarking' which is not the same as 'metadata labeling' as stated in the ground truth. While both concepts relate to identifying AI-generated content, the specific requirement of metadata labeling is not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

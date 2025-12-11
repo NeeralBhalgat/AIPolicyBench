@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Data for AI is typically readied through a process called data preprocessing, which includes cleaning, normalization, transformation, and structuring the data to make it suitable for training machine learning models. This ensures the data is in a consistent and usable format for the AI system.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:01.595755",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response accurately describes data preprocessing steps, it does not address the specific aspects of data readiness mentioned in the ground truth, such as metadata management, classification, quality metrics, and data security, which are critical for AI data readiness.",
+  "provider": "deepseek"
+}

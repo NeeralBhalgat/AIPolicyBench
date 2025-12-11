@@ -1,0 +1,7 @@
+model_name,mode,total_queries,evaluated,correct,correct_pct,miss,miss_pct,hallucination,hallucination_pct,timeout,factuality_rate
+deepseek-deepseek-v3-2-exp,DIRECT,300,300,23,7.67,241,80.33,36,12.0,0,76.0
+deepseek-deepseek-v3-2-exp,RAG,300,300,61,20.33,156,52.0,83,27.67,0,44.67
+mistralai-mistral-7b-instruct,DIRECT,300,300,48,16.0,166,55.33,86,28.67,0,42.67
+mistralai-mistral-7b-instruct,RAG,300,295,67,22.71,126,42.71,102,34.58,5,30.85
+openai-gpt-5-1,DIRECT,300,297,36,12.12,238,80.13,22,7.41,3,84.85
+openai-gpt-5-1,RAG,300,300,65,21.67,165,55.0,70,23.33,0,53.33

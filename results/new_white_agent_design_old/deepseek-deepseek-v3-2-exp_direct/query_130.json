@@ -1,0 +1,12 @@
+{
+  "query_id": 130,
+  "query": "Which IRM subsection requires Privacy and Civil Liberties Impact Assessments?",
+  "response": "Based on my knowledge of U.S. federal regulations and internal government policies, the requirement for Privacy and Civil Liberties Impact Assessments (PCLIAs) is not mandated by a specific subsection of the Internal Revenue Manual (IRM).\n\nThe primary legal requirement for these assessments comes from the **E-Government Act of 2002**, specifically **Section 208**. This law requires all federal agencies to conduct a Privacy Impact Assessment (PIA) for any new or substantially changed information technology that collects, maintains, or disseminates personally identifiable information (PII).\n\nWhile the IRS, as a federal agency, must comply with this law, it implements this requirement through its own internal guidance. The relevant part of the IRM is:\n\n**IRM 10.5.1, Privacy Impact Assessment (PIA) and Privacy Threshold Assessment (PTA) Guide**\n\nThis section of the IRM outlines the IRS's specific procedures for conducting PIAs (and the related Privacy Threshold Assessments) to ensure compliance with the E-Government Act and other privacy statutes, such as the Privacy Act of 1974.\n\n**To be precise:**\n*   The **legal authority** is the E-Government Act of 2002 (Section 208).\n*   The **internal IRS implementation** of that authority is detailed in **IRM 10.5.1**.\n\nThe term \"Civil Liberties\" is often included alongside \"Privacy\" in broader policy discussions (e.g., the role of the Civil Liberties Protection Officer within an agency), but the specific assessment required by law and detailed in the IRM is the **Privacy Impact Assessment (PIA)**.",
+  "ground_truth": "IRM 10.5.2.2.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:50:12.567804",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the requirement for Privacy and Civil Liberties Impact Assessments is not mandated by a specific subsection of the IRM, while the ground truth indicates that it is actually found in IRM 10.5.2.2. This constitutes a factual inaccuracy.",
+  "provider": "deepseek"
+}

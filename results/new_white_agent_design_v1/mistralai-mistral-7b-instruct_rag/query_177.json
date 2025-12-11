@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "The NRC will use cases to \"facilitate the civilian use of radioactive materials and deployment of nuclear energy\" while ensuring \"reactor safety\" and \"increased availability of, and innovation in, nuclear power\" [Source 2, 3].",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:16:12.872321",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly associates the NRC's use cases with nuclear energy and reactor safety, which is unrelated to the ground truth answer about AI systems. The claims made do not align with the actual purpose of use cases in the context of AI policy and safety.",
+  "provider": "deepseek"
+}

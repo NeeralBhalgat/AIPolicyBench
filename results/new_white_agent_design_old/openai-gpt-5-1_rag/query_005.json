@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "**Part 1:**  \nThe plan’s stance is to **“Encourage Open-Source and Open-Weight AI”** as a stated objective within its framework for accelerating AI innovation.\n\n**Part 2:**  \nWithin the broader pillar focused on accelerating AI innovation, the plan explicitly calls for encouraging open‑source and open‑weight AI. This places open models as a positive tool to drive private sector–led innovation and widespread AI adoption. At the same time, the plan couples this with goals like protecting commercial and government AI innovations and combating synthetic media in the legal system, implying support for open models within a managed and secure ecosystem. Overall, open‑source and open‑weight AI are treated as assets to be promoted rather than restricted.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:25:12.016972",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the plan's stance on open-source and open-weight models, emphasizing their role in driving innovation and adoption, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

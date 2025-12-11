@@ -1,0 +1,12 @@
+{
+  "query_id": 63,
+  "query": "What new AI guidance did the DOE release in June 2024?",
+  "response": "Part 1:  \nIn June 2024, DOE released its Artificial Intelligence (AI) Usage Guidelines, which establish requirements and considerations that should be followed when using generative AI for content-related purposes across the Department.\n\nPart 2:  \nThese guidelines direct staff to treat tools like ChatGPT as aids for writing and idea generation, not as substitutes for human work, and to keep “a human in the loop” to validate sources and prevent plagiarism or copyright issues. They prohibit using AI as an author, using verbatim chatbot text, and using AI-generated art on Energy.gov, and they require verification of any citations suggested by AI. The guidance also instructs users to avoid disclosing confidential or nonpublic DOE data in prompts and to review AI outputs for potential confidentiality issues. In addition, human authors must ensure all AI-assisted content complies with federal requirements such as Section 508 accessibility and the Plain Writing Act.",
+  "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:39:10.694550",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the guidance released by the DOE in June 2024 as 'Artificial Intelligence (AI) Usage Guidelines' instead of the correct 'Version 2 of the Generative AI (GenAI) Reference Guide'. The details provided about the guidelines are not verifiable against the known ground truth.",
+  "provider": "deepseek"
+}

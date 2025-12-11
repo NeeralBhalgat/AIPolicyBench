@@ -1,0 +1,12 @@
+{
+  "query_id": 142,
+  "query": "What responsibility does AISWG have regarding AI policy creation?",
+  "response": "The AI Safety Working Group (AISWG) is responsible for developing and recommending AI safety policies and guidelines to ensure the responsible and safe development and deployment of AI technologies.",
+  "ground_truth": "Supporting AI governance creation within NASA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:00.843838",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the AISWG's responsibilities, as the ground truth specifies that their role is to support AI governance creation within NASA, which is not mentioned in the White Agent's answer.",
+  "provider": "deepseek"
+}

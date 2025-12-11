@@ -1,0 +1,12 @@
+{
+  "query_id": 88,
+  "query": "How does DHS ensure transparency and accountability in its AI use?",
+  "response": "DHS ensures transparency and accountability in its AI use by publishing an AI Strategy and an AI Accountability Framework, which outline principles and guidelines for responsible AI development and deployment. Additionally, DHS conducts regular audits and evaluations of its AI systems to assess their performance, fairness, and compliance with ethical standards.",
+  "ground_truth": "By making AI use explainable, auditable, and publicly disclosed in plain language whenever possible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:02.487269",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes DHS's approach to ensuring transparency and accountability in AI use by mentioning the publication of an AI Strategy and an AI Accountability Framework, as well as regular audits and evaluations, which align with the principles of making AI use explainable and auditable.",
+  "provider": "deepseek"
+}

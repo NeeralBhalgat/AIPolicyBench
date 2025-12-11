@@ -1,0 +1,12 @@
+{
+  "query_id": 74,
+  "query": "What are the primary domains covered in the HHS Strategic Plan?",
+  "response": "The U.S. Department of Health and Human Services (HHS) organizes its current Strategic Plan (FY 2022–2026) around five primary domains (called “Strategic Goals”). Each goal includes multiple objectives, but at the top level the domains are:\n\n1. **Health Care Access, Quality, and Affordability**  \n   *Goal 1: Protect and Strengthen Equitable Access to High-Quality and Affordable Health Care*  \n   - Expanding coverage and affordability  \n   - Improving care quality and safety  \n   - Advancing equity in health care access and outcomes  \n\n2. **Public Health, Disease Prevention, and Preparedness (Domestic and Global)**  \n   *Goal 2: Safeguard and Improve National and Global Health Conditions and Outcomes*  \n   - Infectious and chronic disease prevention and control  \n   - Public health infrastructure and workforce  \n   - Emergency preparedness and response  \n   - Global health security and cooperation  \n\n3. **Social Well-Being, Equity, and Economic Resilience**  \n   *Goal 3: Strengthen Social Well-Being, Equity, and Economic Resilience*  \n   - Child, youth, and family well-being  \n   - Aging, disability, and long-term services and supports  \n   - Addressing social determinants of health and structural inequities  \n   - Strengthening economic and food security for vulnerable populations  \n\n4. **Science, Research, and Evidence (Including Data and Innovation)**  \n   *Goal 4: Restore Trust and Accelerate Advancements in Science and Research for All*  \n   - Biomedical, behavioral, and social science research  \n   - Data, evidence, and analytics to inform policy and practice  \n   - Innovation in treatments, technologies, and public health tools",
+  "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:47:47.709480",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists five domains that do not match the ground truth answer, which specifies different primary domains related to medical research, product development, healthcare delivery, human services, and public health.",
+  "provider": "deepseek"
+}

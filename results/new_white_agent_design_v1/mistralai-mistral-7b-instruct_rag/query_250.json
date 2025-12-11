@@ -1,0 +1,12 @@
+{
+  "query_id": 250,
+  "query": "What relief may a person injured by a violation of this chapter seek in a civil action?",
+  "response": "A person injured by a violation of this chapter may seek to recover the defendant’s profits, any damages sustained, and the costs of the action (Source 3).",
+  "ground_truth": "Injunctive relief, damages of at least $1,000 per violation, and reasonable attorney’s fees and costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:21:33.644644",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states the types of relief available. While it mentions recovering damages and costs, it fails to include injunctive relief and the specific amount of damages per violation, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 293,
+  "query": "How long must the first AI-generated draft of a report be retained?",
+  "response": "There is **no universal, legally mandated retention period specifically for “the first AI‑generated draft of a report.”**\n\nHow long it must be kept (if at all) depends on:\n\n1. **Your organisation’s records‑management policy**  \n   - Most public bodies and regulated entities require that *substantive drafts* that contribute meaningfully to a final report be retained according to the same retention schedule as the final document (e.g., 3, 5, 7+ years), but this is set internally or by sector regulators, not by “AI law” per se.  \n   - Many policies treat AI‑generated drafts exactly like human‑written drafts:  \n     - If they are purely exploratory and not shared/relied upon, they are often not retained as",
+  "ground_truth": "For as long as the official report is retained.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:11:31.177051",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no universal retention period for AI-generated drafts, while the ground truth indicates that they should be retained for as long as the official report is retained. This misinterpretation leads to a factual inaccuracy.",
+  "provider": "deepseek"
+}

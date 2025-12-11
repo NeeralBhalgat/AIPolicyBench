@@ -1,0 +1,12 @@
+{
+  "query_id": 70,
+  "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+  "response": "Part 1:  \nThe provided materials do not specify a particular consequence if a DOE AI use case fails to meet the “required minimum risk‑management practices,” other than that such a use would be out of compliance with Federal AI policy requiring agencies to “manage its risks, and comply with Federal policy on AI.”\n\nPart 2:  \nThe Executive Order directs agencies to adopt “required minimum risk-management practices for Government uses of AI that impact people’s rights or safety,” drawing on the Blueprint for an AI Bill of Rights and the NIST AI Risk Management Framework. It also requires agencies to “track and assess their ability to adopt AI into their programs and operations, manage its risks, and comply with Federal policy on AI,” and tasks NIST with creating “guidelines, tools, and practices to support implementation” of these minimum practices. From this, the clear implication is that a DOE AI use case that does not meet the minimum practices would be treated as noncompliant and should be adjusted or governed until it aligns with these requirements. Any specific sanctions (such as suspension or termination of the use case) are not described in the provided text.",
+  "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:40:57.210222",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth, which states that the Acting CAIO may issue a waiver or require termination of the use case. Instead, the White Agent suggests that the use case would be treated as noncompliant without specifying the potential actions that could be taken, which leads to a factual inaccuracy.",
+  "provider": "deepseek"
+}

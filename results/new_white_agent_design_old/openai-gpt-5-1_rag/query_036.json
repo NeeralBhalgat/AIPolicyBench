@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "**Part 1:** In Fiscal Year 2025, USDA will stand up enterprise artificial intelligence governance infrastructure by issuing a Departmental Regulation for enterprise AI that replaces its interim generative AI guidance and establishes clear decision-making processes for AI projects throughout their lifecycle.  \n\n**Part 2:** This new Departmental Regulation will formalize how USDA plans, approves, manages, and oversees AI systems across the Department. It is explicitly grounded in and builds on Executive Order 14110 and OMB M-24-10, aligning USDA’s internal AI governance with broader federal directives. In practical terms, this creates a unified, enterprise-level framework—USDA’s key “infrastructure and tool”—for consistent, compliant AI use rather than listing specific technical platforms. The documents describing USDA’s plans do not detail particular software tools or hardware, focusing instead on this regulatory and decision-making framework as the core infrastructure to be put in place.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:31:38.151052",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes a governance framework for AI at USDA but does not align with the ground truth answer, which specifies a semi-federated model and mentions specific components like the USDA AI Lab and GenAI sandboxes. The response lacks factual accuracy regarding the specific infrastructure and tools that USDA will implement.",
+  "provider": "deepseek"
+}

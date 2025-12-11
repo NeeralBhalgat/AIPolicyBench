@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "The policy requires that new, custom-developed federal source code “be made available for sharing and re-use across all federal agencies” and that agencies “create and update an agency source code inventory to be placed online on their agency website,” which together promote reuse and transparency.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:08:37.441271",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses federal source code sharing and inventory requirements, which is related but does not accurately reflect the ground truth answer regarding AI code/models and the specific requirement for an annual AI use case inventory.",
+  "provider": "deepseek"
+}

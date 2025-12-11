@@ -1,0 +1,12 @@
+{
+  "query_id": 296,
+  "query": "What restrictions apply to contracted vendors processing law enforcement data?",
+  "response": "Part 1:  \nContracted vendors processing law enforcement data must comply with the DOJ‑incorporated CISA security requirements for “restricted transactions,” which require U.S. persons to implement organizational‑ and system‑level controls to prevent access to Americans’ bulk sensitive personal data and U.S. government‑related data by countries of concern and other covered persons.\n\nPart 2:  \nBecause law enforcement data falls within “U.S. government‑related data” and often includes “bulk sensitive personal data,” any contractor handling it is treated as a U.S. person engaging in a restricted transaction. As a result, they are legally obligated to meet the finalized security requirements that CISA developed and DOJ incorporated into its regulations. In practice, this means they must design and operate their systems so that countries of concern and covered foreign persons cannot access such data, and must maintain appropriate organizational and technical safeguards. These obligations are a national‑security measure intended to close off foreign exploitation channels for sensitive law enforcement and related government data.",
+  "ground_truth": "Vendors cannot share or sell the data except for the agency’s purposes or by court order.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:37:02.504754",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses security requirements and restrictions related to access by foreign entities, but it does not address the specific restriction that vendors cannot share or sell law enforcement data except for the agency's purposes or by court order, which is the core aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

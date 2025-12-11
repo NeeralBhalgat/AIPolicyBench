@@ -1,0 +1,12 @@
+{
+  "query_id": 283,
+  "query": "What new information about common data types must data brokers provide?",
+  "response": "**Part 1:** Data brokers must provide information about the four data types—such as a consumer's income, level of indebtedness, or categorization as \"financially challenged\"—which are typically used for credit eligibility determinations and are now subject to the responsibilities of the FCRA.\n\n**Part 2:** The Federal Trade Commission's proposal aims to curb harmful data broker practices by classifying entities selling these specific data types as consumer reporting agencies. This classification generally prohibits the sale of such information for non-permissible purposes like marketing, as these data points are the same types that consumer reporting agencies assemble and are frequently used to make sensitive and potentially inaccurate inferences about consumers. Consequently, data brokers must now operate under FCRA rules, which require greater oversight and restrict the sale of this data for uses beyond the limited permissible purposes explicitly defined by the law.",
+  "ground_truth": "They must list one to three of their most commonly collected personal information types if they do not collect certain other categories.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:21:44.012579",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on specific data types related to credit eligibility and the FCRA, rather than addressing the requirement for data brokers to list one to three commonly collected personal information types. This misinterpretation of the requirements indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

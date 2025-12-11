@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "Part 1: A civil penalty of not more than $14,308 may be imposed upon any person who makes, presents, or submits a claim or written statement in violation of the act.\n\nPart 2: The specified penalty of $14,308 is found in the 2025 adjustment to HUD's regulations implementing the Program Fraud Civil Remedies Act. This amount applies to each violation involving a false claim or written statement that a person knows or has reason to know is false. The penalty figures are periodically adjusted for inflation, as mandated by the Debt Collection Improvement Act, to ensure they remain effective.",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:52.771831",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the civil penalty as $14,308, while the ground truth indicates that the penalty can be up to $1,000,000 per violation. This discrepancy indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

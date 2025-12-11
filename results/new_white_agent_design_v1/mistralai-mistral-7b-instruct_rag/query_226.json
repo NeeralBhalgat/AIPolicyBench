@@ -1,0 +1,12 @@
+{
+  "query_id": 226,
+  "query": "Does AB 316 allow defendants to present evidence of comparative fault of others?",
+  "response": "Yes, the bill allows defendants to present evidence of comparative fault of others. The text explicitly states that \"other evidence relevant to the comparative fault of any other person or entity\" is permitted (Source 1, Source 2, Source 3).",
+  "ground_truth": "Yes, they may present evidence of comparative fault of any other person or entity.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:30.585951",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth that AB 316 allows defendants to present evidence of comparative fault of others, and it cites the relevant text from the bill.",
+  "provider": "deepseek"
+}

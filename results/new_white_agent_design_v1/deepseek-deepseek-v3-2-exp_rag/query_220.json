@@ -1,0 +1,12 @@
+{
+  "query_id": 220,
+  "query": "What federal law created protections for sharing cyber threat indicators discussed in the findings of AB 979?",
+  "response": "The Cybersecurity Information Sharing Act of 2015 created protections for sharing cyber threat indicators.",
+  "ground_truth": "The Cybersecurity Information Sharing Act of 2015 (CISA 2015).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:51:05.869802",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the Cybersecurity Information Sharing Act of 2015 as the federal law that created protections for sharing cyber threat indicators, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

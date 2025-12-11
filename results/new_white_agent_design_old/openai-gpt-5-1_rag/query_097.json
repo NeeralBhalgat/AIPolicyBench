@@ -1,0 +1,12 @@
+{
+  "query_id": 97,
+  "query": "What safeguards will DHS apply to AI systems to ensure cybersecurity?",
+  "response": "**Part 1:**  \nDHS will safeguard AI systems by conducting robust, reliable, repeatable, and standardized evaluations and, through CISA, publishing unclassified guidance on known AI cybersecurity vulnerabilities and threats and best practices for avoiding, detecting, and mitigating such issues during model training, deployment, and integration into other software systems.\n\n**Part 2:**  \nThese safeguards include systematic testing and evaluation of AI systems before and after deployment to ensure they function as intended and are resilient against misuse or dangerous modifications. DHS, via CISA and other components, will provide operational guidance on cybersecurity vulnerabilities specific to AI, including how to detect and remediate them in critical government software, systems, and networks. The Department will also examine the role of AI in critical infrastructure to identify and address new vulnerabilities introduced by AI-enabled tools. Together, these measures aim to ensure AI technologies are securely developed, integrated, and monitored across homeland security missions.",
+  "ground_truth": "DHS will follow federal and private-sector best practices and develop additional standards to protect AI from cyberattacks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:46:55.115769",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the safeguards DHS will apply to AI systems, including evaluations, guidance on vulnerabilities, and the examination of AI's role in critical infrastructure, which aligns with the ground truth answer regarding following best practices and developing standards.",
+  "provider": "deepseek"
+}

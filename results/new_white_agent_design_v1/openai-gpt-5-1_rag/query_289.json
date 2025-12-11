@@ -1,0 +1,12 @@
+{
+  "query_id": 289,
+  "query": "What new audit obligation does SB 361 create?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Beginning in 2028, data brokers must undergo a third-party compliance audit every three years and provide reports upon request.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:34:26.068845",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the new audit obligation created by SB 361.",
+  "provider": "deepseek"
+}

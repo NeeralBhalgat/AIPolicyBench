@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "The 5 headline goals for AI, as outlined by the European Commission in its White Paper on Artificial Intelligence, are as follows:\n\n1. **Promote human-centric AI**: AI should be developed and used in a way that respects human rights, fundamental freedoms, and the principles of equality and non-discrimination.\n\n2. **Trustworthy AI**: AI systems should be transparent, explainable, and accountable. They should be designed to avoid bias, respect privacy, and ensure data protection.\n\n3. **Robust and reliable AI**: AI systems should be robust, secure, and resilient, with the ability to deal with uncertainty and handle errors gracefully.\n\n4. **Harmonized AI regulation**: The EU aims to establish a common regulatory framework for AI across the member states, ensuring a level playing field and predictable rules for businesses.\n\n5. **Technological sovereignty and strategic autonomy**: The EU wants to strengthen its technological capabilities in AI, ensuring its independence and strategic autonomy in the global AI market.\n\nThese goals are intended to guide the development and deployment of AI in a way that benefits society, respects human values, and fosters innovation.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:46.369774",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists goals that do not match the ground truth answer, which specifies different headline goals related to AI policy and safety. The goals provided by the White Agent are not the same as those outlined in the ground truth.",
+  "provider": "deepseek"
+}

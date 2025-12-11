@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "Part 1: The DOE AI Use Case Inventory aims to comply with the Office of Management and Budget Memorandum M-24-10 by cataloging the Department of Energy's AI use cases to enable innovation, efficiency, and the management of potential impacts.\n\nPart 2: The inventory is a direct response to federal requirements established by Executive Order 14110 and further detailed by OMB guidance, mandating agencies to report on their AI uses. It serves as a repository that provides detailed information on various AI applications, including their development stages and governance. This compilation supports the broader goals of building AI foundation models for science, energy, and security while ensuring responsible oversight.",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:34:16.309971",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides a detailed explanation of the DOE AI Use Case Inventory's aims, it inaccurately attributes specific compliance to Executive Order 14110 and OMB Memorandum M-24-10, which may not be directly related to the inventory's primary goal of cataloging AI use cases. The ground truth answer is more concise and focused on the annual review aspect, which is not clearly stated in the White Agent's response.",
+  "provider": "deepseek"
+}

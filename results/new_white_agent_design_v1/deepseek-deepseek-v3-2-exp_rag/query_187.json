@@ -1,0 +1,12 @@
+{
+  "query_id": 187,
+  "query": "What is one major duty of the Chief AI Officer (CAIO)?",
+  "response": "A Chief AI Officer is responsible for an organization’s AI strategy, AI initiatives, and implementation.",
+  "ground_truth": "Maintain awareness of all AI activities and how systems work within GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:48:32.235906",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response describes the general responsibilities of a Chief AI Officer but does not accurately reflect the specific duty of maintaining awareness of all AI activities and how systems work within GSA, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

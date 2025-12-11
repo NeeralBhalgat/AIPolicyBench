@@ -1,0 +1,12 @@
+{
+  "query_id": 227,
+  "query": "What type of harm is addressed in §1714.46(b) regarding artificial intelligence?",
+  "response": "§1714.46(b) of the California Consumer Privacy Act (CCPA) regulations addresses the potential harm of \"profiling\" or \"automated decision-making\" that could result in unfair or discriminatory outcomes. Specifically, it requires businesses to provide consumers with the right to opt out of the sale of their personal information to third parties for the purpose of profiling or automated decision-making that could lead to adverse consequences, such as denial of employment, housing, or financial services. This provision aims to mitigate the risks of algorithmic bias, discrimination, and other harms that can arise from the use of AI in decision-making processes.",
+  "ground_truth": "Harm allegedly caused to a plaintiff by AI developed, modified, or used by a defendant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:01.676791",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly interprets §1714.46(b) of the CCPA regulations, focusing on profiling and automated decision-making rather than the specific harm caused to a plaintiff by AI as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 229,
+  "query": "What characteristic of AI systems is explicitly noted in the definition in §1714.46(a)?",
+  "response": "Part 1: The definition explicitly notes that AI systems have the characteristic of being capable of making \"predictions, recommendations, or decisions influencing real or virtual environments.\"\n\nPart 2: This characteristic is central to the regulatory scope, as it identifies the specific function of AI that necessitates oversight. The definition focuses on the system's output and its consequential impact, rather than its internal technical architecture. This functional approach ensures the definition covers systems that have a tangible effect on the world, whether through predictions that guide decisions or automated decisions made without human intervention.",
+  "ground_truth": "AI systems vary in their level of autonomy.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:11:43.257157",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the characteristic of AI systems as their capability to make predictions, recommendations, or decisions, while the ground truth states that AI systems vary in their level of autonomy. This indicates a misunderstanding of the specific characteristic noted in the definition.",
+  "provider": "deepseek"
+}

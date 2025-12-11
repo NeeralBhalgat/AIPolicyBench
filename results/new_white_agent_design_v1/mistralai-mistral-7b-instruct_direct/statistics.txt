@@ -1,0 +1,23 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: https://beliefs-forwarding-artistic-infinite.trycloudflare.com/to_agent/6025bbfbff164bc3b57ce119639122ef
+White Agent Model: mistralai-mistral-7b-instruct_direct
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251210_152515
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 300
+Evaluated (excl. timeout): 300
+Timeout: 0 (0.00%) - excluded from factuality
+
+Correct: 48 (16.00%)
+Miss: 166 (55.33%)
+Hallucination: 86 (28.67%)
+Factuality Rate: 42.67%
+
+================================================================================

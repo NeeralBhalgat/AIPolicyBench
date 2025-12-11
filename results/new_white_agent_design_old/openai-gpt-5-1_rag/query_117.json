@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "Part 1:  \nDOT must re-evaluate AI risk determinations at least annually.\n\nPart 2:  \nDOT’s AI risk processes are aligned with federal AI governance requirements that call for recurring, periodic reassessment of AI-related risks rather than a one-time determination. At a minimum, this means reviewing and updating AI risk determinations every year to account for changes in models, data, operating environments, and observed system behavior. More frequent re-evaluation may be warranted for higher-risk or safety-critical transportation applications. This approach is consistent with broader AI risk management guidance emphasizing continuous monitoring and iterative risk assessment.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:51:31.398902",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that DOT must re-evaluate AI risk determinations at least annually, which aligns with the ground truth answer. It also correctly emphasizes the need for periodic reassessment in light of changes, which is consistent with federal AI governance requirements.",
+  "provider": "deepseek"
+}

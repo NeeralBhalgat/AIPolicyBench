@@ -1,0 +1,12 @@
+{
+  "query_id": 18,
+  "query": "How does the memo define “high-impact AI”?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:11.681889",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates uncertainty and does not provide an answer to the question about the definition of 'high-impact AI'.",
+  "provider": "deepseek"
+}

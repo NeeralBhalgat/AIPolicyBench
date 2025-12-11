@@ -1,0 +1,12 @@
+{
+  "query_id": 62,
+  "query": "What is the purpose of the DOE AI Advancement Council (AIAC)?",
+  "response": "The Department of Energy’s AI Advancement Council (AIAC) is the DOE’s senior governance body for artificial intelligence. Its core purpose is to provide department‑wide leadership, coordination, and oversight for how AI is developed, acquired, and used across DOE and its national laboratories.\n\nIn practice, the AIAC is intended to:\n\n- Set and steward DOE’s overall AI strategy and priorities, aligning AI work with DOE’s missions in energy, science, infrastructure, and national security.  \n- Coordinate AI activities across program offices and labs so efforts are not siloed or duplicative, and so shared data, compute, and tools are used efficiently.  \n- Guide policy on responsible and secure AI use (e.g., addressing safety, security, privacy, ethics, and compliance with federal AI directives",
+  "ground_truth": "To coordinate and oversee AI activities across the DOE and provide strategic direction on AI use.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:46:16.495831",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOE AI Advancement Council, aligning with the ground truth by emphasizing its role in providing leadership, coordination, and oversight for AI activities across the DOE.",
+  "provider": "deepseek"
+}

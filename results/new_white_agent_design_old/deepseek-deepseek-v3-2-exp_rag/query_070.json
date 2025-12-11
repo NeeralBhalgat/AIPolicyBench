@@ -1,0 +1,12 @@
+{
+  "query_id": 70,
+  "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+  "response": "Part 1: If an AI use case fails to meet risk management practices, it must be granted human consideration and remedies for adverse decisions, as required by the minimum practices for Government uses of AI that impact people's rights or safety.\n\nPart 2: The mandatory risk-management practices for government AI use cases are derived from established frameworks like the NIST AI Risk Management Framework. These practices are required specifically for uses of AI that impact people's rights or safety. A core component of these practices is the provision for human intervention, ensuring that when an AI system fails or causes an adverse decision, a human can review the case and provide a remedy.",
+  "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:35:53.360719",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses human intervention and remedies for adverse decisions, which is relevant but does not accurately reflect the ground truth answer regarding the authority of the Acting CAIO to issue a waiver or terminate the use case. Therefore, it misrepresents the specific consequences of failing to meet DOE risk management practices.",
+  "provider": "deepseek"
+}

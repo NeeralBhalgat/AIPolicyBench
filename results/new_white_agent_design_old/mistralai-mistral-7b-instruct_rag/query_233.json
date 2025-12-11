@@ -1,0 +1,12 @@
+{
+  "query_id": 233,
+  "query": "Who has jurisdiction over violations of AB 489’s provisions?",
+  "response": "Part 1: The California Senate Health Committee has jurisdiction over violations of AB 489’s provisions.\n\nPart 2: The Senate Health Committee is responsible for analyzing and overseeing legislation related to health, including AB 489. The committee's jurisdiction extends to violations of the bill's provisions, as indicated by the analysis documents. This oversight ensures compliance with the law and addresses any breaches or non-compliance issues that may arise.",
+  "ground_truth": "The appropriate health care professional licensing board or enforcement agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:52:04.017653",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the California Senate Health Committee has jurisdiction over violations of AB 489’s provisions. The correct jurisdiction lies with the appropriate health care professional licensing board or enforcement agency, making the response factually incorrect.",
+  "provider": "deepseek"
+}

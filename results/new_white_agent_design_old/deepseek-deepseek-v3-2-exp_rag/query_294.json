@@ -1,0 +1,12 @@
+{
+  "query_id": 294,
+  "query": "Can an AI-generated draft be considered an officer’s statement?",
+  "response": "Part 1: No, an AI-generated draft cannot be considered an officer’s statement because the Executive Order aims to develop effective labeling and content provenance mechanisms so that Americans are able to determine when content is generated using AI and when it is not.\n\nPart 2: The provided sources emphasize the need for clear identification of AI-generated content to ensure trust and transparency. The policy foundation is to address AI's risks by distinguishing human-generated from machine-generated material. Therefore, without proper labeling and provenance, an AI-generated draft lacks the authenticity of a personal officer's statement. The focus is on ensuring systems are used as intended and are resilient against misuse.",
+  "ground_truth": "No—only the final official report is considered the officer’s statement.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:24:04.089833",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the distinction between an AI-generated draft and an officer's statement, aligning with the ground truth that only the final official report is considered the officer's statement. The emphasis on labeling and provenance supports the need for authenticity in official communications.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 17,
+  "query": "What must agencies do regarding generative AI policy, and by when?",
+  "response": "Part 1: Agencies must develop and issue a framework for prioritizing critical and emerging technologies offerings in the Federal Risk and Authorization Management Program authorization process, starting with generative AI offerings, within 90 days of the date of the order.\n\nPart 2: The framework should focus on generative AI offerings that provide large language model-based chat interfaces, code-generation and debugging tools, and associated application programming interfaces, as well as prompt-based image generators. This framework will apply for at least two years from its issuance date. Agencies are also encouraged to prioritize generative AI and other critical technologies in their authorization processes. Additionally, agencies should limit access to specific generative AI services based on risk assessments, establish guidelines for appropriate use, and implement safeguards to protect federal information.",
+  "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:01.551434",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that agencies must develop a framework within 90 days, while the ground truth specifies a 270-day timeline for establishing acceptable use and safeguards. This discrepancy indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

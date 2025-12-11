@@ -1,0 +1,11 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:27:04.463035",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

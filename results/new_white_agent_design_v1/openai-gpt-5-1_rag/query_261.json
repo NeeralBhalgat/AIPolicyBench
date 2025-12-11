@@ -1,0 +1,12 @@
+{
+  "query_id": 261,
+  "query": "When will the California AI Transparency Act become operative under AB 853?",
+  "response": "Under AB 853, the operation of the California AI Transparency Act is delayed until **August 2, 2026**.",
+  "ground_truth": "August 2, 2026.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:31:38.372339",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that the California AI Transparency Act under AB 853 will become operative on August 2, 2026, which matches the ground truth answer.",
+  "provider": "deepseek"
+}

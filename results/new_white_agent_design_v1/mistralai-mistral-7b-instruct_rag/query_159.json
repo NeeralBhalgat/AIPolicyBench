@@ -1,0 +1,12 @@
+{
+  "query_id": 159,
+  "query": "When did NASA issue its first generative AI guidance?",
+  "response": "NASA provided written guidance to employees on generative artificial intelligence technologies in May 2023.",
+  "ground_truth": "May 2023.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:13:41.248385",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that NASA issued its first generative AI guidance in May 2023, which aligns with the ground truth information.",
+  "provider": "deepseek"
+}

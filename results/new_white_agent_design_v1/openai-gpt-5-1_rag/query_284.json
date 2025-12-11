@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "SB 361 requires data brokers to **process denied deletion requests within 45 days**.",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:33:33.366117",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that denied deletion requests must be processed within 45 days, while the ground truth specifies that these requests must be processed as an opt-out of sale or sharing within that timeframe. The distinction is significant, making the White Agent's claim factually incorrect.",
+  "provider": "deepseek"
+}

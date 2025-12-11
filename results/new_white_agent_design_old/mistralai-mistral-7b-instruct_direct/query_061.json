@@ -1,0 +1,12 @@
+{
+  "query_id": 61,
+  "query": "Who are the designated Chief Artificial Intelligence Officer (CAIO) and Responsible AI Official (RAIO) for the Department of Energy?",
+  "response": "As of my last update, the Department of Energy (DOE) does not have a designated Chief Artificial Intelligence Officer (CAIO) or Responsible AI Official (RAIO) at the federal level. However, the DOE has been actively involved in AI research and development, and it's possible that individual offices or projects within the department may have AI leads or officials. For the most accurate and up-to-date information, I would recommend checking the DOE's official website or contacting the department directly.",
+  "ground_truth": "Helena Fu serves as Acting CAIO and Bridget Carper serves as RAIO.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:30.392279",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the DOE does not have a designated CAIO or RAIO, while the ground truth indicates that Helena Fu and Bridget Carper hold these positions, respectively.",
+  "provider": "deepseek"
+}

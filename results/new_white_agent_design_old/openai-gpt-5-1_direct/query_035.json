@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "In AI policy and regulation, a “workforce plan” usually means: **How do we prepare, protect, and transition workers as AI changes tasks, jobs, and whole industries—and how do we build enough AI talent for safety and governance?**  \n\nBelow is what a credible workforce plan for the AI era typically includes, based on current evidence and policy practice.\n\n---\n\n## 1. Clear goals\n\nA serious workforce plan around AI should be explicit about at least four goals:\n\n1. **Mitigate harm from displacement** (job loss, wage pressure, regional decline).  \n2. **Enable upward mobility** (help workers move into better, higher‑productivity roles).  \n3. **Build specialized talent** for AI safety, evaluation, policy, and governance.  \n4. **Protect labor standards and worker rights** in AI-mediated workplaces.\n\nWithout explicitly stating these goals, programs tend to fragment and underperform.\n\n---\n\n## 2. Skills, education, and reskilling\n\n**a. General workforce**\n\n- **Foundational digital & AI literacy** in K‑12 and adult education (basic understanding of AI tools, limitations, privacy, bias).  \n- **Targeted upskilling** for occupations at risk (e.g., routine office work, customer support, some legal and accounting tasks), focusing on:\n  - Data literacy and basic coding/scripting where relevant  \n  - Use of AI tools as “copilots” rather than replacements  \n  - Human skills that AI is weak at: complex judgment, negotiation, supervision, hands‑on work, social care.\n- **Publicly funded training pathways**:\n  - Community college and vocational programs aligned with regional industry needs  \n  - Short, modular credentials (3–6 months) that stack into degrees  \n  - Training",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:42:40.448394",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately outlines the key components of a workforce plan in the context of AI policy and safety, aligning well with the ground truth answer. It emphasizes the importance of preparing and transitioning workers, building AI talent, and protecting labor standards, which are all relevant to the current discourse on AI workforce strategies.",
+  "provider": "deepseek"
+}

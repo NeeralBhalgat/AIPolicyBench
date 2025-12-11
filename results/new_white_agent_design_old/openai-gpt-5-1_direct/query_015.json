@@ -1,0 +1,11 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:40:05.760621",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

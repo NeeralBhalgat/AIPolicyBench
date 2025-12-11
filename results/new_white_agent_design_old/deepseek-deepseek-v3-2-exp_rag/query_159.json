@@ -1,0 +1,12 @@
+{
+  "query_id": 159,
+  "query": "When did NASA issue its first generative AI guidance?",
+  "response": "Part 1: According to the GAO report, NASA had not yet issued agency-wide generative AI guidance as of the report's publication.\n\nPart 2: The report states that federal agencies are beginning to take steps to address generative AI challenges by leveraging available AI frameworks and guidance to inform their own policies. However, it specifically notes that during this time, executive branch AI guidance was significantly revised in early 2025, and agencies are incorporating these revisions into their management of generative AI. The context provided does not mention a specific issuance date for NASA's guidance, indicating it was either not yet issued or not covered in the available excerpts.",
+  "ground_truth": "May 2023.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:54:18.668395",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly implies that NASA had not issued generative AI guidance as of the report's publication, while the ground truth states that it was issued in May 2023. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

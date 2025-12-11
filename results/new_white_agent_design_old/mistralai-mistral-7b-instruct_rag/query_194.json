@@ -1,0 +1,12 @@
+{
+  "query_id": 194,
+  "query": "What are the four categories of GSA AI use cases?",
+  "response": "<s> Part 1: The four categories of GSA AI use cases are acquisition, operations, customer experience, and mission delivery.\n\nPart 2: The context highlights that federal agencies, including the General Services Administration (GSA), are guided by executive orders and laws to use AI in various ways. The AI in Government Act of 2020 and the Advancing American AI Act outline requirements for AI use, which likely include these four categories. Additionally, the Office of Management and Budget emphasizes efficient AI acquisition, suggesting that acquisition is a key category. The other categories—operations, customer experience, and mission delivery—are common areas where AI is applied in government operations.",
+  "ground_truth": "Familiarization, Pre-acquisition, Research & Development, Production / Production-intent.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:53.496870",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the four categories of GSA AI use cases, which are actually familiarization, pre-acquisition, research & development, and production/production-intent, rather than acquisition, operations, customer experience, and mission delivery.",
+  "provider": "deepseek"
+}

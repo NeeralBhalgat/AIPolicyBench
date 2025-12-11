@@ -1,0 +1,20 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: https://rock-atomic-wendy-stunning.trycloudflare.com/to_agent/ca3338e95f7643a9b99cc635ed55c4f5
+White Agent Model: deepseek-deepseek-v3-2-exp_rag
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251210_032033
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 300
+Correct: 61 (20.33%)
+Miss: 18 (6.00%)
+Hallucination: 218 (72.67%)
+Factuality Rate: -46.33%
+
+================================================================================

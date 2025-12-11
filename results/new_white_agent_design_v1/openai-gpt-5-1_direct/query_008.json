@@ -1,0 +1,12 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "They are enforced through existing export-control mechanisms: licensing requirements, due-diligence and compliance obligations on manufacturers and cloud providers, customs and end-use checks, audits, and significant civil/criminal penalties administered by agencies like the U.S. Bureau of Industry and Security and its foreign counterparts.",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:35:36.007170",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses existing export-control mechanisms but does not mention the specific enforcement methods of location verification and enhanced monitoring as stated in the ground truth answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

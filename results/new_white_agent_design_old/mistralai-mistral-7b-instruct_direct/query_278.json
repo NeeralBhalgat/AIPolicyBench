@@ -1,0 +1,12 @@
+{
+  "query_id": 278,
+  "query": "How soon must a critical safety incident be reported to the Office of Emergency Services?",
+  "response": "In the context of AI safety and regulation, the requirement to report critical safety incidents to the Office of Emergency Services (OES) can vary depending on the jurisdiction and the specific regulations in place. However, in the United States, for example, under the National Incident Management System (NIMS) and the Incident Command System (ICS), critical incidents that pose an immediate threat to life, property, or the environment typically require immediate notification to the appropriate authorities, including the OES or other emergency management agencies.\n\nFor AI-specific incidents, the reporting timelines and procedures may be outlined in emerging AI safety regulations or guidelines. For instance, the U.S. National Institute of Standards and Technology (NIST) and other agencies may issue guidelines for reporting AI-related incidents, but as of my knowledge cutoff in October 2023, there is no universally standardized timeline for reporting AI critical safety incidents to the OES.\n\nIf you are referring to a specific state or local regulation, it is essential to consult the relevant legal framework or guidelines provided by the OES or other regulatory bodies in that jurisdiction. For the most accurate and up-to-date information, I recommend checking the official websites or contacting the OES directly.",
+  "ground_truth": "Within 15 days of discovery, or 24 hours if imminent risk of death or serious injury.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:35.150486",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide the specific reporting timeline of 15 days or 24 hours for imminent risks, which is the ground truth. Instead, it discusses general reporting requirements and expresses uncertainty about specific regulations, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

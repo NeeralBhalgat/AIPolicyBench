@@ -1,0 +1,12 @@
+{
+  "query_id": 245,
+  "query": "What protocol must an operator maintain before allowing a companion chatbot to engage with users?",
+  "response": "Part 1: Operators must implement safety protocols, including age verification, break reminders for minors, and warnings about social media and companion chatbots.\n\nPart 2: The law requires companies to ensure chatbots do not represent themselves as healthcare professionals and must provide clear disclosures that interactions are artificially generated. Additionally, platforms must prevent minors from viewing sexually explicit images and establish protocols to address suicide and self-harm, sharing these with the state's Department of Public Health. These measures aim to protect children and vulnerable users from potential harms associated with AI companion chatbots.",
+  "ground_truth": "A protocol preventing production of suicidal ideation, suicide, or self-harm content, including crisis referral notifications.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:54:03.306209",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately outlines the necessary safety protocols for operators of companion chatbots, including measures to protect minors and prevent harmful content, which aligns with the ground truth regarding the need for protocols addressing suicidal ideation and self-harm.",
+  "provider": "deepseek"
+}

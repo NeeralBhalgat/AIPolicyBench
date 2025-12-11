@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "The Order instructs the Director of the Office of Management and Budget to issue guidance for agencies to implement the Unbiased AI Principles in AI procurement, including holding vendors accountable for costs if contracts are terminated due to noncompliance. [sources 1, 5]",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:03:32.077116",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses guidance for implementing Unbiased AI Principles and accountability for vendors, but it does not align with the ground truth answer, which specifically states to contract only with frontier LLM developers whose systems are objective and free from ideological bias. The response does not accurately reflect the specific directive mentioned in the ground truth.",
+  "provider": "deepseek"
+}

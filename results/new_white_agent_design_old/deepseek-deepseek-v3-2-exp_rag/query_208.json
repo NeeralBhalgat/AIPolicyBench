@@ -1,0 +1,12 @@
+{
+  "query_id": 208,
+  "query": "Under §11016(b)(1), what must pre-employment inquiries avoid identifying?",
+  "response": "Part 1: Under §11016(b)(1), pre-employment inquiries must avoid directly or indirectly identifying an individual on a basis enumerated in the Act.\n\nPart 2: The regulation states that inquiries which directly or indirectly identify an individual on a protected basis are unlawful unless a permissible defense applies. This means questions must not reveal information about characteristics such as race, religion, or medical condition. The rule is designed to prevent discrimination from occurring at the very start of the employment process.",
+  "ground_truth": "Any basis enumerated in the Act unless justified by a permissible defense.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:07:01.390131",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement under §11016(b)(1) to avoid identifying individuals based on protected characteristics, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

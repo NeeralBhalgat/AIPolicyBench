@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan explicitly aims to \"Encourage Open Source and Open Weight-AI,\" recommending stakeholder convenings to drive their adoption and advocating for open-weight models.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:32:35.286442",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the plan's stance on open-source and open-weight models, emphasizing encouragement and support for their adoption, which aligns with the ground truth.",
+  "provider": "deepseek"
+}

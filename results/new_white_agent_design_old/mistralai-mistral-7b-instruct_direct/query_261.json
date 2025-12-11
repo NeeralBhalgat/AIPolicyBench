@@ -1,0 +1,12 @@
+{
+  "query_id": 261,
+  "query": "When will the California AI Transparency Act become operative under AB 853?",
+  "response": "The California AI Transparency Act, as part of AB 853, will become operative on January 1, 2026. This is specified in the bill's text, which states that the act \"shall become operative on January 1, 2026.\" The bill was signed into law by Governor Gavin Newsom on October 7, 2023, and includes provisions requiring transparency in the use of artificial intelligence in certain contexts, such as employment, housing, and public services.",
+  "ground_truth": "August 2, 2026.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:17:10.077168",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the California AI Transparency Act will become operative on January 1, 2026, while the ground truth indicates it will actually become operative on August 2, 2026.",
+  "provider": "deepseek"
+}

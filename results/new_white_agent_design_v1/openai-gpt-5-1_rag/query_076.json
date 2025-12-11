@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "According to the Plan, AI offers opportunities to usher in “a new era” and “new golden age of human flourishing, economic competitiveness, and national security,” and to “create economic growth, new jobs, and scientific advancements” through “productivity enhancing AI uses.”",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:13:51.203006",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the specific opportunities for AI to improve people's lives as outlined in the ground truth answer. While it mentions general benefits of AI, it fails to include the specific areas of accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,11 @@
+{
+  "query_id": 205,
+  "query": "What is excluded from the definition of Automated-Decision Systems under §11008.1(a)(2)?",
+  "response": "",
+  "ground_truth": "Software like word processing, spreadsheets, navigation, or similar tools that do not make employment decisions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:01:07.368299",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

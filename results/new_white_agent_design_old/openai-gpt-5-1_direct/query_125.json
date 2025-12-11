@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "Before an AI use case can move into **operational use**, the generally accepted (and in some contexts legally required) prerequisite is:\n\n> **A completed and approved risk/impact assessment and validation of the system, within a documented AI governance process.**\n\nConcretely, this normally includes:\n\n1. **AI risk/impact assessment**\n   - Assess impacts on safety, fundamental rights, discrimination, privacy, security, and compliance with sectoral laws.\n   - For example:\n     - **EU AI Act**: requires",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:53:23.532370",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on risk/impact assessments and governance processes, which are important but does not mention the required Model Card and Datasheet artifacts, which are specifically noted as prerequisites in the ground truth answer.",
+  "provider": "deepseek"
+}

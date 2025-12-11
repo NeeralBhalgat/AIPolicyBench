@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "Procurement will require agency heads to procure only large language models that adhere to the “Unbiased AI Principles” of truth-seeking and ideological neutrality, and Federal contracts for LLMs must include terms ensuring compliance with these principles and holding vendors accountable if contracts are terminated due to noncompliance.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:07:03.685771",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response aligns with the ground truth by emphasizing the need for procurement to focus on large language models that adhere to principles of ideological neutrality and accountability, which reflects the intent of addressing ideological bias in AI.",
+  "provider": "deepseek"
+}

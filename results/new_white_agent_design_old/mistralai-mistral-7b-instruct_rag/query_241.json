@@ -1,0 +1,12 @@
+{
+  "query_id": 241,
+  "query": "How does SB 243 define “artificial intelligence” in Section 22601(a)?",
+  "response": "Part 1: SB 243 does not explicitly define \"artificial intelligence\" in Section 22601(a) within the provided context.\n\nPart 2: The context focuses on the bill's requirements for chatbot operators, such as safeguards against addictive engagement, notifications about AI-generated content, and protocols for addressing suicidal ideation. However, the text does not include a formal definition of \"artificial intelligence\" in Section 22601(a). The discussion centers on the dangers and regulations of companion chatbots, particularly for minors, without detailing how \"artificial intelligence\" is specifically defined in the legislation. The emphasis is on protecting users from the risks associated with AI chatbots rather than defining the technology itself.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:53:31.776780",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that SB 243 does not define 'artificial intelligence' in Section 22601(a), while the ground truth provides a specific definition. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

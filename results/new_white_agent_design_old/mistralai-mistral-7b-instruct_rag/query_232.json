@@ -1,0 +1,12 @@
+{
+  "query_id": 232,
+  "query": "Which definitions of “AI” and “GenAI” does AB 489 incorporate?",
+  "response": "Part 1: AB 489 incorporates the definitions of “AI” and “GenAI” from the California Consumer Privacy Act (CCPA) and the California Privacy Rights Act (CPRA).\n\nPart 2: The bill explicitly references the CCPA and CPRA, which are the legal frameworks that define \"AI\" and \"GenAI\" in California. These definitions are likely to be used as the standard for the purposes of AB 489, ensuring consistency with existing privacy laws. The inclusion of these definitions helps clarify the scope of the bill's application to AI and generative AI technologies.",
+  "ground_truth": "Definitions from Government Code Sections 11546.45.5 (AI) and 11549.64 (GenAI).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:51:37.272594",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly states that AB 489 incorporates definitions from the CCPA and CPRA, while the correct definitions are from specific Government Code sections. This indicates a misunderstanding of the sources of the definitions.",
+  "provider": "deepseek"
+}

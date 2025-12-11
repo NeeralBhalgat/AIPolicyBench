@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "Part 1: OMB Memorandum M-25-21 replaces and supersedes Memorandum M-24-10.\n\nPart 2: The memorandum explicitly states that it is replacing the prior guidance. This action is part of the ongoing implementation of the Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence. By superseding M-24-10, M-25-21 provides updated and more comprehensive policy for federal agencies to accelerate the adoption of AI while ensuring responsible governance and maintaining public trust.",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:22:46.470902",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that OMB Memorandum M-25-21 replaces M-24-10, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

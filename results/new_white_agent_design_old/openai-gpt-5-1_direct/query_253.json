@@ -1,0 +1,11 @@
+{
+  "query_id": 253,
+  "query": "What additional requirement applies if the advertisement is posted on a website controlled by the broker?",
+  "response": "",
+  "ground_truth": "The unaltered version of the images must also be included in the posting or via a link.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:06:17.755480",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

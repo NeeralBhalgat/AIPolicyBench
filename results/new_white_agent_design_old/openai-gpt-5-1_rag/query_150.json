@@ -1,0 +1,12 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "Part 1: NASA will handle expired Responsible AI use cases by ensuring “these Use Cases will be updated annually as required by the Executive Order,” so that older entries are effectively superseded by the updated set.  \n\nPart 2: The Responsible AI use cases are collected from NASA’s practicing AI research community and made public in compliance with the executive order on trustworthy AI. The only explicit lifecycle management step described is that the use cases are updated every year. This implies that outdated or “expired” use cases are managed through this annual refresh, during which current information replaces older entries. The provided material does not specify any additional procedures for archiving or formally retiring expired use cases beyond this regular updating process.",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:00:13.700739",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that expired use cases are managed through annual updates, while the ground truth indicates that they will be archived. This misrepresents the handling of expired use cases.",
+  "provider": "deepseek"
+}

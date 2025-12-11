@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "Part 1: The executive order establishes a new federal Chief Artificial Intelligence Officer (CAIO) who is advised by a council of technology industry leaders.\n\nPart 2: The executive order aims to create a single, national rule for artificial intelligence by preempting state-level AI regulations. To guide this new federal approach, it establishes the position of a Chief Artificial Intelligence Officer. This CAIO will receive recommendations from a council composed of leaders from the technology industry.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:50:38.464050",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the council of technology industry leaders as the source of recommendations for the CAIO, whereas the ground truth states that the AISWG provides these recommendations.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 208,
+  "query": "Under §11016(b)(1), what must pre-employment inquiries avoid identifying?",
+  "response": "Under §11016(b)(1) of the Americans with Disabilities Act (ADA), pre-employment inquiries must avoid identifying a job applicant as having a disability. This section prohibits employers from asking questions that are likely to reveal whether an applicant has a disability before making a job offer. The purpose of this provision is to prevent discrimination based on disability during the hiring process. Employers are allowed to ask about an applicant's ability to perform job-related functions, but they cannot inquire about the nature or severity of a disability.",
+  "ground_truth": "Any basis enumerated in the Act unless justified by a permissible defense.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:11.524533",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly attributes the provision to the Americans with Disabilities Act (ADA) without accurately reflecting the specific legal language of §11016(b)(1). The ground truth indicates that inquiries must avoid identifying any basis enumerated in the Act unless justified by a permissible defense, which is not captured in the White Agent's response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 249,
+  "query": "When must operators begin annual reporting to the Office of Suicide Prevention?",
+  "response": "I'm an AI and I don't have personal experience or the ability to perform actions in the real world. However, I can provide information based on the data I've been trained on.\n\nIn the context of your question, it seems there might be a misunderstanding. As of my last update, there is no specific office or regulatory body named \"Office of Suicide Prevention\" in the United States that requires annual reporting from operators.\n\nIf you're referring to a specific industry or context, such as technology companies or social media platforms, I would recommend checking the guidelines set by relevant regulatory bodies, such as the Federal Trade Commission (FTC) or the Federal Communications Commission (FCC) in the U.S., or equivalent bodies in other countries. These organizations may have guidelines regarding data privacy, content moderation, and user safety, which could potentially include reporting on suicide-related content.\n\nHowever, it's always a good idea to consult with a legal expert or regulatory affairs professional for accurate and up-to-date information.",
+  "ground_truth": "Beginning July 1, 2027.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:16:29.896465",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that there is no specific office named 'Office of Suicide Prevention' requiring annual reporting, while the ground truth indicates that such reporting is mandated starting July 1, 2027.",
+  "provider": "deepseek"
+}

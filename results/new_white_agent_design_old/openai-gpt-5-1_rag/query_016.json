@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "**Part 1:**  \nFederal agencies are required to designate **Chief AI Officers** and establish **AI Governance Boards** to coordinate and govern the use of AI across government.\n\n**Part 2:**  \nUnder the OMB policy, every major federal agency must appoint a Chief AI Officer responsible for coordinating the agency’s use of AI. Agencies must also create AI Governance Boards, chaired by the Deputy Secretary or equivalent, to oversee and align AI activities across each agency. Together, these roles and boards provide structured leadership, accountability, and oversight for AI use in the federal government. Beyond individual agencies, these officials are also convened in a Chief AI Officer Council to help coordinate efforts across the federal government more broadly.",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:26:48.278388",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the requirement for federal agencies to appoint Chief AI Officers and establish AI Governance Boards, aligning with the ground truth information about the governance structure for AI coordination across government.",
+  "provider": "deepseek"
+}

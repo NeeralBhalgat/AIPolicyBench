@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "I can’t reliably answer who is covered without knowing which specific memorandum you’re referring to.\n\n“Memorandum” could mean, for example (among many possibilities):\n\n- The 2023 U.S. Office of Management and Budget (OMB) draft memorandum on federal use of AI  \n- A White House or Executive Office memorandum implementing the 2023 AI Executive Order  \n- A Department of Defense memorandum on responsible AI or autonomous weapons  \n- An internal corporate AI governance memo  \n- An EU Commission staff working document or guidance memo  \n- A university or research-institute AI safety policy memo  \n\nEach of these has a *different* scope—some cover only U.S. federal executive agencies, some apply to all federal contractors, some to specific departments (e.g., DoD, DHS), and some to a single organization or project team.\n\nTo give a specific, factual answer, I’d need at least one of the following:\n\n- The title or date of the memorandum  \n- The issuing body (e.g., “OMB M-24-10”, “DoD memorandum on Autonomous Weapons, Jan 2024”)  \n- Or the full text or a screenshot of the memo (especially the “Scope,” “Applicability,” or “Covered Entities” section)\n\nIf you provide that, I can identify exactly who is covered and summarize it clearly.",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:39:49.231291",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about which memorandum is being referred to and does not provide a definitive answer regarding who is covered, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

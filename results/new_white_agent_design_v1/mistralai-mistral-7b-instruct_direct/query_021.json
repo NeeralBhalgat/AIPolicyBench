@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "The core purpose of the order is to ensure that AI systems are developed and deployed in a manner that promotes innovation, protects public safety, and upholds democratic values.",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:43.466984",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response focuses on promoting innovation and public safety, which is somewhat related but does not accurately reflect the specific core purpose of keeping U.S. AI leadership free from ideological bias or engineered agendas as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

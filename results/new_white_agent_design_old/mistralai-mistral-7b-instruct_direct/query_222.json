@@ -1,0 +1,12 @@
+{
+  "query_id": 222,
+  "query": "What defense is prohibited under §1714.46(b) for defendants who developed, modified, or used artificial intelligence?",
+  "response": "Under §1714.46(b) of the U.S. Code of Federal Regulations, a defense that is prohibited for defendants who developed, modified, or used artificial intelligence is the assertion that the AI system acted autonomously or independently of human control. This means that defendants cannot argue that the AI system's actions were entirely beyond their control or that they were not responsible for the outcomes of the AI's decisions or actions. The regulation emphasizes accountability for those involved in the development, modification, or use of AI systems, ensuring that human oversight and responsibility are maintained.",
+  "ground_truth": "They may not assert that the artificial intelligence autonomously caused the harm.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:51.148773",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibition under §1714.46(b) regarding the defense that the AI acted autonomously, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

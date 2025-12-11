@@ -1,0 +1,12 @@
+{
+  "query_id": 227,
+  "query": "What type of harm is addressed in §1714.46(b) regarding artificial intelligence?",
+  "response": "Section 1714.46(b) addresses situations where artificial intelligence is alleged to have caused “a harm to the plaintiff,” and it does not specify any particular type or category of harm beyond that phrase.",
+  "ground_truth": "Harm allegedly caused to a plaintiff by AI developed, modified, or used by a defendant.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:27:34.078865",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects that §1714.46(b) addresses harm caused to a plaintiff by AI, aligning with the ground truth answer. However, it lacks specificity regarding the context of the defendant's role in the harm, which is a minor detail.",
+  "provider": "deepseek"
+}

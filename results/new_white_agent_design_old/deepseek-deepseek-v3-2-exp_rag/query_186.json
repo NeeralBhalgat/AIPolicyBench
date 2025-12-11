@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "Part 1: This directive cancels Executive Order 14026 of April 27, 2021, which was titled \"Increasing the Minimum Wage for Federal Contractors.\"\n\nPart 2: The directive is part of a series of actions aimed at rescinding executive orders and memoranda issued by the prior Biden administration. It explicitly lists Executive Order 14026 as one of the specific executive actions being revoked. This particular order had established a policy to raise the minimum wage for employees working on federal contracts. The revocation is framed as necessary to advance the new administration's policy to restore common sense to the Federal Government.",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:02:14.055582",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies Executive Order 14026 as the directive being canceled, while the ground truth specifies that the directive in question is the Security Policy for Generative AI LLMs CIO IL-23-01. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

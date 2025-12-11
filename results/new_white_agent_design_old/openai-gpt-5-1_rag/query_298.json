@@ -1,0 +1,12 @@
+{
+  "query_id": 298,
+  "query": "How does SB 524 define “first draft”?",
+  "response": "Part 1:  \nSB 524 does not define the term “first draft” anywhere in the text provided.\n\nPart 2:  \nIn the accessible portions of SB 524 that are shown, including the California transportation bill text and the partially visible Florida bill text, there is no section that uses or defines the phrase “first draft.” The California bill focuses on transportation funds and related fiscal provisions, and the snippets of the Florida bill text are largely unreadable encoding rather than substantive definitions. Because the relevant definition does not appear in the provided material, it cannot be identified or quoted from these sources. To find an official definition of “first draft” (if any), you would need to review the complete, human-readable version of the enacted bill or its definitions section.",
+  "ground_truth": "The initial document produced solely by artificial intelligence.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:38:00.701241",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that SB 524 does not define 'first draft' anywhere in the text provided, while the ground truth indicates that it refers to the initial document produced solely by artificial intelligence. This indicates a misunderstanding of the term's definition as per the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 249,
+  "query": "When must operators begin annual reporting to the Office of Suicide Prevention?",
+  "response": "Based on my knowledge of AI policy and regulation, I do not have specific information regarding the reporting requirements for the Office of Suicide Prevention. This question pertains to public health policy and administrative law, which is outside my primary domain of expertise.\n\nTo find a factual and specific answer, I would recommend you consult the following resources:\n\n*   The official website of the **Office of Suicide Prevention** (likely within a state's Department of Public Health, such as Colorado's).\n*   The specific legislation or regulation that established the reporting mandate. This is often a state bill or statute.\n*   Direct guidance or official communications from the relevant state's Department of Public Health or equivalent governing body.\n\nI am not certain of the answer to your question and cannot provide a reliable date without accessing these official sources.",
+  "ground_truth": "Beginning July 1, 2027.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:13:37.472901",
+  "confidence": 0.9,
+  "reasoning": "The White Agent expresses uncertainty about the reporting requirements for the Office of Suicide Prevention and does not provide a specific answer, indicating a lack of knowledge on the topic.",
+  "provider": "deepseek"
+}

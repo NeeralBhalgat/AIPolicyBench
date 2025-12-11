@@ -1,0 +1,12 @@
+{
+  "query_id": 254,
+  "query": "How must the disclosure statement change if the broker satisfies the requirement by linking to unaltered images?",
+  "response": "**Part 1:**  \nIf the broker satisfies the Recordkeeping and Disclosure Requirements by linking to unaltered images, the disclosure statement itself does not change; it must appear in the linked images in the same form and with the same content that the rule otherwise requires.  \n\n**Part 2:**  \nThe rules focus on preserving the required disclosure content, not on a particular technological format, as long as records are kept in a compliant electronic recordkeeping system. Linking to unaltered images is simply an alternative way of presenting the same disclosure text. Accordingly, the disclosure language cannot be shortened, rephrased, or edited; it must be reproduced in full and remain legible and unmodified in the images. The broker must also ensure that these linked images are retained and accessible in accordance with applicable broker‑dealer recordkeeping and program requirements.",
+  "ground_truth": "It must state that the unaltered images can be accessed on the linked site.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:27:28.656142",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the disclosure statement does not change when it actually must include a statement indicating that the unaltered images can be accessed on the linked site, which is the ground truth answer.",
+  "provider": "deepseek"
+}

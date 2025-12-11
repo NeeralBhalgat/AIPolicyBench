@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "Part 1: CFO Act agencies must publish an AI Strategy by September 30, 2026, as outlined in the Federal Data Center Enhancement Act (FDCEA).\n\nPart 2: The Federal Data Center Enhancement Act (FDCEA) of 2023, along with OMB Memorandum M-25-03, sets baseline requirements for federal agencies' management of data centers, including the development of AI strategies. These provisions, including the deadline for AI Strategy publication, are set to sunset on September 30, 2026. The FDCEA replaced prior data center oversight approaches, ensuring that agencies align with updated policies and timelines. This deadline is critical for ensuring that federal agencies meet the requirements for AI governance and infrastructure management.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:21:36.972096",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that CFO Act agencies must publish an AI Strategy by September 30, 2026, while the ground truth indicates that the deadline is within 180 days of issuance, which is significantly earlier than the date provided.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "AI could help the NRC mainly by making existing regulatory and internal processes faster, more consistent, and more risk‑informed—while still leaving humans firmly in charge of safety decisions. Below are specific areas and examples.\n\n---\n\n### 1. Licensing and Technical Review\n\n**a. Document triage and summarization**\n- Automatically summarize thousands of pages in license applications, design certification documents, and safety analysis reports.\n- Flag sections likely to be safety‑significant (e.g., changes in design basis, assumptions in PRA, digital I&C features).\n- Highlight inconsistencies between applicant submittals, RAIs, and responses over time.\n\n**b. Regulatory cross‑referencing**\n- Map application content to specific regulations, guidance, and past precedents (e.g., SRPs, RGs, ISGs, past SERs).\n- Suggest where an application may be incomplete or not clearly bounded by existing guidance.\n- Provide reviewers with quick access to past similar cases and how they were resolved.\n\n**c. Quality checks on technical analyses**\n- Assist in checking calculations or models for internal consistency (e.g., parameter values reused across chapters, unit consistency, missing sensitivity analyses).\n- Use AI-assisted code review for internally developed analysis tools (with appropriate software assurance).\n\n---\n\n### 2. Inspection, Oversight, and Enforcement\n\n**a. Risk‑informed inspection planning**\n- Analyze historical inspection findings, operating experience, and plant performance indicators to prioritize inspection focus areas.\n- Suggest plants/systems/components most likely to yield significant findings, complementing the ROP and existing risk tools.\n\n**b. Pattern detection in inspection data**\n- Identify recurring weaknesses (e.g., maintenance practices, cyber/digital protections, configuration control) across facilities or vendors.\n- Detect early signals",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:44.947673",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies specific internal improvements that AI could support in NRC processes, aligning with the ground truth of better data management, efficiency, and modernized decision-making.",
+  "provider": "deepseek"
+}

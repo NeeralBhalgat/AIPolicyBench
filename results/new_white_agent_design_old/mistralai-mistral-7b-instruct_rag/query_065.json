@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "Part 1: DOE faces barriers in adopting AI technologies, including the need to enhance the reliability, robustness, and rigor of AI algorithms and methods to support their use in scientific research.\n\nPart 2: The Department of Energy (DOE) recognizes that maximizing the impact of AI requires improving the reliability, robustness, and rigor of AI algorithms, particularly when dealing with high-quality data from experimental facilities. Additionally, DOE aims to build an integrated AI platform to combine computing, datasets, and quantum computing to accelerate scientific and national-security solutions, which may involve overcoming technical and infrastructure challenges. Streamlining permitting, strengthening energy infrastructure, and training a skilled workforce are also critical to supporting AI adoption, as outlined in broader AI initiatives.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:29:29.837090",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses barriers related to reliability, robustness, and infrastructure challenges, but it does not mention the specific barriers of cybersecurity limitations, data quality issues, and access to advanced computing resources as outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

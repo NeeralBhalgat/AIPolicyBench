@@ -1,0 +1,12 @@
+{
+  "query_id": 299,
+  "query": "What AI systems does the definition cover in SB 524?",
+  "response": "Part 1: The bill requires disclosure when artificial intelligence is used in the creation of police reports.\n\nPart 2: SB 524 is introduced as a measure to improve police accountability. The bill's specific focus is on the use of AI during the report-writing process. It does not provide a broader definition of AI systems, but rather targets the specific application of the technology by law enforcement for generating official documentation.",
+  "ground_truth": "Systems that auto-draft police narratives from camera footage or from dictated officer reports enhanced by generative AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:24:49.553622",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies that SB 524 focuses on the use of AI in police report creation, but it fails to mention the specific types of AI systems covered, such as those that auto-draft narratives from footage or dictated reports, which is a critical aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

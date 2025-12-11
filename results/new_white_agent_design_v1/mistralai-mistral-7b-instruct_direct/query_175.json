@@ -1,0 +1,12 @@
+{
+  "query_id": 175,
+  "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+  "response": "One expected challenge in regulating high-autonomy AI systems is ensuring that regulations keep pace with rapid technological advancements, as outdated rules may fail to address emerging risks and ethical concerns.",
+  "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:36.761888",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies a significant challenge in regulating high-autonomy AI systems, which is the need for regulations to adapt to rapid technological changes. This aligns with the ground truth that emphasizes the necessity for greater regulatory scrutiny due to reduced human oversight in higher autonomy levels.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "As of my latest knowledge (through late 2024), the IRS does **not** have a unique, standalone statutory or regulatory definition of an “AI use case” that differs from the rest of the U.S. federal government.\n\nWhen the IRS reports its AI activities (for example, in the Federal AI Use Case Inventory published via AI.gov), it follows the **Office of Management and Budget (OMB)**–wide guidance that applies to all federal agencies.\n\nUnder OMB’s AI governance memoranda (most recently M‑24‑10 and its predecessors implementing EO 13960), an **“AI use case”** is essentially defined—paraphrasing the OMB language—as:\n\n> A *specific, discrete application* of an AI system that is used by an agency to accomplish a particular objective, task, or business function in support of the agency’s mission.\n\nKey points implied by that federal definition:\n\n- It is **application-specific**: it refers to a particular *use* of AI, not AI technology in general",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:54:11.146498",
+  "confidence": 0.9,
+  "reasoning": "The White Agent accurately describes the IRS's lack of a unique definition for an AI use case and correctly references the OMB's definition, which aligns with the ground truth answer regarding the application-specific nature of AI use cases.",
+  "provider": "deepseek"
+}

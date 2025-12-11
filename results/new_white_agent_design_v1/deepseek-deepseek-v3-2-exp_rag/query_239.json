@@ -1,0 +1,12 @@
+{
+  "query_id": 239,
+  "query": "What must an AI or GenAI system avoid implying in its advertising or functionality?",
+  "response": "An AI or GenAI system must avoid implying that it can be used to \"trick, mislead, or defraud people\" or that it enables \"deceptive or unfair conduct.\"",
+  "ground_truth": "That its outputs come from a licensed natural health care professional.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:52:30.931728",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response does not align with the ground truth answer, which specifically states that AI systems must avoid implying that their outputs come from a licensed natural health care professional. Instead, the White Agent's response focuses on avoiding deceptive practices, which is not the same as the ground truth.",
+  "provider": "deepseek"
+}

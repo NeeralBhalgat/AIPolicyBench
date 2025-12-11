@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "Part 1: For AI systems that are safety- or rights-impacting, agencies must adopt required safeguards, including minimum risk-management practices such as conducting independent evaluations, mitigating emerging risks to rights and safety, and completing an AI impact assessment.\n\nPart 2: These requirements are mandated by the OMB policy M-24-10, which sets a compliance deadline. If an agency cannot meet this deadline for a specific use case, it must request an extension by justifying the delay, detailing its plan for achieving compliance, and explaining the potential service interruptions if the AI system were to be taken offline. As of December 2024, 206 such rights- or safety-impacting use cases had received a one-year extension to implement these necessary risk management practices.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:39:13.644976",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response discusses safeguards and compliance requirements for safety- or rights-impacting AI systems, it does not mention the necessity of human oversight and rigorous testing for bias, effectiveness, and reliability, which are critical components of the ground truth answer. Additionally, the reference to OMB policy M-24-10 and the specific number of extensions appears to be fabricated or unverifiable, indicating a lack of factual accuracy.",
+  "provider": "deepseek"
+}

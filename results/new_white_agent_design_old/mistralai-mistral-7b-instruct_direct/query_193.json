@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Public-facing AI systems should include several key components to ensure safety, transparency, and accountability. These include:\n\n1. **Clear Disclosure**: Users should be informed that they are interacting with an AI system, not a human. This helps manage expectations and avoid deception.\n\n2. **Transparency**: The system should provide information about its capabilities, limitations, and potential biases. This can include documentation, FAQs, or in-interface explanations.\n\n3. **User Control**: Users should have the ability to opt out of AI interactions or adjust settings to limit AI involvement (e.g., disabling AI-generated content).\n\n4. **Safety Measures**: Systems should include safeguards to prevent harmful outputs, such as content filters, moderation, and alignment with ethical guidelines.\n\n5. **Feedback Mechanisms**: Users should be able to report issues, provide feedback, or request human intervention when needed.\n\n6. **Compliance with Regulations**: The system should adhere to relevant laws and regulations, such as the EU AI Act, GDPR, or other regional requirements.\n\n7. **Auditability**: The system should be designed in a way that allows for third-party audits or evaluations to assess its safety and fairness.\n\n8. **Human Oversight**: For high-stakes applications, there should be mechanisms for human review or intervention, especially when the AI's decisions significantly impact users.\n\nThese elements help build trust and ensure that AI systems are used responsibly in public-facing contexts.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:40.415835",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response includes relevant components for public-facing AI systems, it does not align with the ground truth answer, which emphasizes plain-language notices and human alternatives. The response is overly detailed and introduces elements not specified in the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 107,
+  "query": "What is OPSLAB used for?",
+  "response": "Part 1:  \nOPSLAB is used to identify and process hospital outpatient “lab‑only” claims so that the clinical diagnostic laboratory tests on those claims are paid under the Clinical Laboratory Fee Schedule instead of under the OPPS.\n\nPart 2:  \nIn Medicare’s outpatient payment processing, CMS separates claims that contain only laboratory services (and no other payable OPPS procedures) and designates them as OPSLAB. This prevents those lab tests from being packaged into an OPPS payment and instead routes them to payment under the laboratory fee schedule, which has its own rules and rates. Using OPSLAB ensures that cost and utilization data for lab tests are handled appropriately and are not distorted by OPPS packaging logic. It also supports more accurate rate-setting and claims adjudication for both OPPS services and clinical lab services.",
+  "ground_truth": "Experimenting, developing, and assessing operational AI use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:49:01.029250",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response describes OPSLAB in the context of Medicare outpatient payment processing, which is unrelated to the ground truth answer about AI use cases. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

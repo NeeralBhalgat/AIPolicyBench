@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "Part 1: The DOT ensures AI training data are trustworthy by developing shared public datasets and environments for AI training and testing, and by minimizing risks through developing trustworthy AI and enhancing trust in human-AI interactions, reducing bias in data.\n\nPart 2: This is achieved through foundational research and application efforts supported by multiple federal agencies, which focus on ensuring the safety and security of AI-based systems. A key part of this process involves measuring and evaluating these systems through established standards and benchmarks. Furthermore, minimizing risks by protecting privacy and developing robust AI systems and frameworks is integral to incorporating trustworthy data into transportation systems.",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:44:22.709232",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses efforts to ensure trustworthy AI training data, it does not specifically mention assessing datasets for quality, accuracy, representativeness, and bias, which are key components of the ground truth answer. The response includes some relevant points but lacks direct alignment with the core criteria for trustworthy data.",
+  "provider": "deepseek"
+}

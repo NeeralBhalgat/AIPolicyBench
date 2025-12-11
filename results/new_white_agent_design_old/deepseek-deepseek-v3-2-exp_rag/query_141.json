@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "Part 1: The NASA Artificial Intelligence Strategy Board, identified by document ID NC 1000_61, defines topics for NASA’s AI governance board.\n\nPart 2: The provided sources list charters for various NASA boards and committees. Among them is the \"NASA Artificial Intelligence Strategy Board Charter,\" which is the specific internal group responsible for AI governance. This board is listed with its own unique charter document, indicating it is the primary entity for this function. The existence of this dedicated charter confirms that this board has the authority to define and govern AI-related topics.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:50:39.770595",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the 'NASA Artificial Intelligence Strategy Board' as the group responsible for defining topics for NASA’s AI governance board. The correct group is the 'AI Strategy Working Group' (AISWG), which is not mentioned in the response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "As of my last update, the CFO Act (Chief Financial Officers Act of 1990) does not explicitly require CFO Act agencies to publish an AI Strategy. The CFO Act primarily focuses on financial management and accountability within federal agencies. However, the White House Office of Science and Technology Policy (OSTP) and the National Institute of Standards and Technology (NIST) have issued guidance and recommendations for AI development and safety, but there is no specific mandate for CFO Act agencies to publish an AI Strategy.\n\nIn May 2020, the White House released the \"Executive Order on Maintaining American Leadership in Artificial Intelligence\" which encourages federal agencies to prioritize AI and to develop AI strategies. However, it does not set a specific deadline for these strategies to be published.\n\nFor the most accurate and up-to-date information, I would recommend checking the official websites of the relevant agencies or consulting with a legal expert in AI policy.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:23.117199",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that there is no specific mandate for CFO Act agencies to publish an AI Strategy, while the ground truth indicates that they must do so within 180 days of issuance. This is a factual inaccuracy.",
+  "provider": "deepseek"
+}

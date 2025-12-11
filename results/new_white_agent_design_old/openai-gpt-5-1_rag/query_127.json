@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "Part 1:  \nA change requiring updates to AI artifacts is any modification to an AI‑enabled system (for example, within a “predetermined change control plan (PCCPs) tailored to artificial intelligence (AI)-enabled devices”) that could affect its performance, safety, security, or compliance and therefore must be reflected in the associated documentation and controls.\n\nPart 2:  \nIn the regulatory and risk-management context, AI is expected to be “safe, secure, and trustworthy,” which means that any change that may alter risk—such as updates to algorithms, training data, decision logic, or intended use—triggers updates to technical documentation, testing records, and risk analyses. These artifacts must remain aligned with how the system is actually “adopted, deployed, and used,” especially in critical fields like healthcare, financial services, and education. Predetermined change control plans for AI-enabled devices are specifically intended to anticipate such modifications and define when and how documentation, validation, and oversight must be updated. This ensures continuous monitoring and accountability so that protections against discrimination, safety risks, and other harms remain effective as the system evolves.",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:53:14.866464",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the types of changes that require updates to AI artifacts, including modifications to algorithms, training data, and intended use, which align with the ground truth answer regarding changes to scope, purpose, impact, models, or data sources.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 295,
+  "query": "What audit trail must agencies maintain when using AI for reports?",
+  "response": "**Part 1:**  \nThere is currently no explicit, uniform audit‑trail requirement for agencies’ use of AI in reports, but proposed guidance asks whether they should establish and maintain “comprehensive inventories of CAI containing PII that they handle” and “create periodic reports on their handling of CAI containing PII.”\n\n**Part 2:**  \nThe policy discussion focuses on transparency and accountability rather than prescribing a concrete, technical audit log standard for AI-generated reports. Agencies are being asked whether they should publicly share information about when CAI containing PII is used, keep inventories of such CAI, and issue periodic reports describing how it is handled. These inventories and reports would effectively function as an audit trail, documenting systems used, purposes, and safeguards. Until such guidance is finalized, the “must maintain” element is limited to general expectations around identification of AI use and mitigation of risk, not a detailed logging framework.",
+  "ground_truth": "They must track who used AI and any video/audio footage used in generating the report.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:37:02.981415",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which specifies the need to track who used AI and any video/audio footage, while the response focuses on general inventory and reporting without addressing the specific tracking of users and media involved.",
+  "provider": "deepseek"
+}

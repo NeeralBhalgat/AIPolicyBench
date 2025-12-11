@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "Part 1: All new AI use case submissions must include information about risk mitigation strategies, as this additional information will be forthcoming according to the Department of Justice's inventory guidance.\n\nPart 2: The Department of Justice explicitly states that additional information about use cases, including risk mitigation strategies, will be forthcoming as part of their ongoing data collection and reporting efforts. This requirement stems from Executive Order 14110 and the subsequent OMB memorandum M-24-10, which advance governance and risk management for agency AI use. The rigorous approach to data collection ensures comprehensive reporting, and the Department is actively attuned to new use cases as they arise, requiring this complete information.",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:04:03.501856",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly focuses on risk mitigation strategies and references specific documents that do not align with the comprehensive list of required elements for AI use case submissions as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

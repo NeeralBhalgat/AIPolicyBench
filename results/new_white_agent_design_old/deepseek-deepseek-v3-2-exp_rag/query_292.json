@@ -1,0 +1,12 @@
+{
+  "query_id": 292,
+  "query": "What signature requirement applies to AI-generated official reports?",
+  "response": "Part 1: AI-generated official reports must have appropriate human oversight of the application of their output.\n\nPart 2: The requirement for human oversight is specified in the context of developing AI technologies for healthcare delivery and financing. This principle is a key consideration for ensuring the responsible deployment of AI. It is part of a strategic plan directing that the application of AI-generated output is subject to this oversight. This applies specifically within the health and human services sector but establishes a foundational standard for AI use in official contexts.",
+  "ground_truth": "The officer must sign (physically or electronically) verifying they reviewed the report and that its contents are true and correct.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:23:13.746139",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the need for human oversight in AI-generated reports but does not address the specific signature requirement that an officer must sign to verify the report's accuracy, which is the key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

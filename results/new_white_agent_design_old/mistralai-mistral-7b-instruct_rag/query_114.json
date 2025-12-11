@@ -1,0 +1,12 @@
+{
+  "query_id": 114,
+  "query": "What is DOT’s strategy for AI workforce development?",
+  "response": "[B_INST]\n\nPart 1: The War Department is cultivating an \"AI-first\" workforce by leveraging generative AI capabilities to create a more efficient and battle-ready enterprise.\n\nPart 2: This initiative focuses on integrating AI across all levels, including civilians, contractors, and military personnel, to enhance operational efficiency and readiness. The strategy emphasizes building an AI-literate workforce capable of leveraging advanced AI models for various military and administrative tasks. By prioritizing AI adoption, the department aims to stay ahead in technological advancements and maintain a competitive edge in defense operations. This approach aligns with broader efforts to modernize the workforce through AI-driven solutions.",
+  "ground_truth": "Building a trained workforce through internal AI training, learning sessions, and recruitment initiatives.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:36:10.964176",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the DOT's strategy by focusing on military applications and generative AI capabilities, which diverges from the ground truth that emphasizes internal training and recruitment initiatives for workforce development.",
+  "provider": "deepseek"
+}

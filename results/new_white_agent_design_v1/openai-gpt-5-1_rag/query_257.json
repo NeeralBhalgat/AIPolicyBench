@@ -1,0 +1,12 @@
+{
+  "query_id": 257,
+  "query": "What types of property elements qualify as “changes” that make an image digitally altered?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Changes to fixtures, furniture, appliances, flooring, walls, landscaping, façade, floor plans, and external features like streetlights or views.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:31:27.610205",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information regarding the types of property elements that qualify as 'changes' for a digitally altered image.",
+  "provider": "deepseek"
+}

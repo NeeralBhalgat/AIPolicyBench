@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "Part 1: The directive applies to federal agencies and their substantive actions that lead to the promulgation of final rules or regulations, including notices of inquiry, advance notices of proposed rulemaking, and notices of proposed rulemaking.\n\nPart 2: The memorandum outlines that the requirements apply to any \"rule\" as defined in section 551(4) of title 5, United States Code, as well as any \"regulatory action\" or \"guidance document\" as defined in relevant executive orders. This includes substantive actions by agencies published in the Federal Register, such as notices of inquiry, advance notices of proposed rulemaking, and notices of proposed rulemaking. The OMB Director oversees the implementation of this directive, ensuring compliance with applicable executive orders concerning regulatory management.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:11.766285",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the entities to which the directive applies, focusing on federal agencies rather than the GSA employees, contractors, and IT systems specified in the ground truth answer.",
+  "provider": "deepseek"
+}

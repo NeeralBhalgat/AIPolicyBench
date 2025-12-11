@@ -1,0 +1,12 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:36:57.261645",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about USDA's core AI vision for FY25–26.",
+  "provider": "deepseek"
+}

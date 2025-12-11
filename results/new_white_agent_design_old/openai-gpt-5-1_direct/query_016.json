@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "Across governments that are trying to manage AI coherently, you see the same basic pattern: a small number of core bodies with distinct functions, plus sectoral regulators. There is no globally binding rule about “required” bodies, but experience from the EU, US, UK, Canada, Singapore and OECD guidance suggests",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:40:05.254564",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not provide a definitive answer regarding the specific governance bodies required to coordinate AI across government, instead discussing general patterns and experiences without naming the specific entities mentioned in the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 285,
+  "query": "What penalties apply if a data broker fails to register?",
+  "response": "Part 1:  \nA data broker that fails to register by January 31 may be liable for administrative fines and costs in an administrative action or investigation brought by the Agency.\n\nPart 2:  \nUnder the data broker registration law, any business that meets the definition of a data broker must register with the California Privacy Protection Agency each year and pay the annual fee. If it does not register by the January 31 deadline, the Agency can bring an administrative action or conduct an investigation. In that proceeding, the data broker may be required to pay administrative fines and the Agency’s associated costs. These penalties are authorized by California Civil Code provisions governing data broker registration.",
+  "ground_truth": "$200 per day in fines plus owed fees and investigative costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:34:19.673118",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies that there are penalties for failing to register, but it does not specify the actual fines of $200 per day as stated in the ground truth. Instead, it discusses administrative fines and costs in a vague manner, which does not align with the specific details provided in the ground truth answer.",
+  "provider": "deepseek"
+}

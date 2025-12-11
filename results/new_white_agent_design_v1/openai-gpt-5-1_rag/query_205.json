@@ -1,0 +1,12 @@
+{
+  "query_id": 205,
+  "query": "What is excluded from the definition of Automated-Decision Systems under §11008.1(a)(2)?",
+  "response": "Under §11008.1(a)(2), exclusions from the definition of Automated-Decision Systems include “word processing software, data storage, and calculators.”",
+  "ground_truth": "Software like word processing, spreadsheets, navigation, or similar tools that do not make employment decisions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:26:00.264238",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly lists 'data storage' and 'calculators' as exclusions, which are not mentioned in the ground truth. The correct exclusions pertain to software that does not make employment decisions, such as word processing and spreadsheets, but the inclusion of 'data storage' and 'calculators' is not accurate.",
+  "provider": "deepseek"
+}

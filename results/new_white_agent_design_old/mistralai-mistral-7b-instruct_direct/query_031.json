@@ -1,0 +1,12 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "response": "As of my last update, the U.S. Department of Agriculture (USDA) does not have a publicly available core AI vision specifically for the fiscal years 2025-2026. However, the USDA has been actively exploring the use of AI and data analytics in various agricultural sectors.\n\nIn 2019, the USDA launched the Agricultural Artificial Intelligence (AgAI) Initiative, which aims to leverage AI to improve the efficiency, sustainability, and resilience of the U.S. agricultural system. The initiative focuses on four key areas: crop and livestock monitoring, food safety, rural infrastructure, and agricultural workforce.\n\nWhile there is no specific vision for FY25-26, it is likely that the USDA will continue to prioritize the development and implementation of AI technologies in these areas, as part of its broader mission to support American agriculture. For the most accurate and up-to-date information, I would recommend visiting the USDA's official website or contacting a representative from the department.",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:46.150936",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the USDA's core AI vision for FY25-26, stating that there is no publicly available vision. While it provides relevant historical context and discusses ongoing initiatives, it does not directly address the specific core vision outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 258,
+  "query": "Who does the law apply to regarding use of digitally altered images?",
+  "response": "The law regarding the use of digitally altered images typically applies to individuals, organizations, and entities that create, distribute, or use such images, particularly when they are used for deceptive or harmful purposes. Specific regulations may vary by jurisdiction.",
+  "ground_truth": "Real estate brokers, salespersons, and persons acting on their behalf.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:06.091629",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response is too broad and does not accurately reflect the specific application of the law regarding digitally altered images, which is primarily focused on real estate brokers and related parties. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

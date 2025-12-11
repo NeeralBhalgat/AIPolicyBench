@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "The U.S. Department of Transportation (DOT) does not have a specific, publicly available policy or regulation that mandates a fixed frequency for re-evaluating AI risk determinations. However, the DOT and other federal agencies often follow risk management frameworks that may require periodic reviews or updates based on changes in technology, operations, or regulatory requirements.\n\nFor example, the DOT's Automated Systems Safety (ASS) framework, which is part of its broader approach to autonomous vehicle safety, emphasizes continuous monitoring and evaluation of risks. While the framework does not specify a fixed schedule, it suggests that risk assessments should be updated as needed, particularly when significant changes occur in the AI system, its environment, or its operational context.\n\nIf you are looking for a specific requirement, it would be best to consult the DOT's latest guidance documents, such as the \"Automated Vehicles Compendium\" or other relevant policy statements, as these may provide more detailed expectations for risk re-evaluation. Additionally, industry best practices and voluntary standards (e.g., from the National Highway Traffic Safety Administration or the Federal Aviation Administration) may influence how often AI risk assessments are revisited.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:09:02.821170",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth, which states that re-evaluations must occur at least annually or when significant modifications occur. Instead, it suggests that there is no fixed schedule, which contradicts the requirement.",
+  "provider": "deepseek"
+}

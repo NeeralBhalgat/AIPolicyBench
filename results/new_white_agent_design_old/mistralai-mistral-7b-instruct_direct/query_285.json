@@ -1,0 +1,12 @@
+{
+  "query_id": 285,
+  "query": "What penalties apply if a data broker fails to register?",
+  "response": "In the United States, the penalties for failing to register as a data broker under applicable state laws (such as the California Consumer Privacy Act (CCPA) or the Colorado Privacy Act (CPA)) can vary by jurisdiction. However, common penalties may include:\n\n1. **Fines and Penalties**: Regulatory agencies may impose monetary fines for non-compliance. For example, under the CCPA, the California Attorney General can impose fines of up to $2,500 per unintentional violation and up to $7,500 per intentional violation. Similar penalties may apply under other state laws.\n\n2. **Legal Action**: Consumers or regulatory bodies may file lawsuits against data brokers for failing to comply with registration requirements, leading to potential legal costs and damages.\n\n3. **Reputational Damage**: Non-compliance can harm a company's reputation, leading to loss of customer trust and potential business impacts.\n\n4. **Operational Restrictions**: Regulatory agencies may impose operational restrictions or require corrective actions, such as mandating the broker to cease certain data practices until compliance is achieved.\n\n5. **Criminal Liability**: In some cases, willful non-compliance could potentially lead to criminal charges, though this is less common.\n\nIt's important to note that specific penalties depend on the jurisdiction and the nature of the violation. Data brokers should consult legal experts to ensure compliance with all applicable laws.\n\nIf you're referring to a specific state or country, please provide more details for a more tailored answer.",
+  "ground_truth": "$200 per day in fines plus owed fees and investigative costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:19:12.416459",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed overview of potential penalties for failing to register as a data broker, but it does not mention the specific ground truth penalty of $200 per day in fines plus owed fees and investigative costs, which is a critical detail. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

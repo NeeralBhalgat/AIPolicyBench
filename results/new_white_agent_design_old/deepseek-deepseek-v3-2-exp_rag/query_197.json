@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "Part 1: AI code developed internally for government uses that impact rights or safety must adhere to required minimum risk-management practices, including conducting public consultation, assessing data quality, assessing and mitigating disparate impacts and algorithmic discrimination, providing notice of the use of AI, continuously monitoring and evaluating deployed AI, and granting human consideration and remedies for adverse decisions.\n\nPart 2: The requirement applies specifically to government uses of AI that impact people's rights or safety, establishing a mandatory baseline for risk management. These practices are derived from established frameworks like the OSTP's Blueprint for an AI Bill of Rights and the NIST AI Risk Management Framework. The guidance mandates that agencies implement these practices to ensure safe and nondiscriminatory outcomes, which includes ongoing evaluation and providing human oversight for adverse decisions.",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:04:56.956632",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response focuses on risk management practices for government AI use, which is not aligned with the ground truth answer that specifies the requirement for AI code to be shared internally and open-sourced unless restricted. The response does not address the core requirement mentioned in the ground truth.",
+  "provider": "deepseek"
+}

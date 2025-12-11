@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "I don't have enough information to identify a specific strategy as you haven't provided the name of a strategy related to AI policy, safety, and regulation. However, in general, strategic goals for AI policy might include ensuring ethical AI development, promoting transparency, fostering international collaboration, establishing safety and security standards, and addressing potential biases and fairness issues.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:24.292127",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty about the specific strategy and does not provide the five key strategic goals outlined in the ground truth answer. Instead, it offers general goals related to AI policy, which do not match the specific goals required.",
+  "provider": "deepseek"
+}

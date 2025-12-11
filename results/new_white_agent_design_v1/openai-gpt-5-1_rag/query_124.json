@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "The Office of the Federal Chief Information Officer (OFCIO), in consultation with the White House Office of Science and Technology Policy (OSTP), reviews AI use case inventory entries for “clarity and level of detail.”",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:17:53.171902",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the reviewing body as the OFCIO and OSTP, while the ground truth states that the CDAO team is responsible for reviewing AI use case inventory entries.",
+  "provider": "deepseek"
+}

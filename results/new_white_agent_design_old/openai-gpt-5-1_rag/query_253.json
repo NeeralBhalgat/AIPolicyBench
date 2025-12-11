@@ -1,0 +1,12 @@
+{
+  "query_id": 253,
+  "query": "What additional requirement applies if the advertisement is posted on a website controlled by the broker?",
+  "response": "**Part 1:** If the advertisement is posted on a website controlled by the broker, the broker must ensure proper broker identification is clearly displayed on every page where the advertisement appears.  \n\n**Part 2:** Massachusetts rules on real estate advertising prohibit “blind ads” and require that the broker be clearly identified in all advertising, including online. When the broker controls the website, regulators expect the brokerage identification not just in one place, but wherever listings or solicitations appear, so consumers always know who is offering the service. This typically means the licensed brokerage name (and any other required identifying information) must be conspicuous on each relevant page. Ensuring consistent broker identification across the site helps avoid misleading impressions and supports compliance with advertising regulations.",
+  "ground_truth": "The unaltered version of the images must also be included in the posting or via a link.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:27:13.765375",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses broker identification requirements for advertisements but does not address the specific requirement mentioned in the ground truth answer regarding the inclusion of unaltered images in the posting. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

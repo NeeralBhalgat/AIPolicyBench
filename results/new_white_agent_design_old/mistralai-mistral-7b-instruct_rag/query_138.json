@@ -1,0 +1,12 @@
+{
+  "query_id": 138,
+  "query": "What federal policy defines AI for IRS purposes?",
+  "response": "Part 1: The federal policy defining AI for IRS purposes is outlined in the White House's revised memos on AI adoption and procurement, emphasizing the use of AI within the Federal Government to support national security and innovation.\n\nPart 2: The White House has released new policies to guide federal agencies in adopting and procuring AI technologies, ensuring that these efforts align with national security objectives and promote American innovation. These policies aim to remove bureaucratic barriers and support a competitive AI marketplace while maintaining protections for privacy, civil rights, and civil liberties. The guidelines also encourage collaboration between the Federal Government and non-Federal parties to assess the national-security implications of AI models developed on Federal sites.",
+  "ground_truth": "Section 238(g) of the 2019 NDAA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:38.579029",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention Section 238(g) of the 2019 NDAA, which is the correct federal policy defining AI for IRS purposes. Instead, it discusses general policies from the White House regarding AI adoption and procurement, which are not specific to IRS definitions.",
+  "provider": "deepseek"
+}

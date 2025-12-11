@@ -1,0 +1,12 @@
+{
+  "query_id": 103,
+  "query": "What is one role of the NETT Council as the AI Governance Board?",
+  "response": "Based on the provided sources, the role of the NETT Council as the AI Governance Board is to \"set the criteria for complying with Executive Order 13960 Promoting the Use of Trustworthy Artificial Intelligence in the Federal Government.\"",
+  "ground_truth": "To review and approve all AI governance structures, policies, and guidance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:42:34.274101",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states the role of the NETT Council. The ground truth indicates that the Council's role is to review and approve AI governance structures, policies, and guidance, rather than setting criteria for compliance with a specific executive order.",
+  "provider": "deepseek"
+}

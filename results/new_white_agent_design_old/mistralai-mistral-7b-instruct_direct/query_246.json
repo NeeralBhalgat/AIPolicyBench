@@ -1,0 +1,12 @@
+{
+  "query_id": 246,
+  "query": "What disclosure must be made to users that the operator knows are minors?",
+  "response": "According to the AI Act, operators must disclose to users that the operator knows are minors that they are interacting with an AI system. This disclosure must be clear, prominent, and easily understandable. The purpose of this requirement is to ensure that minors are aware that they are interacting with an AI system and not a human, which can help to prevent potential harm or misuse. The specific wording and format of the disclosure may vary depending on the jurisdiction and the type of AI system, but it must be designed to be easily understood by minors.",
+  "ground_truth": "The operator must disclose that the user is interacting with artificial intelligence.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:16:02.472640",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement for operators to disclose to minors that they are interacting with an AI system. It emphasizes the importance of clarity and understanding, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

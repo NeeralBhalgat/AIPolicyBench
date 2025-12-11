@@ -1,0 +1,12 @@
+{
+  "query_id": 236,
+  "query": "What type of AI or GenAI usage is prohibited under Section 4999.9(c)?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Using terms implying that care, advice, reports, or assessments are provided by a licensed natural person.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:55.146633",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates uncertainty and does not provide an answer to the question, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

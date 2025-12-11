@@ -1,0 +1,12 @@
+{
+  "query_id": 248,
+  "query": "What must operators prevent companion chatbots from producing for minors?",
+  "response": "Operators must prevent companion chatbots from producing harmful, inappropriate, or exploitative content for minors, including but not limited to sexual, violent, or otherwise age-inappropriate material.",
+  "ground_truth": "Visual material of sexually explicit conduct or statements directing minors to engage in it.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:56.656506",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the need to prevent harmful and inappropriate content for minors, which aligns with the ground truth regarding the prohibition of sexually explicit material and other age-inappropriate content.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 292,
+  "query": "What signature requirement applies to AI-generated official reports?",
+  "response": "**Part 1:**  \nAI-generated official reports must still be signed and attributed to a human author, because applicants “should not list an AI technology or the company that provided it as an author or co-author” and must instead identify and describe the human-authored contribution.\n\n**Part 2:**  \nThe guidance explains that only the human-authored aspects of a work are protected by copyright and that AI-generated material itself is not considered human authorship. Accordingly, any work containing AI-generated content must identify the human author and briefly describe what that person created. It explicitly instructs that AI tools or their providers cannot be listed as authors or co-authors. By implication, any official report produced with AI assistance must bear the name and signature of the responsible human author, not the AI system.",
+  "ground_truth": "The officer must sign (physically or electronically) verifying they reviewed the report and that its contents are true and correct.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:35:25.599219",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement that AI-generated official reports must be signed by a human author, aligning with the ground truth that the officer must verify the report's contents. It correctly emphasizes the need for human attribution and the limitations of copyright regarding AI-generated content.",
+  "provider": "deepseek"
+}

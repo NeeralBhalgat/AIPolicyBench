@@ -1,0 +1,11 @@
+{
+  "query_id": 234,
+  "query": "What enforcement power may a health care licensing board use under Section 4999.9(a)(2)?",
+  "response": "",
+  "ground_truth": "They may pursue an injunction or restraining order.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:03:57.826794",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

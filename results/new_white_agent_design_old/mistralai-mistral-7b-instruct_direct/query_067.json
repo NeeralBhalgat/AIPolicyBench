@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "The PolicyAI tool, developed by the U.S. Department of Energy (DOE), is a machine learning platform designed to support policy analysis and decision-making. It uses data analytics and modeling to help policy analysts and decision-makers understand the potential impacts of various policy options, particularly in the energy sector. The tool can simulate different scenarios, evaluate policy alternatives, and provide insights to inform effective and efficient energy policy decisions. However, it's important to note that the specific features and capabilities of PolicyAI may vary based on updates and the context of its use. For the most accurate and up-to-date information, it's recommended to refer to official DOE resources or consult with experts in the field.",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:36.578112",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes the PolicyAI tool as a machine learning platform for policy analysis in the energy sector, which does not align with the ground truth that specifies its use for searching, summarizing, and drafting environmental policy documents. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

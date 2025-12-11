@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "<s> [OUT] Part 1: The Department of Transportation (DOT) is establishing a robust framework for sharing and reusing AI code, models, and data assets across its Operating Administrations (OAs).\n\nPart 2: This initiative aims to combat inefficiency by fostering collaboration and resource sharing within the DOT. By creating a structured approach, the DOT ensures that AI advancements are accessible and reusable across different administrative units. This strategy aligns with broader federal efforts to streamline AI development and deployment, emphasizing the importance of interoperability and shared resources.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:36:11.212684",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses a framework for sharing AI code and models but does not mention the specific mechanisms of OPEN Data workflows and Code.gov, which are key components of the DOT's approach. Therefore, while the response provides some relevant information, it does not accurately reflect the ground truth.",
+  "provider": "deepseek"
+}

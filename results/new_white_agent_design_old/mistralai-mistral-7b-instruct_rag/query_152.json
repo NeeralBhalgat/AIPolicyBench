@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "<s> [OUT] Part 1: NASA will provide further updates as they revise relevant policies, manuals, and agreements to comply with the Executive Order.\n\nPart 2: The context indicates that NASA is actively revising its policies and agreements in response to the Executive Order, which halts DEIA activities. The agency has already removed DEIA-related references from its platforms and will continue to monitor updates. While the exact timeline for re-evaluating non-reportable use cases isn't specified, the ongoing policy revisions suggest that NASA will address such cases as part of its broader compliance efforts. The process is likely to be guided by future updates from the agency, which will clarify how non-reportable use cases will be handled moving forward.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:39:56.543873",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide a specific timeline for when NASA will re-evaluate non-reportable use cases, indicating uncertainty about the exact timing. The ground truth specifies that this occurs annually, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 198,
+  "query": "What restrictions apply to internal GSA data?",
+  "response": "GSA data assets, including for internal agency use, must be reviewed for valid restrictions “in order to ensure proper safeguarding of privacy, security, and confidentiality of controlled unclassified information (CUI)” and are assigned an access level of Public, Restricted Public, or Non‑Public based on those restrictions.",
+  "ground_truth": "It cannot be used as input for public AI systems and sensitive data requires clearance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:25:10.703177",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses access levels and safeguarding measures but does not accurately reflect the specific restriction that GSA data cannot be used as input for public AI systems, which is a critical aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

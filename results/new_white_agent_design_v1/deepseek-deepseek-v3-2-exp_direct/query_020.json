@@ -1,0 +1,12 @@
+{
+  "query_id": 20,
+  "query": "What sharing and inventory requirements promote reuse and transparency?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Share custom AI code/models government-wide (and open source where practicable) and publish an annual AI use case inventory.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:04.702918",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 98,
+  "query": "What is the responsibility of DHS leadership regarding AI adoption?",
+  "response": "DHS governance bodies and leadership ensure that the Department leans forward in deploying Artificial Intelligence (AI) to enhance operations and leads in the safe, secure, and responsible use of AI.",
+  "ground_truth": "Senior leaders must ensure AI use is trustworthy, effective, and aligned with DHS principles.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:15:41.413148",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the responsibility of DHS leadership in promoting the safe and responsible use of AI, aligning with the ground truth that emphasizes trustworthiness and effectiveness in AI deployment.",
+  "provider": "deepseek"
+}

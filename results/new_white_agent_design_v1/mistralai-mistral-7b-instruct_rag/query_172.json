@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "The NRC will evaluate AI applications to ensure staff readiness to review and evaluate them effectively and efficiently, focusing on a broad spectrum of AI sub-specialties like natural language processing and machine learning [Source 2, Source 3].",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:15:46.002522",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on staff readiness and AI sub-specialties, which does not align with the ground truth answer that specifies technical considerations like bias, robustness, security, explainability, and model maintenance. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 161,
+  "query": "What mechanisms does NASA use to acquire AI talent?",
+  "response": "Part 1: The provided material does not describe specific mechanisms NASA uses to acquire AI talent.  \n\nPart 2: The texts focus on NASA’s “Framework for the Ethical Use of Artificial Intelligence,” its “Responsible Artificial Intelligence Plan,” and its catalog of “Responsible AI Use Cases,” which outline principles, governance, and example projects rather than hiring or recruitment processes. They explain how NASA aims to use AI in a trustworthy and ethical manner and how AI work is documented and made transparent. However, they do not mention concrete mechanisms such as recruitment programs, partnerships, or other specific strategies for acquiring AI personnel. As a result, no direct answer about NASA’s talent acquisition mechanisms can be drawn from this material.",
+  "ground_truth": "Direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:03:27.305340",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies that the provided material does not specify NASA's mechanisms for acquiring AI talent, but it does not express uncertainty about the existence of such mechanisms. Instead, it focuses on the ethical frameworks without addressing the actual recruitment strategies, leading to a lack of a direct answer.",
+  "provider": "deepseek"
+}

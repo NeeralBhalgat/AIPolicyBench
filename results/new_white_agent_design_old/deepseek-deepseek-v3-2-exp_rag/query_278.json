@@ -1,0 +1,12 @@
+{
+  "query_id": 278,
+  "query": "How soon must a critical safety incident be reported to the Office of Emergency Services?",
+  "response": "Part 1: A critical safety incident must be reported to the Office of Emergency Services within ninety (90) days of the close of the incident period.\n\nPart 2: The requirement for this 90-day reporting timeline is specified in the regulations for after-action and corrective action reporting. The report must be a review of response actions taken and include the application of SEMS, suggested modifications to plans, and identified training needs. For state-declared disasters, a separate, more comprehensive after-action report coordinated by the Office must be completed within 180 days.",
+  "ground_truth": "Within 15 days of discovery, or 24 hours if imminent risk of death or serious injury.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:53.222038",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that a critical safety incident must be reported within ninety days, whereas the ground truth specifies a much shorter timeframe of 15 days for general incidents and 24 hours for imminent risks.",
+  "provider": "deepseek"
+}

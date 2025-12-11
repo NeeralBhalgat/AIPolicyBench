@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "SB 361, a California bill related to data privacy, introduces an enhanced deletion requirement for denied requests. Specifically, it mandates that if a business denies a consumer's request to delete personal information, the business must inform the consumer of their right to appeal the decision. This requirement ensures that consumers have a clear path to challenge the denial and seek further review or correction. The bill aims to strengthen consumer rights and transparency in data handling practices.",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:45.484781",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the enhanced deletion requirement of SB 361. While it mentions the right to appeal a denial, it fails to state that a denied deletion request must be processed as an opt-out of sale or sharing within 45 days, which is the correct requirement.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "No.\n\nLike most U.S. presidential executive orders, this AI-related order contains a “general provisions” section stating that it:\n\n- Is intended only to improve the internal management and operations of the federal government, and  \n- **Does not create any right or benefit, substantive or procedural, enforceable at law or in equity** by any party against the United States, its departments or agencies, their officers or employees, or any other person.\n\nIn practice, that means:\n\n- Individuals, companies, or other entities generally **cannot sue** the government to compel compliance with the order based on a claim that it gives them a legal right or entitlement.  \n- The order can still strongly shape agency behavior, policies, and rulemakings, but **enforceable rights come from statutes, regulations, or contracts**, not from the order itself.\n\nI don’t have the exact text of the specific order you’re referring to in front of me, but AI-related U.S. executive orders issued to date all include this standard non‑enforceability clause.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:42:05.806625",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the standard non-enforceability clause found in U.S. presidential executive orders, confirming that such orders do not create enforceable rights. This aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

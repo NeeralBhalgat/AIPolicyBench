@@ -1,0 +1,12 @@
+{
+  "query_id": 204,
+  "query": "Under §11008.1(a)(1)(A), what tasks can Automated-Decision Systems perform?",
+  "response": "Part 1:  \nUnder §11008.1(a)(1)(A), automated-decision systems are defined as systems that perform computational processes used to make, or materially assist in making, employment-related decisions about applicants or employees.\n\nPart 2:  \nThis means they can carry out tasks that support or replace human judgment in employment decision-making, such as evaluating, screening, ranking, or otherwise assessing individuals for jobs or employment opportunities. The focus is on systems whose outputs—like scores, ratings, or recommendations—are used in decisions that affect the terms, conditions, or privileges of employment. Because those decisions can have legal consequences, the regulation treats the use of such systems as part of the regulated employment practices. As a result, entities must ensure that any automated-decision system used for these decision-making tasks does not result in unlawful disparate treatment or other prohibited discrimination.",
+  "ground_truth": "Predictive assessments, measurement of abilities, and screening or categorizing applicants or employees.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:14:17.170243",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a general description of automated-decision systems in employment contexts but does not accurately reflect the specific tasks listed in the ground truth answer, such as predictive assessments and measurement of abilities. Instead, it focuses on the implications of using such systems rather than the specific tasks they can perform.",
+  "provider": "deepseek"
+}

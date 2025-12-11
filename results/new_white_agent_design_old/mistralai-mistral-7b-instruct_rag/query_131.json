@@ -1,0 +1,12 @@
+{
+  "query_id": 131,
+  "query": "What is excluded from “operational use”?",
+  "response": "[OUT]\n\nPart 1: The Department of State, the Department of Defense (except certain subdivisions), the Department of the Treasury (except the Bureau of Engraving and Printing), the Department of Veterans Affairs, the Department of Justice, and specific subdivisions of the Department of Health and Human Services and the Department of Homeland Security are excluded from \"operational use.\"\n\nPart 2: The exclusions are outlined in an executive order that specifies which federal agencies and subdivisions are exempt from certain labor-management relations programs due to national security considerations. The order explicitly lists the Department of State, the Department of Defense (with exceptions), the Department of the Treasury (excluding the Bureau of Engraving and Printing), the Department of Veterans Affairs, the Department of Justice, and certain subdivisions within the Department of Health and Human Services and the Department of Homeland Security as being excluded. These exclusions are based on the determination that these agencies and subdivisions have primary functions related to intelligence, counterintelligence, investigative, or national security work, making it incompatible to apply certain labor-management regulations to them.",
+  "ground_truth": "Exploratory or research-only AI activity.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:45.822881",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies specific federal agencies and their exclusions from 'operational use,' which does not align with the ground truth answer that refers to exploratory or research-only AI activity. The response does not address the actual context of what is excluded from operational use in AI policy and safety datasets.",
+  "provider": "deepseek"
+}

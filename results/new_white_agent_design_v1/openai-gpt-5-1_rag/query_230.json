@@ -1,0 +1,12 @@
+{
+  "query_id": 230,
+  "query": "According to AB 316, what type of environments can AI outputs influence?",
+  "response": "According to AB 316, AI outputs can influence **physical or virtual environments**.",
+  "ground_truth": "Physical or virtual environments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:27:58.174714",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the types of environments that AI outputs can influence, which are indeed physical or virtual environments.",
+  "provider": "deepseek"
+}

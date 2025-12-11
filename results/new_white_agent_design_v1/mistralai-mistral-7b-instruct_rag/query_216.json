@@ -1,0 +1,12 @@
+{
+  "query_id": 216,
+  "query": "Under AB 979, who may participate through voluntary information-sharing mechanisms?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Other entities, as appropriate, beyond state contractors and vendors.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:19:50.946965",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about who may participate under AB 979, which is a clear admission of not knowing.",
+  "provider": "deepseek"
+}

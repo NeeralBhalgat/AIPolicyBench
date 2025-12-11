@@ -1,0 +1,12 @@
+{
+  "query_id": 231,
+  "query": "How does AB 489 define “health care profession” under Section 4999.8(c)?",
+  "response": "Under California Assembly Bill 489 (AB 489), Section 4999.8(c) defines \"health care profession\" as follows:\n\n> “Health care profession” means a profession that is licensed, certified, or registered by the State of California, and that provides health care services, including, but not limited to, medicine, nursing, pharmacy, dentistry, psychology, physical therapy, and social work.\n\nThis definition is broad and encompasses various licensed health care roles in California. The bill aims to regulate the use of AI in health care, particularly in interactions with patients, and this definition helps establish the scope of professions covered by the legislation.\n\nFor the most precise and up-to-date interpretation, it is advisable to consult the full text of AB 489 or legal experts familiar with the bill.",
+  "ground_truth": "Any profession licensed or regulated under Division 2 or an initiative act referenced in that division.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:11.941314",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately defines 'health care profession' according to AB 489. The correct definition is more specific, stating it includes any profession licensed or regulated under Division 2 or an initiative act referenced in that division, which the White Agent did not mention.",
+  "provider": "deepseek"
+}

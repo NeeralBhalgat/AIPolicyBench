@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "As one of his first acts as president, Trump revoked Biden's landmark 2023 AI order.",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:31:08.317314",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that Trump revoked Biden's AI order as one of his first acts as president. In reality, Trump was not president in 2023 and could not have revoked an order from that year. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

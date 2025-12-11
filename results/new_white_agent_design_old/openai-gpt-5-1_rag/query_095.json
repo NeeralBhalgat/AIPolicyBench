@@ -1,0 +1,12 @@
+{
+  "query_id": 95,
+  "query": "How will DHS prevent discriminatory effects in AI systems?",
+  "response": "Part 1:  \nDHS will prevent discriminatory effects in AI systems by requiring that all AI use be “safe, secure, responsible, trustworthy, and human-centered,” undergo “rigorous testing throughout its lifecycle to validate performance, reliability, and bias mitigation,” and comply with applicable civil rights and data protection requirements.\n\nPart 2:  \nUnder Directive 139-08, DHS applies enterprise risk management practices to AI, including documenting use cases, categorizing and classifying risks, and conducting ongoing monitoring to detect and address potential discrimination. Mandatory testing and evaluation are specifically aimed at validating performance and mitigating bias before and during deployment. Data management rules require compliance with privacy and security laws, which helps protect individuals from harmful or unfair use of their data. DHS also prohibits certain AI uses outright and provides workforce training so personnel understand AI risks and civil rights implications, reinforcing safeguards against discriminatory outcomes.",
+  "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:46:03.100965",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes DHS's approach to preventing discriminatory effects in AI systems, including rigorous testing, compliance with civil rights requirements, and ongoing monitoring, which aligns with the ground truth answer regarding testing and validation methods.",
+  "provider": "deepseek"
+}

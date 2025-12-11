@@ -1,0 +1,12 @@
+{
+  "query_id": 56,
+  "query": "What approach does the DoD take to accelerate AI and analytics adoption?",
+  "response": "The U.S. Department of Defense (DoD) takes a multi-faceted approach to accelerate AI and analytics adoption, including investing in research and development, fostering public-private partnerships, and establishing the Joint Artificial Intelligence Center (JAIC) to coordinate AI initiatives across the military. They also prioritize ethical and responsible AI use through guidelines and frameworks.",
+  "ground_truth": "An agile, iterative approach that emphasizes speed, feedback, and continuous learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:22.499235",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions several valid initiatives by the DoD, it does not accurately reflect the agile, iterative approach emphasized in the ground truth answer. The focus on specific programs and partnerships does not capture the essence of the DoD's approach to AI adoption as described.",
+  "provider": "deepseek"
+}

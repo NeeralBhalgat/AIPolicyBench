@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "**Part 1:**  \nBecause data informs the agency's operational and regulatory decision-making and supports all federal reporting requirements, leveraging data as a strategic asset—and thus building strong data science capabilities—is a top priority for the NRC.\n\n**Part 2:**  \nThe NRC views high‑quality, well‑managed data as essential to being a modern, risk‑informed regulator, since its safety and security decisions depend on accurate analysis of complex technical information. Emphasizing data science helps the agency better collect, manage, and analyze this data, which in turn strengthens regulatory decisions and compliance with federal reporting. It also lays the groundwork for responsible adoption of AI, as techniques like machine learning and deep learning rely on robust data foundations. By prioritizing data science, the NRC positions itself to effectively review, oversee, and eventually benefit from AI applications in nuclear activities.",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:03:29.500333",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of data science for the NRC, emphasizing its role in decision-making and regulatory compliance, which aligns with the ground truth that AI relies on quality data for predictive modeling and analytics.",
+  "provider": "deepseek"
+}

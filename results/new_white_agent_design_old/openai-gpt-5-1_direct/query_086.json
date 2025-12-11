@@ -1,0 +1,12 @@
+{
+  "query_id": 86,
+  "query": "What is the role of the DHS AI Governance Board?",
+  "response": "The DHS AI Governance Board is an internal, senior‑level body that oversees how the U.S. Department of Homeland Security develops, acquires, and uses artificial intelligence. Its role is governance and risk management inside DHS, not regulation of the private sector.\n\nBased on DHS policy documents and public statements (especially following Executive Order 14110 and DHS’s March 2024 AI policy), the Board’s core functions include:\n\n1. **Department‑wide oversight of AI use**\n   - Provide centralized governance for all DHS components (e.g., CBP, ICE, TSA, FEMA, USCIS, CISA) on AI matters.\n   - Ensure that AI use across the department is consistent, coordinated, and aligned with DHS’s mission and legal obligations.\n\n2. **Policy and standards setting**\n   - Develop and approve DHS‑wide policies, directives, and standards for:\n     - development, acquisition, and deployment of AI systems;\n     - use of third‑party and off‑the‑shelf AI tools;\n     - testing, evaluation, verification, and validation (TEVV).\n   - Implement",
+  "ground_truth": "To coordinate, oversee, and govern AI use across DHS, removing barriers and managing risks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:49:13.648441",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the role of the DHS AI Governance Board, including its functions of oversight, policy setting, and risk management within the Department of Homeland Security, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

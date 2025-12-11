@@ -1,0 +1,12 @@
+{
+  "query_id": 73,
+  "query": "What are the four key goals of HHS’s AI Strategic Plan?",
+  "response": "The U.S. Department of Health and Human Services (HHS) AI Strategic Plan outlines four key goals to guide the department's approach to artificial intelligence (AI) and machine learning (ML). These goals are:\n\n1. **Advance AI and ML Research and Development (R&D) to Improve Health and Human Services Outcomes**: This goal focuses on fostering innovation in AI and ML to enhance the delivery of health and human services, improve decision-making, and drive better outcomes for individuals and communities.\n\n2. **Promote the Safe, Effective, and Equitable Use of AI and ML in HHS Programs and Operations**: This goal emphasizes the responsible and ethical deployment of AI and ML, ensuring that these technologies are used in a manner that is safe, effective, and equitable, and that they do not exacerbate existing disparities.\n\n3. **Strengthen the AI and ML Workforce and Build Capacity Across HHS**: This goal aims to develop and support a skilled workforce capable of leveraging AI and ML technologies effectively. It includes training, education, and capacity-building initiatives to ensure that HHS staff and partners can harness the potential of these technologies.\n\n4. **Establish a Framework for Governance, Oversight, and Accountability for AI and ML**: This goal involves creating robust governance structures, oversight mechanisms, and accountability measures to ensure that AI and ML are used transparently, ethically, and in alignment with HHS’s mission and values.\n\nThese goals collectively aim to position HHS as a leader in the responsible and effective use of AI and ML to improve health and human services outcomes.",
+  "ground_truth": "1. Catalyze health AI innovation and adoption; 2. Promote trustworthy, ethical, and responsible use; 3. Democratize AI technologies and resources; 4. Cultivate AI-empowered workforces and cultures.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:56.775201",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists four goals that do not match the ground truth goals of HHS’s AI Strategic Plan, indicating that the information provided is factually incorrect.",
+  "provider": "deepseek"
+}

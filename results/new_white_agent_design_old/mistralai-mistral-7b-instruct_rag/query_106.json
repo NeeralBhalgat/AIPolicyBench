@@ -1,0 +1,12 @@
+{
+  "query_id": 106,
+  "query": "What is the ART Network used for?",
+  "response": "Part 1: The ART Network is used for compiling and publishing presidential documents.\n\nPart 2: The ART Network facilitates the dissemination of presidential documents, including proclamations, statements, and addresses, through the Daily Compilation of Presidential Documents. These documents are available in ASCII text and PDF formats, and they are incorporated into the Public Papers of the Presidents of the United States. The network ensures that official presidential communications are systematically recorded and made accessible to the public.",
+  "ground_truth": "AI research and development in a secure environment with rapid access to tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:35:14.525947",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the ART Network as related to presidential documents, while the ground truth indicates it is focused on AI research and development in a secure environment.",
+  "provider": "deepseek"
+}

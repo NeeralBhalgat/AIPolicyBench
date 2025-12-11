@@ -1,0 +1,12 @@
+{
+  "query_id": 89,
+  "query": "How does DHS handle AI incident reporting?",
+  "response": "Based on my knowledge, the Department of Homeland Security (DHS) established a process for AI incident reporting through a binding operational directive (BOD 24-01) issued in April 2024. This directive requires DHS agencies to track and report identified or suspected AI security incidents to the National Cybersecurity and Communications Integration Center (NCCIC).",
+  "ground_truth": "By maintaining coordinated procedures for reporting and responding to AI-related incidents that cause harm, civil rights impacts, or data breaches.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:59:10.297492",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the DHS's process for AI incident reporting as established by BOD 24-01, which aligns with the ground truth regarding the coordination of reporting and responding to AI-related incidents.",
+  "provider": "deepseek"
+}

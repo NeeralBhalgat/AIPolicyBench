@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "**Part 1:**  \nAI-generated work must carry a clear disclosure label—such as “AI generated” or “generated with an AI tool”—so that viewers understand it is content created using artificial intelligence.\n\n**Part 2:**  \nRecent policy efforts, including an executive order and proposed legislation like the AI Labeling Act of 2023, aim to “require disclosures for AI-generated content” and set “standards and best practices for clearly labeling AI-generated content.” The goal is to help people distinguish authentic communications, including those that appear to be from the government, from AI-generated or manipulated material. Research on label wording shows that terms like “AI generated,” “generated with an AI tool,” and “AI manipulated” are most clearly understood as indicating AI involvement. Policymakers are also considering separate labels for content that is misleading, whether or not it is AI-generated.",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:11:07.309896",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement for labeling AI-generated work, aligning with the ground truth that all AI-generated or AI-modified outputs must be labeled or watermarked. The mention of recent policy efforts and specific terms for labeling further supports the correctness of the response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "The U.S. Department of Transportation (DOT) does not have a specific, publicly documented framework for ensuring the trustworthiness of AI training data. However, the DOT does follow broader federal guidelines and best practices for AI development and deployment, which may include considerations for data quality and trustworthiness. These guidelines are often aligned with principles outlined by the National Institute of Standards and Technology (NIST) and the White House's Office of Science and Technology Policy (OSTP).\n\nFor example, the DOT's AI initiatives, such as those related to autonomous vehicles, may rely on data from sources like the National Highway Traffic Safety Administration (NHTSA) or other federal databases. The DOT also collaborates with industry stakeholders, academia, and other government agencies to ensure that AI systems are developed and tested with high-quality, representative, and unbiased data.\n\nIf you are looking for specific details on how the DOT ensures the trustworthiness of AI training data, it would be best to consult the DOT's official publications, such as its AI strategy or any relevant policy documents, or reach out to the DOT directly for clarification.",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:08:24.927631",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific framework DOT uses for ensuring the trustworthiness of AI training data, suggesting that it would be best to consult official publications for details. This reflects a lack of definitive information rather than a clear answer.",
+  "provider": "deepseek"
+}

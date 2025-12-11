@@ -1,0 +1,12 @@
+{
+  "query_id": 250,
+  "query": "What relief may a person injured by a violation of this chapter seek in a civil action?",
+  "response": "**Part 1:**  \nA person injured by a violation may seek relief by bringing \"an action at law, suit in equity, or other proper proceeding for redress.\"\n\n**Part 2:**  \nThis language allows an injured party to pursue traditional legal remedies (such as damages) through an action at law. It also permits equitable remedies—like injunctions or declaratory judgments—through a suit in equity or other appropriate proceedings. The statute is intentionally broad (“other proper proceeding for redress”) so courts can grant whatever form of judicial relief is suitable under the circumstances. However, where the defendant is a judicial officer acting in a judicial capacity, injunctive relief is restricted unless a declaratory decree was violated or declaratory relief was unavailable.",
+  "ground_truth": "Injunctive relief, damages of at least $1,000 per violation, and reasonable attorney’s fees and costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:26:06.469774",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the types of relief available, it fails to mention the specific monetary damages of at least $1,000 per violation and reasonable attorney’s fees and costs, which are part of the ground truth answer. Therefore, it does not accurately reflect the complete legal remedies available.",
+  "provider": "deepseek"
+}

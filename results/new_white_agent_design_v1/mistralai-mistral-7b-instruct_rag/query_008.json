@@ -1,0 +1,12 @@
+{
+  "query_id": 8,
+  "query": "How will advanced AI compute export controls be enforced?",
+  "response": "The Department of Commerce will enforce advanced AI compute export controls through \"Expanded Advanced Computing Integrated Circuit Controls,\" including \"New Worldwide License Requirements\" and \"License Exceptions for 3A090, 4A090, Corresponding .z Items, and 4E091.\" (Source 2)",
+  "ground_truth": "Use location verification and enhanced monitoring to prevent diversion to countries of concern.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:03:39.617680",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides specific details about export controls but does not align with the ground truth answer, which emphasizes location verification and enhanced monitoring as key enforcement methods. The response appears to misinterpret the enforcement mechanisms.",
+  "provider": "deepseek"
+}

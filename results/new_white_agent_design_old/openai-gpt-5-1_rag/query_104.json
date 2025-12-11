@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "Part 1:  \nThe role or function of an “SR2 Committee” is not described in the provided materials.\n\nPart 2:  \nThe documents you provided focus on congressional committee prints, including what they are, how they are numbered and accessed, and how Senate and House committees like the Finance Committee use them. They describe types of committee documents such as draft reports, legislative analyses, investigative reports, and conference reports, as well as general House and Senate committee activity. Nowhere in this context is an “SR2 Committee” mentioned or defined. Without additional, specific information about that body, its duties or purpose cannot be determined from the given text.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:47:51.357132",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the SR2 Committee's role, stating that it is not described in the provided materials. While it does not provide a definitive answer, it does not attempt to provide incorrect information either. However, it fails to acknowledge the known function of the SR2 Committee as related to AI safety and rights, which is a significant omission.",
+  "provider": "deepseek"
+}

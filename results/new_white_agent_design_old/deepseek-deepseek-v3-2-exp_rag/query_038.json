@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "Part 1: The primary ethical and risk frameworks guiding AI are the NIST AI Risk Management Framework (AI RMF) and the principles from the OSTP’s Blueprint for an AI Bill of Rights.\n\nPart 2: The NIST AI RMF is a voluntary framework developed to manage risks and incorporate trustworthiness into AI systems. It provides guidance on risk management practices, which are also mandated for U.S. government agencies by the Executive Order. These required practices include assessing data quality, mitigating disparate impacts, and providing human consideration for adverse decisions. Additionally, a specific profile of the NIST framework has been created to address the unique risks of generative AI.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:29:28.109125",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response accurately mentions the NIST AI RMF and the OSTP’s Blueprint for an AI Bill of Rights, it does not fully align with the ground truth, which includes specific details about the USDA and additional practices like 'bias bounties' that are not mentioned in the response.",
+  "provider": "deepseek"
+}

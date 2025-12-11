@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "Ethical and risk frameworks guiding AI include the Asilomar AI Principles, the EU's Ethics Guidelines for Trustworthy AI, and the OECD AI Principles, which emphasize transparency, fairness, accountability, and safety. Additionally, frameworks like the IEEE Global Initiative on Ethics of Autonomous Systems and the Partnership on AI address responsible AI development and deployment.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:01.714761",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent mentions several relevant ethical frameworks, it fails to include the NIST AI Risk Management Framework and other specific elements from the ground truth answer, such as bias mitigation and human oversight, which are critical components of current AI policy and safety discussions.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "**Part 1:**  \nAll authorized AI users must avoid using generative AI output to create website content unless the origin of the training data is known.  \n\n**Part 2:**  \nThe guidelines instruct that AI-generated content should not be directly published on websites when the provenance of the training data is unclear. This is to help ensure compliance with federal requirements such as accessibility and plain language standards, and to reduce the risk of using plagiarized or copyrighted material. Having a human in the loop to validate AI outputs further supports this requirement by checking sources and adherence to policy. Together, these measures aim to ensure ethical, accountable, and legally compliant use of AI tools.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:11:00.761283",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not address the specific requirement of avoiding inputting federal nonpublic information into AI systems without authorization, which is the ground truth. Instead, it focuses on the use of generative AI output for website content, which is not the correct answer to the question.",
+  "provider": "deepseek"
+}

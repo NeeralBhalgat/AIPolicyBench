@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "Part 1: The order clears the way for rapid AI action by directing construction of AI data centers on federal sites and requiring developers to pay all costs of building and operating AI infrastructure.\n\nPart 2: This action accelerates the buildout of necessary AI infrastructure by utilizing federal land. It ensures development does not raise electricity prices for consumers by mandating that companies finance all associated costs. Furthermore, the order streamlines the process by directing construction to be done with public labor agreements, facilitating rapid and responsible development.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:25:05.672623",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not align with the ground truth, which states that the order clears the way for rapid AI action by revoking existing AI policies and directives. Instead, the White Agent focuses on construction and financing aspects, which are not the core reason for the order's intent.",
+  "provider": "deepseek"
+}

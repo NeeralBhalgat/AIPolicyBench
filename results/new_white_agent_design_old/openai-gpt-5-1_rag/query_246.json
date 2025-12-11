@@ -1,0 +1,12 @@
+{
+  "query_id": 246,
+  "query": "What disclosure must be made to users that the operator knows are minors?",
+  "response": "**Part 1:**  \nThe operator must disclose that the parent can review or have deleted the child's personal information, refuse to permit further collection or use of the child's information, and state the procedures for doing so.\n\n**Part 2:**  \nUnder COPPA, once an operator knows a user is a child, it must either delete that child’s information or provide required notices and obtain verifiable parental consent before collecting, using, or disclosing personal information. As part of that notice, the operator has to inform parents of their rights to access and delete their child’s data and to stop any further collection or use. The operator must also explain clearly how parents can exercise these rights. These requirements ensure parents have meaningful control over their child’s personal information online.",
+  "ground_truth": "The operator must disclose that the user is interacting with artificial intelligence.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:25:00.952601",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on parental rights under COPPA regarding children's personal information but does not address the requirement to disclose that the user is interacting with artificial intelligence, which is the ground truth answer.",
+  "provider": "deepseek"
+}

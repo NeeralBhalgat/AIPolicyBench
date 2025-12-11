@@ -1,0 +1,12 @@
+{
+  "query_id": 299,
+  "query": "What AI systems does the definition cover in SB 524?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Systems that auto-draft police narratives from camera footage or from dictated officer reports enhanced by generative AI.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:35:05.781923",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the classification of 'miss'. The ground truth information about the AI systems covered in SB 524 is not addressed.",
+  "provider": "deepseek"
+}

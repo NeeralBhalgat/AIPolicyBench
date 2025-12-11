@@ -1,0 +1,12 @@
+{
+  "query_id": 119,
+  "query": "What is required before an AI system can be deployed into production?",
+  "response": "A manual approval process for promoting releases is required before an AI system can be deployed into production.",
+  "ground_truth": "CAIO and SR2 Committee authorization based on risk management compliance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:17:24.075226",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions a manual approval process, which is not the specific requirement stated in the ground truth answer. The ground truth emphasizes the need for CAIO and SR2 Committee authorization based on risk management compliance, which is not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

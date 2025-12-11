@@ -1,0 +1,12 @@
+{
+  "query_id": 18,
+  "query": "How does the memo define “high-impact AI”?",
+  "response": "Part 1:  \nThe memo defines “high-impact AI” as any AI application that “could have significant impacts when deployed,” particularly when its outputs are used to make consequential decisions affecting individuals’ rights, opportunities, access to services, or safety.\n\nPart 2:  \nIn the new guidance, previously separate categories of “rights-impacting” and “safety-impacting” AI are merged into this single high-impact AI category. This focuses attention on systems whose decisions or recommendations can materially change people’s legal standing, life chances, service eligibility, or physical well-being. The memo also offers a non-exhaustive list of examples, such as AI used in critical infrastructure like medical devices or diagnostics and in biometric identification systems. When an AI system meets this high-impact threshold, agencies must apply stricter requirements, including pre-deployment testing, impact assessments, continuous monitoring, and options for human intervention.",
+  "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:27:40.406757",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the definition of 'high-impact AI' as described in the memo, emphasizing its significant effects on rights, safety, and services. It aligns well with the ground truth answer provided.",
+  "provider": "deepseek"
+}

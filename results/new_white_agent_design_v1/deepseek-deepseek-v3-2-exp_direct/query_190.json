@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:02:38.786911",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about what system owners must do with AI use cases.",
+  "provider": "deepseek"
+}

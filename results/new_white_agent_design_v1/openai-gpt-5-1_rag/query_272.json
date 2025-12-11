@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "Under SB 53, a “frontier model” is defined as a very large, general‑purpose AI system that is trained using more than 10²⁶ operations/FLOPS, encompassing pretraining as well as subsequent fine‑tuning and reinforcement learning.",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:32:29.787315",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that a frontier model is defined as a 'very large, general-purpose AI system' rather than a 'foundation model.' The definition provided does not align with the ground truth answer.",
+  "provider": "deepseek"
+}

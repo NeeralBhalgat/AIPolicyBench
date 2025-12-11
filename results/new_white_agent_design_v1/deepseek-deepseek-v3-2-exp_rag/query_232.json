@@ -1,0 +1,12 @@
+{
+  "query_id": 232,
+  "query": "Which definitions of “AI” and “GenAI” does AB 489 incorporate?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Definitions from Government Code Sections 11546.45.5 (AI) and 11549.64 (GenAI).",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:51:48.890639",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the definitions of 'AI' and 'GenAI' as incorporated in AB 489, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

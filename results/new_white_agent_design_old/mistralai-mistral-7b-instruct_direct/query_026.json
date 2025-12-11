@@ -1,0 +1,12 @@
+{
+  "query_id": 26,
+  "query": "What must be reviewed and potentially undone from EO 14110?",
+  "response": "EO 14110, also known as the \"Executive Order on Promoting Competition in the American Economy,\" was issued by President Joe Biden on July 9, 2021. The order aims to promote competition in the economy across various sectors, including technology, agriculture, healthcare, and more.\n\nTo answer your question, it's important to note that the order does not specifically address AI policy, safety, or regulation. However, it does touch on the broader technology sector, particularly in terms of promoting competition and preventing anticompetitive practices.\n\nIf there were future policy changes or executive orders related to AI, they might address some of the issues mentioned in EO 14110, such as promoting competition in the AI market, preventing anticompetitive practices, and ensuring that AI technologies are developed and used in a manner that protects consumers, workers, and the public interest.\n\nHowever, as of now, EO 14110 does not contain specific provisions that would need to be reviewed or undone in relation to AI policy, safety, or regulation. For more detailed information on AI-specific policies, one would need to look at other executive orders, legislation, or regulatory actions related to AI.",
+  "ground_truth": "Any actions inconsistent with the new policy must be suspended, revised, or rescinded.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:41.642943",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly identifies EO 14110 as related to promoting competition in the economy rather than addressing AI policy. The response fails to acknowledge that actions inconsistent with new policies must be reviewed and potentially undone, which is the core of the ground truth answer.",
+  "provider": "deepseek"
+}

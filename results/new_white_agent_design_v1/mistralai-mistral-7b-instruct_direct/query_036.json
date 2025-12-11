@@ -1,0 +1,12 @@
+{
+  "query_id": 36,
+  "query": "What infrastructure & tools will USDA stand up?",
+  "response": "I don't have enough information to specify the exact infrastructure and tools that the United States Department of Agriculture (USDA) will stand up. However, it's possible that they may establish AI-related initiatives, such as research programs, data platforms, and regulatory frameworks, to support the development and use of AI in agriculture.",
+  "ground_truth": "Semi-federated model; hub-and-spoke via USDA AI Lab (hub) + Mission Area incubators (spokes); enhance EDAPT; approved GenAI sandboxes.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:58.000731",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty about the specific infrastructure and tools the USDA will implement, which aligns with the 'miss' classification. While it suggests possible initiatives, it does not provide concrete information as outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

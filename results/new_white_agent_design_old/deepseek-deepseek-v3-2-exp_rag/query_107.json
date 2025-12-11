@@ -1,0 +1,12 @@
+{
+  "query_id": 107,
+  "query": "What is OPSLAB used for?",
+  "response": "Part 1: OPM's policy-data-oversight website is used for federal pay, leave, and holiday information.\n\nPart 2: The provided sources show that the Office of Personnel Management (OPM) maintains a section of its website dedicated to policy, data, and oversight. Specifically, one source is the official OPM page listing federal holidays, which is a key area of their oversight. This indicates the site's function is to provide authoritative government information on topics like employee pay and leave, with federal holidays being a prime example.",
+  "ground_truth": "Experimenting, developing, and assessing operational AI use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:43:40.872800",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes OPSLAB as related to federal pay, leave, and holiday information, which is not its purpose. The ground truth indicates that OPSLAB is focused on experimenting, developing, and assessing operational AI use cases, making the White Agent's claims factually incorrect.",
+  "provider": "deepseek"
+}

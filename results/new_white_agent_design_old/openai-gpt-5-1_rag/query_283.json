@@ -1,0 +1,12 @@
+{
+  "query_id": 283,
+  "query": "What new information about common data types must data brokers provide?",
+  "response": "**Part 1:**  \nThey must newly disclose whether, and how, they collect, use, and sell the four common data types that are typically used for credit‑eligibility determinations—such as consumers’ income information and similar eligibility‑related data—especially when those data are used for marketing or other non‑permissible purposes.\n\n**Part 2:**  \nUnder the proposal, data brokers that sell or use these four data types in ways that resemble credit‑eligibility uses are treated as consumer reporting agencies and therefore must be transparent about their handling of this information. This includes income data and categories or inferences like “financially challenged,” “behind on bills,” or “upscale retail card holder” that are derived from such data. Because these data have a “unique likelihood” of being used to evaluate eligibility for credit, the rule requires brokers to acknowledge and describe their role in collecting and selling them. As a result, consumers and regulators gain new visibility into what sensitive, eligibility‑related data brokers hold and how those data are deployed in advertising and other downstream uses.",
+  "ground_truth": "They must list one to three of their most commonly collected personal information types if they do not collect certain other categories.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:33:54.317425",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides detailed information about data brokers' obligations regarding credit-eligibility data, but it does not align with the ground truth answer, which specifies that brokers must list one to three of their most commonly collected personal information types. The response incorrectly focuses on credit-eligibility determinations and consumer reporting agencies, which is not the requirement stated in the ground truth.",
+  "provider": "deepseek"
+}

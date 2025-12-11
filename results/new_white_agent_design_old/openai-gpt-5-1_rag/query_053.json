@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "**Part 1:** The five key strategic goals cannot be identified from the provided excerpt of the strategy, because the relevant portions of the text are garbled and unreadable.  \n\n**Part 2:** In the material you shared, the section from the Interim National Security Strategic Guidance is rendered as binary-like, corrupted characters rather than readable prose. As a result, the part of the document that would enumerate or clearly describe the “five key strategic goals” is not visible or extractable. Without access to the legible text of that strategy, I would have to guess at the goals rather than quote or summarize them accurately, which would be unreliable. To give a precise answer using the strategy’s own language, I would need a clean, text-readable version of that document or a clear excerpt that lists the five goals.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:37:39.719405",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the five key strategic goals due to the unreadable text, which aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "deepseek"
+}

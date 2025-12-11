@@ -1,0 +1,12 @@
+{
+  "query_id": 293,
+  "query": "How long must the first AI-generated draft of a report be retained?",
+  "response": "Part 1: The provided sources do not specify a required retention period for the first AI-generated draft of a report.\n\nPart 2: The documents focus on a political and legislative debate concerning federal preemption of state-level AI regulations, not on specific record-keeping requirements. They discuss executive orders aimed at blocking state AI laws and the revocation of certain existing AI policies, but none of the cited texts mention data retention rules or timelines for AI-generated drafts. Therefore, the answer cannot be determined from the information given.",
+  "ground_truth": "For as long as the official report is retained.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:24:04.889283",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the retention period for AI-generated drafts, stating that the information cannot be determined from the provided sources. This reflects a lack of definitive knowledge rather than providing a correct answer.",
+  "provider": "deepseek"
+}

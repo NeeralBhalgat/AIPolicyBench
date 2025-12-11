@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "Based on my understanding of the Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence, it aims to clear the way for rapid AI action primarily by streamlining and coordinating federal governance. It directs agencies to create new standards and guidance, which is intended to provide a more predictable and clear regulatory environment for innovation.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:16.894650",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the Executive Order's intent by focusing on streamlining and coordinating federal governance rather than acknowledging that it revokes existing AI policies that act as barriers, which is the ground truth answer.",
+  "provider": "deepseek"
+}

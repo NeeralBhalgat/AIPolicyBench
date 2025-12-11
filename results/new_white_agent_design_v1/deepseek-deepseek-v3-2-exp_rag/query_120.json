@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:43:42.923711",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the information about TrUCKR's tracking regarding risk management, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

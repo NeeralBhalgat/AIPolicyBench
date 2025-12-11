@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "All new AI use case submissions must include an assessment of whether the use is \"rights-impacting\" or \"safety-impacting\" and report such determinations in the inventory, as required by an OMB memorandum [Source 4].",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:31.904534",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly focuses on 'rights-impacting' and 'safety-impacting' assessments, which are not part of the required elements for new AI use case submissions according to the ground truth answer. The ground truth specifies a broader set of required information, including purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "provider": "deepseek"
+}

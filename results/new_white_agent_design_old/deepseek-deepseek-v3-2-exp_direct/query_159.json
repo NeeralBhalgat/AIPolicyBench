@@ -1,0 +1,12 @@
+{
+  "query_id": 159,
+  "query": "When did NASA issue its first generative AI guidance?",
+  "response": "Based on my knowledge and available information, NASA issued its first comprehensive, agency-wide generative AI guidance in **early Fiscal Year 2024**.\n\nThe most significant document, NASA's **Generative AI Responsible Use Policy**, was formally released on **January 24, 2024**.\n\n**Key Details:**\n\n*   **Official Release:** The policy was announced in a memo from NASA's Chief Scientist, Dr. Nicky Fox, on January 24, 2024.\n*   **Public Announcement:** NASA made a public announcement about this new policy on its official website on **January 25, 2024**.\n*   **Context:** This policy was developed based on President Biden's Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence, issued in October 2023.\n*   **Scope:** This is considered NASA's first agency-wide guidance specifically focused on the responsible use of generative AI tools. It established initial guidelines for employee use while the agency develops a more detailed strategic plan.\n\n**Important Clarification:**\n\nPrior to this agency-wide policy, individual NASA centers, missions, or research groups may have had their own internal guidelines for using AI tools in specific contexts. However, the January 2024 memorandum is recognized as NASA's first official, high-level guidance on generative AI for the entire agency.",
+  "ground_truth": "May 2023.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:55:52.369184",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that NASA's first generative AI guidance was issued in early Fiscal Year 2024, while the ground truth indicates it was actually issued in May 2023.",
+  "provider": "deepseek"
+}

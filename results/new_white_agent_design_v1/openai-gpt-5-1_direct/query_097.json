@@ -1,0 +1,12 @@
+{
+  "query_id": 97,
+  "query": "What safeguards will DHS apply to AI systems to ensure cybersecurity?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "DHS will follow federal and private-sector best practices and develop additional standards to protect AI from cyberattacks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:40:46.279464",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information regarding the safeguards DHS will apply to AI systems for cybersecurity.",
+  "provider": "deepseek"
+}

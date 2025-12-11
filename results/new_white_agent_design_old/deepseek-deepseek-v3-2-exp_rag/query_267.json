@@ -1,0 +1,12 @@
+{
+  "query_id": 267,
+  "query": "What must capture device manufacturers provide starting January 1, 2028?",
+  "response": "**Part 1:** Starting January 1, 2028, capture device manufacturers must provide the Unique Device Identification (UDI) for each version or model of a device, including the device identifier portion of the UDI, when reporting to the FDA's Global Unique Device Identification Database (GUDID).\n\n**Part 2:** The FDA's Unique Device Identification regulation mandates that labelers, which include manufacturers, submit specific device identification information. This requirement involves providing details such as the device identifier portion of the UDI, and it is tied to the submission of information to the GUDID. The effective date for this mandatory submission is specified as January 1, 2028, for certain device classes, including capture devices.",
+  "ground_truth": "An option for users to embed latent disclosures, and embedded disclosures must be default.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:18:36.684569",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that capture device manufacturers must provide the Unique Device Identification (UDI) starting January 1, 2028, which does not align with the ground truth answer regarding embedded disclosures. The ground truth specifies a requirement for embedded disclosures, not UDI reporting.",
+  "provider": "deepseek"
+}

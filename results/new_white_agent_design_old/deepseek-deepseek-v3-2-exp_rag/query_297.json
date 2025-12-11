@@ -1,0 +1,12 @@
+{
+  "query_id": 297,
+  "query": "What permitted uses may vendors access AI-processed data for?",
+  "response": "Part 1: Vendors may access AI-processed data for experimentation and routine tasks that carry a low risk of impacting Americans' rights, provided they implement appropriate safeguards and risk-management practices.\n\nPart 2: The order specifies that agencies should provide their personnel and programs with access to secure and reliable generative AI capabilities for these purposes. To protect Federal Government information, agencies are encouraged to employ risk-management practices, which include negotiating appropriate terms of service with vendors. These practices are designed to ensure compliance with data protection requirements and to prevent misuse of Federal Government information in generative AI.",
+  "ground_truth": "Troubleshooting, bias mitigation, accuracy improvement, or system refinement.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:24:51.209192",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses permitted uses of AI-processed data in a general sense but does not accurately reflect the specific permitted uses mentioned in the ground truth answer, such as troubleshooting, bias mitigation, accuracy improvement, or system refinement.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "SB 361 requires that, when registering with the CPPA, data brokers “disclose whether they collect additional information, including names, dates of birth, contact details, account login credentials, government-issued IDs, mobile advertising IDs, connected TV IDs, VINs, [and] citizenship/immigration status,” and also “disclose their data sharing relationships with specific categories of third parties,” including “whether, in the past year, they shared or sold consumers’ data to a ‘foreign actor.’”",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:33:45.215271",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies some of the data types that must be disclosed, but it omits several key categories mentioned in the ground truth, such as biometric data, geolocation, and reproductive health data. Additionally, the phrasing and details about data sharing relationships are not fully aligned with the ground truth, leading to inaccuracies.",
+  "provider": "deepseek"
+}

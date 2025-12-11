@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "NASA’s AI governance board, known as the NASA AI Governance Board (NAIGB), is responsible for overseeing the ethical, safe, and responsible use of artificial intelligence within the agency. The topics for the NAIGB are typically defined by a combination of internal and external factors, including:\n\n1. **NASA Leadership and Senior Management**: High-level executives and program managers within NASA may identify key areas where AI governance is needed, such as in mission-critical systems, data privacy, or ethical considerations.\n\n2. **AI Working Groups and Task Forces**: NASA may have internal working groups or task forces dedicated to AI that help identify emerging issues and recommend topics for the governance board.\n\n3. **Stakeholder Input**: Input from scientists, engineers, ethicists, and other stakeholders within NASA may influence the topics discussed by the NAIGB.\n\n4. **External Guidance**: The board may also consider guidance from external bodies, such as the White House Office of Science and Technology Policy (OSTP), the National Institute of Standards and Technology (NIST), or other federal agencies involved in AI policy.\n\n5. **Risk Assessments and Audits**: Internal risk assessments, audits, or reviews of AI systems may highlight areas where governance is needed.\n\nWhile the exact internal group responsible for defining topics for the NAIGB is not always publicly detailed, it is likely a collaborative effort involving multiple stakeholders within NASA. For the most precise and up-to-date information, you may want to refer to NASA’s official documentation or recent announcements regarding the NAIGB.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:10:47.961744",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the internal group responsible for defining topics for NASA’s AI governance board. The correct group is the AISWG, not the various stakeholders mentioned in the response.",
+  "provider": "deepseek"
+}

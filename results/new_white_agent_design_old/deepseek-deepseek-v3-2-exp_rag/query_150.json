@@ -1,0 +1,12 @@
+{
+  "query_id": 150,
+  "query": "How will NASA handle expired use cases?",
+  "response": "Part 1: NASA will not cite, use, or rely on rescinded guidance documents, except to establish historical facts.\n\nPart 2: The provided sources state that no NASA office or Center may cite, use, or rely on guidance documents that are rescinded. The only permissible exception to this rule is for the purpose of establishing historical facts. This policy is part of NASA's formal guidance procedures, which govern the management and use of its internal directives.",
+  "ground_truth": "They will be archived.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:52:25.668453",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that NASA will not cite or use rescinded guidance documents, which does not align with the ground truth that expired use cases will be archived. The response misinterprets the handling of expired documents.",
+  "provider": "deepseek"
+}

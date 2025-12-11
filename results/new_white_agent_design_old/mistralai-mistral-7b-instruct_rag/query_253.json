@@ -1,0 +1,12 @@
+{
+  "query_id": 253,
+  "query": "What additional requirement applies if the advertisement is posted on a website controlled by the broker?",
+  "response": "<s> Part 1: If the advertisement is posted on a website controlled by the broker, the adviser must ensure that the hyperlinked third-party content is not fraudulent or deceptive under section 206 of the Act.\n\nPart 2: The adviser must consider whether the hyperlinked content contains untrue statements or misleading information, as linking to such content could be deemed fraudulent or deceptive. This requirement applies regardless of whether the content is on the adviser's own site or a third-party platform. The adviser's responsibility extends to ensuring that any linked content complies with anti-fraud provisions, even if the content is not directly created or controlled by the adviser.",
+  "ground_truth": "The unaltered version of the images must also be included in the posting or via a link.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:55:38.388158",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the adviser's responsibilities regarding fraudulent or deceptive content but does not address the requirement that the unaltered version of the images must be included in the posting or via a link, which is the ground truth answer.",
+  "provider": "deepseek"
+}

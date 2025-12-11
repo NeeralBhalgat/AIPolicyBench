@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "The question you've asked is quite broad as it doesn't specify the context of the \"order\" you're referring to. In general, for an order to create enforceable rights, it typically needs to meet certain criteria. For example, in a legal context, an order might be a court order, and for it to be enforceable, it must be issued by a court with jurisdiction, be in writing, and be served on the party against whom enforcement is sought. However, the specifics can vary depending on the jurisdiction and the type of order. If you could provide more context, I'd be happy to give a more specific answer.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:45.380575",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide a definitive answer to whether an order creates enforceable rights. It acknowledges the need for more context and does not directly address the ground truth answer.",
+  "provider": "deepseek"
+}

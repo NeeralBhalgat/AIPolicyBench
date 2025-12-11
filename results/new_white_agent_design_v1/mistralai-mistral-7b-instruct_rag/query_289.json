@@ -1,0 +1,12 @@
+{
+  "query_id": 289,
+  "query": "What new audit obligation does SB 361 create?",
+  "response": "SB 361 requires data brokers to \"audit their data sharing relationships\" to comply with new disclosure requirements, particularly regarding sharing personal information with foreign governments, AI developers, or domestic government entities.",
+  "ground_truth": "Beginning in 2028, data brokers must undergo a third-party compliance audit every three years and provide reports upon request.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:24:52.648887",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the audit obligation created by SB 361. The correct information is that beginning in 2028, data brokers must undergo a third-party compliance audit every three years, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

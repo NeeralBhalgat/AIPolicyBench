@@ -1,0 +1,12 @@
+{
+  "query_id": 275,
+  "query": "How often must a frontier developer update its frontier AI framework?",
+  "response": "At least once a year (i.e., the framework must be updated annually).",
+  "ground_truth": "At least annually, and within 30 days for material modifications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:50:03.482469",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response states that the framework must be updated at least once a year, which is partially correct. However, it fails to mention the requirement for updates within 30 days for material modifications, making the response incomplete and factually incorrect.",
+  "provider": "deepseek"
+}

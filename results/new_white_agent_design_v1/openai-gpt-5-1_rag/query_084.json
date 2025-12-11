@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "The Directive states that it “cannot — and will not — tolerate the use of AI to disadvantage those who are already too often denied equal opportunity and justice,” including AI systems that “deepen discrimination and bias,” “reproduce and intensify existing inequities,” or cause “new types of harmful discrimination” and other “harms from AI” such as “fraud,” “unintended bias,” “discrimination,” and “infringements on privacy.”",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:14:31.335158",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response includes some relevant points about discrimination and bias but does not accurately reflect the specific prohibitions outlined in the ground truth answer, such as the prohibition on solely basing law enforcement or civil actions on AI outputs and conducting unlawful mass surveillance.",
+  "provider": "deepseek"
+}

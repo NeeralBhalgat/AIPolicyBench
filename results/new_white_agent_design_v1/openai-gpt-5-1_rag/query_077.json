@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "HHS uses the **HHS Trustworthy AI (TAI) Playbook** to support and guide trustworthy AI development across the Department.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:14:11.801807",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the guiding framework as the 'HHS Trustworthy AI (TAI) Playbook', while the correct framework is the FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "provider": "deepseek"
+}

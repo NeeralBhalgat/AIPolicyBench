@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:17:18.299151",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about how often DOT must re-evaluate AI risk determinations.",
+  "provider": "deepseek"
+}

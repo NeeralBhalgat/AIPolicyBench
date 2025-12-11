@@ -1,0 +1,12 @@
+{
+  "query_id": 12,
+  "query": "Which prior OMB memo does M-25-21 replace?",
+  "response": "Based on my knowledge of U.S. AI policy and government memoranda, M-24-10 replaces OMB Memorandum M-21-06, \"Guidance for Regulation of Artificial Intelligence Applications.\"\n\n**Here are the specific details:**\n\n*   **Prior Memo:** M-21-06, \"Guidance for Regulation of Artificial Intelligence Applications.\"\n*   **Date of Prior Memo:** It was issued on November 17, 2020, during the final months of the Trump administration.\n*   **Replacement:** Memorandum M-24-10, \"Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence,\" officially supersedes and replaces M-21-06 in its entirety. This new memo was issued to implement the requirements of President Biden's landmark **Executive Order 14110, \"Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence,\"** which was signed on October 30, 2023.\n\n**Key Context:**\nM-21-06 was the U.S. government's first comprehensive policy specifically aimed at regulating AI. It was based on the ten principles originally outlined in a 2019 Executive Order (E.O. 13859). M-24-10 was developed to modernize this guidance in line with the rapid advancements in AI and the new, more comprehensive framework established by E.O. 14110.\n\n**Note on Your Question's Citation (M-25-21):**\nYou asked about M-25-21. As of my knowledge cutoff in mid-2024, the most recent and relevant OMB memo on AI is **M-24-10**. It is possible that a future memo, such as an M-25-21, could be issued, but M-24-10 is the current, operative document that replaced M-21-06. If M-25-21 is a newly issued memo, it would be essential to check its text to confirm which prior guidance it supersedes.",
+  "ground_truth": "OMB Memorandum M-24-10.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:26:59.132673",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that M-24-10 replaces M-21-06, while the question specifically asks about M-25-21. The response does not address the replacement of M-25-21 and implies that M-24-10 is the most recent memo, which may not be accurate as of December 2025.",
+  "provider": "deepseek"
+}

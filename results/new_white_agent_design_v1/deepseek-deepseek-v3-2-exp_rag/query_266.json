@@ -1,0 +1,12 @@
+{
+  "query_id": 266,
+  "query": "What is the requirement beginning January 1, 2027, for GenAI system hosting platforms?",
+  "response": "Beginning January 1, 2027, a GenAI hosting platform must not knowingly make available a GenAI system unless it provides users with the option to include a manifest disclosure and it includes a latent disclosure in AI-generated content.",
+  "ground_truth": "They must not make available any GenAI system that does not place required disclosures.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:54:19.243043",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement for GenAI hosting platforms to provide necessary disclosures, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

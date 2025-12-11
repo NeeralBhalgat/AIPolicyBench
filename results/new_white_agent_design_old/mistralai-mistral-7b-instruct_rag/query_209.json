@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "<s> Part 1: Analyzing tone or facial expressions in online interviews may discriminate against employees or applicants based on race, national origin, gender, disability, or other protected characteristics.\n\nPart 2: The regulations explicitly state that an automated decision system (ADS) that evaluates an applicant’s or employee’s tone of voice, facial expressions, or other physical characteristics or behavior could lead to unlawful discrimination. This is because such analyses may disproportionately impact individuals with disabilities or those from protected groups, such as race, national origin, or gender. To comply with the Fair Employment and Housing Act (FEHA), employers must ensure their ADS does not create disparate impact or treatment, potentially requiring reasonable accommodations for affected individuals.",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:49:26.766598",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the risk of discrimination based on protected characteristics when automated systems analyze tone or facial expressions, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

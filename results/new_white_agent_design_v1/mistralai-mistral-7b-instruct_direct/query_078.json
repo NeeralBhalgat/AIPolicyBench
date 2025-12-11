@@ -1,0 +1,12 @@
+{
+  "query_id": 78,
+  "query": "What are some key risks identified in AI for health and human services?",
+  "response": "Key risks in AI for health and human services include data privacy and security concerns, algorithmic bias leading to inequitable outcomes, and the potential for over-reliance on AI systems, which may reduce human oversight and judgment. Additionally, there are risks related to the lack of transparency in AI decision-making processes, which can undermine trust and accountability.",
+  "ground_truth": "Bias, inaccurate outputs, privacy breaches, misuse of data, inequity, and over-reliance without human oversight.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:52.062648",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies key risks associated with AI in health and human services, including data privacy, algorithmic bias, over-reliance on AI, and lack of transparency, which align with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "Part 1: System owners must report, share, and publish their AI use cases with other government agencies and the public.\n\nPart 2: According to the sources, system owners are required to identify their AI use cases and submit them for consolidation in the Federal AI Use Case Inventory. This inventory is made available to the public and other government agencies, demonstrating transparency in the use of AI for the public good. The Director of the Office of Management and Budget (OMB) issues instructions for the collection, reporting, and publication of this information. If an AI system does not comply with the required risk management practices by December 1, 2024, agencies must stop using it.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:32.348637",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the requirements for system owners regarding AI use cases. The ground truth specifies that all use cases must be reported to the AI Safety Team, while the White Agent mentions reporting to the Federal AI Use Case Inventory, which is not aligned with the ground truth. Additionally, the details about the OMB and risk management practices are not relevant to the core requirement stated in the ground truth.",
+  "provider": "deepseek"
+}

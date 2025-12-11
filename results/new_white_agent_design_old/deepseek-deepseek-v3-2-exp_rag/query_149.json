@@ -1,0 +1,12 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "response": "Part 1: Use case owners must ensure that prior entries are reviewed and updated to reflect the current status of the project.\n\nPart 2: The requirement exists because prior entries must be accurate and current to maintain the integrity of the record. This involves a review process where use case owners are responsible for verifying the information. The update is necessary to ensure that the data reflects any changes or the present condition of the project.",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:52:20.829079",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the need for reviewing and updating prior entries but does not specifically mention the requirement to update entries in the new AI registry, which is the ground truth answer.",
+  "provider": "deepseek"
+}

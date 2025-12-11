@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "**Part 1:**  \nThe law that protects taxpayer information that AI systems must follow is **26 U.S.C. § 6103, “Confidentiality and disclosure of returns and return information.”**\n\n**Part 2:**  \nSection 6103 of the Internal Revenue Code establishes that federal tax “returns and return information” are confidential and strictly limits when and how they may be disclosed. It defines narrow exceptions, such as disclosures to law enforcement for certain non-tax criminal laws, emergency circumstances, and to persons designated by the taxpayer. The related regulation, 26 C.F.R. § 301.6103(c)-1, further details how taxpayer consent for disclosure must be obtained and documented. Any AI system that accesses, processes, or uses federal tax returns or return information must operate within these confidentiality and disclosure rules.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:53:05.536320",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies 26 U.S.C. § 6103 as the law protecting taxpayer information, and provides a detailed explanation of its provisions and implications for AI systems, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

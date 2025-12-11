@@ -1,0 +1,12 @@
+{
+  "query_id": 195,
+  "query": "What must all new AI use case submissions include?",
+  "response": "**Part 1:**  \nThe provided information does not specify what all new AI use case submissions must include.\n\n**Part 2:**  \nThe only relevant mention is an “Artificial Intelligence (AI) Use Case Inventory” associated with the U.S. Government Publishing Office, but the excerpt offers no details about submission requirements. None of the quoted passages describe required fields, documentation, or content for new AI use case submissions. Without that explicit language, it is not possible to accurately list what must be included in such submissions based on this context alone. Any attempt to do so would be speculative and not grounded in the provided sources.",
+  "ground_truth": "Purpose, expected benefit, creator, environment, metrics, risks, and required data.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:12:00.319523",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the specific requirements for new AI use case submissions, stating that it cannot accurately list what must be included based on the provided information. This aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "deepseek"
+}

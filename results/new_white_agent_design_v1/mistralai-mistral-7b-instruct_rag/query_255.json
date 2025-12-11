@@ -1,0 +1,12 @@
+{
+  "query_id": 255,
+  "query": "Define “digitally altered image” under AB 723.",
+  "response": "A \"digitally altered image\" under AB 723 means an image created by or at the direction of a real estate broker, salesperson, or someone acting on their behalf, that has been altered through photo editing software or artificial intelligence to add, remove, or change elements in the image, such as fixtures, furniture, appliances, flooring, walls, paint color, hardscape, landscape, façade, floor plans, and elements outside of or visible from the property (Source 2).",
+  "ground_truth": "An image edited using photo software or AI to add, remove, or change elements such as fixtures, furniture, landscape, or visible surroundings.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:21:43.088408",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately defines a 'digitally altered image' under AB 723, aligning with the ground truth by specifying that it involves alterations made through photo editing software or AI to various elements of an image.",
+  "provider": "deepseek"
+}

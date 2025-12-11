@@ -1,0 +1,12 @@
+{
+  "query_id": 270,
+  "query": "How is the number of violations counted for ongoing noncompliance?",
+  "response": "**Part 1:** For ongoing noncompliance, the underlying event is counted as a single violation, and the permittee/discharger “will continue to be listed on the NNCR until the violation(s) is documented as being corrected,” rather than creating a new violation record for each period the noncompliance continues.  \n\n**Part 2:** Once an ongoing violation is identified (for example, a missed construction deadline or a failure to comply fully with an enforcement order), it remains an open violation in the system. If the permittee is on an enforceable schedule and is meeting its interim requirements with no “new, additional violation(s),” the status is reported as “resolved pending,” but the same violation continues to be tracked until fully corrected. This approach means the violation is not re‑counted each quarter or reporting cycle; instead, its duration is reflected by keeping it on the NNCR. Only if there are new or additional instances of noncompliance are additional violations counted.",
+  "ground_truth": "Each day in violation is treated as a separate violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:31:22.210283",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that ongoing violations are counted as a single violation and are not re-counted, while the ground truth indicates that each day in violation is treated as a separate violation.",
+  "provider": "deepseek"
+}

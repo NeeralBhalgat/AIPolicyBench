@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "Part 1: The risk is that these systems may constitute unlawful disparate treatment or have an unlawful adverse impact on individuals with certain disabilities or other protected characteristics.\n\nPart 2: Automated systems that analyze traits like tone or facial expressions can effectively measure an individual's abilities or characteristics. This poses a significant risk of discriminating against people with disabilities that affect their speech, expression, or physical reactions. Such systems could unlawfully screen out qualified individuals based on these protected traits rather than on their actual job skills or eligibility for benefits.",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:08:02.332677",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the risk of unlawful disparate treatment and discrimination against individuals with disabilities, aligning with the ground truth that these systems may discriminate based on protected characteristics.",
+  "provider": "deepseek"
+}

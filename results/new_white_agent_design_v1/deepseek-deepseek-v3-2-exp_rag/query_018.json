@@ -1,0 +1,12 @@
+{
+  "query_id": 18,
+  "query": "How does the memo define “high-impact AI”?",
+  "response": "Based on the sources, \"high-impact AI\" is defined as any AI application that \"could have significant impacts when deployed,\" particularly when its outputs serve as a basis for consequential decisions impacting individuals' rights, opportunities, access to services, or safety.",
+  "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:34:49.026983",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of the definition of 'high-impact AI' as it relates to significant impacts on rights, opportunities, and safety, aligning closely with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:16:42.101313",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

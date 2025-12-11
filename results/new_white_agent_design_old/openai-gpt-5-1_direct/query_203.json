@@ -1,0 +1,12 @@
+{
+  "query_id": 203,
+  "query": "Under §11008(e)(5), are individuals in non-profit sheltered workshops employees?",
+  "response": "I’m not able to answer that question definitively without more context, because “§",
+  "ground_truth": "No, they are not considered employees.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:00:39.828831",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty and does not provide a definitive answer to the question, indicating a lack of knowledge about the specifics of §11008(e)(5).",
+  "provider": "deepseek"
+}

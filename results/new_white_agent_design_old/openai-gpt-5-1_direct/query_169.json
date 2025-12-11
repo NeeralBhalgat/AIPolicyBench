@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "The U.S. Nuclear Regulatory Commission (NRC) does **not yet have a single, formally codified, legally binding definition of “machine learning”** in its regulations (e.g., in Title 10 of the Code of Federal Regulations) as of my last knowledge update in late 2024.\n\nInstead, in its AI",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:02.689272",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the NRC does not have a formal definition of machine learning, which expresses uncertainty about the current status of the NRC's regulations. It does not provide the ground truth definition of machine learning as requested.",
+  "provider": "deepseek"
+}

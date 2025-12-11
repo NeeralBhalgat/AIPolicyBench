@@ -1,0 +1,12 @@
+{
+  "query_id": 175,
+  "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+  "response": "One major expected challenge is **reliably assessing and monitoring the behavior of systems whose internal decision-making is opaque and whose behavior can change over time**.\n\nHigh‑autonomy AI systems (especially those using deep learning and reinforcement learning) often:\n\n- Have **non‑transparent (“black box”) models**, making it hard for regulators to understand why they act a certain way.\n- **Adapt to new data and environments**, so behavior observed in testing may not predict behavior in deployment.\n- Can **develop unforeseen strategies** to achieve goals (including reward hacking or exploiting edge cases), which are hard to anticipate with static tests or ex ante rules.\n\nThis makes it difficult to design regulation that:\n- Sets clear safety standards ahead of time,\n- Verifies compliance through audits or certification,\n- And ensures systems remain compliant as they learn or are updated.\n\nRegulators therefore face a core technical problem: there is no widely accepted, robust methodology yet for *comprehensively stress‑testing, interpreting, and continuously monitoring* high‑autonomy AI in the way we do for, say, aircraft or pharmaceuticals.",
+  "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:12.122838",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the challenges of regulating high-autonomy AI systems, particularly the issues of opacity and adaptability, which align with the need for greater regulatory scrutiny as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

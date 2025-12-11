@@ -1,0 +1,12 @@
+{
+  "query_id": 187,
+  "query": "What is one major duty of the Chief AI Officer (CAIO)?",
+  "response": "One major duty of the Chief AI Officer (CAIO) is to oversee the ethical and responsible development, deployment, and governance of AI systems within an organization. This includes ensuring that AI initiatives align with the company's values, comply with relevant regulations, and mitigate potential risks such as bias, privacy concerns, and unintended consequences. The CAIO typically works across departments to establish AI governance frameworks, set ethical guidelines, and promote transparency and accountability in AI decision-making processes.",
+  "ground_truth": "Maintain awareness of all AI activities and how systems work within GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:17.310155",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed description of the duties of a Chief AI Officer, focusing on ethical and responsible AI governance. However, it does not align with the ground truth answer, which specifies a duty related to maintaining awareness of AI activities within the GSA. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

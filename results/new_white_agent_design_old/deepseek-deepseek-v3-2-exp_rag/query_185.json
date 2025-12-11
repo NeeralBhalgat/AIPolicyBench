@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "Part 1: The directive applies to actors, such as health care providers, health information networks, and health information exchanges.\n\nPart 2: The regulations are designed to prevent information blocking, which occurs when these actors interfere with the access, exchange, or use of electronic health information. This framework works in concert with existing HIPAA rules, which grant individuals a right of access to their health information held by covered entities like clinical laboratories. The rules ensure that these actors fulfill requests for access and exchange.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:02:13.935322",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the actors to whom the directive applies, focusing on health care providers and networks instead of the correct entities, which are GSA employees, contractors, and IT systems.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 22,
+  "query": "What policy goal does the order set for the United States?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:35:01.907382",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the policy goal, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

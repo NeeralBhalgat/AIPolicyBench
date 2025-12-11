@@ -1,0 +1,12 @@
+{
+  "query_id": 285,
+  "query": "What penalties apply if a data broker fails to register?",
+  "response": "Part 1: A failure to register could result in enforcement actions leading to fines and penalties.\n\nPart 2: The provided sources indicate that laws and regulations governing such entities are continually evolving. Enforcement actions under these laws are a direct consequence of non-compliance. These enforcement actions can specifically result in fines and penalties, as well as litigation and increased compliance expenses.",
+  "ground_truth": "$200 per day in fines plus owed fees and investigative costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:22:27.102287",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions fines and penalties but does not specify the amount of $200 per day in fines as stated in the ground truth. Therefore, while it acknowledges potential consequences, it does not provide the correct factual information.",
+  "provider": "deepseek"
+}

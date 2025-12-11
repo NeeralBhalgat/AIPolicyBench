@@ -1,0 +1,12 @@
+{
+  "query_id": 205,
+  "query": "What is excluded from the definition of Automated-Decision Systems under §11008.1(a)(2)?",
+  "response": "Under §11008.1(a)(2) of the U.S. Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence, the following are excluded from the definition of Automated Decision Systems (ADS):\n\n1. **Automated Decision Systems that are not used to make decisions that significantly affect individuals' rights, opportunities, or access to critical resources or services.**\n   - This exclusion applies to systems that do not have a substantial impact on individuals' lives, such as minor or non-critical decision-making processes.\n\n2. **Automated Decision Systems that are used solely for internal business operations and do not interact with individuals or affect their rights, opportunities, or access to critical resources or services.**\n   - This includes systems used for internal administrative tasks, data processing, or other non-public-facing functions that do not directly impact individuals.\n\n3. **Automated Decision Systems that are used solely for research and development purposes and are not deployed in operational environments.**\n   - Systems in the testing or development phase that are not yet used in real-world decision-making are excluded.\n\nThese exclusions help narrow the scope of the regulation to focus on ADS that have the most significant potential to affect individuals' rights and opportunities.",
+  "ground_truth": "Software like word processing, spreadsheets, navigation, or similar tools that do not make employment decisions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:10.876605",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides exclusions that do not align with the ground truth answer, which specifically mentions software tools like word processing and spreadsheets that do not make employment decisions. The exclusions listed by the White Agent are broader and do not accurately reflect the specific exclusions stated in the ground truth.",
+  "provider": "deepseek"
+}

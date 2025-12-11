@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "The foundation of the DoD AI Hierarchy of Needs is the establishment of a robust and secure data infrastructure, which is essential for supporting all higher-level AI capabilities and applications.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:21.338964",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly emphasizes a 'robust and secure data infrastructure' as the foundation, while the ground truth specifies the need for quality data characterized by the VAULTIS criteria, which includes visibility, accessibility, understandability, linkage, trustworthiness, interoperability, and security.",
+  "provider": "deepseek"
+}

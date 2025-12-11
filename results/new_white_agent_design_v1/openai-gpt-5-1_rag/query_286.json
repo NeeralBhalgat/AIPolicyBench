@@ -1,0 +1,12 @@
+{
+  "query_id": 286,
+  "query": "What specific data categories are prohibited from being publicly posted by the Agency?",
+  "response": "The Agency may not publicly post information in PIAs that would “raise security concerns, reveal classified (i.e., national security) information, or sensitive (e.g., potentially damaging to a nation interest, law enforcement effort or competitive business interest)” information.",
+  "ground_truth": "Consumer names, DOBs, ZIP Codes, phone numbers, mobile/CTV IDs, VINs, and common data types collected.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:34:08.932579",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses security concerns and classified information but does not accurately list the specific data categories prohibited from being publicly posted, as outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 275,
+  "query": "How often must a frontier developer update its frontier AI framework?",
+  "response": "The Permitting Council, in consultation with the White House Task Force on AI Datacenter Infrastructure, shall endeavor to engage small developers of AI infrastructure.\n\nThe context indicates that the Permitting Council, along with the White House Task Force on AI Datacenter Infrastructure, is focused on engaging with small developers of AI infrastructure. This suggests that the framework for frontier AI development is being actively managed and updated, likely on a regular basis to ensure compliance and alignment with federal guidelines. The engagement with small developers implies that updates to the framework may be frequent to address emerging needs and technological advancements in the field.",
+  "ground_truth": "At least annually, and within 30 days for material modifications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:58:45.841224",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide a specific frequency for updating the frontier AI framework, which is at least annually and within 30 days for material modifications. Instead, it discusses the engagement of small developers without addressing the actual requirement for updates, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

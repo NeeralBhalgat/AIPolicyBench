@@ -1,0 +1,11 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:05:19.206810",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

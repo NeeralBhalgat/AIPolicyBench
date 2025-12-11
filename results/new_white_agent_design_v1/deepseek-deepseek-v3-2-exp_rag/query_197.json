@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "Based on the provided sources, there is no clear, direct evidence specifying requirements for AI code developed internally.\n\nI don't have enough information to answer this question.",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:49:29.763577",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty and admits to not having enough information to answer the question, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

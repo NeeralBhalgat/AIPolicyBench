@@ -1,0 +1,12 @@
+{
+  "query_id": 226,
+  "query": "Does AB 316 allow defendants to present evidence of comparative fault of others?",
+  "response": "Part 1: Yes, AB 316 allows defendants to present evidence of the comparative fault of others, including employers and coworkers.\n\nPart 2: The bill specifically provides that a defendant is not liable for negligence if the plaintiff's employer or a coworker was at fault, and it allows the defendant to present evidence of this comparative fault. This means the defendant can introduce evidence showing that the injury was caused by the fault of the plaintiff's employer or a fellow employee. The purpose is to prevent the defendant from being held liable for damages caused by others who are already immune from suit under workers' compensation laws.",
+  "ground_truth": "Yes, they may present evidence of comparative fault of any other person or entity.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:11:00.000414",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the provisions of AB 316, stating that defendants can present evidence of comparative fault of others, including employers and coworkers, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

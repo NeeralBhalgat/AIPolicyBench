@@ -1,0 +1,12 @@
+{
+  "query_id": 288,
+  "query": "What ongoing restrictions apply after a consumer submits a deletion request?",
+  "response": "Part 1: Businesses must substantively respond to a consumer's deletion request within 45 calendar days, though they can extend the deadline by another 45 days if they notify the consumer.\n\nPart 2: The primary ongoing restriction is the mandatory response timeframe. After receiving a request, a business must confirm receipt within 10 business days and provide a substantive response within 45 calendar days. This deadline can be extended once by an additional 45 days, for a maximum of 90 days total, provided the business notifies the consumer of the extension. However, the sources also indicate that a business may deny a deletion request for specific reasons, such as if the information was not collected directly from the consumer.",
+  "ground_truth": "Data brokers cannot sell or share new personal information unless the consumer permits or exceptions apply.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:22:29.399722",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on the response timeframe for deletion requests but does not address the ongoing restrictions related to the sale or sharing of personal information, which is the core aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

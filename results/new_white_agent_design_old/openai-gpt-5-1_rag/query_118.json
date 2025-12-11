@@ -1,0 +1,12 @@
+{
+  "query_id": 118,
+  "query": "What happens if an AI use case becomes non-compliant with risk management requirements?",
+  "response": "**Part 1:** Because the AI RMF is “risk-based, outcome-focused, voluntary, and non-prescriptive,” a use case that becomes non‑compliant with its risk management requirements does not face prescribed penalties in the Framework itself but instead signals that its risks are not being “better manage[d]… for their intended use cases or scenarios.”  \n\n**Part 2:** The Framework is intended as voluntary guidance to “better manage AI risks for their intended use cases or scenarios,” not as a set of enforceable, one‑size‑fits‑all requirements. If an AI use case diverges from the Framework’s recommended outcomes and approaches, the consequence within the RMF context is essentially that the organization is no longer effectively managing risk in line with its trustworthiness goals. Organizations are expected to use the RMF as part of their broader enterprise risk management, so they would typically reassess, redesign, or restrict the use case to realign with desired outcomes. Any formal sanctions or legal consequences would come, if at all, from external laws, regulations, or internal company policies, not from the AI RMF itself.",
+  "ground_truth": "It must suspend operations and revert to a non-AI process until compliance is restored.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:51:30.171037",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the consequences of non-compliance with risk management requirements. The ground truth states that operations must be suspended and reverted to a non-AI process until compliance is restored, which is not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

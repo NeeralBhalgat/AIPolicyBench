@@ -1,0 +1,12 @@
+{
+  "query_id": 245,
+  "query": "What protocol must an operator maintain before allowing a companion chatbot to engage with users?",
+  "response": "**Part 1:**  \nAn operator must establish and maintain protocols to address suicide and self-harm before allowing a companion chatbot to engage with users.  \n\n**Part 2:**  \nThe new law requires companies running AI companion chatbots to have clear, concrete procedures for how the system responds to suicide and self-harm risks. These protocols must include ways of directing users to appropriate crisis resources and documenting how often crisis-prevention notifications are provided. Operators are also required to share these protocols, along with related statistics, with the state’s Department of Public Health. This ensures there is both a prevention framework in place and oversight of how effectively it is being used.",
+  "ground_truth": "A protocol preventing production of suicidal ideation, suicide, or self-harm content, including crisis referral notifications.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:24:52.690968",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately addresses the need for protocols related to suicide and self-harm, aligning with the ground truth answer. It details the requirements for crisis resource referrals and documentation, which are essential components of the protocols that must be maintained by operators.",
+  "provider": "deepseek"
+}

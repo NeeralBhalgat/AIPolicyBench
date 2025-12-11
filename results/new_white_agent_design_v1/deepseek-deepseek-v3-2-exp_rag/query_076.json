@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "Based on the sources, the Plan aims to improve people's lives by helping the Federal government \"more effectively deliver services to the American people\" and by using AI to \"improve the rule-making process.\"",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:39:47.098029",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not align with the ground truth answer, which includes specific opportunities like accelerating scientific breakthroughs and improving clinical outcomes. Instead, it focuses on government service delivery and rule-making, which are not part of the identified opportunities.",
+  "provider": "deepseek"
+}

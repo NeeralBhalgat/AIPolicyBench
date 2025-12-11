@@ -1,0 +1,12 @@
+{
+  "query_id": 43,
+  "query": "What does the AI RMF identify as the key characteristics of trustworthy AI?",
+  "response": "The AI RMF identifies seven key characteristics of trustworthy AI: explainable and interpretable, accountable and transparent, fair with harmful bias managed, safe, secure and resilient, privacy-enhanced, and valid and reliable. (Source 5)",
+  "ground_truth": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:06:47.987603",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the seven key characteristics of trustworthy AI as identified by the AI RMF, matching the ground truth answer in both content and order.",
+  "provider": "deepseek"
+}

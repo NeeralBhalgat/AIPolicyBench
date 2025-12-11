@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "Part 1: The Department’s Emerging Technology Board (ETB) and an AI governance working group worked with the Chief AI Officer to review and consolidate component submissions and finalize the full DOJ inventory.\n\nPart 2: According to the Department of Justice's AI inventory documentation, representatives from the Department’s Emerging Technology Board (ETB) and an AI governance working group were directly involved in the review process. They worked collaboratively with the Chief AI Officer to consolidate submissions from all 42 components. This multi-layered review by both technical and non-technical leaders was undertaken to ensure the final inventory was accurate, comprehensive, and transparent.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:46:36.149733",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the reviewing bodies as the Department’s Emerging Technology Board and an AI governance working group, while the ground truth states that the CDAO team is responsible for reviewing AI use case inventory entries.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "Data is readied for AI through preprocessing steps such as resizing images, normalizing pixel values, augmenting the dataset, and splitting the data into training, validation, and test sets, as well as preparing data to provide more context about your model to reduce ambiguity and improve relevance and accuracy for AI systems.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:10:26.730651",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response includes relevant preprocessing steps for preparing data for AI, it does not address critical aspects mentioned in the ground truth, such as data catalog metadata, classification, quality metrics, and securing access to PII. Therefore, it lacks completeness and accuracy in relation to the ground truth.",
+  "provider": "deepseek"
+}

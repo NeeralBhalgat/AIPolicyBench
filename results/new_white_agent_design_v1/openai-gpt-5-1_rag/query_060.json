@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "The strategy emphasizes advancing talent management initiatives to create “a more diverse and effective cyber workforce” and, through this, to “foster the most capable and dominant force in the world.”",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:12:26.961577",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on creating a diverse and effective cyber workforce but does not mention the specific need to hire, train, and retain skilled workers in digital and AI-related roles, which is a key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

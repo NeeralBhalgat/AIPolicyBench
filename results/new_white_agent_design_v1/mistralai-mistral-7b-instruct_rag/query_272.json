@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "A \"frontier model\" is defined as one trained using more than 10²⁶ FLOPS, encompassing pretraining as well as subsequent fine-tuning and reinforcement learning (Source 4).",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:27.631661",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately defines a 'frontier model' as one trained using more than 10²⁶ FLOPS, which aligns with the ground truth answer that specifies it includes fine-tuning as well.",
+  "provider": "deepseek"
+}

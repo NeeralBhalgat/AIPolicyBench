@@ -1,0 +1,12 @@
+{
+  "query_id": 234,
+  "query": "What enforcement power may a health care licensing board use under Section 4999.9(a)(2)?",
+  "response": "The appropriate health care professional licensing board may pursue an injunction or restraining order to enforce the provisions of this chapter, as authorized by Section 125.5 of the Business and Professions Code. [Source 4]",
+  "ground_truth": "They may pursue an injunction or restraining order.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:53.450340",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that the health care professional licensing board may pursue an injunction or restraining order, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 22,
+  "query": "What policy goal does the order set for the United States?",
+  "response": "Part 1: The order sets the policy goal for the United States government that \"there are only two genders: male and female.\"\n\nPart 2: This policy was announced as part of a new official government stance intended to end the policy of socially engineering race and gender into public and private life. The goal is to forge a society that is colorblind and merit-based, moving away from what was described as radical political theories and social experiments. This declaration was made as a definitive policy shift for the federal government.",
+  "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:25:06.115584",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the policy goal as being related to gender and race, which does not align with the ground truth answer regarding AI policy and global dominance. The claims made are factually incorrect and do not reflect the actual policy goals set for the United States.",
+  "provider": "deepseek"
+}

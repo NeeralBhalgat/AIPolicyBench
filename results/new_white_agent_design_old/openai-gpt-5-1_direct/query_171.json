@@ -1,0 +1,12 @@
+{
+  "query_id": 171,
+  "query": "What regulatory principle guides the NRC’s approach to AI readiness?",
+  "response": "The U.S. Nuclear Regulatory Commission’s approach to AI readiness is guided primarily by its longstanding **risk‑informed, performance‑based regulatory principle**.\n\nIn practice, this means the NRC aims to:\n\n- Evaluate AI systems based on their **risk significance and safety impact**, not just the fact that they use AI.\n- Focus on **performance outcomes and safety objectives**, rather than prescribing specific technologies or design choices.\n- Maintain a **technology‑neutral** stance, applying existing safety, security, and reliability standards to AI-enabled systems as appropriate.\n\nTo my knowledge, NRC documents on AI (e.g., its AI strategy/AI readiness planning) explicitly anchor AI oversight in this risk‑informed, performance‑based regulatory framework.",
+  "ground_truth": "The agency’s Principles of Good Regulation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:57:59.078336",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the guiding principle for the NRC's approach to AI readiness as 'risk-informed, performance-based regulatory principle' instead of the correct 'Principles of Good Regulation'. This indicates a factual inaccuracy.",
+  "provider": "deepseek"
+}

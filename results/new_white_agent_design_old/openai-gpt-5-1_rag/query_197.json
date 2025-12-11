@@ -1,0 +1,12 @@
+{
+  "query_id": 197,
+  "query": "What is required for AI code developed internally?",
+  "response": "**Part 1:**  \nAI code developed internally by Federal agencies is required to undergo “external testing for AI, including AI red‑teaming for generative AI,” consistent with the required minimum risk‑management practices for Government uses of AI that impact people’s rights or safety.  \n\n**Part 2:**  \nThe policy directs that Federal uses of AI—regardless of whether the code is built in‑house—must follow minimum risk‑management practices such as assessing data quality, mitigating disparate impacts and algorithmic discrimination, providing notice of AI use, continuously monitoring deployed systems, and enabling human remedies for adverse AI‑driven decisions. For AI developed internally, agencies must also subject systems to independent external testing and AI red‑teaming, especially for generative models, rather than relying only on internal checks. This combination of structured risk management and outside testing is intended to surface security, safety, and rights‑related risks before and after deployment. The same framework also supports ongoing evaluation so that internally developed AI remains safe and trustworthy over time.",
+  "ground_truth": "It must be shared internally and open-sourced unless restricted.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:13:09.897392",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses external testing and risk management practices for AI developed internally, which is not aligned with the ground truth answer that states the requirement is for the code to be shared internally and open-sourced unless restricted. The response does not address the open-sourcing requirement and instead focuses on testing and risk management, making it factually incorrect.",
+  "provider": "deepseek"
+}

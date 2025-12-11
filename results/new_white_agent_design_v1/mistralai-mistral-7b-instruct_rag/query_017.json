@@ -1,0 +1,12 @@
+{
+  "query_id": 17,
+  "query": "What must agencies do regarding generative AI policy, and by when?",
+  "response": "Agencies must comply with federal policies while keeping up with the rapidly evolving technology of generative AI, as their use of it increased ninefold from 2023 to 2024. [Source 2]",
+  "ground_truth": "Develop an agency policy establishing acceptable use and safeguards within 270 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:13.275499",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not address the specific requirement for agencies to develop a policy within 270 days, which is the key aspect of the ground truth answer. Instead, it focuses on compliance and the increase in generative AI use, which is not relevant to the question asked.",
+  "provider": "deepseek"
+}

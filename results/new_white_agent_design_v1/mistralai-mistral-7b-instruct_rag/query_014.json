@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "Every agency must designate a \"head\" by the time of its establishment, as defined in the sources. This \"head\" includes the chairman, director, or other presiding officer, and may also include other members or commissioners with supervisory responsibilities.",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:04.292646",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that every agency must designate a 'head' at the time of its establishment, rather than specifying the requirement for a Chief AI Officer within 60 days of issuance, which is the correct information.",
+  "provider": "deepseek"
+}

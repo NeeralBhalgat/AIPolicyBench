@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "Partnerships with international regulators will promote good regulatory practices internationally and support significant, cross-cutting international regulatory cooperation activities, such as the work of regulatory cooperation councils.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:15:54.825977",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not directly address the specific aspects of information sharing, benchmarking, and collaboration on AI standards and best practices mentioned in the ground truth answer. While it discusses regulatory cooperation, it lacks the detail needed to fully align with the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 202,
+  "query": "Under §11008(c), who is considered an “Applicant”?",
+  "response": "<s> [OUT] Part 1: Under §11008(c), an \"Applicant\" is defined as a natural person who applies to a creditor for a home mortgage loan or a home improvement loan.\n\nPart 2: The definition specifies that the applicant must be a natural person, excluding entities like corporations, partnerships, or trusts. This aligns with the requirement to report the applicant's ethnicity, race, and sex, which are not applicable when the applicant is not a natural person. The context emphasizes that the applicant must be an individual seeking a home mortgage or home improvement loan, ensuring that the data collected pertains to personal demographic information. [/OUT]",
+  "ground_truth": "Individuals who file an application or indicate a desire to be considered for employment, including those deterred by discriminatory practices.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:48:42.231986",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly defines an 'Applicant' in the context of §11008(c) as a natural person applying for a home mortgage or home improvement loan, while the ground truth specifies that it includes individuals who file an application for employment, which is a broader definition that encompasses more than just loan applications.",
+  "provider": "deepseek"
+}

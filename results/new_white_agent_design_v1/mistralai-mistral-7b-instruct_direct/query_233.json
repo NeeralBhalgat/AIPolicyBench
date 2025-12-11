@@ -1,0 +1,12 @@
+{
+  "query_id": 233,
+  "query": "Who has jurisdiction over violations of AB 489’s provisions?",
+  "response": "AB 489, the California Artificial Intelligence Act, grants enforcement authority to the California Attorney General's office for violations of its provisions. However, for specific details and interpretations, it's best to refer to the official text of the law or consult with legal experts.",
+  "ground_truth": "The appropriate health care professional licensing board or enforcement agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:38.983605",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the California Attorney General's office has enforcement authority over violations of AB 489, while the ground truth indicates that the appropriate health care professional licensing board or enforcement agency holds that jurisdiction.",
+  "provider": "deepseek"
+}

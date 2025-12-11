@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "Part 1:  \nIt aims to better manage risks to individuals, organizations, and society associated with artificial intelligence by improving the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI systems.\n\nPart 2:  \nThe framework is intended for voluntary use by agencies to structure how they identify, assess, and mitigate AI risks throughout the AI lifecycle. By embedding trustworthiness criteria—such as safety, reliability, and respect for privacy and civil rights—into AI design and operations, it helps ensure that AI systems are responsible and accountable. Federal departments monitor updates to this framework and related best practices and integrate them into their internal AI assessments, including for potentially high-impact AI. In doing so, they align AI risk management with broader federal cybersecurity and privacy risk management practices.",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:46:01.445712",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides a detailed description of the DHS’s AI Risk Management Framework, it does not accurately reflect the ground truth answer, which emphasizes evaluating AI use cases early in their lifecycle and assisting implementers in risk mitigation. The response focuses more on trustworthiness and broader integration into federal practices, which diverges from the specific aim of the framework.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:55:16.509766",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the civil penalty for violating the act.",
+  "provider": "deepseek"
+}

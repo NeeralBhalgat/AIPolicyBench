@@ -1,0 +1,12 @@
+{
+  "query_id": 91,
+  "query": "What is the main purpose of DHS Policy Statement 139-06?",
+  "response": "Part 1: DHS Policy Statement 139-06 establishes that DHS systems, programs, and activities using AI must conform to Executive Order 13960 and comply with the U.S. Constitution and all applicable laws and policies.\n\nPart 2: The policy ensures that AI acquisition and use within DHS align with federal guidelines, emphasizing trustworthy AI practices. It mandates adherence to legal and constitutional standards, reinforcing accountability and ethical considerations in AI deployment. This framework supports consistent and lawful AI integration across DHS operations.",
+  "ground_truth": "To guide all DHS Components on the responsible acquisition and use of Artificial Intelligence (AI) and Machine Learning (ML) technologies.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:33:31.545656",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the main purpose of DHS Policy Statement 139-06, which is to guide the responsible acquisition and use of AI within DHS, aligning with federal guidelines and legal standards.",
+  "provider": "deepseek"
+}

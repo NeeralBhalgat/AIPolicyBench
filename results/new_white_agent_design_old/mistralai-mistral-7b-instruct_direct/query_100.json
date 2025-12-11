@@ -1,0 +1,12 @@
+{
+  "query_id": 100,
+  "query": "When must DHS complete its formal AI Directive and Instruction?",
+  "response": "The DHS (Department of Homeland Security) AI Directive and Instruction do not have a specific completion date that is publicly disclosed. The AI Directive 21-01, issued on March 26, 2021, outlines the establishment of the DHS Artificial Intelligence Strategy and the creation of the AI Strategy Team. The Instruction is expected to provide guidance on the implementation of the AI Strategy, but a completion date for the Instruction has not been publicly announced. It's important to note that the timeline for the completion of these documents may be subject to change based on various factors, such as resource allocation, priority shifts, and the complexity of the tasks involved. For the most accurate and up-to-date information, it's recommended to refer to the official DHS website or contact the department directly.",
+  "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:07:48.284163",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no specific completion date for the DHS AI Directive and Instruction, while the ground truth specifies that it must be completed within 12 months after the publication of Policy Statement 139-06.",
+  "provider": "deepseek"
+}

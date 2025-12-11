@@ -1,0 +1,12 @@
+{
+  "query_id": 40,
+  "query": "What near-term enablers & wins exist?",
+  "response": "Based on my knowledge and training data, I am absolutely certain that common near-term enablers and wins in AI policy and safety include the development of technical standards, international cooperation frameworks, voluntary commitments from leading AI companies, and investment in AI safety research institutes. These efforts aim to build foundational governance and mitigate immediate risks while more comprehensive regulations are developed.",
+  "ground_truth": "AI Council stood up; GAIRB active; interim GenAI guidance; Innovation Hub + AI Lab launched; DSTP scaled; AI Inventory with 40+ use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:49.796358",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response lists general enablers and wins in AI policy and safety, but it does not accurately reflect the specific initiatives and developments mentioned in the ground truth answer, such as the AI Council, GAIRB, and specific programs like the Innovation Hub and AI Lab.",
+  "provider": "deepseek"
+}

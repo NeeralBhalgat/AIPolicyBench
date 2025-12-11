@@ -1,0 +1,12 @@
+{
+  "query_id": 90,
+  "query": "What standards apply when DHS acquires AI systems?",
+  "response": "DHS acquires AI systems only in a manner that is consistent with the Constitution and all other applicable laws and policies.",
+  "ground_truth": "Acquisitions must address testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:15:06.966414",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions that DHS acquires AI systems in a manner consistent with the Constitution and applicable laws, it fails to address the specific standards related to testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency, which are critical components of the ground truth answer.",
+  "provider": "deepseek"
+}

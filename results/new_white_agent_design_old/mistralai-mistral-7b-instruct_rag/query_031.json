@@ -1,0 +1,12 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "response": "<s> [OUT]\n\nPart 1: USDA's core AI vision for FY25–26 is to strategically integrate AI, including advanced analytics and generative AI, into its federated operating environment to support innovation and data-informed decision-making.\n\nPart 2: The USDA aims to leverage AI broadly, encompassing advanced analytics and generative AI, to enhance its existing culture of innovation and data-driven decision-making. This integration is part of a broader strategy to modernize the department's operations and align with its mission of supporting agriculture, food safety, and environmental sustainability. The vision also reflects the agency's commitment to adhering to federal guidelines and executive orders related to AI use, as outlined in its inventory of AI use cases. By embedding AI across its operations, the USDA seeks to improve efficiency, accuracy, and responsiveness in fulfilling its core responsibilities.",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:23:32.055883",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect USDA's core AI vision for FY25–26 as stated in the ground truth. While it discusses integrating AI and enhancing innovation, it fails to mention the specific focus on workforce readiness, governance, and tech infrastructure, which are key components of the USDA's vision.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 95,
+  "query": "How will DHS prevent discriminatory effects in AI systems?",
+  "response": "Part 1: DHS will prevent discriminatory effects in AI systems by acquiring and using AI only in a manner that is consistent with the Constitution and all other applicable laws and policies, as stated in its policy on the Acquisition and Use of Artificial Intelligence.\n\nPart 2: The AI Act, a key legal framework, mandates specific provisions for high-risk AI systems, including requirements for non-discrimination. These systems, which include areas like law enforcement, must undergo conformity assessments to demonstrate compliance with such provisions, including fairness. While the AI Act focuses on providers, deployers like DHS also have obligations, and DHS's own policy explicitly grounds its AI use in legal compliance, which inherently prohibits unlawful discrimination.",
+  "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:40:44.592834",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response discusses legal compliance and the AI Act, it does not mention the specific methods for evaluating discriminatory effects, such as testing and validation or disparate impact analysis, which are crucial for preventing discrimination in AI systems.",
+  "provider": "deepseek"
+}

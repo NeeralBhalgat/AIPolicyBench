@@ -1,0 +1,12 @@
+{
+  "query_id": 72,
+  "query": "How does the Strategic Plan define Artificial Intelligence?",
+  "response": "The Strategic Plan defines Artificial Intelligence (AI) as \"the ability of a machine or a computer program to perform tasks that are typically associated with human intelligence, such as reasoning, learning, problem-solving, perception, and language understanding.\"",
+  "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:43.792736",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a definition of AI that emphasizes human-like intelligence, which does not align with the ground truth definition that focuses on AI as a machine-based system making predictions, recommendations, or decisions. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

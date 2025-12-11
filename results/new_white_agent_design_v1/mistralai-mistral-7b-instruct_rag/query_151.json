@@ -1,0 +1,12 @@
+{
+  "query_id": 151,
+  "query": "What does NASA’s registry enable beyond federal reporting?",
+  "response": "NASA’s registry enables the \"widest practicable and appropriate dissemination of information concerning its activities and the results thereof,\" enhancing public understanding of and participation in the nation's aeronautical and space program. [s]",
+  "ground_truth": "Continuous tracking of all AI use cases internally.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:13:13.005892",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses NASA's registry in terms of public dissemination of information, which does not align with the ground truth answer about continuous tracking of AI use cases internally.",
+  "provider": "deepseek"
+}

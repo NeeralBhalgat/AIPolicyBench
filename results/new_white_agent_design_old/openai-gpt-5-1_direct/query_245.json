@@ -1,0 +1,11 @@
+{
+  "query_id": 245,
+  "query": "What protocol must an operator maintain before allowing a companion chatbot to engage with users?",
+  "response": "",
+  "ground_truth": "A protocol preventing production of suicidal ideation, suicide, or self-harm content, including crisis referral notifications.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:05:33.166986",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

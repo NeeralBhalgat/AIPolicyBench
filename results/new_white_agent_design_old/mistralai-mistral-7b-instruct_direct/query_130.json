@@ -1,0 +1,12 @@
+{
+  "query_id": 130,
+  "query": "Which IRM subsection requires Privacy and Civil Liberties Impact Assessments?",
+  "response": "The requirement for Privacy and Civil Liberties Impact Assessments (PCLIAs) is outlined in the Intelligence Reform and Terrorism Prevention Act of 2004 (IRTPA), specifically in Section 1016. This section mandates that the Director of National Intelligence (DNI) and the heads of other relevant intelligence agencies must conduct PCLIAs for any proposed intelligence activity that may significantly affect the privacy, civil liberties, or other legal rights of U.S. persons.\n\nThe IRTPA's Section 1016 is the subsection that explicitly requires these assessments to ensure that intelligence activities are conducted in a manner that respects privacy and civil liberties. The assessments must be submitted to the Privacy and Civil Liberties Oversight Board (PCLOB) and the congressional intelligence committees for review.\n\nFor further details, you can refer to the text of the IRTPA or the PCLOB's guidelines on conducting PCLIAs.",
+  "ground_truth": "IRM 10.5.2.2.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:09:49.481547",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the requirement for Privacy and Civil Liberties Impact Assessments as being in Section 1016 of the IRTPA, while the correct reference is IRM 10.5.2.2.",
+  "provider": "deepseek"
+}

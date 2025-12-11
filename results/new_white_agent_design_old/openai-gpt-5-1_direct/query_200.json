@@ -1,0 +1,12 @@
+{
+  "query_id": 200,
+  "query": "What is required before procuring AI through acquisition?",
+  "response": "Before procuring AI through acquisition, most public-sector and large private organizations now require several **pre‑procurement steps**. The exact list depends on jurisdiction and sector, but the core elements are very similar.\n\nBelow is what is typically required (and in many places *legally* or *policy*-required) before you can buy or contract for an AI system:\n\n---\n\n### 1. Clear problem definition and necessity check  \n- A written **business / mission need**: what problem the AI is meant to solve, why AI (vs. simpler IT or process change) is actually needed.  \n- Definition of:\n  - Intended purpose and use cases  \n  - Affected users and populations  \n  - Performance requirements (accuracy, latency, reliability, etc.)  \n\nMany public-sector",
+  "ground_truth": "Coordination with the CAIO and review by the AI Safety Team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:00:17.606922",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response outlines general pre-procurement steps for AI acquisition but does not mention the specific requirement of coordination with the CAIO and review by the AI Safety Team, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

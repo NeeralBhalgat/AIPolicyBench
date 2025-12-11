@@ -1,0 +1,12 @@
+{
+  "query_id": 94,
+  "query": "What types of data use are explicitly prohibited by DHS in AI systems?",
+  "response": "Part 1: DHS prohibits the use of sensitive or classified data in AI systems.\n\nPart 2: The Department of Homeland Security (DHS) maintains an inventory of AI use cases, explicitly excluding unclassified and non-sensitive data. This indicates that sensitive or classified data is not permitted in AI systems to ensure security and compliance with governance policies. The DHS AI Governance Board and Chief AI Officer oversee these restrictions to promote responsible AI use across the department.",
+  "ground_truth": "DHS may not use AI or data to make or support decisions based on race, ethnicity, gender, religion, or other protected traits.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:33:54.924861",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that DHS prohibits the use of sensitive or classified data in AI systems, while the ground truth specifies that DHS prohibits using AI or data to make decisions based on protected traits. The response does not address the specific prohibitions related to race, ethnicity, gender, and other protected traits, which is the core of the question.",
+  "provider": "deepseek"
+}

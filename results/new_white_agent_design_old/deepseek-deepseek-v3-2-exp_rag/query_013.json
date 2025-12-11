@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "**Part 1:** The memorandum applies to countries listed in the dropdown menu, including Luxembourg, Malaysia, Mexico, Moldova, Morocco, the Netherlands, Norway, Oman, Pakistan, the Philippines, Poland, Portugal, Romania, the Russian Federation, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, Spain, Sri Lanka, Sweden, Switzerland, Taiwan, Thailand, Trinidad & Tobago, Tunisia, Turkey, the United Arab Emirates, Ukraine, the United Kingdom, Uzbekistan, Venezuela, and Vietnam, or to \"Multiple Countries\" if it applies to two or more countries.\n\n**Part 2:** The source states that unpublished decision memoranda are posted for the specific countries listed. If a memorandum applies to two or more countries, it is filed under the \"Multiple Countries\" category in the dropdown menu. Conversely, if a country's name is not present in the menu, it indicates that no unpublished decision memoranda exist for that country.",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:23:46.669825",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly focuses on specific countries rather than addressing the broader scope of the memorandum, which applies to all Executive Branch departments and agencies, including independent regulatory agencies.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "Part 1: Agencies must avoid burdensome reporting requirements and vendor lock-in.\n\nPart 2: In the context of the provided sources, agencies are encouraged to minimize excessive reporting requirements and avoid creating situations where they are locked into using specific AI vendors. This is to optimize the acquisition process, protect privacy, ensure lawful use of government data, and promote competition in the American AI marketplace.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:32.154469",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not address the specific requirement of avoiding the input of federal nonpublic information into AI systems without authorization. Instead, it focuses on avoiding burdensome reporting and vendor lock-in, which are not the primary concerns outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "AI could increase staff knowledge and experience for future regulatory reviews and oversight and build foundational knowledge across the agency.",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:48:01.907551",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which emphasizes better data management, efficiency, and modernized decision-making. While the response mentions increasing staff knowledge, it does not address the specific improvements outlined in the ground truth.",
+  "provider": "deepseek"
+}

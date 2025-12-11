@@ -1,0 +1,12 @@
+{
+  "query_id": 203,
+  "query": "Under §11008(e)(5), are individuals in non-profit sheltered workshops employees?",
+  "response": "No, individuals in non-profit sheltered workshops are not employees. \"Employee\" does not include any individual employed under special license in a non-profit sheltered workshop or rehabilitation facility.",
+  "ground_truth": "No, they are not considered employees.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:19:19.696877",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth that individuals in non-profit sheltered workshops are not considered employees, aligning with the legal definition provided in §11008(e)(5).",
+  "provider": "deepseek"
+}

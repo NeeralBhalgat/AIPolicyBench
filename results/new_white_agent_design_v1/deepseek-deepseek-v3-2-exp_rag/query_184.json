@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must manage AI risk and performance with specific requirements for rights-impacting and safety-impacting AI, and involve agency privacy officials early in the acquisition process.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:48:15.829664",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response outlines some aspects of AI risk management but does not fully address the requirement to measure, monitor, evaluate, and report on AI activities, which is a key part of the ground truth answer.",
+  "provider": "deepseek"
+}

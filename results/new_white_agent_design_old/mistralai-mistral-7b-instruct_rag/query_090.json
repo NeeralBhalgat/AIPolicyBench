@@ -1,0 +1,12 @@
+{
+  "query_id": 90,
+  "query": "What standards apply when DHS acquires AI systems?",
+  "response": "Part 1: DHS's AI acquisition must align with legal and policy requirements, addressing technical specifications, risk management, transparency, and sustainability.\n\nPart 2: The standards for acquiring AI systems at DHS are outlined in the compliance plan for the 2024 Office of Management and Budget Memorandum M-24-10, which emphasizes adherence to governance, innovation, and risk management principles. These standards include ensuring that AI systems are safe, secure, and ethically developed, with rigorous testing and evaluation throughout their lifecycle. Additionally, the acquisition process must comply with data protection laws and policies, ensuring security, privacy, and interoperability, while also promoting workforce training to improve AI literacy and understanding of its benefits and risks.",
+  "ground_truth": "Acquisitions must address testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:33:32.643244",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the standards and requirements for DHS's acquisition of AI systems, aligning with the ground truth information regarding risk management, transparency, and ethical development. It also mentions compliance with data protection laws, which is relevant to the context.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "The DHS AI Council works with the AI Policy Working Group to affect policy change and apply oversight to all DHS AI activities.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:41:03.817358",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the functions of the DHS AI Council. While it mentions working with the AI Policy Working Group, it fails to include key responsibilities such as supporting the AI Governance Board, presenting action items, and maintaining policy requirements for safe and responsible AI.",
+  "provider": "deepseek"
+}

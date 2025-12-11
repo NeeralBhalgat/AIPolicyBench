@@ -1,0 +1,12 @@
+{
+  "query_id": 19,
+  "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+  "response": "Part 1: The deadline for implementing risk management practices for high-impact AI is 2025, and if Divisions are unable to meet this deadline, they will stop any applicable AI tool or solution until they are compliant.\n\nPart 2: This requirement is part of a federal directive aimed at ensuring responsible AI use within government agencies. The policy explicitly states that AI tools must have their risk management practices implemented by the 2025 deadline. Failure to meet this compliance standard results in the immediate termination of the non-compliant AI system's use. This enforcement mechanism ensures that high-impact AI tools do not operate without proper safeguards in place.",
+  "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:24:25.601911",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly states that the deadline for implementing risk management practices for high-impact AI is 2025, while the ground truth specifies a 365-day timeframe for compliance. Additionally, the enforcement mechanism described does not align with the ground truth, which simply states to discontinue use if not compliant, rather than an immediate termination of the AI system's use.",
+  "provider": "deepseek"
+}

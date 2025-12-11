@@ -1,0 +1,12 @@
+{
+  "query_id": 79,
+  "query": "What role does the HHS Chief AI Officer (CAIO) play?",
+  "response": "Part 1: The HHS Chief AI Officer (CAIO) oversees the implementation of AI governance and compliance plans as mandated by OMB Memorandum M-24-10.\n\nPart 2: The CAIO is responsible for ensuring that the Department of Health and Human Services (HHS) adheres to federal AI governance and compliance requirements, including the publication of agency-specific AI governance and compliance plans. This role aligns with broader federal efforts to advance AI innovation and risk management, as outlined in Executive Order 14110 and OMB Memorandum M-24-10. The CAIO also plays a key role in budgetary allocations to support AI-related initiatives, ensuring that HHS meets the mandates set forth by these executive actions.",
+  "ground_truth": "The CAIO coordinates implementation of the Strategic Plan, oversees AI governance, and aligns division efforts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:13.340933",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides details about the CAIO's responsibilities, it inaccurately references specific OMB Memorandum M-24-10 and Executive Order 14110, which do not exist as of December 2025. The ground truth answer focuses on coordinating the Strategic Plan and aligning division efforts, which is not explicitly mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

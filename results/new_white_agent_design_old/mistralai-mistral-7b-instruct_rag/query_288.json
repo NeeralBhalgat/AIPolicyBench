@@ -1,0 +1,12 @@
+{
+  "query_id": 288,
+  "query": "What ongoing restrictions apply after a consumer submits a deletion request?",
+  "response": "Part 1: After a consumer submits a deletion request, ongoing restrictions may apply to prevent the misuse of exposed information for harmful purposes.\n\nPart 2: The context highlights that consumer information, once exposed, can be used for harmful activities, emphasizing the need for ongoing protections. State consumer privacy laws, such as the California Consumer Privacy Act, have been enacted to address the absence of comprehensive federal privacy law, ensuring that companies must adhere to strict data handling practices. These laws often include provisions that require companies to implement measures to prevent the misuse of consumer data, even after a deletion request has been processed. This ongoing responsibility helps mitigate the risks associated with data breaches and negligence, safeguarding consumer privacy.",
+  "ground_truth": "Data brokers cannot sell or share new personal information unless the consumer permits or exceptions apply.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:01:08.234370",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses ongoing restrictions related to the misuse of exposed information but does not accurately reflect the specific ongoing restrictions that apply after a deletion request, as stated in the ground truth answer. The ground truth specifies that data brokers cannot sell or share new personal information unless permitted, which is not addressed in the White Agent's response.",
+  "provider": "deepseek"
+}

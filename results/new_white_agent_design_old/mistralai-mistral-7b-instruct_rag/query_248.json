@@ -1,0 +1,12 @@
+{
+  "query_id": 248,
+  "query": "What must operators prevent companion chatbots from producing for minors?",
+  "response": "Part 1: Operators must prevent companion chatbots from engaging in sexually explicit communication with minors.\n\nPart 2: The Children Harmed by AI Technology (CHAT) Act of 2025 explicitly requires chatbot operators to block minors' access to any chatbots that engage in sexually explicit communication. This legislation aims to protect children from inappropriate content by mandating age verification and parental consent for minor users. The bill also includes additional safeguards, such as notifying parents if a child discusses self-harm or suicidal ideation, to further ensure the safety of minors interacting with AI chatbots.",
+  "ground_truth": "Visual material of sexually explicit conduct or statements directing minors to engage in it.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:54:01.868145",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the need to prevent sexually explicit communication with minors and references the CHAT Act of 2025, which aligns with the ground truth regarding the protection of minors from inappropriate content.",
+  "provider": "deepseek"
+}

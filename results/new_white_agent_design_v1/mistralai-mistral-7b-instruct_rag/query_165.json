@@ -1,0 +1,12 @@
+{
+  "query_id": 165,
+  "query": "What role will public workshops and stakeholder engagement play?",
+  "response": "Public workshops and stakeholder engagement will play a role in strengthening agency engagement with the public during the regulatory process, as OIRA is working with agencies to improve public participation and community engagement (Source 3). Participants in listening sessions proposed holding evening sessions and studying the effectiveness of different types of engagement sessions to increase overall engagement (Source 5).",
+  "ground_truth": "They will help the NRC gather input, share updates, and maintain transparency about AI regulatory readiness.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:14:07.070809",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the role of public workshops and stakeholder engagement in the regulatory process but does not directly address the specific functions of gathering input, sharing updates, and maintaining transparency about AI regulatory readiness as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

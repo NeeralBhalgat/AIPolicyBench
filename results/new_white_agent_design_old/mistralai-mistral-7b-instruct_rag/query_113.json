@@ -1,0 +1,12 @@
+{
+  "query_id": 113,
+  "query": "How does DOT protect AI systems from cybersecurity risks?",
+  "response": "Part 1: The DOT, along with other agencies, must incorporate management of AI software vulnerabilities and compromises into their existing processes for vulnerability management, including incident tracking, response, and reporting.\n\nPart 2: The executive order mandates that agencies like the DOT must align their policies to modernize IT infrastructure and networks, ensuring better network visibility and security controls to reduce cyber risks. This includes sharing indicators of compromise for AI systems and adapting to evolving cybersecurity best practices, such as zero trust architectures and encryption. The DOT is expected to continuously assess and test its systems to verify cybersecurity capabilities, particularly for space systems and other critical infrastructure.",
+  "ground_truth": "By using segregated research and operational environments and continuous ATO monitoring.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:36:11.504166",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses various measures the DOT is taking to manage cybersecurity risks for AI systems, but it does not mention the specific methods of using segregated research and operational environments or continuous ATO monitoring, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

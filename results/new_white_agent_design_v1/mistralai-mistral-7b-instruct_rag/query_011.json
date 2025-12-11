@@ -1,0 +1,12 @@
+{
+  "query_id": 11,
+  "query": "What three priorities must agencies focus on to accelerate Federal AI use?",
+  "response": "Agencies must focus on \"innovation, governance, and public trust\" to accelerate Federal AI use, as stated in the new memo.",
+  "ground_truth": "Innovation, governance, and public trust.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:03:53.092476",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer regarding the three priorities of innovation, governance, and public trust for accelerating Federal AI use.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "The foundation (bottom layer) of the DoD AI Hierarchy of Needs is **digital infrastructure**—specifically, secure and scalable:\n\n- **Compute and storage**\n- **Networking**\n- **Cloud environments**\n- **DevSecOps/tooling**\n- **Cross‑domain solutions**\n\nIn DoD’s model, all higher‑level AI capabilities (data, algorithms, applications, decision support) depend on this underlying infrastructure being in place and functioning reliably.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:45:05.934212",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the foundation of the DoD AI Hierarchy of Needs as digital infrastructure, while the ground truth specifies that it is quality data characterized by the VAULTIS criteria.",
+  "provider": "deepseek"
+}

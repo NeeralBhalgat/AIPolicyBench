@@ -1,0 +1,12 @@
+{
+  "query_id": 206,
+  "query": "Under §11009(b), when is an employer liable for discriminatory actions?",
+  "response": "Part 1: Under §11009(b), an employer is liable for discriminatory actions when the employer, or its agents or supervisors, knew or should have known of the conduct and failed to take immediate and appropriate corrective action.\n\nPart 2: The regulation establishes that an employer's liability hinges on its awareness of the discriminatory conduct and its subsequent response. If the employer, or its agents or supervisors, either knew about the conduct or reasonably should have known about it, they are obligated to act. Liability is triggered specifically when the employer fails to take immediate and appropriate corrective action in response to the known discrimination.",
+  "ground_truth": "When discriminatory actions occur within the scope of employment or the agent’s relationship with the employer.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:07:01.904674",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on the employer's knowledge and corrective actions rather than the specific conditions under which liability is established, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

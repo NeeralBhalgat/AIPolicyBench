@@ -1,0 +1,12 @@
+{
+  "query_id": 145,
+  "query": "What is AISWG’s role in advancing strategic objectives?",
+  "response": "AISWG is not a globally standardized acronym, but in many AI governance contexts it refers to an **AI Safety (or Security) Working Group** or similar body. Without more context about the specific organization, I’ll outline the typical role such a group plays in advancing strategic objectives in AI policy and safety.\n\nIn most institutions, an AISWG advances strategic objectives by:\n\n1. **Translating high‑level strategy into concrete safety agendas**  \n   - Interprets organizational or national AI strategies (e.g., “responsible innovation,” “trustworthy AI,” “frontier risk mitigation”) into **specific safety priorities**, roadmaps, and workplans.  \n   - Identifies where AI safety is **mission‑critical** to broader goals such as national security, economic competitiveness, regulatory compliance, or public trust.\n\n2. **Horizon scanning &",
+  "ground_truth": "Defining and advancing AI strategic objectives.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:55:19.290147",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the role of an AI Safety Working Group in advancing strategic objectives by translating high-level strategies into concrete safety agendas, which aligns with the ground truth answer of defining and advancing AI strategic objectives.",
+  "provider": "deepseek"
+}

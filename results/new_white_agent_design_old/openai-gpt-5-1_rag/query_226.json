@@ -1,0 +1,12 @@
+{
+  "query_id": 226,
+  "query": "Does AB 316 allow defendants to present evidence of comparative fault of others?",
+  "response": "Part 1: No, nothing in the provided discussion of the comparative fault defense and pure comparative negligence—which focuses on reducing a plaintiff’s award in proportion to the plaintiff’s own fault—indicates that AB 316 authorizes defendants to present evidence of the comparative fault of others.  \n\nPart 2: The materials explain that the comparative fault defense allows courts to reduce what insurers or defendants must pay “by an amount proportional to the relative fault of the plaintiff,” and that in pure comparative negligence the plaintiff’s negligence is accounted for “by reducing his award in proportion to his fault, even if that fault exceeds 50%.” They discuss comparative negligence and mitigation generally, not any specific statute labeled AB 316. There is no mention of a rule about allocating fault to other persons or nonparties, nor of evidentiary provisions tied to AB 316. Based solely on these sources, one cannot conclude that AB 316 allows defendants to introduce evidence of the comparative fault of others.",
+  "ground_truth": "Yes, they may present evidence of comparative fault of any other person or entity.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:19:45.262912",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that AB 316 does not allow defendants to present evidence of comparative fault of others, while the ground truth confirms that they may present such evidence. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

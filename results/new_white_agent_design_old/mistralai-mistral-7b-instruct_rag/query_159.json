@@ -1,0 +1,12 @@
+{
+  "query_id": 159,
+  "query": "When did NASA issue its first generative AI guidance?",
+  "response": "<s> [OUT] Part 1: NASA issued its first generative AI guidance with the release of the \"NASA Framework for the Ethical Use of Artificial Intelligence\" and the \"NASA’s Responsible Artificial Intelligence Plan.\"\n\nPart 2: The provided context highlights NASA's commitment to ethical AI use, including the development of a framework and a responsible AI plan. These documents outline principles and practical considerations for AI deployment, emphasizing governance and protections. The framework and plan are part of NASA's ongoing efforts to ensure AI is used responsibly across its missions and activities. [/OUT]",
+  "ground_truth": "May 2023.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:40:56.338599",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not provide a specific date for when NASA issued its first generative AI guidance, which is May 2023. While it discusses the framework and plan, it fails to accurately answer the question regarding the timing.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "Part 1: IRS units can contact their designated AI Lead or the agency's Chief AI Officer for AI-related guidance.\n\nPart 2: The provided context establishes that federal agencies are required to have specific officials responsible for Artificial Intelligence. These designated AI Leads and Chief AI Officers are put in place to guide and oversee AI implementation within their respective agencies. Therefore, IRS units, as part of a federal agency, would be expected to contact these internal, agency-specific officials for any AI-related guidance they require. This structure ensures that AI use is governed consistently across federal operations.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:51.387459",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the designated AI Leads and Chief AI Officers as the points of contact for IRS units, while the ground truth specifies the CDAO team as the correct contact for AI-related guidance.",
+  "provider": "deepseek"
+}

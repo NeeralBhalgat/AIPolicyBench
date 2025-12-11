@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "Part 1: NASA will re-evaluate non-reportable use cases in the future as part of its ongoing review of the NASA FAR Supplement.\n\nPart 2: The provided sources do not specify a precise date or timeline for this re-evaluation. The context indicates that NASA's policies and directives, including the NASA FAR Supplement, are subject to periodic review and updates. Therefore, the re-evaluation is a planned part of this ongoing review process, but no specific schedule is detailed in the given excerpts.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:52:24.000181",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates uncertainty about the timeline for NASA's re-evaluation of non-reportable use cases, stating that no specific date is provided. This aligns with the 'miss' classification as it does not provide a definitive answer and admits a lack of knowledge regarding the specific schedule.",
+  "provider": "deepseek"
+}

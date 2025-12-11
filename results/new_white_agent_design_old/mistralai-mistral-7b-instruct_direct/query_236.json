@@ -1,0 +1,12 @@
+{
+  "query_id": 236,
+  "query": "What type of AI or GenAI usage is prohibited under Section 4999.9(c)?",
+  "response": "Section 4999.9(c) of the California Consumer Privacy Act (CCPA) prohibits businesses from using automated decision-making technology, including artificial intelligence (AI) and general AI (GenAI), for certain purposes. Specifically, it prohibits the use of such technology to make decisions that:\n\n1. **Profiling for Discrimination or Harm**: Using AI to profile consumers in a way that could result in unlawful discrimination, unfair treatment, or other harm to consumers.\n2. **Invasive Surveillance**: Employing AI for extensive or invasive surveillance of consumers without their explicit consent, particularly in ways that could infringe on their privacy or civil liberties.\n3. **Manipulative Practices**: Using AI to manipulate or deceive consumers, such as through targeted advertising or behavioral influence that exploits vulnerabilities.\n\nThe section aims to ensure that AI and automated decision-making systems are used responsibly and do not infringe on consumer rights or cause harm. Businesses must comply with these restrictions to avoid legal penalties under the CCPA.\n\nFor the most accurate and up-to-date interpretation, it is advisable to consult the full text of the CCPA or legal counsel.",
+  "ground_truth": "Using terms implying that care, advice, reports, or assessments are provided by a licensed natural person.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:33.504946",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the prohibitions under Section 4999.9(c) of the CCPA, which actually pertains to the use of terms implying that care, advice, reports, or assessments are provided by a licensed natural person, rather than the uses of AI for discrimination, surveillance, or manipulation.",
+  "provider": "deepseek"
+}

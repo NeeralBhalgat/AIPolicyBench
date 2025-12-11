@@ -1,0 +1,12 @@
+{
+  "query_id": 123,
+  "query": "How often must AI use case inventory entries be reviewed?",
+  "response": "Under current U.S. federal guidance (OMB Memorandum M‑24‑10, “Advancing Governance, Innovation, and Risk Management for Agency Use of Artificial Intelligence”), AI use case inventory entries must be:\n\n- **Reviewed and updated at least annually.**  \n- Updated **sooner** if there are material changes to the system, its risks, or its use (e.g., significant model updates, new data uses, or changes in impact).\n\nIf you are operating under a different regulatory framework (e.g., EU AI Act, sectoral rules, or internal corporate policy), the required review frequency may differ, but the OMB standard is annual review as a minimum.",
+  "ground_truth": "At least annually or when directed by the CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:53:00.812613",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI use case inventory entries to be reviewed at least annually, aligning with the ground truth answer. It also correctly notes the need for updates in response to material changes, which is consistent with the guidance provided.",
+  "provider": "deepseek"
+}

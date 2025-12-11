@@ -1,0 +1,12 @@
+{
+  "query_id": 156,
+  "query": "What barrier relates to data?",
+  "response": "Based on my training data, data quality and availability are significant barriers in AI development and policy implementation.",
+  "ground_truth": "Need to make data more AI-ready.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:00:58.971609",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response identifies data quality and availability as barriers, which is relevant but does not directly address the ground truth answer about making data more AI-ready. It does not express uncertainty but fails to fully align with the specific focus of the ground truth.",
+  "provider": "deepseek"
+}

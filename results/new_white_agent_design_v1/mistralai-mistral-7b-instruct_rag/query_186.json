@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "This directive cancels Biden’s \"directive to prioritize union-driven policies that imposed unnecessary regulations on industries\" and revokes Biden’s executive order that \"funneled Federal resources into radical biotech and biomanufacturing initiatives under the guise of environmental policy\" [Source 1].",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:17:59.631092",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the directive being canceled. The correct answer is the Security Policy for Generative AI LLMs CIO IL-23-01, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 210,
+  "query": "Under §11017.1(a), when are employers prohibited from inquiring into criminal history?",
+  "response": "Under §11017.1(a) of the California Fair Chance Act (AB 1076), employers are prohibited from inquiring into an applicant's criminal history until after a conditional offer of employment has been made. This means that employers cannot ask about or consider an applicant's criminal history on an application form, during an interview, or at any other point in the hiring process before extending a conditional offer. The law aims to give individuals with criminal records a fair chance to compete for jobs without being automatically disqualified based on their past.\n\nIf you have further questions or need clarification, feel free to ask!",
+  "ground_truth": "Before a conditional offer is made, except in limited exemptions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:21.131531",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the provisions of §11017.1(a) of the California Fair Chance Act, stating that employers cannot inquire about criminal history until after a conditional offer of employment is made, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

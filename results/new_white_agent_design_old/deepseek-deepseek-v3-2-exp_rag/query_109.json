@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "Part 1: The AISCC is a proposed ten-year moratorium that would block state AI laws and prevent states from enacting important protections for individuals, children, and families.\n\nPart 2: The AISCC was introduced as a proposal by Senator Ted Cruz and aims to place a ten-year moratorium on AI legislation. This move has been met with significant bipartisan pushback, with politicians from both parties arguing it strips states of their right to self-government and prevents them from regulating AI in the best interest of their people. Opponents, including over 35 state attorneys general and more than 200 state lawmakers, warn that overriding state AI laws could have disastrous consequences and constitutes federal government overreach.",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:44:23.541546",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the AISCC as a proposed moratorium on state AI laws, while the ground truth indicates that the purpose of the AISCC is to educate employees, provide resources, and support AI collaboration across DOT. This indicates a fundamental misunderstanding of the AISCC's actual purpose.",
+  "provider": "deepseek"
+}

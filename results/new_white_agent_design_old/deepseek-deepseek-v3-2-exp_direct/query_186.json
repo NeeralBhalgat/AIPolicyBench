@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "You haven't provided the specific directive you're referring to. To answer your question, I would need to know which directive you are asking about (e.g., an Executive Order from the White House, a policy memo from a specific agency like the Office of Management and Budget (OMB), or a regulatory announcement from an entity like the EU).\n\nOnce you provide the text or the identifier of the directive, I can identify the previous policy it supersedes or cancels.",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:01:27.748979",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty by stating that it cannot answer the question without knowing the specific directive being referred to. It does not provide any information about the previous policy that the directive cancels.",
+  "provider": "deepseek"
+}

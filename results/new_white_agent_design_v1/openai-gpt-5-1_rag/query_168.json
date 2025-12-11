@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "Examples of AI sub-specialties in the plan include “AI-enabled science,” “AI interpretability, control, and robustness breakthroughs,” building “an AI evaluations ecosystem,” promoting “secure-by-design AI technologies and applications,” and work to ensure that “frontier AI protects free speech and American values” and to “combat synthetic media in the legal system.”",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:22:27.760498",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists various AI sub-specialties that are not standard or widely recognized categories in the field of AI, such as 'AI-enabled science' and 'secure-by-design AI technologies.' The ground truth answer includes well-established sub-specialties like natural language processing, machine learning, and deep learning, which are not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

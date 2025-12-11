@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "Part 1:  \nThe DOE AI Use Case Inventory aims to systematically track AI applications across the Department and provide crucial transparency into existing AI activities.  \n\nPart 2:  \nBy cataloging AI use cases in a structured, department-wide inventory, DOE can see where and how AI is being used, including the purpose, benefits, and any rights- or safety-related impacts. This supports compliance with federal AI directives and management memoranda, which call for clear oversight of government AI systems. The inventory also enables more coordinated governance, helping align AI projects with DOE’s broader missions in science, energy, and security. In practice, it offers a central, regularly updated record that informs decision-making, risk management, and future AI strategy.",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:39:05.513835",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DOE AI Use Case Inventory, emphasizing its role in tracking AI applications and ensuring transparency, which aligns with the ground truth answer about cataloging and reviewing AI use cases across DOE offices and labs.",
+  "provider": "deepseek"
+}

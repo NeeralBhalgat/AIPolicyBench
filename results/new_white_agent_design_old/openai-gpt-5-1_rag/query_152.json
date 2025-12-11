@@ -1,0 +1,12 @@
+{
+  "query_id": 152,
+  "query": "When will NASA re-evaluate non-reportable use cases?",
+  "response": "Part 1: NASA will re-evaluate non-reportable use cases annually, when the Responsible AI use cases are updated as required by Executive Order 13960.  \n\nPart 2: NASA’s Responsible AI inventory is explicitly stated to be updated on an annual basis. During this yearly update, all existing use cases—including those previously categorized as non-reportable—can be reviewed in light of current criteria and guidance. If circumstances or requirements change, a non-reportable use case could then be recategorized as reportable. This schedule aligns NASA’s internal review cycle with federal requirements for trustworthy and transparent AI use.",
+  "ground_truth": "Annually, aligned with federal deadlines.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:00:05.737516",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that NASA will re-evaluate non-reportable use cases annually, which aligns with the ground truth answer. The details provided about the alignment with federal requirements and the process of recategorization are also consistent with the expected practices.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 126,
+  "query": "What happens to AI use cases initiated during the interim period?",
+  "response": "**Part 1:**  \nAI use cases initiated during the interim period are incorporated into the next annual AI Use Case Inventory update or captured through “other revisions as needed” to the current year’s inventory.\n\n**Part 2:**  \nAgencies like DHS maintain an AI use case inventory with “one main update per year and other revisions as needed,” so new use cases started between major updates are not lost; they are added in these subsequent updates or revisions. The inventory library explicitly includes previous and revised versions, some of which contain incomplete or never-developed use cases, indicating that evolving or interim efforts are still recorded. Annual OMB guidance shapes what must be reported, and each new cycle (for example, the 2025 inventory following the 2024 update) refreshes the inventory to reflect new and changed use cases. This process ensures that AI projects initiated in the interim are eventually documented in line with federal publication requirements.",
+  "ground_truth": "They may undergo post-hoc review once new policies are issued.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:53:17.513558",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes a process for updating AI use cases but does not align with the ground truth, which states that these use cases may undergo post-hoc review once new policies are issued. The response implies a systematic inventory update rather than a review process, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

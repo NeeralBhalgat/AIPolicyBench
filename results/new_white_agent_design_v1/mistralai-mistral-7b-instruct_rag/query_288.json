@@ -1,0 +1,12 @@
+{
+  "query_id": 288,
+  "query": "What ongoing restrictions apply after a consumer submits a deletion request?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Data brokers cannot sell or share new personal information unless the consumer permits or exceptions apply.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:23:15.162422",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about ongoing restrictions after a consumer submits a deletion request.",
+  "provider": "deepseek"
+}

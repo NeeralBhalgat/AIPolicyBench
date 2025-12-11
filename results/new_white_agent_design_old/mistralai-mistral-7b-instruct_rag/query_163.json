@@ -1,0 +1,12 @@
+{
+  "query_id": 163,
+  "query": "What is the NRC’s stated vision for AI?",
+  "response": "Part 1: The NRC's vision for AI is to \"continue to improve its skills and capabilities to review and evaluate the application of AI to NRC-regulated activities, maintain awareness of technological innovations, and ensure the safe and secure use of AI in NRC-regulated activities.\"\n\nPart 2: The NRC's AI Strategic Plan outlines a comprehensive approach to integrating AI into its regulatory framework. This includes five key goals: ensuring readiness for regulatory decision-making, establishing an organizational framework to review AI applications, strengthening partnerships, cultivating an AI-proficient workforce, and pursuing use cases to build an AI foundation. The plan also emphasizes maintaining regulatory certainty and readiness to review AI applications in NRC-regulated activities, which range from data analysis to fully autonomous systems. The NRC anticipates the nuclear industry will soon deploy AI, making these strategic goals crucial for safe and secure implementation.",
+  "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:41:38.058421",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the NRC's vision for AI, emphasizing the importance of improving skills and ensuring safe and secure use of AI in regulated activities, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

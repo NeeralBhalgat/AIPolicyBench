@@ -1,0 +1,12 @@
+{
+  "query_id": 295,
+  "query": "What audit trail must agencies maintain when using AI for reports?",
+  "response": "Agencies must maintain an audit trail that includes documentation of the AI system's inputs, outputs, and decisions, as well as any human oversight or intervention.\n\nThe audit trail should capture the AI system's inputs, such as the data used, the algorithms applied, and the parameters set, to ensure transparency and accountability. It must also document the outputs and decisions made by the AI system, including any errors or biases identified. Additionally, agencies should record any human oversight or intervention in the AI process to demonstrate compliance with governance and risk management requirements. This documentation helps ensure that AI systems are used responsibly and that their actions can be reviewed and audited.",
+  "ground_truth": "They must track who used AI and any video/audio footage used in generating the report.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:20.941869",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed description of what an audit trail should include, but it does not align with the ground truth answer, which specifies tracking who used AI and any video/audio footage. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

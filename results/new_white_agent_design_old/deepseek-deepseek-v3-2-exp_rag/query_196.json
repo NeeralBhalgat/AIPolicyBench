@@ -1,0 +1,12 @@
+{
+  "query_id": 196,
+  "query": "How often must existing AI use cases be re-registered?",
+  "response": "Part 1: Existing AI use cases must be re-registered annually, as directed by the Office of Management and Budget.\n\nPart 2: The requirement for annual re-registration is established by the Executive Office of the President through its Office of Management and Budget. This directive is part of a broader framework aimed at accelerating federal use of AI through structured governance and innovation. The process ensures that the inventory of use cases remains current and that agencies regularly review and validate their AI initiatives. This annual cycle supports the goal of maintaining public trust and effective oversight.",
+  "ground_truth": "Annually, except for familiarization use cases.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:04:02.373575",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that existing AI use cases must be re-registered annually, aligning with the ground truth answer. It also provides context about the governance framework, which supports the accuracy of the claim.",
+  "provider": "deepseek"
+}

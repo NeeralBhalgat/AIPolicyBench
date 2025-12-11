@@ -1,0 +1,12 @@
+{
+  "query_id": 218,
+  "query": "Under AB 979, what types of records are prohibited from public disclosure by the Office of Emergency Services?",
+  "response": "Under AB 979, the Office of Emergency Services (OES) is prohibited from disclosing certain types of records to the public. Specifically, the bill exempts from public disclosure:\n\n1. **Records related to the development, implementation, and operation of the California Earthquake Early Warning System (CEEWS)**. This includes technical specifications, system architecture, and operational protocols that could compromise the system's effectiveness or security.\n2. **Sensitive information that could be used to disrupt or sabotage the system**, such as details about its vulnerabilities or weaknesses.\n3. **Personal information of individuals involved in the system's development or operation**, to protect their privacy and safety.\n\nThe exemption is intended to ensure the reliability and security of the earthquake early warning system, which is critical for public safety. The records remain subject to other applicable laws, such as the California Public Records Act, but the OES is not required to disclose them if doing so would jeopardize the system's integrity.\n\nFor more details, you can refer to the text of AB 979 or the California Government Code, where such exemptions are typically codified.",
+  "ground_truth": "Records privileged, protected by copyright, prohibited by law, exempt under the Public Records Act, or where nondisclosure outweighs public interest.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:40.282258",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly specifies the types of records exempt from disclosure under AB 979, focusing on the California Earthquake Early Warning System, which is not explicitly mentioned in the ground truth answer. The ground truth indicates broader categories of records that are privileged or protected, which the White Agent's response does not accurately reflect.",
+  "provider": "deepseek"
+}

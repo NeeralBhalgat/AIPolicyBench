@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "Part 1: The NIST AI Risk Management Framework aims to better manage risks to individuals, organizations, and society associated with artificial intelligence and to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products.\n\nPart 2: The framework was developed in collaboration with both the private and public sectors and is intended for voluntary use. Its core objectives are to help organizations identify unique risks posed by AI, such as those from generative AI, and to propose actions for AI risk management that align with their goals. Ultimately, it seeks to cultivate trust in AI technologies and promote AI innovation while mitigating potential risks.",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:40:44.901853",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly attributes the AI Risk Management Framework to NIST instead of DHS. The core objectives mentioned do not align with the specific aim of evaluating AI use cases early in their lifecycle as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "Based on the provided sources, the NRC frames the difference by stating: \"Automation—considered to be a system that automatically acts on a specific task according to predefined, prescriptive rules... Autonomy—a system that dynamically adapts and learns, evolving with its environment.\"",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:47:33.324971",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of the NRC's framing of automation and autonomy, highlighting the distinction between predefined rules for automation and the adaptive, learning nature of autonomy.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "**Part 1:** Workforce training is emphasized because it is needed to train people for jobs of the future, connect learners to genuine opportunities, and meet the needs of employers by providing job-ready talent.\n\n**Part 2:** The sources explain that past approaches treated workforce and education as separate silos, resulting in programs that were slow, duplicative, and disconnected from what businesses actually need. The current emphasis is on aligning training with private sector demands to build a stronger talent pipeline, which leads to jobs that pay above-average wages and helps states break economic development records. This is achieved by streamlining federal programs and giving states more flexibility to create integrated systems that directly serve students, job seekers, and employers.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:59:16.532834",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the importance of workforce training in relation to job readiness and employer needs, which does not align with the ground truth answer that focuses on the NRC's need for staff capable of evaluating AI technologies and regulatory challenges.",
+  "provider": "deepseek"
+}

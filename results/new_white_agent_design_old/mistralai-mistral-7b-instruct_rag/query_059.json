@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "Part 1: The DoD plans to collaborate with external partners on AI through cooperative research and development agreements, user facility partnerships, or other appropriate arrangements.\n\nPart 2: The collaboration involves establishing mechanisms for working with external partners who possess advanced AI, data, or computing capabilities, as well as scientific domain expertise. These partnerships may include cooperative research and development agreements, user facility partnerships, or other suitable arrangements. The goal is to leverage these external capabilities to support the computational and scientific objectives of the Genesis Mission, ensuring that the DoD can effectively integrate cutting-edge AI technologies and expertise into its operations.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:27:31.325148",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on specific mechanisms like cooperative research and development agreements, which are not mentioned in the ground truth. The ground truth emphasizes strengthening partnerships with various sectors, which is a broader and more accurate representation of the DoD's collaborative approach.",
+  "provider": "deepseek"
+}

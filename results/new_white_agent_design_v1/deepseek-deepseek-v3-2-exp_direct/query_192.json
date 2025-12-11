@@ -1,0 +1,12 @@
+{
+  "query_id": 192,
+  "query": "What labeling requirement applies to AI-generated work?",
+  "response": "Based on my knowledge, there is currently no single, universally mandated labeling requirement for AI-generated work. Regulations are developing regionally, such as the EU AI Act's requirement for certain AI-generated content to be labeled, but a global standard does not yet exist.",
+  "ground_truth": "All AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:02:40.342331",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately states that there is no universally mandated labeling requirement for AI-generated work, while the ground truth indicates that all AI-generated or AI-modified outputs must be labeled or watermarked.",
+  "provider": "deepseek"
+}

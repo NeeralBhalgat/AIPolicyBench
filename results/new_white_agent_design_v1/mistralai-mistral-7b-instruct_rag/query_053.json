@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "I don't have enough information to answer this question as the sources provided do not list five key strategic goals outlined in the strategy.",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:08.256969",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the five key strategic goals, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

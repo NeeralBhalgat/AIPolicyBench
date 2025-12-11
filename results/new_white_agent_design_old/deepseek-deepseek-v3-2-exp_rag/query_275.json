@@ -1,0 +1,12 @@
+{
+  "query_id": 275,
+  "query": "How often must a frontier developer update its frontier AI framework?",
+  "response": "Part 1: The order does not specify a required frequency for how often a frontier developer must update its frontier AI framework.\n\nPart 2: The provided sources focus on defining terms like \"frontier AI data center\" and outlining requirements for infrastructure development, site selection, and resource sharing. They detail obligations for non-Federal parties operating on Federal sites, such as providing computational resources to startups and committing to providing AI models to the Federal Government. However, none of the excerpts establish a mandated schedule or recurring timeline for updating the AI framework itself.",
+  "ground_truth": "At least annually, and within 30 days for material modifications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:05.528756",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no required frequency for updates, while the ground truth specifies that updates must occur at least annually and within 30 days for material modifications.",
+  "provider": "deepseek"
+}

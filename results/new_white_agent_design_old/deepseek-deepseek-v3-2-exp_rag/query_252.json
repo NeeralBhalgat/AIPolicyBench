@@ -1,0 +1,12 @@
+{
+  "query_id": 252,
+  "query": "Where must the disclosure statement be located relative to the digitally altered image?",
+  "response": "Part 1: The disclosure statement must be clearly and conspicuously displayed on the digital deposit-taking channel.\n\nPart 2: The requirement applies to IDIs (Insured Depository Institutions) when offering products through a digital deposit-taking channel. The rule specifies that a \"static\" non-deposit signage must be used for this purpose. This ensures the disclosure is properly applied to online platforms and consumer experiences.",
+  "ground_truth": "On or adjacent to the image.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:15:23.370192",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the disclosure statement must be displayed on the digital deposit-taking channel, rather than specifying that it should be located on or adjacent to the digitally altered image, which is the ground truth answer.",
+  "provider": "deepseek"
+}

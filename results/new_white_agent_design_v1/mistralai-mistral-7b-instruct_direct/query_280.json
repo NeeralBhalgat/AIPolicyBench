@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "The whistleblower provisions typically protect employees, contractors, or individuals who report illegal activities, fraud, or other misconduct within an organization, provided they act in good faith and follow the proper reporting procedures.",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:23.393803",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response is too general and does not specifically mention the whistleblower protections related to catastrophic-risk dangers or violations of the TFAIA, which is the ground truth. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

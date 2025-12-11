@@ -1,0 +1,12 @@
+{
+  "query_id": 156,
+  "query": "What barrier relates to data?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Need to make data more AI-ready.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:43:17.530643",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about barriers related to data.",
+  "provider": "deepseek"
+}

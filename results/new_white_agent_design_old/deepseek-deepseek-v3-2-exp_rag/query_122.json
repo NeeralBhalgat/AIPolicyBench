@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "Part 1: The need to update an AI use case inventory entry is triggered by the annual guidance from the Office of Management and Budget (OMB) and by revisions to specific use case information as needed between annual updates.\n\nPart 2: DHS completes one main update to its inventory each year in accordance with OMB's annual guidance, as seen with the planned 2025 update following OMB M-25-21. Additionally, the department makes other revisions to specific use case information as needed between these annual updates. For transparency, a log of these interim revisions is maintained on the Simplified AI Use Case Inventory, and the downloadable full inventory also identifies which data fields have been revised.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:46:48.668640",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides details about the annual updates and interim revisions, it does not directly address the ground truth answer, which states that any change affecting the accuracy of the record triggers the need for an update. The response implies a procedural basis for updates rather than the broader criterion of accuracy.",
+  "provider": "deepseek"
+}

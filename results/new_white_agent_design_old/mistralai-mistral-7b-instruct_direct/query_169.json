@@ -1,0 +1,12 @@
+{
+  "query_id": 169,
+  "query": "How does the NRC define machine learning?",
+  "response": "The Nuclear Regulatory Commission (NRC) does not have a specific, formal definition of \"machine learning\" in its regulations or guidance documents. However, the NRC has discussed machine learning in the context of digital technology and artificial intelligence (AI) in its regulatory framework, particularly in relation to nuclear safety and security.\n\nIn general, the NRC's approach to machine learning and AI is guided by its existing regulations and regulatory framework, which require licensees to ensure that digital systems, including those that use machine learning, are designed, implemented, and maintained in a manner that provides reasonable assurance of adequate protection and safety. The NRC has also issued guidance on the use of digital technology in safety-related systems, which may apply to machine learning applications.\n\nFor the most accurate and up-to-date information, you may want to consult the NRC's website or contact the agency directly. The NRC's regulations and guidance documents are available on its website at www.nrc.gov.",
+  "ground_truth": "An AI application that learns from data without being explicitly programmed.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:12:30.318412",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide a specific definition of machine learning as requested. Instead, it discusses the NRC's regulatory approach to machine learning without addressing the core definition itself.",
+  "provider": "deepseek"
+}

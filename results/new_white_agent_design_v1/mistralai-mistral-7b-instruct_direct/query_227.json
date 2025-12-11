@@ -1,0 +1,12 @@
+{
+  "query_id": 227,
+  "query": "What type of harm is addressed in §1714.46(b) regarding artificial intelligence?",
+  "response": "§1714.46(b) addresses the harm of \"unfair or deceptive acts or practices\" in the context of artificial intelligence, as defined by the Federal Trade Commission (FTC) Act.",
+  "ground_truth": "Harm allegedly caused to a plaintiff by AI developed, modified, or used by a defendant.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:25.692407",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the harm addressed in §1714.46(b) as 'unfair or deceptive acts or practices' rather than the actual harm caused to a plaintiff by AI developed, modified, or used by a defendant.",
+  "provider": "deepseek"
+}

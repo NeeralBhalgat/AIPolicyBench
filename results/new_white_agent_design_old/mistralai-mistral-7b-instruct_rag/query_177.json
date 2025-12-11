@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "Part 1: The NRC will use cases to facilitate nuclear power while ensuring reactor safety, and consider the benefits of increased availability and innovation in nuclear power for economic and national security.\n\nPart 2: The NRC's mission, as mandated by Congress, includes promoting the deployment of nuclear energy and its benefits to society. This involves balancing safety, health, and environmental considerations with the economic and national security advantages of nuclear power. The NRC is directed to streamline licensing and regulatory processes to support the expansion of nuclear energy capacity, including the approval of new reactor designs and the reactivation of shuttered facilities. Additionally, the NRC must maintain the U.S.'s leading reputation for nuclear safety while facilitating these advancements.",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:45:14.499094",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the NRC's role in nuclear power and safety, which is unrelated to the question about AI policy and safety datasets. The ground truth answer focuses on practical experience with AI, which the White Agent does not address.",
+  "provider": "deepseek"
+}

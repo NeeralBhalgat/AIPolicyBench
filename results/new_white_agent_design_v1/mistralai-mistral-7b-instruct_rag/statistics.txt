@@ -1,0 +1,23 @@
+AIPolicyBench Evaluation Results
+================================================================================
+
+White Agent: https://tooth-onto-interfaces-herself.trycloudflare.com/to_agent/9d2f688f77384a5fbbc5d90ffbce3e37
+White Agent Model: mistralai-mistral-7b-instruct_rag
+Evaluation Method: LLM-as-a-judge
+LLM Judge Model: openai/gpt-4o-mini
+Timestamp: 20251210_150322
+
+================================================================================
+Statistics:
+================================================================================
+
+Total Queries: 300
+Evaluated (excl. timeout): 295
+Timeout: 5 (1.67%) - excluded from factuality
+
+Correct: 67 (22.71%)
+Miss: 126 (42.71%)
+Hallucination: 102 (34.58%)
+Factuality Rate: 30.85%
+
+================================================================================

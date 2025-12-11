@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "The directive applies to providers of general-purpose AI systems, as well as users of such systems. Providers are defined as entities that develop, market, or place on the market general-purpose AI systems, while users are those who deploy or use these systems in the EU. The directive also applies to importers and distributors of general-purpose AI systems, as well as those who place them on the market or put them into service in the EU. The directive does not apply to AI systems that are used exclusively for research, development, or testing purposes, or to AI systems that are used exclusively for personal, non-commercial purposes.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:17.221476",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the entities to which the directive applies, focusing on providers and users of general-purpose AI systems, while the ground truth specifies that it applies to GSA employees, contractors, and federal data processed by IT systems, which is a different context.",
+  "provider": "deepseek"
+}

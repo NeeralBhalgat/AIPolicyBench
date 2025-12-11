@@ -1,0 +1,12 @@
+{
+  "query_id": 264,
+  "query": "What are users allowed to do with system provenance data under AB 853?",
+  "response": "[/INST]\n\nPart 1: Users are allowed to access, use, and share system provenance data under AB 853, but with restrictions to prevent misuse.\n\nPart 2: The legislation specifies that system provenance data can be accessed and utilized for legitimate purposes, such as ensuring transparency and accountability. However, it imposes limitations to prevent unauthorized access, manipulation, or dissemination of the data. The goal is to balance the need for openness with the protection of sensitive information. Users must comply with the guidelines outlined in the bill to ensure proper handling of the data.",
+  "ground_truth": "Inspect all available system provenance data via UI, download, or linked site.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:57:02.191166",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the permissions under AB 853. The ground truth specifies that users can inspect all available system provenance data, which is not explicitly mentioned in the White Agent's response. Instead, it focuses on access and use with restrictions, which may not fully align with the actual provisions of the legislation.",
+  "provider": "deepseek"
+}

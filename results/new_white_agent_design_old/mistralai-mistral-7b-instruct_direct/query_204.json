@@ -1,0 +1,12 @@
+{
+  "query_id": 204,
+  "query": "Under §11008.1(a)(1)(A), what tasks can Automated-Decision Systems perform?",
+  "response": "Under §11008.1(a)(1)(A) of the U.S. Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence, Automated-Decision Systems (ADS) are defined as systems that \"make or assist in making decisions that have legal or significant effects on individuals, groups, or communities.\" These systems can perform a variety of tasks, including but not limited to:\n\n1. **Decision-Making**: Automatically making decisions that have legal or significant effects, such as approving or denying applications (e.g., loans, benefits, or permits).\n2. **Decision Assistance**: Assisting human decision-makers by providing recommendations, predictions, or analyses that influence outcomes (e.g., risk assessments, hiring recommendations, or medical diagnoses).\n3. **Risk Scoring**: Evaluating individuals or groups based on risk factors (e.g., credit scoring, insurance underwriting, or criminal recidivism predictions).\n4. **Resource Allocation**: Determining the distribution of resources (e.g., allocating housing, healthcare, or educational opportunities).\n5. **Regulatory Compliance**: Enforcing or monitoring compliance with laws or regulations (e.g., fraud detection, tax audits, or workplace safety inspections).\n6. **Personalized Services**: Tailoring services or content to individuals based on data (e.g., personalized advertising, educational content, or healthcare treatment plans).\n\nThe key criterion is that the system's outputs must have \"legal or significant effects\" on individuals, groups, or communities. This includes decisions that could impact rights, opportunities, or well-being.",
+  "ground_truth": "Predictive assessments, measurement of abilities, and screening or categorizing applicants or employees.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:02.128101",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed list of tasks that Automated-Decision Systems can perform, but it does not align with the ground truth answer, which specifically mentions predictive assessments, measurement of abilities, and screening or categorizing applicants or employees. Therefore, while the response attempts to answer the question, it includes incorrect or irrelevant information.",
+  "provider": "deepseek"
+}

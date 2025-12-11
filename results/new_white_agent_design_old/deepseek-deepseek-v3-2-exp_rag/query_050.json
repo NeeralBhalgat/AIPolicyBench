@@ -1,0 +1,12 @@
+{
+  "query_id": 50,
+  "query": "Why does NIST describe the AI RMF as a living document?",
+  "response": "Part 1: NIST describes the AI RMF as a living document because it is intended to be improved over time, as evidenced by its companion Playbook, Roadmap, and the release of new profiles like the Generative AI Profile.\n\nPart 2: The framework was developed through an ongoing, collaborative process that includes public comments, workshops, and drafts. After its initial release, NIST continues to build on it with new resources and specific profiles to address emerging technologies like generative AI. This continuous development and addition of new guidance demonstrate that the framework is not static but is actively maintained and updated.",
+  "ground_truth": "Because it will be regularly updated based on new technologies, community feedback, and evolving global standards.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:31:47.738192",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the nature of the AI RMF as a living document, emphasizing its ongoing improvement, community involvement, and adaptation to new technologies, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

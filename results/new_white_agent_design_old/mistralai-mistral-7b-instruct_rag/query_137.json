@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "IRS units can contact the Office of Management and Budget (OMB) for AI-related guidance.\n\nThe Advancing American AI Act required OMB to incorporate additional considerations when developing guidance for using AI in the federal government, including federal contracts for acquiring AI. This guidance would address privacy, civil rights, and other relevant factors. The OMB is responsible for ensuring that federal agencies, including IRS units, adhere to these guidelines when implementing AI technologies.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:37.468214",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly identifies the Office of Management and Budget (OMB) as the contact for AI-related guidance for IRS units, while the ground truth specifies the CDAO team as the correct contact. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

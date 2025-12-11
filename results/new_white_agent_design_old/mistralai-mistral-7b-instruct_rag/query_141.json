@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "Part 1: The Advanced Research Projects Agency for Innovation (ARPA-I) defines topics for NASA’s AI governance board.\n\nPart 2: According to the context, the ARPA-I is tasked with soliciting input on AI governance topics through a public consultation process, such as a Request for Information (RFI). This indicates that ARPA-I plays a central role in shaping the agenda for NASA’s AI governance board. The context emphasizes the importance of stakeholder engagement in defining these topics, ensuring a collaborative approach to AI governance. This aligns with broader efforts to ensure the responsible development and deployment of AI across various sectors, including education and civil rights.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:39:01.342734",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the Advanced Research Projects Agency for Innovation (ARPA-I) defines topics for NASA’s AI governance board, while the ground truth indicates that the AI Standards Working Group (AISWG) is responsible for forming discussion topics for the AI Standards Board (AISB). This is a factual error.",
+  "provider": "deepseek"
+}

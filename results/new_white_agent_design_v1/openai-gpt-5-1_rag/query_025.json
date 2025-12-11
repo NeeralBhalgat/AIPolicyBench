@@ -1,0 +1,12 @@
+{
+  "query_id": 25,
+  "query": "Who must produce an AI Action Plan and by when?",
+  "response": "The Assistant to the President for Science and Technology (APST), the Special Advisor for AI and Crypto, and the Assistant to the President for National Security Affairs (APNSA) must develop an Artificial Intelligence Action Plan within 180 days of the order.",
+  "ground_truth": "APST, Special Advisor for AI and Crypto, and APNSA (with others) within 180 days.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:09:22.003048",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the individuals responsible for producing the AI Action Plan and correctly states the timeframe of 180 days, aligning with the ground truth.",
+  "provider": "deepseek"
+}

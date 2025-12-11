@@ -1,0 +1,12 @@
+{
+  "query_id": 81,
+  "query": "What is the main purpose of DHS Directive 139-08?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "To set Department-wide policy for the use and acquisition of Artificial Intelligence that promotes innovation while managing risks to safety and individual rights.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:39:20.239808",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about DHS Directive 139-08.",
+  "provider": "deepseek"
+}

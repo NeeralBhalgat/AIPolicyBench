@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "Part 1:  \nThe provided NRC regulations and guidance do not define a specific term “use case,” and no formal NRC definition of “use case” appears in the cited materials.\n\nPart 2:  \nThe referenced NRC documents describe regulatory requirements in Title 10 of the Code of Federal Regulations and associated guidance (such as regulatory guides and NUREGs) that are binding on licensed persons and organizations, but they do not introduce or define “use case” as a technical or regulatory term. Instead, they focus on licensing, operation, export controls, and oversight topics like counterfeit, fraudulent, and suspect items. When the NRC needs special terminology, it is typically defined explicitly in regulations or formal guidance; no such definition is provided here for “use case.” Therefore, any meaning of “use case” in NRC contexts would be the generic, non‑regulatory one (e.g., a description of how a system or regulation is used), not a formally defined NRC term.",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:09:44.389943",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the NRC does not define 'use case' and focuses on regulatory requirements instead. However, the ground truth defines 'use case' as a specific situation for applying an AI product or service, which is not addressed in the response.",
+  "provider": "deepseek"
+}

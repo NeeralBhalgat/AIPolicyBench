@@ -1,0 +1,12 @@
+{
+  "query_id": 52,
+  "query": "What does the strategy mean by “decision advantage”?",
+  "response": "\"Decision advantage\" refers to the ability to make better, faster, and more informed decisions than competitors or adversaries, often through the use of advanced technologies like AI. It emphasizes the strategic importance of leveraging data and analytics to gain a competitive edge in decision-making processes.",
+  "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:18.283172",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of 'decision advantage' by highlighting the ability to make better, faster, and more informed decisions, which aligns with the ground truth answer regarding the DoD enterprise.",
+  "provider": "deepseek"
+}

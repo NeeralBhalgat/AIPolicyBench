@@ -1,0 +1,12 @@
+{
+  "query_id": 95,
+  "query": "How will DHS prevent discriminatory effects in AI systems?",
+  "response": "DHS has committed to require civil-rights, civil-liberties, and privacy reviews; bias and disparate-impact testing; and ongoing monitoring of AI systems, with oversight by its Office for Civil Rights and Civil Liberties and Privacy Office. If an AI use is found to produce unlawful discriminatory effects, DHS policy requires it be modified, restricted, or discontinued.",
+  "ground_truth": "By testing and validating AI use cases and applying civil rights evaluation methods such as disparate impact analysis.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:40:40.100387",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the measures DHS has committed to in preventing discriminatory effects in AI systems, including civil rights reviews and ongoing monitoring, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

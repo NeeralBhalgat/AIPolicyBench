@@ -1,0 +1,12 @@
+{
+  "query_id": 165,
+  "query": "What role will public workshops and stakeholder engagement play?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "They will help the NRC gather input, share updates, and maintain transparency about AI regulatory readiness.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:46:56.693231",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the role of public workshops and stakeholder engagement.",
+  "provider": "deepseek"
+}

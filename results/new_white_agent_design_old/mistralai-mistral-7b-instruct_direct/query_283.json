@@ -1,0 +1,12 @@
+{
+  "query_id": 283,
+  "query": "What new information about common data types must data brokers provide?",
+  "response": "As of 2024, data brokers in the U.S. are required to provide new information about common data types under the American Data Privacy and Protection Act (ADPPA). Specifically, they must disclose:\n1. **Categories of Personal Data Collected**: Brokers must clearly identify the types of personal data they collect, such as names, addresses, financial information, health data, and biometric data.\n2. **Sources of Data**: They must disclose where the data is obtained from, including direct collection from consumers, third-party sources, or public records.\n3. **Purpose of Data Use**: Brokers must explain how the data is used, including whether it is sold, shared, or used for targeted advertising.\n4. **Retention Periods**: They must specify how long the data is retained and the criteria for retention.\n5. **Data Sharing Practices**: Brokers must disclose with whom the data is shared, including third parties, affiliates, or government entities.\n6. **Consumer Rights**: They must inform consumers about their rights to access, correct, delete, or opt out of the sale of their data.\n\nThese requirements aim to enhance transparency and empower consumers to make informed decisions about their data. For the most accurate and up-to-date information, it is advisable to consult the latest regulatory guidelines or legal resources.",
+  "ground_truth": "They must list one to three of their most commonly collected personal information types if they do not collect certain other categories.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:51.678092",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides detailed requirements that are not aligned with the ground truth, which specifies that data brokers must list one to three of their most commonly collected personal information types if they do not collect certain other categories. The response includes additional requirements that are not part of the ADPPA's stipulations.",
+  "provider": "deepseek"
+}

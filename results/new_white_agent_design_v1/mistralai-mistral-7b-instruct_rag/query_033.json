@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "Regulatory bodies play a central role in AI governance by developing and enforcing regulations that address the ethical, legal, and societal implications of AI. [sources 1, 2, 4, 5]",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:56.701674",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the role of regulatory bodies in AI governance but does not mention the specific governance bodies listed in the ground truth answer, which are essential for a complete and accurate response.",
+  "provider": "deepseek"
+}

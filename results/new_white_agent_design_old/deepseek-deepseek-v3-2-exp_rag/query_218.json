@@ -1,0 +1,12 @@
+{
+  "query_id": 218,
+  "query": "Under AB 979, what types of records are prohibited from public disclosure by the Office of Emergency Services?",
+  "response": "Part 1: The provided sources do not contain any information indicating that AB 979 prohibits the Office of Emergency Services from disclosing any specific types of records.\n\nPart 2: The text of AB 979, as provided, discusses requirements for corporate boards of directors to include members from underrepresented communities and does not mention the Office of Emergency Services or any records disclosure prohibitions. The source describing the Office of Emergency Services only states its role in pre-positioning resources for storm response, with no reference to record-keeping or public disclosure rules. Therefore, based on the given context, no such prohibitions can be identified.",
+  "ground_truth": "Records privileged, protected by copyright, prohibited by law, exempt under the Public Records Act, or where nondisclosure outweighs public interest.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:09:36.252446",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly states that AB 979 does not mention any prohibitions on records disclosure by the Office of Emergency Services. The ground truth specifies types of records that are prohibited from public disclosure, which the White Agent fails to acknowledge or address.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 298,
+  "query": "How does SB 524 define “first draft”?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The initial document produced solely by artificial intelligence.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:13.330974",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about how SB 524 defines 'first draft'.",
+  "provider": "deepseek"
+}

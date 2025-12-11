@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:16:55.619135",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how DOT handles sharing AI models and code with the public, which does not provide any information relevant to the question.",
+  "provider": "deepseek"
+}

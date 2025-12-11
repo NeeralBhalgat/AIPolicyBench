@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "Part 1: The DOE promotes sharing of AI-related software and code by collecting DOE-funded scientific and business software through DOE CODE, which makes the software discoverable, optionally assigns a DOI, and formally announces code to ensure dissemination in accordance with DOE statutory responsibilities.\n\nPart 2: DOE CODE offers two main paths for sharing software. First, developers can submit code to make it discoverable and optionally obtain a DOI, which is intended for early-stage software with no distribution limitations. Second, a formal announcement process is required for more mature software that has undergone internal review, ensuring compliance with DOE funding responsibilities and wider dissemination. Furthermore, DOE CODE maintains an inventory of this software and reports it to the government-wide Code.gov website, enhancing transparency and access.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:35:06.003800",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the DOE's promotion of sharing AI-related software and code through DOE CODE, including the processes for submission and dissemination, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

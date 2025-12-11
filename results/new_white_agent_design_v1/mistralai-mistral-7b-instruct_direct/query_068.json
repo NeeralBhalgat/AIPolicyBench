@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "The U.S. Department of Energy (DOE) promotes sharing of AI-related software and code through initiatives like the AI for Earth Systems (AI4ES) program, which encourages open-source contributions and collaboration among researchers and institutions. Additionally, DOE-funded projects often require open access to software and data to maximize public benefit and scientific progress.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:37.063516",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions the AI for Earth Systems (AI4ES) program, which is not a recognized initiative by the DOE for promoting AI-related software sharing. The correct platform is DOE CODE, which is not mentioned in the response, indicating a factual inaccuracy.",
+  "provider": "deepseek"
+}

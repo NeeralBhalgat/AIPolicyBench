@@ -1,0 +1,12 @@
+{
+  "query_id": 257,
+  "query": "What types of property elements qualify as “changes” that make an image digitally altered?",
+  "response": "Part 1:  \nProperty elements that count as “changes” making an image digitally altered include modifications to its visual content (adding, removing, or reshaping people, objects, or backgrounds) and to core visual characteristics such as color, lighting, scale, or overall composition.\n\nPart 2:  \nThe articles provided discuss federal efforts to preempt state regulation of AI and do not define what constitutes a “digitally altered” image, so this explanation is based on standard technical and policy practice rather than those texts. In common usage, an image is treated as digitally altered when core visual elements are manipulated—for example, when people, objects, or backgrounds are inserted, removed, or significantly changed. Adjustments to fundamental image properties like color, brightness, contrast, lighting, geometry (resize, stretch, warp), or composition (heavy cropping that changes the apparent scene) are also considered qualifying changes. Many labeling and disclosure rules focus on whether these edits materially change how a reasonable viewer would perceive the scene, subject, or context shown in the image.",
+  "ground_truth": "Changes to fixtures, furniture, appliances, flooring, walls, landscaping, façade, floor plans, and external features like streetlights or views.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:28:14.225246",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses changes to visual content and characteristics of images, which is not aligned with the ground truth answer that specifies property elements related to physical structures and features. The response does not address the specific types of property elements mentioned in the ground truth.",
+  "provider": "deepseek"
+}

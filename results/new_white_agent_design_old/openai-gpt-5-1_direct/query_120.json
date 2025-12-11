@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "I’m not aware of any widely recognized AI or technology risk‑management framework, tool, or regulatory concept called **“TrUCKR”** in the public literature up to late 2024.\n\nBecause of that, I **can’t reliably say what TrUCKR tracks regarding risk management** without additional context. It does not correspond to any of the major, named frameworks or tools in AI governance or risk management (e.g., NIST AI RMF, ISO 42001, EU AI Act risk management requirements, OECD, etc.), nor to a commonly cited acronym in that space.\n\nIf TrUCKR is:\n\n- an internal tool or framework (e.g., from a specific company, lab, or university), or  \n- part of a newer or niche governance initiative not widely documented publicly,\n\nits specific tracked elements could include things like:\n\n- Identified risks and their",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:52:47.040954",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about TrUCKR and does not provide a definitive answer regarding what it tracks, which aligns with the 'miss' classification. The response does not contain the ground truth information.",
+  "provider": "deepseek"
+}

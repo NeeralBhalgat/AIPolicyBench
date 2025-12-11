@@ -1,0 +1,12 @@
+{
+  "query_id": 259,
+  "query": "What happens if a broker willfully violates these disclosure requirements?",
+  "response": "**Part 1**  \nIf a broker willfully violates these disclosure requirements, the violation of the Disclosure Obligation and of the disclosure rules “under this title” can trigger regulatory enforcement (fines, suspensions, other remedial sanctions) and, for willful and knowing failures to give required credit disclosures, even criminal penalties in the form of a fine and/or imprisonment.  \n\n**Part 2**  \nUnder the broker‑dealer standard of conduct, a willful failure to provide “full and fair” disclosure of material facts relating to the scope and terms of the relationship or conflicts of interest is a violation of Regulation Best Interest, enforceable by the SEC and self‑regulatory organizations through actions that can include censures, fines, suspensions, or barring the broker. In parallel, where the Truth in Lending Act applies, a willful and knowing failure to provide disclosures “under this title” (for example, required loan or private education loan disclosures) can carry criminal liability—typically a statutory fine, imprisonment for up to a year, or both—on top of any civil liability. Regulators may also require corrective disclosures, restitution to affected customers, and changes to policies and procedures to prevent further “circumvention or evasion” of disclosure rules. The combination of securities‑law and consumer‑credit remedies means that intentional disclosure violations can have both serious professional consequences and legal penalties.",
+  "ground_truth": "It becomes a crime under the Real Estate Law.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:28:19.816029",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses regulatory enforcement and penalties related to disclosure violations, but it does not accurately reflect the ground truth answer, which states that such violations become a crime under the Real Estate Law. The response is overly broad and includes details that are not directly relevant to the specific context of the question.",
+  "provider": "deepseek"
+}

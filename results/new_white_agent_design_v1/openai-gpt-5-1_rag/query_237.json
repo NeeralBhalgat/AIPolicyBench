@@ -1,0 +1,12 @@
+{
+  "query_id": 237,
+  "query": "What constitutes a separate violation under AB 489?",
+  "response": "Under AB 489, **each use of a prohibited term, letter, or phrase** that falsely suggests AI is a licensed healthcare professional is treated as a **separate violation**.",
+  "ground_truth": "Each use of a prohibited term, letter, or phrase.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:28:38.482229",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth answer by stating that each use of a prohibited term, letter, or phrase constitutes a separate violation under AB 489.",
+  "provider": "deepseek"
+}

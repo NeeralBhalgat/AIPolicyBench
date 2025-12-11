@@ -1,0 +1,12 @@
+{
+  "query_id": 131,
+  "query": "What is excluded from “operational use”?",
+  "response": "The term \"operational use\" typically refers to the deployment of a system, technology, or process in a real-world environment for its intended purpose. However, the specific exclusions from \"operational use\" can vary depending on the context, industry, or regulatory framework. Here are some common exclusions:\n\n1. **Testing and Development**: Activities such as testing, prototyping, simulation, and development are generally excluded from being considered \"operational use.\" These activities are often conducted in controlled environments to ensure the system works as intended before full deployment.\n\n2. **Training and Demonstration**: Use of a system for training purposes or for demonstration to stakeholders, clients, or the public is usually not considered operational use.\n\n3. **Research and Experimentation**: Activities conducted for research purposes, including experiments and proof-of-concept trials, are typically excluded.\n\n4. **Internal Use**: Some organizations may exclude internal use (e.g., within a company or organization) from being considered operational use, especially if the system is not yet available to external users or the public.\n\n5. **Limited or Pilot Deployments**: In some cases, limited or pilot deployments (e.g., beta testing with a small group of users) may be excluded from being considered full operational use.\n\n6. **Regulatory or Compliance Exclusions**: Certain regulations or standards may explicitly exclude specific activities from being considered operational use. For example, in the context of AI systems, regulatory sandboxes or exemptions for early-stage deployments might apply.\n\nIf you are referring to a specific context (e.g., AI systems, military applications, or a particular regulatory framework), please provide more details for a more precise answer.",
+  "ground_truth": "Exploratory or research-only AI activity.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:09:54.180647",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed explanation of what is typically excluded from 'operational use,' but it does not directly address the specific ground truth answer of 'exploratory or research-only AI activity.' While the response is informative, it does not confirm or deny the ground truth, leading to a classification of 'miss.'",
+  "provider": "deepseek"
+}

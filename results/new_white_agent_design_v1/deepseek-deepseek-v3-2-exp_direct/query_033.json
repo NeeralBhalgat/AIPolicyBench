@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "Based on my knowledge, there is no single global body that universally leads AI governance.\n\nInstead, leadership is distributed among various entities, including national governments (like the US, EU, and China through their respective legislative initiatives), international organizations (such as the OECD and UN), and multi-stakeholder groups focused on standards and best practices.",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:38.803520",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies that there is no single global body leading AI governance and mentions relevant entities like national governments and international organizations. However, it fails to mention specific governance bodies listed in the ground truth, such as CAIO and USDA AI Council, which are significant in the context of AI governance as of December 2025.",
+  "provider": "deepseek"
+}

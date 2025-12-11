@@ -1,0 +1,12 @@
+{
+  "query_id": 110,
+  "query": "How does DOT decide which AI use cases stay out of the Public Use Case Inventory?",
+  "response": "<s> [OUT] Part 1: DOT excludes AI use cases from the Public Use Case Inventory based on criteria such as mission-sensitive, safety-sensitive, and exploratory, experimental, or unvalidated research scenarios.\n\nPart 2: The Department of Transportation (DOT) has established specific criteria for excluding certain AI use cases from public dissemination, particularly those involving mission-sensitive, safety-sensitive, or experimental and unvalidated research. This approach aligns with broader federal guidelines for AI governance, ensuring that sensitive and high-risk AI applications are managed with appropriate oversight. By categorizing these use cases separately, DOT aims to balance transparency with the need to protect critical operations and ongoing research efforts. This method supports the agency's compliance with executive orders and OMB memoranda while fostering responsible AI innovation.",
+  "ground_truth": "The CAIO applies exclusion criteria such as classified, sensitive, or research-only systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:35:42.013250",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately describes the criteria for exclusion by focusing on 'mission-sensitive' and 'safety-sensitive' without mentioning 'classified' or 'sensitive' as specified in the ground truth. This indicates a misunderstanding of the specific terms used by DOT.",
+  "provider": "deepseek"
+}

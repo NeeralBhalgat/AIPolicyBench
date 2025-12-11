@@ -1,0 +1,12 @@
+{
+  "query_id": 21,
+  "query": "What is the core purpose of this order?",
+  "response": "Part 1:  \nThe core purpose of this order is to ensure that, from this day forward, the foreign policy of the United States shall champion core American interests and always put America and American citizens first.\n\nPart 2:  \nThe order explicitly states its purpose as reorienting U.S. foreign policy so that it prioritizes \"core American interests\" above other considerations. By directing that America and its citizens always come first, it establishes an overarching \"America First\" framework to guide diplomatic decisions and strategies. This means that the Department of State’s policies and practices are to be reviewed and adjusted to align with this priority structure. In effect, the order seeks to embed this principle as the foundational objective of U.S. foreign policy going forward.",
+  "ground_truth": "Keep U.S. AI leadership with systems free from ideological bias or engineered agendas.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:28:35.178484",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses a U.S. foreign policy order focused on 'core American interests' and an 'America First' framework, which does not align with the ground truth answer that emphasizes keeping U.S. AI leadership free from ideological bias. The response is factually incorrect regarding the core purpose of the order.",
+  "provider": "deepseek"
+}

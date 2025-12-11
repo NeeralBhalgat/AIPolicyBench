@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "Part 1: Taxpayer information is protected by the provisions of Internal Revenue Code section 6103, which broadly restrict the sharing of taxpayer information by the IRS with third parties or other government agencies.\n\nPart 2: Section 6103 of the Internal Revenue Code is the primary law governing the confidentiality of taxpayer information. It imposes broad restrictions on the IRS, preventing the sharing of such information with employers or other government agencies except under very narrow and specific circumstances. These provisions are designed to protect taxpayer privacy and encourage participation in the federal tax system.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:47:28.196402",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies Internal Revenue Code section 6103 as the law that protects taxpayer information, providing a correct and detailed explanation of its provisions and implications.",
+  "provider": "deepseek"
+}

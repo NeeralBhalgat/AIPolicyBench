@@ -1,0 +1,12 @@
+{
+  "query_id": 244,
+  "query": "What notification must be issued if a reasonable person would believe a companion chatbot is human?",
+  "response": "If a reasonable person would believe a companion chatbot is human, users must be notified that **the AI companion is not human**.",
+  "ground_truth": "A clear and conspicuous notification stating the chatbot is artificially generated and not human.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:29:01.560785",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately conveys the requirement to notify users that the AI companion is not human, aligning with the ground truth answer about the need for a clear notification regarding the chatbot's artificial nature.",
+  "provider": "deepseek"
+}

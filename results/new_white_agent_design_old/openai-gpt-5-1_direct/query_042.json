@@ -1,0 +1,12 @@
+{
+  "query_id": 42,
+  "query": "What are the four core functions of the AI RMF?",
+  "response": "The NIST AI Risk Management Framework (AI RMF) defines **four core functions**:\n\n1. **Govern** – Establish and oversee the organizational policies, processes, roles, and accountability structures needed to manage AI risks consistently and responsibly.\n\n2. **Map** – Contextualize the AI system and its intended use: understand the socio-technical context, stakeholders, use cases, benefits, and potential harms and impacts.\n\n3. **Measure** – Assess and analyze AI risks and system performance using appropriate metrics, tools, tests, and evaluation methods (e.g., for accuracy, robustness, bias, privacy, security).\n\n4. **Manage** – Prioritize, respond to, and monitor risks over the AI system lifecycle, including implementing risk controls, mitigation strategies, and continuous improvement processes.",
+  "ground_truth": "Govern, Map, Measure, and Manage.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:43:26.481391",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately lists the four core functions of the NIST AI Risk Management Framework (AI RMF) as Govern, Map, Measure, and Manage, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

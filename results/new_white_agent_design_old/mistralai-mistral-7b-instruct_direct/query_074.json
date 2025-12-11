@@ -1,0 +1,12 @@
+{
+  "query_id": 74,
+  "query": "What are the primary domains covered in the HHS Strategic Plan?",
+  "response": "The HHS (U.S. Department of Health and Human Services) Strategic Plan covers several primary domains, including:\n\n1. Healthy People and Communities: This domain focuses on improving the health, well-being, and quality of life for all Americans, with an emphasis on addressing health disparities and promoting healthy behaviors.\n\n2. Economically Strong, Efficient, and Effective Health System: This domain aims to improve the efficiency, effectiveness, and affordability of the U.S. health system, while ensuring access to quality care for all.\n\n3. Scientific Knowledge, Innovation, and Regulation: This domain focuses on advancing scientific research, innovation, and regulation to improve health and address public health challenges.\n\n4. Preparedness and Response: This domain focuses on preparing for, responding to, and recovering from public health emergencies, including natural disasters, disease outbreaks, and terrorist attacks.\n\n5. Workforce Development and Capacity: This domain focuses on developing and maintaining a skilled and diverse public health workforce to address current and future public health challenges.\n\n6. Information and Technology: This domain focuses on leveraging technology and data to improve health outcomes, enhance the efficiency of health programs, and engage with the public.\n\n7. Infrastructure and Facilities: This domain focuses on maintaining and improving the physical infrastructure and facilities needed to support HHS's mission, including buildings, laboratories, and information systems.\n\n8. Cross-Cutting Priorities: This domain includes various cross-cutting priorities that apply to all HHS programs and activities, such as diversity, equity, inclusion, and accessibility; customer service; and financial management.",
+  "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:50.704033",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response lists several domains that do not align with the ground truth answer, which specifies the primary domains of the HHS Strategic Plan as medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "provider": "deepseek"
+}

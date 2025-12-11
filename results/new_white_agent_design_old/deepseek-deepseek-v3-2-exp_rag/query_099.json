@@ -1,0 +1,12 @@
+{
+  "query_id": 99,
+  "query": "What is the AI Policy Working Group (AIPWG), and what does it do?",
+  "response": "**Part 1:** The AI Policy Working Group (AIPWG) is a group that, according to the order, shall be established by the Assistant to the President for Science and Technology (APST) and the Assistant to the President for National Security Affairs (APNSA) to coordinate the implementation of the order's AI policy.\n\n**Part 2:** The order directs the APST and APNSA to establish the AIPWG, which will include officials from various policy domains. Its primary function is to coordinate the implementation of the administration's AI policy across the federal government. This involves working with executive departments and agencies to ensure a unified approach to sustaining American leadership in artificial intelligence.",
+  "ground_truth": "A group established to assess and update policies for ethical and authorized AI acquisition and use across DHS.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:41:38.851388",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes the AIPWG as a group established to coordinate AI policy implementation across the federal government, which is not aligned with the ground truth that specifies its role in assessing and updating policies for ethical AI use specifically within the Department of Homeland Security (DHS). This indicates a misunderstanding of the AIPWG's specific focus and responsibilities.",
+  "provider": "deepseek"
+}

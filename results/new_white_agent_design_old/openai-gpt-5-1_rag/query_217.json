@@ -1,0 +1,12 @@
+{
+  "query_id": 217,
+  "query": "What confidentiality rule applies to cyber threat indicators shared under the California AI Cybersecurity Collaboration Playbook?",
+  "response": "Part 1:  \nCyber threat indicators shared under the California AI Cybersecurity Collaboration Playbook must be marked and handled in accordance with the Traffic Light Protocol (TLP), which governs how widely they may be disseminated.  \n\nPart 2:  \nThe Playbook relies on the established federal framework for cyber threat information sharing, which uses STIX formatting for indicators and TLP to define confidentiality and sharing limits. Under TLP, each indicator is assigned a color (such as RED, AMBER, GREEN, or CLEAR), and recipients must restrict further sharing based on that marking. This means participants may only redistribute indicators to others who are allowed under the applicable TLP designation. The confidentiality rule is therefore that all shared indicators are controlled and protected in line with their TLP marking.",
+  "ground_truth": "They are confidential and cannot be transmitted or shared except with approved state employees and contractors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:17:50.670596",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent correctly mentions the Traffic Light Protocol (TLP) and its role in sharing cyber threat indicators, it fails to accurately reflect the specific confidentiality rule that these indicators cannot be shared except with approved state employees and contractors. The response implies a broader sharing capability than what is stated in the ground truth.",
+  "provider": "deepseek"
+}

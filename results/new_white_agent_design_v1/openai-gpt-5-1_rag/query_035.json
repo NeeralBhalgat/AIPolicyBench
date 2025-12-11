@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "The workforce plan is to “optimize and target Federal investments in workforce development to align with our country’s reindustrialization needs and equip American workers to fill the growing demand for skilled trades and other occupations,” including reviewing all Federal workforce development programs and expanding Registered Apprenticeships with a plan “to reach and surpass 1 million new active apprentices.”",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:10:11.051228",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses optimizing federal investments and expanding apprenticeships, which does not align with the ground truth answer that emphasizes keeping humans-in-the-loop, expanding hiring, and AI literacy. The focus on federal programs and apprenticeships is not relevant to the specific workforce plan outlined in the ground truth.",
+  "provider": "deepseek"
+}

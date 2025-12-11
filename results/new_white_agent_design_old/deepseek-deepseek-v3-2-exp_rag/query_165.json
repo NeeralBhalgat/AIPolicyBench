@@ -1,0 +1,12 @@
+{
+  "query_id": 165,
+  "query": "What role will public workshops and stakeholder engagement play?",
+  "response": "Part 1: Public workshops and stakeholder engagement will play a central role in creating a two-way dialogue to inform government decision-making, ensuring diverse perspectives and new voices are heard and that public concerns are translated into action.\n\nPart 2: These activities are part of a government-wide effort to develop a framework for more frequent, effective, and meaningful public participation. The goal is to remove obstacles and improve public awareness and involvement, particularly by engaging underserved communities. This approach builds on directives to use proactive outreach and early engagement to make government more transparent and responsive.",
+  "ground_truth": "They will help the NRC gather input, share updates, and maintain transparency about AI regulatory readiness.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:56:34.457378",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses the importance of public workshops and stakeholder engagement, it does not accurately reflect the specific role of these activities in helping the NRC gather input and maintain transparency about AI regulatory readiness, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

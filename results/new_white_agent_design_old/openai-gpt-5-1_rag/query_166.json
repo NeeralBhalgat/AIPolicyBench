@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "Part 1:  \nMajor internal groups supporting AI governance will include the Artificial Intelligence R&D Interagency Working Group (AI R&D IWG), the NSTC Select Committee on AI, the Subcommittee on Machine Learning and Artificial Intelligence, the NITRD Subcommittee, and related AI oversight and advisory groups under the National Artificial Intelligence Initiative Office.\n\nPart 2:  \nThe AI R&D IWG coordinates federal AI research and development across dozens of agencies and operates through the NITRD Subcommittee to advance the mission of the National AI Initiative Office. It is directly tasked by the NSTC Select Committee on AI and the Subcommittee on Machine Learning and Artificial Intelligence, making these committees central players in governance and coordination. In parallel, AI oversight and advisory groups identified in federal requirements, laws, executive orders, and guidance help define roles and responsibilities and ensure agencies follow consistent AI practices. Together, these interagency bodies form the core internal architecture for federal AI governance and policy implementation.",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:04:16.826735",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response lists several groups that are not recognized as major internal committees for AI governance as per the ground truth, which identifies the Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP) as the key entities. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 155,
+  "query": "What is NASA doing to improve access to AI tools?",
+  "response": "<s> [OUT] Part 1: NASA is launching the Genesis mission to provide high-performance computing resources, AI modeling frameworks, and secure access to datasets for improving AI tools.\n\nPart 2: The Genesis mission aims to enhance AI capabilities by offering advanced computational tools, including AI-enabled predictive models and simulation frameworks. It also ensures secure access to various datasets, which are crucial for training and improving AI models. Additionally, the mission supports the development of domain-specific foundation models, which are essential for advancing AI applications across different scientific fields. These efforts are part of a broader strategy to strengthen U.S. leadership in AI infrastructure and technology.",
+  "ground_truth": "Making multiple cloud-hosted AI capabilities available in FY25.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:40:20.197446",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the Genesis mission and its goals related to AI tools, but it does not align with the ground truth answer, which specifically mentions making cloud-hosted AI capabilities available in FY25. The details provided about the Genesis mission appear to be fabricated or misrepresented, leading to a classification of hallucination.",
+  "provider": "deepseek"
+}

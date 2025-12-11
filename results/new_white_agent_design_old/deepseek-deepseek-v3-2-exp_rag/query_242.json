@@ -1,0 +1,12 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "Part 1: Under SB 243, a \"companion chatbot\" is an AI product that simulates a human relationship by providing companionship or engaging in conversation designed to develop a bond with the user.\n\nPart 2: The law specifically targets chatbots that are designed to form relationships, as evidenced by the requirement to notify users if they could be misled into believing they are interacting with a human. The legislation is driven by concerns over the risks these relationship-simulating products pose, particularly to minors and vulnerable populations, by creating dependency and offering potentially dangerous advice. The required safeguards, such as protocols for suicidal ideation and warnings about suitability for minors, further define these as AI systems built for companionship rather than simple task-oriented functions.",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:13:44.930917",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes a 'companion chatbot' under SB 243 as an AI product that simulates human relationships and provides companionship. It also correctly highlights the law's focus on the risks associated with these chatbots, particularly for vulnerable populations, aligning with the ground truth answer's emphasis on adaptive, human-like responses and social needs.",
+  "provider": "deepseek"
+}

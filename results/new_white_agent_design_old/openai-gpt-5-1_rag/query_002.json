@@ -1,0 +1,12 @@
+{
+  "query_id": 2,
+  "query": "Why must the U.S. win the global AI race?",
+  "response": "**Part 1:**  \nBecause, as the plan states, “to remain the leading economic and military power, the United States must win the AI race” so it can maintain “unquestioned and unchallenged global technological dominance.”\n\n**Part 2:**  \nThe Action Plan describes AI as a revolutionary technology that will transform the global economy and alter the balance of power in the world. Whoever controls the largest AI ecosystem will set global standards and reap broad economic, military, and strategic benefits. By winning the AI race, the U.S. aims to secure prosperity, protect its economic and national security, and usher in a “new golden age” of human flourishing and competitiveness. It also positions America to lead in international diplomacy and security while preventing adversaries from dominating critical AI technologies.",
+  "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:24:41.992020",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the importance of winning the AI race for the U.S. in terms of maintaining global technological dominance and securing economic and military benefits, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

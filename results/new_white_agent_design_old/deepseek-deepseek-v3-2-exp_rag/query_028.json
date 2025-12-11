@@ -1,0 +1,12 @@
+{
+  "query_id": 28,
+  "query": "What must OMB do to align guidance, and by when?",
+  "response": "Part 1: The OMB Director must oversee the implementation of the memorandum, which applies to any agency statement of general applicability and future effect that sets forth a policy or interpretation.\n\nPart 2: The directive comes from a presidential memorandum ordering a regulatory freeze pending review. This memorandum explicitly assigns the OMB Director the responsibility for overseeing its implementation. The requirements apply broadly to agency guidance documents, including statements of general applicability that set forth policy or interpret statutes and regulations.",
+  "ground_truth": "Revise M-24-10 and M-24-18 within 60 days.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:26:01.438050",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention the specific requirement to revise M-24-10 and M-24-18 within 60 days, which is the key detail in the ground truth answer. Instead, it provides a general overview of the OMB's responsibilities without addressing the specific timeline or actions required.",
+  "provider": "deepseek"
+}

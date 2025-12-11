@@ -1,0 +1,12 @@
+{
+  "query_id": 172,
+  "query": "What will the NRC evaluate when reviewing AI applications?",
+  "response": "When reviewing AI applications in the nuclear sector, the U.S. Nuclear Regulatory Commission (NRC) has indicated that it will focus on **how the AI-enabled function affects nuclear safety, security, and regulatory compliance**, rather than on “AI” as a buzzword or generic technology.\n\nBased on current NRC documents (especially the *Artificial Intelligence Strategic Plan: 2023–2027* and existing digital I&C guidance),",
+  "ground_truth": "Technical considerations such as bias, robustness, security, explainability, and model maintenance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:58:04.183913",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on the impact of AI on nuclear safety and regulatory compliance but does not mention the specific technical considerations such as bias, robustness, security, explainability, and model maintenance, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

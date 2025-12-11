@@ -1,0 +1,12 @@
+{
+  "query_id": 224,
+  "query": "Does AB 316 prevent a defendant from presenting affirmative defenses unrelated to AI autonomy?",
+  "response": "Part 1: AB 316 does not explicitly prevent defendants from presenting affirmative defenses unrelated to AI autonomy, as the bill focuses on liability for AI systems.\n\nPart 2: The bill appears to address liability for AI systems and their actions, but it does not explicitly restrict or mention affirmative defenses unrelated to AI autonomy. The text does not provide specific language that would bar defendants from raising other defenses, suggesting that such defenses would still be permissible. The focus seems to be on the liability framework for AI, leaving room for traditional legal defenses to be considered.",
+  "ground_truth": "No, defendants may still present other affirmative defenses.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:50:49.044521",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that AB 316 does not prevent defendants from presenting affirmative defenses unrelated to AI autonomy, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

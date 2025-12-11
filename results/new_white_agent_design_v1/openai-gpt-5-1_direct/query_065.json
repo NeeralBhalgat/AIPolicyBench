@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "DOE’s main barriers to adopting AI include legacy and fragmented IT/data systems (especially across its national labs), shortages of AI-skilled workforce, and stringent security, privacy, and classification requirements that complicate data access and model deployment. It also faces challenges from complex federal procurement and risk/governance processes, which can slow experimentation and scaling of AI tools.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:38:42.666657",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response identifies barriers such as legacy IT systems and workforce shortages, which are relevant but do not align with the ground truth answer that specifically mentions cybersecurity limitations, data quality issues, and access to advanced computing resources. Therefore, while the response is not entirely incorrect, it does not accurately reflect the key barriers as stated in the ground truth.",
+  "provider": "deepseek"
+}

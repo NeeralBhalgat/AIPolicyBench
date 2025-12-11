@@ -1,0 +1,12 @@
+{
+  "query_id": 194,
+  "query": "What are the four categories of GSA AI use cases?",
+  "response": "The General Services Administration (GSA) has identified four primary categories of AI use cases in its AI Implementation Roadmap. These categories are:\n\n1. **Automated Customer Service**: AI-powered chatbots and virtual assistants to handle routine inquiries, improve response times, and enhance customer service efficiency.\n2. **Predictive Maintenance**: AI systems that predict equipment failures or maintenance needs, reducing downtime and costs for federal facilities and infrastructure.\n3. **Fraud Detection and Risk Management**: AI tools to detect fraudulent activities, assess risks, and improve decision-making in financial and procurement processes.\n4. **Data Analysis and Insights**: AI-driven analytics to process large datasets, identify trends, and generate actionable insights for better decision-making and policy formulation.\n\nThese categories align with the GSA's mission to leverage AI for improving government operations, service delivery, and public trust.",
+  "ground_truth": "Familiarization, Pre-acquisition, Research & Development, Production / Production-intent.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:38.334894",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists categories of AI use cases that do not match the ground truth answer provided, which specifies 'Familiarization, Pre-acquisition, Research & Development, Production / Production-intent' as the correct categories identified by the GSA.",
+  "provider": "deepseek"
+}

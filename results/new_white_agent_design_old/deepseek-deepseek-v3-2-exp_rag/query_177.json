@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "Part 1: Use cases will help the NRC build an AI foundation across the agency.\n\nPart 2: The NRC's AI Strategic Plan includes a specific goal to pursue use cases for this purpose. This practical application of AI technology is intended to establish a foundational level of capability and understanding throughout the organization. By implementing AI in specific, real-world scenarios, the NRC aims to develop the necessary experience and infrastructure to support its broader regulatory mission.",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:00:30.545628",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the purpose of use cases in helping the NRC build an AI foundation and aligns with the ground truth answer regarding practical experience with AI for staff understanding and evaluation.",
+  "provider": "deepseek"
+}

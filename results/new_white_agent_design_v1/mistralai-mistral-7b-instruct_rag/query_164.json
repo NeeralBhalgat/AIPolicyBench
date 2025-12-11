@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "The NRC is directed to \"adopt revised and, where feasible, determinate and data-backed thresholds to ensure that reactor safety assessments focus on credible, realistic risks\" (Source 4, Section 5).",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:13:53.186772",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not address the question about why the NRC emphasizes data science as a foundation. Instead, it provides a quote related to reactor safety assessments, which is not relevant to the importance of data science in AI.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 249,
+  "query": "When must operators begin annual reporting to the Office of Suicide Prevention?",
+  "response": "Part 1: Operators must begin annual reporting to the Office of Suicide Prevention as directed by the annual report that provides official suicide counts and suicide rates for the DoD.\n\nPart 2: The requirement stems from the Defense Suicide Prevention Program, which mandates the production of an annual report containing official suicide data for the Department of Defense. This report includes statistics for both Service members and military dependents. The purpose of this annual reporting is to track suicide counts and rates while also documenting the DoD's initiatives to combat suicide.",
+  "ground_truth": "Beginning July 1, 2027.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:15:25.334649",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide the correct date for when operators must begin annual reporting, which is July 1, 2027. Instead, it discusses the purpose and context of the reporting without addressing the specific timeline.",
+  "provider": "deepseek"
+}

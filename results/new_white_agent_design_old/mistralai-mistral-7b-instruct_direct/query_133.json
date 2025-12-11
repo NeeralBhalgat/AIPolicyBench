@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "The Internal Revenue Service (IRS) does not have a specific, formal definition of an \"AI use case\" in its official documentation or guidelines. However, the IRS has been exploring and implementing AI technologies for various administrative and operational purposes, such as:\n\n1. **Fraud Detection and Tax Compliance**: AI is used to analyze patterns and anomalies in tax filings to detect potential fraud or non-compliance.\n2. **Customer Service**: AI-powered chatbots and virtual assistants help taxpayers with basic inquiries and guidance.\n3. **Data Processing**: AI tools assist in automating the processing of tax returns and other documents.\n4. **Audit Selection**: AI algorithms may be used to identify high-risk returns for audit.\n\nFor a precise definition or application, you may need to refer to specific IRS publications, such as the IRS Strategic Plan or reports on technology adoption. If you are looking for a broader definition of an \"AI use case,\" it generally refers to a specific application or scenario where AI technologies (e.g., machine learning, natural language processing, or robotics) are deployed to solve a particular problem or improve a process.\n\nIf you are seeking IRS-specific guidance, I recommend checking the IRS website or consulting with a tax professional for the most accurate and up-to-date information.",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:10:14.958765",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the IRS does not have a specific definition of an 'AI use case,' which aligns with the uncertainty expressed in the ground truth. However, it does not provide a clear answer to the question, leading to a classification of 'miss.'",
+  "provider": "deepseek"
+}

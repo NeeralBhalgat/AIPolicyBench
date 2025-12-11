@@ -1,0 +1,12 @@
+{
+  "query_id": 122,
+  "query": "What triggers the need to update an AI use case inventory entry?",
+  "response": "An AI use case inventory entry may need to be updated under several circumstances, including but not limited to:\n\n1. **Changes in AI System Functionality**: If the AI system's capabilities, algorithms, or data inputs are modified, the inventory entry should be updated to reflect these changes.\n2. **Regulatory or Compliance Updates**: If new regulations, laws, or compliance requirements are introduced that affect the AI use case, the inventory should be updated to ensure alignment.\n3. **Risk Assessments**: If new risks are identified or existing risks change, the inventory should be revised to include updated risk assessments and mitigation strategies.\n4. **Performance Metrics**: If the AI system's performance metrics (e.g., accuracy, fairness, bias) change significantly, the inventory should be updated to reflect these changes.\n5. **Deployment or Scaling**: If the AI system is deployed in new environments or scaled to new user groups, the inventory should be updated to document these changes.\n6. **Ethical or Societal Impact Changes**: If the AI system's ethical implications or societal impacts evolve, the inventory should be updated to address these concerns.\n7. **Data Changes**: If the data sources, types, or quality used by the AI system change, the inventory should be updated accordingly.\n8. **Stakeholder Feedback**: If feedback from stakeholders (e.g., users, regulators, ethics boards) suggests the need for updates, the inventory should be revised to incorporate this feedback.\n\nRegular reviews and audits of the AI use case inventory can also help identify the need for updates. Organizations should establish clear processes and timelines for updating the inventory to ensure it remains accurate and relevant.",
+  "ground_truth": "Any change that meaningfully affects the accuracy of the record.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:09:22.057866",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies multiple circumstances that would trigger the need to update an AI use case inventory entry, aligning well with the ground truth that any change affecting the accuracy of the record necessitates an update.",
+  "provider": "deepseek"
+}

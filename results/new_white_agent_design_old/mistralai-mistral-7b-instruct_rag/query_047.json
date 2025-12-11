@@ -1,0 +1,12 @@
+{
+  "query_id": 47,
+  "query": "What does the Map function help organizations do?",
+  "response": "[B_INST] Part 1: The Map function helps organizations publish rules, proposed rules, and notices in the Federal Register.\n\nPart 2: The Federal Register, managed by the Office of the Federal Register, is the official daily publication for federal agencies and organizations to disseminate regulatory information, including executive orders and other presidential documents. This function ensures that the public and stakeholders have access to the latest administrative and legal updates from the government. The Map function likely refers to a tool or process that organizes and presents this information in a structured manner, facilitating efficient publication and retrieval of regulatory content. [/B_INST]",
+  "ground_truth": "It helps organizations understand the context of AI risks and identify potential impacts and limitations before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:26:25.866536",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the Map function as related to publishing rules in the Federal Register, which is not aligned with the ground truth answer about understanding AI risks and impacts. This indicates a misunderstanding of the function's purpose.",
+  "provider": "deepseek"
+}

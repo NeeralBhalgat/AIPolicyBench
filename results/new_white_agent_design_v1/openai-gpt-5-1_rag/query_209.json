@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "Automated systems that analyze an applicant’s tone of voice, facial expressions, or other physical characteristics or behavior may discriminate against, or have an unlawful adverse impact on, individuals based on protected characteristics such as race, national origin, gender, disability, or other FEHA-protected categories.",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:26:26.176629",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the risk of discrimination based on protected characteristics, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

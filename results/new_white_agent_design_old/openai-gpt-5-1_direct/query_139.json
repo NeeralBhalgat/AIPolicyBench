@@ -1,0 +1,11 @@
+{
+  "query_id": 139,
+  "query": "What must AI systems be “regularly monitored and tested” for?",
+  "response": "",
+  "ground_truth": "Alignment with the EO 13960 AI principles.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:54:37.361177",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

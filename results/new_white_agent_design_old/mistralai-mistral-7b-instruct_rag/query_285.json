@@ -1,0 +1,12 @@
+{
+  "query_id": 285,
+  "query": "What penalties apply if a data broker fails to register?",
+  "response": "Part 1: The proposed rule would impose penalties for data brokers that fail to register, including civil liability under the Fair Credit Reporting Act (FCRA).\n\nPart 2: The CFPB's proposed rule aims to ensure that data brokers comply with the FCRA, which includes mandatory registration. Failure to register could result in civil liability, as the rule seeks to protect consumers from harmful data broker practices by enforcing compliance with existing laws. The rule addresses gaps in the FCRA's coverage, particularly for data brokers that evade regulation, and imposes penalties to deter non-compliance. This aligns with broader efforts to safeguard consumer privacy and prevent misuse of sensitive data.",
+  "ground_truth": "$200 per day in fines plus owed fees and investigative costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:01:07.698880",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses penalties related to civil liability under the FCRA but does not provide the specific ground truth answer of '$200 per day in fines plus owed fees and investigative costs.' Instead, it focuses on the broader implications of the proposed rule without accurately stating the penalties.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 239,
+  "query": "What must an AI or GenAI system avoid implying in its advertising or functionality?",
+  "response": "**Part 1:**  \nAn AI or GenAI system must not imply that its detection or other capabilities are highly accurate or effective—such as claiming it is “98 percent accurate” or better than it actually is—unless it has competent and reliable evidence to back those claims up.\n\n**Part 2:**  \nRegulators require that companies offering AI tools have solid, verifiable support for any claims they make about accuracy, efficacy, or performance. Advertising that an AI content detector can reliably distinguish AI-generated from human-written text, when it performs no better than a coin toss, is treated as deceptive. Such misleading statements misinform consumers, who rely on these tools to make important decisions. They also distort competition by putting honest providers, who accurately represent their systems’ limitations, at a disadvantage.",
+  "ground_truth": "That its outputs come from a licensed natural health care professional.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:23:20.186205",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the accuracy and claims of AI systems but does not address the specific requirement that outputs must come from a licensed natural health care professional, which is the ground truth answer.",
+  "provider": "deepseek"
+}

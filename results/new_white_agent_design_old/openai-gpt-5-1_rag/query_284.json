@@ -1,0 +1,12 @@
+{
+  "query_id": 284,
+  "query": "What enhanced deletion requirement does SB 361 add for denied requests?",
+  "response": "**Part 1:** The available information does not specify any particular “enhanced deletion requirement” that SB 361 adds for denied requests.  \n\n**Part 2:** The materials referenced are provided in a form that is largely unreadable here (mostly as binary/encoded PDF data), so the specific statutory or analytical language describing any new deletion duty for denied requests is not visible. Because I cannot see the operative bill text or the plain‑language summaries, I cannot reliably identify what, if any, new deletion obligation is imposed when a request is denied. Inferring such a requirement from general knowledge of privacy laws would be speculative and may be inaccurate. To answer your question accurately, I would need access to the full readable text of SB 361 or a clear summary that explains how it changes deletion duties for denied requests.",
+  "ground_truth": "A denied deletion request must be processed as an opt-out of sale or sharing within 45 days.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:33:51.858290",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about the enhanced deletion requirement in SB 361 and admits to not knowing the specifics due to lack of access to the relevant materials. This indicates a lack of definitive information rather than providing a correct answer.",
+  "provider": "deepseek"
+}

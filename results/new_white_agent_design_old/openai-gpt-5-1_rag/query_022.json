@@ -1,0 +1,12 @@
+{
+  "query_id": 22,
+  "query": "What policy goal does the order set for the United States?",
+  "response": "Part 1:  \nThe order sets a policy goal for the United States “to encourage energy exploration and production on Federal lands and waters” and “to establish our position as the leading producer and processor of non-fuel minerals, including rare earth minerals.”\n\nPart 2:  \nIn the order’s policy section, it explicitly states that it is the policy of the United States to promote energy exploration and production on federal lands and waters, including the Outer Continental Shelf. This is tied to meeting citizens’ needs and solidifying the United States as a long-term global energy leader. It also directs the country to establish itself as the leading producer and processor of non-fuel minerals, including rare earths. These goals are framed as ways to create jobs and prosperity, strengthen supply chains for the U.S. and its allies, and reduce the influence of adversarial states.",
+  "ground_truth": "Sustain and enhance global AI dominance for human flourishing, competitiveness, and national security.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:28:30.439996",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses energy exploration and production policies, which do not align with the ground truth answer regarding AI dominance and national security. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

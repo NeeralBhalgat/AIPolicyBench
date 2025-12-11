@@ -1,0 +1,12 @@
+{
+  "query_id": 59,
+  "query": "How does the DoD plan to collaborate with external partners on AI?",
+  "response": "Part 1: The Department of Defense directed the creation of its Responsible Artificial Intelligence (RAI) Strategy and Implementation Pathway, which establishes foundational tenets to guide its approach.\n\nPart 2: This strategy reaffirms the DoD's commitment to its ethical principles for AI. The document outlines a specific implementation pathway, indicating a structured plan for its AI initiatives. While the provided sources confirm the strategy's creation, they do not detail the specific mechanisms for collaboration with external partners.",
+  "ground_truth": "By strengthening partnerships with government, academia, industry, and international allies to share innovation and interoperability.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:33:23.045613",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide specific information about the DoD's collaboration with external partners, which is a key aspect of the question. It acknowledges a lack of detail on this topic, indicating uncertainty.",
+  "provider": "deepseek"
+}

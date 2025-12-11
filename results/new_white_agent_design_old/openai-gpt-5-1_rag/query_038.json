@@ -1,0 +1,12 @@
+{
+  "query_id": 38,
+  "query": "What ethical/risk frameworks guide AI?",
+  "response": "**Part 1:**  \nAI is guided by the NIST Artificial Intelligence Risk Management Framework (AI RMF), a voluntary framework developed through a consensus-driven, open, transparent, and collaborative process to better manage risks to individuals, organizations, and society associated with artificial intelligence.\n\n**Part 2:**  \nThe AI RMF is intended for voluntary use and is designed to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems. It builds on, aligns with, and supports other AI risk management efforts and incorporates a widely used definition of AI first put forth by the Organization for Economic Cooperation and Development in 2019. NIST has also released a Generative Artificial Intelligence Profile to help organizations identify unique risks posed by generative AI and propose actions for managing those risks. Companion resources such as the AI RMF Playbook, Roadmap, Crosswalk, and the Trustworthy and Responsible AI Resource Center further guide practical, ethical, and risk-aware AI implementation.",
+  "ground_truth": "NIST AI Risk Management Framework tailored to USDA; bias mitigation; human oversight, red teaming, feedback loops, “bias bounties.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:32:23.685649",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent accurately describes the NIST AI RMF and its purpose, it fails to mention specific elements from the ground truth answer, such as bias mitigation, human oversight, and the unique context of USDA. Additionally, the mention of 'bias bounties' is absent, indicating a lack of completeness and accuracy in relation to the ground truth.",
+  "provider": "deepseek"
+}

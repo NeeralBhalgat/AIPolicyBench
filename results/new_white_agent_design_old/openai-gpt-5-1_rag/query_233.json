@@ -1,0 +1,12 @@
+{
+  "query_id": 233,
+  "query": "Who has jurisdiction over violations of AB 489’s provisions?",
+  "response": "**Part 1:**  \nJurisdiction over violations of AB 489’s provisions lies with the appropriate California licensing board for the provider involved (such as the Board of Behavioral Sciences), rather than with out‑of‑state authorities.\n\n**Part 2:**  \nAB 489 is structured so that compliance and enforcement are handled through California’s existing professional regulatory system. This means that if a licensed provider violates the bill’s requirements, it is their California licensing board that investigates and disciplines, using its usual unprofessional‑conduct and enforcement powers. The bill does not create enforcement authority for courts or regulators in other states over California licensees for conduct protected or governed by AB 489. In that way, it centralizes jurisdiction in California’s own boards and agencies that oversee health and behavioral health professionals.",
+  "ground_truth": "The appropriate health care professional licensing board or enforcement agency.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:22:24.446479",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies that jurisdiction over violations of AB 489 lies with the appropriate California licensing board, which aligns with the ground truth answer. The explanation provided is consistent with the enforcement structure of California's professional regulatory system.",
+  "provider": "deepseek"
+}

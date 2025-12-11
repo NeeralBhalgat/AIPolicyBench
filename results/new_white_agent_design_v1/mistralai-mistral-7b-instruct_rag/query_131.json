@@ -1,0 +1,12 @@
+{
+  "query_id": 131,
+  "query": "What is excluded from “operational use”?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Exploratory or research-only AI activity.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:12:17.161461",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

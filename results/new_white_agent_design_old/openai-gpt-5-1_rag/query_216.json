@@ -1,0 +1,12 @@
+{
+  "query_id": 216,
+  "query": "Under AB 979, who may participate through voluntary information-sharing mechanisms?",
+  "response": "Part 1: Under AB 979, any “financial institution” covered by the Bank Secrecy Act may participate through voluntary information‑sharing mechanisms among financial institutions.  \n\nPart 2: This includes entities regulated under the various Bank Secrecy Act implementing rules, such as banks, credit unions, dealers in precious metals, precious stones, or jewels, housing government‑sponsored enterprises, and persons involved in real estate closings and settlements. All of these are treated as financial institutions for purposes of the voluntary information‑sharing framework aimed at deterring money laundering and terrorist activity. AB 979 allows these financial institutions to use the voluntary mechanisms, consistent with the federal procedures and safeguards.",
+  "ground_truth": "Other entities, as appropriate, beyond state contractors and vendors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:16:56.030582",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly limits participation in voluntary information-sharing mechanisms under AB 979 to financial institutions covered by the Bank Secrecy Act, while the ground truth indicates that other entities, beyond state contractors and vendors, may also participate.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 245,
+  "query": "What protocol must an operator maintain before allowing a companion chatbot to engage with users?",
+  "response": "Part 1: An operator must maintain a protocol to implement safety measures, including a self-harm detection system and the ability to share data with the state’s Department of Public Health alongside statistics on how the service provided users with crisis center prevention notifications.\n\nPart 2: The law requires companies to have systems in place that can detect self-harm and direct users to trusted crisis resources. This includes the obligation to share relevant data and statistics with the Department of Public Health to demonstrate how crisis prevention notifications were provided to users. These safety measures are part of the legal standards designed to protect vulnerable users, particularly following tragic incidents involving minors.",
+  "ground_truth": "A protocol preventing production of suicidal ideation, suicide, or self-harm content, including crisis referral notifications.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:14:38.843523",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the need for safety measures, including self-harm detection and crisis referral notifications, which align with the ground truth answer regarding protocols for chatbot operators.",
+  "provider": "deepseek"
+}

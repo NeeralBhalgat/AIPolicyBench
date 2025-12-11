@@ -1,0 +1,12 @@
+{
+  "query_id": 275,
+  "query": "How often must a frontier developer update its frontier AI framework?",
+  "response": "**Part 1:** A frontier developer must update its frontier AI framework at least annually.  \n\n**Part 2:** The paper specifies that developers should maintain a documented risk-management or safety framework for frontier AI and revise it no less than once per year. This regular updating ensures the framework reflects newly discovered model capabilities, emerging risks, and changes in the deployment context. In addition to the annual review, developers are expected to adjust the framework whenever significant new information about risks or misuse potential arises. This approach helps regulators and the public trust that safety practices are not static but keep pace with rapidly evolving frontier AI systems.",
+  "ground_truth": "At least annually, and within 30 days for material modifications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:31:55.477716",
+  "confidence": 0.85,
+  "reasoning": "While the White Agent correctly states that updates should occur at least annually, it fails to mention the requirement for updates within 30 days for material modifications, which is a critical part of the ground truth answer.",
+  "provider": "deepseek"
+}

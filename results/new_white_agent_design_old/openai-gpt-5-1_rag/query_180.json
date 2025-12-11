@@ -1,0 +1,12 @@
+{
+  "query_id": 180,
+  "query": "What is meant by “AI tools” in the glossary?",
+  "response": "**Part 1:**  \nIn the glossary, “AI tools” refers to AI‑enabled tools—software, models, and systems—developed and used to support specific applications such as clinical care, real‑world‑evidence programs, population health, public health, planning and permitting, and mitigating climate change risks.\n\n**Part 2:**  \nFrom the context, AI tools are practical applications of artificial intelligence that operate on data to assist with concrete tasks, including developing personalized immune‑response profiles for patients and improving healthcare‑data quality for responsible AI development. They also encompass tools that help build and apply foundation models for basic and applied science, streamline permitting and environmental reviews, and enhance electric grid planning and operation. In addition, the term covers AI tools designed to mitigate climate change risks, drawing on advanced computing and AI testbeds. Overall, “AI tools” means operational AI systems and applications deployed in real‑world domains to support decision‑making, analysis, and improved outcomes.",
+  "ground_truth": "Software, code, IT infrastructure, and utilities used to enable AI applications.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:08:22.589164",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed description of AI tools but deviates from the ground truth definition, which emphasizes software, code, IT infrastructure, and utilities. The response includes specific applications and examples that are not part of the ground truth, indicating a misunderstanding of the term's definition.",
+  "provider": "deepseek"
+}

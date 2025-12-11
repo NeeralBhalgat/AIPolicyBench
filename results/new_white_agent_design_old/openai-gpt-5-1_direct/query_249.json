@@ -1,0 +1,11 @@
+{
+  "query_id": 249,
+  "query": "When must operators begin annual reporting to the Office of Suicide Prevention?",
+  "response": "",
+  "ground_truth": "Beginning July 1, 2027.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:05:52.233688",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

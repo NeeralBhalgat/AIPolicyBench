@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "HHS will support STLT organizations by providing federal leadership, partnership, and resources, as outlined in the Administration for Children and Families' (ACF) commitment to implementing President Trump's Executive Order 14218. Additionally, the CDC's Office for State, Tribal, Local and Territorial Support (OSTLTS) helps health agencies enhance their capacity and improve performance to strengthen the national public health system.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:08:12.756330",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses HHS support for STLT organizations in the context of federal leadership and resources, but it does not address the ground truth answer regarding AI policy and safety datasets. The response is factually incorrect in relation to the question asked.",
+  "provider": "deepseek"
+}

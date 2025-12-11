@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "Part 1:  \nThe IRS defines an AI use case as any design, development, acquisition, or use of artificial intelligence—such as generative or predictive AI, machine learning, large language models, voicebots, chatbots, or robotic process automation—whether in a web-based online form, COTS product or service, custom-built IRS tool, or any other application.\n\nPart 2:  \nIn its privacy policy, the IRS treats “AI use” very broadly, covering essentially any way AI capabilities are built, bought, or used within IRS systems and tools. This includes AI features embedded in software or services, even when they are not explicitly labeled as AI. The policy also extends to associated technologies that may not meet the formal IRS definition of AI but function similarly or pose similar risks. All such AI use cases must comply with IRS privacy, security, and AI risk-management requirements.",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:55:07.597817",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a broad and detailed interpretation of AI use cases according to the IRS, but it does not align with the specific ground truth definition, which is more concise and focused on a specific business use of AI techniques. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

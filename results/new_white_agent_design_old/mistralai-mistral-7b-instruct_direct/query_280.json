@@ -1,0 +1,12 @@
+{
+  "query_id": 280,
+  "query": "Who is protected under the whistleblower provisions?",
+  "response": "The whistleblower provisions, particularly in the context of the U.S. government, are designed to protect employees, contractors, grantees, and other individuals who work for, or on behalf of, the federal government. These provisions are outlined in various laws, including the Whistleblower Protection Act of 1989 (WPA) and the Whistleblower Protection Enhancement Act of 2012 (WPEA).\n\nKey points about who is protected:\n1. **Federal Employees**: The primary focus of the WPA is on federal employees who disclose information they reasonably believe evidences violations of law, abuse of authority, gross mismanagement, waste of funds, or substantial and specific dangers to public health or safety.\n2. **Contractors and Grantees**: The WPEA expanded protections to include certain contractors, grantees, and subcontractors of the federal government, but the scope of protection for these individuals can vary depending on the specific circumstances and the agency involved.\n3. **Private Sector Employees**: The protections under the WPA and WPEA are generally limited to federal employees and certain government contractors. However, other laws, such as the Sarbanes-Oxley Act and the Dodd-Frank Act, provide whistleblower protections for employees in the private sector, particularly in the financial services industry.\n\nIt's important to note that the protections are not absolute and may depend on factors such as the nature of the disclosure, the manner in which it is made, and the employee's position or role. Additionally, protections may vary under different laws and jurisdictions.\n\nFor the most accurate and up-to-date information, it is advisable to consult the specific legal texts or seek legal counsel.",
+  "ground_truth": "Covered employees who report catastrophic-risk dangers or violations of the TFAIA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:39.486575",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed overview of whistleblower protections under U.S. law, but it does not address the specific context of the TFAIA and the coverage of employees reporting catastrophic-risk dangers, which is the ground truth answer. Therefore, while the information is relevant, it does not accurately reflect the specific protections mentioned in the ground truth.",
+  "provider": "deepseek"
+}

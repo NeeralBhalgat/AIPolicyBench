@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "All authorized AI users must avoid interacting with GATs using CMS program data, PHI, PII, any sensitive or non‑public information, CMS intellectual property, or information relating to CMS or U.S. Government pre‑decisional intentions or other confidential plans, especially in publicly accessible AI platforms, chatbots, or prompts.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:24:29.964028",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the need for authorized AI users to avoid using sensitive information, aligning with the ground truth about not inputting federal nonpublic information into AI systems without authorization.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 140,
+  "query": "Where are related IRS privacy and security requirements found?",
+  "response": "Based on the sources provided, IRS privacy and security requirements are found in \"Publication 1075 (Rev. 11-2021) - Tax Information Security Guidelines For Federal, State and Local Agencies\" and in \"26 U.S. Code § 6103 - Confidentiality and disclosure of returns and return information.\"",
+  "ground_truth": "IRM 10.5 and IRM 10.8.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:45:02.701334",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response cites IRS Publication 1075 and 26 U.S. Code § 6103, which are related to tax information security and confidentiality, but it does not mention the correct sources of IRS privacy and security requirements, which are IRM 10.5 and IRM 10.8.",
+  "provider": "deepseek"
+}

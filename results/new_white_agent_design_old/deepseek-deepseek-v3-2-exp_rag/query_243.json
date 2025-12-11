@@ -1,0 +1,12 @@
+{
+  "query_id": 243,
+  "query": "Name one type of system explicitly excluded from the definition of “companion chatbot.”",
+  "response": "Part 1: Systems designed for therapeutic purposes are explicitly excluded from the definition of \"companion chatbot.\"\n\nPart 2: The provided sources discuss a closed-door workshop led by Anthropic and Stanford where leading AI companies and researchers met to establish guidelines for chatbot companions, particularly for younger users. Within the context of these discussions, the group was working to define what constitutes a \"companion chatbot,\" and a key part of that definition involved making a specific exclusion. The guidelines explicitly state that systems which are designed for therapeutic purposes do not fall under this \"companion chatbot\" classification.",
+  "ground_truth": "A bot used only for customer service.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:13:50.283645",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies systems designed for therapeutic purposes as being excluded from the definition of 'companion chatbot.' The ground truth states that a bot used only for customer service is the correct exclusion, indicating that the White Agent's response is factually incorrect.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 298,
+  "query": "How does SB 524 define “first draft”?",
+  "response": "SB 524 defines the \"first draft\" as the initial version of an official report created by artificial intelligence, which must be retained for as long as the official report is retained.",
+  "ground_truth": "The initial document produced solely by artificial intelligence.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:56:27.860404",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of the definition of 'first draft' as it relates to SB 524, emphasizing that it is the initial version created by AI and noting the retention requirement.",
+  "provider": "deepseek"
+}

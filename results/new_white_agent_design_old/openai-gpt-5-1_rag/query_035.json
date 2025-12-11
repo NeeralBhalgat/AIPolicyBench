@@ -1,0 +1,12 @@
+{
+  "query_id": 35,
+  "query": "What’s the workforce plan?",
+  "response": "Part 1:  \nThe workforce plan is a Federal Hiring Plan that brings to the Federal workforce only highly skilled Americans dedicated to the furtherance of American ideals, values, and interests, prioritizing recruitment of individuals committed to improving the efficiency of the Federal government, passionate about the ideals of our American republic, and committed to upholding the rule of law and the United States Constitution.  \n\nPart 2:  \nWithin 120 days, designated White House and executive branch officials must develop and send this Federal Hiring Plan to agency heads. The plan is to prevent hiring based on race, sex, or religion, and to prevent hiring individuals who are unwilling to defend the Constitution or faithfully serve the Executive Branch. It must also implement technical and alternative assessments to the greatest extent possible under the Chance to Compete Act of 2024. In addition, it aims to decrease government-wide time-to-hire to under 80 days and improve communication with candidates to provide greater clarity.",
+  "ground_truth": "Keep humans-in-the-loop; expand hiring (Direct Hire, shared certs, fellowships), rotations, AI literacy for all, advanced tracks for practitioners.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:31:30.599981",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response describes a Federal Hiring Plan focused on specific values and criteria, which does not align with the ground truth answer that emphasizes a broader workforce strategy including human-in-the-loop systems, expanded hiring methods, and AI literacy. The details provided do not accurately reflect the current workforce plan as described in the ground truth.",
+  "provider": "deepseek"
+}

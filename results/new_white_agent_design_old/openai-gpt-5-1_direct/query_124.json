@@ -1,0 +1,12 @@
+{
+  "query_id": 124,
+  "query": "Who reviews AI use case inventory entries for clarity and detail?",
+  "response": "In most formal AI governance frameworks, AI use case inventory entries are reviewed for clarity and detail by the organization’s **AI governance function**, typically led or coordinated by a:\n\n- **Chief AI Officer (CAIO)** or equivalent senior AI lead  \n- **AI governance / risk management team** (sometimes called an AI oversight committee, AI review board, or model risk management team)  \n\nIn many large organizations and in public-sector settings, that review is often **supplemented** by:\n\n- **Legal / compliance** (for regulatory fit and risk language)  \n- **Privacy / data protection** (for data-use descriptions)  \n- **Information security** (for security‑relevant aspects)  \n- Sometimes **business owners / product managers**, to confirm the description is accurate and sufficiently detailed.\n\nThere is",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:53:04.334009",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed overview of various roles involved in reviewing AI use case inventory entries, but it does not mention the CDAO team, which is identified as the ground truth answer. Therefore, while the response contains relevant information, it is ultimately incorrect regarding the specific entity responsible for the review.",
+  "provider": "deepseek"
+}

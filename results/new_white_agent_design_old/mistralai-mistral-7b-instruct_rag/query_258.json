@@ -1,0 +1,12 @@
+{
+  "query_id": 258,
+  "query": "Who does the law apply to regarding use of digitally altered images?",
+  "response": "Part 1: The law applies to individuals convicted of intentionally posting or threatening to post nonconsensual intimate imagery, including \"digital forgeries\" (i.e., deepfakes).\n\nPart 2: The Take It Down Act criminalizes the nonconsensual publication of intimate images, specifically targeting AI-generated deepfakes and other digitally altered content. It requires social media platforms to remove flagged material within 48 hours of notification by victims. Those found guilty of violating the law could face prison time, fines, or both. The legislation aims to address online harm while balancing concerns about free speech and potential unintended consequences.",
+  "ground_truth": "Real estate brokers, salespersons, and persons acting on their behalf.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:56:21.777430",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly addresses the question about who the law applies to regarding digitally altered images. The ground truth answer specifies real estate brokers and related individuals, while the White Agent discusses laws related to nonconsensual intimate imagery and deepfakes, which is not relevant to the question asked.",
+  "provider": "deepseek"
+}

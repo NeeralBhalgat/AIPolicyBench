@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The order clears the way for rapid AI action by \"expediting and modernizing permits for data centers and semiconductor fabs, as well as creating new national initiatives to increase high-demand occupations like electricians and HVAC technicians\" (Source 4).",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:25.577753",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not align with the ground truth, which states that the order clears the way by revoking existing AI policies and directives. Instead, the White Agent focuses on expediting permits and creating initiatives, which does not directly address the question about how the order facilitates rapid AI action.",
+  "provider": "deepseek"
+}

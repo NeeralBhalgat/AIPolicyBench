@@ -1,0 +1,12 @@
+{
+  "query_id": 294,
+  "query": "Can an AI-generated draft be considered an officer’s statement?",
+  "response": "Part 1: The Department of Commerce will develop guidance for content authentication and watermarking to clearly label AI-generated content, ensuring Americans can know that communications from their government are authentic.\n\nPart 2: The executive order emphasizes the importance of distinguishing AI-generated content from official statements by establishing standards for content authentication and watermarking. This ensures that AI-generated drafts are clearly labeled, preventing them from being mistaken as authentic officer statements. The goal is to protect Americans from fraud and deception by making it easy to identify the origin of content, setting a precedent for both the private sector and other governments.",
+  "ground_truth": "No—only the final official report is considered the officer’s statement.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:20.423790",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly implies that AI-generated drafts can be considered officer statements, while the ground truth states that only the final official report is considered an officer's statement. The response does not align with the established fact.",
+  "provider": "deepseek"
+}

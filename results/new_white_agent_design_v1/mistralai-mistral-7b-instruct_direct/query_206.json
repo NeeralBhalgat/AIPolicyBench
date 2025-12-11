@@ -1,0 +1,12 @@
+{
+  "query_id": 206,
+  "query": "Under §11009(b), when is an employer liable for discriminatory actions?",
+  "response": "An employer is liable under §11009(b) if they engage in discriminatory practices or policies that have a disparate impact on a protected class, unless the employer can demonstrate that the practice is job-related and consistent with business necessity.",
+  "ground_truth": "When discriminatory actions occur within the scope of employment or the agent’s relationship with the employer.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:07.361757",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly focuses on disparate impact and business necessity, which does not align with the ground truth that specifies liability in the context of employment or the agent's relationship with the employer.",
+  "provider": "deepseek"
+}

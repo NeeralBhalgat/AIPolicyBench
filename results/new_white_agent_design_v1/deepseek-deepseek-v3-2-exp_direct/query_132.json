@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Based on my training data, definitive and universally mandated steps for retraining models are not established, as requirements depend heavily on the specific jurisdiction (like the EU AI Act) and context. Generally recognized best practices include conducting impact assessments, updating documentation, and re-evaluating the model for performance, bias, and safety before deployment.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:00:08.891417",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention updating the Model Card and Datasheet, which is a specific requirement for retraining models. Instead, it provides a general overview of best practices that do not align with the ground truth answer.",
+  "provider": "deepseek"
+}

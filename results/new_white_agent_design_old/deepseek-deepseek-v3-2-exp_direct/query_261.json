@@ -1,0 +1,12 @@
+{
+  "query_id": 261,
+  "query": "When will the California AI Transparency Act become operative under AB 853?",
+  "response": "Based on the legislative history and the text of the bill, the **California AI Transparency Act (AB 853) did not pass** and therefore will not become operative.\n\nHere are the specific facts:\n\n*   **Bill Status:** Assembly Bill 853 from the 2023-2024 legislative session was **held under submission** in the Senate Appropriations Committee on August 14, 2023.\n*   **What \"Held under submission\" means:** This is a procedural move that effectively halts a bill's progress for the remainder of the legislative session. It is a common way for the appropriations committee to stop bills with significant fiscal impacts from moving forward. When a bill is held under submission, it is considered \"dead\" for that year.\n*   **Conclusion:** Since AB 853 failed to pass out of committee, it was not enacted into law. There is no future date on which it will become operative.\n\nFor reference, the bill would have required deployers of automated decision tools to conduct impact assessments and notify individuals when a consequential decision was made by an AI. Its failure contrasts with other successful California AI-related bills from the same session, such as AB 2013 (which dealt with AI-generated child sexual abuse material) and the California Consumer Privacy Act (CCPA) regulations addressing automated decision-making.\n\nTherefore, the answer to \"When will it become operative?\" is that it will not, as it is not a law.",
+  "ground_truth": "August 2, 2026.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:15:57.684682",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that the California AI Transparency Act (AB 853) did not pass and will not become operative. However, the ground truth indicates that the act is set to become operative on August 2, 2026, meaning the White Agent's assertion is factually incorrect.",
+  "provider": "deepseek"
+}

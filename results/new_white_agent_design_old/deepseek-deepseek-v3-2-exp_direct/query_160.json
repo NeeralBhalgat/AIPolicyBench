@@ -1,0 +1,7 @@
+{
+  "query_id": 160,
+  "query": "How many learners participated in NASA’s “Summer of AI”?",
+  "ground_truth": "Nearly 4,000.",
+  "error": "HTTP Error 500: Server error '500 Internal Server Error' for url 'https://angel-brought-therapy-denver.trycloudflare.com/to_agent/a6dca8e40c0f46e2a7195dbb4777ebbb'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500",
+  "evaluation_result": "error"
+}

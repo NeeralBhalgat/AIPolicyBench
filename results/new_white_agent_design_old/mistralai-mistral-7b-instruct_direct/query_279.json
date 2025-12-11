@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "The civil penalty for violating the act can vary depending on the specific legislation and jurisdiction. For example, under the U.S. Federal Trade Commission (FTC) Act, violations can result in civil penalties of up to $50,120 per violation, as adjusted for inflation. However, the exact penalty depends on the nature of the violation, the harm caused, and the specific regulatory framework in question.\n\nIf you are referring to a particular act or regulation, please provide more details for a more precise answer.",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:30.617869",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the civil penalty can be up to $50,120 per violation, which does not align with the ground truth answer of up to $1,000,000 per violation. While it acknowledges variability based on legislation and jurisdiction, the specific figures provided are factually incorrect.",
+  "provider": "deepseek"
+}

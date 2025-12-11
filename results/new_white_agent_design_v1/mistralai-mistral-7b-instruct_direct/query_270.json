@@ -1,0 +1,12 @@
+{
+  "query_id": 270,
+  "query": "How is the number of violations counted for ongoing noncompliance?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Each day in violation is treated as a separate violation.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:16.504500",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about counting violations for ongoing noncompliance.",
+  "provider": "deepseek"
+}

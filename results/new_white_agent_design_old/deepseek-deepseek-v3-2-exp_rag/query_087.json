@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "Part 1: The DHS AI Council, along with the DHS AI Governance Board and Chief AI Officer, leads the collaborative governance and oversight of AI at DHS.\n\nPart 2: The AI Council is part of a closely coordinated governance structure designed to unite the Department around ensuring AI is used in a safe, secure, responsible, trustworthy, and human-centered manner. This collaborative effort involves the AI Governance Board, the Chief AI Officer, and the AI Council working together. Their common goal is to provide oversight and governance for AI use across all mission areas, supported by the AI Policy Working Group for coordination.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:39:07.573008",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the functions of the DHS AI Council in terms of governance and oversight of AI, aligning with the ground truth information about its role in supporting the AI Governance Board and Chief AI Officer.",
+  "provider": "deepseek"
+}

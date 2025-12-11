@@ -1,0 +1,12 @@
+{
+  "query_id": 39,
+  "query": "How will vendors and procurement be handled?",
+  "response": "The Federal Government will no longer procure \"useless and wasteful products like paper straws\" and will focus on \"results above all else – the best products and services at the best cost.\" The overhaul aims to \"increase competition and efficiency while decreasing costs\" by simplifying the Federal Acquisition Regulations (FAR) and eliminating \"non-statutory and duplicative regulations.\"",
+  "ground_truth": "Standard contract language on data rights/usage/privacy; disclose GenAI in products; monitor for “shadow AI”; prefer secure, compliant tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:05:10.658315",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the procurement of products in a general sense but does not address the specific requirements related to AI policy and safety datasets, such as data rights, usage, and compliance with regulations. The focus on eliminating 'useless' products and simplifying regulations does not align with the ground truth answer, which emphasizes specific standards for AI tools.",
+  "provider": "deepseek"
+}

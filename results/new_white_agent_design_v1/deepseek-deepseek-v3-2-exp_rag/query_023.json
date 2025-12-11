@@ -1,0 +1,12 @@
+{
+  "query_id": 23,
+  "query": "How does the order clear the way for rapid AI action?",
+  "response": "The order aims to initiate the process of strengthening U.S. leadership in artificial intelligence and promotes AI development free from ideological bias or social agendas.",
+  "ground_truth": "By revoking existing AI policies and directives that act as barriers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:35:03.833533",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth, which specifies that the order clears the way by revoking existing policies that act as barriers. Instead, the White Agent focuses on promoting AI development free from bias, which is not the same as addressing the removal of barriers.",
+  "provider": "deepseek"
+}

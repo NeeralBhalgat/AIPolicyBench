@@ -1,0 +1,12 @@
+{
+  "query_id": 203,
+  "query": "Under §11008(e)(5), are individuals in non-profit sheltered workshops employees?",
+  "response": "Part 1: Yes, individuals in non-profit sheltered workshops are employees under the FLSA, as the law applies to non-profit organizations and specifically includes work for an \"institution for the care of the... mentally ill or defective\" as an activity performed for a business purpose.\n\nPart 2: The FLSA sets labor standards for employees, and its coverage explicitly extends to non-profit organizations. The statute defines \"enterprise\" to include activities performed for a business purpose, which encompasses work done for an institution caring for the mentally ill or defective, regardless of whether it is operated for profit. Sheltered workshops typically fall under this type of institution, meaning individuals working there are considered employees under the Act.",
+  "ground_truth": "No, they are not considered employees.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:06:06.474419",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that individuals in non-profit sheltered workshops are considered employees under the FLSA, while the ground truth indicates they are not considered employees.",
+  "provider": "deepseek"
+}

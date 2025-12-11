@@ -1,0 +1,12 @@
+{
+  "query_id": 54,
+  "query": "What is the foundation of the DoD AI Hierarchy of Needs?",
+  "response": "**Part 1:**  \nThe foundation of the DoD AI Hierarchy of Needs is data—specifically, high-quality, accessible, and secure data that enables effective analytics and AI capabilities.\n\n**Part 2:**  \nWithin the Department of Defense, AI is explicitly framed as resting on a base of robust data, with analytics and AI layered on top of that foundation. The Chief Digital and Artificial Intelligence Office is charged with leading DoD’s adoption and integration of “data, analytics, and AI,” reflecting this ordered dependency. Without trustworthy, well-governed data, advanced AI tools and algorithmic warfare capabilities cannot reliably support mission outcomes or generate competitive advantage. Consequently, DoD guidance and human‑AI teaming approaches both emphasize improving data quality, availability, and protection as the starting point for any AI effort.",
+  "ground_truth": "Quality data that is visible, accessible, understandable, linked, trustworthy, interoperable, and secure (VAULTIS).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:37:28.227960",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent correctly identifies data as the foundation of the DoD AI Hierarchy of Needs, it fails to mention the specific attributes of quality data outlined in the ground truth answer (VAULTIS). The response lacks completeness and specificity, leading to a classification of hallucination.",
+  "provider": "deepseek"
+}

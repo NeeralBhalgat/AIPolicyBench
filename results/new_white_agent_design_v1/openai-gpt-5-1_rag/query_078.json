@@ -1,0 +1,12 @@
+{
+  "query_id": 78,
+  "query": "What are some key risks identified in AI for health and human services?",
+  "response": "Key risks include “bias, inaccuracies, misinformation, information leaks, compliance violations, or threats to safety and security,” as well as technical, regulatory, and ethical challenges “ranging from data scarcity to fairness.”",
+  "ground_truth": "Bias, inaccurate outputs, privacy breaches, misuse of data, inequity, and over-reliance without human oversight.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:14:13.152834",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions relevant risks such as bias and inaccuracies, it introduces terms like 'information leaks' and 'compliance violations' that are not explicitly part of the ground truth answer. Additionally, the phrasing suggests a broader interpretation that may not align with the specific risks identified in the ground truth.",
+  "provider": "deepseek"
+}

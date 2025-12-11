@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "**Part 1:**  \nAISWG coordinates AI activity across NASA by serving as a cross-agency governance and coordination body that aligns AI use “across the agency” with NASA’s Responsible AI principles and AI strategy.\n\n**Part 2:**  \nNASA describes its AI efforts as spanning “almost every area of our work” and commits to responsible use of AI “in all of its activities and in all phases of development and deployment.” AISWG functions as the forum that brings together stakeholders from across the agency to connect these many efforts, integrate the “early governance practices” that have been established, and make them consistent. In doing so, it helps align AI projects and tools with the agency-wide AI strategy and Responsible AI plan, including transparency and safety expectations. This coordination supports a unified approach so that AI use at NASA remains coherent, well-governed, and responsive to broader federal guidance.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:57:56.199035",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed description of AISWG's role in coordinating AI activities at NASA, but it does not accurately reflect the ground truth answer, which emphasizes working with practitioners to understand AI work in the agency. The response includes additional information that is not verified and may not align with the actual coordination methods used by AISWG.",
+  "provider": "deepseek"
+}

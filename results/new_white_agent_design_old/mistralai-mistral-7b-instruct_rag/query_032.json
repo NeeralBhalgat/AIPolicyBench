@@ -1,0 +1,12 @@
+{
+  "query_id": 32,
+  "query": "What are the 5 headline goals?",
+  "response": "Part 1: The five headline goals are to provide access to federal laws, presidential documents, administrative regulations and notices, and to coordinate the functions of the Electoral College.\n\nPart 2: The context highlights the roles of the U.S. Government Publishing Office, the Federal Register, and related entities in disseminating official government information. The goals include making federal laws, presidential documents, and administrative regulations accessible to the public, as well as managing the Electoral College process. Additionally, the context mentions efforts to modernize government information services, such as the Electronic Code of Federal Regulations and the Current Unified Agenda of Regulatory and Deregulatory Actions, which aim to streamline regulatory processes and improve transparency.",
+  "ground_truth": "(1) Governance & leadership, (2) Workforce readiness, (3) Infrastructure & tools, (4) Data readiness & access, (5) Ethical/responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:23:30.784883",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the five headline goals related to government information dissemination instead of the correct goals related to AI policy and safety, which are governance & leadership, workforce readiness, infrastructure & tools, data readiness & access, and ethical/responsible AI.",
+  "provider": "deepseek"
+}

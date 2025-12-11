@@ -1,0 +1,12 @@
+{
+  "query_id": 136,
+  "query": "What role do IRS executives have in AI governance?",
+  "response": "Part 1: Based on the provided context, the role of IRS executives in AI governance is not mentioned or discussed.\n\nPart 2: The provided sources exclusively detail a political debate surrounding a proposed executive order to block state-level AI regulations, featuring arguments from politicians like Trump, DeSantis, and Rubio, as well as tech industry figures. There is no information provided about any federal agencies outside of the White House, FCC, and FTC in relation to this specific AI governance issue. Consequently, the documents are silent on the involvement or role of the IRS or its executives.",
+  "ground_truth": "They must manage AI use in their units in compliance with this IRM.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:10.533440",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no information about the IRS executives' role in AI governance, while the ground truth indicates that they have specific responsibilities regarding AI use in compliance with the IRM. This indicates a misunderstanding of the IRS's role in the context of AI governance.",
+  "provider": "deepseek"
+}

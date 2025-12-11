@@ -1,0 +1,12 @@
+{
+  "query_id": 161,
+  "query": "What mechanisms does NASA use to acquire AI talent?",
+  "response": "<s> [OUT] Part 1: NASA likely follows the revised OMB policies on Federal Agency AI Use and Procurement to acquire AI talent, as these policies aim to streamline AI adoption and procurement within federal agencies.\n\nPart 2: The White House Office of Management and Budget (OMB) released updated policies in April 2025 to facilitate AI adoption and procurement across federal agencies, including NASA. These policies were revised under President Trump’s Executive Order to remove bureaucratic barriers and promote efficient AI use. The OMB memos emphasize innovation, governance, and public trust, ensuring that federal agencies like NASA can access AI talent and technology while maintaining strong protections for privacy and civil rights. [/OUT]",
+  "ground_truth": "Direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:41:37.735819",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses OMB policies and their implications for AI procurement but does not accurately address the specific mechanisms NASA uses to acquire AI talent, such as direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+  "provider": "deepseek"
+}

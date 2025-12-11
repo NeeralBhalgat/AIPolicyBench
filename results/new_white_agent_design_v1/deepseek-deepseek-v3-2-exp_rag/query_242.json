@@ -1,0 +1,12 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "A companion chatbot is an artificial intelligence system designed to provide adaptive, human-like social interactions.",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:52:39.889504",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes a companion chatbot as an AI system designed for human-like social interactions, which aligns with the ground truth definition.",
+  "provider": "deepseek"
+}

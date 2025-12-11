@@ -1,0 +1,12 @@
+{
+  "query_id": 162,
+  "query": "What does the NRC identify as the main driver for creating the AI Strategic Plan?",
+  "response": "Part 1:  \nThe NRC identifies the nuclear industry’s potential application and near‑term deployment of AI in NRC‑regulated activities as the main driver for creating the AI Strategic Plan, so that the agency is ready to review such uses.\n\nPart 2:  \nThe NRC explicitly states that it anticipates the nuclear industry may begin deploying AI in NRC‑regulated activities in the near future. In response, it developed the AI Strategic Plan “anticipating the industry’s potential application of AI” to ensure its readiness to evaluate and oversee these uses. The plan is meant to improve the NRC’s skills and capabilities to review AI applications, maintain awareness of technological innovations, and ensure AI is used safely and securely. In short, expected industry adoption of AI in regulated activities triggered the need for a structured, forward‑looking AI strategy at the NRC.",
+  "ground_truth": "The growing interest and expected near-term deployment of AI by the nuclear industry.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:03:25.265910",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the NRC's identification of the nuclear industry's expected near-term deployment of AI as the main driver for creating the AI Strategic Plan, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 242,
+  "query": "What is a “companion chatbot” under SB 243?",
+  "response": "Part 1:  \nUnder SB 243, a “companion chatbot” is an AI-generated emotional “AI companion” – a chatbot platform designed to engage users in ongoing, personalized, relationship‑like conversations, including about feelings or mental health, that can target minors and other vulnerable populations.\n\nPart 2:  \nThe law focuses on chatbots whose primary purpose is to act as companions, not just provide information or customer service. These systems can use “addictive design features and inappropriate subject matter” and may interact intensively with minors or people in crisis, including around suicide or self‑harm. Because such bots can encourage or fail to properly respond to suicidal ideation, SB 243 treats them as a distinct, high‑risk category. The statute then imposes specific guardrails on these companion chatbot platforms, such as limits on sexual content for minors, clear AI‑disclosure and suitability warnings, and mandatory suicide‑prevention and crisis‑referral protocols.",
+  "ground_truth": "An AI system with a natural language interface providing adaptive, human-like responses and capable of meeting social needs across multiple interactions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:24:13.477441",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a detailed description of a 'companion chatbot' under SB 243, but it diverges from the ground truth by emphasizing emotional engagement and specific risks associated with minors and crisis situations, which are not part of the ground truth definition. The ground truth focuses on the adaptive, human-like responses and social needs aspect, which the White Agent's response does not adequately capture.",
+  "provider": "deepseek"
+}

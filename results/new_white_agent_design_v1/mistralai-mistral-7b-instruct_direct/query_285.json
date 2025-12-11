@@ -1,0 +1,12 @@
+{
+  "query_id": 285,
+  "query": "What penalties apply if a data broker fails to register?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "$200 per day in fines plus owed fees and investigative costs.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:30.299929",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about penalties for failing to register, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

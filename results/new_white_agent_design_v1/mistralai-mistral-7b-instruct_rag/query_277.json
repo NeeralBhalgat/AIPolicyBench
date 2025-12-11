@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "A \"critical safety incident\" under SB 53 involves specific events, such as loss of control or unauthorized access, related to a frontier model that results in harm. [s]",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:50.088911",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions loss of control and unauthorized access, which are relevant, but it fails to include model-weight theft and deceptive behavior, which are also critical components of a 'critical safety incident' under SB 53. Therefore, the response is incomplete and factually incorrect.",
+  "provider": "deepseek"
+}

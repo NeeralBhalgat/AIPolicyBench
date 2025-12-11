@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Part 1: Agencies must ensure their AI efforts are guided by principles set out in the NIST AI Risk Management Framework and the United States Government National Standards Strategy for Critical and Emerging Technology.\n\nPart 2: The executive order mandates that agencies establish plans for AI risk management, which should align with the NIST AI Risk Management Framework. This framework provides principles, guidelines, and best practices for managing AI risks, including trustworthiness, verification, and assurance of AI systems. Additionally, agencies must submit a report to the President within 180 days of establishing their plan, detailing the priority actions taken to address AI risks. This ensures that AI development and use within the government are conducted in a safe, secure, and trustworthy manner.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:46:45.798579",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirements for agencies regarding AI risk management, including alignment with the NIST AI Risk Management Framework and the need to report on actions taken to address AI risks. This aligns with the ground truth answer, which emphasizes the importance of measuring, monitoring, evaluating, and reporting on AI activities.",
+  "provider": "deepseek"
+}

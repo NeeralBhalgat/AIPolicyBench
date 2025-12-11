@@ -1,0 +1,12 @@
+{
+  "query_id": 255,
+  "query": "Define “digitally altered image” under AB 723.",
+  "response": "Part 1: Under AB 723, a \"digitally altered image\" is defined as an image that has been modified or manipulated using digital technology to create a false or misleading impression.\n\nPart 2: The definition emphasizes that the alteration must be done with the intent to deceive or mislead, rather than for artistic or non-deceptive purposes. This includes changes that alter the appearance, context, or meaning of the original image, making it appear as something it is not. The legislation aims to address the growing concern of manipulated media in public discourse and its potential to spread misinformation.",
+  "ground_truth": "An image edited using photo software or AI to add, remove, or change elements such as fixtures, furniture, landscape, or visible surroundings.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:55:38.020474",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a definition of 'digitally altered image' that emphasizes intent to deceive, which is not aligned with the ground truth answer that focuses on the technical aspects of image editing. The response lacks specific details about the types of alterations mentioned in the ground truth, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

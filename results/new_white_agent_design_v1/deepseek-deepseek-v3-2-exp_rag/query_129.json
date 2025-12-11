@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "IRS Publication No. 1, \"Your Rights as a Taxpayer,\" explains taxpayer rights.",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:44:28.050016",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies IRS Publication No. 1 as the document that explains taxpayer rights, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

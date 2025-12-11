@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "SB 361 requires data brokers to disclose the categories of personal information they collect, the sources of that information, and the purposes for which it is used when registering with the California Attorney General.",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:26.482172",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response mentions the requirement for data brokers to disclose categories of personal information, it fails to include the specific data types and additional requirements outlined in the ground truth answer, such as the disclosure of sharing data with foreign actors and specific types of personal information collected.",
+  "provider": "deepseek"
+}

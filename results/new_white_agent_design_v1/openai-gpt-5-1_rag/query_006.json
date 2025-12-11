@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "The emphasized workforce objective is to **reduce the size of the Federal Government’s workforce through efficiency improvements and attrition, including limiting agencies to hiring no more than one employee for every four employees who depart.**",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:07:22.084444",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly emphasizes reducing the Federal Government's workforce rather than focusing on a worker-first agenda that includes AI literacy, skills development, and rapid retraining, which is the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 199,
+  "query": "What must all AI-generated data products include?",
+  "response": "All reputable AI policies converge on one minimum requirement:\n\n**Any AI‑generated data product must clearly disclose that it was produced (wholly or partly) by an AI system.**\n\nIn practice, this usually means at least:\n\n1. **Visible labeling**  \n   - A clear statement such as “AI‑generated content” or “Produced with the assistance of an AI system,” in a place a typical user will see (not just in buried fine print).\n\n2. **Provenance/metadata** (",
+  "ground_truth": "Metadata labeling indicating they were AI-generated.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:00:23.972261",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement for AI-generated data products to disclose their AI origin, aligning with the ground truth answer regarding metadata labeling.",
+  "provider": "deepseek"
+}

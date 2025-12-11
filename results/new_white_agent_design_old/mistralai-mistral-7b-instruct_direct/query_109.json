@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "The AISCC, or the Artificial Intelligence Safety and Control Committee, is a proposed or existing body (depending on the context) focused on ensuring the safe and responsible development and deployment of artificial intelligence. Its purpose typically includes:\n\n1. **Safety Oversight**: Establishing guidelines, standards, and protocols to mitigate risks associated with AI, such as unintended consequences, bias, or misuse.\n2. **Regulatory Framework**: Developing policies and regulations to govern AI development, ensuring compliance with ethical and safety standards.\n3. **Collaboration**: Facilitating cooperation between governments, industry, academia, and civil society to address AI-related challenges.\n4. **Research and Development**: Supporting research into AI safety, control mechanisms, and alignment with human values.\n5. **Transparency and Accountability**: Promoting transparency in AI systems and ensuring accountability for their outcomes.\n\nThe specific details of the AISCC may vary depending on the organization or jurisdiction it operates under. If you are referring to a particular AISCC, please provide more context for a more precise answer.",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:08:23.657195",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response describes the AISCC as the Artificial Intelligence Safety and Control Committee, which is not the correct name or purpose of the AISCC. The ground truth indicates that the AISCC is focused on educating employees, providing resources, and supporting AI collaboration across the Department of Transportation (DOT), which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

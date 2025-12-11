@@ -1,0 +1,12 @@
+{
+  "query_id": 147,
+  "query": "What role does AISWG have in risk management?",
+  "response": "The AI Safety Working Group (AISWG) plays a role in risk management by developing guidelines, best practices, and frameworks to identify, assess, and mitigate risks associated with AI systems. It also facilitates collaboration among stakeholders to ensure safe and responsible AI deployment.",
+  "ground_truth": "Reviewing and approving safety/rights-impacting assessments and waivers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:04.371050",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes the AISWG's role in developing guidelines and facilitating collaboration, which is not aligned with the ground truth that specifies the AISWG's role in reviewing and approving safety/rights-impacting assessments and waivers.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:18.871439",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how procurement will address ideological bias in AI, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

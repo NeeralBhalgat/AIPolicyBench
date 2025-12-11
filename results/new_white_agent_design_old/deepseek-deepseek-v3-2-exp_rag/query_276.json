@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "Part 1: A transparency report before deploying a frontier model must include safety testing results reported to the federal government.\n\nPart 2: The requirement stems from a White House executive order which mandates that companies developing the most advanced AI models report their safety testing results. This is seen as a foundational step for managing uncertain risks from frontier AI systems. Codifying this into law would provide more permanent footing and allow for the establishment of specific implementation details, such as which safety tests must be performed and which models are included.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:20:08.404657",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly focuses solely on safety testing results and a White House executive order, which does not align with the comprehensive requirements for a transparency report as outlined in the ground truth answer. The ground truth specifies additional elements such as release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments that are not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

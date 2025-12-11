@@ -1,0 +1,12 @@
+{
+  "query_id": 148,
+  "query": "How will NASA update the AI inventory structure?",
+  "response": "[B_INST] Part 1: NASA will update the AI inventory structure by expanding agencies' reporting on how they are managing risks from their AI use cases, as outlined in the guidance established in section 5 of Executive Order 13960.\n\nPart 2: The update involves enhancing the AI inventory to include detailed risk assessments and management strategies for AI use cases. This aligns with the broader federal effort to ensure the safe, secure, and trustworthy development and use of AI. The guidance emphasizes continuous monitoring, evaluation, and adherence to principles that mitigate risks associated with AI deployment. [/B_INST]",
+  "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:39:26.870966",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses expanding reporting and risk management strategies but does not address the redesign of data structures, collection mechanisms, and visualization tools as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

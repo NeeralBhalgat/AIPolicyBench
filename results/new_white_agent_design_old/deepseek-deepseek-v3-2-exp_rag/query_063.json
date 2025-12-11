@@ -1,0 +1,12 @@
+{
+  "query_id": 63,
+  "query": "What new AI guidance did the DOE release in June 2024?",
+  "response": "Part 1: In June 2024, the DOE released Version 2 of the Generative AI (GenAI) Reference Guide.\n\nPart 2: This guide provides an overview of the key benefits, considerations, risks, and best practices for the responsible development, implementation, and use of Generative AI technology. It is part of the DOE's broader AI governance and implementation efforts, which include aligning with White House directives and developing compliance plans. The release of this updated reference guide demonstrates the department's ongoing work to establish practical guidance for the use of advanced AI within its purview.",
+  "ground_truth": "Version 2 of the Generative AI (GenAI) Reference Guide.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:34:19.257701",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the release of Version 2 of the Generative AI Reference Guide by the DOE in June 2024, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

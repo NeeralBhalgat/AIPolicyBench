@@ -1,0 +1,12 @@
+{
+  "query_id": 74,
+  "query": "What are the primary domains covered in the HHS Strategic Plan?",
+  "response": "The HHS Strategic Plan covers four primary domains: Advancing Health and Well-Being, Creating a Lifelong Foundation for Health and Well-Being, Building a Health Care System that Works for All, and Strengthening National and Global Readiness and Resilience.",
+  "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:47.248864",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists domains that do not match the ground truth answer regarding the HHS Strategic Plan, which includes specific areas like medical research and public health, rather than the broader categories provided.",
+  "provider": "deepseek"
+}

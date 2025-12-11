@@ -1,0 +1,12 @@
+{
+  "query_id": 249,
+  "query": "When must operators begin annual reporting to the Office of Suicide Prevention?",
+  "response": "**Part 1:** The provided materials do not specify when operators must begin annual reporting to the Office of Suicide Prevention.  \n\n**Part 2:** The excerpts discuss annual reporting and planning requirements (such as annual installation suicide prevention plans, DoD program reviews, and reports to Congress), and they describe the role and importance of the 988 Lifeline and related crisis services. However, none of the quoted text indicates a start date or effective date for any requirement that “operators” report annually to an “Office of Suicide Prevention.” Because that specific reporting obligation and its start date are not described in the provided context, the timing for when operators must begin such annual reporting cannot be determined from these sources alone.",
+  "ground_truth": "Beginning July 1, 2027.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:26:22.065349",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates uncertainty about the start date for annual reporting to the Office of Suicide Prevention, stating that it cannot be determined from the provided materials. However, the ground truth specifies a clear date of July 1, 2027, which the White Agent fails to acknowledge.",
+  "provider": "deepseek"
+}

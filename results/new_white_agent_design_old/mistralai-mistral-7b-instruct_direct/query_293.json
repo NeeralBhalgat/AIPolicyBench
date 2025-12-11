@@ -1,0 +1,12 @@
+{
+  "query_id": 293,
+  "query": "How long must the first AI-generated draft of a report be retained?",
+  "response": "The retention period for the first AI-generated draft of a report depends on the specific policies, regulations, or organizational guidelines that apply to the context in which the report is created. There is no universal standard, but here are some general considerations:\n\n1. **Regulatory Requirements**: If the report is subject to regulatory oversight (e.g., financial, healthcare, or legal sectors), the retention period may be dictated by laws such as the Sarbanes-Oxley Act (for financial records), HIPAA (for healthcare data), or GDPR (for personal data in the EU). These often require retention for several years.\n\n2. **Organizational Policies**: Many organizations have internal policies that mandate the retention of drafts for a certain period, often ranging from 6 months to several years, to ensure accountability, auditability, or compliance with industry standards.\n\n3. **Audit and Legal Holds**: In some cases, drafts may need to be retained indefinitely if they are relevant to ongoing legal proceedings or audits.\n\n4. **Best Practices**: Even in the absence of strict requirements, retaining drafts for a reasonable period (e.g., 1-2 years) can be prudent for transparency, error correction, or future reference.\n\nIf you are working in a specific industry or jurisdiction, I recommend consulting the applicable laws, regulations, or organizational policies for precise guidance. If you provide more context, I can offer a more tailored answer.",
+  "ground_truth": "For as long as the official report is retained.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:20:02.109818",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide a definitive answer regarding the retention period for the first AI-generated draft of a report, instead discussing various factors that influence retention without stating that it should be retained for as long as the official report is retained.",
+  "provider": "deepseek"
+}

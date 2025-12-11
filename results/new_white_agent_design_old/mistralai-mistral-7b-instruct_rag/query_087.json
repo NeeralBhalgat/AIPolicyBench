@@ -1,0 +1,12 @@
+{
+  "query_id": 87,
+  "query": "What functions does the DHS AI Council perform?",
+  "response": "Part 1: The DHS AI Council coordinates the activities of agencies across the Federal Government to ensure the effective formulation, development, communication, and timely implementation of AI-related policies.\n\nPart 2: According to the sources provided, the DHS AI Council is established within the Executive Office of the President. Its function is to coordinate the activities of various agencies across the Federal Government to ensure the effective formulation, development, communication, industry engagement, and timely implementation of AI-related policies. This includes policies set forth in the executive order. The DHS AI Council is chaired by the Assistant to the President and Deputy Chief of Staff for Policy, and its membership includes key government officials from various departments and agencies. The council is also authorized to create and coordinate subgroups consisting of its members or their designees as appropriate.",
+  "ground_truth": "It supports the AI Governance Board and the CAIO, presents action items on AI use, and maintains comprehensive policy requirements for safe and responsible AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:59.692099",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response describes the coordination role of the DHS AI Council but does not accurately reflect the specific functions mentioned in the ground truth answer, such as supporting the AI Governance Board and maintaining comprehensive policy requirements for safe and responsible AI.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 202,
+  "query": "Under §11008(c), who is considered an “Applicant”?",
+  "response": "**Part 1:** Under §11008(c), an \"applicant\" is a natural person who submits a request for a covered loan, and this does not include non-natural persons such as a corporation, partnership, or trust.\n\n**Part 2:** The context clarifies that the requirement to report applicant data is not applicable when the applicant is not a natural person, explicitly listing examples like a corporation, partnership, or trust. Conversely, when the applicant is a natural person, such as an individual beneficiary of a trust, their personal information must be reported. This distinction establishes that the term \"applicant\" refers specifically to an individual, not a legal entity.",
+  "ground_truth": "Individuals who file an application or indicate a desire to be considered for employment, including those deterred by discriminatory practices.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:06:00.965282",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly defines 'applicant' as only a natural person submitting a request for a covered loan, while the ground truth indicates that it also includes individuals who express a desire for employment, which is not addressed in the response.",
+  "provider": "deepseek"
+}

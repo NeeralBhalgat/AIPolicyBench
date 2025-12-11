@@ -1,0 +1,12 @@
+{
+  "query_id": 175,
+  "query": "What is one expected challenge in regulating high-autonomy AI systems?",
+  "response": "Part 1: A primary challenge is preventing an unworkable patchwork of state laws that would stifle innovation and threaten the U.S. AI industry.\n\nPart 2: The fast pace of AI development has led many states to enact their own rules, creating a complex regulatory landscape. This situation is criticized by industry figures and the federal government, who argue that such a patchwork of laws would be unworkable and could destroy the AI industry in its infancy by creating barriers to innovation. Consequently, there is a significant federal push to establish a single, unified rule to preempt state-level regulations.",
+  "ground_truth": "Higher autonomy levels require greater regulatory scrutiny because they reduce human oversight.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:59:18.962559",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the challenge of a patchwork of state laws but does not address the specific challenge of increased regulatory scrutiny due to reduced human oversight in high-autonomy AI systems, which is the ground truth answer.",
+  "provider": "deepseek"
+}

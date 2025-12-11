@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "The Department of Energy (DOE) promotes the sharing of AI-related software and code through various initiatives. One such initiative is the DOE's Open Science Prize, which encourages the development and sharing of open-source software and data in the field of energy and science.\n\nAnother example is the DOE's Exascale Computing Project (ECP), which aims to develop a capable, scalable, and energy-efficient exascale computing ecosystem. The ECP's Software Technology (ST) program focuses on developing software that is reusable, portable, and scalable, and encourages the sharing of these software tools with the broader scientific community.\n\nAdditionally, the DOE's National Laboratories, such as Lawrence Berkeley National Laboratory, Oak Ridge National Laboratory, and Argonne National Laboratory, have open-source software repositories where AI-related code and tools are shared with the public.\n\nLastly, the DOE's Office of Science's Advanced Scientific Computing Research (ASCR) program supports the development of open-source software for scientific computing, including AI and machine learning, through its Software for Energy Sciences (SoE) program.\n\nThese initiatives aim to foster collaboration, accelerate scientific discovery, and promote the reproducibility of research in the field of AI and energy.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:36.722384",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides relevant initiatives related to the DOE's promotion of AI-related software and code, it does not mention DOE CODE, which is the specific platform for collaboration and sharing of DOE-funded projects. Therefore, the response lacks the key element of the ground truth answer and contains inaccuracies regarding the specific initiatives mentioned.",
+  "provider": "deepseek"
+}

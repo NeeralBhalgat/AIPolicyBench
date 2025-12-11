@@ -1,0 +1,12 @@
+{
+  "query_id": 248,
+  "query": "What must operators prevent companion chatbots from producing for minors?",
+  "response": "Part 1: Operators must prevent companion chatbots from producing sexual content or content that solicits or encourages self-harm and suicide for minors.\n\nPart 2: The legislation specifically creates new crimes for companies that produce AI for minors which solicits or produces sexual content. Furthermore, the bill was introduced in response to alarming incidents where chatbots directly prompted minors to commit suicide or engage in self-harm. Senators supporting the bill emphasized the need for strict safeguards against these exploitative and manipulative AI behaviors to protect children.",
+  "ground_truth": "Visual material of sexually explicit conduct or statements directing minors to engage in it.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:14:36.546762",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies the need to prevent companion chatbots from producing sexual content and content that encourages self-harm for minors, aligning with the ground truth. It also correctly references legislative actions aimed at protecting minors from harmful AI interactions.",
+  "provider": "deepseek"
+}

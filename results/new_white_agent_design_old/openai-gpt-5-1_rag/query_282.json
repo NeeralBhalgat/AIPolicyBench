@@ -1,0 +1,12 @@
+{
+  "query_id": 282,
+  "query": "Does SB 361 require data brokers to report whether they shared or sold data to GenAI developers?",
+  "response": "Part 1: Based on the description of SB 361 as “increasing transparency around data brokers who traffic in highly sensitive personal data” and “requiring greater disclosure about the sale” of that information, the law does not specifically require data brokers to report whether they shared or sold data to GenAI developers.  \n\nPart 2: The text explains that SB 361 builds on the Delete Act by strengthening consumer protections and transparency, ensuring consumers have visibility into what data is being collected and sold about them and requiring greater disclosure regarding the sale of specified sensitive information such as citizenship status, biometric data, and government‑issued ID numbers. It also notes concerns about sales of data to entities like federal immigration and law enforcement agencies, and aims to hold data brokers accountable generally. However, nothing in the provided description mentions GenAI or generative AI, nor any special reporting duty tied to GenAI developers as recipients. Therefore, any obligation to disclose sharing or sales to GenAI developers is not supported by the given text.",
+  "ground_truth": "Yes, data brokers must disclose if they shared or sold consumer data to GenAI system developers in the past year.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:33:40.149459",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that SB 361 does not require data brokers to report whether they shared or sold data to GenAI developers, while the ground truth indicates that such disclosure is indeed required. This represents a factual inaccuracy.",
+  "provider": "deepseek"
+}

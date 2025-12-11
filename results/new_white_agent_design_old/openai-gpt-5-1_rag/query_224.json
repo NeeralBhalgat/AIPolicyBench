@@ -1,0 +1,12 @@
+{
+  "query_id": 224,
+  "query": "Does AB 316 prevent a defendant from presenting affirmative defenses unrelated to AI autonomy?",
+  "response": "**Part 1:**  \nThe provided materials do not state that AB 316 prevents a defendant from presenting affirmative defenses unrelated to AI autonomy.  \n\n**Part 2:**  \nThe excerpts discuss federal attempts to preempt state AI regulation and a federal trademark rule on how an “answer” may include “any defense, including the affirmative defenses of unclean hands, laches, estoppel, acquiescence, fraud, mistake, prior judgment, or any other matter constituting an avoidance or affirmative defense.” None of this language refers to AB 316 or to any limitation on what kinds of affirmative defenses a defendant may raise under that bill. Because AB 316’s text and scope are not described in the provided context, no conclusion can be drawn about it from these materials. To determine whether AB 316 restricts affirmative defenses, you would need to review the actual text of AB 316 or authoritative commentary specifically about that statute.",
+  "ground_truth": "No, defendants may still present other affirmative defenses.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:18:21.918033",
+  "confidence": 0.9,
+  "reasoning": "The White Agent correctly states that the provided materials do not indicate that AB 316 prevents a defendant from presenting affirmative defenses unrelated to AI autonomy, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

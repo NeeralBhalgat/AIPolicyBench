@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "Under SB 53, a “critical safety incident” includes events such as “model-enabled CBRN threats, major cyber-attacks, or loss of model control,” as well as safety incidents “involving dangerous deceptive behavior by autonomous AI systems” that “materially increase[] the risk of a catastrophic harm.”",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:33:14.323042",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of what constitutes a 'critical safety incident' under SB 53, including model-enabled threats and deceptive behavior by AI systems, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

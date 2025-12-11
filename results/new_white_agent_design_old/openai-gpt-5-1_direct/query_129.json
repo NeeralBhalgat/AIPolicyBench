@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "The publication is **IRS Publication 1, “Your Rights as a Taxpayer.”**\n\n- It explains the **Taxpayer Bill of Rights**, which includes ten fundamental rights (e.g., the right to be informed, the right to quality service, the right to privacy, the right to challenge the IRS’s position and be heard, etc.).\n- These rights apply regardless of whether the IRS is using AI systems or traditional methods; any AI tools used by tax authorities must operate consistently with the protections laid out in Publication 1 and the underlying law (26 U.S.C. § 7803(a)(3)).",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:53:44.242452",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies IRS Publication 1 as the publication that explains taxpayer rights, which aligns with the ground truth. The explanation of the Taxpayer Bill of Rights and its applicability to AI systems used by tax authorities is also factually correct.",
+  "provider": "deepseek"
+}

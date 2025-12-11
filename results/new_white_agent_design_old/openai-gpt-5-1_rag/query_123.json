@@ -1,0 +1,12 @@
+{
+  "query_id": 123,
+  "query": "How often must AI use case inventory entries be reviewed?",
+  "response": "**Part 1:**  \nAI use case inventory entries must be reviewed at least once per year, as DHS completes one main update to the DHS AI Use Case Inventory per year in line with annual guidance from OMB.\n\n**Part 2:**  \nThe inventory is structured around an annual review cycle driven by Office of Management and Budget guidance. During this main yearly update, all inventoried AI use cases are reassessed and the inventory is refreshed. DHS may also make additional, targeted revisions to specific entries between these annual updates when needed. This ensures that the inventory remains current while still having a formal, comprehensive review at least once every year.",
+  "ground_truth": "At least annually or when directed by the CDAO team.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:52:12.557494",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately states that AI use case inventory entries must be reviewed at least once per year, aligning with the ground truth answer. It also correctly mentions the possibility of additional targeted revisions, which adds context without contradicting the main requirement.",
+  "provider": "deepseek"
+}

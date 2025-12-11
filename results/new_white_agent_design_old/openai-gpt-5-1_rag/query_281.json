@@ -1,0 +1,12 @@
+{
+  "query_id": 281,
+  "query": "What new disclosure requirements does SB 361 impose on data brokers when registering?",
+  "response": "Part 1:  \nSB 361 newly requires a data broker, when registering, to disclose additional details about its data practices, including whether it collects or sells the personal information of minors or other sensitive categories of data (such as precise geolocation or reproductive health data) and whether it shares such information with law enforcement or other third parties.\n\nPart 2:  \nPreviously, registration generally required only basic identifying information about the data broker. Under SB 361, the registration now must include specific statements about the categories of personal information the broker handles, with particular attention to minors and other sensitive data types. The broker must also indicate whether and how this information is provided to governmental or law‑enforcement entities. These disclosures are intended to give regulators and the public clearer visibility into high‑risk data uses and sales by data brokers.",
+  "ground_truth": "Data brokers must now disclose whether they collect numerous specific data types, including names, DOBs, government IDs, biometric data, geolocation, reproductive health data, and whether they shared or sold data to foreign actors, governments, law enforcement, or GenAI developers.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:33:54.381445",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies the need for data brokers to disclose information about sensitive data types and their sharing practices. However, it fails to mention several specific data types required by SB 361, such as names, DOBs, government IDs, and biometric data, which are part of the ground truth. This omission indicates that the response is not fully accurate.",
+  "provider": "deepseek"
+}

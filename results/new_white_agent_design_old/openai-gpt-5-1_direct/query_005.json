@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "I’m not sure which specific “plan” you’re referring to (e.g., a national strategy, a regulator’s roadmap, or a company safety plan), and different plans take different positions. What *is* clear across most serious AI safety and policy documents is a converging pattern in how they treat open‑source/open‑weight models:\n\n### 1. General stance: support, but with growing conditionality\n\nMost government and multilateral plans explicitly recognize **open‑source/open‑weight models as valuable** for:\n- innovation and competition,\n- academic research and transparency,",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:38:55.488581",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about the specific plan being referred to and does not provide a definitive stance on open-source/open-weight models, which aligns with the 'miss' classification.",
+  "provider": "deepseek"
+}

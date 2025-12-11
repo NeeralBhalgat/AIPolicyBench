@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "Part 1: The NRC's approach to AI is guided by federal acts such as the AI in Government Act of 2020 and the Advancing American AI Act.\n\nPart 2: These acts are part of a broader set of AI-related requirements from federal laws, executive orders, and guidance that steer federal agencies' AI efforts. The White House has also released new policies, including memoranda from the Office of Management and Budget, to accelerate federal AI use and streamline procurement. Furthermore, NIST is involved in implementing numerous recommended policy actions from the administration's AI initiatives, which influence how agencies like the NRC adopt and govern artificial intelligence.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:00:27.411444",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly identifies the guiding federal acts for the NRC's approach to AI. The correct acts are the Evidence-Based Policymaking Act and the National AI Initiative Act, not the AI in Government Act of 2020 or the Advancing American AI Act.",
+  "provider": "deepseek"
+}

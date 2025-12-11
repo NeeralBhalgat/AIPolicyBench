@@ -1,0 +1,12 @@
+{
+  "query_id": 269,
+  "query": "What is the civil penalty for violating this chapter?",
+  "response": "Part 1:  \nA person that knowingly violates this chapter is liable to the United States Government for a civil penalty of not more than $75,000 for each violation.\n\nPart 2:  \nUnder this provision, “knowingly” means the person has actual knowledge of the facts giving rise to the violation, or a reasonable person in the circumstances and exercising reasonable care would have that knowledge. If a violation results in death, serious illness, severe injury, or substantial destruction of property, the maximum civil penalty may be increased to not more than $175,000 per violation. For violations related to training, there is a minimum civil penalty of at least $450. In addition, a separate violation occurs for each day a hazardous materials transportation violation continues.",
+  "ground_truth": "$5,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:30:50.013508",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the civil penalty as $75,000, which contradicts the ground truth answer of $5,000 per violation. Additionally, the details provided about the conditions for increased penalties and minimum penalties are not aligned with the ground truth.",
+  "provider": "deepseek"
+}

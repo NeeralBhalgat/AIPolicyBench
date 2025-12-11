@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "Part 1: All authorized AI users must avoid taking advantage of the relevant unsafe capabilities of dual-use foundation models, such as those that pose serious risks to security, national economic security, or public health and safety.\n\nPart 2: The executive order defines \"dual-use foundation models\" as AI systems with specific technical attributes that exhibit high levels of performance on risky tasks. These dangerous tasks include lowering barriers to creating weapons, enabling offensive cyber operations, or evading human control. The text explicitly states that models meet this definition even if they have technical safeguards, meaning users are obligated to avoid exploiting these unsafe capabilities regardless of any built-in protective measures.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:03:11.409992",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses avoiding unsafe capabilities of dual-use foundation models, which is not the ground truth answer. The correct answer focuses on avoiding the input of federal nonpublic information into AI systems without authorization, which is not addressed in the response.",
+  "provider": "deepseek"
+}

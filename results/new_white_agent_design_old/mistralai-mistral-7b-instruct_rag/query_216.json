@@ -1,0 +1,12 @@
+{
+  "query_id": 216,
+  "query": "Under AB 979, who may participate through voluntary information-sharing mechanisms?",
+  "response": "Part 1: Advanced practice registered nurses (APRNs) may participate through voluntary information-sharing mechanisms.\n\nPart 2: According to SB 979, this act modifies provisions related to the practice of advanced practice registered nursing. It allows APRNs to prescribe prescription medications, including Schedule II stimulants for behavioral health patients, which implies that they can participate in voluntary information-sharing mechanisms related to these prescriptions.",
+  "ground_truth": "Other entities, as appropriate, beyond state contractors and vendors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:49:45.410803",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that only APRNs may participate in voluntary information-sharing mechanisms, while the ground truth indicates that other entities, beyond state contractors and vendors, may also participate. Additionally, the reference to SB 979 is misleading as it does not pertain to the question about AB 979.",
+  "provider": "deepseek"
+}

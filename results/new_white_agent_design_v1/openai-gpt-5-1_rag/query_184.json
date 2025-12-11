@@ -1,0 +1,12 @@
+{
+  "query_id": 184,
+  "query": "What must agencies do regarding AI risk management?",
+  "response": "Agencies must follow the minimum AI risk management practices set forth in OMB’s guidance for “safety-impacting” and “rights-impacting” AI applications.",
+  "ground_truth": "Measure, monitor, evaluate, and report on AI activities, including regular risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:23:53.369818",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions OMB's guidance but does not accurately reflect the comprehensive actions required for AI risk management, such as measuring, monitoring, evaluating, and reporting on AI activities, which are essential components of the ground truth answer.",
+  "provider": "deepseek"
+}

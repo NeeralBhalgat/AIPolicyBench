@@ -1,0 +1,12 @@
+{
+  "query_id": 135,
+  "query": "What are project teams required to provide in the AI inventory?",
+  "response": "Project teams are required to provide a description of the AI system, its intended use, the data it uses, and any potential risks or impacts.",
+  "ground_truth": "Clear, detailed responses to all required inventory questions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:53.374196",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the essence of what project teams are required to provide in the AI inventory, including a description of the AI system, its intended use, the data it uses, and potential risks or impacts, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "Part 1: An AI use case, as defined for federal agencies, refers to the specific applications or instances where an agency uses artificial intelligence, which they are required to collect, report, and publish annually to improve transparency.\n\nPart 2: The Executive Order directs the Director of the Office of Management and Budget (OMB) to issue annual instructions to agencies for this collection and reporting. This process is mandated to expand agencies' reporting on how they are managing the risks associated with their AI implementations. The requirement for reporting AI use cases is established under the authority of the Advancing American AI Act.",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:10.361865",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the IRS definition of an AI use case. While it discusses the reporting requirements for federal agencies, it fails to provide the specific definition of an AI use case as a business application of AI techniques to solve problems or increase efficiency.",
+  "provider": "deepseek"
+}

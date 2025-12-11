@@ -1,0 +1,11 @@
+{
+  "query_id": 287,
+  "query": "When must data brokers access the deletion mechanism, and how often must they delete data after a consumer request?",
+  "response": "",
+  "ground_truth": "At least every 45 days, and they must delete all personal information every 45 days after an initial deletion request.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:10:41.776212",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

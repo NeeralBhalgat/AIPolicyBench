@@ -1,0 +1,12 @@
+{
+  "query_id": 160,
+  "query": "How many learners participated in NASA’s “Summer of AI”?",
+  "response": "<s> [OUT] Part 1: NASA’s “Summer of AI” engaged 1,000 learners.\n\nPart 2: The initiative was part of NASA’s broader efforts to integrate AI into education and research. The program aimed to inspire and educate participants about AI applications in space and Earth science. The learners likely included students, educators, and professionals interested in AI and its role in NASA’s missions. [/OUT]",
+  "ground_truth": "Nearly 4,000.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:40:57.218691",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly stated that 1,000 learners participated in NASA's 'Summer of AI', while the ground truth indicates that nearly 4,000 learners were involved.",
+  "provider": "deepseek"
+}

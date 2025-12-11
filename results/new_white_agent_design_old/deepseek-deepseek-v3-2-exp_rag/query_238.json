@@ -1,0 +1,12 @@
+{
+  "query_id": 238,
+  "query": "Does AB 489 limit a licensing board’s authority to pursue other remedies?",
+  "response": "Part 1: No, AB 489 does not limit a licensing board’s authority to pursue other remedies, as the bill explicitly states that its provisions are not intended to limit any other remedy available to a licensing board.\n\nPart 2: The bill specifies that its purpose is to provide an additional enforcement tool for licensing boards, not to supplant or limit existing ones. It clarifies that the authority to issue a citation and fine is an alternative to, and does not preclude, other disciplinary actions. This ensures that boards retain their full range of disciplinary options.",
+  "ground_truth": "No, it does not limit any otherwise authorized remedies.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:13:11.067716",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the provisions of AB 489, stating that it does not limit a licensing board's authority to pursue other remedies, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

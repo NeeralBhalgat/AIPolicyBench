@@ -1,0 +1,12 @@
+{
+  "query_id": 299,
+  "query": "What AI systems does the definition cover in SB 524?",
+  "response": "The definition in SB 524 covers AI tools that analyze camera footage or audio recordings to generate reports, such as Axon’s \"Draft One\" AI report-writing tool. [REF]1,4[/REF]",
+  "ground_truth": "Systems that auto-draft police narratives from camera footage or from dictated officer reports enhanced by generative AI.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:14.687877",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes AI tools that analyze camera footage or audio recordings to generate reports, which aligns with the ground truth answer regarding systems that auto-draft police narratives using generative AI.",
+  "provider": "deepseek"
+}

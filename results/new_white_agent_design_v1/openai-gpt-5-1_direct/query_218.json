@@ -1,0 +1,12 @@
+{
+  "query_id": 218,
+  "query": "Under AB 979, what types of records are prohibited from public disclosure by the Office of Emergency Services?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Records privileged, protected by copyright, prohibited by law, exempt under the Public Records Act, or where nondisclosure outweighs public interest.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:46:12.132601",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about AB 979, indicating a lack of knowledge on the topic.",
+  "provider": "deepseek"
+}

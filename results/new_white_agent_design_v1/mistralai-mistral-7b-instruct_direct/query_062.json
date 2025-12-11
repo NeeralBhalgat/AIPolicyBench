@@ -1,0 +1,12 @@
+{
+  "query_id": 62,
+  "query": "What is the purpose of the DOE AI Advancement Council (AIAC)?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "To coordinate and oversee AI activities across the DOE and provide strategic direction on AI use.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:31.480772",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the purpose of the DOE AI Advancement Council, which does not provide any information related to the question.",
+  "provider": "deepseek"
+}

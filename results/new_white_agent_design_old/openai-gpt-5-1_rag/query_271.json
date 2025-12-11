@@ -1,0 +1,12 @@
+{
+  "query_id": 271,
+  "query": "What is the Transparency in Frontier Artificial Intelligence Act (TFAIA)?",
+  "response": "Part 1:  \nThe Transparency in Frontier Artificial Intelligence Act (TFAIA) is California’s Senate Bill 53, legislation carefully designed to enhance online safety by installing commonsense guardrails on the development of frontier artificial intelligence models, helping build public trust while also continuing the growth of the state’s world‑leading AI industry.\n\nPart 2:  \nAs a state law, TFAIA focuses specifically on “frontier” AI systems—large, cutting‑edge models whose capabilities and risks are still being actively understood—and aims to make their development more transparent and accountable. It advances transparency requirements and other safety measures so that powerful AI models are developed with clearer oversight and disclosure. It is described as the first U.S. frontier AI law and is already serving as a reference point for similar proposals in other states. The act also contains a deference mechanism that allows California’s rules to align with future federal standards, offering a template for harmonizing state and federal AI oversight.",
+  "ground_truth": "A law requiring large frontier developers to publish safety frameworks, report catastrophic risks, and follow transparency and whistleblower rules.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:30:55.581036",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the TFAIA as legislation aimed at enhancing safety and transparency in the development of frontier AI systems, aligning with the ground truth answer regarding safety frameworks and transparency requirements.",
+  "provider": "deepseek"
+}

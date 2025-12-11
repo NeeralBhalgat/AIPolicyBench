@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "The directive cancels Executive Order 13994 of January 21, 2021 (Ensuring a Data-Driven Response to COVID-19 and Future High-Consequence Public Health Threats).",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:48:33.285213",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the directive being canceled as Executive Order 13994, while the correct answer is the Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "provider": "deepseek"
+}

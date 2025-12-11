@@ -1,0 +1,12 @@
+{
+  "query_id": 97,
+  "query": "What safeguards will DHS apply to AI systems to ensure cybersecurity?",
+  "response": "Part 1: DHS will apply robust, reliable, repeatable, and standardized evaluations of AI systems, including policies and mechanisms to test, understand, and mitigate risks, to ensure cybersecurity and address AI's most pressing security risks.\n\nPart 2: This approach requires testing and evaluations both before deployment and through post-deployment performance monitoring to ensure AI systems function as intended and are resilient against misuse or dangerous modifications. The focus is specifically on mitigating risks from AI systems in critical areas like cybersecurity and critical infrastructure. The goal is to ensure these systems are ethically developed and operated, addressing the unique challenges posed by AI's opacity and complexity.",
+  "ground_truth": "DHS will follow federal and private-sector best practices and develop additional standards to protect AI from cyberattacks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:41:38.007809",
+  "confidence": 0.85,
+  "reasoning": "While the White Agent's response discusses evaluations and monitoring of AI systems, it does not accurately reflect the ground truth, which specifically mentions following federal and private-sector best practices and developing additional standards to protect AI from cyberattacks. The response lacks this critical detail and focuses more on general risk mitigation strategies.",
+  "provider": "deepseek"
+}

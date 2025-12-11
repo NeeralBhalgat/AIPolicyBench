@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "<s> [OUT] Part 1: The DOT must re-evaluate AI risk determinations annually to ensure compliance with OMB Memorandum M-25-21.\n\nPart 2: The AI in Government Act of 2020 and OMB Memorandum M-25-21 require agencies to submit plans or determinations to OMB and post them publicly. This includes annual re-evaluations to maintain consistency with the guidelines. The DOT, like other agencies, must follow this process to ensure ongoing alignment with federal AI governance and risk management standards. [/OUT]",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:36:35.116383",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that the DOT must re-evaluate AI risk determinations annually, which aligns with the ground truth answer. It also correctly references the OMB Memorandum M-25-21 and the AI in Government Act of 2020, indicating the requirement for ongoing compliance and alignment with federal standards.",
+  "provider": "deepseek"
+}

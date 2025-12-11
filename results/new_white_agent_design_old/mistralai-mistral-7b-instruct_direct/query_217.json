@@ -1,0 +1,12 @@
+{
+  "query_id": 217,
+  "query": "What confidentiality rule applies to cyber threat indicators shared under the California AI Cybersecurity Collaboration Playbook?",
+  "response": "The California AI Cybersecurity Collaboration Playbook, developed by the California Cybersecurity Integration Center (Cal-CSIC), emphasizes the importance of sharing cyber threat indicators (CTIs) to enhance collective cybersecurity efforts. However, the specific confidentiality rules that apply to such sharing are not explicitly detailed in the Playbook itself.\n\nGenerally, when sharing cyber threat indicators, organizations and entities in California (and elsewhere) are expected to comply with relevant federal and state laws, including:\n1. **CISA's Cybersecurity Information Sharing Act (CISA)**: This federal law encourages the sharing of cyber threat information between the private sector and the government, with certain protections for shared information. It includes provisions to limit liability and protect the confidentiality of shared data.\n2. **California Consumer Privacy Act (CCPA) and California Privacy Rights Act (CPRA)**: These laws may apply if the shared information includes personal data, requiring appropriate safeguards and compliance with data protection principles.\n3. **Non-Disclosure Agreements (NDAs) and Sector-Specific Agreements**: Organizations may have their own confidentiality agreements or sector-specific rules governing the sharing of sensitive information.\n\nFor the most accurate and up-to-date guidance, it is advisable to consult the Playbook directly, review any accompanying legal frameworks, or seek legal counsel to ensure compliance with all applicable confidentiality rules.",
+  "ground_truth": "They are confidential and cannot be transmitted or shared except with approved state employees and contractors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:45.083256",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides general information about confidentiality rules related to cyber threat indicators but fails to accurately reflect the specific confidentiality rule stated in the ground truth, which specifies that such indicators are confidential and can only be shared with approved state employees and contractors.",
+  "provider": "deepseek"
+}

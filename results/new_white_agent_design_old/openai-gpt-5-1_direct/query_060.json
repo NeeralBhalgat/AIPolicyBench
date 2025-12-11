@@ -1,0 +1,12 @@
+{
+  "query_id": 60,
+  "query": "What does the strategy emphasize about the DoD workforce and talent?",
+  "response": "It emphasizes that DoD must deliberately **build and sustain an “AI‑ready” workforce** by:\n\n- **Recruiting, developing, and retaining world‑class talent** in AI, data, and software—using flexible hiring authorities, competitive incentives, and partnerships with industry and academia.  \n- **Upskilling and reskilling the existing workforce** (military, civilian, and contractor) so that personnel at all levels have at least basic data/AI literacy, with advanced training for specialists.  \n- **Creating clear career paths and roles** for digital, data, and AI professionals (e.g., defined career fields, promotion pathways, and professional development opportunities).  \n- **Embedding AI skills across the enterprise**, not just in niche tech teams—so operators, commanders, analysts, and support staff can effectively use AI-enabled tools.  \n- **Fostering a culture that attracts and empowers technical talent**, including modern work environments, opportunities to work on meaningful problems, and mechanisms to rotate talent between DoD, industry, and academia.\n\nIf you had a specific DoD AI-related strategy in mind (e.g., the 2018 DoD AI Strategy or the 2023 Data, Analytics, and AI Adoption Strategy), the exact wording varies, but all of them share this core emphasis on cultivating a robust, AI‑capable workforce rather than treating AI purely as a technology acquisition issue.",
+  "ground_truth": "The need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:45:36.862273",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the emphasis on building and sustaining an AI-ready workforce within the DoD, aligning with the ground truth about the need to hire, train, and retain skilled workers in digital and AI-related roles while reskilling existing personnel.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 293,
+  "query": "How long must the first AI-generated draft of a report be retained?",
+  "response": "**Part 1:**  \nThe first AI-generated draft of a report must be retained for the same period as any other draft or working paper of that report under your approved records retention schedule, not for any special or additional time just because AI created it.  \n\n**Part 2:**  \nGuidance on AI-generated records explains that they are classified based on their function and content on the retention schedule, just like non‑AI records. A first AI draft of a report is treated as a draft/working paper in the record series for that report, so it follows the same retention rule as human‑created drafts. If drafts for that report series are scheduled as transitory, it can be destroyed accordingly; if they are scheduled as working papers tied to the final report, it must be kept for that full retention period. The key point is that “AI” does not change the retention period—only the record series and schedule do.",
+  "ground_truth": "For as long as the official report is retained.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:37:11.384408",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects that the retention period for the first AI-generated draft of a report aligns with the retention schedule for other drafts, which is consistent with the ground truth answer that it must be retained for as long as the official report is retained.",
+  "provider": "deepseek"
+}

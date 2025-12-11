@@ -1,0 +1,12 @@
+{
+  "query_id": 273,
+  "query": "What is considered a “catastrophic risk” under SB 53?",
+  "response": "\"Catastrophic risk\" under SB 53 is defined as \"a foreseeable and material risk that a frontier developer’s use of a frontier model could cause the death of, or serious injury to, more than 50 people, or more than $1 billion in property damage, in a single incident\" (Source 2).",
+  "ground_truth": "A foreseeable, material risk that a model could cause death to 50+ people or over $1B in damage by enabling weapons, cyberattacks, or loss of control.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:42.881992",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately captures the definition of 'catastrophic risk' under SB 53, including the thresholds for death and property damage. However, it lacks mention of the specific contexts (weapons, cyberattacks, loss of control) that could lead to such risks, which are part of the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 254,
+  "query": "How must the disclosure statement change if the broker satisfies the requirement by linking to unaltered images?",
+  "response": "If the broker satisfies the requirement by linking to unaltered images, the disclosure statement should clearly indicate that the images are linked and not directly provided, and provide the URL or link to the source of the images.",
+  "ground_truth": "It must state that the unaltered images can be accessed on the linked site.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:02.023201",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement to indicate that the images are linked and provides a URL, which aligns with the ground truth answer about stating that unaltered images can be accessed on the linked site.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 144,
+  "query": "How does AISWG coordinate AI activity across NASA?",
+  "response": "Part 1: The AISWG coordinates AI activity across NASA by describing federal agencies' AI-related requirements in law, executive orders, and guidance, and by defining the roles and responsibilities of AI oversight and advisory groups.\n\nPart 2: The group's function is rooted in its responsibility to outline the legal and policy framework that governs AI use across federal agencies, including NASA. This involves clarifying the specific mandates and guidance that agencies must follow. By defining the roles of oversight bodies, the AISWG ensures a coordinated and standardized approach to AI implementation, which directly applies to NASA's activities and compliance.",
+  "ground_truth": "By working with practitioners to understand AI work in the agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:50:39.692583",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the AISWG's role by focusing on legal and policy frameworks rather than the ground truth, which emphasizes collaboration with practitioners to understand AI work within the agency.",
+  "provider": "deepseek"
+}

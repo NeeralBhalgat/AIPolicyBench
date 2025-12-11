@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "AI systems that are safety- or rights-impacting typically require robust risk assessments, transparency in decision-making, adherence to ethical guidelines, and compliance with relevant regulations to ensure they do not harm individuals or infringe on their rights.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:02.482638",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response includes important aspects like risk assessments and ethical guidelines, it does not mention the necessity of human oversight and rigorous testing for bias, effectiveness, and reliability, which are critical components of the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 194,
+  "query": "What are the four categories of GSA AI use cases?",
+  "response": "Part 1:  \nThe four categories of GSA AI use cases are Capability Assessment, GSA Pre-Approved Application, Research and Development, and Production or Production-Intent use cases.  \n\nPart 2:  \nGSA’s AI Safety Team independently adjudicates these four types of AI use cases as part of the agency’s governance process. Capability Assessment use cases typically involve early-stage evaluations of AI capabilities. GSA Pre-Approved Application and Research and Development categories cover vetted tools and exploratory or experimental efforts, respectively. Production or Production-Intent use cases are those being deployed operationally and require additional review and approval, including by the Chief AI Officer and, for high‑impact cases, escalation to the EDGE Board.",
+  "ground_truth": "Familiarization, Pre-acquisition, Research & Development, Production / Production-intent.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:11:46.026750",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists four categories of GSA AI use cases that do not match the ground truth answer, which specifies Familiarization, Pre-acquisition, Research & Development, and Production / Production-intent. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

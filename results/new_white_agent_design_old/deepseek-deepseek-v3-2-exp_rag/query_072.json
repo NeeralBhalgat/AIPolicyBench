@@ -1,0 +1,12 @@
+{
+  "query_id": 72,
+  "query": "How does the Strategic Plan define Artificial Intelligence?",
+  "response": "Part 1: The Strategic Plan defines Artificial Intelligence as requiring \"ONE RULE\" aimed at limiting state-level policies and establishing a single federal standard for the technology.\n\nPart 2: This definition comes from a planned executive order that seeks to create a uniform national policy on AI by preempting state-level regulations. The approach is intended to curb a patchwork of differing state laws, asserting a single federal rule. However, this plan faces bipartisan opposition from state attorneys general and lawmakers who argue it could undermine progress on AI safety.",
+  "ground_truth": "As a machine-based system that makes predictions, recommendations, or decisions influencing real or virtual environments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:35:51.515982",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response misrepresents the definition of Artificial Intelligence as provided in the ground truth. The Strategic Plan's definition is inaccurately described as focusing on a single federal rule, rather than the correct definition of AI as a machine-based system that makes predictions, recommendations, or decisions.",
+  "provider": "deepseek"
+}

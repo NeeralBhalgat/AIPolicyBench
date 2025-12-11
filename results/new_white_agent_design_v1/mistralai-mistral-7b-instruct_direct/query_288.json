@@ -1,0 +1,12 @@
+{
+  "query_id": 288,
+  "query": "What ongoing restrictions apply after a consumer submits a deletion request?",
+  "response": "After a consumer submits a deletion request, ongoing restrictions typically include the retention of data for legal, security, or business purposes, as well as the requirement to prevent the re-collection of the same data without explicit consent. The specific restrictions depend on applicable laws like the CCPA or GDPR.",
+  "ground_truth": "Data brokers cannot sell or share new personal information unless the consumer permits or exceptions apply.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:30:31.842562",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response correctly identifies that data may be retained for legal, security, or business purposes, but it does not accurately reflect the specific ongoing restrictions related to the sale or sharing of new personal information, which is a key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

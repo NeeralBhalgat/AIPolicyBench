@@ -1,0 +1,12 @@
+{
+  "query_id": 212,
+  "query": "Which entities must be consulted in developing the California AI Cybersecurity Collaboration Playbook?",
+  "response": "Based on the California law (AB 3027, 2024), the entities to be consulted include the California Cybersecurity Integration Center, the Department of Technology, and a stakeholder advisory group composed of representatives from various sectors.",
+  "ground_truth": "The Office of Information Security and the Government Operations Agency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:03:25.836550",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the entities to be consulted, as the correct entities are the Office of Information Security and the Government Operations Agency, not those mentioned in the response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 300,
+  "query": "Which entities are considered “law enforcement agencies” under this bill?",
+  "response": "Federal law enforcement agencies are government bodies responsible for enforcing federal laws, including the FBI, DEA, and other agencies under various departments. [s]",
+  "ground_truth": "Any state or local agency employing peace officers under Penal Code §830.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:15.788654",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies federal law enforcement agencies as the entities considered under the bill, while the ground truth specifies that it includes any state or local agency employing peace officers under Penal Code §830.",
+  "provider": "deepseek"
+}

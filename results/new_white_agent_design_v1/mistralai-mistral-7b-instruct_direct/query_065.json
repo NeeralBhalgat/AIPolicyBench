@@ -1,0 +1,12 @@
+{
+  "query_id": 65,
+  "query": "What barriers does DOE face in adopting AI technologies?",
+  "response": "The U.S. Department of Energy (DOE) faces several barriers in adopting AI technologies, including regulatory and compliance challenges, workforce training and skill gaps, and concerns about data privacy and security. Additionally, integrating AI into existing systems and ensuring interoperability with legacy infrastructure can be complex and resource-intensive.",
+  "ground_truth": "Cybersecurity limitations, data quality issues, and access to advanced computing resources.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:36.324000",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response identifies barriers such as regulatory challenges and workforce training, which are relevant but do not align with the ground truth answer that specifically mentions cybersecurity limitations, data quality issues, and access to advanced computing resources. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

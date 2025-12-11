@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "In the United States, taxpayer information is protected by the confidentiality provisions in the Internal Revenue Code, primarily 26 U.S.C. § 6103, which any AI systems handling tax data must follow.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:42:01.072783",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the Internal Revenue Code § 6103 as the law that protects taxpayer information in the United States, which is the correct and relevant legal reference for AI systems handling tax data.",
+  "provider": "deepseek"
+}

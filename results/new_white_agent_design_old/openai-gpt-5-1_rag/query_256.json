@@ -1,0 +1,12 @@
+{
+  "query_id": 256,
+  "query": "Does adjusting lighting or color correction make an image a “digitally altered image”?",
+  "response": "**Part 1**  \nNo; under the digitization standards, global image processing done to improve *image quality*—such as adjusting *lightness uniformity* or using *color management* within a defined *color space* to improve tonal and color fidelity—does not make a file a “digitally altered image” so long as it does not delete, obscure, or add information.\n\n**Part 2**  \nThe guidance treats lighting and color adjustments as technical steps used to ensure accurate capture, not as changes to the informational content of the record. Concepts like image quality, lightness uniformity, color space, and color management are defined as tools to faithfully reproduce the original with minimal defects. A “digitally altered” image, by contrast, is one where pixels are added, removed, or selectively changed so that the content no longer accurately represents the source record. Routine exposure, brightness/contrast, and color correction applied uniformly across the image are therefore permissible and do not reclassify the image as digitally altered.",
+  "ground_truth": "No, these common adjustments do not change the representation of the property and are excluded.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:27:18.528778",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth that adjusting lighting or color correction does not constitute a 'digitally altered image' as these adjustments do not change the informational content of the image.",
+  "provider": "deepseek"
+}

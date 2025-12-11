@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "The **agency’s AI Governance Board** provides recommendations to the **Chief Artificial Intelligence Officer (CAIO)**.  \n\nUnder U.S. federal guidance (e.g., OMB Memorandum M‑24‑10 implementing Executive Order 14110), each agency’s AI Governance Board—made up of senior officials such as the CIO, CDO, CISO, privacy officials, and others—advises and makes recommendations to the CAIO and other senior leadership on the agency’s use and governance of AI.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:54:48.982562",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the AI Governance Board as the entity providing recommendations to the CAIO, while the ground truth states that the AISWG is responsible for this role.",
+  "provider": "deepseek"
+}

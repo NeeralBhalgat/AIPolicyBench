@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "The directive applies to \"any action related to a military, national security, homeland security, foreign affairs, or immigration-related function of the United States\" and \"any matter pertaining to the executive branch’s management or internal personnel rules and practices\" [Source 2].",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:18:02.985616",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the scope of the directive, focusing on military and national security functions rather than the correct application to GSA employees, contractors, and IT systems as stated in the ground truth.",
+  "provider": "deepseek"
+}

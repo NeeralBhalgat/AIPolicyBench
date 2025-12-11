@@ -1,0 +1,12 @@
+{
+  "query_id": 85,
+  "query": "What is required for AI systems that are safety- or rights-impacting?",
+  "response": "Part 1: AI systems that are safety- or rights-impacting are required to undergo robust, reliable, repeatable, and standardized evaluations to test, understand, and mitigate risks before deployment.\n\nPart 2: According to the text from the Federal Register, AI systems that are safety- or rights-impacting must undergo rigorous testing and evaluations to ensure they function as intended, are resilient against misuse or dangerous modifications, and address pressing security risks. This includes testing before deployment and post-deployment performance monitoring. The text also mentions the need for policies, institutions, and other mechanisms to navigate AI's opacity and complexity.",
+  "ground_truth": "They must have human oversight and undergo rigorous testing and evaluation for bias, effectiveness, and reliability.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:59.433998",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a detailed account of the requirements for safety- or rights-impacting AI systems, but it does not explicitly mention the necessity of human oversight, which is a key component of the ground truth answer. Therefore, while the response is informative, it does not fully align with the ground truth.",
+  "provider": "deepseek"
+}

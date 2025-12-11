@@ -1,0 +1,12 @@
+{
+  "query_id": 37,
+  "query": "How is data readied for AI?",
+  "response": "**Part 1:** Data is readied for AI by ensuring agencies provide explicit consent for vendors to train commercial models on non-public government data, which also includes securing intellectual property rights for the continued use of the AI's outputs and any trained models.\n\n**Part 2:** The process involves new federal procurement rules that prohibit vendors from using government data for training without specific agency approval. This measure is designed to protect sensitive information and assert control over the resulting intellectual property. Consequently, agencies are required to update their internal policies and embed these new clauses into contracts to govern AI acquisition and data usage.",
+  "ground_truth": "Strengthen Data Catalog metadata/lineage, classification, quality metrics; secure access/PII; protect against data leakage to public models.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:29:15.706542",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses consent and procurement rules related to government data, it does not address the specific aspects of data readiness for AI mentioned in the ground truth, such as strengthening data catalog metadata, classification, quality metrics, and protecting against data leakage. Therefore, the response is factually incorrect in the context of the question.",
+  "provider": "deepseek"
+}

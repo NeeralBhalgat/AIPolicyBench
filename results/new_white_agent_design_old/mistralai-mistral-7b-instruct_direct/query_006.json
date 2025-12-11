@@ -1,0 +1,12 @@
+{
+  "query_id": 6,
+  "query": "What workforce objective is emphasized?",
+  "response": "The workforce objective that is often emphasized in AI policy, safety, and regulation is ensuring that AI systems are developed, deployed, and used in a way that benefits society, promotes fairness, and minimizes harm to workers. This includes considerations such as job displacement due to automation, the need for reskilling and upskilling workers to adapt to new technologies, and the ethical implications of AI decisions affecting employment. However, it's important to note that the specific objectives can vary depending on the region and the specific policies being considered.",
+  "ground_truth": "A worker-first agenda: AI literacy, skills development, and rapid retraining.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:08.982697",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general overview of workforce objectives in AI policy but does not specifically mention the 'worker-first agenda' or the emphasis on AI literacy, skills development, and rapid retraining, which are key elements of the ground truth answer.",
+  "provider": "deepseek"
+}

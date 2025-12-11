@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "Part 1: During the interim period, federal guidance on AI is provided by the two new OMB memos, which clarify the current guidance on federal use and acquisition of AI systems and provide similar guidance as the previous memo issued under the Biden administration.\n\nPart 2: The continuity stems from President Trump's EO 14179, which initiated a review of inherited AI policies. While this process was underway, the two new OMB memos were issued to provide immediate, updated guidance. These memos reaffirm core priorities like innovation, governance, and public trust, and they preserve key structures such as the role of Chief AI Officers and federal risk management frameworks. Therefore, these OMB memos constitute the active federal guidance while the broader policy review continues.",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:49:10.727305",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly references new OMB memos and President Trump's EO 14179, which are not the correct federal guidance in effect. The ground truth specifies EO 13859 and EO 13960 as the relevant guidance, which the White Agent fails to mention.",
+  "provider": "deepseek"
+}

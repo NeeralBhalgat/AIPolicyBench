@@ -1,0 +1,12 @@
+{
+  "query_id": 75,
+  "query": "What additional domains support implementation of the Strategic Plan?",
+  "response": "**Part 1:**  \nAdditional domains that support implementation of the Strategic Plan include organizational planning, budget, procurement, financial management, human resources management, and program decisions.  \n\n**Part 2:**  \nInformation Resources Management (IRM) Strategic Plans are required to support the agency Strategic Plan by describing how information resources help accomplish agency missions. To do this effectively, IRM decisions must be integrated with key organizational domains beyond IT alone. These domains are organizational planning, budget, procurement, financial management, human resources management, and program decisions. Aligning IRM with these areas ensures that strategic goals are reinforced by the agency’s core management and operational functions.",
+  "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:41:45.984804",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists domains that do not align with the ground truth answer, which specifies 'Cybersecurity and Critical Infrastructure Protection, and Internal Operations' as the additional domains supporting the implementation of the Strategic Plan.",
+  "provider": "deepseek"
+}

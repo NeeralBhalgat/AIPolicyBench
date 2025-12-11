@@ -1,0 +1,12 @@
+{
+  "query_id": 166,
+  "query": "What major internal committees or groups will support AI governance?",
+  "response": "The National Artificial Intelligence Advisory Committee (NAIAC), tasked with advising the President and the White House National AI Initiative, will support AI governance.",
+  "ground_truth": "The Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:22:18.560042",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response mentions the National Artificial Intelligence Advisory Committee (NAIAC), which is not listed in the ground truth answer. The correct groups supporting AI governance are the Artificial Intelligence Steering Committee (AISC) and the AI Community of Practice (AICoP), indicating that the White Agent's response is factually incorrect.",
+  "provider": "deepseek"
+}

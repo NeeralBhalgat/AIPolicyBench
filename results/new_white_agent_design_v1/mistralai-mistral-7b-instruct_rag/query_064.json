@@ -1,0 +1,12 @@
+{
+  "query_id": 64,
+  "query": "What does the DOE AI Use Case Inventory aim to achieve?",
+  "response": "The DOE AI Use Case Inventory aims to comply with the Office of Management and Budget Memorandum M-24-10 and to explore DOE’s AI use cases, tools, models, and partnerships for science, energy, and security.",
+  "ground_truth": "To catalog and review AI use cases across DOE offices and labs annually.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:33.328077",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately emphasizes compliance with a specific memorandum and mentions exploring AI use cases, tools, models, and partnerships, which diverges from the primary goal of cataloging and reviewing AI use cases across DOE offices and labs annually.",
+  "provider": "deepseek"
+}

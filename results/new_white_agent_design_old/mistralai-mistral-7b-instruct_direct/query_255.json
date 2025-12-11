@@ -1,0 +1,12 @@
+{
+  "query_id": 255,
+  "query": "Define “digitally altered image” under AB 723.",
+  "response": "AB 723, also known as the \"Deepfake Liability Act of 2019,\" is a California state bill that was introduced but not enacted. It aimed to address the issue of nonconsensual deepfakes. While the bill did not become law, it provided a useful definition of a \"digitally altered image\" for the purpose of the proposed legislation.\n\nAccording to AB 723, a \"digitally altered image\" is defined as:\n\n\"An image, sound recording, animation, or video that (A) is generated through an electronic process that replaces, superimposes, or otherwise modifies the visual or auditory content of an existing image, sound recording, animation, or video, without the consent of all of the individuals who are depicted in the image, sound recording, animation, or video, and (B) is used, intended to be used, or possessed with the intent to be used to harm the reputation or privacy of one or more of those individuals.\"\n\nThis definition emphasizes the manipulation of visual or auditory content without the consent of the individuals depicted and the intent to harm their reputation or privacy. However, it's important to note that AB 723 was not enacted, so this definition is not currently law in California.",
+  "ground_truth": "An image edited using photo software or AI to add, remove, or change elements such as fixtures, furniture, landscape, or visible surroundings.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:16:36.702736",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a definition of 'digitally altered image' that is not aligned with the ground truth answer. The definition from AB 723 is more specific to deepfakes and nonconsensual alterations, while the ground truth describes a broader concept of image editing. Additionally, the claim that AB 723 was not enacted is correct, but it does not negate the fact that the definition provided does not match the ground truth.",
+  "provider": "deepseek"
+}

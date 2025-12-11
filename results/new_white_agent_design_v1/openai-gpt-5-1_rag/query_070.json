@@ -1,0 +1,12 @@
+{
+  "query_id": 70,
+  "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:13:26.291584",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+  "provider": "deepseek"
+}

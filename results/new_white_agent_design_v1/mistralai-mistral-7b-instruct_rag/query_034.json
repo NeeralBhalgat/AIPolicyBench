@@ -1,0 +1,12 @@
+{
+  "query_id": 34,
+  "query": "How will oversight balance innovation vs risk?",
+  "response": "The OMB policy will drive Federal accountability and oversight of AI, increase transparency for the public, advance responsible AI innovation for the public good, and create a clear baseline for managing risks. It will also remove unnecessary barriers to Federal agencies’ responsible AI innovation.",
+  "ground_truth": "Risk-based evaluation of use cases/tools across lifecycle; clear review tiers; public AI inventory; standard contract safeguards.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:04:55.008772",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses Federal accountability and oversight but does not accurately reflect the specific elements of risk-based evaluation, review tiers, public AI inventory, and standard contract safeguards mentioned in the ground truth answer.",
+  "provider": "deepseek"
+}

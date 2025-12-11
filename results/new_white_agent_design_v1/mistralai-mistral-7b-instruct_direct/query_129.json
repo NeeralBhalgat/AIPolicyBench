@@ -1,0 +1,12 @@
+{
+  "query_id": 129,
+  "query": "What publication explains taxpayer rights that AI must not violate?",
+  "response": "The Internal Revenue Service (IRS) Publication 1, \"Your Rights as a Taxpayer,\" outlines the rights that AI systems must respect to ensure compliance with U.S. tax laws and ethical guidelines.",
+  "ground_truth": "Publication 1, Your Rights as a Taxpayer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:47.495507",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies IRS Publication 1, 'Your Rights as a Taxpayer,' as the publication that outlines taxpayer rights, which AI systems must respect. This aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

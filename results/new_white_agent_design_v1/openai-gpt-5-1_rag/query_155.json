@@ -1,0 +1,12 @@
+{
+  "query_id": 155,
+  "query": "What is NASA doing to improve access to AI tools?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Making multiple cloud-hosted AI capabilities available in FY25.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:20:55.628597",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide any information about NASA's efforts to improve access to AI tools, which is a clear admission of not knowing the answer.",
+  "provider": "deepseek"
+}

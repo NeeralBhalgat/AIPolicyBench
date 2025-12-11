@@ -1,0 +1,12 @@
+{
+  "query_id": 131,
+  "query": "What is excluded from “operational use”?",
+  "response": "Part 1: The \"operational use\" excludes the systems themselves, as the final rule requires Swap Dealers and Major Swap Participants to establish policies and procedures for reconciling the *data within* operating and information systems, not for reconciling the systems.\n\nPart 2: The rule was modified based on comments to specifically refer to the reconciliation of data within the systems. This change clarifies that the requirement is focused on the information managed by the systems rather than the hardware or software infrastructure. Consequently, firms are not required to reconcile the operating and information systems as separate entities. This approach addresses concerns about managing \"black boxes\" by focusing on the integrity and consistency of the data itself.",
+  "ground_truth": "Exploratory or research-only AI activity.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:48:21.567362",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses the reconciliation of data within operational systems but does not address the ground truth answer regarding what is excluded from 'operational use,' which is exploratory or research-only AI activity. The response is factually incorrect in the context of the question.",
+  "provider": "deepseek"
+}

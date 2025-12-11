@@ -1,0 +1,12 @@
+{
+  "query_id": 187,
+  "query": "What is one major duty of the Chief AI Officer (CAIO)?",
+  "response": "Part 1: One major duty of the Chief AI Officer (CAIO) is to coordinate the Department’s use of AI, promote AI innovation, and manage risks from the use of AI.\n\nPart 2: This duty is explicitly assigned to the CAIO by Executive Order 14110, as noted in the documentation of enterprise-level roles. The role is central to recent federal mandates aimed at improving AI governance and innovation within government agencies. These responsibilities include overseeing the implementation of agency-specific AI governance plans and ensuring compliance with broader directives to advance trustworthy AI development and use.",
+  "ground_truth": "Maintain awareness of all AI activities and how systems work within GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:02:27.825762",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately attributes specific duties and responsibilities to the CAIO that do not align with the ground truth answer, which emphasizes maintaining awareness of AI activities within the GSA. The mention of Executive Order 14110 and broader federal mandates is not substantiated by the ground truth provided.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 114,
+  "query": "What is DOT’s strategy for AI workforce development?",
+  "response": "Part 1:  \nDOT’s AI workforce development strategy is to initiate the development of a multi-agency task force on the impact of AI on the transportation workforce and to develop a comprehensive gap analysis of evolving workforce needs, scenario planning, and corresponding training and programs to support the transportation workforce.\n\nPart 2:  \nThe multi-agency task force is intended to coordinate across federal entities to understand how AI is changing transportation jobs and what new skills will be required. Through a comprehensive gap analysis and scenario planning, DOT aims to anticipate future workforce needs rather than react to them piecemeal. Based on these insights, DOT will develop targeted training and education programs to upskill current workers and prepare new entrants for AI-enabled roles. Workforce training and education are treated as core requirements alongside technical AI research, data access, and testbeds in the Department’s broader AI planning.",
+  "ground_truth": "Building a trained workforce through internal AI training, learning sessions, and recruitment initiatives.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:50:40.471144",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response describes a strategy involving a multi-agency task force and gap analysis, which does not align with the ground truth answer that emphasizes internal training and recruitment initiatives. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 288,
+  "query": "What ongoing restrictions apply after a consumer submits a deletion request?",
+  "response": "Part 1:  \nAfter a consumer submits a deletion request, the business or data broker must delete the consumer’s personal information and is then restricted from selling, sharing, or using that information for any purpose other than the narrow legal, security, or transactional exceptions allowed under the CCPA and the Delete Act.\n\nPart 2:  \nOnce a deletion request is received and verified, the entity must remove the consumer’s personal information from its systems and instruct its service providers and contractors to do the same, except where a statutory exception applies (for example, to comply with law, complete a transaction the consumer requested, or ensure security and integrity). Any information that is retained under an exception cannot be used, disclosed, or combined for new or unrelated purposes beyond that specific allowed exception. For data brokers using the accessible deletion mechanism, the request also operates as a continuing opt-out, requiring them to continue deleting any newly collected personal information about that consumer received through the platform. They may keep only the minimal records necessary to honor and audit the deletion and opt-out, not to build or exploit a profile of the consumer.",
+  "ground_truth": "Data brokers cannot sell or share new personal information unless the consumer permits or exceptions apply.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:34:36.518032",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the restrictions that apply after a consumer submits a deletion request, aligning with the ground truth that data brokers cannot sell or share new personal information unless permitted or exceptions apply.",
+  "provider": "deepseek"
+}

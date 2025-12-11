@@ -1,0 +1,10 @@
+{
+  "query_id": 229,
+  "query": "What characteristic of AI systems is explicitly noted in the definition in §1714.46(a)?",
+  "response": "",
+  "ground_truth": "AI systems vary in their level of autonomy.",
+  "evaluation_result": "timeout",
+  "evaluation_method": "auto-detect",
+  "timestamp": "2025-12-10T16:47:16.383316",
+  "reason": "White agent response timed out or was empty"
+}

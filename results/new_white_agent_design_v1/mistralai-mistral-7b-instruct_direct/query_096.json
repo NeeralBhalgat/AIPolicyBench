@@ -1,0 +1,12 @@
+{
+  "query_id": 96,
+  "query": "What does DHS’s AI Risk Management Framework aim to do?",
+  "response": "The DHS AI Risk Management Framework aims to provide a structured approach for federal agencies to identify, assess, manage, and mitigate risks associated with the use of artificial intelligence in their operations. It is designed to ensure the responsible and secure deployment of AI technologies within the Department of Homeland Security and other federal entities.",
+  "ground_truth": "To evaluate AI use cases early in their lifecycle, identify risks, and assist implementers in mitigating them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:10.148414",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the purpose of the DHS AI Risk Management Framework, focusing on identifying, assessing, managing, and mitigating risks associated with AI, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

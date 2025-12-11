@@ -1,0 +1,12 @@
+{
+  "query_id": 163,
+  "query": "What is the NRC’s stated vision for AI?",
+  "response": "The NRC’s stated vision for AI is: **“To responsibly leverage artificial intelligence in support of the NRC’s mission, empowering staff to efficiently make risk-informed decisions, drive regulatory innovation, and protect public health, safety, and the environment.”**",
+  "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:21:57.500230",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the NRC's stated vision for AI as per the ground truth, which emphasizes keeping pace with technological innovations and ensuring safe and secure use of AI in regulated activities. The response provided by the White Agent includes elements that are not part of the official vision.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "Federal laws, executive orders (EO), and related guidance include various AI-related requirements for agencies, which remain in effect during the interim period. [s]",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:12:25.232182",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response indicates that there are federal laws and executive orders related to AI that remain in effect, but it does not specify which ones, particularly missing the specific mention of EO 13859 and EO 13960 as the ground truth answer. This indicates uncertainty or incompleteness in the response.",
+  "provider": "deepseek"
+}

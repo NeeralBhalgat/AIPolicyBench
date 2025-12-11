@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "Part 1: The order does not adopt a single, widely agreed-upon legal definition of AI, but it acknowledges common descriptions and features have emerged.\n\nPart 2: The context explicitly states that there is no single, widely agreed-upon definition of AI, as mentioned in the first source. However, the order and related documents focus on principles and guidelines for the safe, secure, and trustworthy development and use of AI, emphasizing accountability, risk mitigation, and compliance with federal policy. The absence of a formal definition in the order suggests a flexible, principle-based approach to regulating AI rather than a rigid, legally binding definition.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:22:30.362868",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that the order does not adopt a single legal definition of AI, while the ground truth specifies that the definition is found in 15 U.S.C. 9401(3). This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

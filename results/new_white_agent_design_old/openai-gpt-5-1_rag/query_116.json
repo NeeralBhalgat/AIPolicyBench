@@ -1,0 +1,12 @@
+{
+  "query_id": 116,
+  "query": "What determines whether an AI use case is safety-impacting or rights-impacting?",
+  "response": "**Part 1:**  \nWhether an AI use case is safety-impacting or rights-impacting is determined under OMB Memorandum M-24-10 by its categorization and definitions, which make certain enumerated AI uses presumptively rights- or safety-impacting based on whether the application could have significant impacts when deployed, particularly where its outputs inform consequential decisions affecting individuals’ rights, opportunities, access to services, or safety.\n\n**Part 2:**  \nAgencies apply the presumptions and definitions in M-24-10 when reviewing each AI use, and they must reassess over time as the uses and policies change to see if a system remains rights- and/or safety-impacting. The federal AI inventories specifically flag those use cases that meet these criteria, using M-24-10’s definitions as the standard. Because these systems can significantly affect people’s rights or physical safety, they are subject to heightened risk-management practices, such as independent evaluations and AI impact assessments. Recent policy updates fold these “rights-impacting” and “safety-impacting” categories into a single “high-impact AI” concept, but the trigger remains whether the AI can drive consequential decisions about individuals’ rights, access, or safety.",
+  "ground_truth": "Whether its output significantly influences real-world decisions affecting safety or rights.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:50:40.564493",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the criteria for determining whether an AI use case is safety-impacting or rights-impacting, aligning with the ground truth that emphasizes the significance of the AI's output on real-world decisions affecting safety or rights.",
+  "provider": "deepseek"
+}

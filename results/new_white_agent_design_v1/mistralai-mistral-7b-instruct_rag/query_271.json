@@ -1,0 +1,12 @@
+{
+  "query_id": 271,
+  "query": "What is the Transparency in Frontier Artificial Intelligence Act (TFAIA)?",
+  "response": "The Transparency in Frontier Artificial Intelligence Act (TFAIA) is a California law signed on September 29, 2025, that requires developers of advanced \"frontier\" AI models to provide public, standardized safety disclosures, establishing transparency, safety, and accountability in AI development.",
+  "ground_truth": "A law requiring large frontier developers to publish safety frameworks, report catastrophic risks, and follow transparency and whistleblower rules.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:28.438884",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the TFAIA as a law requiring developers of advanced AI models to provide safety disclosures, aligning with the ground truth information about transparency and accountability in AI development.",
+  "provider": "deepseek"
+}

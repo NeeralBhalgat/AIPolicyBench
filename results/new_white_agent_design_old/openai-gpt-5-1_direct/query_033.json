@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "No single organization “leads” AI globally. Governance is fragmented and layered: international, regional, national, and technical-standard bodies each control parts of the picture.\n\nBelow are the main *types* of governance bodies and some of the most consequential actors in each.\n\n---\n\n## 1. Multilateral & Intergovernmental Bodies\n\n### United Nations system\n- **UN Secretary‑General / High‑level Advisory Body on AI**  \n  - Launched in 2023 to recommend options for global AI governance, including a possible new UN body.  \n  - Non‑binding but influential agenda‑setting.\n- **UNESCO**  \n  -",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:42:45.561672",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response correctly identifies the fragmented nature of AI governance but fails to mention specific governance bodies listed in the ground truth answer, such as CAIO and USDA AI Council, which are significant actors in AI governance as of December 2025.",
+  "provider": "deepseek"
+}

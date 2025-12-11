@@ -1,0 +1,12 @@
+{
+  "query_id": 137,
+  "query": "Who can IRS units contact for AI-related guidance?",
+  "response": "IRS units can contact the IRS AI Governance Board for AI-related guidance. The AI Governance Board is responsible for overseeing the implementation of AI within the IRS and ensuring that AI systems are used in compliance with relevant laws, regulations, and ethical standards. They can provide guidance on AI-related policies, procedures, and best practices. Additionally, IRS units may also consult with the IRS Chief Information Officer (CIO) and the IRS Chief Data Officer (CDO) for technical and strategic guidance on AI initiatives. For specific legal or regulatory questions, the IRS Office of Chief Counsel may also be consulted.",
+  "ground_truth": "The CDAO team.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:10:30.166358",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the IRS AI Governance Board as the primary contact for AI-related guidance, while the ground truth specifies the CDAO team as the correct contact. The additional contacts mentioned may be relevant but do not align with the ground truth.",
+  "provider": "deepseek"
+}

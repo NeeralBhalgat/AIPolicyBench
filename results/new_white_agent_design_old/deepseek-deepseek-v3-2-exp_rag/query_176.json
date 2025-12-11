@@ -1,0 +1,12 @@
+{
+  "query_id": 176,
+  "query": "How does the NRC frame the difference between automation and autonomy?",
+  "response": "Part 1: The provided sources do not contain any information discussing the difference between automation and autonomy, as the context exclusively concerns the U.S. Nuclear Regulatory Commission's budget formulation process and annual fee adjustments for various licensees.\n\nPart 2: The documents focus entirely on the NRC's fee rulemaking for fiscal year 2025, detailing comments from stakeholders and the NRC's responses regarding budget allocations and annual fees for different facility classes, such as fuel cycle facilities and non-power reactors. There is no discussion of technological concepts like automation or autonomy within this regulatory and budgetary context. Therefore, based on the given information, it is impossible to determine how the NRC frames the difference between these two terms.",
+  "ground_truth": "Automation follows preset rules; autonomy determines both actions and thresholds from learned data.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:59:20.527820",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the provided sources do not contain information on the difference between automation and autonomy, expressing uncertainty about the NRC's framing of these terms. This aligns with the 'miss' classification as it does not provide a definitive answer or claim but rather states a lack of information.",
+  "provider": "deepseek"
+}

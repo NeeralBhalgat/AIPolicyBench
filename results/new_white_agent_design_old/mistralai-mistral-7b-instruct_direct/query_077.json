@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "The U.S. Department of Health and Human Services (HHS) uses the \"HHS AI Framework for Trustworthy AI\" to guide the development and deployment of artificial intelligence (AI) in healthcare and other domains. This framework is based on the following principles:\n\n1. **Equity**: Ensuring that AI systems are designed to promote fairness and reduce health disparities.\n2. **Transparency**: Making AI systems understandable and explainable to stakeholders, including the public.\n3. **Accountability**: Establishing clear roles and responsibilities for AI system developers, deployers, and users.\n4. **Privacy**: Protecting individual privacy and ensuring that AI systems comply with relevant privacy laws and regulations.\n5. **Robustness**: Ensuring that AI systems are reliable, secure, and resilient to errors, biases, and adversarial attacks.\n6. **Safety**: Prioritizing the safety of individuals and communities affected by AI systems.\n7. **Human-Centered Design**: Designing AI systems with a focus on human needs, values, and well-being.\n\nThe framework is part of HHS's broader efforts to promote the responsible use of AI in healthcare and other areas. It aligns with other federal AI guidelines, such as the National Institute of Standards and Technology (NIST) AI Risk Management Framework (AI RMF) and the White House's \"Blueprint for an AI Bill of Rights.\"\n\nFor more details, you can refer to the official HHS AI Framework document or related resources on the HHS website.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:05:07.869849",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the framework used by HHS as the 'HHS AI Framework for Trustworthy AI' and lists principles that do not match the ground truth answer, which specifies the FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "provider": "deepseek"
+}

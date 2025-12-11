@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "The DoD requires a Data Management Plan (DMP) for grant applications, which describes how and where data will be made available to the public, ensuring it is discoverable, retrievable, and analyzable. Researchers are encouraged to deposit data in existing community repositories, with metadata consolidated at the Defense Technical Information Center for compliance and discovery.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:07:12.155868",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the requirement of a Data Management Plan and the encouragement to use community repositories, which does not align with the ground truth that emphasizes treating data as a product managed by decentralized teams. Therefore, while the response contains some relevant information, it does not accurately reflect the DoD's approach to data management.",
+  "provider": "deepseek"
+}

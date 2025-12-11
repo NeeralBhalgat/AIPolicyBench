@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "Partnerships with international regulators will be crucial for harmonizing AI standards, ensuring global safety, and preventing regulatory fragmentation, which could hinder innovation and create compliance challenges.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:36.924054",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of partnerships with international regulators in harmonizing AI standards and ensuring global safety, which aligns with the ground truth answer regarding information sharing and collaboration on best practices.",
+  "provider": "deepseek"
+}

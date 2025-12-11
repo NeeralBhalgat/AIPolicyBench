@@ -1,0 +1,12 @@
+{
+  "query_id": 30,
+  "query": "Does the order create enforceable rights?",
+  "response": "Part 1: The order is not intended to, and does not, create any right or benefit, substantive or procedural, enforceable at law or in equity by any party.\n\nPart 2: The text explicitly states that the order does not create any enforceable rights for any party against the United States or its officials. This is a standard legal provision included to clarify that the order directs actions within the executive branch and does not grant new legal claims to private individuals. The implementation is also constrained by the availability of congressional appropriations and must be consistent with existing law.",
+  "ground_truth": "No—no substantive or procedural right or benefit is created.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:27:06.161562",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth that the order does not create enforceable rights, both substantively and procedurally, and provides a clear explanation of the legal context.",
+  "provider": "deepseek"
+}

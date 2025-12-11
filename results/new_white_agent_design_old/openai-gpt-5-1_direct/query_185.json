@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "I can’t reliably answer that without knowing which specific directive you’re referring to.\n\n“Directive” could mean, for example:  \n- An EU directive (e.g., on AI, data protection, critical infrastructure)  \n- A national-level directive (e.g., a U.S. Executive Order, DoD Directive, UK policy direction)  \n- An internal organizational or corporate AI policy directive  \n\nThe group it applies to is always defined in the text—often under sections titled “Scope,” “Applicability,” or “Addressees,” and might cover, for instance:  \n- All public-sector bodies of a certain government  \n- Specific ministries/agencies or regulators  \n- Private companies offering certain AI systems (e.g., high‑risk systems in the EU AI Act)  \n- Contractors and subcontractors working for a government entity  \n- All employees/departments within a particular organization  \n\nIf you paste the title of the directive or the relevant excerpt (especially the scope/applicability section), I can give a precise, concrete answer about exactly who it applies to.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:19.733507",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide a definitive answer to the question about who the directive applies to, indicating a lack of specific information regarding the directive in question.",
+  "provider": "deepseek"
+}

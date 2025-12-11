@@ -1,0 +1,12 @@
+{
+  "query_id": 148,
+  "query": "How will NASA update the AI inventory structure?",
+  "response": "Part 1: NASA will update its AI inventory structure by implementing the forthcoming OMB guidance and incorporating new inventory fields, such as risk management details, as required by the new memorandum.\n\nPart 2: The update is a direct response to new government-wide requirements for artificial intelligence. The Office of Management and Budget (OMB) is issuing a memorandum that establishes specific guidelines for federal agencies to follow. Consequently, NASA, like other agencies, must align its AI inventory with these new standards, which includes adding new data fields to document risk management practices.",
+  "ground_truth": "By redesigning data structures, collection mechanisms, and visualization tools.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:51:25.656359",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses updates to the AI inventory structure based on OMB guidance and risk management details, which does not align with the ground truth answer that specifies redesigning data structures, collection mechanisms, and visualization tools. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

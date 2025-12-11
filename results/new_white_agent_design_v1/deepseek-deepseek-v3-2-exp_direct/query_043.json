@@ -1,0 +1,12 @@
+{
+  "query_id": 43,
+  "query": "What does the AI RMF identify as the key characteristics of trustworthy AI?",
+  "response": "Based on my knowledge, the AI Risk Management Framework (AI RMF) from NIST identifies trustworthiness as a composite of several characteristics. The key characteristics include validity and reliability, safety, security and resilience, accountability and transparency, explainability and interpretability, privacy enhancement, and fairness with mitigation of harmful bias.",
+  "ground_truth": "Valid and reliable, safe, secure and resilient, accountable and transparent, explainable and interpretable, privacy-enhanced, and fair with harmful bias managed.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:57:55.999393",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the key characteristics of trustworthy AI as identified by the AI RMF, matching the ground truth answer closely.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "**Part 1:**  \nSystem owners must identify and report their AI use cases so they can be included in the agency’s inventory of non-classified and non-sensitive current and planned AI uses.\n\n**Part 2:**  \nExecutive orders and related guidance require federal agencies to conduct an annual inventory of their AI use cases. To make this possible, the AI uses within each system have to be surfaced and documented by those who own or manage the systems. These documented AI use cases are then consolidated into a department‑wide or agency‑wide AI inventory. That inventory is used to support governance, transparency, innovation, and the management of potential rights and safety impacts.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:11:03.170112",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response discusses the importance of identifying and reporting AI use cases, it does not align with the ground truth answer, which specifically states that all use cases must be reported to the AI Safety Team and updated after major changes. The response lacks the specific directive to report to the AI Safety Team, making it factually incorrect.",
+  "provider": "deepseek"
+}

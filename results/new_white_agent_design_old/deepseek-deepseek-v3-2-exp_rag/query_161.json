@@ -1,0 +1,12 @@
+{
+  "query_id": 161,
+  "query": "What mechanisms does NASA use to acquire AI talent?",
+  "response": "**Part 1:** NASA strengthens its workforce by recruiting cutting-edge AI talent and retaining experienced practitioners who can independently develop, deploy, and scale advanced AI solutions.\n\n**Part 2:** This talent acquisition is guided by a government-wide approach mandated by an executive order, which requires agencies to increase AI talent. The Office of Personnel Management (OPM) has established skills-based hiring policies to support this goal. These policies are designed to broaden the talent pool by increasing access to candidates with non-traditional academic backgrounds for federal AI roles.",
+  "ground_truth": "Direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:55:44.306621",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses mechanisms for acquiring AI talent, it does not mention specific methods such as direct hires, FFRDCs, grants, industry partnerships, internships, and fellowships, which are part of the ground truth. Instead, it focuses on a government-wide approach and skills-based hiring policies, which may not fully represent NASA's specific mechanisms.",
+  "provider": "deepseek"
+}

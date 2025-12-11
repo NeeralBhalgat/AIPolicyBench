@@ -1,0 +1,12 @@
+{
+  "query_id": 229,
+  "query": "What characteristic of AI systems is explicitly noted in the definition in §1714.46(a)?",
+  "response": "In §1714.46(a), the definition of an AI system explicitly notes that such systems:\n\n> “can operate **with varying levels of autonomy**.”\n\nIn other words, the characteristic specifically highlighted is that AI systems may function more or less autonomously (i.e., without constant human control), rather than always being fully human-directed.  \n\nI should note that I am inferring this from standard legislative language (OECD/NIST-style definitions) that California and others have adopted; I don’t have the exact statutory text in front of me, but in those frameworks the “varying levels of autonomy” clause is the explicit characteristic that is typically called out.",
+  "ground_truth": "AI systems vary in their level of autonomy.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:03:23.962634",
+  "confidence": 0.9,
+  "reasoning": "The White Agent accurately identifies that the characteristic of AI systems noted in §1714.46(a) is their ability to operate with varying levels of autonomy, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

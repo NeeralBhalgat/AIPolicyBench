@@ -1,0 +1,12 @@
+{
+  "query_id": 31,
+  "query": "What’s USDA’s core AI vision for FY25–26?",
+  "response": "The USDA's core AI vision for FY25–26 is to leverage artificial intelligence to bolster American agriculture, as outlined in its inaugural AI Strategy for those fiscal years.",
+  "ground_truth": "Build workforce readiness, governance, and tech infrastructure to safely integrate AI across mission + services.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:35:57.957792",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately summarizes the USDA's core AI vision for FY25–26, which focuses on workforce readiness, governance, and tech infrastructure rather than just leveraging AI to bolster agriculture.",
+  "provider": "deepseek"
+}

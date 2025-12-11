@@ -1,0 +1,12 @@
+{
+  "query_id": 80,
+  "query": "How will HHS support state, tribal, local, and territorial (STLT) organizations?",
+  "response": "Part 1: HHS will support STLT organizations by providing enterprise management of programs that build and maintain the Nation's public health infrastructure, translating knowledge and guidance into effective programs, and bolstering core capabilities through the Public Health Infrastructure Center.\n\nPart 2: This support involves strengthening the public health infrastructure by providing underlying systems, processes, and expertise. A key function is translating federal guidance into actionable strategies and practices for STLT agencies to respond to public health crises. This is achieved through proactive engagement, collaboration, and capacity-building programs managed by the reorganized National Center. The goal is to enhance the experiences for funded partners and bolster the core capabilities of STLT jurisdictions.",
+  "ground_truth": "By maintaining a flexible approach that encourages innovation while ensuring safe and responsible AI use.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:37:23.553201",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response discusses HHS support for STLT organizations in terms of public health infrastructure, which does not align with the ground truth answer that focuses on AI policy and safety. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

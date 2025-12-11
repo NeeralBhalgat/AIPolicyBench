@@ -1,0 +1,12 @@
+{
+  "query_id": 13,
+  "query": "Who is covered by this memorandum?",
+  "response": "Part 1: This memorandum applies to \"any substantive action by an agency (normally published in the Federal Register) that promulgates or is expected to lead to the promulgation of a final rule or regulation, including notices of inquiry, advance notices of proposed rulemaking, and notices of proposed rulemaking.\"\n\nPart 2: The memorandum covers a broad range of regulatory actions, including rules as defined in section 551(4) of title 5, United States Code, as well as any \"regulatory action\" under Executive Order 12866 and \"guidance documents\" as defined in Executive Order 13891. It also extends to any agency statement of general applicability and future effect that sets forth a policy or interpretation on a statutory, regulatory, or technical issue. The OMB Director is responsible for overseeing the implementation of this memorandum and can exempt certain rules in emergency situations or under statutory deadlines.",
+  "ground_truth": "All Executive Branch departments and agencies, including independent regulatory agencies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:21:37.427288",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides details about the types of actions covered by the memorandum but does not explicitly state that it applies to all Executive Branch departments and agencies, which is the ground truth answer.",
+  "provider": "deepseek"
+}

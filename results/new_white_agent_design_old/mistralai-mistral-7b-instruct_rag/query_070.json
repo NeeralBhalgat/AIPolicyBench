@@ -1,0 +1,12 @@
+{
+  "query_id": 70,
+  "query": "What happens if an AI use case fails to meet DOE risk management practices?",
+  "response": "Part 1: If an AI use case fails to meet DOE risk management practices, it may not be deemed safe, secure, or trustworthy for use in the energy sector.\n\nPart 2: The U.S. Department of Energy, as the Sector Risk Management Agency for the U.S. energy sector, has produced an interim assessment that identifies the potential benefits and risks of AI use in the energy sector. The AI Risk Management Framework (AI RMF) developed by NIST is intended to improve the ability to incorporate trustworthiness considerations into the design, development, use, and evaluation of AI products, services, and systems. If an AI use case fails to meet these practices, it may not be considered safe, secure, or trustworthy for use in the energy sector, as directed by Executive Order 14110. This order aims to promote the development and use of AI technologies and systems that are trustworthy and align with risk management efforts by others.",
+  "ground_truth": "The Acting CAIO may issue a waiver or require termination of the use case.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:31:18.025129",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses the implications of failing to meet DOE risk management practices but does not mention the specific actions that may be taken, such as the issuance of a waiver or termination of the use case, which is the ground truth answer.",
+  "provider": "deepseek"
+}

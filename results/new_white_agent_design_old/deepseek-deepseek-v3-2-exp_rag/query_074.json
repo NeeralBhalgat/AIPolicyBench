@@ -1,0 +1,12 @@
+{
+  "query_id": 74,
+  "query": "What are the primary domains covered in the HHS Strategic Plan?",
+  "response": "Part 1: The HHS Strategic Plan covers primary domains such as strategic goals, the Secretary’s priorities, and topic-specific strategic plans implemented by the Department.\n\nPart 2: The plan is designed to be concise and web-based, allowing for updates as conditions change. It aligns its goals and objectives with Priority Goals and the Secretary’s priorities, ensuring it reflects the Department's key activities. Specific examples of these domains include goals like transforming healthcare and making coverage more secure and affordable, as well as historical focuses such as reducing health disparities.",
+  "ground_truth": "Medical research and discovery, medical product development and safety, healthcare delivery, human services delivery, and public health.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:36:36.205961",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the primary domains covered in the HHS Strategic Plan, which include specific areas like medical research, healthcare delivery, and public health, rather than the more general terms mentioned in the response.",
+  "provider": "deepseek"
+}

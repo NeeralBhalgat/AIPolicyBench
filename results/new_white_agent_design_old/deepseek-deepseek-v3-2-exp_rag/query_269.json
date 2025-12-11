@@ -1,0 +1,12 @@
+{
+  "query_id": 269,
+  "query": "What is the civil penalty for violating this chapter?",
+  "response": "Part 1: The civil penalty for violating this chapter is a general civil penalty of not more than $75,000 (or $1,875 for individuals or small businesses).\n\nPart 2: The provided context specifies that violations of statutory provisions and rules under the relevant chapters are subject to this general civil penalty amount. For individuals or small businesses, the lower amount of $1,875 applies. The context further notes that specific, higher maximum penalties exist for certain other violations, but the general penalty for the chapter is as stated.",
+  "ground_truth": "$5,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:19:21.184172",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the civil penalty as $75,000 or $1,875, while the ground truth indicates it is actually $5,000 per violation.",
+  "provider": "deepseek"
+}

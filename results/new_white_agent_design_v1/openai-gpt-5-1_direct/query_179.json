@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:44:26.462194",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'. The ground truth information is not acknowledged.",
+  "provider": "deepseek"
+}

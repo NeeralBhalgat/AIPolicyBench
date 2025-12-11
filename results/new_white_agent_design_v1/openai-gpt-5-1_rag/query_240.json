@@ -1,0 +1,12 @@
+{
+  "query_id": 240,
+  "query": "Why does AB 489 require no state reimbursement?",
+  "response": "AB 489 requires no state reimbursement because it is \"primarily focused on creating new regulatory standards for AI use in healthcare communication and services,\" rather than imposing reimbursable costs on local agencies.",
+  "ground_truth": "Because the act creates or changes a crime, which does not require reimbursement.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:28:46.032389",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly attributes the lack of state reimbursement to the focus on regulatory standards rather than the correct reason, which is that the act creates or changes a crime, thus not requiring reimbursement.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,11 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:51:10.995205",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

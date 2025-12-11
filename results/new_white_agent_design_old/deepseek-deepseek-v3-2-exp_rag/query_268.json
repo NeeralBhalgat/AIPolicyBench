@@ -1,0 +1,12 @@
+{
+  "query_id": 268,
+  "query": "What information must a latent disclosure from a capture device contain?",
+  "response": "Part 1: A latent disclosure from a capture device must contain information that is categorized according to Federal Information Processing Standards Publication 199, Standards for Security Categorization of Federal Information and Information Systems, and protected using the security controls specified in NIST Special Publication 800-53, Revision 5.\n\nPart 2: The provided sources establish that Controlled Unclassified Information (CUI) must be safeguarded according to specific NIST publications, which are incorporated by reference into the CUI Implementing Directive. Federal Information Processing Standards Publication 199 provides the standards for categorizing federal information and information systems, which is a foundational step. Following categorization, the security controls outlined in NIST Special Publication 800-53 must be implemented to protect the information, ensuring it meets the required security requirements.",
+  "ground_truth": "Manufacturer name, device name and version, and time/date of creation or alteration.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:18:36.908074",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response discusses security categorization and controls but does not provide the specific information required in a latent disclosure, which includes the manufacturer name, device name and version, and time/date of creation or alteration.",
+  "provider": "deepseek"
+}

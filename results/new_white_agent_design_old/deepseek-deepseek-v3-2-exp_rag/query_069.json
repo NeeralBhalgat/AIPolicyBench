@@ -1,0 +1,12 @@
+{
+  "query_id": 69,
+  "query": "What group is responsible for identifying AI systems that impact rights and safety?",
+  "response": "Part 1: The federal government, specifically through the President's executive authority, is responsible for identifying AI systems that impact rights and safety by requiring firms to share safety test results.\n\nPart 2: A 2023 executive order mandated that some AI firms share their safety test results with the federal government. This action established a direct role for the government in identifying and assessing high-impact AI systems. However, this specific requirement was later revoked by a subsequent administration, which viewed such policies as barriers to innovation. Despite this revocation, the initial action demonstrates that the responsibility for identification was intended to lie with the federal government.",
+  "ground_truth": "The Rights- and Safety-Impacting AI Working Group.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:35:52.406983",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly attributes the responsibility for identifying AI systems that impact rights and safety to the federal government and an executive order, while the ground truth specifies that this responsibility lies with the Rights- and Safety-Impacting AI Working Group.",
+  "provider": "deepseek"
+}

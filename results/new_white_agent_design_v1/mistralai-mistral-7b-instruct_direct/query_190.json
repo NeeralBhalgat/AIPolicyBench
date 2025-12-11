@@ -1,0 +1,12 @@
+{
+  "query_id": 190,
+  "query": "What must system owners do with AI use cases?",
+  "response": "System owners must ensure that AI use cases are designed, developed, and deployed in a manner that aligns with ethical principles, legal requirements, and safety standards. They should also conduct regular assessments to mitigate risks and ensure compliance with relevant regulations.",
+  "ground_truth": "Report all use cases to the AI Safety Team and update them after major changes.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:51.570574",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses ethical principles, legal requirements, and safety standards, which are relevant to AI use cases, but it does not mention the specific requirement to report all use cases to the AI Safety Team and update them after major changes, which is the ground truth answer.",
+  "provider": "deepseek"
+}

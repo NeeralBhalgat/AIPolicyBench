@@ -1,0 +1,12 @@
+{
+  "query_id": 58,
+  "query": "What is the DoD’s plan for infrastructure supporting AI and analytics?",
+  "response": "**Part 1:**  \nThe DoD’s plan is to build and modernize shared data, analytics, and AI infrastructure that accelerates the adoption of advanced AI capabilities and provides decision advantage for the warfighter.\n\n**Part 2:**  \nTo support AI and analytics, the Department is creating an integrated digital foundation—encompassing data, analytics, and AI technologies—so these capabilities are increasingly available across DoD components and can be responsibly fielded at scale. The AI Adoption Strategy focuses on eliminating uncertainty and hesitancy by defining a clear framework for harnessing AI and the supporting infrastructure needed to move faster. This includes enterprise data and compute environments that enable rapid development, deployment, and use of AI systems, while embedding responsible AI practices. By doing so, the DoD aims to solidify and extend its competitive advantage in fielding emerging AI technologies.",
+  "ground_truth": "To invest in interoperable, federated infrastructure that balances shared services with specialized systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:38:21.503167",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides a detailed description of the DoD's plans for AI and analytics infrastructure but does not align with the ground truth answer, which emphasizes the need for interoperable, federated infrastructure. The response includes elements that may be accurate in a broader context but does not correctly reflect the specific focus of the ground truth.",
+  "provider": "deepseek"
+}

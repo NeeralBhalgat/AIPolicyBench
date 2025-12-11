@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "**Part 1:**  \nThe information provided about NASA’s AI leadership, ethical framework, and responsible AI plan does not specify any date for when NASA will publish an AI Strategy.\n\n**Part 2:**  \nThe materials describe NASA’s existing efforts, such as the “NASA Framework for the Ethical Use of Artificial Intelligence (AI)” and “NASA’s Responsible Artificial Intelligence Plan,” and note that this framework focuses on “concrete, practical considerations for the next five to ten years.” However, they do not mention a separate, formal “AI Strategy” document or any planned publication date for such a strategy. From this context, we can only confirm NASA’s commitment to trustworthy and ethical AI and its current governance mechanisms, not a timeline for a future strategy release. Any specific date for an AI Strategy would therefore be speculative beyond the provided information.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:00:58.119908",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no specified date for NASA's AI Strategy publication, while the ground truth indicates it was published by March 2025. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

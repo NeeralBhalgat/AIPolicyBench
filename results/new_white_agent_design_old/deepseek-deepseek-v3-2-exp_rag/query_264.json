@@ -1,0 +1,12 @@
+{
+  "query_id": 264,
+  "query": "What are users allowed to do with system provenance data under AB 853?",
+  "response": "Part 1: Users are allowed to use system provenance data for cybersecurity purposes, such as detecting, preventing, or responding to cybersecurity threats.\n\nPart 2: The bill explicitly permits the use of system provenance data specifically for cybersecurity activities. This includes actions aimed at detecting, preventing, or responding to cybersecurity threats. The policy analysis clarifies that this is the authorized purpose for using such data, ensuring it is not used for other, unrelated reasons. This focus helps balance security needs with data protection.",
+  "ground_truth": "Inspect all available system provenance data via UI, download, or linked site.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:17:45.539093",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly states that users are only allowed to use system provenance data for cybersecurity purposes. The ground truth indicates that users can inspect all available system provenance data via UI, download, or linked site, which is broader than just cybersecurity activities.",
+  "provider": "deepseek"
+}

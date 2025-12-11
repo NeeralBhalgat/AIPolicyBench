@@ -1,0 +1,12 @@
+{
+  "query_id": 120,
+  "query": "What does TrUCKR track regarding risk management?",
+  "response": "Part 1: TrUCKR tracks risk management by monitoring the validity of both domestic and international commercial driving credentials.\n\nPart 2: The program's focus on credential validity is a core part of its risk management strategy, as invalid or fraudulent credentials pose a significant safety and security risk. By systematically tracking this data, TrUCKR provides a mechanism to identify and mitigate risks associated with commercial drivers who may be operating without proper, legal authorization. This targeted monitoring allows for a more secure and accountable commercial driving environment.",
+  "ground_truth": "All determinations, changes, reassessments, and documentation throughout the AI lifecycle.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:45:44.253671",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes TrUCKR's focus on monitoring commercial driving credentials, while the ground truth indicates that TrUCKR tracks all determinations, changes, reassessments, and documentation throughout the AI lifecycle, which is unrelated to driving credentials.",
+  "provider": "deepseek"
+}

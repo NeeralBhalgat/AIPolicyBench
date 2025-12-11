@@ -1,0 +1,12 @@
+{
+  "query_id": 108,
+  "query": "What is TrAIN?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:41:10.226965",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about TrAIN.",
+  "provider": "deepseek"
+}

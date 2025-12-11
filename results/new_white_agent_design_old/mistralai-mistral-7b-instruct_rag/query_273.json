@@ -1,0 +1,12 @@
+{
+  "query_id": 273,
+  "query": "What is considered a “catastrophic risk” under SB 53?",
+  "response": "Part 1: Under SB 53, a \"catastrophic risk\" refers to the possibility of an AI system causing mass harm or serious economic damage, as well as incidents involving death, bodily injury, or materialized catastrophic harm.\n\nPart 2: The law emphasizes transparency and reporting to regulators and the public, focusing on preventing such risks before they occur rather than addressing them after the fact. It requires large frontier developers to report incidents causing death, bodily injury, or materialized catastrophic harm, as well as deceptive model behavior that materially increases catastrophic risk. The law aims to reduce the risk of catastrophic harms before they can occur, distinguishing it from other bills that focus on liability and penalties.",
+  "ground_truth": "A foreseeable, material risk that a model could cause death to 50+ people or over $1B in damage by enabling weapons, cyberattacks, or loss of control.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:58:46.028978",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the specific criteria for a 'catastrophic risk' under SB 53, which includes the threshold of 50+ deaths or over $1B in damage. Instead, it provides a more general definition of catastrophic risk that lacks the precise details outlined in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "Part 1: The provided sources do not mention or discuss any role for partnerships with international regulators.\n\nPart 2: The articles exclusively focus on the domestic conflict between a proposed federal executive order and state-level AI regulations. They detail opposition from state attorneys general and lawmakers, as well as legal questions about presidential authority, but do not extend the discussion to any international coordination or partnerships. The entire context of the debate is confined to the internal governance structure of the United States.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:59:16.178967",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the sources do not discuss international partnerships, while the ground truth indicates that such partnerships are important for information sharing and collaboration on AI standards. This indicates a misunderstanding of the role of international regulators in the context of AI policy.",
+  "provider": "deepseek"
+}

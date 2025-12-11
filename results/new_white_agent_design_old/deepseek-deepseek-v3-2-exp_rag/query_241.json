@@ -1,0 +1,12 @@
+{
+  "query_id": 241,
+  "query": "How does SB 243 define “artificial intelligence” in Section 22601(a)?",
+  "response": "Part 1: The provided sources do not contain the text of SB 243 or its definition of \"artificial intelligence\" in Section 22601(a).\n\nPart 2: The given excerpts are all from the Stanford Encyclopedia of Philosophy's entry on Artificial Intelligence, which is a general academic overview of the field. These sources discuss philosophical and technical aspects of AI but do not include the text of any specific legislation, such as California Senate Bill 243. Therefore, it is impossible to determine how SB 243 defines \"artificial intelligence\" based on the provided context.",
+  "ground_truth": "An engineered or machine-based system that varies in autonomy and can infer from inputs how to generate outputs influencing environments.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:13:51.241467",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response correctly identifies that the provided sources do not contain the text of SB 243 or its definition of 'artificial intelligence.' However, it does not provide the ground truth answer, which indicates a lack of knowledge about the specific legislation.",
+  "provider": "deepseek"
+}

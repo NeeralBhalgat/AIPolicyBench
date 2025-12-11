@@ -1,0 +1,12 @@
+{
+  "query_id": 265,
+  "query": "Are large online platforms allowed to remove system provenance data from uploaded content?",
+  "response": "Part 1: No, large online platforms are not allowed to remove system provenance data from uploaded content, as they are required to ensure the Federal Government has unfettered access to comprehensive data, including data maintained in third-party databases.\n\nPart 2: The executive order mandates that agency heads must take all necessary steps to ensure the Federal Government has unfettered access to comprehensive data from all state programs receiving federal funding. This directive explicitly includes data maintained in third-party databases, which would cover data held by large online platforms. The order requires this access to be implemented immediately and to the maximum extent consistent with law, prohibiting the removal or obstruction of such data.",
+  "ground_truth": "No, they may not knowingly strip system provenance data if technically feasible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:18:35.602413",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the requirement that large online platforms cannot remove system provenance data, aligning with the ground truth that they may not knowingly strip such data if technically feasible. The explanation regarding the executive order and the need for federal access to data supports this conclusion.",
+  "provider": "deepseek"
+}

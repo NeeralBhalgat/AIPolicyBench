@@ -1,0 +1,12 @@
+{
+  "query_id": 108,
+  "query": "What is TrAIN?",
+  "response": "TrAIN (Trustworthy AI Network) is a collaborative initiative focused on advancing the development and deployment of trustworthy artificial intelligence (AI) systems. It brings together researchers, policymakers, industry leaders, and other stakeholders to address key challenges related to AI safety, ethics, and regulation. The network aims to foster interdisciplinary dialogue, share best practices, and develop frameworks that ensure AI technologies are designed and used in ways that are transparent, fair, and aligned with societal values.\n\nTrAIN may also refer to the Trustworthy AI Network, a specific organization or consortium working on similar goals, depending on the context. If you are referring to a particular instance of TrAIN, please provide more details for a more precise answer.",
+  "ground_truth": "DOT’s AI-enabled network for developing, testing, and deploying operational AI solutions.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:08:14.293403",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes TrAIN as the Trustworthy AI Network, while the ground truth identifies it as DOT's AI-enabled network for developing, testing, and deploying operational AI solutions. This indicates a misunderstanding of the term's correct definition.",
+  "provider": "deepseek"
+}

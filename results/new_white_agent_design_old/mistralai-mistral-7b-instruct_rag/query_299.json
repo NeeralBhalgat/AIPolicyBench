@@ -1,0 +1,12 @@
+{
+  "query_id": 299,
+  "query": "What AI systems does the definition cover in SB 524?",
+  "response": "Part 1: SB 524 covers AI systems that use facial recognition technology.\n\nPart 2: The analysis provided for SB 524 mentions the use of facial recognition technology in the context of law enforcement, specifically in the context of body-worn cameras and other surveillance systems. This implies that the bill is aimed at regulating AI systems that employ facial recognition technology, particularly those used in the context of law enforcement.",
+  "ground_truth": "Systems that auto-draft police narratives from camera footage or from dictated officer reports enhanced by generative AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:57.045372",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly focuses solely on facial recognition technology, while the ground truth specifies that SB 524 also covers systems that auto-draft police narratives using generative AI, which is not mentioned in the White Agent's response.",
+  "provider": "deepseek"
+}

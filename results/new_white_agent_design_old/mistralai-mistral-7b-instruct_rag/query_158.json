@@ -1,0 +1,12 @@
+{
+  "query_id": 158,
+  "query": "How is NASA addressing generative AI risks?",
+  "response": "Part 1: NASA is addressing generative AI risks by limiting access to specific services based on risk assessments, establishing guidelines, and providing secure and reliable generative AI capabilities with appropriate safeguards.\n\nPart 2: The context outlines that federal agencies, including NASA, are discouraged from imposing broad bans on generative AI but should instead manage risks through targeted limitations, guidelines, and secure access. Agencies are encouraged to implement risk-management practices, such as staff training, vendor negotiations, and compliance measures, to protect federal information. Additionally, the context mentions the development of a framework for prioritizing critical technologies like generative AI in the Federal Risk and Authorization Management Program, ensuring secure and reliable use.",
+  "ground_truth": "By emphasizing human verification, validation, and benchmarks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:40:59.523637",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses risk management practices and guidelines but does not mention the emphasis on human verification, validation, and benchmarks, which is the ground truth answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

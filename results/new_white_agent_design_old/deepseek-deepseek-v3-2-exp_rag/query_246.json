@@ -1,0 +1,12 @@
+{
+  "query_id": 246,
+  "query": "What disclosure must be made to users that the operator knows are minors?",
+  "response": "**Part 1:** An operator must provide parental consent prior to the collection of personal information when it has \"actual knowledge\" that the user is a minor.\n\n**Part 2:** The fundamental challenge is that website operators generally do not know who is accessing their site due to the anonymity inherent in the Internet. Therefore, special privacy protections for minors are only triggered when an operator possesses \"actual knowledge\" that a specific user is a child. In such a case, the required special treatment includes obtaining parental consent before collecting the child's personal information. This \"actual knowledge\" provision is a key prong of the legal framework designed to protect children's privacy online.",
+  "ground_truth": "The operator must disclose that the user is interacting with artificial intelligence.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:14:38.371160",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response focuses on parental consent for collecting personal information from minors, which is not the disclosure required regarding interaction with AI. The ground truth specifies that the operator must disclose the interaction with AI, which the White Agent fails to address.",
+  "provider": "deepseek"
+}

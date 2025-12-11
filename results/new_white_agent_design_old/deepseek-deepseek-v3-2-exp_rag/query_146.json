@@ -1,0 +1,12 @@
+{
+  "query_id": 146,
+  "query": "What process will AISWG develop for AI lifecycle management?",
+  "response": "Part 1: The AISWG will develop a process for AI lifecycle management that includes identifying, assessing, and mitigating risks, as well as monitoring and evaluating performance.\n\nPart 2: This process is designed to ensure the safe, secure, and trustworthy use of AI systems by the federal government. It provides a structured framework for managing AI from its initial development through its entire operational lifespan. The goal is to accelerate federal AI adoption while maintaining strong governance and public trust.",
+  "ground_truth": "An inventory and annual registration process.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:51:23.524340",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response describes a general process for AI lifecycle management but does not mention the specific inventory and annual registration process that is the ground truth answer. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

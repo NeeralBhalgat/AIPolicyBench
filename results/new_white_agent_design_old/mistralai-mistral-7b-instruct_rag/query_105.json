@@ -1,0 +1,12 @@
+{
+  "query_id": 105,
+  "query": "What tool does DOT use to track AI use cases?",
+  "response": "Part 1: Google uses \"experimental\" generative AI to power its results.\n\nPart 2: The context discusses Google's AI Overviews, which are powered by experimental generative AI technology. This AI is designed to provide explanations and meanings for phrases, even if they are invented or nonsensical. The system's responses are based on probability and aim to please users, often generating plausible-sounding but incorrect information. The disclaimer at the bottom of AI Overviews explicitly mentions the use of experimental generative AI, highlighting its role in tracking and generating responses for various use cases.",
+  "ground_truth": "TrUCKR, the Transportation Use Case Knowledge Repository.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:35:14.841989",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response does not address the question about the tool used by DOT to track AI use cases. Instead, it discusses Google's AI Overviews and generative AI, which is irrelevant to the question. The correct answer is TrUCKR, which is not mentioned at all.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 133,
+  "query": "What is the IRS definition of an AI use case?",
+  "response": "<s> [B_INST] Part 1: The IRS defines an AI use case as a non-classified and non-sensitive application of AI by federal agencies, as outlined in the inventory guidelines provided by the Federal Chief Information Officers Council.\n\nPart 2: The IRS and other federal agencies are required to document and report their AI use cases, which include applications like accelerating regulatory reform, combating fraud, enhancing information security, and streamlining processes. These use cases must be transparent, well-documented, and aligned with federal AI principles to ensure trust and compliance. The inventory of AI use cases is part of broader federal efforts to promote the responsible and beneficial use of AI in government operations. [/B_INST]",
+  "ground_truth": "A specific business use of an AI technique to solve a problem or increase efficiency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:13.212437",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not accurately reflect the IRS definition of an AI use case as it focuses on broader applications and requirements rather than the specific definition provided in the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 186,
+  "query": "What previous policy does this directive cancel?",
+  "response": "The directive you're referring to is the \"AI Executive Order\" issued by the Biden administration in October 2023. This directive does not explicitly cancel any previous policy, but it does supersede and update certain aspects of earlier AI-related policies, such as the \"National Artificial Intelligence Initiative\" established by the Trump administration in 2019. The 2023 order builds upon and refines these earlier efforts, particularly in areas like AI safety, governance, and international cooperation. If you're referring to a specific policy, please provide more details so I can give a more precise answer.",
+  "ground_truth": "The Security Policy for Generative AI LLMs CIO IL-23-01.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:17.068099",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly identifies the directive as the 'AI Executive Order' and claims it does not cancel any previous policy, while the ground truth specifies that it cancels the 'Security Policy for Generative AI LLMs CIO IL-23-01'. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

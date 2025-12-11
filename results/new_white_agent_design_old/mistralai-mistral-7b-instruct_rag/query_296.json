@@ -1,0 +1,12 @@
+{
+  "query_id": 296,
+  "query": "What restrictions apply to contracted vendors processing law enforcement data?",
+  "response": "<s> [OUT] Part 1: The rule does not regulate purely domestic transactions between U.S. persons, like the collection, maintenance, processing, or use of data by U.S. persons within the United States (unless one of those persons is a publicly designated covered person).\n\nPart 2: The context specifies that the rule's prohibitions and restrictions do not apply to purely domestic transactions, meaning that if a contracted vendor is processing law enforcement data solely within the U.S. and is not a \"publicly designated covered person,\" the rule does not impose additional restrictions. However, if the vendor is a covered person or involved in transactions with countries of concern, the rule's restrictions on data transfers and processing may apply. The rule is primarily concerned with preventing access to sensitive data by countries of concern, not with domestic data processing activities.",
+  "ground_truth": "Vendors cannot share or sell the data except for the agency’s purposes or by court order.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:02:23.343672",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the regulation of domestic transactions and the role of covered persons, but it fails to address the specific restriction that vendors cannot share or sell law enforcement data except for the agency's purposes or by court order. This omission indicates a misunderstanding of the core restrictions applicable to vendors.",
+  "provider": "deepseek"
+}

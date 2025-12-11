@@ -1,0 +1,12 @@
+{
+  "query_id": 235,
+  "query": "Against whom are existing prohibitions on deceptive medical terms enforceable under AB 489?",
+  "response": "**Part 1:** The excerpts from the AB 489 bill analysis provided do not indicate against whom the existing prohibitions on deceptive medical terms are enforceable, so this cannot be determined from the given context.\n\n**Part 2:** The text you supplied is largely metadata and compressed/garbled PDF content (e.g., references to “Agenda Item 25” and “HEALTH CARE PROFESSIONS: DECEPTIVE TERMS OR LETTERS: ARTIFICIAL INTELLIGENCE”) and does not include the operative statutory or analytical language that answers your question. Because the relevant sections of the analysis and bill text are not visible, I cannot reliably see how AB 489 describes the scope of enforcement (for example, whether it applies only to licensed individuals, any “person,” entities, or AI providers). Inferring that from general California law or from similar bills would be speculative and could be inaccurate for this specific measure. To answer your question precisely, the full readable bill analysis or the bill’s text section summarizing “existing law” and “this bill” would be needed.",
+  "ground_truth": "Any person or entity that develops or deploys an AI or GenAI system using prohibited terms in advertising or functionality.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:21:48.540169",
+  "confidence": 0.85,
+  "reasoning": "The White Agent expresses uncertainty about the enforceability of prohibitions under AB 489, indicating that the necessary information is not available in the provided context. This aligns with the 'miss' classification as it does not provide a definitive answer.",
+  "provider": "deepseek"
+}

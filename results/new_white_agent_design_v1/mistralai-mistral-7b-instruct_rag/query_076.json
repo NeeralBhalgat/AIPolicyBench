@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "The AI Action Plan highlights opportunities for AI to improve people’s lives by accelerating innovation in key sectors, including manufacturing, healthcare, and scientific research, as well as upskilling the workforce to facilitate adoption.",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:08:02.316587",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response mentions opportunities for AI in manufacturing, healthcare, and scientific research, but it does not accurately reflect the specific opportunities listed in the ground truth answer, such as improving clinical outcomes and increasing equity.",
+  "provider": "deepseek"
+}

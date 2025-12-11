@@ -1,0 +1,12 @@
+{
+  "query_id": 16,
+  "query": "What governance bodies are required to coordinate AI across government?",
+  "response": "Part 1: The Office of Management and Budget (OMB) and the White House Office of Science and Technology Policy (OSTP) are the key governance bodies required to coordinate AI across the federal government.\n\nPart 2: The OMB issues binding policy memoranda, such as M-25-21 and M-25-22, to accelerate federal AI use and drive efficient acquisition, providing the operational guidance for agencies. The White House OSTP, through officials like its Principal Deputy Director, provides overarching strategic direction focused on promoting American AI innovation and leadership within government. These bodies work to set national-level policy, though there is significant conflict, as seen in the push to preempt state AI laws, which other governance bodies like state attorneys general and Congress actively oppose.",
+  "ground_truth": "Agency AI Governance Boards (CFO Act agencies) and a Chief AI Officer Council convened by OMB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:23:44.446638",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent mentions relevant governance bodies like the OMB and OSTP, it fails to include the Agency AI Governance Boards and the Chief AI Officer Council, which are specified in the ground truth answer. Additionally, the response introduces elements of conflict and opposition that are not part of the required governance structure, leading to inaccuracies.",
+  "provider": "deepseek"
+}

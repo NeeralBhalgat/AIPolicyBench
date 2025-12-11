@@ -1,0 +1,212 @@
+
+################################################################################
+#                     AIPolicyBench Results Analysis Report                     #
+#                                                                              #
+#                  Generated: 2025-12-10 17:24:15                           #
+################################################################################
+
+
+========================================================================================================================
+SUMMARY STATISTICS
+========================================================================================================================
+
+Total Models Evaluated: 6
+Total Queries Processed: 1800
+
+### Aggregate Results
+   - Total Correct:       300
+   - Total Miss:          1092
+   - Total Hallucination: 399
+   - Total Timeout:       8
+
+### Average Rates Across All Models
+   - Average Correct Rate:       16.75%
+   - Average Miss Rate:          60.92%
+   - Average Hallucination Rate: 22.28%
+   - Average Factuality Rate:    55.40%
+
+### Best Performers
+   - Highest Correct Rate:      mistralai-mistral-7b-instruct (RAG) at 22.71%
+   - Highest Factuality:        openai-gpt-5-1 (DIRECT) at 84.85%
+   - Lowest Hallucination:      openai-gpt-5-1 (DIRECT) at 7.41%
+
+========================================================================================================================
+MODEL COMPARISON TABLE
+========================================================================================================================
+
+Model                                         Mode        Correct       Miss    Halluc.  Timeout   Factuality
+------------------------------------------------------------------------------------------------------------------------
+v3-2-exp                                      DIRECT        7.67%     80.33%     12.00%        0       76.00%
+v3-2-exp                                      RAG          20.33%     52.00%     27.67%        0       44.67%
+mistral-7b-instruct                           DIRECT       16.00%     55.33%     28.67%        0       42.67%
+mistral-7b-instruct                           RAG          22.71%     42.71%     34.58%        5       30.85%
+gpt-5-1                                       DIRECT       12.12%     80.13%      7.41%        3       84.85%
+gpt-5-1                                       RAG          21.67%     55.00%     23.33%        0       53.33%
+------------------------------------------------------------------------------------------------------------------------
+
+========================================================================================================================
+MODEL RANKINGS
+========================================================================================================================
+
+### Ranking by Correct Answer Rate (Higher is Better)
+------------------------------------------------------------
+  1. mistralai-mistral-7b-instruct (RAG): 22.71%
+  2. openai-gpt-5-1 (RAG): 21.67%
+  3. deepseek-deepseek-v3-2-exp (RAG): 20.33%
+  4. mistralai-mistral-7b-instruct (DIRECT): 16.00%
+  5. openai-gpt-5-1 (DIRECT): 12.12%
+  6. deepseek-deepseek-v3-2-exp (DIRECT): 7.67%
+
+### Ranking by Factuality Rate (Higher is Better)
+------------------------------------------------------------
+  1. openai-gpt-5-1 (DIRECT): 84.85%
+  2. deepseek-deepseek-v3-2-exp (DIRECT): 76.00%
+  3. openai-gpt-5-1 (RAG): 53.33%
+  4. deepseek-deepseek-v3-2-exp (RAG): 44.67%
+  5. mistralai-mistral-7b-instruct (DIRECT): 42.67%
+  6. mistralai-mistral-7b-instruct (RAG): 30.85%
+
+### Ranking by Hallucination Rate (Lower is Better)
+------------------------------------------------------------
+  1. openai-gpt-5-1 (DIRECT): 7.41%
+  2. deepseek-deepseek-v3-2-exp (DIRECT): 12.00%
+  3. openai-gpt-5-1 (RAG): 23.33%
+  4. deepseek-deepseek-v3-2-exp (RAG): 27.67%
+  5. mistralai-mistral-7b-instruct (DIRECT): 28.67%
+  6. mistralai-mistral-7b-instruct (RAG): 34.58%
+
+========================================================================================================================
+RAG vs DIRECT MODE COMPARISON
+========================================================================================================================
+
+## deepseek-deepseek-v3-2-exp
+--------------------------------------------------------------------------------
+
+Metric                                RAG          DIRECT      Difference
+--------------------------------------------------------------------------------
+Correct Rate                       20.33%           7.67% +         12.66%
+Miss Rate                          52.00%          80.33%         -28.33%
+Hallucination Rate                 27.67%          12.00% +         15.67%
+Factuality Rate                    44.67%          76.00%         -31.33%
+
+   → RAG improves correct answer rate by 12.66%
+   → RAG increases hallucination rate by 15.67%
+   → DIRECT has better factuality by 31.33%
+
+## mistralai-mistral-7b-instruct
+--------------------------------------------------------------------------------
+
+Metric                                RAG          DIRECT      Difference
+--------------------------------------------------------------------------------
+Correct Rate                       22.71%          16.00% +          6.71%
+Miss Rate                          42.71%          55.33%         -12.62%
+Hallucination Rate                 34.58%          28.67% +          5.91%
+Factuality Rate                    30.85%          42.67%         -11.82%
+
+   → RAG improves correct answer rate by 6.71%
+   → RAG increases hallucination rate by 5.91%
+   → DIRECT has better factuality by 11.82%
+
+## openai-gpt-5-1
+--------------------------------------------------------------------------------
+
+Metric                                RAG          DIRECT      Difference
+--------------------------------------------------------------------------------
+Correct Rate                       21.67%          12.12% +          9.55%
+Miss Rate                          55.00%          80.13%         -25.13%
+Hallucination Rate                 23.33%           7.41% +         15.92%
+Factuality Rate                    53.33%          84.85%         -31.52%
+
+   → RAG improves correct answer rate by 9.55%
+   → RAG increases hallucination rate by 15.92%
+   → DIRECT has better factuality by 31.52%
+
+========================================================================================================================
+DETAILED MODEL ANALYSIS
+========================================================================================================================
+
+## DEEPSEEK Models
+------------------------------------------------------------
+
+### deepseek-deepseek-v3-2-exp (DIRECT)
+   - Correct Answers: 23/300 (7.67%)
+   - Missed Answers:  241/300 (80.33%)
+   - Hallucinations:  36/300 (12.00%)
+   - Timeouts:        0/300 (0.00%)
+   - Factuality Rate: 76.00%
+
+### deepseek-deepseek-v3-2-exp (RAG)
+   - Correct Answers: 61/300 (20.33%)
+   - Missed Answers:  156/300 (52.00%)
+   - Hallucinations:  83/300 (27.67%)
+   - Timeouts:        0/300 (0.00%)
+   - Factuality Rate: 44.67%
+
+## MISTRALAI Models
+------------------------------------------------------------
+
+### mistralai-mistral-7b-instruct (DIRECT)
+   - Correct Answers: 48/300 (16.00%)
+   - Missed Answers:  166/300 (55.33%)
+   - Hallucinations:  86/300 (28.67%)
+   - Timeouts:        0/300 (0.00%)
+   - Factuality Rate: 42.67%
+
+### mistralai-mistral-7b-instruct (RAG)
+   - Correct Answers: 67/295 (22.71%)
+   - Missed Answers:  126/295 (42.71%)
+   - Hallucinations:  102/295 (34.58%)
+   - Timeouts:        5/300 (1.67%)
+   - Factuality Rate: 30.85%
+
+## OPENAI Models
+------------------------------------------------------------
+
+### openai-gpt-5-1 (DIRECT)
+   - Correct Answers: 36/297 (12.12%)
+   - Missed Answers:  238/297 (80.13%)
+   - Hallucinations:  22/297 (7.41%)
+   - Timeouts:        3/300 (1.00%)
+   - Factuality Rate: 84.85%
+
+### openai-gpt-5-1 (RAG)
+   - Correct Answers: 65/300 (21.67%)
+   - Missed Answers:  165/300 (55.00%)
+   - Hallucinations:  70/300 (23.33%)
+   - Timeouts:        0/300 (0.00%)
+   - Factuality Rate: 53.33%
+
+========================================================================================================================
+KEY INSIGHTS & OBSERVATIONS
+========================================================================================================================
+
+### 1. RAG vs Direct Mode Overall Impact
+
+   Average Correct Rate:       RAG=21.57%  vs  DIRECT=11.93%
+   Average Hallucination Rate: RAG=28.53%  vs  DIRECT=16.03%
+   Average Factuality Rate:    RAG=42.95%  vs  DIRECT=67.84%
+
+   → RAG mode generally IMPROVES correct answer rate (+9.64%)
+   → RAG mode INCREASES hallucination rate (+12.50%)
+   → DIRECT mode generally has BETTER factuality (+24.89%)
+
+### 2. Model-Specific Observations
+
+   ⚠️  deepseek-deepseek-v3-2-exp (RAG): High hallucination rate (27.67%)
+   ⚠️  deepseek-deepseek-v3-2-exp (RAG): Low factuality rate (44.67%)
+   ⚠️  mistralai-mistral-7b-instruct (DIRECT): High hallucination rate (28.67%)
+   ⚠️  mistralai-mistral-7b-instruct (DIRECT): Low factuality rate (42.67%)
+   ⚠️  mistralai-mistral-7b-instruct (RAG): High hallucination rate (34.58%)
+   ⚠️  mistralai-mistral-7b-instruct (RAG): Low factuality rate (30.85%)
+   ✓  openai-gpt-5-1 (RAG): Good balance (Correct: 21.67%, Factuality: 53.33%)
+
+### 3. Accuracy vs Factuality Trade-off
+
+   The results reveal a trade-off between providing correct answers and avoiding hallucinations:
+
+   - deepseek-deepseek-v3-2-exp (DIRECT): Conservative approach - lower correct (7.67%) but lower hallucination (12.00%)
+   - deepseek-deepseek-v3-2-exp (RAG): Higher correct rate (20.33%) but also higher hallucination (27.67%)
+   - mistralai-mistral-7b-instruct (DIRECT): Higher correct rate (16.00%) but also higher hallucination (28.67%)
+   - mistralai-mistral-7b-instruct (RAG): Higher correct rate (22.71%) but also higher hallucination (34.58%)
+   - openai-gpt-5-1 (DIRECT): Conservative approach - lower correct (12.12%) but lower hallucination (7.41%)
+   - openai-gpt-5-1 (RAG): Higher correct rate (21.67%) but also higher hallucination (23.33%)

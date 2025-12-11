@@ -1,0 +1,12 @@
+{
+  "query_id": 277,
+  "query": "What is a “critical safety incident” under SB 53?",
+  "response": "Under California's Senate Bill 53 (SB 53), a \"critical safety incident\" is defined as an event involving a general-purpose AI system that results in, or poses a significant risk of, any of the following:\n\n1. **Serious physical harm or death** to individuals.\n2. **Significant economic harm** (e.g., financial losses exceeding $500,000 or 10% of a company's annual revenue, whichever is lower).\n3. **Severe reputational harm** (e.g., damage to a company's brand or public trust).\n4. **Disruption of critical infrastructure** (e.g., healthcare, energy, or transportation systems).\n5. **Violation of privacy or security** (e.g., unauthorized access to sensitive data).\n\nThe bill requires developers of general-purpose AI systems to report such incidents to the California Privacy Protection Agency (CPPA) within 72 hours of discovery. This reporting obligation aims to enhance transparency and accountability in AI development and deployment.\n\nFor more details, you can refer to the full text of SB 53 or the CPPA's guidelines on AI safety incident reporting.",
+  "ground_truth": "Model-weight theft causing harm, catastrophic-risk events, loss of control causing injury, or deceptive behavior increasing catastrophic risk.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:18:35.297192",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately reflect the definition of a 'critical safety incident' under SB 53, as it includes elements not found in the ground truth answer, such as economic and reputational harm, which are not specified in the provided ground truth.",
+  "provider": "deepseek"
+}

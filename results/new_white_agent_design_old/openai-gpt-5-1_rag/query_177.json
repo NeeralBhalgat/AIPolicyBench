@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "**Part 1:**  \nUse cases will help the NRC enable innovation, efficiency, and the management of potential rights and safety impacts.\n\n**Part 2:**  \nBy documenting and analyzing AI use cases, the NRC can better identify how AI tools can streamline its regulatory and oversight functions while still protecting the public and the environment. The use cases also make it easier to spot and address risks to rights and safety early, so appropriate safeguards can be built in. In addition, a structured inventory of use cases supports more transparent governance and more informed decisions about where and how AI should be adopted or limited.",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:08:13.516314",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the benefits of use cases for the NRC in terms of innovation, efficiency, and risk management, but it does not align with the ground truth answer, which emphasizes practical experience with AI for staff understanding and evaluation. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

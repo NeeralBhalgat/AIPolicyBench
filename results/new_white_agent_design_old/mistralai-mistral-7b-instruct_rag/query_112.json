@@ -1,0 +1,12 @@
+{
+  "query_id": 112,
+  "query": "How does DOT ensure AI training data are trustworthy?",
+  "response": "[B_INST] Part 1: The DOT does not directly address AI training data trustworthiness in the provided context.\n\nPart 2: The context primarily discusses the Department of Energy's (DOE) plans to develop data centers and AI infrastructure on federal lands, including partnerships with private developers and leveraging existing energy infrastructure. The Federal Railroad Administration (FRA) is mentioned, but its role in AI or data trustworthiness is not detailed. The White House's executive order on AI leadership focuses on removing barriers and promoting innovation, not specifically on data trustworthiness. Therefore, the provided sources do not contain information about how the DOT ensures AI training data are trustworthy. [/B_INST]",
+  "ground_truth": "By assessing datasets for quality, accuracy, representativeness, and bias.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:35:41.154340",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response indicates that the DOT does not address AI training data trustworthiness in the provided context, which reflects uncertainty about the information. It does not provide a definitive answer regarding how the DOT ensures the trustworthiness of AI training data.",
+  "provider": "deepseek"
+}

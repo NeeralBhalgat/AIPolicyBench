@@ -1,0 +1,12 @@
+{
+  "query_id": 282,
+  "query": "Does SB 361 require data brokers to report whether they shared or sold data to GenAI developers?",
+  "response": "Part 1: No, SB 361 requires data brokers to report whether they share or sell data to \"generative artificial intelligence companies,\" not specifically to \"GenAI developers.\"\n\nPart 2: The law uses the specific defined term \"generative artificial intelligence company.\" This term is legally defined within the statute and is the precise category to which the reporting requirement applies. The phrasing in the question, \"GenAI developers,\" is a more general descriptive term that does not match the exact legal language of the requirement. Therefore, the obligation is tied to the statutory definition, not to the broader concept of developers.",
+  "ground_truth": "Yes, data brokers must disclose if they shared or sold consumer data to GenAI system developers in the past year.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:21:48.357195",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that SB 361 does not require data brokers to report to GenAI developers, while the ground truth indicates that they must disclose such information. The distinction made between 'generative artificial intelligence companies' and 'GenAI developers' is not supported by the law as described in the ground truth.",
+  "provider": "deepseek"
+}

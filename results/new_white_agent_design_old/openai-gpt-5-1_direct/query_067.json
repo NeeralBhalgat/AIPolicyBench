@@ -1,0 +1,12 @@
+{
+  "query_id": 67,
+  "query": "What is DOE’s PolicyAI tool used for?",
+  "response": "DOE’s PolicyAI tool is an internal generative‑AI assistant used by the U.S. Department of Energy’s Office of Policy to support policy analysis and drafting.  \n\nIn practice, it is used to:  \n- Search, retrieve, and summarize large volumes of policy-relevant material (e.g., statutes, regulations, DOE reports, guidance documents).  \n- Help staff synthesize information across many sources for issues like clean energy deployment, grid reliability, and implementation of major legislation.  \n- Generate first drafts or alternative wordings of internal policy products—such as memos, briefing materials, talking points, and FAQs—subject to human review and editing.  \n\nIt is a productivity and research aid, not a system that makes or approves policy decisions on its own.",
+  "ground_truth": "It helps agencies search, summarize, and draft environmental policy documents like Environmental Impact Studies.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:46:42.605420",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response describes the DOE’s PolicyAI tool as a generative-AI assistant for policy analysis and drafting, which is not aligned with the ground truth that specifies its use for environmental policy documents like Environmental Impact Studies. While the White Agent's description includes relevant functions, it does not accurately reflect the specific focus of the tool as stated in the ground truth.",
+  "provider": "deepseek"
+}

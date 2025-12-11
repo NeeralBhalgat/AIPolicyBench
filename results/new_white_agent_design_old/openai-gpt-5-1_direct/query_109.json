@@ -1,0 +1,12 @@
+{
+  "query_id": 109,
+  "query": "What is the purpose of the AISCC?",
+  "response": "I’m not aware of any widely recognized AI policy or governance body that goes by the acronym **“AISCC”** as of my latest knowledge (through late 2024).\n\nThe closest major entity in the AI safety/governance space with a similar acronym is:\n\n### NIST’s AI Safety Institute Consortium (ASIC)\n\nIn the United States, the **National Institute of Standards and Technology (NIST)** created the:\n\n- **AI Safety Institute (AISI)** and  \n- **AI Safety Institute Consortium (ASIC)**\n\nunder the Biden Administration’s **Executive Order 14110 on Safe, Secure, and Trustworthy AI**.\n\n**Purpose of the AI Safety Institute Consortium (ASIC):**\n\n- Develop and advance the **science of AI safety** (especially for frontier and foundation models).\n- Create and refine **testing, evaluation, verification, and validation (TEVV)** methods for AI systems.\n- Support the development of **benchmarks, metrics, and standardized evaluation protocols** for:\n  - robustness\n  - systemic risks\n  - misuse potential\n  - model behavior under adversarial or high‑stakes conditions\n- Inform and help implement **technical standards** and **best practices** for safe and trustworthy AI.\n- Provide a structured way for **academia, industry, civil society, and government** to coordinate on AI safety research and evaluations.\n- Help operationalize the AI‑related parts of **EO 14110**, especially around:\n  - red‑teaming frontier models\n  - risk characterization\n  - transparency and reporting mechanisms.\n\nNIST’s ASIC includes a large set of members: major AI labs, universities, standards bodies, non-profits, and others collaborating to build the technical infrastructure for AI safety evaluations.\n\n---\n\n### If you truly meant “AISCC”\n\nIf **AISCC** is intended to refer to a *different* body (for example",
+  "ground_truth": "To educate employees, provide resources, and support AI collaboration across DOT.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:51:46.924090",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the AISCC and provides information about the AI Safety Institute Consortium (ASIC) instead. The ground truth specifies that the purpose of the AISCC is to educate employees, provide resources, and support AI collaboration across DOT, which is not addressed in the response.",
+  "provider": "deepseek"
+}

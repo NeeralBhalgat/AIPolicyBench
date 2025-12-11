@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "Every covered federal agency must designate a **Chief Artificial Intelligence Officer (Chief AI Officer or CAIO)**, and must do so **within 60 days of the issuance of OMB Memorandum M‑24‑10 (dated March 28, 2024)**—that is, **by approximately May 27, 2024**.",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:39:51.629066",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that every covered federal agency must designate a Chief AI Officer within 60 days of the issuance of OMB Memorandum M-24-10, and the date provided aligns with the timeline given in the question.",
+  "provider": "deepseek"
+}

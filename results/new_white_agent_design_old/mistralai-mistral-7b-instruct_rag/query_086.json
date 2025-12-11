@@ -1,0 +1,12 @@
+{
+  "query_id": 86,
+  "query": "What is the role of the DHS AI Governance Board?",
+  "response": "Part 1: The DHS AI Governance Board coordinates and governs issues related to the use of AI within DHS, including AI innovation and risk management.\n\nPart 2: The DHS AI Governance Board is a leadership body that oversees the implementation and management of AI within the Department of Homeland Security. It ensures coordination among DHS officials responsible for AI adoption and risk management, provides strategic direction for the Department's engagement with external stakeholders on AI use at DHS, and fulfills the requirement under OMB M-25-21 to have a governing board for AI issues. The Board includes representation from senior officials responsible for key aspects of AI adoption and risk management, such as information technology, cybersecurity, data, privacy, civil rights, and civil liberties.",
+  "ground_truth": "To coordinate, oversee, and govern AI use across DHS, removing barriers and managing risks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:59.030156",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the role of the DHS AI Governance Board in coordinating and governing AI use within the Department of Homeland Security, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

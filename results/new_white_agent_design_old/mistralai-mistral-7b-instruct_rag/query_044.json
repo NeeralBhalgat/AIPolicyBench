@@ -1,0 +1,12 @@
+{
+  "query_id": 44,
+  "query": "How does the framework define risk in the context of AI?",
+  "response": "Part 1: The framework defines risk in AI as \"associat[ed] with artificial intelligence (AI) technologies and systems that are trustworthy and responsible.\"\n\nPart 2: The AI Risk Management Framework (AI RMF) is designed to address risks to individuals, organizations, and society linked to AI, emphasizing trustworthiness and responsibility. It aims to improve the ability to incorporate these considerations into the design, development, use, and evaluation of AI products. The framework is intended for voluntary use and aligns with broader government efforts to promote safe, secure, and trustworthy AI development, as outlined in executive orders and related guidelines.",
+  "ground_truth": "Risk is a measure combining the probability of an event and the magnitude of its consequences.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:25:56.485584",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not accurately define risk as a measure combining probability and consequences, which is the ground truth. Instead, it provides a vague description of trustworthiness and responsibility in AI, which does not align with the specific definition of risk.",
+  "provider": "deepseek"
+}

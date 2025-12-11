@@ -1,0 +1,12 @@
+{
+  "query_id": 162,
+  "query": "What does the NRC identify as the main driver for creating the AI Strategic Plan?",
+  "response": "The National Research Council (NRC) identifies the main driver for creating the AI Strategic Plan as the need to address the rapid advancements and transformative potential of artificial intelligence (AI) across various sectors. The plan aims to ensure that AI development and deployment are aligned with societal values, ethical considerations, and national priorities. Key drivers include:\n\n1. **Technological Advancements**: The rapid pace of AI innovation and its potential to disrupt industries, economies, and societies.\n2. **Ethical and Safety Concerns**: Ensuring that AI is developed and used responsibly, addressing issues like bias, privacy, and accountability.\n3. **Economic and Competitive Advantage**: Positioning the country as a leader in AI to drive economic growth and innovation.\n4. **National Security and Public Safety**: Mitigating risks associated with AI, such as misuse or unintended consequences.\n5. **Public Trust and Governance**: Establishing frameworks to foster public trust and ensure that AI benefits are equitably distributed.\n\nThe NRC's AI Strategic Plan is designed to provide a coordinated approach to these challenges, fostering collaboration among stakeholders, including government, industry, academia, and civil society.",
+  "ground_truth": "The growing interest and expected near-term deployment of AI by the nuclear industry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:12:08.815174",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the main driver for creating the AI Strategic Plan as related to broad societal and technological factors, while the ground truth specifies that the main driver is the growing interest and expected near-term deployment of AI by the nuclear industry.",
+  "provider": "deepseek"
+}

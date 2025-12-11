@@ -1,0 +1,12 @@
+{
+  "query_id": 14,
+  "query": "What leadership role must every agency designate, and by when?",
+  "response": "The head of each agency shall designate a Chief Information Officer (CIO) who shall report directly to such agency head.",
+  "ground_truth": "A Chief AI Officer within 60 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:34:08.057758",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that a Chief Information Officer (CIO) must be designated, whereas the ground truth specifies a Chief AI Officer must be designated within 60 days. This is a factual error.",
+  "provider": "deepseek"
+}

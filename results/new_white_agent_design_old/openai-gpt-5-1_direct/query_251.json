@@ -1,0 +1,12 @@
+{
+  "query_id": 251,
+  "query": "What must a real estate broker include when using a digitally altered image in advertising?",
+  "response": "The broker must clearly disclose that the image has been digitally altered.\n\nIn practice, this means including a conspicuous notice in or immediately adjacent to the image (e.g., “Image digitally enhanced,” “Virtually staged,” or “Artist’s rendering – not an actual photo”) so that a reasonable consumer is not misled about the property’s actual condition or features. Specific wording can vary by jurisdiction, but the core requirement is clear, non-misleading disclosure that the image is not an unedited representation of reality.",
+  "ground_truth": "A conspicuous statement disclosing the image has been altered and a link to the original unaltered image.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:05:49.814700",
+  "confidence": 0.85,
+  "reasoning": "While the White Agent's response correctly identifies the need for disclosure of digitally altered images, it does not include the requirement for a link to the original unaltered image, which is part of the ground truth answer.",
+  "provider": "deepseek"
+}

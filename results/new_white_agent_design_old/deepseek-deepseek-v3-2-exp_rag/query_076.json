@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "Part 1: According to the Plan, opportunities for AI to improve people’s lives include improving quality of life, ushering in a new golden age of human flourishing, and improving planning for climate resilience and clean energy.\n\nPart 2: The documents frame AI's potential to broadly enhance human flourishing and economic competitiveness. More specifically, AI is seen as a tool to positively augment human work and help people safely enjoy technological gains. It is also identified as having potential applications for improving planning to strengthen resilience against climate change impacts and build an equitable clean energy economy.",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:36:36.103365",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response includes some relevant themes such as improving quality of life and climate resilience, but it does not accurately reflect the specific opportunities listed in the ground truth answer, which includes accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "provider": "deepseek"
+}

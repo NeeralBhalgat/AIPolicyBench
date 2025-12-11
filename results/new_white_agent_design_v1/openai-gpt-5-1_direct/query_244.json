@@ -1,0 +1,10 @@
+{
+  "query_id": 244,
+  "query": "What notification must be issued if a reasonable person would believe a companion chatbot is human?",
+  "response": "",
+  "ground_truth": "A clear and conspicuous notification stating the chatbot is artificially generated and not human.",
+  "evaluation_result": "timeout",
+  "evaluation_method": "auto-detect",
+  "timestamp": "2025-12-10T16:48:02.537602",
+  "reason": "White agent response timed out or was empty"
+}

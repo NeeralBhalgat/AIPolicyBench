@@ -1,0 +1,12 @@
+{
+  "query_id": 141,
+  "query": "What internal group defines topics for NASA’s AI governance board?",
+  "response": "Based on my knowledge, the topics and overall agenda for NASA's AI governance are primarily driven by an internal group called the **AI Governance Committee**.\n\nHere's a breakdown of its role and composition, based on publicly available information:\n\n*   **Primary Function:** The AI Governance Committee is the central internal body responsible for developing, recommending, and overseeing the implementation of NASA's AI strategies, policies, and standards. This includes defining the specific topics and priorities for the agency's broader AI governance efforts.\n*   **Composition:** The committee is comprised of senior leadership from across the agency to ensure comprehensive oversight. Key members typically include:\n    *   **Associate Administrators** from various Mission Directorates (e.g., Space Operations, Science, Aeronautics).\n    *   **Chief Information Officer (CIO).**\n    *   **Chief Technologist.**\n    *   **Chief Scientist.**\n    *   **Chief Engineer.**\n    *   **General Counsel.**\n    *   **Other senior officials** from offices like Safety and Mission Assurance, and Procurement.\n\n**Relationship to the AI Governance Board:**\n\nIt's important to distinguish this internal committee from the **Responsible AI Innovation (RAI) Council**, which was announced in 2024 and serves as NASA's primary external advisory board on AI. The internal AI Governance Committee is the entity that would define the topics and challenges that the external RAI Council then advises on. The committee is responsible for turning the council's high-level recommendations into concrete NASA policy and practice.\n\nIn summary, the **internal AI Governance Committee** is the definitive group that sets the agenda and defines the topics for NASA's AI governance framework.",
+  "ground_truth": "The AISWG forms discussion topics for the AISB.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:52:36.366782",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly identifies the internal group as the AI Governance Committee, while the ground truth states that the AISWG forms discussion topics for the AISB. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

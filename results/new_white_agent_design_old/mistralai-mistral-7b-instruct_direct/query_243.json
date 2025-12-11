@@ -1,0 +1,12 @@
+{
+  "query_id": 243,
+  "query": "Name one type of system explicitly excluded from the definition of “companion chatbot.”",
+  "response": "A system explicitly excluded from the definition of a \"companion chatbot\" would typically be a therapeutic or mental health chatbot. While a companion chatbot is designed to provide companionship and engage in casual conversation, a therapeutic chatbot is intended to provide mental health support and guidance, which involves a more structured and professional approach. Therapeutic chatbots often require specialized training and adherence to ethical and legal guidelines for patient-provider communication, which distinguishes them from companion chatbots.",
+  "ground_truth": "A bot used only for customer service.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:56.205056",
+  "confidence": 0.85,
+  "reasoning": "The White Agent incorrectly identifies therapeutic chatbots as being excluded from the definition of a companion chatbot, while the ground truth specifies that customer service bots are the ones explicitly excluded.",
+  "provider": "deepseek"
+}

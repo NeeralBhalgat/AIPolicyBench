@@ -1,0 +1,12 @@
+{
+  "query_id": 104,
+  "query": "What does the SR2 Committee do?",
+  "response": "Part 1: The SR2 Committee examines the abuse of the Equal Access to Justice Act by environmental NGOs.\n\nPart 2: The context indicates that the Committee on Natural Resources, specifically its Subcommittee on Oversight and Investigations, held an oversight hearing titled \"Abuse of the Equal Access to Justice Act by Environmental NGOs.\" This suggests that the SR2 Committee focuses on investigating potential misuse of legal provisions by environmental groups. The hearing implies a critical review of how these organizations might be exploiting the Equal Access to Justice Act, which is designed to ensure access to legal representation for those who cannot afford it. The committee's work likely involves assessing the impact of such abuses on government operations and public resources.",
+  "ground_truth": "Reviews safety-impacting and rights-impacting AI use cases before deployment.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:34:51.297523",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly describes the SR2 Committee's focus, which is on AI safety and rights-impacting use cases, rather than on the Equal Access to Justice Act and environmental NGOs.",
+  "provider": "deepseek"
+}

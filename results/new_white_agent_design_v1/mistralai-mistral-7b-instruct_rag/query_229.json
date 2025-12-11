@@ -1,0 +1,12 @@
+{
+  "query_id": 229,
+  "query": "What characteristic of AI systems is explicitly noted in the definition in §1714.46(a)?",
+  "response": "The definition in §1714.46(a) explicitly notes that AI systems can \"infer from the input it receives how to generate outputs that can influence physical or virtual environments.\" [Source 2]",
+  "ground_truth": "AI systems vary in their level of autonomy.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:40.971361",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that AI systems can infer from input to generate outputs, which does not align with the ground truth that AI systems vary in their level of autonomy. The response misrepresents the definition in §1714.46(a).",
+  "provider": "deepseek"
+}

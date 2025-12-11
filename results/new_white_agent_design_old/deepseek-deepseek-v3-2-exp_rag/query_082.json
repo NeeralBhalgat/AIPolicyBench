@@ -1,0 +1,12 @@
+{
+  "query_id": 82,
+  "query": "Who leads and coordinates AI use across DHS?",
+  "response": "Part 1: The Department of Homeland Security (DHS) leads and coordinates AI use across its components through its DHS Artificial Intelligence Strategy and policies like the DHS Policy Statement 139-06.\n\nPart 2: The DHS Artificial Intelligence Strategy, established in December 2020, sets the direction for integrating AI into the Department's activities. This strategic oversight is reinforced by internal policy statements, such as the August 2023 Policy Statement 139-06, which governs the acquisition and use of AI by all DHS components. These documents collectively establish the framework for DHS to lead its AI efforts responsibly and consistently.",
+  "ground_truth": "The DHS Chief Artificial Intelligence Officer (CAIO).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:38:14.722593",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention the DHS Chief Artificial Intelligence Officer (CAIO), who is the actual leader and coordinator of AI use across DHS. Instead, it focuses on the DHS Artificial Intelligence Strategy and policy statements, which do not directly answer the question about leadership.",
+  "provider": "deepseek"
+}

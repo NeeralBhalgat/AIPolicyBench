@@ -1,0 +1,12 @@
+{
+  "query_id": 24,
+  "query": "What legal definition of AI does the order adopt?",
+  "response": "The order you're referring to isn't specified in the question. However, I can provide some context about legal definitions of AI in general.\n\nIn the European Union, the Artificial Intelligence Act (proposal for a regulation) defines AI as software that is developed with machine learning, rule-based systems, or any other technology able to automatically process data and mimic decisions or activities that would require human intelligence.\n\nIn the United States, there isn't a federal law that defines AI. However, the National Institute of Standards and Technology (NIST) has published a draft of a voluntary consensus standard for AI, which defines AI as a system designed to perform tasks that would normally require human intelligence, such as visual perception, speech recognition, decision-making, and language translation.\n\nIn both cases, it's important to note that these definitions are not exhaustive and the field of AI is rapidly evolving, so definitions may change over time. Additionally, different countries and organizations may have their own definitions of AI.",
+  "ground_truth": "The definition in 15 U.S.C. 9401(3).",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:03:36.392444",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response does not provide the specific legal definition of AI as stated in 15 U.S.C. 9401(3) and instead discusses general definitions from the EU and NIST, indicating uncertainty about the specific order referenced.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 269,
+  "query": "What is the civil penalty for violating this chapter?",
+  "response": "The civil penalty for violating the chapter on AI policy, safety, and regulation can vary depending on the specific jurisdiction and the nature of the violation. For example, in the U.S., the Federal Trade Commission (FTC) can impose civil penalties for violations of AI-related regulations, such as those under the FTC Act, which can include fines of up to $50,120 per violation per day. However, the exact penalty would depend on the specific law or regulation that was violated and the circumstances of the case.\n\nIf you are referring to a specific chapter or law, please provide more details so I can give a more precise answer.",
+  "ground_truth": "$5,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:17:41.129998",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides an incorrect civil penalty amount for violating the chapter on AI policy, safety, and regulation. The ground truth states the penalty is $5,000 per violation, while the White Agent mentions fines of up to $50,120, which is not accurate in this context.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan acknowledges the benefits of \"open-weight\" AI models, which allow developers to build upon and adapt previous work, broadening AI tools' availability to small companies. [Source 1]",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:03:37.714278",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the positive stance on open-weight models, highlighting their benefits for innovation and accessibility, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

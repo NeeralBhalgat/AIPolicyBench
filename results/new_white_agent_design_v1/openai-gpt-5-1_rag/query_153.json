@@ -1,0 +1,12 @@
+{
+  "query_id": 153,
+  "query": "When will NASA publish its AI Strategy?",
+  "response": "Based on the official NASA PDF URL (`.../2025/11/nasa-ai-strategy-official.pdf`), NASA’s Artificial Intelligence Strategy is published in **November 2025**.",
+  "ground_truth": "By March 2025.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:21:15.929050",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response states that NASA's AI Strategy was published in November 2025, which contradicts the ground truth that it was published by March 2025.",
+  "provider": "deepseek"
+}

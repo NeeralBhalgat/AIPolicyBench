@@ -1,0 +1,12 @@
+{
+  "query_id": 66,
+  "query": "How is DOE addressing AI talent development?",
+  "response": "Error: Query processing exceeded 95.0s timeout",
+  "ground_truth": "Through workforce training, partnerships, and hiring initiatives, including a pilot with NSF to train 500 researchers by 2025.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:30:47.496969",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates a processing error and does not provide any information regarding how DOE is addressing AI talent development, which reflects uncertainty.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "Based on my knowledge of U.S. federal policy, the deadline for CFO Act agencies to publish their AI Strategies was midnight on May 27, 2025.\n\nThis requirement stems from **Section 10(a) of Executive Order 14110 (Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence)**, issued on October 30, 2023.\n\n**Specifics:**\n\n*   **Who:** The requirement applies to all agencies designated under the Chief Financial Officers (CFO) Act. This includes major federal agencies such as the Departments of Defense, State, Health and Human Services, Veterans Affairs, and others, totaling 24 agencies.\n*   **What:** The EO mandates that these agencies develop and make public an AI strategy that outlines their plans for:\n    *   Appropriate and lawful use of AI.\n    *   Managing risks from AI use.\n    *   Advancing AI innovation.\n    *   Expanding the workforce capable of developing, implementing, and overseeing AI.\n*   **When:** The explicit deadline stated in the EO is **\"no later than 180 days after the date of this order.\"** Since the order was signed on October 30, 2023, the 180-day deadline fell on **May 27, 2024**.\n*   **Correction:** I must correct my initial statement. The correct year is **2024**, not 2025. Thank you for the opportunity to clarify.\n\nTherefore, the AI Strategies from these federal agencies should have been made public by the end of May 27, 2024.\n\n**Note**: It is important to check the official websites of the respective agencies or the Office of Management and Budget (OMB) for the actual published strategies and any potential updates or guidance that may have adjusted these deadlines after the EO's issuance.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:27:47.398515",
+  "confidence": 0.9,
+  "reasoning": "The White Agent initially stated the deadline as May 27, 2025, which is incorrect. The correct deadline, based on the Executive Order issued on October 30, 2023, is May 27, 2024, as it is 180 days after the order's issuance. Although the White Agent corrected the year, the initial incorrect date constitutes a factual error.",
+  "provider": "deepseek"
+}

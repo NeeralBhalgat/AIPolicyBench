@@ -1,0 +1,12 @@
+{
+  "query_id": 185,
+  "query": "Who does the directive apply to?",
+  "response": "Part 1:  \nThe directive applies to each “agency”—meaning any entity covered by 44 U.S.C. 3502 other than the Executive Office of the President and its components—acting through its agency head and DOGE Team Lead.\n\nPart 2:  \nIn the order, “agency” is explicitly defined by reference to 44 U.S.C. 3502 and then limited by excluding the Executive Office of the President and its components. The obligations and procedures set out in the directive are therefore aimed at the departments, commissions, and other executive-branch entities that fall within this statutory definition. Within each such agency, the highest-ranking official (the “agency head”) and the designated “DOGE Team Lead” are the primary points of responsibility for carrying out the directive. As a result, the directive governs how these covered agencies and their leadership implement enforcement, regulatory, and governance requirements described in the order.",
+  "ground_truth": "All GSA employees, contractors, IT systems, and any GSA or federal data processed by those systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:10:27.032566",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the entities to which the directive applies, focusing on agency heads and the DOGE Team Lead, while the ground truth specifies that it applies to all GSA employees, contractors, and IT systems, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

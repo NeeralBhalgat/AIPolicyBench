@@ -1,0 +1,12 @@
+{
+  "query_id": 213,
+  "query": "What is the purpose of the California AI Cybersecurity Collaboration Playbook as stated in AB 979?",
+  "response": "The California AI Cybersecurity Collaboration Playbook, as outlined in AB 979, aims to establish guidelines and best practices for enhancing cybersecurity in AI systems, fostering collaboration between government, industry, and academia to mitigate risks and ensure the safe deployment of AI technologies.",
+  "ground_truth": "To facilitate information sharing across the cyber and AI communities and strengthen cyber defenses against emerging threats.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:13.100518",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response misrepresents the primary purpose of the California AI Cybersecurity Collaboration Playbook as stated in AB 979. While it mentions enhancing cybersecurity and collaboration, it does not accurately reflect the focus on facilitating information sharing and strengthening cyber defenses against emerging threats.",
+  "provider": "deepseek"
+}

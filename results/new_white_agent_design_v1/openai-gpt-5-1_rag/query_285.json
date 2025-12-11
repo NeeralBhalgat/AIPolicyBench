@@ -1,0 +1,12 @@
+{
+  "query_id": 285,
+  "query": "What penalties apply if a data broker fails to register?",
+  "response": "CCPA violations for failing to register as a data broker are subject to penalties of **$2,663 for each violation** and **$7,988 for each intentional violation**.",
+  "ground_truth": "$200 per day in fines plus owed fees and investigative costs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:34:08.995881",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response provides incorrect penalty amounts for failing to register as a data broker under the CCPA, which are actually $200 per day in fines plus owed fees and investigative costs.",
+  "provider": "deepseek"
+}

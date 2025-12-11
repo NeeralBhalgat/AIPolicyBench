@@ -1,0 +1,12 @@
+{
+  "query_id": 206,
+  "query": "Under §11009(b), when is an employer liable for discriminatory actions?",
+  "response": "Part 1:  \nUnder §11009(b), an employer or other covered entity “shall be liable for the discriminatory actions of its supervisors, managers or agents committed within the scope of their employment or relationship with the covered entity or, as defined in section 11019(b), for the discriminatory actions of its employees where it is demonstrated that, as a result of any such discriminatory action, the applicant or employee has suffered a loss of or has been denied an employment benefit.”\n\nPart 2:  \nThis provision applies the doctrine of respondeat superior, making employers automatically responsible when supervisors, managers, or agents discriminate while acting within the scope of their job or agency relationship. For non‑supervisory employees, the employer is liable when the discriminatory conduct causes the applicant or employee to lose or be denied some employment benefit. Thus, liability attaches both to higher‑level decision‑makers and, under specified conditions, to rank‑and‑file employees. The focus is on whether the discriminatory act is tied to the employment relationship and whether it results in a concrete employment harm in the case of employees.",
+  "ground_truth": "When discriminatory actions occur within the scope of employment or the agent’s relationship with the employer.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:14:54.769279",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the liability of employers under §11009(b) for discriminatory actions, aligning with the ground truth that such actions must occur within the scope of employment or the agent's relationship with the employer.",
+  "provider": "deepseek"
+}

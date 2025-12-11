@@ -1,0 +1,12 @@
+{
+  "query_id": 125,
+  "query": "What is required before beginning operational use of an AI use case?",
+  "response": "**Part 1:**  \nBefore beginning operational use of an AI use case, we must have identified the key cybersecurity risks associated with deploying AI for our intended use case and have in place continuous monitoring, assessment, and incident response protocols to manage AI‑related security risks and AI‑specific security incidents.\n\n**Part 2:**  \nBecause AI introduces new risks to the safety and security of the environments and critical functions it supports, those risks must be explicitly analyzed and understood prior to deployment. This includes determining how the AI system could be attacked, misused, or fail, and how such events would impact operations, safety, and rights. Agencies are expected to prepare and document procedures to detect, respond to, and recover from AI-specific security incidents, not just traditional cyber incidents. They must also establish an ongoing monitoring and reassessment plan so that risks are continually tracked and mitigated once the AI system is in operational use.",
+  "ground_truth": "Completed Model Card and Datasheet artifacts.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:53:17.478427",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response focuses on cybersecurity risks and incident response protocols, which are important but do not address the requirement of having completed Model Card and Datasheet artifacts before operational use of an AI use case, as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

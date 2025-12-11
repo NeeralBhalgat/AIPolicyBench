@@ -1,0 +1,12 @@
+{
+  "query_id": 223,
+  "query": "Which parties are subject to the prohibition on asserting an AI-autonomy defense under AB 316?",
+  "response": "The prohibition on asserting an AI-autonomy defense under AB 316 applies to \"any person, firm, corporation, association, or other entity\" that develops, deploys, or uses AI systems in California.",
+  "ground_truth": "Defendants who developed, modified, or used artificial intelligence alleged to have caused harm.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:21.304868",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly broadens the scope of parties subject to the prohibition by including 'any person, firm, corporation, association, or other entity' without specifying that it applies specifically to defendants who developed, modified, or used AI that allegedly caused harm, which is the accurate definition.",
+  "provider": "deepseek"
+}

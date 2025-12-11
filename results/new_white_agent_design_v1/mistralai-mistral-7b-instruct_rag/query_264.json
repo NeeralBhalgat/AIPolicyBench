@@ -1,0 +1,12 @@
+{
+  "query_id": 264,
+  "query": "What are users allowed to do with system provenance data under AB 853?",
+  "response": "Users are allowed to use system provenance data that is not reasonably capable of being associated with a particular user, as defined in the bill text. [REF]Source 1[/REF]",
+  "ground_truth": "Inspect all available system provenance data via UI, download, or linked site.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:22:09.935452",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly limits the use of system provenance data to only that which cannot be associated with a particular user, whereas the ground truth states that users can inspect all available system provenance data, which includes broader permissions than indicated.",
+  "provider": "deepseek"
+}

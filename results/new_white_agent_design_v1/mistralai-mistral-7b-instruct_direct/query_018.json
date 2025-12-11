@@ -1,0 +1,12 @@
+{
+  "query_id": 18,
+  "query": "How does the memo define “high-impact AI”?",
+  "response": "The memo defines \"high-impact AI\" as AI systems that have the potential to significantly impact society, the economy, or national security, including those that could pose risks to public safety, civil rights, or democratic institutions.",
+  "ground_truth": "AI whose output is a principal basis for decisions or actions with legal, material, binding, or significant effect on rights, safety, services, etc.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:25:39.543069",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response captures some aspects of the definition of 'high-impact AI' but does not accurately reflect the specific criteria outlined in the ground truth answer, particularly regarding the legal and binding nature of the decisions made by such AI systems.",
+  "provider": "deepseek"
+}

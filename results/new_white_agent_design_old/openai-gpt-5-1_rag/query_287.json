@@ -1,0 +1,12 @@
+{
+  "query_id": 287,
+  "query": "When must data brokers access the deletion mechanism, and how often must they delete data after a consumer request?",
+  "response": "Part 1:  \nBeginning January 1, 2026, registered data brokers must access the Agency’s accessible deletion mechanism (the Delete Request and Opt‑out Platform, or “DROP”) at least once every 45 days and, on that same recurring 45‑day schedule, delete all non‑exempt personal information they hold about any consumer who has submitted a deletion request through the mechanism.\n\nPart 2:  \nThe Delete Act directs the California Privacy Protection Agency to operate a single “accessible deletion mechanism” that lets consumers send one deletion request to all registered data brokers. Once this system is live, data brokers are obligated to regularly log into the DROP system—no less often than every 45 days—to retrieve new consumer deletion requests. For each such request, they must delete all non‑exempt personal information they have about that consumer and continue deleting any newly collected personal information for that consumer on at least a 45‑day cycle. This creates an ongoing, periodic deletion duty rather than a one‑time cleanup.",
+  "ground_truth": "At least every 45 days, and they must delete all personal information every 45 days after an initial deletion request.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:34:40.725596",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirements set forth by the Delete Act regarding the frequency of accessing the deletion mechanism and the obligation to delete personal information every 45 days after a consumer request.",
+  "provider": "deepseek"
+}

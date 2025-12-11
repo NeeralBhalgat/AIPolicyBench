@@ -1,0 +1,12 @@
+{
+  "query_id": 210,
+  "query": "Under §11017.1(a), when are employers prohibited from inquiring into criminal history?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "Before a conditional offer is made, except in limited exemptions.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:03:23.996342",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about when employers are prohibited from inquiring into criminal history.",
+  "provider": "deepseek"
+}

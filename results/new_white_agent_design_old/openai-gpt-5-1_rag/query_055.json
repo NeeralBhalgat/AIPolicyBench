@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "**Part 1:**  \nThe DoD plans to treat data as a strategic asset in order to improve data sharing and quality.\n\n**Part 2:**  \nBy treating data as a strategic asset, the department commits to managing data deliberately across its lifecycle so it can be more easily shared, reused, and trusted. This involves standardizing how data is produced and documented so that it is visible, understandable, and usable by different parts of the organization. Better-controlled, well-described data improves quality because errors, gaps, and inconsistencies are easier to detect and correct. In turn, higher-quality shared data supports more effective operations, oversight, and decision-making across the defense enterprise.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:37:43.456265",
+  "confidence": 0.8,
+  "reasoning": "While the White Agent's response discusses treating data as a strategic asset and emphasizes the importance of data management, it does not align with the ground truth answer, which specifies that data should be treated as a product managed by decentralized teams. The response lacks the specific detail about accountability and decentralization, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

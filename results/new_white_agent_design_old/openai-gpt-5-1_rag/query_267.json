@@ -1,0 +1,12 @@
+{
+  "query_id": 267,
+  "query": "What must capture device manufacturers provide starting January 1, 2028?",
+  "response": "Part 1:  \nThe provided FDA regulatory materials do not state any specific new requirement that capture device manufacturers must provide starting January 1, 2028.\n\nPart 2:  \nThe referenced texts describe existing obligations such as Medical Device Reporting (MDR), postmarket surveillance, device tracking, registration and listing, and 510(k) premarket notification, but they do not mention a date of January 1, 2028 or a special category called “capture device manufacturers.” The requirements discussed (e.g., submitting MDRs, maintaining device tracking systems, listing devices, and reporting deaths, serious injuries, and malfunctions) are longstanding and already in effect. Because no 2028-effective provision is described in the supplied context, no additional, date-specific obligation can be identified for capture device manufacturers from these materials alone. If there is a separate rule or guidance involving capture devices and a 2028 deadline, it is not included in the excerpts provided.",
+  "ground_truth": "An option for users to embed latent disclosures, and embedded disclosures must be default.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:30:04.128086",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there are no new requirements for capture device manufacturers starting January 1, 2028, while the ground truth specifies that there is indeed a requirement for users to embed latent disclosures, which must be default. This indicates a factual inaccuracy in the White Agent's response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 52,
+  "query": "What does the strategy mean by “decision advantage”?",
+  "response": "Part 1: The strategy means \"decision advantage\" is the ability to deploy a full spectrum of information for superior decision-making.\n\nPart 2: The strategy is designed to provide a comprehensive information edge over adversaries. This involves making the full range of available data operational for leaders. The goal is to ensure decisions are better informed and more timely than those of competitors. Ultimately, this advantage contributes directly to maintaining national security and achieving strategic objectives.",
+  "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:31:45.927771",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes 'decision advantage' as the ability to utilize a full spectrum of information for superior decision-making, aligning with the ground truth that emphasizes making faster, better, and more informed decisions. The focus on maintaining national security and achieving strategic objectives further supports the correctness of the response.",
+  "provider": "deepseek"
+}

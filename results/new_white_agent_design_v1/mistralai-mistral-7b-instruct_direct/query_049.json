@@ -1,0 +1,12 @@
+{
+  "query_id": 49,
+  "query": "How does the Manage function contribute to AI risk management?",
+  "response": "The Manage function in AI risk management refers to the processes and strategies used to oversee and control AI systems to ensure they operate safely and ethically. This includes monitoring AI performance, updating AI models, and implementing safeguards to prevent misuse or unintended consequences.",
+  "ground_truth": "It allocates resources and plans responses to identified risks, focusing on continuous monitoring and improvement.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:26:17.368284",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a general overview of the Manage function but does not specifically address the allocation of resources and planning responses to identified risks, which are key aspects of the ground truth answer.",
+  "provider": "deepseek"
+}

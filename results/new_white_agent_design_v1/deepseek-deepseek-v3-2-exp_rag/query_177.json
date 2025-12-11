@@ -1,0 +1,12 @@
+{
+  "query_id": 177,
+  "query": "What will use cases help the NRC achieve?",
+  "response": "Use cases will help the NRC \"build an AI foundation across the NRC.\"",
+  "ground_truth": "Practical experience with AI so staff can understand, test, and evaluate real AI systems.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:47:54.151815",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the ground truth answer, which emphasizes practical experience and understanding of AI systems, rather than just building a foundation.",
+  "provider": "deepseek"
+}

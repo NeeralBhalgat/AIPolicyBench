@@ -1,0 +1,12 @@
+{
+  "query_id": 19,
+  "query": "What minimum risk practice deadline applies to high-impact AI, and what if AI is non-compliant?",
+  "response": "Part 1: Minimum risk management practices must be implemented for high-impact AI by the deadline specified in M‑25‑21, and if that deadline cannot be met or the AI is otherwise non-compliant, agencies must stop or terminate any applicable high-impact AI tool until it complies.\n\nPart 2: Agencies are required to document and validate these minimum risk management practices and align them with existing IT, security, privacy, and governance controls, with augmented procedures for high-impact AI. They must also establish controls to prevent non-compliant high-impact AI from being deployed, including review by AI governance or safety teams and ongoing monitoring. Where AI systems still fail to meet the minimum requirements by the deadline or fall out of compliance, the agency’s process requires cessation or termination of the AI system’s use. Some agencies may allow tightly governed waivers, but those can be revoked if any noncompliance or unforeseen risks emerge.",
+  "ground_truth": "Implement minimum practices within 365 days; discontinue use if not compliant.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:27:52.997974",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the requirement to implement minimum risk management practices for high-impact AI within 365 days and correctly states that non-compliance necessitates cessation or termination of the AI system's use, aligning with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 88,
+  "query": "How does DHS ensure transparency and accountability in its AI use?",
+  "response": "DHS promotes transparency and accountability in its AI use by publishing public-facing documents such as AI use-case inventories and Privacy Impact Assessments, and by subjecting AI systems to oversight and review from entities like the DHS Privacy Office and the Office for Civil Rights and Civil Liberties. These processes are intended to document how AI is used, assess risks (including to privacy and civil rights), and establish clear lines of responsibility for AI-enabled decisions.",
+  "ground_truth": "By making AI use explainable, auditable, and publicly disclosed in plain language whenever possible.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:39:49.837779",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes the measures DHS takes to ensure transparency and accountability in its AI use, including the publication of documents and oversight by relevant offices, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

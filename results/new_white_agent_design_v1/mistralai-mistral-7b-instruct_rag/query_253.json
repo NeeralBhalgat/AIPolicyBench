@@ -1,0 +1,12 @@
+{
+  "query_id": 253,
+  "query": "What additional requirement applies if the advertisement is posted on a website controlled by the broker?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "The unaltered version of the images must also be included in the posting or via a link.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:21:40.483643",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response indicates uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'. The ground truth answer is not addressed.",
+  "provider": "deepseek"
+}

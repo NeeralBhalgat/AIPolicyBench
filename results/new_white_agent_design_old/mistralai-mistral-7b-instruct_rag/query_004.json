@@ -1,0 +1,12 @@
+{
+  "query_id": 4,
+  "query": "How will procurement address ideological bias in AI?",
+  "response": "Part 1: Procurement will address ideological bias in AI by ensuring models are neutral, nonpartisan tools that do not manipulate responses in favor of ideological dogmas such as DEI.\n\nPart 2: The Federal Government will issue guidance to agencies within 120 days to implement these principles, accounting for technical limitations and requiring transparency about ideological judgments. This includes preventing AI models from distorting factual information, manipulating representation, or incorporating concepts like critical race theory or systemic racism. The goal is to prioritize truthfulness and accuracy over ideological agendas, as seen in cases where AI models altered historical figures or refused to comply with neutral requests.",
+  "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:20:11.735132",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response inaccurately describes the approach to addressing ideological bias in AI by focusing on neutrality and nonpartisanship, which does not align with the ground truth that emphasizes contracting only with developers whose systems are objective and free from ideological bias. Additionally, the mention of specific ideological concepts like DEI and critical race theory suggests a misunderstanding of the procurement guidelines.",
+  "provider": "deepseek"
+}

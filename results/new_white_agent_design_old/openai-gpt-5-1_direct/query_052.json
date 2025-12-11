@@ -1,0 +1,12 @@
+{
+  "query_id": 52,
+  "query": "What does the strategy mean by “decision advantage”?",
+  "response": "In the context of most national and defense AI strategies, “decision advantage” means:\n\n- **Being able to make better decisions, faster, than competitors or adversaries, at every relevant level (strategic, operational, tactical).**\n- Doing this by turning data and analysis into **actionable, trusted recommendations** that improve the **quality, speed, and coordination** of human decision‑making.\n\nMore concretely, “decision advantage” usually implies:\n\n1. **Speed:**  \n   Getting from sensing/collection → analysis → decision → action faster than others (e.g., faster operational planning, faster intelligence assessments).\n\n2. **Quality and accuracy:**  \n   Decisions are better informed (more complete, less noisy, fewer errors) because AI tools help integrate and interpret large, complex data streams.\n\n3. **Scale and breadth:**  \n   Being able to consider more options, more scenarios, and more data sources than humans alone could process, without overwhelming decision‑makers.\n\n4. **Resilience and consistency:**  \n   Maintaining good decision‑making even under stress, time pressure, or degraded conditions, because tools support situational awareness and option evaluation.\n\n5.",
+  "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:44:40.339767",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes 'decision advantage' in the context of national and defense AI strategies, aligning well with the ground truth definition of making faster, better, and more informed decisions. The details provided about speed, quality, scale, and resilience further support the concept without introducing inaccuracies.",
+  "provider": "deepseek"
+}

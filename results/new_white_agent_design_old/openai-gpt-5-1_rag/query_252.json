@@ -1,0 +1,12 @@
+{
+  "query_id": 252,
+  "query": "Where must the disclosure statement be located relative to the digitally altered image?",
+  "response": "**Part 1:**  \nThe disclosure statement must appear clearly and conspicuously on or immediately adjacent to the digitally altered image so that viewers see it at the same time as the image.\n\n**Part 2:**  \nThe rule requires that any disclosure indicating an image has been digitally altered be placed in direct proximity to that image, not elsewhere in a document, post, or page. This placement ensures that viewers can readily understand, in context, that the specific image they are looking at has been modified. The disclosure cannot be hidden in footnotes, separate links, or distant text blocks where it might be overlooked. Instead, it must be visually associated with the altered image itself to effectively inform the audience.",
+  "ground_truth": "On or adjacent to the image.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:26:15.006663",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately states that the disclosure statement must be located on or immediately adjacent to the digitally altered image, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

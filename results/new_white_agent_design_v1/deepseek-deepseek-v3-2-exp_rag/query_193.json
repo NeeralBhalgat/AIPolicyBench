@@ -1,0 +1,12 @@
+{
+  "query_id": 193,
+  "query": "What must public-facing AI systems include?",
+  "response": "Based on the provided sources, public-facing AI systems used by the federal government must include governance charters that provide transparency and accountability information, such as details on testing, validation, and responsible officials.",
+  "ground_truth": "Plain-language notices and human alternatives where practicable.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:49:16.923152",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly emphasizes governance charters and accountability information, which does not align with the ground truth answer that specifies the need for plain-language notices and human alternatives in public-facing AI systems.",
+  "provider": "deepseek"
+}

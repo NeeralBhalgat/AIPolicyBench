@@ -1,0 +1,12 @@
+{
+  "query_id": 174,
+  "query": "What role will partnerships with international regulators play?",
+  "response": "International regulatory cooperation can reduce, eliminate, or prevent unnecessary differences in regulatory requirements and identify approaches that are at least as protective as those adopted without such cooperation.",
+  "ground_truth": "They allow information sharing, benchmarking, and collaboration on AI standards and best practices.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:47:32.478675",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the benefits of international regulatory cooperation but does not directly address the specific roles of information sharing, benchmarking, and collaboration on AI standards and best practices as mentioned in the ground truth answer.",
+  "provider": "deepseek"
+}

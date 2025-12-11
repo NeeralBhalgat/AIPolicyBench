@@ -1,0 +1,12 @@
+{
+  "query_id": 278,
+  "query": "How soon must a critical safety incident be reported to the Office of Emergency Services?",
+  "response": "Part 1: The provided information does not specify any required timeframe for reporting a critical safety incident to the Office of Emergency Services.  \n\nPart 2: The excerpts focus on how emergency services entities are classified as covered entities under federal cyber incident reporting rules and on criteria such as population served (e.g., 50,000 individuals). They discuss the critical role of the Emergency Services Sector and the need for CISA to have visibility into cyber incidents, but they do not describe operational procedures for incident reporting to an Office of Emergency Services. No deadlines (such as a number of hours or days) are stated for reporting critical safety incidents in this context. To determine the actual reporting timeframe, you would need to consult the specific policies or regulations of the relevant jurisdiction’s Office of Emergency Services.",
+  "ground_truth": "Within 15 days of discovery, or 24 hours if imminent risk of death or serious injury.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:32:49.598175",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no specified timeframe for reporting a critical safety incident, while the ground truth clearly indicates that incidents must be reported within 15 days of discovery, or 24 hours if there is imminent risk of death or serious injury.",
+  "provider": "deepseek"
+}

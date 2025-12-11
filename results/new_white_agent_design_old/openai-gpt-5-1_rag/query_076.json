@@ -1,0 +1,12 @@
+{
+  "query_id": 76,
+  "query": "What are some opportunities for AI to improve people’s lives according to the Plan?",
+  "response": "**Part 1:**  \nAccording to the Plan, AI can be used to tackle large societal challenges, improve Federal services and make government more effective, efficient, and responsive, drive productivity‑enhancing uses across the economy, and advance AI‑enabled science and next‑generation manufacturing.\n\n**Part 2:**  \nThe Plan envisions AI helping government agencies better achieve their missions, improve services to the American people, and modernize regulatory and other public-facing functions. It highlights opportunities for AI to serve the public good by addressing large societal challenges while protecting people’s rights and safety and advancing democratic values. It also emphasizes productivity‑enhancing applications that fuel economic growth, including support for next‑generation manufacturing and widespread AI adoption in industry. In addition, the Plan calls for investment in AI‑enabled science and world‑class scientific datasets, which can accelerate discoveries that benefit health, security, and overall quality of life.",
+  "ground_truth": "Accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:41:38.180922",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response discusses various opportunities for AI to improve government services and economic productivity, it does not accurately reflect the specific ground truth answer, which includes accelerating scientific breakthroughs, improving clinical outcomes, increasing equity, and forecasting public health risks. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

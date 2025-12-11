@@ -1,0 +1,12 @@
+{
+  "query_id": 68,
+  "query": "How does DOE promote sharing of AI-related software and code?",
+  "response": "Part 1: The DOE promotes sharing of AI-related software and code by implementing a policy of sharing information and coordinating on such work with relevant agencies and organizations.\n\nPart 2: The policy involves sharing information and coordinating with agencies like the Federal Bureau of Investigation, United States Customs and Border Protection, and other federal, state, local, and international organizations. This coordination is aimed at mitigating AI-related intellectual property risks, including theft, and ensuring the secure and trustworthy development and use of AI technologies. The focus is on collaboration and information exchange to address and prevent AI-related IP risks effectively.",
+  "ground_truth": "Through DOE CODE, a platform for collaboration, archiving, and discovery of DOE-funded AI and software projects.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:29:28.014888",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not mention the DOE CODE platform, which is a key aspect of how the DOE promotes sharing of AI-related software and code. Instead, it focuses on coordination with various agencies and mitigating IP risks, which is not the primary mechanism for sharing as per the ground truth.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 56,
+  "query": "What approach does the DoD take to accelerate AI and analytics adoption?",
+  "response": "Part 1: The DoD accelerates AI and analytics adoption through the 2023 DoD Data, Analytics, and Artificial Intelligence (AI) Adoption Strategy, which unifies previous strategic efforts.\n\nPart 2: This strategy, published on November 2, 2023, builds upon and supersedes earlier frameworks like the 2018 DOD AI Strategy and the revised 2020 DOD Data Strategy. It emphasizes responsible AI integration, guided by ethical principles such as trust, accountability, and reliability. The approach is designed to field AI-enabled capabilities across the department, ensuring alignment with broader defense objectives and governance standards.",
+  "ground_truth": "An agile, iterative approach that emphasizes speed, feedback, and continuous learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:27:08.782788",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response provides details about the DoD's strategy and its historical context, it does not accurately reflect the agile, iterative approach emphasized in the ground truth answer. Instead, it focuses on ethical principles and alignment with defense objectives, which diverges from the core aspect of speed, feedback, and continuous learning.",
+  "provider": "deepseek"
+}

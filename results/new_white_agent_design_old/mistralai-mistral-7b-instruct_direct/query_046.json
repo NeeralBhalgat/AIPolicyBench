@@ -1,0 +1,12 @@
+{
+  "query_id": 46,
+  "query": "What is the main focus of the Govern function in the AI RMF?",
+  "response": "The Govern function in the AI Risk Management Framework (RMF) is primarily focused on establishing and maintaining an effective governance structure for AI systems. This includes setting clear objectives, defining roles and responsibilities, and establishing policies, standards, and procedures to ensure that AI systems are developed, deployed, and used in a manner that aligns with organizational values, legal and ethical requirements, and risk management best practices. The Govern function also includes monitoring and oversight to ensure that AI systems are operating as intended and are meeting their intended objectives, as well as ongoing assessment and improvement of the governance structure to address emerging risks and opportunities.",
+  "ground_truth": "To build a culture of risk management, accountability, and transparency throughout the organization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:04:07.525055",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response provides a detailed description of the Govern function but does not accurately reflect the main focus as stated in the ground truth, which emphasizes building a culture of risk management, accountability, and transparency. The response diverges from this core aspect.",
+  "provider": "deepseek"
+}

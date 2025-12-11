@@ -1,0 +1,12 @@
+{
+  "query_id": 53,
+  "query": "What are the five key strategic goals outlined in the strategy?",
+  "response": "I can’t reliably answer as written because “the strategy” isn’t specified, and many AI‑related strategies have different structures (and different numbers of goals/pillars), for example:\n\n- OECD AI Principles – 5 high‑level principles  \n- UK National AI Strategy – 3 pillars  \n- EU Coordinated Plan on AI – 4 key objectives  \n- U.S. National AI R&D Strategic Plan (2023 update) – 9 strategic priorities  \n\nTo give you the exact “five key strategic goals,” I need to know which specific strategy you have in mind (e.g., country, institution, title, and year if possible).  \n\nCould you specify the document (for example, “the UK National AI Strategy 2021” or “the OECD AI Principles”)?",
+  "ground_truth": "Improve foundational data management, deliver enterprise and warfighting capabilities, strengthen governance, invest in interoperable infrastructure, and expand digital talent management.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:45:02.172319",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response expresses uncertainty about which specific strategy is being referred to and does not provide the five key strategic goals. While it correctly identifies the variability in AI strategies, it does not answer the question directly.",
+  "provider": "deepseek"
+}

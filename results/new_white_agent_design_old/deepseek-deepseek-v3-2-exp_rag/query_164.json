@@ -1,0 +1,12 @@
+{
+  "query_id": 164,
+  "query": "Why does the NRC place emphasis on data science as a foundation?",
+  "response": "Part 1: The NRC places emphasis on data science as a foundation because achieving the goals of its data strategy will provide tangible, cross-cutting value by further enabling the agency to turn data into evidence, knowledge, decision-making, and strategic results.\n\nPart 2: The NRC's data strategy is designed to generate broad value across all of the agency's programs. This emphasis is foundational because it transforms raw data into actionable intelligence. The ultimate goal is to use this enhanced data capability to support better evidence-based decision-making and achieve strategic outcomes. This cross-cutting approach ensures data science benefits the entire organization.",
+  "ground_truth": "Because AI depends on quality data, and data science enables predictive modeling and analytics needed for evaluation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:55:43.847584",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response discusses the NRC's data strategy and its goals but does not directly address the importance of data science in relation to AI and predictive modeling, which is a key aspect of the ground truth answer.",
+  "provider": "deepseek"
+}

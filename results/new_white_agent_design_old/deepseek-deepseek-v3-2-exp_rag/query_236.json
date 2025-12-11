@@ -1,0 +1,12 @@
+{
+  "query_id": 236,
+  "query": "What type of AI or GenAI usage is prohibited under Section 4999.9(c)?",
+  "response": "Part 1: The prohibited usage is any LLM that incorporates concepts like critical race theory, transgenderism, unconscious bias, intersectionality, and systemic racism, or that distorts factual information about race or sex.\n\nPart 2: The order defines these concepts as part of the \"destructive ideology\" of \"diversity, equity, and inclusion\" (DEI) in the AI context. It states that DEI includes the suppression or distortion of factual information and manipulation of racial or sexual representation in model outputs. This is prohibited because such practices are considered to displace a commitment to truth in favor of preferred outcomes and pose a threat to reliable AI.",
+  "ground_truth": "Using terms implying that care, advice, reports, or assessments are provided by a licensed natural person.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:12:32.486717",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly identifies the prohibited usage under Section 4999.9(c) as related to concepts of critical race theory and DEI, which does not align with the ground truth answer regarding the prohibition of using terms implying licensed professional advice.",
+  "provider": "deepseek"
+}

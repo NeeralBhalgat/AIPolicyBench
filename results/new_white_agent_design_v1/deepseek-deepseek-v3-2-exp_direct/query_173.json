@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "Workforce training is emphasized to mitigate job displacement caused by AI automation and to equip people with the skills needed to work alongside and develop AI systems.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:01:54.683843",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on job displacement and skills for working with AI, which is a valid concern but does not directly address the specific need for staff capable of evaluating advanced AI technologies and regulatory challenges as stated in the ground truth answer.",
+  "provider": "deepseek"
+}

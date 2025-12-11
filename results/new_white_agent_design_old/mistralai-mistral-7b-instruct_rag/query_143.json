@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "Part 1: Microsoft provides recommendations to the CAIO.\n\nPart 2: Microsoft, through their resources like Foundry and Copilot Studio, offers guidance on infrastructure patterns, governance and security best practices, and standardizing development for AI agents across the organization. This helps the CAIO (Cloud Adoption and Innovation Officer) ensure consistency, security, and compliance in their AI environment.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:59.013384",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that Microsoft provides recommendations to the CAIO, while the ground truth indicates that the AISWG is responsible for providing such recommendations.",
+  "provider": "deepseek"
+}

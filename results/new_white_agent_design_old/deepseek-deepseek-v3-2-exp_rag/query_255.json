@@ -1,0 +1,12 @@
+{
+  "query_id": 255,
+  "query": "Define “digitally altered image” under AB 723.",
+  "response": "Part 1: Under AB 723, a \"digitally altered image\" is defined as an image that has been created or modified using digital technology to change the shape, size, composition, color, or other physical attributes of a person's appearance in a manner that is not generally or reasonably attainable through the use of conventional beauty or editing techniques.\n\nPart 2: The bill specifies that this definition applies to images that have been altered in a way that is materially deceptive. It explicitly excludes minor edits for technical purposes, such as lighting, color correction, or cropping, which are not intended to materially change a person's physical appearance. This distinction aims to target only those significant alterations that could mislead a viewer about how a person truly looks.",
+  "ground_truth": "An image edited using photo software or AI to add, remove, or change elements such as fixtures, furniture, landscape, or visible surroundings.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:16:19.996540",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a definition that focuses on altering a person's appearance, which is not aligned with the ground truth answer that emphasizes editing elements like fixtures or surroundings. The response misinterprets the scope of 'digitally altered image' as defined in AB 723.",
+  "provider": "deepseek"
+}

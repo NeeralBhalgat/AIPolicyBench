@@ -1,0 +1,12 @@
+{
+  "query_id": 262,
+  "query": "Which platforms must detect embedded provenance data beginning January 1, 2027?",
+  "response": "<s> [OUT]\n\nPart 1: Platforms that must detect embedded provenance data beginning January 1, 2027, include those that generate or share synthetic content, as outlined in the executive order on AI safety and security.\n\nPart 2: The executive order emphasizes the need for platforms to implement safeguards against the misuse of AI, particularly in generating synthetic content. This includes detecting and disclosing embedded provenance data to ensure transparency and accountability. The requirement is part of broader efforts to protect Americans' privacy and mitigate risks associated with AI-generated content, as outlined in the order's provisions on AI safety and ethical use.",
+  "ground_truth": "Large online platforms.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:57:01.246363",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response incorrectly specifies that platforms generating or sharing synthetic content must detect embedded provenance data, while the ground truth answer specifically states 'large online platforms' without the additional qualifiers. This indicates a misunderstanding of the requirement's scope.",
+  "provider": "deepseek"
+}

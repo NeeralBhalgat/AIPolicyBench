@@ -1,0 +1,12 @@
+{
+  "query_id": 293,
+  "query": "How long must the first AI-generated draft of a report be retained?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "For as long as the official report is retained.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:50:46.173719",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the retention period for the AI-generated draft of a report.",
+  "provider": "deepseek"
+}

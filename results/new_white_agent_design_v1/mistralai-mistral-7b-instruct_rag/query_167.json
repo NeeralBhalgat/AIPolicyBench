@@ -1,0 +1,12 @@
+{
+  "query_id": 167,
+  "query": "What kind of regulatory updates might be required for AI oversight?",
+  "response": "Regulatory updates might include federal oversight of AI development, as seen in former President Biden’s Executive Order 14110, which promoted federal oversight of AI development in the U.S. Additionally, companies are lobbying for access to federal data and energy sources, tax breaks, and grants to improve their platforms.",
+  "ground_truth": "New guidance, updated inspection procedures, or even potential rulemaking.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:14:05.939478",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately references Executive Order 14110, which does not exist as of December 2025. While it discusses relevant topics like federal oversight and lobbying, it does not align with the ground truth answer regarding specific regulatory updates needed for AI oversight.",
+  "provider": "deepseek"
+}

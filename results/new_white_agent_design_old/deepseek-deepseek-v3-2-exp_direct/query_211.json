@@ -1,0 +1,12 @@
+{
+  "query_id": 211,
+  "query": "What deadline does AB 979 set for the California Cybersecurity Integration Center to develop the California AI Cybersecurity Collaboration Playbook?",
+  "response": "Based on my knowledge of California legislation, Assembly Bill 979 (AB 979) from 2023 does **not** explicitly specify a single, fixed deadline for the California Cybersecurity Integration Center (Cal-CSIC) to develop the California AI Cybersecurity Collaboration Playbook.\n\nInstead, the bill outlines an iterative and ongoing process. The key milestone is a **reporting requirement**.\n\nThe bill states that Cal-CSIC, in collaboration with other agencies, must:\n1.  Annually assess threats and vulnerabilities posed by the use of AI to critical energy infrastructure.\n2.  Use these findings to **annually update the California Cybersecurity Integration Center’s Multi-Year Outreach and Strategic Plan**.\n3.  **Include in this annual plan a description of the AI Cybersecurity Collaboration Playbook**.\n\nTherefore, the requirement is for the playbook's description and its ongoing updates to be part of an annual strategic plan submitted to the legislature, starting on or before July 1, 2025, and continuing each July 1 thereafter.\n\n**In summary: There is no single \"deadline\" for the initial development of the playbook.** The process is designed to be continuous, with an annual reporting cycle beginning on **July 1, 2025**.\n\n***\n*Disclaimer: This information is based on the enrolled version of AB 979 (2023). For absolute certainty, consulting the final text of the legislation is recommended.*",
+  "ground_truth": "The playbook must be developed on or before January 1, 2027.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:06:23.937278",
+  "confidence": 0.9,
+  "reasoning": "The White Agent incorrectly states that there is no fixed deadline for the playbook's development, while the ground truth specifies that it must be developed on or before January 1, 2027.",
+  "provider": "deepseek"
+}

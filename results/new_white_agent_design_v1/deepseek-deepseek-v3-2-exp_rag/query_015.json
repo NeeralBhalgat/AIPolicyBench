@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "By March 28, 2025, each CFO Act agency must make publicly available a strategy for “identifying and removing barriers to the responsible use of AI and achieving enterprise-wide improvements in AI maturity.”",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:33:54.893154",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly specifies a deadline of March 28, 2025, instead of stating that the strategy must be published within 180 days of issuance, which is the correct timeframe.",
+  "provider": "deepseek"
+}

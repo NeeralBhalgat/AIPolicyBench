@@ -1,0 +1,12 @@
+{
+  "query_id": 73,
+  "query": "What are the four key goals of HHS’s AI Strategic Plan?",
+  "response": "Part 1:  \nHHS’s AI Strategic Plan is organized around four key goals: to **accelerate AI innovation and adoption to advance the HHS mission**, **ensure AI is responsible, trustworthy, and ethical**, **develop and empower an AI‑ready workforce**, and **strengthen AI governance, infrastructure, and partnerships**.\n\nPart 2:  \nTogether, these goals aim to integrate AI into HHS’s core operations and programs so the technology directly supports better health and human services outcomes. The plan emphasizes that innovation must be balanced with protections for safety, civil rights, privacy, and equity, especially for vulnerable populations affected by public benefit and health programs. It also recognizes that HHS needs a skilled workforce and modern data and technical infrastructure to design, procure, and oversee AI systems effectively. Finally, by building strong governance frameworks and external partnerships, HHS seeks to coordinate AI use across its divisions and with state, local, tribal, territorial, and industry partners.",
+  "ground_truth": "1. Catalyze health AI innovation and adoption; 2. Promote trustworthy, ethical, and responsible use; 3. Democratize AI technologies and resources; 4. Cultivate AI-empowered workforces and cultures.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:41:53.208770",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response lists four goals that do not match the ground truth goals of HHS’s AI Strategic Plan. While the themes of innovation, ethics, workforce development, and governance are present, the specific wording and the inclusion of 'democratize AI technologies and resources' in the ground truth are missing from the White Agent's response.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 97,
+  "query": "What safeguards will DHS apply to AI systems to ensure cybersecurity?",
+  "response": "Based on publicly available official sources, including the DHS Artificial Intelligence Roadmap and the Department-wide policies it outlines, several key safeguards are being implemented.\n\nThe Department of Homeland Security (DHS) has directed its components to adhere to mandatory responsible AI principles, including a specific principle for \"Securing AI,\" which mandates protections against cyber threats. Furthermore, DHS is operationalizing the NIST AI Risk Management Framework and has established specific pilot programs, like those within the Cybersecurity and Infrastructure Security Agency (CISA), to proactively probe AI systems for vulnerabilities and develop best practices for their cybersecurity.",
+  "ground_truth": "DHS will follow federal and private-sector best practices and develop additional standards to protect AI from cyberattacks.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:59:24.669141",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DHS's approach to AI cybersecurity by mentioning the adherence to responsible AI principles and the operationalization of the NIST AI Risk Management Framework, which aligns with the ground truth answer regarding following best practices and developing standards.",
+  "provider": "deepseek"
+}

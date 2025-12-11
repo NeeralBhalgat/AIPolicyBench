@@ -1,0 +1,12 @@
+{
+  "query_id": 83,
+  "query": "What principles guide DHS’s use of AI?",
+  "response": "Part 1: The principles guiding DHS's use of AI are the eight guiding principles and priorities established by the Administration, which include ensuring AI is safe and secure, and are to be adhered to by all executive departments and agencies.\n\nPart 2: The policy of the Administration is to advance and govern AI in accordance with eight specific principles. All executive departments and agencies, which includes DHS, are directed to adhere to these principles when undertaking actions related to AI. These principles prioritize safety and security, among other things, and require agencies to consider the views of other stakeholders like industry, academia, and civil society.",
+  "ground_truth": "AI use must be lawful, mission-appropriate, mission-enhancing, safe, secure, responsible, trustworthy, and human-centered.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:38:16.413236",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the principles guiding DHS's use of AI, mentioning safety and security as priorities, which aligns with the ground truth answer that specifies lawful, mission-appropriate, mission-enhancing, safe, secure, responsible, trustworthy, and human-centered principles.",
+  "provider": "deepseek"
+}

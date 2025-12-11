@@ -1,0 +1,11 @@
+{
+  "query_id": 111,
+  "query": "What is DOT’s approach to removing barriers to responsible AI use?",
+  "response": "",
+  "ground_truth": "Using the AI Accelerator Roadmap and AISCC to reduce friction while managing safety, privacy, and civil rights risks.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:52:04.165162",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "A change requiring updates to AI artifacts is any material modification to the model, data, architecture, prompts, deployment context, or controls that could affect the system’s capabilities, behavior, risks, or performance. In practice, this includes new or retrained models, major data updates, significant prompt/workflow changes, new use cases or user groups, or changes in legal/regulatory requirements impacting the system.",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:42:02.408275",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies various factors that constitute a change requiring updates to AI artifacts, aligning well with the ground truth answer. It covers material modifications that could impact the system's capabilities and performance, which is consistent with the essence of the ground truth.",
+  "provider": "deepseek"
+}

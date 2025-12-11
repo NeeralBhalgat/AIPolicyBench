@@ -1,0 +1,12 @@
+{
+  "query_id": 149,
+  "query": "What must use case owners do for prior entries?",
+  "response": "**Part 1:**  \nThe provided text does not state any specific requirement that use case owners must fulfill for prior entries.\n\n**Part 2:**  \nIn the excerpts shown, the document explains the purpose of the AI Use Case Inventory and describes sections on identifiers, enablement and infrastructure, and risk management, but it does not mention any obligations for maintaining or updating prior entries. There is no explicit instruction that use case owners must review, revise, re-submit, or otherwise act on previously submitted use cases. Because that information is absent from the quoted material, any more specific statement about what they \"must\" do for prior entries would be speculative.",
+  "ground_truth": "Update their entries in the new AI registry.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:00:03.542431",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there are no obligations for use case owners regarding prior entries, while the ground truth indicates that they must update their entries in the new AI registry. This is a factual error.",
+  "provider": "deepseek"
+}

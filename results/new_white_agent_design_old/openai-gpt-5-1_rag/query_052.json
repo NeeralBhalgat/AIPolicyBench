@@ -1,0 +1,12 @@
+{
+  "query_id": 52,
+  "query": "What does the strategy mean by “decision advantage”?",
+  "response": "Part 1:  \nIn the strategy, “decision advantage” means the decisive advantage held by the party who seizes the initiative early and holds it by maintaining resilient C2 and robust kill chains, especially through human‑machine teaming.\n\nPart 2:  \nIn an information‑age conflict, the side that can perceive, understand, decide, and act faster and more effectively than its adversary gains this decision advantage. Human‑machine teaming is intended to create an “exponential advantage” by combining computational speed and data processing with human judgment. Resilient command and control and robust kill chains ensure that these faster, better decisions can still be made and executed under stress or attack. More broadly, it aligns with using strong evidence and analysis so decision makers can anticipate challenges, set priorities, and sustain initiative over time.",
+  "ground_truth": "A state where leaders can make faster, better, and more informed decisions across the DoD enterprise.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:36:25.676577",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately describes 'decision advantage' as the ability to make faster and better decisions, aligning with the ground truth. It emphasizes the importance of human-machine teaming and resilient command and control, which supports the concept of making informed decisions across the DoD enterprise.",
+  "provider": "deepseek"
+}

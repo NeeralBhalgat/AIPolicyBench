@@ -1,0 +1,12 @@
+{
+  "query_id": 229,
+  "query": "What characteristic of AI systems is explicitly noted in the definition in §1714.46(a)?",
+  "response": "The characteristic of AI systems explicitly noted in the definition in §1714.46(a) is that they are \"designed to perform tasks that require human-like cognitive abilities, such as reasoning, learning, perception, and decision-making.\" This definition emphasizes the human-like cognitive capabilities that AI systems are intended to emulate or surpass.\n\nIf you need further details or context, please let me know!",
+  "ground_truth": "AI systems vary in their level of autonomy.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:15:10.286433",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that the characteristic of AI systems noted in §1714.46(a) is related to human-like cognitive abilities, while the ground truth specifies that AI systems vary in their level of autonomy.",
+  "provider": "deepseek"
+}

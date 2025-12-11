@@ -1,0 +1,12 @@
+{
+  "query_id": 196,
+  "query": "How often must existing AI use cases be re-registered?",
+  "response": "Part 1: Existing AI use cases must be re-registered regularly to review model evaluations and verify ongoing compliance with ethical standards.\n\nPart 2: The context emphasizes the need for continuous oversight of AI agents, including regular reviews of model evaluations to ensure fairness, inclusiveness, and accountability. This process involves designating a human role to approve deployments and monitor compliance with ethical standards, ensuring that AI use cases remain aligned with organizational policies. Regular re-registration helps maintain alignment with evolving Responsible AI policies and mitigates risks associated with AI deployment.",
+  "ground_truth": "Annually, except for familiarization use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:47:51.422289",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not specify the required frequency of re-registration, which is annually, and instead discusses the importance of regular reviews and compliance without providing the specific timeline, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

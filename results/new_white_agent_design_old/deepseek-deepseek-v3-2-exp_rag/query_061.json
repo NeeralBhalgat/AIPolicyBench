@@ -1,0 +1,12 @@
+{
+  "query_id": 61,
+  "query": "Who are the designated Chief Artificial Intelligence Officer (CAIO) and Responsible AI Official (RAIO) for the Department of Energy?",
+  "response": "Part 1: The Department of Energy has designated an Acting Chief AI Officer (CAIO) consistent with mandated policies, and a Responsible AI Official (RAIO) works through the Enterprise Data Council to coordinate AI governance.\n\nPart 2: The documentation confirms that an Acting CAIO has been designated in compliance with OMB policy. While a specific individual's name is not provided in the text, the role is established. The RAIO is also referenced as a designated official who coordinates policy and standards for AI governance in the Department through the Enterprise Data Council. These roles are part of the Department's strategy to strengthen its AI governance framework.",
+  "ground_truth": "Helena Fu serves as Acting CAIO and Bridget Carper serves as RAIO.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:34:15.054371",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide the specific names of the Acting CAIO and RAIO, which are essential to accurately answer the question. While it correctly identifies the roles and their functions, it fails to mention the actual individuals holding those positions, leading to a factual inaccuracy.",
+  "provider": "deepseek"
+}

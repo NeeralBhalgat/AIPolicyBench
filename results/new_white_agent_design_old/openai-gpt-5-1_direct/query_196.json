@@ -1,0 +1,12 @@
+{
+  "query_id": 196,
+  "query": "How often must existing AI use cases be re-registered?",
+  "response": "There is **no single, universal rule** that says how often “existing AI use cases must be re‑registered.” It depends entirely on the **specific regulatory regime or internal governance framework** you’re talking about.\n\nUnder the main public/regulatory regimes as of late 2024:\n\n- **EU AI Act (EU)**  \n  - High‑risk AI systems must be **registered once** in the EU database before being placed on the market or put into service (after conformity assessment).  \n  - There is **no fixed periodic re‑registration interval** (e.g., “every year”).  \n  - Instead, you must effectively “re‑register”/update and may need a **new conformity assessment** if the system is **substantially modified**, significantly repurposed, or its risk profile changes.\n\n- **China’s generative AI filing rules (CAC)**  \n  - Providers of generative AI services must **file (register",
+  "ground_truth": "Annually, except for familiarization use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:57.444686",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that there is no fixed periodic re-registration interval for existing AI use cases, while the ground truth specifies that re-registration is required annually, except for familiarization use cases.",
+  "provider": "deepseek"
+}

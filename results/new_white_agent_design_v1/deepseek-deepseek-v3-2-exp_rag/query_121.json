@@ -1,0 +1,12 @@
+{
+  "query_id": 121,
+  "query": "Who oversees all internal and external IRS reporting on AI?",
+  "response": "The IRS has established a new AI oversight organization, led by the IRS Chief Data and Analytics Officer.",
+  "ground_truth": "The CDAO acting as the RAIO.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:43:57.366102",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the leadership of the IRS AI oversight organization. The correct answer specifies the CDAO acting as the RAIO, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

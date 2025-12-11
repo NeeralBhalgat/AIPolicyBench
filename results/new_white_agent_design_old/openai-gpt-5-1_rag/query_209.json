@@ -1,0 +1,12 @@
+{
+  "query_id": 209,
+  "query": "What risk is posed by automated systems analyzing tone or facial expressions (§11016(d)(1))?",
+  "response": "**Part 1:**  \nAutomated-decision systems that analyze an applicant’s tone of voice, facial expressions, or other physical characteristics or behavior may discriminate against individuals based on race, national origin, gender, disability, or other characteristics protected under the Act.  \n\n**Part 2:**  \nThese systems risk producing biased or disparate outcomes because the models may correlate certain tones, expressions, or behaviors with “desirable” traits in ways that track protected characteristics. For example, cultural or disability-related differences in speech, affect, or movement can be misinterpreted as lower aptitude or poorer “fit.” This can result in exclusions or adverse decisions against particular groups even when the system does not explicitly use protected-category data. Consequently, their use can lead to unlawful discrimination under FEHA unless properly designed, tested, and accompanied by reasonable accommodations.",
+  "ground_truth": "They may discriminate based on protected characteristics.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:15:50.987680",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately identifies the risk of discrimination based on protected characteristics, which aligns with the ground truth answer. It provides a detailed explanation of how automated systems can lead to biased outcomes, reinforcing the correctness of the claim.",
+  "provider": "deepseek"
+}

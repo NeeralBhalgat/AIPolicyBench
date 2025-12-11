@@ -1,0 +1,12 @@
+{
+  "query_id": 15,
+  "query": "By when must CFO Act agencies publish an AI Strategy?",
+  "response": "Part 1:  \nCFO Act agencies must publish an AI Strategy by September 24, 2024.\n\nPart 2:  \nUnder OMB Memorandum M‑24‑10, CFO Act agencies are required to develop and publicly release an AI Strategy within a specific implementation timeline tied to the memorandum’s issuance. That deadline is set 180 days from the date of the memo, which falls on September 24, 2024. The EEOC’s compliance planning materials reference aligning their internal governance and AI planning activities with these M‑24‑10 requirements. This timing ensures agencies have a near-term, concrete date to formalize how they will govern, use, and manage risks from AI.",
+  "ground_truth": "Within 180 days of issuance.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:26:51.879065",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately states that CFO Act agencies must publish an AI Strategy by September 24, 2024, which aligns with the requirement of 180 days from the issuance of OMB Memorandum M-24-10. This confirms the correctness of the response.",
+  "provider": "deepseek"
+}

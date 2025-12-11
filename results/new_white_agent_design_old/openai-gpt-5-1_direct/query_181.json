@@ -1,0 +1,12 @@
+{
+  "query_id": 181,
+  "query": "What is a use case as defined by the NRC?",
+  "response": "The term “use case” is not uniquely redefined by the U.S. Nuclear Regulatory Commission (NRC); in its software and digital I&C guidance the NRC explicitly adopts the standard UML-style definition.\n\nIn documents such as NUREG/CR‑7101 (which discusses use of UML for nuclear I&C systems), a **use case** is defined essentially as:\n\n> A specification of a sequence of actions, including variants, that a system can perform, interacting with external actors, which produces an observable result of value to one of those actors.\n\nKey",
+  "ground_truth": "A specific situation in which an AI product or service could be applied.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:59:02.947577",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response provides a definition of 'use case' as per the NRC's guidance, but it does not align with the ground truth answer, which describes a use case in the context of AI applications. The NRC's definition is specific to software and digital I&C systems, which is not the same as the broader AI context provided in the ground truth.",
+  "provider": "deepseek"
+}

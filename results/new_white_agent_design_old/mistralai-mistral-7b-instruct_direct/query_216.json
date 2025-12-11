@@ -1,0 +1,12 @@
+{
+  "query_id": 216,
+  "query": "Under AB 979, who may participate through voluntary information-sharing mechanisms?",
+  "response": "Under AB 979, the California law that mandates diversity on corporate boards, the following entities may participate through voluntary information-sharing mechanisms:\n\n1. **Covered Entities**: Corporations subject to the law (i.e., publicly held domestic or foreign corporations with principal executive offices in California and whose shares are listed on a major U.S. stock exchange).\n2. **Third-Party Organizations**: Entities that collect and disseminate data on board diversity, such as:\n   - **Board Diversity Reporting Organizations**: Groups that track and report on board diversity metrics (e.g., the California Secretary of State, which maintains a public database of board diversity disclosures).\n   - **Nonprofit or Research Organizations**: Groups that analyze and promote board diversity (e.g., the Alliance for Board Diversity or the 2020 Women on Boards initiative).\n3. **Government Agencies**: State or local agencies involved in promoting corporate governance best practices or diversity initiatives.\n\nThese participants may share data, best practices, and compliance strategies to support the law's goals. However, the law does not explicitly define or mandate these mechanisms, so participation is voluntary and may evolve based on stakeholder collaboration.\n\nFor the most accurate and up-to-date information, refer to the [California Secretary of State's guidance on AB 979](https://www.sos.ca.gov/boards-diversity).",
+  "ground_truth": "Other entities, as appropriate, beyond state contractors and vendors.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:14:31.286367",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly identifies the participants in voluntary information-sharing mechanisms under AB 979. The ground truth specifies 'other entities, as appropriate, beyond state contractors and vendors,' which is not mentioned in the White Agent's response. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

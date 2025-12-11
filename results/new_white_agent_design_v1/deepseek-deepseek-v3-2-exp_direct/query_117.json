@@ -1,0 +1,12 @@
+{
+  "query_id": 117,
+  "query": "How often must DOT re-evaluate AI risk determinations?",
+  "response": "Based on my knowledge, there is no universally mandated, predefined frequency for re-evaluation specified in high-level AI policy. Specific requirements often depend on the context, such as the AI system's risk level or the particular regulatory framework.",
+  "ground_truth": "At least annually or when significant modifications occur.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:59:48.762305",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no universally mandated frequency for re-evaluation, while the ground truth specifies that re-evaluation must occur at least annually or when significant modifications occur.",
+  "provider": "deepseek"
+}

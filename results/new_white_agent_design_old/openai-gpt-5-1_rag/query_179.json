@@ -1,0 +1,12 @@
+{
+  "query_id": 179,
+  "query": "What federal acts guide the NRC’s approach to AI?",
+  "response": "**Part 1:**  \nThe NRC’s approach to artificial intelligence is guided primarily by the National Artificial Intelligence Initiative Act of 2020 and the Advancing American AI Act (enacted as part of the Fiscal Year 2023 National Defense Authorization Act).\n\n**Part 2:**  \nThese two federal acts establish the overarching framework for how U.S. federal agencies develop, govern, and use AI systems, emphasizing coordination, transparency, and trustworthy, responsible AI. The National Artificial Intelligence Initiative Act of 2020 sets out a national strategy for AI research, standards, and interagency coordination, which the NRC follows in planning its own AI activities. The Advancing American AI Act requires agencies to inventory and manage AI systems and to adopt practices that address risk, bias, and accountability, shaping how the NRC deploys and oversees AI tools. The NRC’s internal AI planning documents, such as SECY-24-0035, are developed to be consistent with these statutory requirements while supporting its nuclear safety and regulatory mission.",
+  "ground_truth": "The Evidence-Based Policymaking Act and the National AI Initiative Act.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:08:37.664526",
+  "confidence": 0.8,
+  "reasoning": "The White Agent incorrectly identifies the Advancing American AI Act as a guiding federal act for the NRC's approach to AI, while the ground truth specifies the Evidence-Based Policymaking Act and the National AI Initiative Act. This indicates a factual inaccuracy in the response.",
+  "provider": "deepseek"
+}

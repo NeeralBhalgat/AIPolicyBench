@@ -1,0 +1,12 @@
+{
+  "query_id": 55,
+  "query": "How does the DoD plan to treat data to improve sharing and quality?",
+  "response": "The DoD plans to improve data sharing and quality by **developing and implementing a decentralized network among data providers and users that distributes ownership across data domains and treats data as a product**, while **democratizing data access and maturing feedback loops between producers and consumers**.",
+  "ground_truth": "By treating data as a product managed by decentralized data teams responsible for quality and accountability.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:11:52.983187",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the DoD's approach to treating data as a product and emphasizes decentralized management and improved access, aligning well with the ground truth answer.",
+  "provider": "deepseek"
+}

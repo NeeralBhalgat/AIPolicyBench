@@ -1,0 +1,10 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "[TIMEOUT] Query processing exceeded time limit.",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "timeout",
+  "evaluation_method": "auto-detect",
+  "timestamp": "2025-12-10T15:17:38.612456",
+  "reason": "White agent response timed out or was empty"
+}

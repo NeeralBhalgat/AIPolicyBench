@@ -1,0 +1,12 @@
+{
+  "query_id": 178,
+  "query": "What internal improvements might AI support in NRC processes?",
+  "response": "AI could help the NRC streamline internal workflows by automating document review and classification, enhancing search and knowledge management across licensing and rulemaking records, and supporting data-driven prioritization of inspections and risk analyses. It could also assist with technical modeling and simulation, quality assurance checks, and tracking and analyzing safety-related trends across reports and operating experience.",
+  "ground_truth": "Better data management, efficiency, and modernized decision-making.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:44:33.795737",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the potential internal improvements AI could support in NRC processes, aligning well with the ground truth answer regarding better data management, efficiency, and modernized decision-making.",
+  "provider": "deepseek"
+}

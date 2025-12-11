@@ -1,0 +1,12 @@
+{
+  "query_id": 253,
+  "query": "What additional requirement applies if the advertisement is posted on a website controlled by the broker?",
+  "response": "Part 1: If the advertisement is posted on a website controlled by the broker, it must be approved by a principal prior to use and the broker must retain the advertisement for three years.\n\nPart 2: The context indicates that while an unscripted, interactive electronic forum may be treated like a public appearance, a website controlled by the broker is considered a static posting. Static postings are categorized as retail communications, which triggers specific regulatory requirements. These requirements include principal pre-approval before the communication is made public and a recordkeeping obligation to retain the communication for a period of three years.",
+  "ground_truth": "The unaltered version of the images must also be included in the posting or via a link.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:16:20.816772",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response does not address the requirement that the unaltered version of the images must be included in the posting or via a link, which is the ground truth. Instead, it focuses on principal approval and recordkeeping, which are not the additional requirements specified in the ground truth.",
+  "provider": "deepseek"
+}

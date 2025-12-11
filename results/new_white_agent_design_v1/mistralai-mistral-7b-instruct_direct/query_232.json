@@ -1,0 +1,12 @@
+{
+  "query_id": 232,
+  "query": "Which definitions of “AI” and “GenAI” does AB 489 incorporate?",
+  "response": "AB 489, the California Artificial Intelligence Act, defines \"Artificial Intelligence\" (AI) as a system that performs tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and language translation. It does not explicitly define \"GenAI\" (Generalized Artificial Intelligence), which is a term often used to refer to AI systems that can perform any intellectual task that a human being can. However, the bill's definition of AI encompasses a broad range of AI systems, including those capable of generalized tasks.",
+  "ground_truth": "Definitions from Government Code Sections 11546.45.5 (AI) and 11549.64 (GenAI).",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:29:33.548760",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately states that AB 489 does not explicitly define 'GenAI', while the ground truth indicates that it is defined in Government Code Section 11549.64. Additionally, the definition of 'AI' provided is vague and does not match the specific legal definitions outlined in the bill.",
+  "provider": "deepseek"
+}

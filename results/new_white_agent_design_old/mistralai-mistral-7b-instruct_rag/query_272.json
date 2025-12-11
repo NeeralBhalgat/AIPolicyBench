@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "Part 1: SB-53 defines a \"frontier model\" as one trained using more than 10²⁶ FLOPS, encompassing pretraining, fine-tuning, and reinforcement learning.\n\nPart 2: The law sets this threshold to target the most computationally intensive AI models, which are more likely to pose significant risks. This metric includes all stages of model training, ensuring that even subsequent adjustments like fine-tuning or reinforcement learning are accounted for. The definition is designed to focus on the largest and most capable AI systems, avoiding regulatory burdens on smaller or less advanced models. The law also acknowledges that future technological advancements might reduce the computational requirements for similarly capable models, prompting periodic reviews to adjust the threshold if necessary.",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:58:07.213786",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately defines a 'frontier model' as one trained using more than 10²⁶ FLOPS, which aligns with the ground truth. It also correctly explains the context and implications of this definition in terms of regulatory focus on high-capacity AI systems.",
+  "provider": "deepseek"
+}

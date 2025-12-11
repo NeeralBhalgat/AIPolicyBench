@@ -1,0 +1,12 @@
+{
+  "query_id": 128,
+  "query": "What law protects taxpayer information that AI systems must follow?",
+  "response": "The Internal Revenue Code (IRC) Section 6103, enforced by the Internal Revenue Service (IRS), is the primary federal law that protects the confidentiality of taxpayer information.",
+  "ground_truth": "Internal Revenue Code 6103.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:59:58.911734",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the Internal Revenue Code Section 6103 as the law that protects taxpayer information, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

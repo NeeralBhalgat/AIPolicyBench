@@ -1,0 +1,12 @@
+{
+  "query_id": 196,
+  "query": "How often must existing AI use cases be re-registered?",
+  "response": "The frequency with which existing AI use cases must be re-registered depends on the specific regulations and policies of the jurisdiction in which the AI is being used. For example, in the European Union, the proposed AI Act includes provisions for ongoing compliance and re-registration, but the exact frequency is not yet finalized. In the United States, the National Institute of Standards and Technology (NIST) provides guidelines for AI risk management, but re-registration requirements are typically determined by sector-specific regulations.\n\nIn general, re-registration is often required when there are significant changes to the AI system, such as updates to the model, changes in the data used, or modifications to the intended use case. Some jurisdictions may also require periodic re-registration to ensure ongoing compliance with evolving standards and regulations.\n\nIf you are looking for specific guidance, it is recommended to consult the relevant regulatory authorities or legal experts in the jurisdiction where the AI is being deployed.",
+  "ground_truth": "Annually, except for familiarization use cases.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:13:36.754808",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not provide the specific annual re-registration requirement stated in the ground truth answer and instead discusses general practices and uncertainties regarding re-registration, which is not accurate.",
+  "provider": "deepseek"
+}

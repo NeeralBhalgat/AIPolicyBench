@@ -1,0 +1,12 @@
+{
+  "query_id": 143,
+  "query": "Who provides recommendations to the CAIO?",
+  "response": "Based on my knowledge, recommendations to the Chief AI Officer (CAIO) are provided by various internal and external stakeholders. This includes technical experts, legal and compliance teams, ethics boards, industry groups, and government bodies.",
+  "ground_truth": "The AISWG.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:00:33.615131",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response lists various stakeholders that may provide recommendations, but it does not mention the AISWG, which is the correct entity responsible for providing recommendations to the CAIO.",
+  "provider": "deepseek"
+}

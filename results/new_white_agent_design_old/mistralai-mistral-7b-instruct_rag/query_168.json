@@ -1,0 +1,12 @@
+{
+  "query_id": 168,
+  "query": "What are examples of AI sub-specialties covered in the plan?",
+  "response": "Part 1: The plan covers AI sub-specialties such as AI governance, ethics, and workforce development.\n\nPart 2: The context highlights that federal efforts in AI are guided by laws, executive orders, and guidance, which likely include frameworks for AI governance and ethics. Additionally, the plan emphasizes the need for workforce development to support AI advancements, indicating these are key sub-specialties. The oversight groups mentioned also suggest a focus on managing and regulating AI technologies, further underscoring these areas.",
+  "ground_truth": "Natural language processing, machine learning, and deep learning.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:41:50.916386",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response lists AI governance, ethics, and workforce development as sub-specialties, which do not match the ground truth examples of natural language processing, machine learning, and deep learning. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

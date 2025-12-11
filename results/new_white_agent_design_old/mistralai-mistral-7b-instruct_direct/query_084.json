@@ -1,0 +1,12 @@
+{
+  "query_id": 84,
+  "query": "What kinds of AI uses are prohibited under this Directive?",
+  "response": "The AI Act, which is the proposed EU regulation on artificial intelligence, prohibits certain AI uses that are considered to pose an unacceptable risk to individuals or society. The prohibited AI uses under the Directive include:\n\n1. **AI systems that deploy subliminal techniques** beyond a person's consciousness to materially distort a person's behavior in a manner that causes physical or psychological harm.\n2. **AI systems that exploit vulnerabilities of specific groups** (e.g., based on age, physical or mental disability) to materially distort their behavior in a manner that causes physical or psychological harm.\n3. **AI systems used for social scoring** by public authorities or on their behalf for general purposes (e.g., social behavior, personal characteristics, or social status).\n4. **AI systems that enable real-time remote biometric identification** in publicly accessible spaces for law enforcement purposes, with exceptions for specific, narrowly defined situations (e.g., searching for a missing child or preventing a terrorist threat).\n5. **AI systems that manipulate human behavior or decisions** to circumvent users' free will (e.g., voice-assisted toys that encourage dangerous behavior).\n\nThese prohibitions are designed to address the most harmful applications of AI, ensuring that fundamental rights and safety are protected. The AI Act also imposes strict requirements on high-risk AI systems and establishes a framework for transparency and accountability.",
+  "ground_truth": "Solely basing law enforcement or civil actions on AI outputs; using AI or data for biased or discriminatory purposes; or conducting unlawful mass surveillance.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:05:25.269702",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response lists several AI uses that are prohibited under the AI Act, but it does not accurately reflect the ground truth answer, which specifically mentions prohibitions related to biased or discriminatory purposes and unlawful mass surveillance. The response includes additional details that are not part of the ground truth, indicating a misalignment with the actual prohibitions outlined in the Directive.",
+  "provider": "deepseek"
+}

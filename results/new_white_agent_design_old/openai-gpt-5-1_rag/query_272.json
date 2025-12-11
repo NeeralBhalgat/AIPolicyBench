@@ -1,0 +1,12 @@
+{
+  "query_id": 272,
+  "query": "How does SB 53 define a “frontier model”?",
+  "response": "**Part 1:**  \nSB 53 defines a “frontier model” as a foundation model trained using more than 10²⁶ floating‑point operations (FLOPs), including cumulative compute from pretraining, fine‑tuning, and subsequent modifications.\n\n**Part 2:**  \nThis definition focuses on AI systems trained at “extraordinary computational scales,” on the view that such highly compute‑intensive models are the ones most likely to pose catastrophic risks. Importantly, the 10²⁶ FLOPs threshold is cumulative, so it counts not only the initial training but also later reinforcement learning, fine‑tuning, and other updates. By tying the legal definition to a clear compute threshold, the law targets only the most advanced models rather than smaller or less capable systems. In practice, this means the requirements are aimed at top-tier developers whose models could plausibly enable mass harm if misused or misaligned.",
+  "ground_truth": "A foundation model trained with more than 10²⁶ compute operations, including fine-tuning.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:30:50.624930",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the definition of a 'frontier model' as stated in SB 53, including the correct threshold of 10²⁶ FLOPs and the inclusion of cumulative compute from pretraining and fine-tuning.",
+  "provider": "deepseek"
+}

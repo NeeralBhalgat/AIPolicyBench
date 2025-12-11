@@ -1,0 +1,12 @@
+{
+  "query_id": 228,
+  "query": "Does AB 316 apply to actions where AI is only alleged to have contributed to harm?",
+  "response": "Yes. One source interprets AB 316 as applying when “AI use is alleged to have been one cause of injury to plaintiff,” meaning it covers cases where AI is only alleged to have contributed to the harm.",
+  "ground_truth": "Yes, it applies to any action alleging AI caused harm.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:27:45.925750",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the interpretation of AB 316, confirming that it applies to cases where AI is alleged to have contributed to harm, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

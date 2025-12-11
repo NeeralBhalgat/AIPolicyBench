@@ -1,0 +1,12 @@
+{
+  "query_id": 29,
+  "query": "How does the order limit its legal effect on agencies’ authorities?",
+  "response": "It does so in several explicit, standard ways.\n\nIn the “General Provisions” section, the Executive Order states that:\n\n1. **No change to existing statutory authority**  \n   The order “shall not be construed to impair or otherwise affect”:\n   - any authority granted by law to an executive department or agency, or the head thereof; or  \n   - the functions of the Director of the Office of Management and Budget (OMB) relating to budget, administrative, or legislative proposals.  \n\n   In practice, this means agencies must implement the order only **within** their existing statutory authorities; the order cannot expand, reduce, or reassign those authorities.\n\n2. **Subject to existing law and appropriations**  \n   The order must be implemented “consistent with applicable law and subject to the availability of appropriations.”  \n   - Agencies cannot rely on the EO to take actions that would otherwise violate statutes (e.g., the Administrative Procedure Act, civil rights laws, privacy laws) or to spend money they have not been appropriated.  \n   - The EO is guidance to exercise *existing* powers, not a source of new regulatory power or funding.\n\n3. **No override of independent agency status**  \n   Although the order “encourages” independent regulatory agencies (like the FTC, SEC, FCC) to take certain actions, it does not and cannot legally compel them to act in a way that conflicts with their organic statutes or independence. Their legal authorities and decision-making independence remain governed by their enabling laws, not by the EO.\n\n4. **No judicially enforceable rights**  \n   The order states that it is **",
+  "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:42:13.948091",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately explains how the order limits its legal effect on agencies' authorities by stating that it does not impair existing statutory authority, must be consistent with existing law, does not override independent agency status, and does not create judicially enforceable rights. This aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

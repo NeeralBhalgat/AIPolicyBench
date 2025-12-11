@@ -1,0 +1,11 @@
+{
+  "query_id": 222,
+  "query": "What defense is prohibited under §1714.46(b) for defendants who developed, modified, or used artificial intelligence?",
+  "response": "",
+  "ground_truth": "They may not assert that the artificial intelligence autonomously caused the harm.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T07:02:46.889867",
+  "confidence": 1.0,
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 163,
+  "query": "What is the NRC’s stated vision for AI?",
+  "response": "**Part 1:**  \nThe NRC’s stated vision for AI is to “demonstrate the Principles of Good Regulation (independence, openness, efficiency, clarity, and reliability) in performing our mission” as it explores and applies artificial intelligence.\n\n**Part 2:**  \nThe NRC explicitly defines its overall vision as demonstrating these Principles of Good Regulation in carrying out its mission, and this same vision guides how it intends to adopt and use AI. While it currently reports having no operational AI use cases, it is actively identifying potential AI applications to enhance the agency’s work. In doing so, it emphasizes leveraging AI to drive value for the agency and improve how it meets its mission. Throughout this process, the NRC frames AI use as being bounded by its established regulatory values and commitments, including those set out in federal directives on trustworthy AI.",
+  "ground_truth": "To keep pace with technological innovations while ensuring safe and secure use of AI in regulated activities.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:03:36.416328",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response does not accurately reflect the NRC's stated vision for AI, which focuses on keeping pace with technological innovations while ensuring safe and secure use of AI in regulated activities. Instead, it emphasizes principles of good regulation without addressing the core vision related to technological advancements and safety.",
+  "provider": "deepseek"
+}

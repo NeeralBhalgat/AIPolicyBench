@@ -1,0 +1,12 @@
+{
+  "query_id": 77,
+  "query": "What framework does HHS use to guide trustworthy AI development?",
+  "response": "Part 1: HHS uses the AI Risk Management Framework (NIST AI 100-1) to guide trustworthy AI development, including a companion resource for generative AI.\n\nPart 2: The framework is part of broader guidelines and best practices established by the Secretary of Commerce, in coordination with other agencies, to promote safe, secure, and trustworthy AI systems. These guidelines aim to develop a companion resource for generative AI, ensuring that AI systems are evaluated and audited for potential risks, particularly in areas like cybersecurity and biosecurity. The framework also includes secure development practices for AI technologies, emphasizing the need for rigorous testing and risk management to mitigate potential harms.",
+  "ground_truth": "The FAVES principles: Fair, Appropriate, Valid, Effective, and Safe.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:32:12.671620",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly identifies the AI Risk Management Framework (NIST AI 100-1) as the guiding framework for trustworthy AI development by HHS, while the ground truth answer specifies the FAVES principles, which are the actual guiding principles for HHS in this context.",
+  "provider": "deepseek"
+}

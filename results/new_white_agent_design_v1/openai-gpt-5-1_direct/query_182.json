@@ -1,0 +1,12 @@
+{
+  "query_id": 182,
+  "query": "What is the purpose of the GSA AI directive?",
+  "response": "The GSA AI directive establishes how the U.S. General Services Administration will govern, use, and manage AI systems, ensuring they are deployed responsibly, safely, and in compliance with federal laws and policies. Its purpose is to provide a framework for oversight, risk management, and protection of privacy, security, and civil rights in GSA’s use of AI.",
+  "ground_truth": "To establish governing policies for controlled access and responsible use of AI across GSA.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:44:45.707571",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately describes the purpose of the GSA AI directive, emphasizing responsible use, governance, and compliance with laws, which aligns with the ground truth answer regarding establishing governing policies for AI use across GSA.",
+  "provider": "deepseek"
+}

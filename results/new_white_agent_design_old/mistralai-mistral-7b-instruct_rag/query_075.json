@@ -1,0 +1,12 @@
+{
+  "query_id": 75,
+  "query": "What additional domains support implementation of the Strategic Plan?",
+  "response": "Part 1: Additional domains supporting implementation of the Strategic Plan can be found on the Army Publishing Directorate website.\n\nPart 2: The Army Publishing Directorate provides various resources such as ALARACTS, Army Directives, Army Regulations, Army General Orders, and Department of the Army Pamphlets that support the implementation of Executive Order(s). These resources can be found on the Army Publishing Directorate website, as stated in Source 3. Furthermore, in Source 4, it is mentioned that a Section 230 Agency Strategic Plan is available on the White House's website, which also serves as a domain for implementing the Strategic Plan.",
+  "ground_truth": "Cybersecurity and Critical Infrastructure Protection, and Internal Operations.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:31:39.308557",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response does not mention the specific domains of Cybersecurity and Critical Infrastructure Protection, and Internal Operations, which are the correct additional domains supporting the implementation of the Strategic Plan. Instead, it focuses on resources from the Army Publishing Directorate, which is not relevant to the question asked.",
+  "provider": "deepseek"
+}

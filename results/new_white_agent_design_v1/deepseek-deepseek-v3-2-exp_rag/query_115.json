@@ -1,0 +1,12 @@
+{
+  "query_id": 115,
+  "query": "How does DOT handle sharing AI models and code with the public?",
+  "response": "DOT is committed to the open sharing of AI custom code and models to promote reuse and collaboration with the public, and it must release at least 20% of new custom-developed code as open source software each year.",
+  "ground_truth": "Through OPEN Data workflows and Code.gov after security review.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:43:27.046567",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response inaccurately states that DOT must release at least 20% of new custom-developed code as open source software each year, which is not supported by the ground truth answer. The correct process involves OPEN Data workflows and Code.gov after a security review, which the White Agent did not mention.",
+  "provider": "deepseek"
+}

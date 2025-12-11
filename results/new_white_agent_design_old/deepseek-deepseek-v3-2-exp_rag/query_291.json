@@ -1,0 +1,12 @@
+{
+  "query_id": 291,
+  "query": "What disclosure must appear on every AI-generated law enforcement report?",
+  "response": "Part 1: Currently, no federal law mandates AI disclosure on law enforcement reports, though the AI Disclosure Act of 2023 proposed labeling requirements for AI-generated responses but has yet to pass.\n\nPart 2: The provided sources indicate there is no existing federal AI disclosure requirement that applies to law enforcement reports. While Executive Order 14110 directs federal agencies to inventory their AI use and develop best practices, it does not establish a specific disclosure mandate for generated reports. Some states have begun enacting their own transparency laws, but at the federal level, proposed legislation like the AI Disclosure Act remains under review and is not yet law.",
+  "ground_truth": "The report must clearly identify every AI program used and prominently state: “This report was written either fully or in part using artificial intelligence.”",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:23:12.303591",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that there is no federal law mandating AI disclosure on law enforcement reports, while the ground truth specifies a clear requirement for disclosure. The response misrepresents the current legal landscape regarding AI-generated reports.",
+  "provider": "deepseek"
+}

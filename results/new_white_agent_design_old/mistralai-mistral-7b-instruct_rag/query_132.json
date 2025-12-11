@@ -1,0 +1,12 @@
+{
+  "query_id": 132,
+  "query": "What must project teams do when retraining a model?",
+  "response": "Part 1: Project teams must notify the federal government and share the results of all red-team safety tests when retraining a model that poses a serious risk.\n\nPart 2: The Executive Order mandates that companies developing foundation models with significant risks must comply with the Defense Production Act, ensuring they report to the government during training. This includes submitting safety test results to verify the model's security before public release. The National Institute of Standards and Technology will establish rigorous standards for these tests, while the Department of Homeland Security will oversee critical infrastructure protections. These measures aim to ensure AI systems are safe, secure, and trustworthy before deployment.",
+  "ground_truth": "Update the Model Card and Datasheet.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:37:44.757050",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response provides information about notifying the federal government and safety tests, which is not the ground truth answer. The correct action when retraining a model is to update the Model Card and Datasheet, which is not mentioned in the response.",
+  "provider": "deepseek"
+}

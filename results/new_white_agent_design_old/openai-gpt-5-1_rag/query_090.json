@@ -1,0 +1,12 @@
+{
+  "query_id": 90,
+  "query": "What standards apply when DHS acquires AI systems?",
+  "response": "**Part 1:**  \nWhen DHS acquires AI systems, they must comply with the requirements of M-25-21 as implemented through the DHS Compliance Plan, which focuses on AI innovation, AI governance, and public trust through transparency in AI operations and investments.  \n\n**Part 2:**  \nDHS has a formal Compliance Plan that explains how the Department will meet all requirements of M-25-21 for its AI activities. Those requirements cover how AI is adopted, governed, and monitored, which directly applies when DHS procures or invests in new AI systems. By tying acquisitions to this framework, DHS is required to prioritize responsible AI innovation and effective governance structures. It must also ensure transparency and accountability to the public for AI-related operations and investments, including purchased AI capabilities.",
+  "ground_truth": "Acquisitions must address testing, risk management, transparency, performance evaluation, data ownership, and environmental efficiency.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:45:26.902662",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response references M-25-21 and the DHS Compliance Plan, but it does not accurately reflect the specific standards mentioned in the ground truth answer, such as testing, risk management, performance evaluation, data ownership, and environmental efficiency.",
+  "provider": "deepseek"
+}

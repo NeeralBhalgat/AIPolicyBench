@@ -1,0 +1,12 @@
+{
+  "query_id": 279,
+  "query": "What civil penalty may be imposed for violating the act?",
+  "response": "The civil penalty that may be imposed is a civil money penalty with a **maximum daily amount of $2,904 for violations that occur on or after January 15, 2025.**",
+  "ground_truth": "Up to $1,000,000 per violation.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:33:05.942275",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states the maximum daily civil penalty as $2,904, while the ground truth indicates that the penalty can be up to $1,000,000 per violation.",
+  "provider": "deepseek"
+}

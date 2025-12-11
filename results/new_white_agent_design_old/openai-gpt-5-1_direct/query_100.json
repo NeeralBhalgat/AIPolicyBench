@@ -1,0 +1,12 @@
+{
+  "query_id": 100,
+  "query": "When must DHS complete its formal AI Directive and Instruction?",
+  "response": "According to the Department of Homeland Security’s published AI strategy and governance plans, DHS has committed to complete its formal AI Directive and Instruction **by December 2024** (i.e., by the end of calendar year 2024).  \n\nI have not seen a more specific publicly stated day",
+  "ground_truth": "Within 12 months after the publication of Policy Statement 139-06.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:50:40.513940",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response incorrectly states that DHS must complete its formal AI Directive and Instruction by December 2024, while the ground truth indicates it must be completed within 12 months after the publication of Policy Statement 139-06, which is not specified in the White Agent's response.",
+  "provider": "deepseek"
+}

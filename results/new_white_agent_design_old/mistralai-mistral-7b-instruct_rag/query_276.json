@@ -1,0 +1,12 @@
+{
+  "query_id": 276,
+  "query": "What must be included in a transparency report before deploying a frontier model?",
+  "response": "<s> [OUT] Part 1: Before deploying a frontier model, the transparency report must explain what risk assessments and mitigations the company has in place and why they believe they are adequate.\n\nPart 2: The report must cover both public and internal deployments, addressing risks like the model evading oversight mechanisms. Companies must justify their risk frameworks, including assessments of catastrophic risks and third-party evaluations, with updates required annually or when changes occur. This ensures accountability and transparency in managing potential AI hazards.",
+  "ground_truth": "Release date, languages, modalities, intended uses, restrictions, and summaries of catastrophic-risk assessments.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:58:44.387527",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response focuses on risk assessments and mitigations, which are important but does not include key elements from the ground truth answer such as release date, languages, modalities, intended uses, and restrictions. Therefore, it is factually incorrect.",
+  "provider": "deepseek"
+}

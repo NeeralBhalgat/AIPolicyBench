@@ -1,0 +1,12 @@
+{
+  "query_id": 265,
+  "query": "Are large online platforms allowed to remove system provenance data from uploaded content?",
+  "response": "Part 1: Yes; because C2PA now operates as an “open ecosystem” without guaranteed end‑to‑end compliance, content can “unwittingly exit the C2PA ecosystem during content processing,” resulting in uploaded media with invalid or missing provenance data.\n\nPart 2: The provenance system depends on every step in the chain—from capture to posting—preserving the C2PA metadata, an assumption that was more realistic in a closed, professional ecosystem than on today’s large, open platforms. In practice, platforms and their processing tools may strip or alter this metadata as they transcode, compress, or otherwise handle user uploads. Since participation in C2PA is voluntary and not universally enforced, there is no built‑in obligation that platforms retain the marks. This leads to situations where perfectly real content appears without valid C2PA credentials, undermining users’ ability to interpret the marks and trust the system.",
+  "ground_truth": "No, they may not knowingly strip system provenance data if technically feasible.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T06:29:49.870103",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that platforms can remove provenance data due to the lack of guaranteed compliance in the C2PA ecosystem. The ground truth indicates that platforms may not knowingly strip this data if it is technically feasible, which contradicts the White Agent's assertion.",
+  "provider": "deepseek"
+}

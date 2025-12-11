@@ -1,0 +1,12 @@
+{
+  "query_id": 220,
+  "query": "What federal law created protections for sharing cyber threat indicators discussed in the findings of AB 979?",
+  "response": "Based on the specific reference to findings within Assembly Bill 979 (AB 979), which is a California state law, the federal law being cited is the **Cybersecurity Information Sharing Act of 2015 (CISA)**.\n\nCISA is not a standalone law but was enacted as Title I of the **Consolidated Appropriations Act, 2016** (Public Law 114-113).\n\nHere are the key details:\n\n*   **Full Name:** The Cybersecurity Information Sharing Act of 2015 (CISA).\n*   **Primary Purpose:** To encourage and facilitate the sharing of cyber threat indicators and defensive measures between private entities and the federal government.\n*   **Core Protections:** CISA provides two main legal protections to incentivize sharing:\n    1.  **Liability Protection:** Private entities are granted protection from lawsuits for monitoring their information systems or sharing and receiving cyber threat indicators in accordance with the law.\n    2.  **Privacy Protections:** The law includes requirements to remove personally identifiable information (PII) that is not directly related to a cybersecurity threat before sharing. It also sets limits on how the federal government can use and disclose the shared information (e.g., primarily for cybersecurity purposes).\n\nTherefore, when AB 979's findings mention a federal law that created protections for sharing cyber threat indicators, it is directly referencing the legal safeguards established by the Cybersecurity Information Sharing Act of 2015.",
+  "ground_truth": "The Cybersecurity Information Sharing Act of 2015 (CISA 2015).",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T05:07:53.831425",
+  "confidence": 0.95,
+  "reasoning": "The White Agent accurately identifies the Cybersecurity Information Sharing Act of 2015 (CISA) as the federal law that created protections for sharing cyber threat indicators, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 191,
+  "query": "What must all authorized AI users avoid?",
+  "response": "Based on my knowledge, authorized AI users must avoid actions that compromise national security, public safety, or critical infrastructure.",
+  "ground_truth": "Inputting any federal nonpublic information into AI systems without authorization.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:02:38.987351",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response identifies actions to avoid that are related to national security and public safety, but it does not specifically mention the critical issue of inputting federal nonpublic information into AI systems without authorization, which is the ground truth answer.",
+  "provider": "deepseek"
+}

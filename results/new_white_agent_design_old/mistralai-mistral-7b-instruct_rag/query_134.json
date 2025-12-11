@@ -1,0 +1,12 @@
+{
+  "query_id": 134,
+  "query": "What federal guidance remains in effect for AI during the interim period?",
+  "response": "<s> [OUT] Part 1: The AI in Government Act of 2020 and the Advancing American AI Act, along with 10 executive branch oversight groups, guide federal AI efforts.\n\nPart 2: The AI in Government Act of 2020 and the Advancing American AI Act are key federal laws that have shaped AI-related requirements for federal agencies. Additionally, 10 executive branch oversight groups play a role in overseeing federal AI use, ensuring compliance with these laws and other guidance. These frameworks remain in effect during the interim period, providing a structured approach to federal AI adoption and governance. [/OUT]",
+  "ground_truth": "EO 13859 and EO 13960.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:38:13.916444",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response mentions the AI in Government Act of 2020 and the Advancing American AI Act, which are not the correct federal guidance in effect during the interim period. The ground truth specifies Executive Orders 13859 and 13960, which are the relevant guidance documents.",
+  "provider": "deepseek"
+}

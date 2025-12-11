@@ -1,0 +1,12 @@
+{
+  "query_id": 290,
+  "query": "How does SB 361 strengthen consumer privacy rights under the CPRA?",
+  "response": "Part 1: SB 361 strengthens consumer privacy rights under the CPRA by establishing new requirements for data brokers, including a mandated deletion mechanism and a new, more accessible privacy policy framework.\n\nPart 2: The bill specifically requires data brokers to establish a deletion mechanism that allows consumers to delete their data through a single, standardized request. It also mandates that data brokers create a new, accessible privacy policy specifically for consumers, separate from any general website policy. These provisions build upon the CPRA to provide more direct and simplified control over personal information held by data brokers.",
+  "ground_truth": "By expanding data broker disclosures, strengthening deletion rules, adding audits, and limiting public access to sensitive data types.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T04:23:15.023713",
+  "confidence": 0.7,
+  "reasoning": "While the White Agent's response mentions new requirements for data brokers and a deletion mechanism, it does not accurately reflect the ground truth, which includes specific elements like audits and limitations on public access to sensitive data types. Therefore, the response is factually incorrect.",
+  "provider": "deepseek"
+}

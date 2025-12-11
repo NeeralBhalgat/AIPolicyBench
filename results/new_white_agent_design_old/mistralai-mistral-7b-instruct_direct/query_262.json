@@ -1,0 +1,12 @@
+{
+  "query_id": 262,
+  "query": "Which platforms must detect embedded provenance data beginning January 1, 2027?",
+  "response": "According to the U.S. National AI Research and Development Strategic Plan, platforms that must detect embedded provenance data beginning January 1, 2027, include:\n\n1. **Social Media Platforms**: Platforms with over 50 million monthly active users in the U.S. that allow user-generated content, such as Facebook, X (formerly Twitter), Instagram, and TikTok.\n2. **Search Engines**: Major search engines like Google, Bing, and Yahoo.\n3. **Content Hosting Services**: Platforms like YouTube, Reddit, and Medium that host user-generated content.\n4. **Messaging and Communication Platforms**: Services like WhatsApp, Telegram, and Signal that facilitate the sharing of digital content.\n\nThese requirements are part of broader efforts to ensure transparency and accountability in AI-generated content, as outlined in the U.S. Executive Order on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (October 2023). The specific implementation details, including the threshold for \"major platforms,\" may be subject to further regulatory clarification.\n\nFor the most accurate and up-to-date information, it is advisable to consult the latest regulatory guidance from the U.S. government or relevant agencies like the National Institute of Standards and Technology (NIST) or the Federal Trade Commission (FTC).",
+  "ground_truth": "Large online platforms.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T03:17:17.195159",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response incorrectly specifies the types of platforms that must detect embedded provenance data, as the ground truth answer is simply 'large online platforms.' The detailed list provided does not align with the ground truth and suggests a misunderstanding of the requirements.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 29,
+  "query": "How does the order limit its legal effect on agencies’ authorities?",
+  "response": "It specifies that nothing in the order shall be construed to impair or otherwise affect the authority granted by law to an agency or its head, and that its implementation must be consistent with existing law and subject to the availability of appropriations.",
+  "ground_truth": "It doesn’t impair existing legal authorities or OMB’s functions.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:36:55.653517",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the ground truth by stating that the order does not impair existing legal authorities, aligning with the assertion that it must be consistent with existing law.",
+  "provider": "deepseek"
+}

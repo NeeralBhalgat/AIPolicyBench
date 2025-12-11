@@ -1,0 +1,12 @@
+{
+  "query_id": 173,
+  "query": "Why is workforce training emphasized?",
+  "response": "To prepare citizens for high-paying skilled trade jobs and address the fact that many of the 6.6 million unfilled jobs require skills training but not a college degree.",
+  "ground_truth": "The NRC must develop staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:47:32.394052",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response focuses on workforce training for skilled trade jobs, which does not align with the ground truth answer that emphasizes the need for staff capable of evaluating advanced AI technologies and regulatory challenges.",
+  "provider": "deepseek"
+}

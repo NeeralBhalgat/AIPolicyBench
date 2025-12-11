@@ -1,0 +1,12 @@
+{
+  "query_id": 33,
+  "query": "Which governance bodies lead AI?",
+  "response": "Part 1: The Deloitte AI Governance Roadmap outlines the role of boards of directors in overseeing AI.\n\nPart 2: The Roadmap is designed to guide boards in understanding their responsibilities and provides them with questions to support effective AI governance. It applies the Deloitte Governance Framework to AI, offering an end-to-end view of governance. While no broad federal legislation exists, targeted provisions and administrative efforts also shape AI governance.",
+  "ground_truth": "CAIO, USDA AI Council (Dep. Sec. chairs; CAIO vice-chairs), Generative AI Review Board (GAIRB), CDO Council; Mission Area ACAIOs.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T02:23:54.265699",
+  "confidence": 0.8,
+  "reasoning": "The White Agent's response discusses the Deloitte AI Governance Roadmap and the role of boards of directors, which is not directly relevant to the specific governance bodies leading AI as outlined in the ground truth answer. The response does not mention the CAIO, USDA AI Council, or other specific governance bodies, making it factually incorrect.",
+  "provider": "deepseek"
+}

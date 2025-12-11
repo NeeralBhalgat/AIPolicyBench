@@ -1,0 +1,12 @@
+{
+  "query_id": 182,
+  "query": "What is the purpose of the GSA AI directive?",
+  "response": "The purpose of the GSA AI directive is to establish guidelines for the responsible use of artificial intelligence within the U.S. federal government, ensuring that AI applications are ethical, secure, and aligned with public interest.",
+  "ground_truth": "To establish governing policies for controlled access and responsible use of AI across GSA.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:28:43.520147",
+  "confidence": 0.7,
+  "reasoning": "The White Agent's response inaccurately describes the purpose of the GSA AI directive by focusing on ethical and public interest aspects rather than the specific aim of establishing governing policies for controlled access and responsible use of AI across GSA.",
+  "provider": "deepseek"
+}

@@ -1,0 +1,12 @@
+{
+  "query_id": 222,
+  "query": "What defense is prohibited under §1714.46(b) for defendants who developed, modified, or used artificial intelligence?",
+  "response": "The defense prohibited under §1714.46(b) is that the artificial intelligence autonomously caused the harm to the plaintiff. [REF]Source 2, Source 3, Source 4[/REF]",
+  "ground_truth": "They may not assert that the artificial intelligence autonomously caused the harm.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:20:16.081299",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the prohibition stated in §1714.46(b), confirming that defendants cannot claim that the AI autonomously caused the harm, which aligns with the ground truth answer.",
+  "provider": "deepseek"
+}

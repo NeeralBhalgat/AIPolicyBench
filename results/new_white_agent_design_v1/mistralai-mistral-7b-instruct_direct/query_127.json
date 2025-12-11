@@ -1,0 +1,12 @@
+{
+  "query_id": 127,
+  "query": "What constitutes a change requiring updates to AI artifacts?",
+  "response": "A change requiring updates to AI artifacts typically involves modifications to the underlying data, algorithms, or models that could impact the system's performance, safety, or compliance with regulations. This includes changes in training data, model architecture, or operational parameters that may affect the AI system's behavior or outputs.",
+  "ground_truth": "Changes to scope, purpose, impact, models, or data sources.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T15:27:44.545926",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately identifies key factors that necessitate updates to AI artifacts, such as modifications to data, algorithms, or models, which align with the ground truth answer regarding changes to scope, purpose, impact, models, or data sources.",
+  "provider": "deepseek"
+}

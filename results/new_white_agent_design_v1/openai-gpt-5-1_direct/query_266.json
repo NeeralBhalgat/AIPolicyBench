@@ -1,0 +1,12 @@
+{
+  "query_id": 266,
+  "query": "What is the requirement beginning January 1, 2027, for GenAI system hosting platforms?",
+  "response": "I don't have enough information to answer this question.",
+  "ground_truth": "They must not make available any GenAI system that does not place required disclosures.",
+  "evaluation_result": "miss",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-10T16:49:28.387021",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the requirement for GenAI system hosting platforms beginning January 1, 2027.",
+  "provider": "deepseek"
+}
