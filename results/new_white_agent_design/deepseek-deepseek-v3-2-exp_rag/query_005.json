@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan supports fostering \"a vibrant, competitive, and open technology ecosystem\" and broadening AI tools' availability to small companies through open-weight models.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:50:39.134579",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response aligns with the ground truth by emphasizing the support for open-weight models and their role in fostering innovation and accessibility for small companies, which reflects the plan's stance.",
+  "provider": "deepseek"
+}

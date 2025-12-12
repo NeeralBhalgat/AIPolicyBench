@@ -2,42 +2,42 @@
   "description": "White agent URL to identifier mapping. Auto-updated by deployment script.",
   "agents": [
     {
-      "url": "https://substantially-insertion-unfortunately-about.trycloudflare.com/to_agent/1b279d99d9524f0ab31e52d9d7810d68",
+      "url": "https://pressed-warren-cluster-reduces.trycloudflare.com/to_agent/5a260474372a4bde909f90a86c1788a9",
       "identifier": "mistralai-mistral-7b-instruct_rag",
       "model": "mistralai/mistral-7b-instruct",
       "mode": "rag",
       "port": 8011
     },
     {
-      "url": "https://instead-arcade-mitsubishi-steering.trycloudflare.com/to_agent/452265dd711946dbbe77c656f7e10ed2",
+      "url": "https://billing-preventing-weekend-transactions.trycloudflare.com/to_agent/6aa9feaab2434b6eb3cb0ded03d748b5",
       "identifier": "deepseek-deepseek-v3-2-exp_rag",
       "model": "deepseek/deepseek-v3.2-exp",
       "mode": "rag",
       "port": 8012
     },
     {
-      "url": "https://vessel-risks-evidence-resolved.trycloudflare.com/to_agent/05cc82b600514bbe8d968f795801e631",
+      "url": "https://timeline-idol-enforcement-buy.trycloudflare.com/to_agent/ea45debedba442e08125878366f26633",
       "identifier": "openai-gpt-5-1_rag",
       "model": "openai/gpt-5.1",
       "mode": "rag",
       "port": 8013
     },
     {
-      "url": "https://marina-consider-silk-brooklyn.trycloudflare.com/to_agent/280ec236866746a793dcae82bd1942e2",
+      "url": "https://indie-demonstrated-thumbzilla-spoken.trycloudflare.com/to_agent/2e20fce598b448e19ced80b1100b973f",
       "identifier": "mistralai-mistral-7b-instruct_direct",
       "model": "mistralai/mistral-7b-instruct",
       "mode": "direct",
       "port": 8014
     },
     {
-      "url": "https://dts-solving-attempt-accommodation.trycloudflare.com/to_agent/e54dd1e8e824459281d4b03f1ce4102e",
+      "url": "https://big-scholarships-showtimes-facts.trycloudflare.com/to_agent/c7a8e5397f1c448fa346c990e7257e11",
       "identifier": "deepseek-deepseek-v3-2-exp_direct",
       "model": "deepseek/deepseek-v3.2-exp",
       "mode": "direct",
       "port": 8015
     },
     {
-      "url": "https://amount-festival-deck-describe.trycloudflare.com/to_agent/826005d1cbd74646bf8191919ec833e9",
+      "url": "https://gbp-retail-mysql-brings.trycloudflare.com/to_agent/67f76013a2e34497af374ef8609139b8",
       "identifier": "openai-gpt-5-1_direct",
       "model": "openai/gpt-5.1",
       "mode": "direct",

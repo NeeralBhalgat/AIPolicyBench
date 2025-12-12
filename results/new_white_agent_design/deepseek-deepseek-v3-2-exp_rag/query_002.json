@@ -1,0 +1,12 @@
+{
+  "query_id": 2,
+  "query": "Why must the U.S. win the global AI race?",
+  "response": "The U.S. must win the global AI race to sustain and enhance America's global AI dominance in order to promote human flourishing, economic competitiveness, and national security.",
+  "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:50:28.588823",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of winning the global AI race for promoting human flourishing, economic competitiveness, and national security, which aligns with the ground truth about setting global standards and gaining benefits.",
+  "provider": "deepseek"
+}

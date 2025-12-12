@@ -606,11 +606,14 @@ class GreenAgentExecutor(AgentExecutor):
 
     def __init__(self):
         """Initialize the green agent executor."""
-        pass
+        self._background_tasks = set()
 
     async def execute(self, context: RequestContext, event_queue: EventQueue) -> None:
         """
         Execute an evaluation task for one or more white agents.
+        
+        IMPORTANT: To avoid Cloudflare 524 timeout (100s limit), this method
+        sends an immediate acknowledgment and processes evaluation in background.
 
         Args:
             context: Request context containing the evaluation task
@@ -625,8 +628,8 @@ class GreenAgentExecutor(AgentExecutor):
 
         Default configuration (can be overridden with tags):
             - use_llm_judge: true (GPT-4o-mini for evaluation)
-            - max_queries: 300 (full dataset evaluation)
-            - batch_size: 16 (concurrent requests per batch)
+            - max_queries: 5 (per agent)
+            - batch_size: 4 (concurrent requests per batch)
             - queries_file: data/predefined_queries.json
         """
         logger.info("Green agent: Received evaluation task")
@@ -689,8 +692,76 @@ class GreenAgentExecutor(AgentExecutor):
         logger.info(f"Max queries: {max_queries if max_queries is not None else 'all'}")
         logger.info(f"Batch size: {batch_size}")
 
-        # Evaluate each white agent
+        # ============================================================
+        # SYNCHRONOUS EVALUATION: Wait for completion before responding
+        # This ensures agentbeats workflow doesn't end prematurely
+        # ============================================================
+        logger.info("Starting synchronous evaluation (will wait for completion)")
+        
+        # Run evaluation synchronously and collect results
+        all_results = await self._run_evaluation_sync(
+            white_agent_configs=white_agent_configs,
+            queries_file=queries_file,
+            use_llm_judge=use_llm_judge,
+            max_queries=max_queries,
+            batch_size=batch_size
+        )
+        
+        # Build final response message
+        agent_list = "\n".join([f"  - {c['identifier'] or c['url']}" for c in white_agent_configs])
+        
+        # Build results summary
+        results_summary = ""
+        for i, result in enumerate(all_results, 1):
+            agent_id = result.get("agent_identifier", f"agent_{i}")
+            if "error" in result:
+                results_summary += f"\n{i}. ❌ {agent_id}: Failed - {result['error']}"
+            else:
+                stats = result["statistics"]
+                timeout_info = f", ⏱️{stats.get('timeout', 0)} timeout" if stats.get('timeout', 0) > 0 else ""
+                results_summary += f"\n{i}. ✅ {agent_id}:"
+                results_summary += f"\n   - Factuality: {stats['factuality_rate']:.2f}%"
+                results_summary += f"\n   - Correct: {stats['correct']}/{stats.get('evaluated', stats['total'])} ({stats['correct_rate']:.2f}%){timeout_info}"
+                results_summary += f"\n   - Miss: {stats['miss']} ({stats['miss_rate']:.2f}%)"
+                results_summary += f"\n   - Hallucination: {stats['hallucination']} ({stats['hallucination_rate']:.2f}%)"
+        
+        final_message = f"""✅ EVALUATION COMPLETE
+
+📋 Configuration:
+  - Agents evaluated: {len(white_agent_configs)}
+  - Questions per agent: {max_queries if max_queries else 'all'}
+  - LLM Judge: {use_llm_judge}
+  - Batch size: {batch_size}
+
+🎯 Target agents:
+{agent_list}
+
+📊 Results:
+{results_summary}
+
+📂 Results saved to: results/new_white_agent_design/"""
+
+        await event_queue.enqueue_event(new_agent_text_message(final_message))
+        logger.info("Evaluation complete, response sent")
+
+    async def _run_evaluation_sync(
+        self,
+        white_agent_configs: list,
+        queries_file: str,
+        use_llm_judge: bool,
+        max_queries: int,
+        batch_size: int
+    ) -> list:
+        """
+        Run the actual evaluation synchronously.
+        Results are saved to files and returned to caller.
+        
+        Returns:
+            List of evaluation results for each agent
+        """
+        logger.info("Synchronous evaluation started")
         all_results = []
+        
         for idx, config in enumerate(white_agent_configs, 1):
             white_agent_url = config["url"]
             provided_identifier = config["identifier"]
@@ -718,10 +789,7 @@ class GreenAgentExecutor(AgentExecutor):
                     agent_identifier = f"{model_clean}_{mode}"
                     logger.info(f"Agent identifier: {agent_identifier}")
 
-                # Send progress update
-                await event_queue.enqueue_event(new_agent_text_message(
-                    f"🔄 Evaluating agent {idx}/{len(white_agent_configs)}: {agent_identifier}..."
-                ))
+                logger.info(f"🔄 Evaluating agent {idx}/{len(white_agent_configs)}: {agent_identifier}...")
 
                 # Run evaluation
                 result = await evaluate_white_agent(
@@ -738,31 +806,28 @@ class GreenAgentExecutor(AgentExecutor):
                 result["agent_url"] = white_agent_url
                 all_results.append(result)
 
-                # Send individual result
+                # Log individual result
                 if "error" in result:
-                    status = f"❌ {agent_identifier}: Evaluation failed - {result['error']}"
+                    logger.error(f"❌ {agent_identifier}: Evaluation failed - {result['error']}")
                 else:
                     stats = result["statistics"]
-                    status = f"""✅ {agent_identifier}: Complete
+                    logger.info(f"""✅ {agent_identifier}: Complete
 - Correct: {stats['correct']} ({stats['correct_rate']:.2f}%)
 - Miss: {stats['miss']} ({stats['miss_rate']:.2f}%)
 - Hallucination: {stats['hallucination']} ({stats['hallucination_rate']:.2f}%)
-- Factuality: {stats['factuality_rate']:.2f}%"""
-
-                await event_queue.enqueue_event(new_agent_text_message(status))
+- Factuality: {stats['factuality_rate']:.2f}%""")
 
             except Exception as e:
                 error_msg = f"❌ Error evaluating {white_agent_url}: {str(e)}"
                 logger.error(error_msg)
-                await event_queue.enqueue_event(new_agent_text_message(error_msg))
                 all_results.append({
                     "agent_url": white_agent_url,
                     "error": str(e)
                 })
 
-        # Send final summary
+        # Log final summary
         logger.info("\n" + "="*80)
-        logger.info("All evaluations complete!")
+        logger.info("ALL EVALUATIONS COMPLETE!")
         logger.info("="*80)
 
         summary = f"\n{'='*80}\n✅ ALL EVALUATIONS COMPLETE!\n{'='*80}\n\n"
@@ -780,7 +845,9 @@ class GreenAgentExecutor(AgentExecutor):
                 summary += f"   - Correct: {stats['correct']}/{stats.get('evaluated', stats['total'])} ({stats['correct_rate']:.2f}%){timeout_info}\n"
 
         summary += f"\n{'='*80}\n"
-        await event_queue.enqueue_event(new_agent_text_message(summary))
+        logger.info(summary)
+        
+        return all_results
 
     async def cancel(self, context: RequestContext, event_queue: EventQueue) -> None:
         """Cancel the current execution (not implemented)."""

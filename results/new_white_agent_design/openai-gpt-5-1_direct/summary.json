@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "query_id": 1,
+      "query": "What are the three pillars of America’s AI Action Plan?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:33.394983",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the answer, which aligns with the classification of 'miss'.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 2,
+      "query": "Why must the U.S. win the global AI race?",
+      "response": "There is no objective requirement that the U.S. “must” win, but U.S. policymakers and experts commonly argue that U.S. leadership in AI is important to: (1) protect national security and economic competitiveness, and (2) ensure that global AI standards and norms are shaped more by democratic and human‑rights‑oriented values than by authoritarian models.",
+      "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+      "evaluation_result": "correct",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:35.954147",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response accurately reflects the importance of U.S. leadership in AI for national security and economic competitiveness, aligning with the ground truth that emphasizes the benefits of setting global standards. While it does not explicitly state the broad economic and military benefits, it captures the essence of the argument.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 3,
+      "query": "What immediate deregulatory step did President Trump take on AI?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:34.184434",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about President Trump's deregulatory step on AI.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 4,
+      "query": "How will procurement address ideological bias in AI?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:35.085602",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about how procurement will address ideological bias in AI.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 5,
+      "query": "What is the plan’s stance on open-source/open-weight models?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:38.961820",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and admits not knowing the stance on open-source/open-weight models, which does not provide any information related to the ground truth answer.",
+      "provider": "deepseek"
+    }
+  ],
+  "statistics": {
+    "total": 5,
+    "evaluated": 5,
+    "correct": 1,
+    "miss": 4,
+    "hallucination": 0,
+    "timeout": 0,
+    "correct_rate": 20.0,
+    "miss_rate": 80.0,
+    "hallucination_rate": 0.0,
+    "timeout_rate": 0.0,
+    "factuality_rate": 100.0
+  },
+  "method": "LLM-as-a-judge",
+  "white_agent_url": "https://gbp-retail-mysql-brings.trycloudflare.com/to_agent/67f76013a2e34497af374ef8609139b8",
+  "white_agent_model": "openai-gpt-5-1_direct",
+  "queries_file": "data/predefined_queries.json",
+  "timestamp": "20251212_155128",
+  "results_dir": "results/new_white_agent_design/openai-gpt-5-1_direct",
+  "llm_judge_provider": "openai/gpt-4o-mini",
+  "llm_judge_model": "openai/gpt-4o-mini"
+}

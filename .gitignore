@@ -5,6 +5,7 @@ __pycache__/
 
 # Environment variables
 .env
+.cloudflare_urls.env
 
 # Virtual environment
 venv/

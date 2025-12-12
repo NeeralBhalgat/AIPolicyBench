@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Send evaluation task to a running green agent for all white agents.
-Automatically reads white agent URLs from white_agents_config.json.
+Automatically reads:
+- Green agent URL from .ab/agents/*/agent_card
+- White agent URLs from white_agents_config.json
 
 Note: Evaluation parameters (max_queries, batch_size, etc.) are configured
 in the green agent's a2a_evaluator.py, not passed via this script.
@@ -21,6 +23,59 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
+
+
+def get_green_agent_url_from_ab() -> str | None:
+    """
+    Get the green agent URL from .ab/agents/*/agent_card file.
+    
+    Looks for an agent with name containing 'green' or description 
+    containing 'Assessment manager' or 'evaluation'.
+    
+    Returns:
+        Green agent URL if found, None otherwise
+    """
+    ab_agents_dir = Path(".ab/agents")
+    
+    if not ab_agents_dir.exists():
+        logger.warning(f"⚠️ .ab/agents directory not found")
+        return None
+    
+    # Iterate through all agent directories
+    for agent_dir in ab_agents_dir.iterdir():
+        if not agent_dir.is_dir():
+            continue
+            
+        agent_card_path = agent_dir / "agent_card"
+        if not agent_card_path.exists():
+            continue
+        
+        try:
+            with open(agent_card_path, 'r') as f:
+                agent_card = json.load(f)
+            
+            name = agent_card.get('name', '').lower()
+            description = agent_card.get('description', '').lower()
+            url = agent_card.get('url', '')
+            
+            # Check if this is a green agent
+            is_green = (
+                'green' in name or
+                'assessment manager' in description or
+                'evaluating rag agents' in description
+            )
+            
+            if is_green and url:
+                logger.info(f"✅ Found green agent from .ab: {agent_card.get('name')}")
+                logger.info(f"   URL: {url}")
+                return url
+                
+        except Exception as e:
+            logger.warning(f"⚠️ Error reading agent_card in {agent_dir}: {e}")
+            continue
+    
+    logger.warning("⚠️ No green agent found in .ab/agents/")
+    return None
 
 
 def load_white_agent_urls(config_file: str = "white_agents_config.json") -> list:
@@ -56,20 +111,29 @@ def load_white_agent_urls(config_file: str = "white_agents_config.json") -> list
 
 
 async def send_evaluation_task(
-    green_url: str = "http://localhost:8010",
     config_file: str = "white_agents_config.json"
 ):
     """
     Send evaluation task to green agent for all white agents from config.
+    
+    Green agent URL is automatically obtained from .ab/agents/*/agent_card.
 
     Args:
-        green_url: URL of the green agent
         config_file: Path to white agents configuration file
     """
     logger.info("=" * 80)
     logger.info("📤 Sending evaluation task to green agent")
     logger.info("=" * 80)
 
+    # Get green agent URL from .ab directory
+    green_url = get_green_agent_url_from_ab()
+    
+    if not green_url:
+        logger.error("❌ Could not find green agent URL from .ab directory")
+        logger.error("Please start the green agent first:")
+        logger.error("  ./start_multi_agents_cloudflare.sh")
+        return
+    
     # Load white agent URLs from config
     white_urls = load_white_agent_urls(config_file)
 
@@ -156,11 +220,6 @@ def main():
         description="Send evaluation task to green agent for all white agents"
     )
     parser.add_argument(
-        "--green-url",
-        default="http://localhost:8010",
-        help="URL of the green agent (default: http://localhost:8010)"
-    )
-    parser.add_argument(
         "--config",
         default="white_agents_config.json",
         help="Path to white agents config file (default: white_agents_config.json)"
@@ -169,7 +228,6 @@ def main():
     args = parser.parse_args()
 
     asyncio.run(send_evaluation_task(
-        green_url=args.green_url,
         config_file=args.config
     ))
 

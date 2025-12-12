@@ -1,0 +1,12 @@
+{
+  "query_id": 2,
+  "query": "Why must the U.S. win the global AI race?",
+  "response": "There is no objective requirement that the U.S. “must” win, but U.S. policymakers and experts commonly argue that U.S. leadership in AI is important to: (1) protect national security and economic competitiveness, and (2) ensure that global AI standards and norms are shaped more by democratic and human‑rights‑oriented values than by authoritarian models.",
+  "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:51:35.954147",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the importance of U.S. leadership in AI for national security and economic competitiveness, aligning with the ground truth that emphasizes the benefits of setting global standards. While it does not explicitly state the broad economic and military benefits, it captures the essence of the argument.",
+  "provider": "deepseek"
+}

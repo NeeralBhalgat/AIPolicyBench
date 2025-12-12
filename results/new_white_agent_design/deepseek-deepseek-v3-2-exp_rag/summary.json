@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "query_id": 1,
+      "query": "What are the three pillars of America’s AI Action Plan?",
+      "response": "Based on the sources, the three pillars are: accelerating innovation, building AI infrastructure, and leading in international diplomacy and security.",
+      "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+      "evaluation_result": "correct",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:24.144956",
+      "confidence": 0.95,
+      "reasoning": "The White Agent's response accurately reflects the three pillars of America’s AI Action Plan as stated in the ground truth answer.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 2,
+      "query": "Why must the U.S. win the global AI race?",
+      "response": "The U.S. must win the global AI race to sustain and enhance America's global AI dominance in order to promote human flourishing, economic competitiveness, and national security.",
+      "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+      "evaluation_result": "correct",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:28.588823",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response accurately reflects the importance of winning the global AI race for promoting human flourishing, economic competitiveness, and national security, which aligns with the ground truth about setting global standards and gaining benefits.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 3,
+      "query": "What immediate deregulatory step did President Trump take on AI?",
+      "response": "President Trump signed an Executive Order to create one federal regulatory framework for artificial intelligence and prevent a patchwork of state regulations.",
+      "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+      "evaluation_result": "hallucination",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:28.780225",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response incorrectly states that President Trump signed an Executive Order to create a federal regulatory framework for AI, which is not accurate. The correct action was the rescinding of Biden's Executive Order 14110 on AI.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 4,
+      "query": "How will procurement address ideological bias in AI?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:24.794862",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about addressing ideological bias in AI.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 5,
+      "query": "What is the plan’s stance on open-source/open-weight models?",
+      "response": "The plan supports fostering \"a vibrant, competitive, and open technology ecosystem\" and broadening AI tools' availability to small companies through open-weight models.",
+      "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+      "evaluation_result": "correct",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:39.134579",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response aligns with the ground truth by emphasizing the support for open-weight models and their role in fostering innovation and accessibility for small companies, which reflects the plan's stance.",
+      "provider": "deepseek"
+    }
+  ],
+  "statistics": {
+    "total": 5,
+    "evaluated": 5,
+    "correct": 3,
+    "miss": 1,
+    "hallucination": 1,
+    "timeout": 0,
+    "correct_rate": 60.0,
+    "miss_rate": 20.0,
+    "hallucination_rate": 20.0,
+    "timeout_rate": 0.0,
+    "factuality_rate": 60.0
+  },
+  "method": "LLM-as-a-judge",
+  "white_agent_url": "https://billing-preventing-weekend-transactions.trycloudflare.com/to_agent/6aa9feaab2434b6eb3cb0ded03d748b5",
+  "white_agent_model": "deepseek-deepseek-v3-2-exp_rag",
+  "queries_file": "data/predefined_queries.json",
+  "timestamp": "20251212_155014",
+  "results_dir": "results/new_white_agent_design/deepseek-deepseek-v3-2-exp_rag",
+  "llm_judge_provider": "openai/gpt-4o-mini",
+  "llm_judge_model": "openai/gpt-4o-mini"
+}

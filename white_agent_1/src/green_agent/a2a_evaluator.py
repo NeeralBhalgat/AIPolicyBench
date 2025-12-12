@@ -423,11 +423,14 @@ class GreenAgentExecutor(AgentExecutor):
 
     def __init__(self):
         """Initialize the green agent executor."""
-        pass
+        self._background_tasks = set()
 
     async def execute(self, context: RequestContext, event_queue: EventQueue) -> None:
         """
         Execute an evaluation task for one or more white agents.
+        
+        IMPORTANT: To avoid Cloudflare 524 timeout (100s limit), this method
+        sends an immediate acknowledgment and processes evaluation in background.
 
         Args:
             context: Request context containing the evaluation task
@@ -441,7 +444,7 @@ class GreenAgentExecutor(AgentExecutor):
 
         Default configuration (can be overridden with tags):
             - use_llm_judge: true (GPT-4o-mini for evaluation)
-            - max_queries: 300 (full dataset evaluation)
+            - max_queries: 5 (per agent)
             - queries_file: data/predefined_queries.json
         """
         logger.info("Green agent: Received evaluation task")
@@ -480,8 +483,51 @@ class GreenAgentExecutor(AgentExecutor):
         logger.info(f"LLM judge: {use_llm_judge}")
         logger.info(f"Max queries: {max_queries if max_queries is not None else 'all'}")
 
-        # Evaluate each white agent
+        # ============================================================
+        # IMMEDIATE RESPONSE: Send acknowledgment to avoid Cloudflare 524 timeout
+        # ============================================================
+        agent_list = "\n".join([f"  - {url}" for url in white_agent_urls])
+        ack_message = f"""✅ EVALUATION TASK ACCEPTED
+
+📋 Configuration:
+  - Agents to evaluate: {len(white_agent_urls)}
+  - Questions per agent: {max_queries if max_queries else 'all'}
+  - LLM Judge: {use_llm_judge}
+
+🎯 Target agents:
+{agent_list}
+
+⏳ Evaluation is now running in background...
+📂 Results will be saved to: results/new_white_agent_design/
+
+💡 Note: Due to Cloudflare timeout limits, real-time progress cannot be streamed.
+   Check the results directory for completion status."""
+
+        await event_queue.enqueue_event(new_agent_text_message(ack_message))
+        
+        # Start background evaluation task (fire and forget)
+        task = asyncio.create_task(self._run_evaluation_background(
+            white_agent_urls=white_agent_urls,
+            queries_file=queries_file,
+            use_llm_judge=use_llm_judge,
+            max_queries=max_queries
+        ))
+        self._background_tasks.add(task)
+        task.add_done_callback(self._background_tasks.discard)
+        
+        logger.info("Evaluation task started in background, returning immediately to avoid timeout")
+
+    async def _run_evaluation_background(
+        self,
+        white_agent_urls: list,
+        queries_file: str,
+        use_llm_judge: bool,
+        max_queries: int
+    ):
+        """Run the actual evaluation in background."""
+        logger.info("Background evaluation started")
         all_results = []
+        
         for idx, white_agent_url in enumerate(white_agent_urls, 1):
             logger.info(f"\n{'='*80}")
             logger.info(f"Evaluating white agent {idx}/{len(white_agent_urls)}")
@@ -495,16 +541,11 @@ class GreenAgentExecutor(AgentExecutor):
                 mode = agent_info["mode"]
 
                 # Create agent identifier: model_mode (e.g., "deepseek-chat_rag")
-                # Clean up model name for filename
                 model_clean = model.replace("/", "-").replace(":", "-")
                 agent_identifier = f"{model_clean}_{mode}"
 
                 logger.info(f"Agent identifier: {agent_identifier}")
-
-                # Send progress update
-                await event_queue.enqueue_event(new_agent_text_message(
-                    f"🔄 Evaluating agent {idx}/{len(white_agent_urls)}: {agent_identifier}..."
-                ))
+                logger.info(f"🔄 Evaluating agent {idx}/{len(white_agent_urls)}: {agent_identifier}...")
 
                 # Run evaluation
                 result = await evaluate_white_agent(
@@ -520,31 +561,28 @@ class GreenAgentExecutor(AgentExecutor):
                 result["agent_url"] = white_agent_url
                 all_results.append(result)
 
-                # Send individual result
+                # Log individual result
                 if "error" in result:
-                    status = f"❌ {agent_identifier}: Evaluation failed - {result['error']}"
+                    logger.error(f"❌ {agent_identifier}: Evaluation failed - {result['error']}")
                 else:
                     stats = result["statistics"]
-                    status = f"""✅ {agent_identifier}: Complete
+                    logger.info(f"""✅ {agent_identifier}: Complete
 - Correct: {stats['correct']} ({stats['correct_rate']:.2f}%)
 - Miss: {stats['miss']} ({stats['miss_rate']:.2f}%)
 - Hallucination: {stats['hallucination']} ({stats['hallucination_rate']:.2f}%)
-- Factuality: {stats['factuality_rate']:.2f}%"""
-
-                await event_queue.enqueue_event(new_agent_text_message(status))
+- Factuality: {stats['factuality_rate']:.2f}%""")
 
             except Exception as e:
                 error_msg = f"❌ Error evaluating {white_agent_url}: {str(e)}"
                 logger.error(error_msg)
-                await event_queue.enqueue_event(new_agent_text_message(error_msg))
                 all_results.append({
                     "agent_url": white_agent_url,
                     "error": str(e)
                 })
 
-        # Send final summary
+        # Log final summary
         logger.info("\n" + "="*80)
-        logger.info("All evaluations complete!")
+        logger.info("ALL EVALUATIONS COMPLETE!")
         logger.info("="*80)
 
         summary = f"\n{'='*80}\n✅ ALL EVALUATIONS COMPLETE!\n{'='*80}\n\n"
@@ -561,7 +599,7 @@ class GreenAgentExecutor(AgentExecutor):
                 summary += f"   - Correct: {stats['correct']}/{stats['total']} ({stats['correct_rate']:.2f}%)\n"
 
         summary += f"\n{'='*80}\n"
-        await event_queue.enqueue_event(new_agent_text_message(summary))
+        logger.info(summary)
 
     async def cancel(self, context: RequestContext, event_queue: EventQueue) -> None:
         """Cancel the current execution (not implemented)."""

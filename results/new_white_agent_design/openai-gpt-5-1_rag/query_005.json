@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The plan “offers the strongest federal endorsement to date of open-source and open-weight AI models” and directs the Department of Commerce to promote their adoption, especially among small and medium-sized businesses.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:51:16.818037",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately reflects the plan's strong endorsement of open-source and open-weight AI models, aligning with the ground truth that emphasizes government support for these models to drive innovation and adoption.",
+  "provider": "deepseek"
+}

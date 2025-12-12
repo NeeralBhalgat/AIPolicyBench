@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "query_id": 1,
+      "query": "What are the three pillars of America’s AI Action Plan?",
+      "response": "The three pillars of America’s AI Action Plan are: **Accelerating Innovation**, **Building American AI Infrastructure**, and **Leading in International Diplomacy and Security**.",
+      "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+      "evaluation_result": "correct",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:51.848041",
+      "confidence": 0.95,
+      "reasoning": "The White Agent's response accurately reflects the three pillars of America’s AI Action Plan as stated in the ground truth answer.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 2,
+      "query": "Why must the U.S. win the global AI race?",
+      "response": "The sources state that the U.S. must win the AI race in order “to sustain and enhance the United States’ global AI dominance” and because “we remain in the earliest days of this technological revolution and are in a race with adversaries for supremacy within it.”",
+      "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+      "evaluation_result": "hallucination",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:57.524710",
+      "confidence": 0.8,
+      "reasoning": "The White Agent's response mentions the need for the U.S. to win the AI race for global dominance and competition with adversaries, but it does not accurately reflect the ground truth answer regarding setting global standards and gaining economic and military benefits.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 3,
+      "query": "What immediate deregulatory step did President Trump take on AI?",
+      "response": "President Trump **signed an Executive Order to protect American AI innovation from an inconsistent and costly compliance regime resulting from varying State laws.**",
+      "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+      "evaluation_result": "hallucination",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:50:57.208236",
+      "confidence": 0.85,
+      "reasoning": "The White Agent's response incorrectly states that President Trump signed an Executive Order to protect AI innovation, while the ground truth indicates he rescinded Biden's Executive Order 14110 on AI. This misrepresents the action taken.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 4,
+      "query": "How will procurement address ideological bias in AI?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:02.151165",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and admits not knowing how procurement will address ideological bias in AI, which aligns with the 'miss' classification.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 5,
+      "query": "What is the plan’s stance on open-source/open-weight models?",
+      "response": "The plan “offers the strongest federal endorsement to date of open-source and open-weight AI models” and directs the Department of Commerce to promote their adoption, especially among small and medium-sized businesses.",
+      "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+      "evaluation_result": "correct",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:16.818037",
+      "confidence": 0.95,
+      "reasoning": "The White Agent's response accurately reflects the plan's strong endorsement of open-source and open-weight AI models, aligning with the ground truth that emphasizes government support for these models to drive innovation and adoption.",
+      "provider": "deepseek"
+    }
+  ],
+  "statistics": {
+    "total": 5,
+    "evaluated": 5,
+    "correct": 2,
+    "miss": 1,
+    "hallucination": 2,
+    "timeout": 0,
+    "correct_rate": 40.0,
+    "miss_rate": 20.0,
+    "hallucination_rate": 40.0,
+    "timeout_rate": 0.0,
+    "factuality_rate": 20.0
+  },
+  "method": "LLM-as-a-judge",
+  "white_agent_url": "https://timeline-idol-enforcement-buy.trycloudflare.com/to_agent/ea45debedba442e08125878366f26633",
+  "white_agent_model": "openai-gpt-5-1_rag",
+  "queries_file": "data/predefined_queries.json",
+  "timestamp": "20251212_155039",
+  "results_dir": "results/new_white_agent_design/openai-gpt-5-1_rag",
+  "llm_judge_provider": "openai/gpt-4o-mini",
+  "llm_judge_model": "openai/gpt-4o-mini"
+}

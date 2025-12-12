@@ -1,0 +1,85 @@
+{
+  "results": [
+    {
+      "query_id": 1,
+      "query": "What are the three pillars of America’s AI Action Plan?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:19.677903",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the three pillars of America’s AI Action Plan.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 2,
+      "query": "Why must the U.S. win the global AI race?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "The leader will set global standards and gain broad economic and military benefits.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:19.374224",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question, which aligns with the classification of 'miss'.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 3,
+      "query": "What immediate deregulatory step did President Trump take on AI?",
+      "response": "President Trump's administration did not take any immediate deregulatory step specifically on AI during his term. However, in 2019, the White House released the \"Artificial Intelligence (AI) Initiative,\" which focused on maintaining the United States' leadership in AI but did not involve significant deregulation.",
+      "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+      "evaluation_result": "hallucination",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:19.954096",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response incorrectly states that President Trump's administration did not take any immediate deregulatory step on AI, while the ground truth indicates that he rescinded an executive order related to AI, which is a significant deregulatory action.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 4,
+      "query": "How will procurement address ideological bias in AI?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "Contract only with frontier LLM developers whose systems are objective and free from top-down ideological bias.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:19.427709",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about addressing ideological bias in AI.",
+      "provider": "deepseek"
+    },
+    {
+      "query_id": 5,
+      "query": "What is the plan’s stance on open-source/open-weight models?",
+      "response": "I don't have enough information to answer this question.",
+      "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+      "evaluation_result": "miss",
+      "evaluation_method": "LLM-as-a-judge",
+      "timestamp": "2025-12-12T15:51:21.827563",
+      "confidence": 0.9,
+      "reasoning": "The White Agent's response expresses uncertainty and does not provide an answer to the question about the plan's stance on open-source/open-weight models.",
+      "provider": "deepseek"
+    }
+  ],
+  "statistics": {
+    "total": 5,
+    "evaluated": 5,
+    "correct": 0,
+    "miss": 4,
+    "hallucination": 1,
+    "timeout": 0,
+    "correct_rate": 0.0,
+    "miss_rate": 80.0,
+    "hallucination_rate": 20.0,
+    "timeout_rate": 0.0,
+    "factuality_rate": 60.0
+  },
+  "method": "LLM-as-a-judge",
+  "white_agent_url": "https://indie-demonstrated-thumbzilla-spoken.trycloudflare.com/to_agent/2e20fce598b448e19ced80b1100b973f",
+  "white_agent_model": "mistralai-mistral-7b-instruct_direct",
+  "queries_file": "data/predefined_queries.json",
+  "timestamp": "20251212_155116",
+  "results_dir": "results/new_white_agent_design/mistralai-mistral-7b-instruct_direct",
+  "llm_judge_provider": "openai/gpt-4o-mini",
+  "llm_judge_model": "openai/gpt-4o-mini"
+}

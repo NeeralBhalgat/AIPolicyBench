@@ -4,8 +4,57 @@
 # White Agents: 6 instances (ports 8011-8016)
 #   - Agents 1-3: Web RAG mode
 #   - Agents 4-6: Direct LLM mode (no RAG)
+#
+# Usage:
+#   ./start_multi_agents_cloudflare.sh          # Create new tunnels
+#   ./start_multi_agents_cloudflare.sh --reuse  # Reuse existing tunnels if available
+#
+# Note: Cloudflare URLs are saved to .cloudflare_urls.env for potential reuse.
+#       Use --reuse flag to attempt reusing saved URLs (if tunnels still active).
 
 set -e
+
+# Show help
+if [ "$1" == "--help" ] || [ "$1" == "-h" ]; then
+    echo "Usage: $0 [OPTIONS]"
+    echo ""
+    echo "Options:"
+    echo "  --reuse       Try to reuse Cloudflare URLs from previous run"
+    echo "                (only works if tunnels are still running)"
+    echo "  --named       Use Cloudflare Named Tunnels for persistent URLs"
+    echo "                (requires: cloudflared tunnel login first)"
+    echo "  --help        Show this help message"
+    echo ""
+    echo "URL Persistence:"
+    echo "  - Quick Tunnels (default): Random URLs, change on each restart"
+    echo "  - Named Tunnels (--named): Fixed URLs, persist across restarts"
+    echo ""
+    echo "To setup Named Tunnels:"
+    echo "  1. cloudflared tunnel login"
+    echo "  2. cloudflared tunnel create aipolicybench"
+    echo "  3. Configure DNS in Cloudflare dashboard"
+    echo "  4. Run: $0 --named"
+    exit 0
+fi
+
+# Check for named tunnel mode
+USE_NAMED_TUNNEL=false
+NAMED_TUNNEL_NAME="aipolicybench"
+
+if [ "$1" == "--named" ]; then
+    USE_NAMED_TUNNEL=true
+    echo "🔒 Using Named Tunnel mode for persistent URLs"
+    
+    # Check if tunnel exists
+    if ! cloudflared tunnel list 2>/dev/null | grep -q "$NAMED_TUNNEL_NAME"; then
+        echo "❌ Named tunnel '$NAMED_TUNNEL_NAME' not found"
+        echo ""
+        echo "Create it with:"
+        echo "  cloudflared tunnel login"
+        echo "  cloudflared tunnel create $NAMED_TUNNEL_NAME"
+        exit 1
+    fi
+fi
 
 PROJECT_ROOT="$PWD"
 GREEN_PORT=8010
@@ -67,9 +116,38 @@ cleanup() {
 trap cleanup INT TERM
 
 # ============================================
-# 1. Start Cloudflare Tunnels
+# 1. Start Cloudflare Tunnels (Reuse if already running)
 # ============================================
+
+# Check if we should reuse existing tunnels
+REUSE_TUNNELS=false
+SAVED_URLS_FILE="$PROJECT_ROOT/.cloudflare_urls.env"
+
+if [ -f "$SAVED_URLS_FILE" ] && [ "$1" == "--reuse" ]; then
+    echo "📡 Attempting to reuse existing Cloudflare tunnels..."
+    source "$SAVED_URLS_FILE"
+    
+    # Verify green tunnel is still alive
+    if [ -n "$SAVED_GREEN_URL" ] && curl -s --max-time 5 "$SAVED_GREEN_URL" > /dev/null 2>&1; then
+        echo "✅ Existing tunnels are still active, reusing URLs"
+        REUSE_TUNNELS=true
+        GREEN_URL="$SAVED_GREEN_URL"
+    else
+        echo "⚠️  Saved tunnels are no longer active, creating new ones..."
+        REUSE_TUNNELS=false
+    fi
+fi
+
+if [ "$REUSE_TUNNELS" == "false" ]; then
 echo "📡 Starting Cloudflare tunnels..."
+    
+    # Kill any existing cloudflared processes for our ports
+    pkill -f "cloudflared tunnel.*localhost:$GREEN_PORT" 2>/dev/null || true
+    for config in "${WHITE_CONFIGS[@]}"; do
+        IFS='|' read -r dir port model use_rag <<< "$config"
+        pkill -f "cloudflared tunnel.*localhost:$port" 2>/dev/null || true
+    done
+    sleep 2
 
 # Green agent tunnel
 cloudflared tunnel --url http://localhost:$GREEN_PORT > /tmp/cf_green.log 2>&1 &
@@ -93,6 +171,11 @@ if [ -z "$GREEN_URL" ]; then
     echo "❌ Failed to get Green Agent URL"
     cat /tmp/cf_green.log
     cleanup
+    fi
+    
+    # Save URLs for potential reuse
+    echo "# Cloudflare URLs - saved at $(date)" > "$SAVED_URLS_FILE"
+    echo "SAVED_GREEN_URL=\"$GREEN_URL\"" >> "$SAVED_URLS_FILE"
 fi
 
 GREEN_DOMAIN=$(echo $GREEN_URL | sed 's/https:\/\///')
@@ -108,10 +191,20 @@ declare -A WHITE_DIRS
 for config in "${WHITE_CONFIGS[@]}"; do
     IFS='|' read -r dir port model use_rag <<< "$config"
 
+    if [ "$REUSE_TUNNELS" == "true" ]; then
+        # Load from saved file
+        saved_var="SAVED_WHITE_URL_$port"
+        url="${!saved_var}"
+    else
+        # Extract from log
     url=$(grep -o 'https://[a-z0-9-]*\.trycloudflare\.com' /tmp/cf_white_$port.log | head -1)
+    fi
+    
     if [ -z "$url" ]; then
         echo "❌ Failed to get White Agent (port $port) URL"
+        if [ -f "/tmp/cf_white_$port.log" ]; then
         cat /tmp/cf_white_$port.log
+        fi
         cleanup
     fi
 
@@ -123,6 +216,11 @@ for config in "${WHITE_CONFIGS[@]}"; do
 
     mode=$([[ "$use_rag" == "true" ]] && echo "Web RAG" || echo "Direct LLM")
     echo "✅ White Agent ($port - $model - $mode): $url"
+    
+    # Save to env file for reuse
+    if [ "$REUSE_TUNNELS" == "false" ]; then
+        echo "SAVED_WHITE_URL_$port=\"$url\"" >> "$SAVED_URLS_FILE"
+    fi
 done
 
 echo ""
@@ -416,6 +514,10 @@ for config in "${WHITE_CONFIGS[@]}"; do
     IFS='|' read -r dir port model use_rag <<< "$config"
     echo "  White Agent ($dir - Port $port): tail -f /tmp/white_agent_$port.log"
 done
+echo ""
+echo "💡 Tip: URLs saved to .cloudflare_urls.env"
+echo "   Next time, use --reuse flag to try reusing these URLs:"
+echo "   ./start_multi_agents_cloudflare.sh --reuse"
 echo ""
 echo "Press Ctrl+C to stop all services"
 echo ""

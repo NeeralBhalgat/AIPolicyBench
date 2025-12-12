@@ -1,0 +1,12 @@
+{
+  "query_id": 1,
+  "query": "What are the three pillars of America’s AI Action Plan?",
+  "response": "The three pillars of America’s AI Action Plan are accelerating innovation, building AI infrastructure, and leading in international diplomacy and security. (Source 1)",
+  "ground_truth": "Innovation, infrastructure, and international diplomacy and security.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:50:06.259916",
+  "confidence": 0.95,
+  "reasoning": "The White Agent's response accurately lists the three pillars of America’s AI Action Plan as innovation, infrastructure, and international diplomacy and security, which matches the ground truth answer.",
+  "provider": "deepseek"
+}

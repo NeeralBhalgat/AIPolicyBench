@@ -1,0 +1,12 @@
+{
+  "query_id": 3,
+  "query": "What immediate deregulatory step did President Trump take on AI?",
+  "response": "President Trump **signed an Executive Order to protect American AI innovation from an inconsistent and costly compliance regime resulting from varying State laws.**",
+  "ground_truth": "He rescinded Biden Executive Order 14110 on AI.",
+  "evaluation_result": "hallucination",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:50:57.208236",
+  "confidence": 0.85,
+  "reasoning": "The White Agent's response incorrectly states that President Trump signed an Executive Order to protect AI innovation, while the ground truth indicates he rescinded Biden's Executive Order 14110 on AI. This misrepresents the action taken.",
+  "provider": "deepseek"
+}

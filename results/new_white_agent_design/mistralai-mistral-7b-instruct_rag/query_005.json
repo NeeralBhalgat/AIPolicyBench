@@ -1,0 +1,12 @@
+{
+  "query_id": 5,
+  "query": "What is the plan’s stance on open-source/open-weight models?",
+  "response": "The NTIA advocates for open-weight AI models, as they allow developers to build upon and adapt previous work, broadening AI tools' availability to small companies. The White House has also backed open AI models in its executive order on AI.",
+  "ground_truth": "They uniquely drive innovation and adoption; the government should support them.",
+  "evaluation_result": "correct",
+  "evaluation_method": "LLM-as-a-judge",
+  "timestamp": "2025-12-12T15:50:14.691296",
+  "confidence": 0.9,
+  "reasoning": "The White Agent's response accurately reflects the NTIA's advocacy for open-weight AI models and aligns with the government's support for such models, which is consistent with the ground truth answer regarding their role in driving innovation and adoption.",
+  "provider": "deepseek"
+}
