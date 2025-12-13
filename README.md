@@ -8,7 +8,7 @@ A benchmark for evaluating RAG agents on AI policy questions. Compares Web Searc
 - **Direct LLM**: Query models directly without retrieval
 - **LLM-as-a-Judge**: GPT-4o-mini evaluates responses against ground truth
 - **Multi-Agent**: Deploy 6 white agents with different models/modes simultaneously
-- **4-Class Evaluation**: Correct ✅ | Miss ⚠️ | Hallucination ❌ | Timeout ⏱️
+- **4-Class Evaluation**: Correct ✅ | Miss ⚠️ | Hallucination ❌
 
 ## Quick Start
 
@@ -55,7 +55,6 @@ python send_eval_task.py
 | Correct | ✅ | Answer matches ground truth | Yes (+) |
 | Miss | ⚠️ | Model says "I don't know" | Yes (+) |
 | Hallucination | ❌ | Confident but wrong | Yes (-) |
-| Timeout | ⏱️ | Response exceeded 95s limit | **No** |
 
 ### Metrics
 
